@@ -1,0 +1,30 @@
+Example #1: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #2: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #3: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #4: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #5: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #6: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #7: (TST-AgR-AIRR-323-89.2014.5.02.0371, Relator Ministro Cláudio Mascarenhas Brandão, 7ª Turma, DEJT 11/02/2016) AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA INTERPOSTO NA VIGÊNCIA DA LEI 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-323-89.2014.5.02.0371', 'entity': 'Jurisprudência'}, {'span': 'Cláudio Mascarenhas Brandão', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '11/02/2016', 'entity': 'Tempo'}, {'span': 'LEI 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #8: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #9: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #10: (REsp 1439024/DF, Rel. Ministro HERMAN BENJAMIN, SEGUNDA TURMA, julgado em 22/11/2016, DJe 30/11/2016).
+Expected output: 'entities: [{'span': 'REsp 1439024/DF', 'entity': 'Jurisprudência'}, {'span': 'HERMAN BENJAMIN', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': '22/11/2016', 'entity': 'Tempo'}, {'span': '30/11/2016', 'entity': 'Tempo'}]'
+

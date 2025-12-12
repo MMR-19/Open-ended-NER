@@ -1,0 +1,30 @@
+Example #1: Her stage credits include Norman Mailer ' s The Deer Park, Israel Horovitz ' s The Indian Wants the Bronx, Neil Simon's The Good Doctor and Joseph Papp ' s 1974 Richard III at the Lincoln Center.
+Expected output: 'entities: [{'span': 'Norman Mailer', 'entity': 'Writer'}, {'span': 'The Deer Park', 'entity': 'Book'}, {'span': 'Israel Horovitz', 'entity': 'Writer'}, {'span': 'The Indian Wants the Bronx', 'entity': 'Book'}, {'span': 'Neil Simon', 'entity': 'Writer'}, {'span': 'The Good Doctor', 'entity': 'Book'}, {'span': 'Joseph Papp', 'entity': 'Person'}, {'span': 'Richard III', 'entity': 'Misc'}, {'span': 'Lincoln Center', 'entity': 'Location'}]'
+
+Example #2: In 2012, Nichols won the Best Direction of a Play Tony Award Award for Arthur Miller ' s Death of a Salesman.
+Expected output: 'entities: [{'span': 'Nichols', 'entity': 'Person'}, {'span': 'Tony Award', 'entity': 'Award'}, {'span': 'Arthur Miller', 'entity': 'Writer'}, {'span': 'Death of a Salesman', 'entity': 'Book'}]'
+
+Example #3: After a 1995 staging at the La Jolla Playhouse, he retained David Mamet to help rework the book before its relaunch on the Chicago Goodman Theatre mainstage in 1996.
+Expected output: 'entities: [{'span': 'La Jolla Playhouse', 'entity': 'Location'}, {'span': 'David Mamet', 'entity': 'Writer'}, {'span': 'Chicago Goodman Theatre', 'entity': 'Location'}]'
+
+Example #4: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #5: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+
+Example #6: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #7: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+
+Example #8: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #9: Fry helped to fund a 1988 London re-staging of Stanshall's Stinkfoot, a Comic Opera, written by Vivian and Ki Longfellow for the Bristol -based The Thekla.
+Expected output: 'entities: [{'span': 'Fry', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Stanshall', 'entity': 'Writer'}, {'span': 'Stinkfoot, a Comic Opera', 'entity': 'Book'}, {'span': 'Vivian', 'entity': 'Writer'}, {'span': 'Ki Longfellow', 'entity': 'Writer'}, {'span': 'Bristol', 'entity': 'Location'}, {'span': 'The Thekla', 'entity': 'Location'}]'
+
+Example #10: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Cuida-se de ação direta de inconstitucionalidade, proposta pela Procuradora-Geral de Justiça do Distrito Federal e Territórios, visando à declaração de inconstitucionalidade das Leis Distritais 747/94 e 2018/98, além da Lei Complementar 380/2001, em face dos artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Leis Distritais 747/94', 'entity': 'Legislação'}, {'span': '2018/98', 'entity': 'Legislação'}, {'span': 'Lei Complementar 380/2001', 'entity': 'Legislação'}, {'span': 'artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF', 'entity': 'Legislação'}]'
+
+Example #2: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #3: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: Por força do § 11 do art. 85 do CPC/15, majora-se a verba honorária imposta à Apelante para 12 % (doze por cento) sobre o valor da causa, mantida a suspensão de exigibilidade do referido encargo.
+Expected output: 'entities: [{'span': '§ 11 do art. 85 do CPC/15', 'entity': 'Jurisprudência'}]'
+
+Example #5: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #6: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #7: (AgInt no REsp 1653624/SP, Rel. Ministro RAUL PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 9 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio Branco-AC - Mod. 500258 - Autos n.º 1002199-81.2017.8.01.0000/50000 ARAÚJO, QUARTA TURMA, julgado em 09/05/2017, DJe 24/05/2017).
+Expected output: 'entities: [{'span': 'AgInt no REsp 1653624/SP', 'entity': 'Jurisprudência'}, {'span': 'RAUL', 'entity': 'Pessoa'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio Branco-AC', 'entity': 'Localização'}, {'span': 'Autos n.º 1002199-81.2017.8.01.0000/50000', 'entity': 'Localização'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '09/05/2017', 'entity': 'Tempo'}, {'span': '24/05/2017', 'entity': 'Tempo'}]'
+
+Example #8: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #9: Conforme precedentes deste Tribunal de Justiça, o Poder Legislativo não pode tomar a iniciativa de elaborar leis para baixar normas que versem sobre alteração de uso de solo no âmbito do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #10: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+

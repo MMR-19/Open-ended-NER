@@ -1,0 +1,30 @@
+Example #1: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #2: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #3: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #4: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #5: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+
+Example #6: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #7: The gaseous outer atmospheres of Jupiter and Saturn transition smoothly into the dense liquid interior, while the nature of the transition zones of Neptune and Uranus is unknown.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #8: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #9: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #10: Hewish has Honorary degrees from six universities including Manchester, Exeter and Cambridge, is a Foreign Member of the Belgian Royal Academy and the American Academy of Arts and Sciences and the Indian National Science Academy.
+Expected output: 'entities: [{'span': 'Hewish', 'entity': 'Scientist'}, {'span': 'Manchester', 'entity': 'University'}, {'span': 'Exeter', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'Belgian Royal Academy', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Indian National Science Academy', 'entity': 'Organisation'}]'
+

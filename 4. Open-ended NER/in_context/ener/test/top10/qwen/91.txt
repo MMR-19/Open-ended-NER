@@ -1,0 +1,30 @@
+Example #1: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #2: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2010 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Executive Officer of the Company, certify that, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #3: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #4: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2011 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Financial Officer of the Company, certify, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #5: Except for the Funds, Audit Committee members shall not serve simultaneously on the audit committees of more than two other public companies.
+Expected output: 'entities: []'
+
+Example #6: In connection with the Quarterly Report of Reach Messaging Holdings, Inc. (the “ Company ”) on Form 10-Q for the period ended March 31, 2011, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, Shane Gau, Chief Executive Officer of the Company, certify to my knowledge and in my capacity as an officer of the Company, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Reach Messaging Holdings, Inc.', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Shane Gau', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #7: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+
+Example #8: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+
+Example #9: The audit committee has approved in advance all audit services and non-audit services that the independent registered public accounting firm provided to each Fund and to the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund).
+Expected output: 'entities: []'
+
+Example #10: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+

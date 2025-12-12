@@ -1,0 +1,30 @@
+Example #1: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #2: The executive committee, which meets between regular meetings of the Board, is authorized to exercise all of the powers of the Board; provided that the scope of the powers of the executive committee, unless otherwise specifically authorized by the full Board, is limited to: (i) emergency matters where assembly of the full Board is impracticable (in which case management will take all reasonable steps to quickly notify each individual Board Member of the actions taken by the executive committee) and (ii) matters of an administrative or ministerial nature.
+Expected output: 'entities: []'
+
+Example #3: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #4: You may vote by mail, telephone or over the Internet.
+Expected output: 'entities: [{'span': 'Internet', 'entity': 'Miscellaneous'}]'
+
+Example #5: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #6: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #7: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #8: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+
+Example #9: The following chart lists each shareholder or group of shareholders who beneficially owned more than 5 % of any class of shares of any Fund *:
+Expected output: 'entities: []'
+
+Example #10: Morgan Securities executed on June 17, 2011, a Consent of Defendant J.P. Morgan Securities (the “ Consent ”), in which J.P. Morgan Securities neither admitted nor denied any of the allegations (except as to personal and subject matter jurisdiction) in a complaint filed by the Commission, but in which it consented to the entry of a final judgment (“ Final Judgment ”) against it by the United States District Court for the Southern District of New York (the “ Court ”).
+Expected output: 'entities: [{'span': 'Morgan Securities', 'entity': 'Business'}, {'span': 'J.P. Morgan Securities', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}]'
+

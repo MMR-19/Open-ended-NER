@@ -1,0 +1,30 @@
+Example #1: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #2: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #3: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #4: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #5: In this same period, such organizations as the Colonial Dames of America, the Mary Ball Washington Memorial Society, Preservation Virginia, United Daughters of the Confederacy, and Sons of Confederate Veterans were also founded.
+Expected output: 'entities: [{'span': 'Colonial Dames of America', 'entity': 'Organisation'}, {'span': 'Mary Ball Washington Memorial Society', 'entity': 'Organisation'}, {'span': 'Preservation Virginia', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}]'
+
+Example #6: Formed by the Social Democratic Party (SDP) and the Liberal Party, the SDP-Liberal Alliance was established in 1981, contesting the 1983 United Kingdom general election, 1984 European Parliament election in the United Kingdom and 1987 United Kingdom general election.
+Expected output: 'entities: [{'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'SDP', 'entity': 'Political Party'}, {'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'SDP-Liberal Alliance', 'entity': 'Political Party'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1984 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #7: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #8: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #9: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #10: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+

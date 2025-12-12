@@ -1,0 +1,30 @@
+Example #1: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #2: O Governador do Distrito Federal presta informações às fls. 27/30, nas quais concorda com o pedido de declaração de inconstitucionalidade das normas objurgadas, em virtude de serem formalmente inconstitucionais.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359 - CLASSE 32 ITAPEVI - SÃO PAULO Relator: Ministro Napoleão Nunes Maia Filho Agravante: Partido da Social Democracia Brasileira (PSDB) - Municipal Advogados: Thiago Tommasi Marinho - OAB: 2720041SP e outro Agravado: Partido Social Democrata Cristão (PSDC) - Municipal Advogado: Eduardo dos Santos Amaral - OAB: 2874551SP ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359', 'entity': 'Jurisprudência'}, {'span': 'ITAPEVI - SÃO PAULO', 'entity': 'Localização'}, {'span': 'Napoleão Nunes Maia Filho', 'entity': 'Pessoa'}, {'span': 'Partido da Social Democracia Brasileira', 'entity': 'Organização'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'Thiago Tommasi Marinho', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Partido Social Democrata Cristão', 'entity': 'Organização'}, {'span': 'PSDC', 'entity': 'Organização'}, {'span': 'Eduardo dos Santos Amaral', 'entity': 'Pessoa'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #4: Recebo a apelação nos termos do art. 1.012 do NCPC.
+Expected output: 'entities: [{'span': 'art. 1.012 do NCPC', 'entity': 'Legislação'}]'
+
+Example #5: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #6: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #7: APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001 - COMARCA DE BELO HORIZONTE - APELANTE (S): REBECCA DE AGUIAR LACERDA REPDO (A) PELO (A) CURADOR (A) SARA GONÇALVES DE AGUIAR - APELADO (A) (S): UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA A C Ó R D Ã O Vistos etc., acorda, em Turma, a 10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais, na conformidade da ata dos julgamentos, em ACOLHER A PRELIMINAR DE NULIDADE DO FEITO ARGUIDA PELO MINISTÉRIO PÚBLICO.
+Expected output: 'entities: [{'span': 'APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001', 'entity': 'Jurisprudência'}, {'span': 'COMARCA DE BELO HORIZONTE', 'entity': 'Localização'}, {'span': 'REBECCA DE AGUIAR LACERDA REPDO', 'entity': 'Pessoa'}, {'span': 'SARA GONÇALVES DE AGUIAR', 'entity': 'Pessoa'}, {'span': 'UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA', 'entity': 'Organização'}, {'span': '10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais', 'entity': 'Organização'}, {'span': 'MINISTÉRIO PÚBLICO', 'entity': 'Organização'}]'
+
+Example #8: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #9: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #10: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+

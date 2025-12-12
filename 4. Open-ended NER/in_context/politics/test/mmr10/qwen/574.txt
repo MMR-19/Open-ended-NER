@@ -1,0 +1,30 @@
+Example #1: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #2: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #3: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #4: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #5: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #6: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #7: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #8: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #9: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #10: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+

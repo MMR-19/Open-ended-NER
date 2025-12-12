@@ -1,0 +1,30 @@
+Example #1: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #2: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #3: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #4: From the 16th century, researchers including Jan Baptist van Helmont, Robert Boyle, and Isaac Newton tried to establish theories of the experimentally observed chemical transformations.
+Expected output: 'entities: [{'span': 'Jan Baptist van Helmont', 'entity': 'Scientist'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #5: The gaseous outer atmospheres of Jupiter and Saturn transition smoothly into the dense liquid interior, while the nature of the transition zones of Neptune and Uranus is unknown.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #6: The outer gas giant planets are Jupiter, Saturn, Uranus, and Neptune.
+Expected output: 'entities: [{'span': 'gas giant', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #7: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #8: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+
+Example #9: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #10: This mechanism is evident on Jupiter and Saturn and on brown dwarf s whose central temperatures are not high enough to undergo nuclear fusion.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+

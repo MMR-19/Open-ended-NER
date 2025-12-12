@@ -1,0 +1,60 @@
+Example #1: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #2: Glyceraldehyde 3-phosphate has also been shown to inhibit the lsr operon through Cyclic adenosine monophosphate -CAPK-mediated inhibition.
+Expected output: 'entities: [{'span': 'Glyceraldehyde 3-phosphate', 'entity': 'Chemical Compound'}, {'span': 'lsr operon', 'entity': 'Misc'}, {'span': 'Cyclic adenosine monophosphate', 'entity': 'Chemical Compound'}]'
+
+Example #3: He described Bleach's portrayal as a halfway house between the original version as played by Michael Wisher and the more exuberant ... turn by Terry Molloy.
+Expected output: 'entities: [{'span': 'Michael Wisher', 'entity': 'Person'}, {'span': 'Terry Molloy', 'entity': 'Person'}]'
+
+Example #4: 6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene (6,7-Dibromonaphthalene-1,4-endoxide, accessible after debromination from 1,2,4,5-Tetrabromobenzene using an equivalent of N-Butyllithium and Diels-Alder reaction in furan in 70 % yield { { cite journal | author = H. Hart, A. Bashir-Hashemi, J. Luo, M. A. Meador | journal = Tetrahedron | title = Iptycenes: Extended Triptycenes | volume = 42 | year = 1986 | page = 1641-1654 | doi = 10.1016 / S0040-4020 (1) 87581-5
+Expected output: 'entities: [{'span': '6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene', 'entity': 'Chemical Compound'}, {'span': '6,7-Dibromonaphthalene-1,4-endoxide', 'entity': 'Chemical Compound'}, {'span': '1,2,4,5-Tetrabromobenzene', 'entity': 'Chemical Compound'}, {'span': 'N-Butyllithium', 'entity': 'Chemical Compound'}, {'span': 'Diels-Alder reaction', 'entity': 'Misc'}, {'span': 'furan', 'entity': 'Chemical Compound'}, {'span': 'H. Hart', 'entity': 'Scientist'}, {'span': 'A. Bashir-Hashemi', 'entity': 'Scientist'}, {'span': 'J. Luo', 'entity': 'Scientist'}, {'span': 'M. A. Meador', 'entity': 'Scientist'}, {'span': 'Tetrahedron', 'entity': 'Academic Journal'}, {'span': 'Iptycenes: Extended Triptycenes', 'entity': 'Misc'}]'
+
+Example #5: On migrating to the blood stream, nitrogen dioxide poisoning results in an irreversible inhibition of the Acetylcholinesterase which may lead to muscular paralysis, convulsions, bronchoconstriction, the narrowing of the airways in the lungs (bronchi and bronchioles) and death by asphyxia tion.
+Expected output: 'entities: [{'span': 'blood stream', 'entity': 'Misc'}, {'span': 'nitrogen dioxide', 'entity': 'Chemical Compound'}, {'span': 'Acetylcholinesterase', 'entity': 'Enzyme'}, {'span': 'muscular paralysis', 'entity': 'Misc'}, {'span': 'convulsions', 'entity': 'Misc'}, {'span': 'bronchoconstriction', 'entity': 'Misc'}, {'span': 'bronchi', 'entity': 'Misc'}, {'span': 'bronchioles', 'entity': 'Misc'}, {'span': 'asphyxia tion', 'entity': 'Misc'}]'
+
+Example #6: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #7: For example, H3K14 and H4K12 acetylation was found to be decreased, as well as general acetylation across histones H2B and Histone H3.
+Expected output: 'entities: [{'span': 'H3K14', 'entity': 'Misc'}, {'span': 'H4K12 acetylation', 'entity': 'Misc'}, {'span': 'acetylation', 'entity': 'Misc'}, {'span': 'histones H2B', 'entity': 'Protein'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #8: Lost was created by Jeffrey Lieber, J. J. Abrams and Damon Lindelof, who share story writing credits for the pilot episode, which Abrams directed.
+Expected output: 'entities: [{'span': 'Lost', 'entity': 'Misc'}, {'span': 'Jeffrey Lieber', 'entity': 'Person'}, {'span': 'J. J. Abrams', 'entity': 'Person'}, {'span': 'Damon Lindelof', 'entity': 'Person'}, {'span': 'pilot episode', 'entity': 'Misc'}, {'span': 'Abrams', 'entity': 'Person'}]'
+
+Example #9: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #10: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #11: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+
+Example #12: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #13: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #14: In 1991, John Preskill and Kip Thorne bet against Stephen Hawking that the hypothesis was FALSE.
+Expected output: 'entities: [{'span': 'John Preskill', 'entity': 'Scientist'}, {'span': 'Kip Thorne', 'entity': 'Scientist'}, {'span': 'Stephen Hawking', 'entity': 'Scientist'}]'
+
+Example #15: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+
+Example #16: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #17: The kinetic isotope effect (KIE) of ribulose-1,5-bisphosphate carboxylase oxygenase (RuBisCO) is the isotopic fractionation associated solely with the step in the Calvin-Benson Cycle where a molecule of carbon dioxide (
+Expected output: 'entities: [{'span': 'kinetic isotope effect', 'entity': 'Misc'}, {'span': 'KIE', 'entity': 'Misc'}, {'span': 'ribulose-1,5-bisphosphate carboxylase oxygenase', 'entity': 'Enzyme'}, {'span': 'RuBisCO', 'entity': 'Enzyme'}, {'span': 'isotopic fractionation', 'entity': 'Misc'}, {'span': 'Calvin-Benson Cycle', 'entity': 'Misc'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}]'
+
+Example #18: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #19: It has one of the six Indian Institute of Management Indore and one of sixteen Indian Institute of Technology Indore.
+Expected output: 'entities: [{'span': 'Indian Institute of Management Indore', 'entity': 'University'}, {'span': 'Indian Institute of Technology Indore', 'entity': 'University'}]'
+
+Example #20: Four COSMIC mutational signatures have been associated with DNA mismatch repair deficiency and found in tumors with microsatellite instability: Signature 6, 15, 20 and 26.
+Expected output: 'entities: [{'span': 'COSMIC', 'entity': 'Misc'}, {'span': 'DNA mismatch repair', 'entity': 'Misc'}]'
+

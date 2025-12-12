@@ -1,0 +1,60 @@
+Example #1: The other side of the road houses several historical buildings and institutions including the M. A. Chidambaram Stadium, the University of Madras, the Presidency College, Vivekananda House, Queen Mary's College, Inspector General of Police Headquarters, All India Radio - Chennai, Dr. Annie Besant Park.
+Expected output: 'entities: [{'span': 'M. A. Chidambaram Stadium', 'entity': 'Location'}, {'span': 'University of Madras', 'entity': 'University'}, {'span': 'Presidency College', 'entity': 'University'}, {'span': 'Vivekananda House', 'entity': 'Location'}, {'span': "Queen Mary's College", 'entity': 'University'}, {'span': 'Inspector General of Police Headquarters', 'entity': 'Organisation'}, {'span': 'All India Radio', 'entity': 'Organisation'}, {'span': 'Chennai', 'entity': 'Location'}, {'span': 'Dr. Annie Besant Park', 'entity': 'Location'}]'
+
+Example #2: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #3: In the 2002 film, this musical number is performed by Catherine Zeta-Jones (as Velma Kelly), Susan Misner (as Liz), Denise Faye (as Annie), Deidre Goodwin (as June), Ekaterina Shchelkanova (as Katalin Helinszki nicknamed the Hunyak) and Mýa (as Mona).
+Expected output: 'entities: [{'span': 'Catherine Zeta-Jones', 'entity': 'Person'}, {'span': 'Velma Kelly', 'entity': 'Person'}, {'span': 'Susan Misner', 'entity': 'Person'}, {'span': 'Liz', 'entity': 'Person'}, {'span': 'Denise Faye', 'entity': 'Person'}, {'span': 'Annie', 'entity': 'Person'}, {'span': 'Deidre Goodwin', 'entity': 'Person'}, {'span': 'June', 'entity': 'Person'}, {'span': 'Ekaterina Shchelkanova', 'entity': 'Person'}, {'span': 'Katalin Helinszki', 'entity': 'Person'}, {'span': 'Hunyak', 'entity': 'Person'}, {'span': 'Mýa', 'entity': 'Person'}, {'span': 'Mona', 'entity': 'Person'}]'
+
+Example #4: In 1931, an expedition led by Hubert Wilkins and Lincoln Ellsworth and partly financed by William Randolph Hearst, attempted to reach the North Pole with a leased US Navy submarine named Nautilus.
+Expected output: 'entities: [{'span': 'Hubert Wilkins', 'entity': 'Person'}, {'span': 'Lincoln Ellsworth', 'entity': 'Person'}, {'span': 'William Randolph Hearst', 'entity': 'Person'}, {'span': 'North Pole', 'entity': 'Location'}, {'span': 'US Navy submarine named Nautilus', 'entity': 'Misc'}]'
+
+Example #5: He has written several invited review articles and book chapters for a number of prestigious journals and books including Chemical Reviews, Accounts of Chemical Research, Angewandte Chemie and the main textbook in the field of circular dichroism, Comprehensive Chiroptical Spectroscopy.
+Expected output: 'entities: [{'span': 'Chemical Reviews', 'entity': 'Academic Journal'}, {'span': 'Accounts of Chemical Research', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'circular dichroism', 'entity': 'Theory'}, {'span': 'Comprehensive Chiroptical Spectroscopy', 'entity': 'Misc'}]'
+
+Example #6: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #7: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #8: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #9: Glyceraldehyde 3-phosphate has also been shown to inhibit the lsr operon through Cyclic adenosine monophosphate -CAPK-mediated inhibition.
+Expected output: 'entities: [{'span': 'Glyceraldehyde 3-phosphate', 'entity': 'Chemical Compound'}, {'span': 'lsr operon', 'entity': 'Misc'}, {'span': 'Cyclic adenosine monophosphate', 'entity': 'Chemical Compound'}]'
+
+Example #10: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #11: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #12: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #13: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #14: The area is also served by two hospitals with Merlin Park University Hospital to the west and the private Galway Clinic to the east of Doughiska.
+Expected output: 'entities: [{'span': 'Merlin Park University Hospital', 'entity': 'Organisation'}, {'span': 'Galway Clinic', 'entity': 'Organisation'}, {'span': 'Doughiska', 'entity': 'Location'}]'
+
+Example #15: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #16: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #17: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #18: Knowles was heavily influenced by the Motown Sound of the 1960s and 1970s prior to the album's recording, prompting her to work with several like-minded producers and songwriters such as Jack Splash, CeeLo Green, Mark Ronson, and former Holland-Dozier-Holland member Lamont Dozier.
+Expected output: 'entities: [{'span': 'Knowles', 'entity': 'Person'}, {'span': 'Motown Sound', 'entity': 'Organisation'}, {'span': 'Jack Splash', 'entity': 'Person'}, {'span': 'CeeLo Green', 'entity': 'Person'}, {'span': 'Mark Ronson', 'entity': 'Person'}, {'span': 'Holland-Dozier-Holland', 'entity': 'Organisation'}, {'span': 'Lamont Dozier', 'entity': 'Person'}]'
+
+Example #19: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #20: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+

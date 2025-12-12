@@ -1,0 +1,30 @@
+Example #1: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #2: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #3: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #4: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #5: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #6: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #7: Sobremais, a apelante anexou à exordial planilha de atualização do débito (p. 35), a qual estabelece de forma detalhada os valores que compõem a pretensão inicial, 1 TJRJ, Agravo de Instrumento n.º 00113878520158190000, Relator: Fernando Cerqueira Chagas, Data de Julgamento: 22/05/2015, Décima Primeira Câmara Cível, Data de Publicação: 26/05/2015; REsp 944.352/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, julgado em 29/11/2007, DJ 07/02/2008.
+Expected output: 'entities: [{'span': 'TJRJ', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento n.º 00113878520158190000', 'entity': 'Jurisprudência'}, {'span': 'Fernando Cerqueira Chagas', 'entity': 'Pessoa'}, {'span': '22/05/2015', 'entity': 'Tempo'}, {'span': 'Décima Primeira Câmara Cível', 'entity': 'Organização'}, {'span': '26/05/2015', 'entity': 'Tempo'}, {'span': 'REsp 944.352/SP', 'entity': 'Jurisprudência'}, {'span': 'Arnaldo Esteves Lima', 'entity': 'Pessoa'}, {'span': 'Quinta Turma', 'entity': 'Organização'}, {'span': '29/11/2007', 'entity': 'Tempo'}, {'span': '07/02/2008', 'entity': 'Tempo'}]'
+
+Example #8: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #9: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+

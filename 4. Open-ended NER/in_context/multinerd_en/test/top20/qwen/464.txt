@@ -1,0 +1,60 @@
+Example #1: He caused controversy in 1988 by what Nicholas Kenyon called " plans to create a high level conservatory … for soloists on the model of the Curtis Institute in Philadelphia ", cutting the academy's total number of students.
+Expected output: 'entities: [{'span': 'Nicholas Kenyon', 'entity': 'Person'}, {'span': 'Curtis Institute', 'entity': 'Organization'}, {'span': 'Philadelphia', 'entity': 'Location'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: Menu items that are generally considered breakfast foods are served in the school's dining hall late at night (hence " midnight ") as a study break before or during final exams, or as a traditional community-building event.
+Expected output: 'entities: [{'span': 'breakfast', 'entity': 'Food'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #4: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #5: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #6: as well as the " Mars Reconnaissance Orbiter " and " MAVEN ", were healthy after the Comet Siding Spring flyby.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrument'}, {'span': 'MAVEN', 'entity': 'Instrument'}, {'span': 'Comet Siding Spring', 'entity': 'Celestial Body'}]'
+
+Example #7: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #8: Chili, scallop with butter, teriyaki, takoyaki, and yakitori chip flavors are also available.
+Expected output: 'entities: [{'span': 'Chili', 'entity': 'Plant'}, {'span': 'scallop', 'entity': 'Animal'}, {'span': 'teriyaki', 'entity': 'Food'}, {'span': 'takoyaki', 'entity': 'Food'}, {'span': 'yakitori', 'entity': 'Food'}]'
+
+Example #9: Sulforaphane, a glucosinolate breakdown product, which may be found in vegetables such as broccoli, has been shown to be protective against prostate cancer, however, much of it is destroyed when the vegetable is boiled.
+Expected output: 'entities: [{'span': 'broccoli', 'entity': 'Plant'}, {'span': 'prostate cancer', 'entity': 'Disease'}]'
+
+Example #10: The transmission is the eight-speed ZF 8HP automatic transmission.
+Expected output: 'entities: [{'span': 'ZF 8HP', 'entity': 'Instrument'}]'
+
+Example #11: Other bacterial species such as " Nitrobacter ", are responsible for the oxidation of the nitrite into nitrate.
+Expected output: 'entities: [{'span': 'Nitrobacter', 'entity': 'Biological entity'}]'
+
+Example #12: The Age of Enlightenment, the subsequent French Revolution and the Napoleonic Wars shaped the continent culturally, politically and economically from the end of the 17th century until the first half of the 19th century.
+Expected output: 'entities: [{'span': 'Age of Enlightenment', 'entity': 'Time'}, {'span': 'French Revolution', 'entity': 'Event'}, {'span': 'Napoleonic Wars', 'entity': 'Event'}]'
+
+Example #13: At our current top speed of, the Helios 2 probe would arrive at the nearest star, Proxima Centauri, in around 18,000 years, much longer than a human lifespan and therefore requiring much faster transportation methods than currently available.
+Expected output: 'entities: [{'span': 'Helios 2', 'entity': 'Vehicle'}, {'span': 'Proxima Centauri', 'entity': 'Celestial Body'}]'
+
+Example #14: Better documented, the bacterium " Pseudomonas aeruginosa " and the fungus " Cladosporium resinae " are commonly detected in aircraft fuel tanks that use kerosene-based fuels (not avgas), and laboratory cultures can degrade aluminium.
+Expected output: 'entities: [{'span': 'Cladosporium', 'entity': 'Biological entity'}]'
+
+Example #15: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #16: Following the Civil War, Reconstruction Era economic expansion led to an increase in logging and deforestation, especially in the southern Adirondacks.
+Expected output: 'entities: [{'span': 'Civil War', 'entity': 'Event'}, {'span': 'Reconstruction Era', 'entity': 'Time'}, {'span': 'Adirondacks', 'entity': 'Location'}]'
+
+Example #17: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #18: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #19: Reissued versions of vintage instruments such as the Fender Precision Bass and Fender Jazz Bass remained popular among new instrument buyers up to the 2010 s.
+Expected output: 'entities: [{'span': 'Fender Precision Bass', 'entity': 'Instrument'}, {'span': 'Fender Jazz Bass', 'entity': 'Media'}]'
+
+Example #20: HIV is among the infections that require such direct contact, and research indicates that there is no risk of HIV transmission via frot.
+Expected output: 'entities: [{'span': 'HIV', 'entity': 'Biological entity'}]'
+

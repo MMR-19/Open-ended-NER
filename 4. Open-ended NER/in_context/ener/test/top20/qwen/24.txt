@@ -1,0 +1,60 @@
+Example #1: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #2: Each Fund will furnish, without charge, a copy of its annual report and/or semi-annual report as available upon request.
+Expected output: 'entities: []'
+
+Example #3: Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.
+Expected output: 'entities: [{'span': 'Chemical Financial', 'entity': 'Business'}, {'span': 'OAK', 'entity': 'Business'}, {'span': 'SEC', 'entity': 'Government'}, {'span': 'Chemical Financial Corporation', 'entity': 'Business'}, {'span': 'East Main Street', 'entity': 'Location'}, {'span': 'Midland', 'entity': 'Location'}, {'span': 'MI', 'entity': 'Location'}, {'span': 'Lori A. Gwizdala', 'entity': 'Person'}, {'span': 'O.A.K. Financial Corporation', 'entity': 'Business'}, {'span': '84th Street, SW', 'entity': 'Location'}, {'span': 'Byron Center', 'entity': 'Location'}, {'span': 'James A. Luyk', 'entity': 'Person'}]'
+
+Example #4: To request a separate copy of an annual report or proxy statement, or for instructions as to how to request a separate copy of such documents or as to how to request a single copy if multiple copies of such documents are received, shareholders should contact the applicable Fund at the address and phone number set forth above.
+Expected output: 'entities: []'
+
+Example #5: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #6: In connection with the Quarterly Report of Reach Messaging Holdings, Inc. (the “ Company ”) on Form 10-Q for the period ended March 31, 2011, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, Shane Gau, Chief Executive Officer of the Company, certify to my knowledge and in my capacity as an officer of the Company, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Reach Messaging Holdings, Inc.', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Shane Gau', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #7: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #8: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2010 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Executive Officer of the Company, certify that, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #9: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #10: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2011 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Financial Officer of the Company, certify, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #11: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #12: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, Dan Kelly, Directors and Chief Financial Officer of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'Dan Kelly', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #13: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+
+Example #14: Annual reports will be sent to shareholders of record of each Fund following each Fund s fiscal year end.
+Expected output: 'entities: []'
+
+Example #15: Please note that only one annual report or proxy statement may be delivered to two or more shareholders of a Fund who share an address, unless the Fund has received instructions to the contrary.
+Expected output: 'entities: []'
+
+Example #16: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #17: Each Fund s proxy statement is available at www.nuveen.com/CEF/Info/Shareholder/Proxy Statements.aspx.
+Expected output: 'entities: []'
+
+Example #18: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #19: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #20: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+

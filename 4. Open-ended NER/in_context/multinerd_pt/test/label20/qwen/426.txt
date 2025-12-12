@@ -1,0 +1,60 @@
+Example #1: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #2: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #3: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #4: Travou contacto com a espiritualidade oriental, a partir de uma viagem à Índia, em 1911, e com a psicologia analítica, por meio de um discípulo de Carl Gustav Jung, em decorrência de uma crise emocional causada pela eclosão da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'Índia', 'entity': 'Localização'}, {'span': '1911', 'entity': 'Tempo'}, {'span': 'Carl Gustav Jung', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #5: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #6: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #7: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #8: Extensamente citada nos Atos dos Apóstolos e nas epístolas paulinas, na cidade de Antioquia é descrita por São Lucas, ele mesmo membro da comunidade, a primeira vez em que os discípulos de Cristo foram chamados cristãos.
+Expected output: 'entities: [{'span': 'Atos dos Apóstolos', 'entity': 'Média'}, {'span': 'Antioquia', 'entity': 'Localização'}, {'span': 'São Lucas', 'entity': 'Entidade mitológica'}, {'span': 'Cristo', 'entity': 'Pessoa'}]'
+
+Example #9: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #11: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #12: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #13: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #14: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #15: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #16: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #17: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #18: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #19: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #20: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+

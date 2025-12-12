@@ -1,0 +1,15 @@
+Example #1: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #2: Augustine was born in the year 354 AD in the municipium of Thagaste (now Souk Ahras, Algeria) in the Roman province of Numidia.
+Expected output: 'entities: [{'span': 'Augustine', 'entity': 'Person'}, {'span': 'Thagaste', 'entity': 'Location'}, {'span': 'Souk Ahras', 'entity': 'Location'}, {'span': 'Algeria', 'entity': 'Country'}, {'span': 'Roman province of Numidia', 'entity': 'Location'}]'
+
+Example #3: To Dolapdere, he sarcastically gave the name Cholera (Kolera in Turkish) in Ağır Roman, thereby recalling both its shabbiness and the fact that the great Poland poet Adam Mickiewicz died there from the cholera in 1855.
+Expected output: 'entities: [{'span': 'Dolapdere', 'entity': 'Location'}, {'span': 'Cholera', 'entity': 'Misc'}, {'span': 'Kolera', 'entity': 'Misc'}, {'span': 'Turkish', 'entity': 'Misc'}, {'span': 'Ağır Roman', 'entity': 'Book'}, {'span': 'Poland', 'entity': 'Country'}, {'span': 'Adam Mickiewicz', 'entity': 'Writer'}, {'span': 'cholera', 'entity': 'Misc'}]'
+
+Example #4: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+
+Example #5: Another Gruelle family friends was Hoosier poet James Whitcomb Riley, whose poems The Elf-Child, later titled Little Orphant Annie! -- Orphant is correct -- not the comic strip-- (1885), and The Raggedy Man (1888), eventually formed the name for John Gruelle's iconic Raggedy Ann character.
+Expected output: 'entities: [{'span': 'Gruelle', 'entity': 'Person'}, {'span': 'Hoosier poet', 'entity': 'Writer'}, {'span': 'James Whitcomb Riley', 'entity': 'Writer'}, {'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'The Elf-Child', 'entity': 'Poem'}, {'span': 'Little Orphant Annie', 'entity': 'Poem'}, {'span': 'The Raggedy Man', 'entity': 'Poem'}, {'span': 'John Gruelle', 'entity': 'Person'}, {'span': 'Raggedy Ann', 'entity': 'Misc'}]'
+

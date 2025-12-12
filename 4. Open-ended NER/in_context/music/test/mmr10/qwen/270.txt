@@ -1,0 +1,30 @@
+Example #1: The mid 2000s, especially the United Kingdom and the rest of Europe, saw the continued longevity of nineties boy bands such as Backstreet Boys and Westlife (before they disbanded in 2012), and the successful comeback of Take That in 2005, Boyzone in 2007, and New Kids on the Block in 2008.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'Westlife', 'entity': 'Band'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Boyzone', 'entity': 'Band'}, {'span': 'New Kids on the Block', 'entity': 'Band'}]'
+
+Example #2: International who's who in popular music, Volume 4 p.37. Routledge, 2002 The band was renamed Rocket Baby Dolls and adopted a Gothic rock - Glam rock image.
+Expected output: 'entities: [{'span': 'popular music', 'entity': 'Music Genre'}, {'span': 'Rocket Baby Dolls', 'entity': 'Band'}, {'span': 'Gothic rock', 'entity': 'Music Genre'}, {'span': 'Glam rock', 'entity': 'Music Genre'}]'
+
+Example #3: In 2018, Buckingham was fired from the band and was replaced by Mike Campbell, formerly of Tom Petty and the Heartbreakers, and Neil Finn of Split Enz and Crowded House.
+Expected output: 'entities: [{'span': 'Buckingham', 'entity': 'Musical Artist'}, {'span': 'Mike Campbell', 'entity': 'Musical Artist'}, {'span': 'Tom Petty and the Heartbreakers', 'entity': 'Band'}, {'span': 'Neil Finn', 'entity': 'Musical Artist'}, {'span': 'Split Enz', 'entity': 'Band'}, {'span': 'Crowded House', 'entity': 'Band'}]'
+
+Example #4: In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Gloriana, Thompson Square, Eli Young Band, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.
+Expected output: 'entities: [{'span': 'Lady Antebellum', 'entity': 'Band'}, {'span': 'Herrick', 'entity': 'Band'}, {'span': 'The Quebe Sisters Band', 'entity': 'Band'}, {'span': 'Little Big Town', 'entity': 'Band'}, {'span': 'The Band Perry', 'entity': 'Band'}, {'span': 'Gloriana', 'entity': 'Band'}, {'span': 'Thompson Square', 'entity': 'Band'}, {'span': 'Eli Young Band', 'entity': 'Band'}, {'span': 'Zac Brown Band', 'entity': 'Band'}, {'span': 'British duo', 'entity': 'Misc'}, {'span': 'The Shires', 'entity': 'Band'}, {'span': 'country', 'entity': 'Music Genre'}, {'span': 'Kacey Musgraves', 'entity': 'Musical Artist'}, {'span': 'Miranda Lambert', 'entity': 'Musical Artist'}]'
+
+Example #5: In addition to relentless touring in the U.S. and Canada, PUSA made multiple tours of Europe, Australia, New Zealand and Japan.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Canada', 'entity': 'Country'}, {'span': 'PUSA', 'entity': 'Band'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Australia', 'entity': 'Country'}, {'span': 'New Zealand', 'entity': 'Country'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #6: Michael won various music awards including two Grammy Award s, three Brit Awards, three American Music Award s, four MTV Video Music Award s and six Ivor Novello Awards.
+Expected output: 'entities: [{'span': 'Michael', 'entity': 'Musical Artist'}, {'span': 'Grammy Award s', 'entity': 'Award'}, {'span': 'Brit Awards', 'entity': 'Award'}, {'span': 'American Music Award s', 'entity': 'Award'}, {'span': 'MTV Video Music Award s', 'entity': 'Award'}, {'span': 'Ivor Novello Awards', 'entity': 'Award'}]'
+
+Example #7: However, some bands were created around the talent of a songwriter within the group like Gary Barlow of Take That or Tony Mortimer of East 17.
+Expected output: 'entities: [{'span': 'Gary Barlow', 'entity': 'Musical Artist'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Tony Mortimer', 'entity': 'Musical Artist'}, {'span': 'East 17', 'entity': 'Band'}]'
+
+Example #8: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #9: Depeche Mode contributed their cover of the U2 song So Cruel to the tribute album AHK-toong BAY-bi Covered honouring the 20th anniversary of Achtung Baby, a 1991 album by U2.
+Expected output: 'entities: [{'span': 'Depeche', 'entity': 'Band'}, {'span': 'U2', 'entity': 'Band'}, {'span': 'So Cruel', 'entity': 'Song'}, {'span': 'AHK-toong BAY-bi Covered', 'entity': 'Album'}, {'span': 'Achtung Baby', 'entity': 'Album'}]'
+
+Example #10: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+

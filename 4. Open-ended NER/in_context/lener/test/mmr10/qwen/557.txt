@@ -1,0 +1,30 @@
+Example #1: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #3: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #4: Diante da sucumbência recíproca, condeno as partes ao pagamento, na proporção de 70 % para o réu e 30 % para o autor, das custas processuais e honorários advocatícios, os quais arbitro em 15 % sobre o valor da condenação (art. 85, §2º CPC).
+Expected output: 'entities: [{'span': 'art. 85, §2º CPC', 'entity': 'Legislação'}]'
+
+Example #5: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #6: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #7: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #8: SÚMULAS 5 E 7 DO STJ.
+Expected output: 'entities: [{'span': 'SÚMULAS 5 E 7 DO STJ', 'entity': 'Jurisprudência'}]'
+
+Example #9: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #10: (RE 437642 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. ELLEN GRACIE, Órgão Julgador: Segunda Turma, DJe de 3/9/2010) TRIBUTÁRIO.
+Expected output: 'entities: [{'span': 'RE 437642 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'ELLEN GRACIE', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '3/9/2010', 'entity': 'Tempo'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #2: Robert P. Bremner, Jack B. Evans, David J. Kundert, Chair, William J. Schneider and Terence J. Toth are current members of the audit committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #3: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #4: All shareholders are cordially invited to attend the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #5: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #6: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #7: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #8: It is the intention of the persons named in the enclosed proxy to vote the shares represented thereby for the election of the nominees listed in the table below unless the proxy is marked otherwise.
+Expected output: 'entities: []'
+
+Example #9: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #10: Shareholders of record at the close of business on February 8, 2010 are entitled to notice of and to vote at the Annual Meeting.
+Expected output: 'entities: []'
+

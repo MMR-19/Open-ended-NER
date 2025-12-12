@@ -1,0 +1,15 @@
+Example #1: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #2: There are Lord Edward Streets named in his honour in many places in Ireland, such as Dublin, Limerick, Sligo, Kilkenny, Ballina, Ballymote, and Ballycullenbeg in County Laois.
+Expected output: 'entities: [{'span': 'Lord Edward Streets', 'entity': 'Location'}, {'span': 'Ireland', 'entity': 'Country'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}, {'span': 'Sligo', 'entity': 'Location'}, {'span': 'Kilkenny', 'entity': 'Location'}, {'span': 'Ballina', 'entity': 'Location'}, {'span': 'Ballymote', 'entity': 'Location'}, {'span': 'Ballycullenbeg', 'entity': 'Location'}, {'span': 'County Laois', 'entity': 'Location'}]'
+
+Example #3: In 1981, there were riots in London ' s Brixton, Birmingham ' s Handsworth, Leeds ' Chapeltown, Liverpool ' s Toxteth and Manchester ' s Moss Side.
+Expected output: 'entities: [{'span': 'London', 'entity': 'Location'}, {'span': 'Brixton', 'entity': 'Location'}, {'span': 'Birmingham', 'entity': 'Location'}, {'span': 'Handsworth', 'entity': 'Location'}, {'span': 'Leeds', 'entity': 'Location'}, {'span': 'Chapeltown', 'entity': 'Location'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Toxteth', 'entity': 'Location'}, {'span': 'Manchester', 'entity': 'Location'}, {'span': 'Moss Side', 'entity': 'Location'}]'
+
+Example #4: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #5: In the weeks leading up to the 1852 United States presidential election, he campaigned in numerous Southern states for Democratic candidates Franklin Pierce and William R. King.
+Expected output: 'entities: [{'span': '1852 United States presidential election', 'entity': 'Election'}, {'span': 'Franklin Pierce', 'entity': 'Politician'}, {'span': 'William R. King', 'entity': 'Politician'}]'
+

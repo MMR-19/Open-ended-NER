@@ -1,0 +1,60 @@
+Example #1: The inspectors of election will treat abstentions and broker non-votes (i.e., shares held by brokers or nominees, typically in street name, as to which (i) instructions have not been received from the beneficial owners or persons entitled to vote and (ii) the broker or nominee does not have discretionary voting power on a particular matter) as present for purposes of determining a quorum.
+Expected output: 'entities: []'
+
+Example #2: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #3: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #4: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #5: To the Shareholders of the Above Funds:
+Expected output: 'entities: []'
+
+Example #6: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #7: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #8: For purposes of determining the approval of the proposal to elect nominees for each Fund, abstentions and broker non-votes will have no effect on the election of Board Members.
+Expected output: 'entities: []'
+
+Example #9: IF YOU CAN NOT BE PRESENT AT THE MEETING, YOU ARE REQUESTED TO FILL IN, SIGN AND RETURN THE ENCLOSED PROXY PROMPTLY.
+Expected output: 'entities: []'
+
+Example #10: In connection with the Quarterly Report of Reach Messaging Holdings, Inc. (the “ Company ”) on Form 10-Q for the period ended March 31, 2011, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, Shane Gau, Chief Executive Officer of the Company, certify to my knowledge and in my capacity as an officer of the Company, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Reach Messaging Holdings, Inc.', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Shane Gau', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #11: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+
+Example #12: Please note that only one annual report or proxy statement may be delivered to two or more shareholders of a Fund who share an address, unless the Fund has received instructions to the contrary.
+Expected output: 'entities: []'
+
+Example #13: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #14: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #15: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+
+Example #16: For the purpose of meeting the 30 % test, abstentions will be treated as shares voted and, for the purpose of meeting the 10 % test, abstentions will not be treated as shares voted against the item.
+Expected output: 'entities: []'
+
+Example #17: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #18: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #19: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #20: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+

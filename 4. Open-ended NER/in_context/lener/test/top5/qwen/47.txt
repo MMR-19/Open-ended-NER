@@ -1,0 +1,15 @@
+Example #1: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #2: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #3: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: Ressalte-se que o art. 103, item III, do Regimento Interno deste egrégio Tribunal de Justiça, legitima o Procurador-Geral de Justiça do Distrito Federal e Territórios à proposição da presente Ação Direta de Inconstitucionalidade.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Cuida-se de ação direta de inconstitucionalidade, proposta pela Procuradora-Geral de Justiça do Distrito Federal e Territórios, visando à declaração de inconstitucionalidade das Leis Distritais 747/94 e 2018/98, além da Lei Complementar 380/2001, em face dos artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Leis Distritais 747/94', 'entity': 'Legislação'}, {'span': '2018/98', 'entity': 'Legislação'}, {'span': 'Lei Complementar 380/2001', 'entity': 'Legislação'}, {'span': 'artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF', 'entity': 'Legislação'}]'
+

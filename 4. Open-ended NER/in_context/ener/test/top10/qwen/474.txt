@@ -1,0 +1,30 @@
+Example #1: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #2: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #3: To the Shareholders of the Above Funds:
+Expected output: 'entities: []'
+
+Example #4: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #5: Shareholders of a Fund who execute proxies may revoke them at any time before they are voted by filing with that Fund a written notice of revocation, by delivering a duly executed proxy bearing a later date, or by attending the Annual Meeting and voting in person.
+Expected output: 'entities: []'
+
+Example #6: Audit Committee members shall be independent of the Funds and free of any relationship that, in the opinion of the Directors/Trustees, would interfere with their exercise of independent judgment as an Audit Committee member.
+Expected output: 'entities: []'
+
+Example #7: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #8: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #9: The committee operates under a written charter adopted and approved by the Boards of each Fund, a copy of which is available on the Funds website at www.nuveen.com/CEF/Info/Shareholder/.
+Expected output: 'entities: []'
+
+Example #10: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+

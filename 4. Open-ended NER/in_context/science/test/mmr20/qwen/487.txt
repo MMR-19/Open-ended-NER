@@ -1,0 +1,60 @@
+Example #1: He was awarded honorary degree from the University of Cambridge in Cambridge, UK, and the Copley Medal of the Royal Society in 1906.
+Expected output: 'entities: [{'span': 'University of Cambridge', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'Location'}, {'span': 'UK', 'entity': 'Country'}, {'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #2: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+
+Example #3: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #4: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #5: One of the first significant contributions of Maheswari was the discovery of RNA polymerase activity in chloroplasts which he accomplished during his early stint at California Institute of Technology while working with Robert S. Bandurski and their researches revealed the presence of DNA in organelle.
+Expected output: 'entities: [{'span': 'Maheswari', 'entity': 'Scientist'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'chloroplasts', 'entity': 'Misc'}, {'span': 'California Institute of Technology', 'entity': 'University'}, {'span': 'Robert S. Bandurski', 'entity': 'Scientist'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'organelle', 'entity': 'Misc'}]'
+
+Example #6: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #7: This discovery, which earned him the Copley Medal of the Royal Society in 1825, was followed by another, that a rotating plate of copper tends to communicate its motion to a magnetic needle suspended over it, which he called magnetism of rotation Annales de chimie et de physique (1824), vol.
+Expected output: 'entities: [{'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}, {'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'magnetism of rotation', 'entity': 'Misc'}, {'span': 'Annales de chimie et de physique', 'entity': 'Academic Journal'}]'
+
+Example #8: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #9: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #10: Prominent anatomists and geologists such as Georges Cuvier, Richard Owen, Adam Sedgwick, and Charles Lyell attacked it vigorously.
+Expected output: 'entities: [{'span': 'Georges Cuvier', 'entity': 'Scientist'}, {'span': 'Richard Owen', 'entity': 'Scientist'}, {'span': 'Adam Sedgwick', 'entity': 'Scientist'}, {'span': 'Charles Lyell', 'entity': 'Scientist'}]'
+
+Example #11: Since the middle of the 20th century, the region has come to play host to numerous international sports and entertainment festivals, such as the Lisbon & amp; Estoril Film Festival (in Estoril), the 4 Hours of Estoril endurance race (in Cascais), and NOS Alive music festival (in Algés).
+Expected output: 'entities: [{'span': 'international sports', 'entity': 'Misc'}, {'span': 'entertainment festivals', 'entity': 'Misc'}, {'span': 'Lisbon & amp; Estoril Film Festival', 'entity': 'Event'}, {'span': 'Estoril', 'entity': 'Location'}, {'span': '4 Hours of Estoril endurance race', 'entity': 'Event'}, {'span': 'Cascais', 'entity': 'Location'}, {'span': 'NOS Alive music festival', 'entity': 'Event'}, {'span': 'Algés', 'entity': 'Location'}]'
+
+Example #12: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #13: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #14: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #15: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #16: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #17: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #18: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #19: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #20: Eigen received his Ph.D. at the University of Göttingen in 1951 under supervision of Arnold Eucken.
+Expected output: 'entities: [{'span': 'Eigen', 'entity': 'Scientist'}, {'span': 'University of Göttingen', 'entity': 'University'}, {'span': 'Arnold Eucken', 'entity': 'Scientist'}]'
+

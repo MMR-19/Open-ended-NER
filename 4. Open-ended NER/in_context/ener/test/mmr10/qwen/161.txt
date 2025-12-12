@@ -1,0 +1,30 @@
+Example #1: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #2: We have acted as special counsel to Regency Energy Partners LP, a Delaware limited partnership (the Partnership), Regency Energy Finance Corp., a Delaware corporation (Regency Finance and, together with the Partnership, the Issuers), and the entities listed on Schedule I hereto (collectively, the Guarantors), in connection with the filing on the date hereof with the Securities and Exchange Commission (the Commission) of Post-Effective Amendment No. 1 (the Amendment) to the registration statement on Form S-3 (File No. 333-169901) (the Registration Statement) under the Securities Act of 1933, as amended (the Act).
+Expected output: 'entities: [{'span': 'Regency Energy Partners LP', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'Regency Energy Finance Corp.', 'entity': 'Business'}, {'span': 'Regency Finance', 'entity': 'Business'}, {'span': 'Schedule I', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}]'
+
+Example #3: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #4: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #5: This Information Statement has been filed with the Securities and Exchange Commission and is being furnished, pursuant to Section 14C of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), to the holders (the “ Stockholders ”) of the common stock, par value $ .0001 per share (the “ Common Stock ”), of Comcam, Inc., a Delaware Corporation (the “ Company ”), to notify such Stockholders that on or about March 5, 2010, the Company received written consents in lieu of a meeting of Stockholders from holders of 683,952,500 shares representing approximately 91 % of the 744,640,134 shares of the total issued and outstanding shares of voting stock of the Company (the “ Majority Stockholders ”) to authorize 1-for-85 reverse stock split (pro-rata reduction of outstanding shares) of our issued and outstanding shares of Common Stock (the “ Reverse Stock Split ”).
+Expected output: 'entities: [{'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Comcam, Inc.', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}]'
+
+Example #6: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #7: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #8: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #9: The audit committee has approved in advance all audit services and non-audit services that the independent registered public accounting firm provided to each Fund and to the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund).
+Expected output: 'entities: []'
+
+Example #10: The Corporation shall indemnify any person who was or is a party or is threatened to be made a party to any threatened, pending or completed action or suit by or in the right of the Corporation to procure a judgment in its favor by reason of the fact that such person is or was a director, officer, employee or agent of the Corporation, or is or was serving at the request of the Corporation as a director, officer, employee or agent of another corporation, partnership, joint venture, trust or other enterprise against expenses (including attorneys ’ fees) actually and reasonably incurred by such person in connection with the defense or settlement of such action or suit if such person acted in good faith and in a manner such person reasonably believed to be in or not opposed to the best interests of the Corporation and except that no indemnification shall be made in respect of any claim, issue or matter as to which such person shall have been adjudged to be liable to the Corporation unless and only to the extent that the Court of Chancery of the State of Delaware or the court in which such action or suit was brought shall determine upon application that, despite the adjudication of liability, but in view of all the circumstances of the case, such person is fairly and reasonably entitled to indemnity for such expenses which the Court of Chancery or such other court shall deem proper.
+Expected output: 'entities: [{'span': 'Court of Chancery of the State of Delaware', 'entity': 'Court'}, {'span': 'Court of Chancery', 'entity': 'Court'}]'
+

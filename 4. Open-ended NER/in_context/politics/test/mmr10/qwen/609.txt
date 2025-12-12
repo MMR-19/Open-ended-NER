@@ -1,0 +1,30 @@
+Example #1: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #2: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #3: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #4: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #5: The Soviet Politburo decisions were guided by a Special Commission on Afghanistan, which consisted of Yuri Andropov the KGB chairman, Andrei Gromyko the Minister of Foreign Affairs, Defence Minister Dmitriy Ustinov, and Boris Ponomarev, the head of the International Department of the Central Committee.
+Expected output: 'entities: [{'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Politburo', 'entity': 'Misc'}, {'span': 'Afghanistan', 'entity': 'Country'}, {'span': 'Yuri Andropov', 'entity': 'Politician'}, {'span': 'KGB', 'entity': 'Organisation'}, {'span': 'Andrei Gromyko', 'entity': 'Politician'}, {'span': 'Dmitriy Ustinov', 'entity': 'Politician'}, {'span': 'Boris Ponomarev', 'entity': 'Politician'}, {'span': 'International Department of the Central Committee', 'entity': 'Organisation'}]'
+
+Example #6: Johnson ran for governor three times: in 1947 Mississippi gubernatorial election, 1951 Mississippi gubernatorial election, and 1955 Mississippi gubernatorial election, but was unsuccessful.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': '1947 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1951 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1955 Mississippi gubernatorial election', 'entity': 'Election'}]'
+
+Example #7: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #8: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #9: Inukai was a leading figure in the successors to the Rikken Kaishintō, the Shimpotō, Kenseitō and the Rikken Kokumintō, which eventually toppled the government of Katsura Tarō in 1913.
+Expected output: 'entities: [{'span': 'Inukai', 'entity': 'Politician'}, {'span': 'Rikken Kaishintō', 'entity': 'Political Party'}, {'span': 'Shimpotō', 'entity': 'Political Party'}, {'span': 'Kenseitō', 'entity': 'Political Party'}, {'span': 'Rikken Kokumintō', 'entity': 'Political Party'}, {'span': 'Katsura Tarō', 'entity': 'Politician'}]'
+
+Example #10: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+

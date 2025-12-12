@@ -1,0 +1,60 @@
+Example #1: Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) que se serve com pirão e farinha de mandioca, peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e / ou na folha de bananeira, peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros.
+Expected output: 'entities: [{'span': 'pirão', 'entity': 'Comida'}, {'span': 'farinha de mandioca', 'entity': 'Comida'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'bananeira', 'entity': 'Planta'}, {'span': 'tainha', 'entity': 'Animal'}]'
+
+Example #2: Nesta fase, os olímpicos não eram os únicos deuses que os gregos adoravam: existiam uma variedade de divindades rupestres, como o deus-bode Pã, o deus da natureza e florestas, as ninfas - náiades (que moravam nas nascentes), dríades (espíritos das árvores) e as nereidas (que habitavam o mar) -, deuses de rios, sátiros, meio homem, meio bode, e outras divindades que residiam em florestas, bosques e mares.
+Expected output: 'entities: [{'span': 'Pã', 'entity': 'Entidade mitológica'}]'
+
+Example #3: Segundo a teoria, a primeira relação de endossimbiose se estabeleceu pela associação entre uma Arquea e uma Alfa-proteobacteria, que foi interiorizada.
+Expected output: 'entities: [{'span': 'Arquea', 'entity': 'Entidade biológica'}]'
+
+Example #4: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #5: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #6: Também inspirou uma canção de sucesso, " Wuthering Heights ", composta e interpretada por Kate Bush para o álbum " The Kick Inside ", de 1978, e posteriormente regravada pela banda Angra, em seu álbum " Angels Cry ", de 1993.
+Expected output: 'entities: [{'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'The Kick Inside', 'entity': 'Média'}, {'span': '1978', 'entity': 'Tempo'}, {'span': 'Angra', 'entity': 'Organização'}, {'span': 'Angels Cry', 'entity': 'Média'}, {'span': '1993', 'entity': 'Tempo'}]'
+
+Example #7: Foi só quando as sondas Pioneer 10 e Pioneer 11 chegaram a Júpiter em 1973 e em 1974, respectivamente, que se conseguiu obter as primeiras imagens mais detalhadas das grandes luas de Júpiter.
+Expected output: 'entities: [{'span': 'Pioneer 10', 'entity': 'Instrumento'}, {'span': 'Pioneer 11', 'entity': 'Instrumento'}, {'span': 'Júpiter', 'entity': 'Corpo celeste'}, {'span': '1973', 'entity': 'Tempo'}, {'span': '1974', 'entity': 'Tempo'}]'
+
+Example #8: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #9: O mesmo possui uma magnitude absoluta de 5,6 e, tem um diâmetro estimado de cerca de 158 km, por isso existem poucas chances que possa ser classificado como um planeta anão, devido ao seu tamanho relativamente pequeno.
+Expected output: 'entities: [{'span': 'planeta anão', 'entity': 'Corpo celeste'}]'
+
+Example #10: Noutras receitas, começa-se por refogar alho, cebola, cenoura e aipo em azeite e junta-se o grão com a água de cozer, que também pode ser caldo de galinha; podem ainda juntar-se ovos cozidos e peixe frito da véspera.
+Expected output: 'entities: [{'span': 'refogar', 'entity': 'Comida'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'cenoura', 'entity': 'Planta'}, {'span': 'azeite', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}]'
+
+Example #11: Sua introdução em 1973 foi decisiva, pois as vendas do Volkswagen Fusca estavam caindo, e os outros modelos maiores de tração traseira como o 411 e 412 não estavam se saindo bem no mercado.
+Expected output: 'entities: [{'span': 'Volkswagen Fusca', 'entity': 'Veículo'}]'
+
+Example #12: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #13: No entanto, dentro do 747 vítima do ataque, o pesadelo ainda não tinha acabado, pois o único piloto que ainda estava vivo foi morto pelas cobras e estas tomaram conta da cabine de comando.
+Expected output: 'entities: [{'span': '747', 'entity': 'Veículo'}]'
+
+Example #14: O mais representativo prato típico do estado é o açaí acompanhado de farinha de mandioca e alguma proteína, como peixes, camarão regional, frango ou carne vermelha.
+Expected output: 'entities: [{'span': 'açaí', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'carne vermelha', 'entity': 'Comida'}]'
+
+Example #15: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #16: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #17: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #18: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #19: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #20: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+

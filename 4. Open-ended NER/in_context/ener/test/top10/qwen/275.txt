@@ -1,0 +1,30 @@
+Example #1: IPOs On October 1, 2003, the Commission filed a complaint (the “ IPO Complaint ”) against J.P. Morgan Securities Inc. (predecessor to JPMS, “ JPMSI ”) in the United States District Court for the District of Columbia (the “ D.C. District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'IPO Complaint', 'entity': 'Miscellaneous'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}, {'span': 'JPMS', 'entity': 'Business'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'United States District Court for the District of Columbia', 'entity': 'Court'}, {'span': 'D.C. District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #2: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #3: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #4: Enron On July 28, 2003, the Commission filed a complaint (the “ Enron Complaint ”) against JPMC in the United States District Court for the Southern District of Texas (the “ Texas District Court ”) in a civil action captioned Securities and Exchange Commission v. JPMorgan Chase & Co.
+Expected output: 'entities: [{'span': 'Enron', 'entity': 'Business'}, {'span': 'Enron Complaint', 'entity': 'Miscellaneous'}, {'span': 'JPMC', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of Texas', 'entity': 'Court'}, {'span': 'Texas District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'JPMorgan Chase & Co.', 'entity': 'Business'}]'
+
+Example #5: Since the filing of the Connecticut complaint, other complaints were filed in different U.S. District Courts challenging the setting of interchange, as well the associations respective rules.
+Expected output: 'entities: [{'span': 'U.S. District Courts', 'entity': 'Court'}]'
+
+Example #6: Morgan Securities executed on June 17, 2011, a Consent of Defendant J.P. Morgan Securities (the “ Consent ”), in which J.P. Morgan Securities neither admitted nor denied any of the allegations (except as to personal and subject matter jurisdiction) in a complaint filed by the Commission, but in which it consented to the entry of a final judgment (“ Final Judgment ”) against it by the United States District Court for the Southern District of New York (the “ Court ”).
+Expected output: 'entities: [{'span': 'Morgan Securities', 'entity': 'Business'}, {'span': 'J.P. Morgan Securities', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}]'
+
+Example #7: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #8: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #9: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #10: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+

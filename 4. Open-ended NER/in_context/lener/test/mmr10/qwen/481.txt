@@ -1,0 +1,30 @@
+Example #1: No aspecto, é de se ver que as leis impugnadas, de autoria de Deputados Distritais, padecem do vício de iniciativa, por não ser de competência do Poder Legislativo local a iniciativa de projetos de lei que disponham sobre a ocupação e o uso do solo em todo o território do Distrito Federal, bem como aqueles que objetivam desafetar área pública ou alterar significativamente a destinação de uso dessas áreas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #2: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #3: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #4: Mérito Quanto ao mérito, a publicação em site oficial da prefeitura do Município de Paraíba do Sul/RJ, em período vedado, da criação e execução de programa de governo local, sugerindo ser o primeiro recorrente, na qualidade de chefe do Poder Executivo, `` mais competente do que os seus adversários '' (fl. 129), não se enquadra nas exceções previstas no ad. 73, VI, b, da Lei das Eleições.
+Expected output: 'entities: [{'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': 'ad. 73, VI, b, da Lei das Eleições', 'entity': 'Legislação'}]'
+
+Example #5: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: O CPC/2015 também não admite a alteração da causa de pedir, ainda que com consentimento do réu, após o saneamento do processo (art. 329, II).
+Expected output: 'entities: [{'span': 'CPC/2015', 'entity': 'Legislação'}]'
+
+Example #7: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #8: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #9: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #10: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #2: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #3: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #4: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #5: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #6: E assim como todas as espécies do gênero " Lactarius ", o fungo forma micorrizas, uma associação simbiótica mutuamente benéfica com vários tipos de árvores.
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #7: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+
+Example #8: No início do século XX, as principais exportações foram café, cacau, gado, açúcar, tabaco, batata doce, couros bovinos e borracha.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'cacau', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'açúcar', 'entity': 'Comida'}, {'span': 'tabaco', 'entity': 'Planta'}]'
+
+Example #9: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #10: Encontra-se a menos de 5 " km do centro da cidade, oferecendo infraestrutura para a operação de aeronaves de médio porte como Boeings 737 e Fokker 100 s.
+Expected output: 'entities: [{'span': 'Boeings 737', 'entity': 'Veículo'}, {'span': 'Fokker 100', 'entity': 'Veículo'}]'
+

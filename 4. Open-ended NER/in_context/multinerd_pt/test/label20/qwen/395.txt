@@ -1,0 +1,60 @@
+Example #1: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #2: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #3: Mais recentemente, o Telescópio Espacial Hubble detectou que essa atmosfera era composta de oxigénio, tal como a atmosfera encontrada em Europa.
+Expected output: 'entities: [{'span': 'Telescópio Espacial Hubble', 'entity': 'Instrumento'}, {'span': 'Europa', 'entity': 'Corpo celeste'}]'
+
+Example #4: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #5: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #6: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #7: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #8: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #9: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #10: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #11: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #12: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #13: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #14: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #15: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #16: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #17: Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII Corporation, empresa japonesa que era representante da Microsoft no Japão até 1986.
+Expected output: 'entities: [{'span': 'Kazuhiko Nishi', 'entity': 'Pessoa'}, {'span': 'ASCII Corporation', 'entity': 'Organização'}, {'span': 'Microsoft', 'entity': 'Organização'}, {'span': 'Japão', 'entity': 'Localização'}, {'span': '1986', 'entity': 'Tempo'}]'
+
+Example #18: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+
+Example #19: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+
+Example #20: Montado sobre o eixo estão pequenas asas estabilizadoras - os " ruddevators " visíveis na figura, com um formato " V " - ou alternativamente quatro superfícies, similares à montagem feita no jato da Segunda Guerra Mundial Heinkel He 162.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Heinkel He 162', 'entity': 'Veículo'}]'
+

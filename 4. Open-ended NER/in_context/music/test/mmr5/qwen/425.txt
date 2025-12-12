@@ -1,0 +1,15 @@
+Example #1: He has won numerous accolades for his work, including an Academy Award for Best Adapted Screenplay, a Student Academy Award, a BAFTA Award for Best Adapted Screenplay, two Emmy Awards, two Peabody Award s, and the Cannes Grand Prix.
+Expected output: 'entities: [{'span': 'Academy Award for Best Adapted Screenplay', 'entity': 'Award'}, {'span': 'Student Academy Award', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Adapted Screenplay', 'entity': 'Award'}, {'span': 'Emmy Awards', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Cannes Grand Prix', 'entity': 'Award'}]'
+
+Example #2: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #3: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #4: Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award -winning singles Spoonman and Black Hole Sun.
+Expected output: 'entities: [{'span': 'Soundgarden', 'entity': 'Band'}, {'span': 'Superunknown', 'entity': 'Album'}, {'span': 'Billboard 200', 'entity': 'Misc'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Spoonman', 'entity': 'Song'}, {'span': 'Black Hole Sun', 'entity': 'Song'}]'
+
+Example #5: Despite this, The Godfather Part III went on to gather 7 Academy Awards nominations, including Academy Award for Best Director and Academy Award for Best Picture.
+Expected output: 'entities: [{'span': 'The Godfather Part III', 'entity': 'Misc'}, {'span': 'Academy Awards', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Academy Award for Best Picture', 'entity': 'Award'}]'
+

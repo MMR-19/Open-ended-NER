@@ -1,0 +1,60 @@
+Example #1: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #2: Robert P. Bremner, Jack B. Evans, David J. Kundert, Chair, William J. Schneider and Terence J. Toth are current members of the audit committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #3: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #4: All shareholders are cordially invited to attend the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #5: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #6: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #7: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #8: It is the intention of the persons named in the enclosed proxy to vote the shares represented thereby for the election of the nominees listed in the table below unless the proxy is marked otherwise.
+Expected output: 'entities: []'
+
+Example #9: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #10: Shareholders of record at the close of business on February 8, 2010 are entitled to notice of and to vote at the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #11: Those persons who were shareholders of record at the close of business on Monday, February 8, 2010 will be entitled to one vote for each share held and a proportionate fractional vote for each fractional vote held.
+Expected output: 'entities: []'
+
+Example #12: To request a separate copy of an annual report or proxy statement, or for instructions as to how to request a separate copy of such documents or as to how to request a single copy if multiple copies of such documents are received, shareholders should contact the applicable Fund at the address and phone number set forth above.
+Expected output: 'entities: []'
+
+Example #13: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #14: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #15: If the communication is intended for a specific Board Member and so indicates it will be sent only to that Board Member.
+Expected output: 'entities: []'
+
+Example #16: The Board unanimously recommends that shareholders vote FOR the election of the nominees.
+Expected output: 'entities: []'
+
+Example #17: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #18: A representative of each independent registered public accounting firm will be present at the Annual Meetings to make a statement, if such representative so desires, and to respond to shareholders questions.
+Expected output: 'entities: []'
+
+Example #19: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #20: IF YOU CAN NOT BE PRESENT AT THE MEETING, YOU ARE REQUESTED TO FILL IN, SIGN AND RETURN THE ENCLOSED PROXY PROMPTLY.
+Expected output: 'entities: []'
+

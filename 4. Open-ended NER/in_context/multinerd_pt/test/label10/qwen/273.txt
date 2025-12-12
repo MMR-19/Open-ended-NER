@@ -1,0 +1,30 @@
+Example #1: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #2: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #3: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #4: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #5: Noutras receitas, começa-se por refogar alho, cebola, cenoura e aipo em azeite e junta-se o grão com a água de cozer, que também pode ser caldo de galinha; podem ainda juntar-se ovos cozidos e peixe frito da véspera.
+Expected output: 'entities: [{'span': 'refogar', 'entity': 'Comida'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'cenoura', 'entity': 'Planta'}, {'span': 'azeite', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}]'
+
+Example #6: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #7: No início do século XX, as principais exportações foram café, cacau, gado, açúcar, tabaco, batata doce, couros bovinos e borracha.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'cacau', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'açúcar', 'entity': 'Comida'}, {'span': 'tabaco', 'entity': 'Planta'}]'
+
+Example #8: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #9: Seus símbolos incluem a murta, o golfinho, o pombo, o cisne, a rosa, a romã, limeira, pérolas e joias.
+Expected output: 'entities: [{'span': 'murta', 'entity': 'Planta'}, {'span': 'golfinho', 'entity': 'Animal'}, {'span': 'cisne', 'entity': 'Animal'}, {'span': 'rosa', 'entity': 'Planta'}, {'span': 'romã', 'entity': 'Planta'}, {'span': 'limeira', 'entity': 'Comida'}]'
+
+Example #10: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+

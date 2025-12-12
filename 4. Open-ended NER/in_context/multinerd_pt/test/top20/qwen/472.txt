@@ -1,0 +1,60 @@
+Example #1: Encontra-se a menos de 5 " km do centro da cidade, oferecendo infraestrutura para a operação de aeronaves de médio porte como Boeings 737 e Fokker 100 s.
+Expected output: 'entities: [{'span': 'Boeings 737', 'entity': 'Veículo'}, {'span': 'Fokker 100', 'entity': 'Veículo'}]'
+
+Example #2: O avião foi desenvolvido juntamente com o Boeing 757, que atuaria em rotas nacionais e internacionais curtas.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #3: O Hughes H-4 Hercules é a aeronave de maior envergadura até hoje construída, porém apenas efectuou um único voo durante a sua existência.
+Expected output: 'entities: [{'span': 'Hughes H-4 Hercules', 'entity': 'Veículo'}]'
+
+Example #4: A companhia aérea aposentou seu último Boeing 747 (JA8089) em 1º de março de 2011.
+Expected output: 'entities: [{'span': 'Boeing 747', 'entity': 'Veículo'}]'
+
+Example #5: A aeronave contava com uma turbina SNECMA Atar 09 C e um exaustor variável de pétalas, mais aberto.
+Expected output: 'entities: [{'span': 'SNECMA Atar 09 C', 'entity': 'Instrumento'}]'
+
+Example #6: pelo novo Airbus A320.
+Expected output: 'entities: [{'span': 'Airbus A320', 'entity': 'Veículo'}]'
+
+Example #7: Entre eles estão o fuzil AK-47 e o caça MiG-29.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}, {'span': 'MiG-29', 'entity': 'Veículo'}]'
+
+Example #8: Entre eles estão o fuzil AK-47 e o caça MiG-29.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}, {'span': 'MiG-29', 'entity': 'Veículo'}]'
+
+Example #9: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #10: Os portos de ancoragem foram reforçados para acomodar módulos de 20 toneladas baseadas na TKS.
+Expected output: 'entities: [{'span': 'TKS', 'entity': 'Veículo'}]'
+
+Example #11: Montado sobre o eixo estão pequenas asas estabilizadoras - os " ruddevators " visíveis na figura, com um formato " V " - ou alternativamente quatro superfícies, similares à montagem feita no jato da Segunda Guerra Mundial Heinkel He 162.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Heinkel He 162', 'entity': 'Veículo'}]'
+
+Example #12: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #13: No entanto, dentro do 747 vítima do ataque, o pesadelo ainda não tinha acabado, pois o único piloto que ainda estava vivo foi morto pelas cobras e estas tomaram conta da cabine de comando.
+Expected output: 'entities: [{'span': '747', 'entity': 'Veículo'}]'
+
+Example #14: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #15: O ônibus espacial lançou e posicionou vários satélites na órbita da Terra, além de lançar, posicionar e realizar manutenções e reparos no Hubble, um dos maiores e mais bem sucedidos telescópios espaciais já criados.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Hubble', 'entity': 'Instrumento'}]'
+
+Example #16: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+
+Example #17: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #18: A fim de melhorar o desempenho de uma nova fuselagem aerodinâmica, juntamente com um alongamento do rotor de cauda, porém o rotor principal e o sistema de transmissão do R-4 foram mantidos.
+Expected output: 'entities: [{'span': 'R-4', 'entity': 'Veículo'}]'
+
+Example #19: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #20: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+

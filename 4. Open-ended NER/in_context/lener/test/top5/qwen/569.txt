@@ -1,0 +1,15 @@
+Example #1: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #2: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #3: (REsp 1439024/DF, Rel. Ministro HERMAN BENJAMIN, SEGUNDA TURMA, julgado em 22/11/2016, DJe 30/11/2016).
+Expected output: 'entities: [{'span': 'REsp 1439024/DF', 'entity': 'Jurisprudência'}, {'span': 'HERMAN BENJAMIN', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': '22/11/2016', 'entity': 'Tempo'}, {'span': '30/11/2016', 'entity': 'Tempo'}]'
+
+Example #4: A cláusula penal compensatória deve atender ao princípio da razoabilidade, devendo ser redimensionada pelo magistrado, nos termos do art. 413 do CPC, a fim de afastar o ganho injustificado de uma das partes contratantes em prejuízo da outra.
+Expected output: 'entities: [{'span': 'art. 413 do CPC', 'entity': 'Legislação'}]'
+
+Example #5: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+

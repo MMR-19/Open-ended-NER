@@ -1,0 +1,60 @@
+Example #1: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #2: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #3: For example, when there is a mistake in base pairing, DNA mismatch repair has a bias favoring GC pairs.
+Expected output: 'entities: [{'span': 'DNA mismatch repair', 'entity': 'Misc'}, {'span': 'GC pairs', 'entity': 'Misc'}]'
+
+Example #4: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #5: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #6: One of the first significant contributions of Maheswari was the discovery of RNA polymerase activity in chloroplasts which he accomplished during his early stint at California Institute of Technology while working with Robert S. Bandurski and their researches revealed the presence of DNA in organelle.
+Expected output: 'entities: [{'span': 'Maheswari', 'entity': 'Scientist'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'chloroplasts', 'entity': 'Misc'}, {'span': 'California Institute of Technology', 'entity': 'University'}, {'span': 'Robert S. Bandurski', 'entity': 'Scientist'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'organelle', 'entity': 'Misc'}]'
+
+Example #7: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #8: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #9: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #10: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #11: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #12: It has one of the six Indian Institute of Management Indore and one of sixteen Indian Institute of Technology Indore.
+Expected output: 'entities: [{'span': 'Indian Institute of Management Indore', 'entity': 'University'}, {'span': 'Indian Institute of Technology Indore', 'entity': 'University'}]'
+
+Example #13: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #14: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #15: From 1916 to 1921, he was a lecturer in the physics department of the Rajabazar Science College under University of Calcutta.
+Expected output: 'entities: [{'span': 'physics department of the Rajabazar Science College', 'entity': 'Organisation'}, {'span': 'University of Calcutta', 'entity': 'University'}]'
+
+Example #16: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #17: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #18: He was awarded honorary degree from the University of Cambridge in Cambridge, UK, and the Copley Medal of the Royal Society in 1906.
+Expected output: 'entities: [{'span': 'University of Cambridge', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'Location'}, {'span': 'UK', 'entity': 'Country'}, {'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #19: 6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene (6,7-Dibromonaphthalene-1,4-endoxide, accessible after debromination from 1,2,4,5-Tetrabromobenzene using an equivalent of N-Butyllithium and Diels-Alder reaction in furan in 70 % yield { { cite journal | author = H. Hart, A. Bashir-Hashemi, J. Luo, M. A. Meador | journal = Tetrahedron | title = Iptycenes: Extended Triptycenes | volume = 42 | year = 1986 | page = 1641-1654 | doi = 10.1016 / S0040-4020 (1) 87581-5
+Expected output: 'entities: [{'span': '6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene', 'entity': 'Chemical Compound'}, {'span': '6,7-Dibromonaphthalene-1,4-endoxide', 'entity': 'Chemical Compound'}, {'span': '1,2,4,5-Tetrabromobenzene', 'entity': 'Chemical Compound'}, {'span': 'N-Butyllithium', 'entity': 'Chemical Compound'}, {'span': 'Diels-Alder reaction', 'entity': 'Misc'}, {'span': 'furan', 'entity': 'Chemical Compound'}, {'span': 'H. Hart', 'entity': 'Scientist'}, {'span': 'A. Bashir-Hashemi', 'entity': 'Scientist'}, {'span': 'J. Luo', 'entity': 'Scientist'}, {'span': 'M. A. Meador', 'entity': 'Scientist'}, {'span': 'Tetrahedron', 'entity': 'Academic Journal'}, {'span': 'Iptycenes: Extended Triptycenes', 'entity': 'Misc'}]'
+
+Example #20: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+

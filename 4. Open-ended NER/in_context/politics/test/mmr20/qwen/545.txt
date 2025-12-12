@@ -1,0 +1,60 @@
+Example #1: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #2: Jeddah, Medina and Dubai are the major focus city for the airline, with flights from Islamabad, Karachi, Lahore, Peshawar, Multan, Sialkot and Faisalabad.
+Expected output: 'entities: [{'span': 'Jeddah', 'entity': 'Location'}, {'span': 'Medina', 'entity': 'Location'}, {'span': 'Dubai', 'entity': 'Location'}, {'span': 'Islamabad', 'entity': 'Location'}, {'span': 'Karachi', 'entity': 'Location'}, {'span': 'Lahore', 'entity': 'Location'}, {'span': 'Peshawar', 'entity': 'Location'}, {'span': 'Multan', 'entity': 'Location'}, {'span': 'Sialkot', 'entity': 'Location'}, {'span': 'Faisalabad', 'entity': 'Location'}]'
+
+Example #3: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #4: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #5: Gandhian right-wing Congressmen Vallabhbhai Patel, Rajendra Prasad and C. Rajagopalachari .In the 1930s the Congress Socialist Party group was formed within the INC under the leadership of Jayaprakash Narayan, Narendra Deo and Nehru, however, never joined the group but did act as bridge between them and Gandhi.
+Expected output: 'entities: [{'span': 'Gandhian', 'entity': 'Politician'}, {'span': 'Vallabhbhai Patel', 'entity': 'Politician'}, {'span': 'Rajendra Prasad', 'entity': 'Politician'}, {'span': 'C. Rajagopalachari', 'entity': 'Politician'}, {'span': 'Congress Socialist Party', 'entity': 'Political Party'}, {'span': 'INC', 'entity': 'Misc'}, {'span': 'Jayaprakash Narayan', 'entity': 'Politician'}, {'span': 'Narendra Deo', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Gandhi', 'entity': 'Politician'}]'
+
+Example #6: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #7: Though most other Texas Republicans supported Ronald Reagan in the 1968 Republican Party presidential primaries, Bush endorsed Richard Nixon, who went on to win the party's nomination.
+Expected output: 'entities: [{'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': '1968 Republican Party presidential primaries', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}]'
+
+Example #8: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #9: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #10: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #11: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #12: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #13: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #14: This tends to lead to the chamber being dominated by two major parties, the Liberal Party of Australia / National Party of Australia Coalition and the Australian Labor Party.
+Expected output: 'entities: [{'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}]'
+
+Example #15: Despite losses for the SPD, the Red-Green coalition government commanded a very slight majority in the Bundestag and was renewed, with Joschka Fischer as foreign minister, Renate Künast as minister for consumer protection, nutrition and agriculture, and Jürgen Trittin as minister for the environment.
+Expected output: 'entities: [{'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Red-Green coalition', 'entity': 'Political Party'}, {'span': 'Bundestag', 'entity': 'Organisation'}, {'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #16: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #17: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #18: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+
+Example #19: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #20: During the last four years of the Second Polish Republic, the major politicians included President Ignacy Mościcki, Foreign Minister Józef Beck and the Commander-in-Chief of the Polish Army, Edward Rydz-Śmigły.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': 'Ignacy Mościcki', 'entity': 'Politician'}, {'span': 'Józef Beck', 'entity': 'Politician'}, {'span': 'Polish Army', 'entity': 'Misc'}, {'span': 'Edward Rydz-Śmigły', 'entity': 'Politician'}]'
+

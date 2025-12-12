@@ -1,0 +1,60 @@
+Example #1: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #2: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #3: He gained further international attention as the chief leader of the Non-Aligned Movement, alongside Jawaharlal Nehru of India, Gamal Abdel Nasser of Egypt, and Kwame Nkrumah of Ghana.
+Expected output: 'entities: [{'span': 'Non-Aligned Movement', 'entity': 'Organisation'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}]'
+
+Example #4: Its continued use by the Southern Army's post-war veterans groups, the United Confederate Veterans (U.C.V.) and the later Sons of Confederate Veterans, (S.C.V.), and elements of the design by related similar female descendants organizations of the United Daughters of the Confederacy, (U.D.C.), led to the assumption that it was, as it has been termed, the soldier's flag or the Confederate battle flag.
+Expected output: 'entities: [{'span': 'Southern Army', 'entity': 'Organisation'}, {'span': 'United Confederate Veterans', 'entity': 'Organisation'}, {'span': 'U.C.V.', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}, {'span': 'S.C.V.', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'U.D.C.', 'entity': 'Organisation'}]'
+
+Example #5: Roosevelt was James M. Cox ' s running mate on the Democratic Party's 1920 United States presidential election national ticket, but Cox was defeated by Republican Warren G. Harding.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'James M. Cox', 'entity': 'Politician'}, {'span': 'Democratic Party', 'entity': 'Political Party'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': 'Cox', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': 'Warren G. Harding', 'entity': 'Politician'}]'
+
+Example #6: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #7: Following Genscher's resignation, Chancellor Helmut Kohl and FDP chairman Otto Graf Lambsdorff named Irmgard Schwaetzer, a former aide to Genscher, to be the new Foreign Minister.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'Otto Graf Lambsdorff', 'entity': 'Politician'}, {'span': 'Irmgard Schwaetzer', 'entity': 'Politician'}]'
+
+Example #8: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #9: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #10: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #11: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #12: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+
+Example #13: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #14: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+
+Example #15: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #16: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #17: During the last four years of the Second Polish Republic, the major politicians included President Ignacy Mościcki, Foreign Minister Józef Beck and the Commander-in-Chief of the Polish Army, Edward Rydz-Śmigły.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': 'Ignacy Mościcki', 'entity': 'Politician'}, {'span': 'Józef Beck', 'entity': 'Politician'}, {'span': 'Polish Army', 'entity': 'Misc'}, {'span': 'Edward Rydz-Śmigły', 'entity': 'Politician'}]'
+
+Example #18: The Italian Socialist Party, led by Bettino Craxi, became more and more critical of the communists and of the Soviet Union; Craxi himself pushed in favor of Ronald Reagan ' s positioning of Pershing II missiles in Italy, a move many communists strongly disapproved of.
+Expected output: 'entities: [{'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Bettino Craxi', 'entity': 'Politician'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Craxi', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'Pershing II', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}]'
+
+Example #19: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+
+Example #20: Assisted by his top aide Harry Hopkins and with very strong national support, he worked closely with British Prime Minister Winston Churchill, Soviet leader Joseph Stalin and Chinese Generalissimo Chiang Kai-shek in leading the Allied Powers against the Axis Powers.
+Expected output: 'entities: [{'span': 'Harry Hopkins', 'entity': 'Politician'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Chinese', 'entity': 'Misc'}, {'span': 'Chiang Kai-shek', 'entity': 'Politician'}, {'span': 'Allied Powers', 'entity': 'Organisation'}, {'span': 'Axis Powers', 'entity': 'Organisation'}]'
+

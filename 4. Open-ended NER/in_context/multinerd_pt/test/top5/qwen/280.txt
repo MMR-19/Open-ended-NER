@@ -1,0 +1,15 @@
+Example #1: No início do século XX, as principais exportações foram café, cacau, gado, açúcar, tabaco, batata doce, couros bovinos e borracha.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'cacau', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'açúcar', 'entity': 'Comida'}, {'span': 'tabaco', 'entity': 'Planta'}]'
+
+Example #2: Seus principais produtos são borracha e rum da cana-de-açúcar, além de banana, amendoim, camarão e sal.
+Expected output: 'entities: [{'span': 'rum', 'entity': 'Comida'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'banana', 'entity': 'Planta'}, {'span': 'amendoim', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #3: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #4: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #5: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+

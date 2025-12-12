@@ -1,0 +1,60 @@
+Example #1: Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII Corporation, empresa japonesa que era representante da Microsoft no Japão até 1986.
+Expected output: 'entities: [{'span': 'Kazuhiko Nishi', 'entity': 'Pessoa'}, {'span': 'ASCII Corporation', 'entity': 'Organização'}, {'span': 'Microsoft', 'entity': 'Organização'}, {'span': 'Japão', 'entity': 'Localização'}, {'span': '1986', 'entity': 'Tempo'}]'
+
+Example #2: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #3: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #4: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #5: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #6: Descoberto pela sonda " Voyager 2 " em 1989, tomou o nome de Proteu, o deus do mar que mudava de forma na mitologia grega.
+Expected output: 'entities: [{'span': 'Voyager 2', 'entity': 'Instrumento'}, {'span': 'Proteu', 'entity': 'Entidade mitológica'}]'
+
+Example #7: Descoberto pela sonda " Voyager 2 " em 1989, tomou o nome de Proteu, o deus do mar que mudava de forma na mitologia grega.
+Expected output: 'entities: [{'span': 'Voyager 2', 'entity': 'Instrumento'}, {'span': 'Proteu', 'entity': 'Entidade mitológica'}]'
+
+Example #8: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #9: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #10: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #11: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #12: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+
+Example #13: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #14: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #15: No entanto, dentro do 747 vítima do ataque, o pesadelo ainda não tinha acabado, pois o único piloto que ainda estava vivo foi morto pelas cobras e estas tomaram conta da cabine de comando.
+Expected output: 'entities: [{'span': '747', 'entity': 'Veículo'}]'
+
+Example #16: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #17: Ele foi colocado por Zeus entre as estrelas na forma da constelação de Orion.
+Expected output: 'entities: [{'span': 'Zeus', 'entity': 'Entidade mitológica'}, {'span': 'constelação de Orion', 'entity': 'Corpo celeste'}]'
+
+Example #18: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #19: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #20: Três dias depois, marcou seu primeiro gol, também dando uma assistência de Sergio Agüero numa goleada por 5 a 0 sobre o Steaua Bucureşti, da Romênia, em partida válida pelos playoffs da Liga dos Campeões.
+Expected output: 'entities: [{'span': 'Sergio Agüero', 'entity': 'Pessoa'}, {'span': 'Steaua Bucureşti', 'entity': 'Organização'}, {'span': 'Romênia', 'entity': 'Localização'}, {'span': 'Liga dos Campeões', 'entity': 'Evento'}]'
+

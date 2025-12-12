@@ -1,0 +1,30 @@
+Example #1: He was research assistant to Richard Harrison at the Royal London Hospital, then worked with J. D. H. Slater at the Middlesex Hospital from 1973 to 1974 and with A. Grabham at Kettering General Hospital for a year, before being appointed as assistant lecturer and honorary senior house orderly registrar in the School of Pathology at Middlesex Hospital Medical School (1975 to 1976).
+Expected output: 'entities: [{'span': 'Richard Harrison', 'entity': 'Person'}, {'span': 'Royal London Hospital', 'entity': 'Organisation'}, {'span': 'J. D. H. Slater', 'entity': 'Person'}, {'span': 'Middlesex Hospital', 'entity': 'Organisation'}, {'span': 'A. Grabham', 'entity': 'Person'}, {'span': 'Kettering General Hospital', 'entity': 'Organisation'}, {'span': 'the School of Pathology at Middlesex Hospital Medical School', 'entity': 'Organisation'}]'
+
+Example #2: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #3: Comparisons were frequently drawn between the second cyclotron at the Harvard Cyclotron Laboratory and the Harwell Synchrocyclotron, and in 1974 clinicians from Oxford ' s Radcliffe Infirmary led by Dr T Hockaday floated plans to replicate the proton therapy work carried out at Massachusetts General Hospital with the accelerator.
+Expected output: 'entities: [{'span': 'Harvard Cyclotron Laboratory', 'entity': 'Organisation'}, {'span': 'Harwell Synchrocyclotron', 'entity': 'Misc'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Radcliffe Infirmary', 'entity': 'Location'}, {'span': 'T Hockaday', 'entity': 'Scientist'}, {'span': 'Massachusetts General Hospital', 'entity': 'Organisation'}]'
+
+Example #4: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+
+Example #5: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #6: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #7: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #8: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #9: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #10: Two pairs of fathers and sons have won Nobel Prizes in other fields: Hans von Euler-Chelpin (chemistry, 1929) and Ulf von Euler (medicine, 1970); and Arthur Kornberg (medicine, 1969) and Roger D. Kornberg (chemistry, 2006).
+Expected output: 'entities: [{'span': 'Nobel Prizes', 'entity': 'Award'}, {'span': 'Hans von Euler-Chelpin', 'entity': 'Scientist'}, {'span': 'chemistry', 'entity': 'Discipline'}, {'span': 'Ulf von Euler', 'entity': 'Scientist'}, {'span': 'medicine', 'entity': 'Discipline'}, {'span': 'Arthur Kornberg', 'entity': 'Scientist'}, {'span': 'Roger D. Kornberg', 'entity': 'Scientist'}]'
+

@@ -1,0 +1,60 @@
+Example #1: `` (RR - 10258-45.2013.5.04.0271 Data de Julgamento: 20/05/2015, Rel. Desembargador Convocado: Cláudio Armando Couce de Menezes, 2ª Turma, DEJT 29/05/2015) Nesse contexto, o Tribunal Regional, ao adotar o entendimento de que devida a aplicação da multa do artigo 467 da CLT, aparentemente, violou o artigo 467 da CLT.
+Expected output: 'entities: [{'span': 'RR - 10258-45.2013.5.04.0271', 'entity': 'Jurisprudência'}, {'span': '20/05/2015', 'entity': 'Tempo'}, {'span': 'Cláudio Armando Couce de Menezes', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '29/05/2015', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #2: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #3: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #4: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #5: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #6: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #7: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #8: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #9: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #10: ), quantia impugnada pelo apelante, com base na Súmula 474 do STJ.
+Expected output: 'entities: [{'span': 'Súmula 474 do STJ', 'entity': 'Jurisprudência'}]'
+
+Example #11: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #12: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #13: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #14: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #15: APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001 - COMARCA DE BELO HORIZONTE - APELANTE (S): REBECCA DE AGUIAR LACERDA REPDO (A) PELO (A) CURADOR (A) SARA GONÇALVES DE AGUIAR - APELADO (A) (S): UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA A C Ó R D Ã O Vistos etc., acorda, em Turma, a 10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais, na conformidade da ata dos julgamentos, em ACOLHER A PRELIMINAR DE NULIDADE DO FEITO ARGUIDA PELO MINISTÉRIO PÚBLICO.
+Expected output: 'entities: [{'span': 'APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001', 'entity': 'Jurisprudência'}, {'span': 'COMARCA DE BELO HORIZONTE', 'entity': 'Localização'}, {'span': 'REBECCA DE AGUIAR LACERDA REPDO', 'entity': 'Pessoa'}, {'span': 'SARA GONÇALVES DE AGUIAR', 'entity': 'Pessoa'}, {'span': 'UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA', 'entity': 'Organização'}, {'span': '10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais', 'entity': 'Organização'}, {'span': 'MINISTÉRIO PÚBLICO', 'entity': 'Organização'}]'
+
+Example #16: Recebo a apelação nos termos do art. 1.012 do NCPC.
+Expected output: 'entities: [{'span': 'art. 1.012 do NCPC', 'entity': 'Legislação'}]'
+
+Example #17: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #18: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #19: A cláusula penal compensatória deve atender ao princípio da razoabilidade, devendo ser redimensionada pelo magistrado, nos termos do art. 413 do CPC, a fim de afastar o ganho injustificado de uma das partes contratantes em prejuízo da outra.
+Expected output: 'entities: [{'span': 'art. 413 do CPC', 'entity': 'Legislação'}]'
+
+Example #20: Ou seja, além do dispositivo se referir apenas a obras e serviços de engenharia (§ 1º do art. 48 da Lei 8.666/1993), portanto, inaplicável ao objeto do Pregão Eletrônico 25/2016, houve erro grosseiro no cálculo realizado, uma vez que, segundo o critério invocado, todas as propostas inferiores a R $ 3.855.600,00 (70 % do valor estimado) deveriam ter sido consideradas inexequíveis.
+Expected output: 'entities: [{'span': '§ 1º do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+

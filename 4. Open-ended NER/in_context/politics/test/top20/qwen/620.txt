@@ -1,0 +1,60 @@
+Example #1: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+
+Example #2: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+
+Example #3: His wartime leadership established him as Madison's heir apparent, and he easily defeated Federalist Party candidate Rufus King in the 1816 United States presidential election.
+Expected output: 'entities: [{'span': 'Madison', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}, {'span': 'Rufus King', 'entity': 'Politician'}, {'span': '1816 United States presidential election', 'entity': 'Election'}]'
+
+Example #4: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #5: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #6: Beginning as a private secretary and assistant to Abraham Lincoln, Hay's highest office was United States Secretary of State under Presidents William McKinley and Theodore Roosevelt.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Hay', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}]'
+
+Example #7: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #8: Roosevelt was James M. Cox ' s running mate on the Democratic Party's 1920 United States presidential election national ticket, but Cox was defeated by Republican Warren G. Harding.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'James M. Cox', 'entity': 'Politician'}, {'span': 'Democratic Party', 'entity': 'Political Party'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': 'Cox', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': 'Warren G. Harding', 'entity': 'Politician'}]'
+
+Example #9: The Republicans gained the upper hand in the campaign, as Cleveland's campaign was poorly managed by Calvin S. Brice and William H. Barnum, whereas Harrison had engaged more aggressive fundraisers and tacticians in Matthew Quay and John Wanamaker.
+Expected output: 'entities: [{'span': 'Republicans', 'entity': 'Misc'}, {'span': 'Calvin S. Brice', 'entity': 'Politician'}, {'span': 'William H. Barnum', 'entity': 'Politician'}, {'span': 'Matthew Quay', 'entity': 'Politician'}, {'span': 'John Wanamaker', 'entity': 'Politician'}]'
+
+Example #10: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+
+Example #11: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #12: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #13: Assisted by his top aide Harry Hopkins and with very strong national support, he worked closely with British Prime Minister Winston Churchill, Soviet leader Joseph Stalin and Chinese Generalissimo Chiang Kai-shek in leading the Allied Powers against the Axis Powers.
+Expected output: 'entities: [{'span': 'Harry Hopkins', 'entity': 'Politician'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Chinese', 'entity': 'Misc'}, {'span': 'Chiang Kai-shek', 'entity': 'Politician'}, {'span': 'Allied Powers', 'entity': 'Organisation'}, {'span': 'Axis Powers', 'entity': 'Organisation'}]'
+
+Example #14: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #15: His arguments concerning liberty and the social contract later influenced the written works of Alexander Hamilton, James Madison, Thomas Jefferson, and other Founding Fathers of the United States.
+Expected output: 'entities: [{'span': 'liberty', 'entity': 'Political Party'}, {'span': 'Alexander Hamilton', 'entity': 'Politician'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #16: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #17: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #18: Johnson unsuccessfully sought the Republican presidential nomination in 1920 United States presidential election and 1924 United States presidential election and supported Democrat Franklin D. Roosevelt in the 1932 United States presidential election.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': '1924 United States presidential election', 'entity': 'Election'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': '1932 United States presidential election', 'entity': 'Election'}]'
+
+Example #19: During the last four years of the Second Polish Republic, the major politicians included President Ignacy Mościcki, Foreign Minister Józef Beck and the Commander-in-Chief of the Polish Army, Edward Rydz-Śmigły.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': 'Ignacy Mościcki', 'entity': 'Politician'}, {'span': 'Józef Beck', 'entity': 'Politician'}, {'span': 'Polish Army', 'entity': 'Misc'}, {'span': 'Edward Rydz-Śmigły', 'entity': 'Politician'}]'
+
+Example #20: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+

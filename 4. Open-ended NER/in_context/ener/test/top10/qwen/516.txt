@@ -1,0 +1,30 @@
+Example #1: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+
+Example #2: The inspectors of election will treat abstentions and broker non-votes (i.e., shares held by brokers or nominees, typically in street name, as to which (i) instructions have not been received from the beneficial owners or persons entitled to vote and (ii) the broker or nominee does not have discretionary voting power on a particular matter) as present for purposes of determining a quorum.
+Expected output: 'entities: []'
+
+Example #3: To the knowledge of management of the Funds, no shareholder of a Fund owns more than 10 % of a registered class of a Fund s equity securities, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #4: As of February 8, 2010, no shareholder beneficially owned more than 5 % of any class of shares of any Fund, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #5: Rule 452 permits proportionate voting of Preferred Shares with respect to a particular item if, among other things, (i) a minimum of 30 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares with respect to such item and (ii) less than 10 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares against such item.
+Expected output: 'entities: []'
+
+Example #6: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #7: Those persons who were shareholders of record at the close of business on Monday, February 8, 2010 will be entitled to one vote for each share held and a proportionate fractional vote for each fractional vote held.
+Expected output: 'entities: []'
+
+Example #8: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #9: As of February 8, 2010, the Board Members and executive officers as a group beneficially owned less than 1 % of the outstanding shares of each Fund.
+Expected output: 'entities: []'
+
+Example #10: For the purpose of meeting the 30 % test, abstentions will be treated as shares voted and, for the purpose of meeting the 10 % test, abstentions will not be treated as shares voted against the item.
+Expected output: 'entities: []'
+

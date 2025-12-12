@@ -1,0 +1,60 @@
+Example #1: He has written several invited review articles and book chapters for a number of prestigious journals and books including Chemical Reviews, Accounts of Chemical Research, Angewandte Chemie and the main textbook in the field of circular dichroism, Comprehensive Chiroptical Spectroscopy.
+Expected output: 'entities: [{'span': 'Chemical Reviews', 'entity': 'Academic Journal'}, {'span': 'Accounts of Chemical Research', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'circular dichroism', 'entity': 'Theory'}, {'span': 'Comprehensive Chiroptical Spectroscopy', 'entity': 'Misc'}]'
+
+Example #2: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #3: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #4: Alberts has also served as an editor for numerous peer-reviewed journals in a variety of fields, including Behavioral Ecology (journal), the American Journal of Primatology, and PeerJ.
+Expected output: 'entities: [{'span': 'Alberts', 'entity': 'Scientist'}, {'span': 'Behavioral Ecology', 'entity': 'Academic Journal'}, {'span': 'American Journal of Primatology', 'entity': 'Academic Journal'}, {'span': 'PeerJ', 'entity': 'Academic Journal'}]'
+
+Example #5: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #6: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #7: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #8: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #9: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #10: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #11: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #12: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #13: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #14: This discovery, which earned him the Copley Medal of the Royal Society in 1825, was followed by another, that a rotating plate of copper tends to communicate its motion to a magnetic needle suspended over it, which he called magnetism of rotation Annales de chimie et de physique (1824), vol.
+Expected output: 'entities: [{'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}, {'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'magnetism of rotation', 'entity': 'Misc'}, {'span': 'Annales de chimie et de physique', 'entity': 'Academic Journal'}]'
+
+Example #15: In 1831, Michael Faraday made the seminal observation that time-varying magnetic fields could induce electric currents and then, in 1864, James Clerk Maxwell published his famous paper A Dynamical Theory of the Electromagnetic Field. Maxwell 1864 5, page 499; also David J. Griffiths (1999), Introduction to electrodynamics, third Edition, ed.
+Expected output: 'entities: [{'span': 'Michael Faraday', 'entity': 'Scientist'}, {'span': 'James Clerk Maxwell', 'entity': 'Scientist'}, {'span': 'A Dynamical Theory of the Electromagnetic Field', 'entity': 'Misc'}, {'span': 'Maxwell', 'entity': 'Scientist'}, {'span': 'David J. Griffiths', 'entity': 'Scientist'}, {'span': 'electrodynamics', 'entity': 'Discipline'}]'
+
+Example #16: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #17: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #18: Hewish has Honorary degrees from six universities including Manchester, Exeter and Cambridge, is a Foreign Member of the Belgian Royal Academy and the American Academy of Arts and Sciences and the Indian National Science Academy.
+Expected output: 'entities: [{'span': 'Hewish', 'entity': 'Scientist'}, {'span': 'Manchester', 'entity': 'University'}, {'span': 'Exeter', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'Belgian Royal Academy', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Indian National Science Academy', 'entity': 'Organisation'}]'
+
+Example #19: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #20: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+

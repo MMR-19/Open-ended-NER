@@ -1,0 +1,30 @@
+Example #1: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #2: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #3: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #4: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #5: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #6: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #7: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #8: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #9: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+

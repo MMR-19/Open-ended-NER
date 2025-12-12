@@ -1,0 +1,60 @@
+Example #1: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #2: For each Massachusetts Business Trust, except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Tax-Advantaged Dividend, Global Government, Global Value, Multi-Currency, Quality Preferred, Quality Preferred 2, Quality Preferred 3, Real Estate, Diversified Dividend, Tax-Advantaged, Multi-Strategy and Multi-Strategy 2, under normal circumstances, holders of Preferred Shares are entitled to elect two (2) Board Members.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'Quality Preferred', 'entity': 'Business'}, {'span': 'Quality Preferred 2', 'entity': 'Business'}, {'span': 'Quality Preferred 3', 'entity': 'Business'}, {'span': 'Real Estate', 'entity': 'Business'}, {'span': 'Diversified Dividend', 'entity': 'Business'}, {'span': 'Tax-Advantaged', 'entity': 'Business'}, {'span': 'Multi-Strategy', 'entity': 'Business'}, {'span': 'Multi-Strategy 2', 'entity': 'Business'}]'
+
+Example #3: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #4: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #5: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #6: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #7: Industry Litigation In 1996, Wal-Mart Stores, Inc. and several other retailers sued MasterCard International Incorporated, VISA U.S.A., Inc. and VISA International, Inc. in the U.S. District Court for the Eastern District of New York (the District Court).
+Expected output: 'entities: [{'span': 'Wal-Mart Stores, Inc.', 'entity': 'Business'}, {'span': 'MasterCard International Incorporated', 'entity': 'Business'}, {'span': 'VISA U.S.A., Inc.', 'entity': 'Business'}, {'span': 'VISA International, Inc.', 'entity': 'Business'}, {'span': 'U.S. District Court for the Eastern District of New York', 'entity': 'Court'}]'
+
+Example #8: Since the filing of the Connecticut complaint, other complaints were filed in different U.S. District Courts challenging the setting of interchange, as well the associations respective rules.
+Expected output: 'entities: [{'span': 'U.S. District Courts', 'entity': 'Court'}]'
+
+Example #9: On June 22, 2005, a group of merchants filed a putative class action complaint in the U.S. District Court for the District of Connecticut.
+Expected output: 'entities: [{'span': 'U.S. District Court for the District of Connecticut', 'entity': 'Court'}]'
+
+Example #10: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #11: To the Shareholders of the Above Funds:
+Expected output: 'entities: []'
+
+Example #12: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #13: To the knowledge of management of the Funds, no shareholder of a Fund owns more than 10 % of a registered class of a Fund s equity securities, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #14: To request a separate copy of an annual report or proxy statement, or for instructions as to how to request a separate copy of such documents or as to how to request a single copy if multiple copies of such documents are received, shareholders should contact the applicable Fund at the address and phone number set forth above.
+Expected output: 'entities: []'
+
+Example #15: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #16: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #17: To the extent that any court action is permitted consistent with or to enforce Section 7 of this Agreement, the Parties hereby consent to the jurisdiction of the San Diego County Superior Court of California State and the United States District Court for the Southern District of California.
+Expected output: 'entities: [{'span': 'San Diego County Superior Court of California State', 'entity': 'Court'}, {'span': 'United States District Court for the Southern District of California', 'entity': 'Court'}]'
+
+Example #18: To vote by telephone, please call the toll-free number located on your proxy card and follow the recorded instructions, using your proxy card as a guide.
+Expected output: 'entities: []'
+
+Example #19: To vote by mail, please mark, sign, date and mail the enclosed proxy card.
+Expected output: 'entities: []'
+
+Example #20: The following chart lists each shareholder or group of shareholders who beneficially owned more than 5 % of any class of shares of any Fund *:
+Expected output: 'entities: []'
+

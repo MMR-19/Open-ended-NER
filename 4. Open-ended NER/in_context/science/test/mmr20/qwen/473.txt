@@ -1,0 +1,60 @@
+Example #1: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #2: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #3: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+
+Example #4: For example, H3K14 and H4K12 acetylation was found to be decreased, as well as general acetylation across histones H2B and Histone H3.
+Expected output: 'entities: [{'span': 'H3K14', 'entity': 'Misc'}, {'span': 'H4K12 acetylation', 'entity': 'Misc'}, {'span': 'acetylation', 'entity': 'Misc'}, {'span': 'histones H2B', 'entity': 'Protein'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #5: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #6: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #7: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #8: Hall also parodied the song as Cell Black Django using celebrities NeNe Leakes (as the master of ceremonies), Nicki Minaj, Rihanna, Solange Knowles, Beyoncé, internet meme Sharkeisha (which he portrayed), and Mariah Carey.
+Expected output: 'entities: [{'span': 'Hall', 'entity': 'Person'}, {'span': 'Cell Black Django', 'entity': 'Misc'}, {'span': 'NeNe Leakes', 'entity': 'Person'}, {'span': 'Nicki Minaj', 'entity': 'Person'}, {'span': 'Rihanna', 'entity': 'Person'}, {'span': 'Solange Knowles', 'entity': 'Person'}, {'span': 'Beyoncé', 'entity': 'Person'}, {'span': 'Sharkeisha', 'entity': 'Person'}, {'span': 'Mariah Carey', 'entity': 'Person'}]'
+
+Example #9: Lindsay and his wife Rachel translated Hans Kramers book, The Atom and the Bohr Theory of its Structure, in 1923, Hans Kramers & amp; Helge Holst, The Atom and the Bohr Theory of its Structure: An Elementary Presentation, Gyldendal, 210pp.
+Expected output: 'entities: [{'span': 'Lindsay', 'entity': 'Person'}, {'span': 'Rachel', 'entity': 'Person'}, {'span': 'Hans Kramers', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure', 'entity': 'Misc'}, {'span': 'Helge Holst', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure: An Elementary Presentation', 'entity': 'Misc'}, {'span': 'Gyldendal', 'entity': 'Organisation'}]'
+
+Example #10: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #11: Bio-active constituents of human milk that have been cataloged to possess immune-modulating capabilities include immunoglobulins, Lactoferrin, Lysozyme, oligosaccharide s, lipid s, cytokine s, hormone s, and growth factor s.
+Expected output: 'entities: [{'span': 'immunoglobulins', 'entity': 'Protein'}, {'span': 'Lactoferrin', 'entity': 'Protein'}, {'span': 'Lysozyme', 'entity': 'Enzyme'}, {'span': 'oligosaccharide', 'entity': 'Misc'}, {'span': 'lipid', 'entity': 'Misc'}, {'span': 'cytokine', 'entity': 'Misc'}, {'span': 'hormone', 'entity': 'Misc'}, {'span': 'growth factor', 'entity': 'Misc'}]'
+
+Example #12: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #13: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #14: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #15: She is awakened as a Soldier by the white cat Artemis when she is thirteen years old and instructed that she has a duty to become the beautiful warrior, Sailor V. Artemis explains that Venus and Earth are twin planets of about the same size and weight, that Venus is her mother star, and that she must protect Earth from its enemies.
+Expected output: 'entities: [{'span': 'Artemis', 'entity': 'Misc'}, {'span': 'Sailor V. Artemis', 'entity': 'Person'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #16: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #17: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #18: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #19: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #20: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+

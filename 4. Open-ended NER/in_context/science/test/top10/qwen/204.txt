@@ -1,0 +1,30 @@
+Example #1: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #2: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #3: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #4: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #5: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #6: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #7: Alberts has also served as an editor for numerous peer-reviewed journals in a variety of fields, including Behavioral Ecology (journal), the American Journal of Primatology, and PeerJ.
+Expected output: 'entities: [{'span': 'Alberts', 'entity': 'Scientist'}, {'span': 'Behavioral Ecology', 'entity': 'Academic Journal'}, {'span': 'American Journal of Primatology', 'entity': 'Academic Journal'}, {'span': 'PeerJ', 'entity': 'Academic Journal'}]'
+
+Example #8: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #9: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #10: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Any additional costs of solicitation will be paid by the Fund that requires additional solicitation.
+Expected output: 'entities: []'
+
+Example #2: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #3: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+
+Example #4: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #5: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #6: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #7: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #8: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #9: The dividend committee is authorized to declare distributions on the Fund s shares including, but not limited to, regular and special dividends, capital gains and ordinary income distributions.
+Expected output: 'entities: []'
+
+Example #10: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+

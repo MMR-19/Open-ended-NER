@@ -1,0 +1,60 @@
+Example #1: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #2: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #3: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #4: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+
+Example #5: A representative of each independent registered public accounting firm will be present at the Annual Meetings to make a statement, if such representative so desires, and to respond to shareholders questions.
+Expected output: 'entities: []'
+
+Example #6: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #7: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #8: All shareholders are cordially invited to attend the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #9: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #10: Timely submission of a proposal does not mean that such proposal will be included in a proxy statement.
+Expected output: 'entities: []'
+
+Example #11: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #12: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #13: We have acted as special counsel to Regency Energy Partners LP, a Delaware limited partnership (the Partnership), Regency Energy Finance Corp., a Delaware corporation (Regency Finance and, together with the Partnership, the Issuers), and the entities listed on Schedule I hereto (collectively, the Guarantors), in connection with the filing on the date hereof with the Securities and Exchange Commission (the Commission) of Post-Effective Amendment No. 1 (the Amendment) to the registration statement on Form S-3 (File No. 333-169901) (the Registration Statement) under the Securities Act of 1933, as amended (the Act).
+Expected output: 'entities: [{'span': 'Regency Energy Partners LP', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'Regency Energy Finance Corp.', 'entity': 'Business'}, {'span': 'Regency Finance', 'entity': 'Business'}, {'span': 'Schedule I', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}]'
+
+Example #14: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #15: In connection with the Quarterly Report of Reach Messaging Holdings, Inc. (the “ Company ”) on Form 10-Q for the period ended March 31, 2011, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, Shane Gau, Chief Executive Officer of the Company, certify to my knowledge and in my capacity as an officer of the Company, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Reach Messaging Holdings, Inc.', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Shane Gau', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #16: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #17: Management does not intend to present and does not have reason to believe that any other items of business will be presented at the Annual Meetings.
+Expected output: 'entities: []'
+
+Example #18: Audit and Related Fees.
+Expected output: 'entities: []'
+
+Example #19: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #20: The compliance, risk management and regulatory oversight committee is responsible for the oversight of compliance issues, risk management, and other regulatory matters affecting the Funds which are not otherwise the jurisdiction of the other Board committees.
+Expected output: 'entities: []'
+

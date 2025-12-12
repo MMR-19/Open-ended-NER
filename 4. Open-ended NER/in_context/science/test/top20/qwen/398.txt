@@ -1,0 +1,60 @@
+Example #1: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #2: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #3: He visited some European universities and institutions, including Cavendish Laboratory, Georg August University of Göttingen, and University of Copenhagen.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Georg August University of Göttingen', 'entity': 'University'}, {'span': 'University of Copenhagen', 'entity': 'University'}]'
+
+Example #4: He studied at CMS College Kottayam, and graduated with honors from the Madras Christian College in 1951.
+Expected output: 'entities: [{'span': 'CMS College Kottayam', 'entity': 'University'}, {'span': 'Madras Christian College', 'entity': 'University'}]'
+
+Example #5: He then began working at the Institute of Tropical Medicine Antwerp while pursuing a graduate degree in clinical microbiology from the University of Antwerp.
+Expected output: 'entities: [{'span': 'Institute of Tropical Medicine Antwerp', 'entity': 'Organisation'}, {'span': 'clinical microbiology', 'entity': 'Discipline'}, {'span': 'University of Antwerp', 'entity': 'University'}]'
+
+Example #6: During that year, he moved to University of Würzburg and two years later, in 1869 to University of Bonn.
+Expected output: 'entities: [{'span': 'University of Würzburg', 'entity': 'University'}, {'span': 'University of Bonn', 'entity': 'University'}]'
+
+Example #7: South Mumbai has reputed and leading educational institutions such as Jamnalal Bajaj Institute of Management Studies, St. Xavier's College, Government Law College, Jai Hind College, Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals, Sydenham Institute of Management Studies, Research and Entrepreneurship Education to name a few.
+Expected output: 'entities: [{'span': 'South', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Jamnalal Bajaj Institute of Management Studies', 'entity': 'Organisation'}, {'span': "St. Xavier's College", 'entity': 'University'}, {'span': 'Government Law College', 'entity': 'University'}, {'span': 'Jai Hind College', 'entity': 'University'}, {'span': 'Grant Medical College', 'entity': 'University'}, {'span': 'Sir Jamshedjee Jeejeebhoy Group of Hospitals', 'entity': 'Organisation'}, {'span': 'Sydenham Institute of Management Studies', 'entity': 'Organisation'}, {'span': 'Research and Entrepreneurship Education', 'entity': 'Organisation'}]'
+
+Example #8: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #9: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #10: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #11: The other side of the road houses several historical buildings and institutions including the M. A. Chidambaram Stadium, the University of Madras, the Presidency College, Vivekananda House, Queen Mary's College, Inspector General of Police Headquarters, All India Radio - Chennai, Dr. Annie Besant Park.
+Expected output: 'entities: [{'span': 'M. A. Chidambaram Stadium', 'entity': 'Location'}, {'span': 'University of Madras', 'entity': 'University'}, {'span': 'Presidency College', 'entity': 'University'}, {'span': 'Vivekananda House', 'entity': 'Location'}, {'span': "Queen Mary's College", 'entity': 'University'}, {'span': 'Inspector General of Police Headquarters', 'entity': 'Organisation'}, {'span': 'All India Radio', 'entity': 'Organisation'}, {'span': 'Chennai', 'entity': 'Location'}, {'span': 'Dr. Annie Besant Park', 'entity': 'Location'}]'
+
+Example #12: She is awakened as a Soldier by the white cat Artemis when she is thirteen years old and instructed that she has a duty to become the beautiful warrior, Sailor V. Artemis explains that Venus and Earth are twin planets of about the same size and weight, that Venus is her mother star, and that she must protect Earth from its enemies.
+Expected output: 'entities: [{'span': 'Artemis', 'entity': 'Misc'}, {'span': 'Sailor V. Artemis', 'entity': 'Person'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #13: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+
+Example #14: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #15: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #16: He was research assistant to Richard Harrison at the Royal London Hospital, then worked with J. D. H. Slater at the Middlesex Hospital from 1973 to 1974 and with A. Grabham at Kettering General Hospital for a year, before being appointed as assistant lecturer and honorary senior house orderly registrar in the School of Pathology at Middlesex Hospital Medical School (1975 to 1976).
+Expected output: 'entities: [{'span': 'Richard Harrison', 'entity': 'Person'}, {'span': 'Royal London Hospital', 'entity': 'Organisation'}, {'span': 'J. D. H. Slater', 'entity': 'Person'}, {'span': 'Middlesex Hospital', 'entity': 'Organisation'}, {'span': 'A. Grabham', 'entity': 'Person'}, {'span': 'Kettering General Hospital', 'entity': 'Organisation'}, {'span': 'the School of Pathology at Middlesex Hospital Medical School', 'entity': 'Organisation'}]'
+
+Example #17: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #18: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #19: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #20: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+

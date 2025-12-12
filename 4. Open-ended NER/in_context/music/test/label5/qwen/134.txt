@@ -1,0 +1,15 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: Coldcut returned with the single Everything Is Under Control at the end of 2005, featuring Jon Spencer (of Jon Spencer Blues Explosion) and Mike Ladd.
+Expected output: 'entities: [{'span': 'Coldcut', 'entity': 'Band'}, {'span': 'Everything Is Under Control', 'entity': 'Song'}, {'span': 'Jon Spencer', 'entity': 'Musical Artist'}, {'span': 'Jon Spencer Blues Explosion', 'entity': 'Band'}, {'span': 'Mike Ladd', 'entity': 'Musical Artist'}]'
+
+Example #3: In 2005, American Idiot won a Grammy Award for Grammy Award for Best Rock Album and was nominated in six other categories including Grammy Award for Album of the Year.
+Expected output: 'entities: [{'span': 'American Idiot', 'entity': 'Album'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Rock Album', 'entity': 'Award'}, {'span': 'Grammy Award for Album of the Year', 'entity': 'Award'}]'
+
+Example #4: Arguably the most successful boy band manager from the U.S. was Lou Pearlman, who founded commercially successful acts such as the Backstreet Boys in 1993, NSYNC and LFO in 1995, O-Town in 2000, and US5 in 2005.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Lou Pearlman', 'entity': 'Musical Artist'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'NSYNC', 'entity': 'Band'}, {'span': 'LFO', 'entity': 'Band'}, {'span': 'O-Town', 'entity': 'Band'}, {'span': 'US5', 'entity': 'Band'}]'
+
+Example #5: Arguably the most successful boy band manager from the U.S. was Lou Pearlman, who founded commercially successful acts such as the Backstreet Boys in 1993, NSYNC and LFO in 1995, O-Town in 2000, and US5 in 2005.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Lou Pearlman', 'entity': 'Person'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'NSYNC', 'entity': 'Band'}, {'span': 'LFO', 'entity': 'Band'}, {'span': 'O-Town', 'entity': 'Band'}, {'span': 'US5', 'entity': 'Band'}]'
+

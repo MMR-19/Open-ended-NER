@@ -1,0 +1,15 @@
+Example #1: As with BLEU, the basic unit of evaluation is the sentence, the algorithm first creates an alignment (see illustrations) between two sentence s, the candidate translation string, and the reference translation string.
+Expected output: 'entities: [{'span': 'BLEU', 'entity': 'Metrics'}]'
+
+Example #2: Since 2002, perceptron training has become popular in the field of natural language processing for such tasks as part-of-speech tagging and syntactic parsing (Collins, 2002).
+Expected output: 'entities: [{'span': 'natural language processing', 'entity': 'Field'}, {'span': 'part-of-speech tagging', 'entity': 'Task'}, {'span': 'syntactic parsing', 'entity': 'Task'}, {'span': 'Collins', 'entity': 'Researcher'}]'
+
+Example #3: Some less widely spoken languages use the open-source eSpeak synthesizer for their speech; producing a robotic, awkward voice that may be difficult to understand.
+Expected output: 'entities: [{'span': 'eSpeak synthesizer', 'entity': 'Product'}]'
+
+Example #4: One of the metrics used in NIST ' s annual Document Understanding Conferences, in which research groups submit their systems for both summarization and translation tasks, is the ROUGE metric (Recall-Oriented Understudy for Gisting Evaluation, In Advances of Neural Information Processing Systems (NIPS), Montreal, Canada, December - 2014.
+Expected output: 'entities: [{'span': "NIST ' s annual Document Understanding Conferences", 'entity': 'Conference'}, {'span': 'summarization', 'entity': 'Task'}, {'span': 'translation tasks', 'entity': 'Task'}, {'span': 'ROUGE metric', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}, {'span': 'Neural Information Processing Systems', 'entity': 'Conference'}, {'span': 'NIPS', 'entity': 'Conference'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Canada', 'entity': 'Country'}]'
+
+Example #5: Grammar checkers are most often implemented as a feature of a larger program, such as a word processor, but are also available as a stand-alone application that can be activated from within programs that work with editable text.
+Expected output: 'entities: [{'span': 'Grammar checkers', 'entity': 'Product'}, {'span': 'word processor', 'entity': 'Product'}]'
+

@@ -1,0 +1,15 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #3: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #4: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #5: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+

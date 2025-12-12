@@ -1,0 +1,30 @@
+Example #1: He was research assistant to Richard Harrison at the Royal London Hospital, then worked with J. D. H. Slater at the Middlesex Hospital from 1973 to 1974 and with A. Grabham at Kettering General Hospital for a year, before being appointed as assistant lecturer and honorary senior house orderly registrar in the School of Pathology at Middlesex Hospital Medical School (1975 to 1976).
+Expected output: 'entities: [{'span': 'Richard Harrison', 'entity': 'Person'}, {'span': 'Royal London Hospital', 'entity': 'Organisation'}, {'span': 'J. D. H. Slater', 'entity': 'Person'}, {'span': 'Middlesex Hospital', 'entity': 'Organisation'}, {'span': 'A. Grabham', 'entity': 'Person'}, {'span': 'Kettering General Hospital', 'entity': 'Organisation'}, {'span': 'the School of Pathology at Middlesex Hospital Medical School', 'entity': 'Organisation'}]'
+
+Example #2: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #3: In the Early Modern period, scientists such as William Harvey in England and Galileo Galilei in Italy reacted against the theories of Aristotle and other classical era thinkers like Galen, establishing new theories based to some degree on observation and experiment.
+Expected output: 'entities: [{'span': 'Early Modern period', 'entity': 'Misc'}, {'span': 'William Harvey', 'entity': 'Scientist'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'Galen', 'entity': 'Person'}]'
+
+Example #4: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #5: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #6: This mechanism is evident on Jupiter and Saturn and on brown dwarf s whose central temperatures are not high enough to undergo nuclear fusion.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #7: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #8: It was discovered during the Palomar-Leiden Trojan survey on 26 March 1971, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.
+Expected output: 'entities: [{'span': 'Palomar-Leiden Trojan survey', 'entity': 'Misc'}, {'span': 'Ingrid van Houten-Groeneveld', 'entity': 'Scientist'}, {'span': 'Cornelis van Houten', 'entity': 'Scientist'}, {'span': 'Leiden', 'entity': 'Location'}, {'span': 'Tom Gehrels', 'entity': 'Scientist'}, {'span': 'Palomar Observatory', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}]'
+
+Example #9: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #10: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+

@@ -1,0 +1,30 @@
+Example #1: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #2: Morgan Securities executed on June 17, 2011, a Consent of Defendant J.P. Morgan Securities (the “ Consent ”), in which J.P. Morgan Securities neither admitted nor denied any of the allegations (except as to personal and subject matter jurisdiction) in a complaint filed by the Commission, but in which it consented to the entry of a final judgment (“ Final Judgment ”) against it by the United States District Court for the Southern District of New York (the “ Court ”).
+Expected output: 'entities: [{'span': 'Morgan Securities', 'entity': 'Business'}, {'span': 'J.P. Morgan Securities', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}]'
+
+Example #3: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #4: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #5: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #6: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #7: If a properly executed proxy is returned and no choice is specified, the shares will be voted FOR the election of the nominees as listed in this Joint Proxy Statement.
+Expected output: 'entities: []'
+
+Example #8: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #9: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+
+Example #10: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+

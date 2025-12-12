@@ -1,0 +1,60 @@
+Example #1: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #2: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #3: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #4: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+
+Example #5: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #6: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #7: Parties with mainly Eurosceptic views are the ruling United Russia, and opposition parties the Communist Party of the Russian Federation and Liberal Democratic Party of Russia.
+Expected output: 'entities: [{'span': 'United Russia', 'entity': 'Political Party'}, {'span': 'Communist Party of the Russian Federation', 'entity': 'Political Party'}, {'span': 'Liberal Democratic Party of Russia', 'entity': 'Political Party'}]'
+
+Example #8: Motivated by Tower's victory, and hoping to prevent the far-right John Birch Society from coming to power, Bush ran for the chairmanship of the Harris County, Texas Republican Party, winning election in February 1963. Like most other Texas Republicans, Bush supported conservative Senator Barry Goldwater over the more centrist Nelson Rockefeller in the 1964 Republican Party presidential primaries.
+Expected output: 'entities: [{'span': 'Tower', 'entity': 'Person'}, {'span': 'John Birch Society', 'entity': 'Organisation'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Harris County', 'entity': 'Location'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Republican Party', 'entity': 'Political Party'}, {'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Barry Goldwater', 'entity': 'Politician'}, {'span': 'Nelson Rockefeller', 'entity': 'Politician'}, {'span': '1964 Republican Party presidential primaries', 'entity': 'Election'}]'
+
+Example #9: The Republicans gained the upper hand in the campaign, as Cleveland's campaign was poorly managed by Calvin S. Brice and William H. Barnum, whereas Harrison had engaged more aggressive fundraisers and tacticians in Matthew Quay and John Wanamaker.
+Expected output: 'entities: [{'span': 'Republicans', 'entity': 'Misc'}, {'span': 'Calvin S. Brice', 'entity': 'Politician'}, {'span': 'William H. Barnum', 'entity': 'Politician'}, {'span': 'Matthew Quay', 'entity': 'Politician'}, {'span': 'John Wanamaker', 'entity': 'Politician'}]'
+
+Example #10: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #11: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #12: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #13: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #14: Social conservatives often felt that they were being sidelined by officials in the Progressive Conservative Party of Canada and its leadership of so-called Red Tories for the last half of the twentieth century and therefore many eventually made their political home with parties such as the Social Credit Party of Canada and the Reform Party of Canada.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Red Tories', 'entity': 'Misc'}, {'span': 'Social Credit Party of Canada', 'entity': 'Political Party'}, {'span': 'Reform Party of Canada', 'entity': 'Political Party'}]'
+
+Example #15: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #16: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #17: Six other Republican senators - Wayne Morse, Irving Ives, Charles W. Tobey, Edward John Thye, George Aiken, and Robert C. Hendrickson - joined her in condemning McCarthy's tactics.
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Wayne Morse', 'entity': 'Politician'}, {'span': 'Irving Ives', 'entity': 'Politician'}, {'span': 'Charles W. Tobey', 'entity': 'Politician'}, {'span': 'Edward John Thye', 'entity': 'Politician'}, {'span': 'George Aiken', 'entity': 'Politician'}, {'span': 'Robert C. Hendrickson', 'entity': 'Politician'}, {'span': 'McCarthy', 'entity': 'Politician'}]'
+
+Example #18: Excluding the Japanese Communist Party, the coalition was backed by all of the former opposition parties, which included the newly formed JNP, the Japan Socialist Party, the Japan Renewal Party (Shinseito), Komeito, the Democratic Socialist Party, the Socialist Democratic Federation, and the New Party Sakigake, who together controlled 243 seats in the House of Representatives.
+Expected output: 'entities: [{'span': 'Japanese Communist Party', 'entity': 'Political Party'}, {'span': 'JNP', 'entity': 'Political Party'}, {'span': 'Japan Socialist Party', 'entity': 'Political Party'}, {'span': 'Japan Renewal Party', 'entity': 'Political Party'}, {'span': 'Shinseito', 'entity': 'Political Party'}, {'span': 'Komeito', 'entity': 'Political Party'}, {'span': 'Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Socialist Democratic Federation', 'entity': 'Political Party'}, {'span': 'New Party Sakigake', 'entity': 'Political Party'}]'
+
+Example #19: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #20: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+

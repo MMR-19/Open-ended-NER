@@ -1,0 +1,15 @@
+Example #1: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #2: The inspectors of election will determine whether or not a quorum is present at the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #3: Generally, the audit committee must approve each Fund s independent registered public accounting firm s engagements (i) with the Fund for audit or non-audit services and (ii) with the Adviser and Adviser Entities for non-audit services if the engagement relates directly to the operations and financial reporting of the Fund.
+Expected output: 'entities: []'
+
+Example #4: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #5: In particular, each member must meet the independence and experience requirements applicable to the Funds of the exchanges on which shares of the Funds are listed, Section 10a of the Securities Exchange Act of 1934 (the Exchange Act), and the rules and regulations of the Securities and Exchange Commission (the Commission).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+

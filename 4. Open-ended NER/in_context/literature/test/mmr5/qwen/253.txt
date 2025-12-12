@@ -1,0 +1,15 @@
+Example #1: In an article for The Atlantic, film critic Ty Burr deemed The Birth of a Nation the most influential film in history while criticizing its portrayal of black men as savage.
+Expected output: 'entities: [{'span': 'The Atlantic', 'entity': 'Magazine'}, {'span': 'Ty Burr', 'entity': 'Person'}, {'span': 'The Birth of a Nation', 'entity': 'Misc'}]'
+
+Example #2: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #3: He then went to live at Chalcedon, whence in 367 he was banished to Mauretania for harbouring the rebel Procopius.
+Expected output: 'entities: [{'span': 'Chalcedon', 'entity': 'Location'}, {'span': 'Mauretania', 'entity': 'Country'}, {'span': 'Procopius', 'entity': 'Writer'}]'
+
+Example #4: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+
+Example #5: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+

@@ -1,0 +1,15 @@
+Example #1: The Story of Civilization: Volume 8, The Age of Louis XIV by Will Durant; chapter II, subsection 4.1 p.56)
+Expected output: 'entities: [{'span': 'The Story of Civilization', 'entity': 'Book'}, {'span': 'The Age of Louis XIV', 'entity': 'Book'}, {'span': 'Will Durant', 'entity': 'Writer'}]'
+
+Example #2: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #3: Private Eye parodied Sue Townsend ' s The Secret Diary of Adrian Mole, age 13 ¾ to write The Secret Diary of John Major, age 47 ¾, in which Major was portrayed as naïve and childish, keeping lists of his enemies in a Rymans Notebook called his Bastards Book, and featuring my wife Norman and Mr Dr Mawhinney as recurring character s.
+Expected output: 'entities: [{'span': 'Private Eye', 'entity': 'Magazine'}, {'span': 'Sue Townsend', 'entity': 'Writer'}, {'span': 'The Secret Diary of Adrian Mole, age 13 ¾', 'entity': 'Book'}, {'span': 'The Secret Diary of John Major, age 47 ¾', 'entity': 'Book'}, {'span': 'Major', 'entity': 'Person'}, {'span': 'Rymans Notebook', 'entity': 'Misc'}, {'span': 'Bastards Book', 'entity': 'Misc'}, {'span': 'Norman', 'entity': 'Person'}, {'span': 'Mr Dr Mawhinney', 'entity': 'Person'}]'
+
+Example #4: The illustrated and audio adventure is titled Winnie-the-Pooh Meets the Queen, and has been narrated by actor Jim Broadbent.
+Expected output: 'entities: [{'span': 'Winnie-the-Pooh Meets the Queen', 'entity': 'Book'}, {'span': 'Jim Broadbent', 'entity': 'Person'}]'
+
+Example #5: The period around World War II also saw the publication of the time travel novel Lest Darkness Fall by L. Sprague de Camp, in which an American academic travels to Italy at the time of the Byzantine invasion of the Ostrogoths.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'time travel novel', 'entity': 'Literary Genre'}, {'span': 'Lest Darkness Fall', 'entity': 'Book'}, {'span': 'L. Sprague de Camp', 'entity': 'Writer'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Byzantine', 'entity': 'Misc'}, {'span': 'Ostrogoths', 'entity': 'Misc'}]'
+

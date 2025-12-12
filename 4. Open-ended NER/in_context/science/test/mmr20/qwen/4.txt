@@ -1,0 +1,60 @@
+Example #1: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #2: During his life, in addition to the Nobel Prize, Hopkins was awarded the Royal Medal of the Royal Society in 1918, the Cameron Prize for Therapeutics of the University of Edinburgh in 1922, and the Copley Medal of the Royal Society in 1926.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Hopkins', 'entity': 'Person'}, {'span': 'Royal Medal of the Royal Society', 'entity': 'Award'}, {'span': 'Cameron Prize for Therapeutics of the University of Edinburgh', 'entity': 'Award'}, {'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}]'
+
+Example #3: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #4: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #5: From 1916 to 1921, he was a lecturer in the physics department of the Rajabazar Science College under University of Calcutta.
+Expected output: 'entities: [{'span': 'physics department of the Rajabazar Science College', 'entity': 'Organisation'}, {'span': 'University of Calcutta', 'entity': 'University'}]'
+
+Example #6: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #7: In 1977, the UK-APC named a series of peaks in Palmer Land, Antarctica the Sverdrup Nunataks after him.
+Expected output: 'entities: [{'span': 'UK-APC', 'entity': 'Organisation'}, {'span': 'Palmer Land', 'entity': 'Location'}, {'span': 'Antarctica', 'entity': 'Location'}, {'span': 'Sverdrup Nunataks', 'entity': 'Misc'}]'
+
+Example #8: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #9: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #10: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #11: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #12: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #13: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #14: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #15: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #16: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #17: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #18: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #19: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #20: The other side of the road houses several historical buildings and institutions including the M. A. Chidambaram Stadium, the University of Madras, the Presidency College, Vivekananda House, Queen Mary's College, Inspector General of Police Headquarters, All India Radio - Chennai, Dr. Annie Besant Park.
+Expected output: 'entities: [{'span': 'M. A. Chidambaram Stadium', 'entity': 'Location'}, {'span': 'University of Madras', 'entity': 'University'}, {'span': 'Presidency College', 'entity': 'University'}, {'span': 'Vivekananda House', 'entity': 'Location'}, {'span': "Queen Mary's College", 'entity': 'University'}, {'span': 'Inspector General of Police Headquarters', 'entity': 'Organisation'}, {'span': 'All India Radio', 'entity': 'Organisation'}, {'span': 'Chennai', 'entity': 'Location'}, {'span': 'Dr. Annie Besant Park', 'entity': 'Location'}]'
+

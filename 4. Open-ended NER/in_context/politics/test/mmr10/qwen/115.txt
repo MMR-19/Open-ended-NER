@@ -1,0 +1,30 @@
+Example #1: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #2: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #3: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #4: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #5: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #6: Johnson ran for governor three times: in 1947 Mississippi gubernatorial election, 1951 Mississippi gubernatorial election, and 1955 Mississippi gubernatorial election, but was unsuccessful.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': '1947 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1951 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1955 Mississippi gubernatorial election', 'entity': 'Election'}]'
+
+Example #7: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #8: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #9: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #10: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+

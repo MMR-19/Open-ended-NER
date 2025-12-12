@@ -1,0 +1,60 @@
+Example #1: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #2: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #3: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #4: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #5: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #6: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #7: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #8: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #9: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #10: (TJMG - Apelação Cível 1.0024.13.330164-8/001, Relator (a): Des. (a) Aparecida Grossi, 16ª CÂMARA CÍVEL, julgamento em 06/10/0017, publicação da súmula em 11/10/2017) EMENTA: DIREITO PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0024.13.330164-8/001', 'entity': 'Jurisprudência'}, {'span': 'Aparecida Grossi', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/10/0017', 'entity': 'Tempo'}, {'span': '11/10/2017', 'entity': 'Tempo'}]'
+
+Example #11: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #12: (AgRg no REsp 1251201/MG, Rel. Ministro NAPOLEÃO NUNES MAIA FILHO, PRIMEIRA TURMA, julgado em 18/10/2016, DJe 27/10/2016).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1251201/MG', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '18/10/2016', 'entity': 'Tempo'}, {'span': '27/10/2016', 'entity': 'Tempo'}]'
+
+Example #13: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho da Secretária de Estado de Planejamento, Orçamento e Gestão de 17 de maio de 2016, publicado no DODF nº 94, de 18 de maio de 2016, pág. 26, referente ao Processo: 300.000.002/2016, Interessado: RAFAEL LUCIANO ROOS, Assunto: Cessão de servidor, ONDE SE LÊ: `` (...) e na forma do disposto do art. 152 da Lei Complementar nº 840 de 23/12/2011, (...) ''.
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': '17 de maio de 2016', 'entity': 'Tempo'}, {'span': '18 de maio de 2016', 'entity': 'Tempo'}, {'span': '300.000.002/2016', 'entity': 'Jurisprudência'}, {'span': 'RAFAEL LUCIANO ROOS', 'entity': 'Pessoa'}, {'span': 'art. 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}]'
+
+Example #14: (AgRg no REsp 526.638/SP, Rel. Ministra MARIA ISABEL GALLOTTI, QUARTA TURMA, julgado em 19/02/2013, DJe 27/02/2013).
+Expected output: 'entities: [{'span': 'AgRg no REsp 526.638/SP', 'entity': 'Jurisprudência'}, {'span': 'MARIA ISABEL GALLOTTI', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '19/02/2013', 'entity': 'Tempo'}, {'span': '27/02/2013', 'entity': 'Tempo'}]'
+
+Example #15: (REsp 1263234/TO, Rel. Ministra NANCY ANDRIGHI, TERCEIRA TURMA, julgado em 11/06/2013, DJe 01/07/2013) PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'REsp 1263234/TO', 'entity': 'Jurisprudência'}, {'span': 'NANCY ANDRIGHI', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '11/06/2013', 'entity': 'Tempo'}, {'span': '01/07/2013', 'entity': 'Tempo'}]'
+
+Example #16: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #17: REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018). ''
+Expected output: 'entities: [{'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #18: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #19: (TJMG - Apelação Cível 1.0637.14.008046-5/001, Relator (a): Des. (a) Vasconcelos Lins, 18ª CÂMARA CÍVEL, julgamento em 06/02/2018, publicação da súmula em 09/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0637.14.008046-5/001', 'entity': 'Jurisprudência'}, {'span': 'Vasconcelos Lins', 'entity': 'Pessoa'}, {'span': '18ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/02/2018', 'entity': 'Tempo'}, {'span': '09/02/2018', 'entity': 'Tempo'}]'
+
+Example #20: AgRg no REsp 1319821/PB, Rel. Ministra MARGA TESSLER (JUÍZA FEDERAL CONVOCADA DO TRF 4ª REGIÃO), PRIMEIRA TURMA, julgado em 09/12/2014, DJe 16/12/2014). ''
+Expected output: 'entities: [{'span': 'AgRg no REsp 1319821/PB', 'entity': 'Jurisprudência'}, {'span': 'MARGA TESSLER', 'entity': 'Pessoa'}, {'span': 'TRF 4ª REGIÃO', 'entity': 'Organização'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '09/12/2014', 'entity': 'Tempo'}, {'span': '16/12/2014', 'entity': 'Tempo'}]'
+

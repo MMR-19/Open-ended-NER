@@ -1,0 +1,60 @@
+Example #1: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #2: (TJMG - Agravo de Instrumento-Cr 1.0079.14.024867-9/001, Relator (a): Des. (a) Eduardo Brum, 4ª CÂMARA CRIMINAL, julgamento em 30/03/2016, publicação da súmula em 06/04/2016) EMENTA: AGRAVO DE INSTRUMENTO CRIMINAL - LEI MARIA DA PENHA - VIOLÊNCIA DOMÉSTICA - INDÍCIOS SUFICIENTES DE AUTORIA E MATERIALIDADE - MEDIDAS PROTETIVAS - REQUISITOS SATISFEITOS - MANUTENÇÃO DA PROTEÇÃO DE URGÊNCIA - MEDIDA DE CAUTELA - NECESSIDADE DE AVALIAÇÃO DO RISCO ATUAL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento-Cr 1.0079.14.024867-9/001', 'entity': 'Jurisprudência'}, {'span': 'Eduardo Brum', 'entity': 'Pessoa'}, {'span': '4ª CÂMARA CRIMINAL', 'entity': 'Organização'}, {'span': '30/03/2016', 'entity': 'Tempo'}, {'span': '06/04/2016', 'entity': 'Tempo'}, {'span': 'LEI MARIA DA PENHA', 'entity': 'Legislação'}]'
+
+Example #3: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: O que se exige, portanto, em relação aos instrumentos legais que buscam concretizar a previsão dos planos diretores é a coerência com essas normas gerais e com a LODF Julgado procedente o pedido. ” (ADI 2008.00.2.012286-2, Rel. Des. J. J. Costa Carvalho, Conselho Especial, julgado em 25.08.2009, DJ-e de 02.12.2009, p. 28) (grifei).
+Expected output: 'entities: [{'span': 'LODF', 'entity': 'Legislação'}, {'span': 'ADI 2008.00.2.012286-2', 'entity': 'Jurisprudência'}, {'span': 'J. J. Costa Carvalho', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '25.08.2009', 'entity': 'Tempo'}, {'span': '02.12.2009', 'entity': 'Tempo'}]'
+
+Example #5: De igual modo, está pacificado no STJ o entendimento acerca da possibilidade de sucessiva prorrogação das interceptações, desde que devidamente fundamentadas, apesar de o art. 5º da Lei n. 9.296/1996 prever o prazo máximo de 15 (quinze) dias para tal medida, renovável por igual período (RHC 41.179/SP, Rel. Ministro FELIX FISCHER, QUINTA TURMA, julgado em 09/06/2015, DJe 19/06/2015, e HC 210.022/SP, Rel. Ministro SEBASTIÃO REIS JÚNIOR, SEXTA TURMA, julgado em 21/08/2014, DJe 05/09/2014).
+Expected output: 'entities: [{'span': 'STJ', 'entity': 'Organização'}, {'span': 'art. 5º da Lei n. 9.296/1996', 'entity': 'Legislação'}, {'span': 'RHC 41.179/SP', 'entity': 'Jurisprudência'}, {'span': 'FELIX FISCHER', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '09/06/2015', 'entity': 'Tempo'}, {'span': '19/06/2015', 'entity': 'Tempo'}, {'span': 'HC 210.022/SP', 'entity': 'Jurisprudência'}, {'span': 'SEBASTIÃO REIS JÚNIOR', 'entity': 'Pessoa'}, {'span': 'SEXTA TURMA', 'entity': 'Organização'}, {'span': '21/08/2014', 'entity': 'Tempo'}, {'span': '05/09/2014', 'entity': 'Tempo'}]'
+
+Example #6: A cláusula penal compensatória deve atender ao princípio da razoabilidade, devendo ser redimensionada pelo magistrado, nos termos do art. 413 do CPC, a fim de afastar o ganho injustificado de uma das partes contratantes em prejuízo da outra.
+Expected output: 'entities: [{'span': 'art. 413 do CPC', 'entity': 'Legislação'}]'
+
+Example #7: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #8: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #9: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #10: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #11: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #12: A Corte regional entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de Itapevi/SP, na pessoa da pré-candidata oponente do partido ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas, e configurou propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Município de Itapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #13: Julgo extinto o processo, com resolução do mérito, nos termos do art. 487, I, do NCPC.
+Expected output: 'entities: [{'span': 'art. 487, I, do NCPC', 'entity': 'Legislação'}]'
+
+Example #14: Caberia ao pregoeiro convocar os licitantes, sucessivamente, conforme as respectivas classificações, e conceder-lhes a oportunidade de comprovar a viabilidade financeira de suas propostas, conforme estabelece o inciso II do art. 48 da Lei 8.666/1993.
+Expected output: 'entities: [{'span': 'inciso II do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #15: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #16: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #17: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #18: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #19: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #20: NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES (RELATOR): A decisão ora atacada não merece reparos, uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL, no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal, inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal (HC 133.091-AgR, Rel. Min. CELSO DE MELLO, Tribunal Pleno, DJe de 5/8/2016).
+Expected output: 'entities: [{'span': 'HABEAS CORPUS 151.914', 'entity': 'Jurisprudência'}, {'span': 'ESPÍRITO SANTO', 'entity': 'Localização'}, {'span': 'ALEXANDRE DE MORAES', 'entity': 'Pessoa'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'HC 133.091-AgR', 'entity': 'Jurisprudência'}, {'span': 'CELSO DE MELLO', 'entity': 'Pessoa'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': '5/8/2016', 'entity': 'Tempo'}]'
+

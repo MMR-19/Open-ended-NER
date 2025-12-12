@@ -1,0 +1,30 @@
+Example #1: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #2: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #3: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #4: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #5: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #6: (RE 437642 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. ELLEN GRACIE, Órgão Julgador: Segunda Turma, DJe de 3/9/2010) TRIBUTÁRIO.
+Expected output: 'entities: [{'span': 'RE 437642 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'ELLEN GRACIE', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '3/9/2010', 'entity': 'Tempo'}]'
+
+Example #7: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #8: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #9: (TST-AgR-AIRR-323-89.2014.5.02.0371, Relator Ministro Cláudio Mascarenhas Brandão, 7ª Turma, DEJT 11/02/2016) AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA INTERPOSTO NA VIGÊNCIA DA LEI 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-323-89.2014.5.02.0371', 'entity': 'Jurisprudência'}, {'span': 'Cláudio Mascarenhas Brandão', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '11/02/2016', 'entity': 'Tempo'}, {'span': 'LEI 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #10: REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018). ''
+Expected output: 'entities: [{'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+

@@ -1,0 +1,60 @@
+Example #1: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #2: The album received a Grammy Award nomination for Grammy Award for Best Pop Vocal Album at the 45th Annual Grammy Awards (2003).
+Expected output: 'entities: [{'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Pop Vocal Album', 'entity': 'Award'}, {'span': '45th Annual Grammy Awards', 'entity': 'Award'}]'
+
+Example #3: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #4: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #5: Boom Town, a 1940 film about wildcatting in the early Oklahoma oil industry, starred Clark Gable and Spencer Tracy.
+Expected output: 'entities: [{'span': 'Boom Town', 'entity': 'Misc'}, {'span': 'Oklahoma', 'entity': 'Location'}, {'span': 'Clark Gable', 'entity': 'Person'}, {'span': 'Spencer Tracy', 'entity': 'Person'}]'
+
+Example #6: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #7: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #8: During his life, in addition to the Nobel Prize, Hopkins was awarded the Royal Medal of the Royal Society in 1918, the Cameron Prize for Therapeutics of the University of Edinburgh in 1922, and the Copley Medal of the Royal Society in 1926.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Hopkins', 'entity': 'Person'}, {'span': 'Royal Medal of the Royal Society', 'entity': 'Award'}, {'span': 'Cameron Prize for Therapeutics of the University of Edinburgh', 'entity': 'Award'}, {'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}]'
+
+Example #9: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #10: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #11: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #12: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #13: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #14: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #15: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #16: Two pairs of fathers and sons have won Nobel Prizes in other fields: Hans von Euler-Chelpin (chemistry, 1929) and Ulf von Euler (medicine, 1970); and Arthur Kornberg (medicine, 1969) and Roger D. Kornberg (chemistry, 2006).
+Expected output: 'entities: [{'span': 'Nobel Prizes', 'entity': 'Award'}, {'span': 'Hans von Euler-Chelpin', 'entity': 'Scientist'}, {'span': 'chemistry', 'entity': 'Discipline'}, {'span': 'Ulf von Euler', 'entity': 'Scientist'}, {'span': 'medicine', 'entity': 'Discipline'}, {'span': 'Arthur Kornberg', 'entity': 'Scientist'}, {'span': 'Roger D. Kornberg', 'entity': 'Scientist'}]'
+
+Example #17: One of these was in the category of Best Performance by an Actor in a Leading Role in a Dramatic Program or Mini-Series for Beau Bridges ' leading role as Simon Kress, which also garnered nominations for the Primetime Emmy Award for Outstanding Guest Actor in a Drama Series and the CableACE Award for Best Actor in a Dramatic Series.
+Expected output: 'entities: [{'span': 'Best Performance', 'entity': 'Award'}, {'span': 'Simon Kress', 'entity': 'Person'}, {'span': 'Primetime Emmy Award for Outstanding Guest Actor', 'entity': 'Award'}, {'span': 'CableACE Award for Best Actor', 'entity': 'Award'}]'
+
+Example #18: Knowles was heavily influenced by the Motown Sound of the 1960s and 1970s prior to the album's recording, prompting her to work with several like-minded producers and songwriters such as Jack Splash, CeeLo Green, Mark Ronson, and former Holland-Dozier-Holland member Lamont Dozier.
+Expected output: 'entities: [{'span': 'Knowles', 'entity': 'Person'}, {'span': 'Motown Sound', 'entity': 'Organisation'}, {'span': 'Jack Splash', 'entity': 'Person'}, {'span': 'CeeLo Green', 'entity': 'Person'}, {'span': 'Mark Ronson', 'entity': 'Person'}, {'span': 'Holland-Dozier-Holland', 'entity': 'Organisation'}, {'span': 'Lamont Dozier', 'entity': 'Person'}]'
+
+Example #19: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #20: He was awarded honorary degree from the University of Cambridge in Cambridge, UK, and the Copley Medal of the Royal Society in 1906.
+Expected output: 'entities: [{'span': 'University of Cambridge', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'Location'}, {'span': 'UK', 'entity': 'Country'}, {'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+

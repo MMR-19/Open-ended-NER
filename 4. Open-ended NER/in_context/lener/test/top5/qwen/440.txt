@@ -1,0 +1,15 @@
+Example #1: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #2: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #3: (TJMG Apelação Cível 1.0027.13.026710-0/001, Relator (a): Des. (a) Valdez Leite Machado, 14ª CÂMARA CÍVEL, julgamento em 08/02/2018, publicação da súmula em 21/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0027.13.026710-0/001', 'entity': 'Jurisprudência'}, {'span': 'Valdez Leite Machado', 'entity': 'Pessoa'}, {'span': '14ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '08/02/2018', 'entity': 'Tempo'}, {'span': '21/02/2018', 'entity': 'Tempo'}]'
+
+Example #4: (AgRg no REsp 526.638/SP, Rel. Ministra MARIA ISABEL GALLOTTI, QUARTA TURMA, julgado em 19/02/2013, DJe 27/02/2013).
+Expected output: 'entities: [{'span': 'AgRg no REsp 526.638/SP', 'entity': 'Jurisprudência'}, {'span': 'MARIA ISABEL GALLOTTI', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '19/02/2013', 'entity': 'Tempo'}, {'span': '27/02/2013', 'entity': 'Tempo'}]'
+
+Example #5: `` (RR - 10258-45.2013.5.04.0271 Data de Julgamento: 20/05/2015, Rel. Desembargador Convocado: Cláudio Armando Couce de Menezes, 2ª Turma, DEJT 29/05/2015) Nesse contexto, o Tribunal Regional, ao adotar o entendimento de que devida a aplicação da multa do artigo 467 da CLT, aparentemente, violou o artigo 467 da CLT.
+Expected output: 'entities: [{'span': 'RR - 10258-45.2013.5.04.0271', 'entity': 'Jurisprudência'}, {'span': '20/05/2015', 'entity': 'Tempo'}, {'span': 'Cláudio Armando Couce de Menezes', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '29/05/2015', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+

@@ -1,0 +1,30 @@
+Example #1: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #2: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #3: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #4: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #5: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #6: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #7: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #8: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #9: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+
+Example #10: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+

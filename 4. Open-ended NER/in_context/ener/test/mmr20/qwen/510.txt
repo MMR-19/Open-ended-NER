@@ -1,0 +1,60 @@
+Example #1: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #2: Shareholders of record at the close of business on February 8, 2010 are entitled to notice of and to vote at the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #3: Board Members Amboian, Kundert and Toth were last elected as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #4: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #5: The Audit Committee shall be comprised of at least three Directors/Trustees.
+Expected output: 'entities: []'
+
+Example #6: At the Annual Meeting of each Minnesota Corporation, Board Members are to be elected to serve until the next annual meeting or until their successors shall have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Minnesota', 'entity': 'Location'}]'
+
+Example #7: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #8: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #9: The current members of the committee are:
+Expected output: 'entities: []'
+
+Example #10: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #11: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #12: Each Independent Board Member receives a $ 100,000 annual retainer plus (a) a fee of $ 3,250 per day for attendance in person or by telephone at a regularly scheduled meeting of the Board;
+Expected output: 'entities: []'
+
+Example #13: If the communication is intended for a specific Board Member and so indicates it will be sent only to that Board Member.
+Expected output: 'entities: []'
+
+Example #14: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #15: Recommendations for candidates to the Board will be evaluated in light of whether the number of Board members is expected to change and whether the Board expects any vacancies.
+Expected output: 'entities: []'
+
+Example #16: For each Massachusetts Business Trust, except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Tax-Advantaged Dividend, Global Government, Global Value, Multi-Currency, Quality Preferred, Quality Preferred 2, Quality Preferred 3, Real Estate, Diversified Dividend, Tax-Advantaged, Multi-Strategy and Multi-Strategy 2, under normal circumstances, holders of Preferred Shares are entitled to elect two (2) Board Members.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'Quality Preferred', 'entity': 'Business'}, {'span': 'Quality Preferred 2', 'entity': 'Business'}, {'span': 'Quality Preferred 3', 'entity': 'Business'}, {'span': 'Real Estate', 'entity': 'Business'}, {'span': 'Diversified Dividend', 'entity': 'Business'}, {'span': 'Tax-Advantaged', 'entity': 'Business'}, {'span': 'Multi-Strategy', 'entity': 'Business'}, {'span': 'Multi-Strategy 2', 'entity': 'Business'}]'
+
+Example #17: It is the intention of the persons named in the enclosed proxy to vote the shares represented thereby for the election of the nominees listed in the table below unless the proxy is marked otherwise.
+Expected output: 'entities: []'
+
+Example #18: The following table sets forth information with respect to each officer of the Funds.
+Expected output: 'entities: []'
+
+Example #19: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #20: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+

@@ -1,0 +1,15 @@
+Example #1: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #2: This discovery, which earned him the Copley Medal of the Royal Society in 1825, was followed by another, that a rotating plate of copper tends to communicate its motion to a magnetic needle suspended over it, which he called magnetism of rotation Annales de chimie et de physique (1824), vol.
+Expected output: 'entities: [{'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}, {'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'magnetism of rotation', 'entity': 'Misc'}, {'span': 'Annales de chimie et de physique', 'entity': 'Academic Journal'}]'
+
+Example #3: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #4: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #5: The orbit of 70 Panopaea places it in a mean motion resonance with the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': '70 Panopaea', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+

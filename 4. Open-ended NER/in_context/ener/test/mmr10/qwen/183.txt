@@ -1,0 +1,30 @@
+Example #1: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #2: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #3: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #4: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #5: Each Fund will furnish, without charge, a copy of its annual report and/or semi-annual report as available upon request.
+Expected output: 'entities: []'
+
+Example #6: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #7: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #8: The Corporation shall indemnify any person who was or is a party or is threatened to be made a party to any threatened, pending or completed action or suit by or in the right of the Corporation to procure a judgment in its favor by reason of the fact that such person is or was a director, officer, employee or agent of the Corporation, or is or was serving at the request of the Corporation as a director, officer, employee or agent of another corporation, partnership, joint venture, trust or other enterprise against expenses (including attorneys ’ fees) actually and reasonably incurred by such person in connection with the defense or settlement of such action or suit if such person acted in good faith and in a manner such person reasonably believed to be in or not opposed to the best interests of the Corporation and except that no indemnification shall be made in respect of any claim, issue or matter as to which such person shall have been adjudged to be liable to the Corporation unless and only to the extent that the Court of Chancery of the State of Delaware or the court in which such action or suit was brought shall determine upon application that, despite the adjudication of liability, but in view of all the circumstances of the case, such person is fairly and reasonably entitled to indemnity for such expenses which the Court of Chancery or such other court shall deem proper.
+Expected output: 'entities: [{'span': 'Court of Chancery of the State of Delaware', 'entity': 'Court'}, {'span': 'Court of Chancery', 'entity': 'Court'}]'
+
+Example #9: The Audit Committee shall assist the Board in oversight and monitoring of (1) the accounting and reporting policies, processes and practices, and the audits of the financial statements, of the Funds; (2) the quality and integrity of the financial statements of the Funds; (3) the Funds compliance with legal and regulatory requirements, (4) the independent auditors qualifications, performance and independence; and (5) oversight of the Pricing Procedures of the Funds and the Valuation Group.
+Expected output: 'entities: []'
+
+Example #10: Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.
+Expected output: 'entities: [{'span': 'Chemical Financial', 'entity': 'Business'}, {'span': 'OAK', 'entity': 'Business'}, {'span': 'SEC', 'entity': 'Government'}, {'span': 'Chemical Financial Corporation', 'entity': 'Business'}, {'span': 'East Main Street', 'entity': 'Location'}, {'span': 'Midland', 'entity': 'Location'}, {'span': 'MI', 'entity': 'Location'}, {'span': 'Lori A. Gwizdala', 'entity': 'Person'}, {'span': 'O.A.K. Financial Corporation', 'entity': 'Business'}, {'span': '84th Street, SW', 'entity': 'Location'}, {'span': 'Byron Center', 'entity': 'Location'}, {'span': 'James A. Luyk', 'entity': 'Person'}]'
+

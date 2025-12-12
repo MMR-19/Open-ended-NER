@@ -1,0 +1,30 @@
+Example #1: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #2: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #3: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #4: South Mumbai has reputed and leading educational institutions such as Jamnalal Bajaj Institute of Management Studies, St. Xavier's College, Government Law College, Jai Hind College, Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals, Sydenham Institute of Management Studies, Research and Entrepreneurship Education to name a few.
+Expected output: 'entities: [{'span': 'South', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Jamnalal Bajaj Institute of Management Studies', 'entity': 'Organisation'}, {'span': "St. Xavier's College", 'entity': 'University'}, {'span': 'Government Law College', 'entity': 'University'}, {'span': 'Jai Hind College', 'entity': 'University'}, {'span': 'Grant Medical College', 'entity': 'University'}, {'span': 'Sir Jamshedjee Jeejeebhoy Group of Hospitals', 'entity': 'Organisation'}, {'span': 'Sydenham Institute of Management Studies', 'entity': 'Organisation'}, {'span': 'Research and Entrepreneurship Education', 'entity': 'Organisation'}]'
+
+Example #5: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #6: Examples are 5-O-Methylgenistein, 5-O-Methylmyricetin or 5-O-methylquercetin, also known as azaleatin.
+Expected output: 'entities: [{'span': '5-O-Methylgenistein', 'entity': 'Chemical Compound'}, {'span': '5-O-Methylmyricetin', 'entity': 'Chemical Compound'}, {'span': '5-O-methylquercetin', 'entity': 'Chemical Compound'}, {'span': 'azaleatin', 'entity': 'Chemical Compound'}]'
+
+Example #7: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #8: For example, when there is a mistake in base pairing, DNA mismatch repair has a bias favoring GC pairs.
+Expected output: 'entities: [{'span': 'DNA mismatch repair', 'entity': 'Misc'}, {'span': 'GC pairs', 'entity': 'Misc'}]'
+
+Example #9: Her laboratory has determined the structures of numerous large protein complexes that play critically important roles in immune signaling, including structures of TRAFs, Myddosome and IKK-beta in Toll-like receptor, the Inflammasome, and the synaptic Recombination-activating gene.
+Expected output: 'entities: [{'span': 'TRAFs', 'entity': 'Protein'}, {'span': 'Myddosome', 'entity': 'Misc'}, {'span': 'IKK-beta', 'entity': 'Protein'}, {'span': 'Toll-like receptor', 'entity': 'Protein'}, {'span': 'Inflammasome', 'entity': 'Misc'}, {'span': 'synaptic Recombination-activating gene', 'entity': 'Protein'}]'
+
+Example #10: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+

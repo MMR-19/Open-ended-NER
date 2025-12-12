@@ -1,0 +1,60 @@
+Example #1: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #2: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #3: Liver function test s may be elevated, particularly involving Gamma-glutamyltransferase and Alkaline phosphatase, with ultrasound and CT scans being considered medical imaging investigations of choice.
+Expected output: 'entities: [{'span': 'Liver function test', 'entity': 'Misc'}, {'span': 'Gamma-glutamyltransferase', 'entity': 'Protein'}, {'span': 'Alkaline phosphatase', 'entity': 'Enzyme'}, {'span': 'ultrasound', 'entity': 'Misc'}, {'span': 'CT scans', 'entity': 'Misc'}]'
+
+Example #4: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #5: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #6: In 1931, an expedition led by Hubert Wilkins and Lincoln Ellsworth and partly financed by William Randolph Hearst, attempted to reach the North Pole with a leased US Navy submarine named Nautilus.
+Expected output: 'entities: [{'span': 'Hubert Wilkins', 'entity': 'Person'}, {'span': 'Lincoln Ellsworth', 'entity': 'Person'}, {'span': 'William Randolph Hearst', 'entity': 'Person'}, {'span': 'North Pole', 'entity': 'Location'}, {'span': 'US Navy submarine named Nautilus', 'entity': 'Misc'}]'
+
+Example #7: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #8: The relative positions of five planets (Saturn, Jupiter, Mars, Venus, and Mercury) were shown, as were the moon's phases and the position of the Sun in the zodiac.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'moon', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'zodiac', 'entity': 'Misc'}]'
+
+Example #9: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #10: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #11: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #12: For example, H3K14 and H4K12 acetylation was found to be decreased, as well as general acetylation across histones H2B and Histone H3.
+Expected output: 'entities: [{'span': 'H3K14', 'entity': 'Misc'}, {'span': 'H4K12 acetylation', 'entity': 'Misc'}, {'span': 'acetylation', 'entity': 'Misc'}, {'span': 'histones H2B', 'entity': 'Protein'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #13: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #14: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #15: Yunjin Kim played Sun-Hwa Kwon, the daughter of a powerful and incredibly wealthy Korean businessman and mobster, with Daniel Dae Kim as her husband and father's enforcer Jin-Soo Kwon.
+Expected output: 'entities: [{'span': 'Yunjin Kim', 'entity': 'Person'}, {'span': 'Sun-Hwa Kwon', 'entity': 'Person'}, {'span': 'Korean', 'entity': 'Misc'}, {'span': 'Daniel Dae Kim', 'entity': 'Person'}, {'span': 'Jin-Soo Kwon', 'entity': 'Person'}]'
+
+Example #16: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #17: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #18: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #19: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #20: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #2: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #3: USO E OCUPAÇÃO DO SOLO NO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #4: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #5: (TJMG - Agravo de Instrumento-Cr 1.0079.14.024867-9/001, Relator (a): Des. (a) Eduardo Brum, 4ª CÂMARA CRIMINAL, julgamento em 30/03/2016, publicação da súmula em 06/04/2016) EMENTA: AGRAVO DE INSTRUMENTO CRIMINAL - LEI MARIA DA PENHA - VIOLÊNCIA DOMÉSTICA - INDÍCIOS SUFICIENTES DE AUTORIA E MATERIALIDADE - MEDIDAS PROTETIVAS - REQUISITOS SATISFEITOS - MANUTENÇÃO DA PROTEÇÃO DE URGÊNCIA - MEDIDA DE CAUTELA - NECESSIDADE DE AVALIAÇÃO DO RISCO ATUAL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento-Cr 1.0079.14.024867-9/001', 'entity': 'Jurisprudência'}, {'span': 'Eduardo Brum', 'entity': 'Pessoa'}, {'span': '4ª CÂMARA CRIMINAL', 'entity': 'Organização'}, {'span': '30/03/2016', 'entity': 'Tempo'}, {'span': '06/04/2016', 'entity': 'Tempo'}, {'span': 'LEI MARIA DA PENHA', 'entity': 'Legislação'}]'
+
+Example #6: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #7: Ementa e Acórdão 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO RELATOR: MIN. LUIZ FUX PACTE.
+Expected output: 'entities: [{'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}]'
+
+Example #8: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #9: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #10: Brasília, 8 de1ç reiro de 2018. p.) LEÃO NUNES ÏIA FILHO - RELATOR AgR-REspe no 68-49.201 6.6.26.03591SP 02 RELATÓRIO O SENHOR MINISTRO NAPOLEÃO NUNES MAIA FILHO: Senhor Presidente, trata-se de agravo interno interposto pelo PSDB - MUNICIPAL de decisão que negou seguimento ao recurso especial manejado contra acórdão proferido pelo TRE de São Paulo, que deu parcial provimento ao recurso eleitoral, apenas para reduzir a multa aplicada, mantendo, todavia, a condenação por propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '8 de1ç reiro de 2018.', 'entity': 'Tempo'}, {'span': 'LEÃO NUNES ÏIA FILHO', 'entity': 'Pessoa'}, {'span': 'AgR-REspe no 68-49.201 6.6.26.03591SP', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'TRE de São Paulo', 'entity': 'Organização'}]'
+

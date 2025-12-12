@@ -1,0 +1,60 @@
+Example #1: This minor planet was named by the discoverer in memory of English astronomers Charles Mason (1728-1786) and Jeremiah Dixon (1733-1779), who observed the 1761 transit of Venus from the Cape of Good Hope.
+Expected output: 'entities: [{'span': 'minor planet', 'entity': 'Misc'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Charles Mason', 'entity': 'Scientist'}, {'span': 'Jeremiah Dixon', 'entity': 'Scientist'}, {'span': '1761 transit of Venus', 'entity': 'Event'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}]'
+
+Example #2: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #3: The widely used iGluSnFR consists of a circularly permuted Green fluorescent protein fused to a glutamate binding protein (GluBP) from a bacterium.
+Expected output: 'entities: [{'span': 'iGluSnFR', 'entity': 'Misc'}, {'span': 'Green fluorescent protein', 'entity': 'Protein'}, {'span': 'glutamate binding protein', 'entity': 'Protein'}, {'span': 'GluBP', 'entity': 'Protein'}]'
+
+Example #4: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #5: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #6: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #7: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #8: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #9: Spermidine synthase uses putrescine and S-Adenosylmethioninamine (decarboxylated S-Adenosyl methionine) to produce spermidine.
+Expected output: 'entities: [{'span': 'Spermidine synthase', 'entity': 'Enzyme'}, {'span': 'putrescine', 'entity': 'Chemical Compound'}, {'span': 'S-Adenosylmethioninamine', 'entity': 'Chemical Compound'}, {'span': 'decarboxylated', 'entity': 'Misc'}, {'span': 'S-Adenosyl methionine', 'entity': 'Chemical Compound'}, {'span': 'spermidine', 'entity': 'Chemical Compound'}]'
+
+Example #10: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #11: The author of the Dictionary of Minor Planet Names, Lutz D. Schmadel, contacted Italian astronomer Paul G. Comba, who confirmed that this naming was another clear instance of homage to him.
+Expected output: 'entities: [{'span': 'Dictionary of Minor Planet Names', 'entity': 'Misc'}, {'span': 'Lutz D. Schmadel', 'entity': 'Person'}, {'span': 'Italian', 'entity': 'Misc'}, {'span': 'Paul G. Comba', 'entity': 'Scientist'}]'
+
+Example #12: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #13: The orbit of 70 Panopaea places it in a mean motion resonance with the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': '70 Panopaea', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #14: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #15: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #16: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #17: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #18: Yunjin Kim played Sun-Hwa Kwon, the daughter of a powerful and incredibly wealthy Korean businessman and mobster, with Daniel Dae Kim as her husband and father's enforcer Jin-Soo Kwon.
+Expected output: 'entities: [{'span': 'Yunjin Kim', 'entity': 'Person'}, {'span': 'Sun-Hwa Kwon', 'entity': 'Person'}, {'span': 'Korean', 'entity': 'Misc'}, {'span': 'Daniel Dae Kim', 'entity': 'Person'}, {'span': 'Jin-Soo Kwon', 'entity': 'Person'}]'
+
+Example #19: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #20: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+

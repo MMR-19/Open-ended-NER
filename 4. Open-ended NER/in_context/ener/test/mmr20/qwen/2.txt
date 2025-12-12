@@ -1,0 +1,60 @@
+Example #1: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #2: Under the Deferred Compensation Plan, Independent Board Members of the Participating Funds may defer receipt of all, or a portion, of the compensation they earn for their services to the Participating Funds, in lieu of receiving current payments of such compensation.
+Expected output: 'entities: []'
+
+Example #3: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #4: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #5: Regarding tax and research projects conducted by the independent registered public accounting firm for each Fund and the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund), such engagements will be (i) pre-approved by the audit committee if they are expected to be for amounts greater than $ 10,000; (ii) reported to the audit committee chairman for his verbal approval prior to engagement if they are expected to be for amounts under $ 10,000 but greater than $ 5,000; and (iii) reported to the audit committee at the next audit committee meeting if they are expected to be for an amount under $ 5,000.
+Expected output: 'entities: []'
+
+Example #6: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #7: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #8: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #9: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #10: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #11: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #12: Management does not intend to present and does not have reason to believe that any other items of business will be presented at the Annual Meetings.
+Expected output: 'entities: []'
+
+Example #13: Each Fund s proxy statement is available at www.nuveen.com/CEF/Info/Shareholder/Proxy Statements.aspx.
+Expected output: 'entities: []'
+
+Example #14: The compliance, risk management and regulatory oversight committee is responsible for the oversight of compliance issues, risk management, and other regulatory matters affecting the Funds which are not otherwise the jurisdiction of the other Board committees.
+Expected output: 'entities: []'
+
+Example #15: Rule 452 permits proportionate voting of Preferred Shares with respect to a particular item if, among other things, (i) a minimum of 30 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares with respect to such item and (ii) less than 10 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares against such item.
+Expected output: 'entities: []'
+
+Example #16: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #17: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #18: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #19: The annual retainer, fees and expenses are allocated among the funds managed by the Adviser, on the basis of relative net asset sizes although fund management may, in its discretion, establish a minimum amount to be allocated to each fund.
+Expected output: 'entities: []'
+
+Example #20: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+

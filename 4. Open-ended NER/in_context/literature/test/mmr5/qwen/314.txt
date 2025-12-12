@@ -1,0 +1,15 @@
+Example #1: The original Chanson d 'Antioche is lost, but it was edited in the 12th century by Graindor de Douai, who also edited the Chanson de Jérusalem, and possibly wrote the Chanson des Chétifs himself.
+Expected output: 'entities: [{'span': "Chanson d 'Antioche", 'entity': 'Poem'}, {'span': 'Graindor de Douai', 'entity': 'Writer'}, {'span': 'Chanson de Jérusalem', 'entity': 'Poem'}, {'span': 'Chanson des Chétifs', 'entity': 'Poem'}]'
+
+Example #2: In addition to writing for The New Yorker, he has written for The Atlantic Monthly and National Geographic.
+Expected output: 'entities: [{'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'The Atlantic Monthly', 'entity': 'Magazine'}, {'span': 'National Geographic', 'entity': 'Magazine'}]'
+
+Example #3: The British military historian John Keegan attacked Clausewitz's theory in his book A History of Warfare. John Keegan, A History of Warfare.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'John Keegan', 'entity': 'Writer'}, {'span': 'Clausewitz', 'entity': 'Writer'}, {'span': 'A History of Warfare', 'entity': 'Book'}]'
+
+Example #4: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #5: Under the influence of Adrian Maniu, the adolescent Tzara became interested in Symbolism and co-founded the magazine Simbolul with Ion Vinea (with whom he also wrote experimental poetry) and painter Marcel Janco.
+Expected output: 'entities: [{'span': 'Adrian Maniu', 'entity': 'Writer'}, {'span': 'Tzara', 'entity': 'Writer'}, {'span': 'Symbolism', 'entity': 'Literary Genre'}, {'span': 'Simbolul', 'entity': 'Magazine'}, {'span': 'Ion Vinea', 'entity': 'Writer'}, {'span': 'experimental poetry', 'entity': 'Literary Genre'}, {'span': 'Marcel Janco', 'entity': 'Person'}]'
+

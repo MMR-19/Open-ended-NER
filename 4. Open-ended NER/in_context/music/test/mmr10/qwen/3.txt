@@ -1,0 +1,30 @@
+Example #1: Outside the south, the accordion (predominantly the piano accordion) is used in almost all styles of Forró (in particular in the subgenres of Xote and Baião) as the principal instrument, Luiz Gonzaga (the King of the Baião) and Dominguinhos being among the notable musicians in this style from the northeast.
+Expected output: 'entities: [{'span': 'piano accordion', 'entity': 'Musical Instrument'}, {'span': 'Forró', 'entity': 'Music Genre'}, {'span': 'Xote', 'entity': 'Music Genre'}, {'span': 'Baião', 'entity': 'Music Genre'}, {'span': 'Luiz Gonzaga', 'entity': 'Musical Artist'}, {'span': 'King of the Baião', 'entity': 'Misc'}, {'span': 'Dominguinhos', 'entity': 'Musical Artist'}]'
+
+Example #2: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #3: Examples of such professional groups include Straight No Chaser, Pentatonix, The House Jacks, Rockapella, Mosaic, Home Free and M-pact.
+Expected output: 'entities: [{'span': 'Straight No Chaser', 'entity': 'Band'}, {'span': 'Pentatonix', 'entity': 'Band'}, {'span': 'The House Jacks', 'entity': 'Band'}, {'span': 'Rockapella', 'entity': 'Band'}, {'span': 'Mosaic', 'entity': 'Band'}, {'span': 'Home Free', 'entity': 'Band'}, {'span': 'M-pact', 'entity': 'Band'}]'
+
+Example #4: The shows were later taken into Europe, and featured such stars as Johnny Cash, Dolly Parton, Tammy Wynette, David Allan Coe, Emmylou Harris, Boxcar Willie, Johnny Russell and Jerry Lee Lewis.
+Expected output: 'entities: [{'span': 'Europe', 'entity': 'Location'}, {'span': 'Johnny Cash', 'entity': 'Musical Artist'}, {'span': 'Dolly Parton', 'entity': 'Musical Artist'}, {'span': 'Tammy Wynette', 'entity': 'Musical Artist'}, {'span': 'David Allan Coe', 'entity': 'Musical Artist'}, {'span': 'Emmylou Harris', 'entity': 'Musical Artist'}, {'span': 'Boxcar Willie', 'entity': 'Musical Artist'}, {'span': 'Johnny Russell', 'entity': 'Musical Artist'}, {'span': 'Jerry Lee Lewis', 'entity': 'Musical Artist'}]'
+
+Example #5: This style emerged in the United States in the early and mid-1980s, with innovators such as Queensrÿche, Fates Warning, and Dream Theater.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'Queensrÿche', 'entity': 'Band'}, {'span': 'Fates Warning', 'entity': 'Band'}, {'span': 'Dream Theater', 'entity': 'Band'}]'
+
+Example #6: In 2005, American Idiot won a Grammy Award for Grammy Award for Best Rock Album and was nominated in six other categories including Grammy Award for Album of the Year.
+Expected output: 'entities: [{'span': 'American Idiot', 'entity': 'Album'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Rock Album', 'entity': 'Award'}, {'span': 'Grammy Award for Album of the Year', 'entity': 'Award'}]'
+
+Example #7: Today, musicians as diverse as Keith Urban, Rod Stewart, Taj Mahal, Joe Satriani, David Hidalgo, Larry Lalonde and Doc Watson play the six-string guitar banjo.
+Expected output: 'entities: [{'span': 'Keith Urban', 'entity': 'Musical Artist'}, {'span': 'Rod Stewart', 'entity': 'Musical Artist'}, {'span': 'Taj Mahal', 'entity': 'Musical Artist'}, {'span': 'Joe Satriani', 'entity': 'Musical Artist'}, {'span': 'David Hidalgo', 'entity': 'Musical Artist'}, {'span': 'Larry Lalonde', 'entity': 'Musical Artist'}, {'span': 'Doc Watson', 'entity': 'Musical Artist'}, {'span': 'six-string guitar banjo', 'entity': 'Musical Instrument'}]'
+
+Example #8: For Mirrors, instead of working with previous producers Sandy Pearlman (who instead went on to manage Black Sabbath) and Murray Krugman, Blue Öyster Cult chose Tom Werman, who had worked with acts such as Cheap Trick and Ted Nugent.
+Expected output: 'entities: [{'span': 'Mirrors', 'entity': 'Album'}, {'span': 'Sandy Pearlman', 'entity': 'Person'}, {'span': 'Black Sabbath', 'entity': 'Band'}, {'span': 'Murray Krugman', 'entity': 'Person'}, {'span': 'Blue Öyster Cult', 'entity': 'Band'}, {'span': 'Tom Werman', 'entity': 'Person'}, {'span': 'Cheap Trick', 'entity': 'Band'}, {'span': 'Ted Nugent', 'entity': 'Musical Artist'}]'
+
+Example #9: On 9 June 1892 the Paris Opéra-Comique staged Les Troyens à Carthage (in the Théâtre de la Ville as its premiere) and witnessed a triumphant debut for the 17-year-old Marie Delna as Didon, with Stéphane Lafarge as Énée, conducted by Jules Danbé; these staged performances of Part 2 continued into the next year.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Location'}, {'span': 'Opéra-Comique', 'entity': 'Organisation'}, {'span': 'Les Troyens à Carthage', 'entity': 'Misc'}, {'span': 'Théâtre de la Ville', 'entity': 'Location'}, {'span': 'Marie Delna', 'entity': 'Musical Artist'}, {'span': 'Didon', 'entity': 'Misc'}, {'span': 'Stéphane Lafarge', 'entity': 'Person'}, {'span': 'Énée', 'entity': 'Misc'}, {'span': 'Jules Danbé', 'entity': 'Musical Artist'}]'
+
+Example #10: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+

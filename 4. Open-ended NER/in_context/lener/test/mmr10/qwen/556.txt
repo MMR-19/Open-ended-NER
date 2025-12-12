@@ -1,0 +1,30 @@
+Example #1: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #2: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #4: Requer, ainda, o provimento do recurso para o fim de ajustar os honorários sucumbenciais, nos termos do art. 86, parágrafo único, do CPC.
+Expected output: 'entities: [{'span': 'art. 86, parágrafo único, do CPC', 'entity': 'Legislação'}]'
+
+Example #5: Brasília, 8 de1ç reiro de 2018. p.) LEÃO NUNES ÏIA FILHO - RELATOR AgR-REspe no 68-49.201 6.6.26.03591SP 02 RELATÓRIO O SENHOR MINISTRO NAPOLEÃO NUNES MAIA FILHO: Senhor Presidente, trata-se de agravo interno interposto pelo PSDB - MUNICIPAL de decisão que negou seguimento ao recurso especial manejado contra acórdão proferido pelo TRE de São Paulo, que deu parcial provimento ao recurso eleitoral, apenas para reduzir a multa aplicada, mantendo, todavia, a condenação por propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '8 de1ç reiro de 2018.', 'entity': 'Tempo'}, {'span': 'LEÃO NUNES ÏIA FILHO', 'entity': 'Pessoa'}, {'span': 'AgR-REspe no 68-49.201 6.6.26.03591SP', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'TRE de São Paulo', 'entity': 'Organização'}]'
+
+Example #6: De igual modo, está pacificado no STJ o entendimento acerca da possibilidade de sucessiva prorrogação das interceptações, desde que devidamente fundamentadas, apesar de o art. 5º da Lei n. 9.296/1996 prever o prazo máximo de 15 (quinze) dias para tal medida, renovável por igual período (RHC 41.179/SP, Rel. Ministro FELIX FISCHER, QUINTA TURMA, julgado em 09/06/2015, DJe 19/06/2015, e HC 210.022/SP, Rel. Ministro SEBASTIÃO REIS JÚNIOR, SEXTA TURMA, julgado em 21/08/2014, DJe 05/09/2014).
+Expected output: 'entities: [{'span': 'STJ', 'entity': 'Organização'}, {'span': 'art. 5º da Lei n. 9.296/1996', 'entity': 'Legislação'}, {'span': 'RHC 41.179/SP', 'entity': 'Jurisprudência'}, {'span': 'FELIX FISCHER', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '09/06/2015', 'entity': 'Tempo'}, {'span': '19/06/2015', 'entity': 'Tempo'}, {'span': 'HC 210.022/SP', 'entity': 'Jurisprudência'}, {'span': 'SEBASTIÃO REIS JÚNIOR', 'entity': 'Pessoa'}, {'span': 'SEXTA TURMA', 'entity': 'Organização'}, {'span': '21/08/2014', 'entity': 'Tempo'}, {'span': '05/09/2014', 'entity': 'Tempo'}]'
+
+Example #7: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #8: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #9: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #10: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+

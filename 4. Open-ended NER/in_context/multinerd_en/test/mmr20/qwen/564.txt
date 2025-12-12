@@ -1,0 +1,60 @@
+Example #1: " Sagittaria engelmanniana " occurs in wetlands, predominantly those with acidic water such as " Sphagnum " bogs.
+Expected output: 'entities: [{'span': 'Sphagnum', 'entity': 'Biological entity'}]'
+
+Example #2: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #3: The algae is sometimes identified as " Cladophora " sp. or " Dichotomosiphon tuberosus ".
+Expected output: 'entities: [{'span': 'Cladophora', 'entity': 'Biological entity'}]'
+
+Example #4: The wingtip pylons each can carry an AIM-9 X or AIM-132 ASRAAM and are canted outwards to reduce their radar cross-section.
+Expected output: 'entities: [{'span': 'AIM-9 X', 'entity': 'Instrument'}, {'span': 'AIM-132 ASRAAM', 'entity': 'Instrument'}]'
+
+Example #5: It flowers in spring, from May to August, and produces seed from July to September.
+Expected output: 'entities: [{'span': 'spring', 'entity': 'Time'}, {'span': 'seed', 'entity': 'Food'}]'
+
+Example #6: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #7: Some recipes also call for small quantities of star anise, asafoetida, chili, stone flower (known as " dagadphool "), and " kababchini " (" cubeb ").
+Expected output: 'entities: [{'span': 'asafoetida', 'entity': 'Food'}, {'span': 'chili', 'entity': 'Plant'}, {'span': 'stone flower', 'entity': 'Animal'}]'
+
+Example #8: Each kalpa lasts for 4.32 billion years and is followed by a pralaya of equal length, which together makes one full day and night of Brahma's 100 360-year lifespan, who lives for 311 trillion, 40 billion years.
+Expected output: 'entities: [{'span': 'Brahma', 'entity': 'Mythological entity'}]'
+
+Example #9: White fir is popular as a Christmas tree and for Christmas decoration owing to its soft needles, generally excellent needle retention and abundance.
+Expected output: 'entities: [{'span': 'Christmas tree', 'entity': 'Plant'}, {'span': 'Christmas', 'entity': 'Time'}]'
+
+Example #10: On February 3, 1966 " Luna 9 " spacecraft was the first spacecraft to achieve a lunar soft landing and to transmit photographic data to Earth.
+Expected output: 'entities: [{'span': 'Luna 9', 'entity': 'Vehicle'}, {'span': 'lunar', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}]'
+
+Example #11: He was born in Brussels, Belgium, the youngest child of Henry L'Estrange Styleman Le Strange of Hunstanton, Norfolk, educated at Clifton College and died in Cambridge.
+Expected output: 'entities: [{'span': 'Brussels', 'entity': 'Location'}, {'span': 'Belgium', 'entity': 'Location'}, {'span': "Henry L'Estrange Styleman Le Strange", 'entity': 'Person'}, {'span': 'Hunstanton', 'entity': 'Location'}, {'span': 'Norfolk', 'entity': 'Location'}, {'span': 'Clifton College', 'entity': 'Organization'}, {'span': 'Cambridge', 'entity': 'Organization'}]'
+
+Example #12: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+
+Example #13: There are also several reports in the medical literature of deaths from " D. stramonium " and " D. ferox " intoxication.
+Expected output: 'entities: [{'span': 'D. stramonium', 'entity': 'Plant'}, {'span': 'D. ferox', 'entity': 'Animal'}, {'span': 'intoxication', 'entity': 'Disease'}]'
+
+Example #14: The inhabitants paid for their punishment by wandering underwater, their desperate scream being transmitted by Oźwiena, the goddess of echo.
+Expected output: 'entities: [{'span': 'Oźwiena', 'entity': 'Mythological entity'}]'
+
+Example #15: He also co-hosted the short-lived TV talent show " The Hit " on RTÉ One along with Aidan Power.
+Expected output: 'entities: [{'span': 'The Hit', 'entity': 'Media'}, {'span': 'RTÉ One', 'entity': 'Organization'}, {'span': 'Aidan Power', 'entity': 'Person'}]'
+
+Example #16: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #17: The team competes in series such as the Deutsche Tourenwagen Masters and FIA GT1 World Championship.
+Expected output: 'entities: [{'span': 'Deutsche Tourenwagen Masters', 'entity': 'Event'}, {'span': 'FIA GT1 World Championship', 'entity': 'Vehicle'}]'
+
+Example #18: " Plasmodium " parasites including " Haemoproteus " have been detected in their blood.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}, {'span': 'Haemoproteus', 'entity': 'Biological entity'}]'
+
+Example #19: This is the fertilized eggs or roe (" qaarsat, meluk, imlauk ") of the Pacific herring attached to eelgrass, seaweed or other submerged vegetation.
+Expected output: 'entities: [{'span': 'roe', 'entity': 'Food'}, {'span': 'Pacific herring', 'entity': 'Animal'}, {'span': 'eelgrass', 'entity': 'Plant'}]'
+
+Example #20: In April 2008, the " Disney Wonder " cruise ship launched " Toy Story: The Musical " shows on its cruises.
+Expected output: 'entities: [{'span': 'Disney Wonder', 'entity': 'Vehicle'}, {'span': 'Toy Story: The Musical', 'entity': 'Media'}]'
+

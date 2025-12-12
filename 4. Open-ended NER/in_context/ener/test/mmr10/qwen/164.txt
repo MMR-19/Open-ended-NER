@@ -1,0 +1,30 @@
+Example #1: To request a separate copy of an annual report or proxy statement, or for instructions as to how to request a separate copy of such documents or as to how to request a single copy if multiple copies of such documents are received, shareholders should contact the applicable Fund at the address and phone number set forth above.
+Expected output: 'entities: []'
+
+Example #2: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #3: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #4: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #5: The committee may use any process it deems appropriate for the purpose of evaluating candidates, which process may include, without limitation, personal interviews, background checks, written submissions by the candidates and third party references.
+Expected output: 'entities: []'
+
+Example #6: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #7: A copy of the Audit Committee Charter is attached as Appendix D.
+Expected output: 'entities: []'
+
+Example #8: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #9: Payment of Filing Fee (check the appropriate box):
+Expected output: 'entities: []'
+
+Example #10: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+

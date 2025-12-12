@@ -1,0 +1,30 @@
+Example #1: Any additional costs of solicitation will be paid by the Fund that requires additional solicitation.
+Expected output: 'entities: []'
+
+Example #2: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+
+Example #3: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #4: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #5: Based on such review, it is authorized to make recommendations to the Board.
+Expected output: 'entities: []'
+
+Example #6: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #7: You may vote by mail, telephone or over the Internet.
+Expected output: 'entities: [{'span': 'Internet', 'entity': 'Miscellaneous'}]'
+
+Example #8: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #9: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #10: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+

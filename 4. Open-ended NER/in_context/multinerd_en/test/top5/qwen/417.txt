@@ -1,0 +1,15 @@
+Example #1: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #2: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #3: While the region is best known for its convict history it is now the key area in the battle to save the Tasmanian devil from extinction from a new type of contagious cancer called devil facial tumour disease (DFTD).
+Expected output: 'entities: [{'span': 'Tasmanian devil', 'entity': 'Animal'}, {'span': 'contagious cancer', 'entity': 'Disease'}, {'span': 'devil facial tumour disease', 'entity': 'Disease'}]'
+
+Example #4: " Plasmodium " parasites including " Haemoproteus " have been detected in their blood.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}, {'span': 'Haemoproteus', 'entity': 'Biological entity'}]'
+
+Example #5: He was honoured for his pioneering work on prevention of Rh disease of the newborn, and also for his work on the genetics of the Lepidoptera (butterflies and moths).
+Expected output: 'entities: [{'span': 'Rh disease', 'entity': 'Disease'}, {'span': 'Lepidoptera', 'entity': 'Animal'}]'
+

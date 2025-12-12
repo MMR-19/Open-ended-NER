@@ -1,0 +1,60 @@
+Example #1: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #2: Ong Valley () is a mainly ice-free valley 5 nautical miles (9 km) long, just west of Kreiling Mesa in the Miller Range.
+Expected output: 'entities: [{'span': 'Ong Valley', 'entity': 'Location'}, {'span': 'Kreiling Mesa', 'entity': 'Location'}, {'span': 'Miller Range', 'entity': 'Location'}]'
+
+Example #3: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #4: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #5: South Mumbai has reputed and leading educational institutions such as Jamnalal Bajaj Institute of Management Studies, St. Xavier's College, Government Law College, Jai Hind College, Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals, Sydenham Institute of Management Studies, Research and Entrepreneurship Education to name a few.
+Expected output: 'entities: [{'span': 'South', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Jamnalal Bajaj Institute of Management Studies', 'entity': 'Organisation'}, {'span': "St. Xavier's College", 'entity': 'University'}, {'span': 'Government Law College', 'entity': 'University'}, {'span': 'Jai Hind College', 'entity': 'University'}, {'span': 'Grant Medical College', 'entity': 'University'}, {'span': 'Sir Jamshedjee Jeejeebhoy Group of Hospitals', 'entity': 'Organisation'}, {'span': 'Sydenham Institute of Management Studies', 'entity': 'Organisation'}, {'span': 'Research and Entrepreneurship Education', 'entity': 'Organisation'}]'
+
+Example #6: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #7: Lost was created by Jeffrey Lieber, J. J. Abrams and Damon Lindelof, who share story writing credits for the pilot episode, which Abrams directed.
+Expected output: 'entities: [{'span': 'Lost', 'entity': 'Misc'}, {'span': 'Jeffrey Lieber', 'entity': 'Person'}, {'span': 'J. J. Abrams', 'entity': 'Person'}, {'span': 'Damon Lindelof', 'entity': 'Person'}, {'span': 'pilot episode', 'entity': 'Misc'}, {'span': 'Abrams', 'entity': 'Person'}]'
+
+Example #8: Glyceraldehyde 3-phosphate has also been shown to inhibit the lsr operon through Cyclic adenosine monophosphate -CAPK-mediated inhibition.
+Expected output: 'entities: [{'span': 'Glyceraldehyde 3-phosphate', 'entity': 'Chemical Compound'}, {'span': 'lsr operon', 'entity': 'Misc'}, {'span': 'Cyclic adenosine monophosphate', 'entity': 'Chemical Compound'}]'
+
+Example #9: Boom Town, a 1940 film about wildcatting in the early Oklahoma oil industry, starred Clark Gable and Spencer Tracy.
+Expected output: 'entities: [{'span': 'Boom Town', 'entity': 'Misc'}, {'span': 'Oklahoma', 'entity': 'Location'}, {'span': 'Clark Gable', 'entity': 'Person'}, {'span': 'Spencer Tracy', 'entity': 'Person'}]'
+
+Example #10: It will use the gravity assist technique with Earth once, with Venus twice, and six times with Mercury.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}]'
+
+Example #11: After that, they present these peptides in complexes together with their Major histocompatibility complex molecules on their cell surface.
+Expected output: 'entities: [{'span': 'Major histocompatibility complex', 'entity': 'Protein'}]'
+
+Example #12: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #13: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #14: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #15: Hall also parodied the song as Cell Black Django using celebrities NeNe Leakes (as the master of ceremonies), Nicki Minaj, Rihanna, Solange Knowles, Beyoncé, internet meme Sharkeisha (which he portrayed), and Mariah Carey.
+Expected output: 'entities: [{'span': 'Hall', 'entity': 'Person'}, {'span': 'Cell Black Django', 'entity': 'Misc'}, {'span': 'NeNe Leakes', 'entity': 'Person'}, {'span': 'Nicki Minaj', 'entity': 'Person'}, {'span': 'Rihanna', 'entity': 'Person'}, {'span': 'Solange Knowles', 'entity': 'Person'}, {'span': 'Beyoncé', 'entity': 'Person'}, {'span': 'Sharkeisha', 'entity': 'Person'}, {'span': 'Mariah Carey', 'entity': 'Person'}]'
+
+Example #16: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #17: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #18: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #19: For example, H3K14 and H4K12 acetylation was found to be decreased, as well as general acetylation across histones H2B and Histone H3.
+Expected output: 'entities: [{'span': 'H3K14', 'entity': 'Misc'}, {'span': 'H4K12 acetylation', 'entity': 'Misc'}, {'span': 'acetylation', 'entity': 'Misc'}, {'span': 'histones H2B', 'entity': 'Protein'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #20: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+

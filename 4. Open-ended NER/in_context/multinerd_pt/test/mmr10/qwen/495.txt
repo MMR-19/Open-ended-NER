@@ -1,0 +1,30 @@
+Example #1: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #2: " Aetanthus " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #3: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #4: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #5: O mesmo possui uma magnitude absoluta de 5,6 e, tem um diâmetro estimado de cerca de 158 km, por isso existem poucas chances que possa ser classificado como um planeta anão, devido ao seu tamanho relativamente pequeno.
+Expected output: 'entities: [{'span': 'planeta anão', 'entity': 'Corpo celeste'}]'
+
+Example #6: A aeronave contava com uma turbina SNECMA Atar 09 C e um exaustor variável de pétalas, mais aberto.
+Expected output: 'entities: [{'span': 'SNECMA Atar 09 C', 'entity': 'Instrumento'}]'
+
+Example #7: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Seu filho, Simon Bolivar Buckner, Jr., foi um general americano durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Simon Bolivar Buckner, Jr.', 'entity': 'Pessoa'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #9: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #10: Também inspirou uma canção de sucesso, " Wuthering Heights ", composta e interpretada por Kate Bush para o álbum " The Kick Inside ", de 1978, e posteriormente regravada pela banda Angra, em seu álbum " Angels Cry ", de 1993.
+Expected output: 'entities: [{'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'The Kick Inside', 'entity': 'Média'}, {'span': '1978', 'entity': 'Tempo'}, {'span': 'Angra', 'entity': 'Organização'}, {'span': 'Angels Cry', 'entity': 'Média'}, {'span': '1993', 'entity': 'Tempo'}]'
+

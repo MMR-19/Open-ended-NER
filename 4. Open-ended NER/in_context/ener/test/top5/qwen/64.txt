@@ -1,0 +1,15 @@
+Example #1: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #2: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #3: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #4: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #5: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+

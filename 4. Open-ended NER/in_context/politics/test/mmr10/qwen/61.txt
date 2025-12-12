@@ -1,0 +1,30 @@
+Example #1: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #2: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #3: Isaac Butt (6 September 1813 - 5 May 1879), was an Irish barrister, politician, Member of Parliament (M.P.) in the House of Commons of the United Kingdom, and the founder and first leader of a number of Irish nationalist parties and organisations, including the Irish Metropolitan Conservative Society in 1836, the Home Government Association in 1870 and in 1873 the Home Rule League.
+Expected output: 'entities: [{'span': 'Isaac Butt', 'entity': 'Politician'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'House of Commons of the United Kingdom', 'entity': 'Organisation'}, {'span': 'Irish nationalist', 'entity': 'Misc'}, {'span': 'Irish Metropolitan Conservative Society', 'entity': 'Political Party'}, {'span': 'Home Government Association', 'entity': 'Political Party'}, {'span': 'Home Rule League', 'entity': 'Political Party'}]'
+
+Example #4: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #5: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #6: Brooks was a member of the Masonic Lodge, the Shriners, the Benevolent and Protective Order of Elks, American Legion, Veterans of Foreign Wars, and the Kiwanis International.
+Expected output: 'entities: [{'span': 'Brooks', 'entity': 'Person'}, {'span': 'Masonic Lodge', 'entity': 'Organisation'}, {'span': 'Shriners', 'entity': 'Organisation'}, {'span': 'Benevolent and Protective Order of Elks', 'entity': 'Organisation'}, {'span': 'American Legion', 'entity': 'Organisation'}, {'span': 'Veterans of Foreign Wars', 'entity': 'Organisation'}, {'span': 'Kiwanis International', 'entity': 'Organisation'}]'
+
+Example #7: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #8: Between 1925 and 1930 Germany was the site of innovative and extensive municipal public housing projects, mostly in Berlin, Hamburg, Cologne and Frankfurt.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Hamburg', 'entity': 'Location'}, {'span': 'Cologne', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}]'
+
+Example #9: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #10: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+

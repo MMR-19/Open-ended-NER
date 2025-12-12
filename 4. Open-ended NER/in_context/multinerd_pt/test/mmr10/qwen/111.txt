@@ -1,0 +1,30 @@
+Example #1: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #2: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #3: Em seu romance " 120 Dias de Sodoma ", por exemplo, nobres devassos abusam de crianças raptadas encerrados num castelo de luxo, num clima de crescente violência, com coprofagia, mutilações e assassinatos.
+Expected output: 'entities: [{'span': '120 Dias de Sodoma', 'entity': 'Média'}, {'span': 'coprofagia', 'entity': 'Comida'}]'
+
+Example #4: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #5: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #6: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #7: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #8: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #9: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #10: A fim de melhorar o desempenho de uma nova fuselagem aerodinâmica, juntamente com um alongamento do rotor de cauda, porém o rotor principal e o sistema de transmissão do R-4 foram mantidos.
+Expected output: 'entities: [{'span': 'R-4', 'entity': 'Veículo'}]'
+

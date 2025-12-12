@@ -1,0 +1,60 @@
+Example #1: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #2: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #3: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #4: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #5: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #6: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #7: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #8: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #9: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #10: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #11: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #12: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #13: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #14: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #15: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #16: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #17: Entretanto, a sonda Mars Reconnaissance Orbiter revelou veios de água salgada que fluem em regiões montanhosas nos meses mais quentes do planeta, aumentando a possibilidade da existência de vida micro-orgânica.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrumento'}]'
+
+Example #18: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #19: O " Toxoplasma gondii " é um protozoário parasita intracelular obrigatório do grupo dos Apicomplexa, como outros parasitas como o " Plasmodium ".
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}]'
+
+Example #20: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+

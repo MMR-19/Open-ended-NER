@@ -1,0 +1,30 @@
+Example #1: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #2: The planets have been designated Pr0201 b and Pr0211 b.
+Expected output: 'entities: [{'span': 'Pr0201 b', 'entity': 'Astronomical Object'}, {'span': 'Pr0211 b', 'entity': 'Astronomical Object'}]'
+
+Example #3: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #4: In 1831, Michael Faraday made the seminal observation that time-varying magnetic fields could induce electric currents and then, in 1864, James Clerk Maxwell published his famous paper A Dynamical Theory of the Electromagnetic Field. Maxwell 1864 5, page 499; also David J. Griffiths (1999), Introduction to electrodynamics, third Edition, ed.
+Expected output: 'entities: [{'span': 'Michael Faraday', 'entity': 'Scientist'}, {'span': 'James Clerk Maxwell', 'entity': 'Scientist'}, {'span': 'A Dynamical Theory of the Electromagnetic Field', 'entity': 'Misc'}, {'span': 'Maxwell', 'entity': 'Scientist'}, {'span': 'David J. Griffiths', 'entity': 'Scientist'}, {'span': 'electrodynamics', 'entity': 'Discipline'}]'
+
+Example #5: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #6: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #7: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #8: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #9: The two-part finale's epic scale and underlying plot was first conceived in early 2007 as the last regular-series story for departing producer s Russell T Davies, Julie Gardner, and Phil Collinson: the fourth series finale is the last story produced by Collinson; and Steven Moffat and Piers Wenger replaced Davies and Gardner as show runner and executive producer respectively in 2010.
+Expected output: 'entities: [{'span': 'Russell T Davies', 'entity': 'Person'}, {'span': 'Julie Gardner', 'entity': 'Person'}, {'span': 'Phil Collinson', 'entity': 'Person'}, {'span': 'Collinson', 'entity': 'Person'}, {'span': 'Steven Moffat', 'entity': 'Person'}, {'span': 'Piers Wenger', 'entity': 'Person'}, {'span': 'Davies', 'entity': 'Person'}, {'span': 'Gardner', 'entity': 'Person'}]'
+
+Example #10: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+

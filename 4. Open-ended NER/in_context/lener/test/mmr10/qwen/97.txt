@@ -1,0 +1,30 @@
+Example #1: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #2: (AgRg no REsp 1199918/SP, Rel. Ministro REYNALDO SOARES DA FONSECA, QUINTA TURMA, julgado em 04/08/2015, DJe 12/08/2015) Realço, por fim, que o Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1199918/SP', 'entity': 'Jurisprudência'}, {'span': 'REYNALDO SOARES DA FONSECA', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '04/08/2015', 'entity': 'Tempo'}, {'span': '12/08/2015', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno, Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #3: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #4: O CPC/2015 também não admite a alteração da causa de pedir, ainda que com consentimento do réu, após o saneamento do processo (art. 329, II).
+Expected output: 'entities: [{'span': 'CPC/2015', 'entity': 'Legislação'}]'
+
+Example #5: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #6: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #7: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #8: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #9: Sobremais, a apelante anexou à exordial planilha de atualização do débito (p. 35), a qual estabelece de forma detalhada os valores que compõem a pretensão inicial, 1 TJRJ, Agravo de Instrumento n.º 00113878520158190000, Relator: Fernando Cerqueira Chagas, Data de Julgamento: 22/05/2015, Décima Primeira Câmara Cível, Data de Publicação: 26/05/2015; REsp 944.352/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, julgado em 29/11/2007, DJ 07/02/2008.
+Expected output: 'entities: [{'span': 'TJRJ', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento n.º 00113878520158190000', 'entity': 'Jurisprudência'}, {'span': 'Fernando Cerqueira Chagas', 'entity': 'Pessoa'}, {'span': '22/05/2015', 'entity': 'Tempo'}, {'span': 'Décima Primeira Câmara Cível', 'entity': 'Organização'}, {'span': '26/05/2015', 'entity': 'Tempo'}, {'span': 'REsp 944.352/SP', 'entity': 'Jurisprudência'}, {'span': 'Arnaldo Esteves Lima', 'entity': 'Pessoa'}, {'span': 'Quinta Turma', 'entity': 'Organização'}, {'span': '29/11/2007', 'entity': 'Tempo'}, {'span': '07/02/2008', 'entity': 'Tempo'}]'
+
+Example #10: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

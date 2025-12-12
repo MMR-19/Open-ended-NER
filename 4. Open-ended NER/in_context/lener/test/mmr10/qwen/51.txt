@@ -1,0 +1,30 @@
+Example #1: (TJMG - Apelação Cível 1.0024.13.330164-8/001, Relator (a): Des. (a) Aparecida Grossi, 16ª CÂMARA CÍVEL, julgamento em 06/10/0017, publicação da súmula em 11/10/2017) EMENTA: DIREITO PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0024.13.330164-8/001', 'entity': 'Jurisprudência'}, {'span': 'Aparecida Grossi', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/10/0017', 'entity': 'Tempo'}, {'span': '11/10/2017', 'entity': 'Tempo'}]'
+
+Example #2: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #3: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #4: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #6: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #8: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #9: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #10: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+

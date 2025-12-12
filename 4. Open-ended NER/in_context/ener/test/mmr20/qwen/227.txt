@@ -1,0 +1,60 @@
+Example #1: The audit committee has approved in advance all audit services and non-audit services that the independent registered public accounting firm provided to each Fund and to the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund).
+Expected output: 'entities: []'
+
+Example #2: (“ BS & Co. ”) in the New York District Court in a civil action captioned Securities and Exchange Commission v. Bear, Stearns & Co.
+Expected output: 'entities: [{'span': 'BS & Co.', 'entity': 'Business'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Bear, Stearns & Co.', 'entity': 'Business'}]'
+
+Example #3: We have acted as special counsel to Regency Energy Partners LP, a Delaware limited partnership (the Partnership), Regency Energy Finance Corp., a Delaware corporation (Regency Finance and, together with the Partnership, the Issuers), and the entities listed on Schedule I hereto (collectively, the Guarantors), in connection with the filing on the date hereof with the Securities and Exchange Commission (the Commission) of Post-Effective Amendment No. 1 (the Amendment) to the registration statement on Form S-3 (File No. 333-169901) (the Registration Statement) under the Securities Act of 1933, as amended (the Act).
+Expected output: 'entities: [{'span': 'Regency Energy Partners LP', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'Regency Energy Finance Corp.', 'entity': 'Business'}, {'span': 'Regency Finance', 'entity': 'Business'}, {'span': 'Schedule I', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}]'
+
+Example #4: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #5: The annual retainer, fees and expenses are allocated among the funds managed by the Adviser, on the basis of relative net asset sizes although fund management may, in its discretion, establish a minimum amount to be allocated to each fund.
+Expected output: 'entities: []'
+
+Example #6: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #7: In particular, each member must meet the independence and experience requirements applicable to the Funds of the exchanges on which shares of the Funds are listed, Section 10a of the Securities Exchange Act of 1934 (the Exchange Act), and the rules and regulations of the Securities and Exchange Commission (the Commission).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #8: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #9: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #10: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #11: The nominating and governance committee looks to many sources for recommendations of qualified candidates, including current Board Members, employees of the Adviser, current shareholders of the Funds, third party sources and any other persons or entities that may be deemed necessary or desirable by the committee.
+Expected output: 'entities: []'
+
+Example #12: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #13: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #14: Under the Deferred Compensation Plan, Independent Board Members of the Participating Funds may defer receipt of all, or a portion, of the compensation they earn for their services to the Participating Funds, in lieu of receiving current payments of such compensation.
+Expected output: 'entities: []'
+
+Example #15: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #16: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #17: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+
+Example #18: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #19: In February 2000, plaintiff Adam A. Schwartz filed a lawsuit in California Superior Court against VISA International Corp., VISA International Service Association, Inc., VISA U.S.A., Inc. and MasterCard International Incorporated alleging that VISA and MasterCard have unlawfully concealed the fact that each increases by 1 % the rate at which it converts foreign currency to United States dollars for credit card purchases made in foreign currencies by United States cardholders.
+Expected output: 'entities: [{'span': 'Adam A. Schwartz', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'VISA International Corp.', 'entity': 'Business'}, {'span': 'VISA International Service Association, Inc.', 'entity': 'Business'}, {'span': 'VISA U.S.A., Inc.', 'entity': 'Business'}, {'span': 'MasterCard International Incorporated', 'entity': 'Business'}, {'span': 'VISA', 'entity': 'Business'}, {'span': 'MasterCard', 'entity': 'Business'}, {'span': 'United States', 'entity': 'Location'}]'
+
+Example #20: The inspectors of election will treat abstentions and broker non-votes (i.e., shares held by brokers or nominees, typically in street name, as to which (i) instructions have not been received from the beneficial owners or persons entitled to vote and (ii) the broker or nominee does not have discretionary voting power on a particular matter) as present for purposes of determining a quorum.
+Expected output: 'entities: []'
+

@@ -1,0 +1,60 @@
+Example #1: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #2: Enquanto a maioria das pessoas tende a pensar em colônias humanas em Marte ou na Lua, alguns argumentam que as primeiras colônias extraterrestres serão em órbita (como na Estação Espacial Internacional).
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Corpo celeste'}, {'span': 'Lua', 'entity': 'Corpo celeste'}, {'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}]'
+
+Example #3: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #4: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #5: Extensamente citada nos Atos dos Apóstolos e nas epístolas paulinas, na cidade de Antioquia é descrita por São Lucas, ele mesmo membro da comunidade, a primeira vez em que os discípulos de Cristo foram chamados cristãos.
+Expected output: 'entities: [{'span': 'Atos dos Apóstolos', 'entity': 'Média'}, {'span': 'Antioquia', 'entity': 'Localização'}, {'span': 'São Lucas', 'entity': 'Entidade mitológica'}, {'span': 'Cristo', 'entity': 'Pessoa'}]'
+
+Example #6: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #7: No século 28, após o fim da construção da Estação Espacial Internacional, diversas raças alienígenas fazem contato com a humanidade e adicionam sua tecnologia à estação, tornando sua massa demasiadamente grande para mantê-la na órbita da Terra.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Aproveitando a oportunidade em suas mãos, Nelson Piquet marcou o melhor tempo em Jacarepaguá com seu modelo Brabham BT49 ao testar os compostos da Goodyear na quarta-feira de cinzas.
+Expected output: 'entities: [{'span': 'Nelson Piquet', 'entity': 'Pessoa'}, {'span': 'Jacarepaguá', 'entity': 'Localização'}, {'span': 'Brabham BT49', 'entity': 'Veículo'}, {'span': 'Goodyear', 'entity': 'Organização'}, {'span': 'quarta-feira de cinzas', 'entity': 'Tempo'}]'
+
+Example #9: Aproveitando a oportunidade em suas mãos, Nelson Piquet marcou o melhor tempo em Jacarepaguá com seu modelo Brabham BT49 ao testar os compostos da Goodyear na quarta-feira de cinzas.
+Expected output: 'entities: [{'span': 'Nelson Piquet', 'entity': 'Pessoa'}, {'span': 'Jacarepaguá', 'entity': 'Localização'}, {'span': 'Brabham BT49', 'entity': 'Veículo'}, {'span': 'Goodyear', 'entity': 'Organização'}, {'span': 'quarta-feira de cinzas', 'entity': 'Tempo'}]'
+
+Example #10: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #11: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #12: Entretanto, a sonda Mars Reconnaissance Orbiter revelou veios de água salgada que fluem em regiões montanhosas nos meses mais quentes do planeta, aumentando a possibilidade da existência de vida micro-orgânica.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrumento'}]'
+
+Example #13: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #14: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #15: Em 2007, com o lançamento do terceiro disco da banda, " Celestial ", deram início a segunda turnê da carreira, a Celestial World Tour, que teve início em 20 de abril de 2007 e teve término em fevereiro de 2008.
+Expected output: 'entities: [{'span': 'Celestial', 'entity': 'Média'}, {'span': 'Celestial World Tour', 'entity': 'Evento'}]'
+
+Example #16: Questionada pelos fãs, a equipe responsável pelo Twitter do escritor respondeu em meados do mesmo mês que ele estava " melhorando lentamente ", mantendo a postura de não entrar em detalhes a respeito do que levou à internação.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #17: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #18: Com as ninfas e Tétis sob esta influência, coloca uma ilha mística na rota de regresso dos portugueses, e a ela traz os amantes.
+Expected output: 'entities: [{'span': 'Tétis', 'entity': 'Entidade mitológica'}]'
+
+Example #19: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #20: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+

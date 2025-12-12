@@ -1,0 +1,15 @@
+Example #1: At the 33rd Academy Awards, The Apartment was nominated for ten awards and won five, including Academy Award for Best Picture, Academy Award for Best Director, and Academy Award for Best Original Screenplay.
+Expected output: 'entities: [{'span': '33rd Academy Awards', 'entity': 'Award'}, {'span': 'The Apartment', 'entity': 'Misc'}, {'span': 'Academy Award for Best Picture', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Screenplay', 'entity': 'Award'}]'
+
+Example #2: These were: Now and Zen in 1988, Manic Nirvana in 1990, and the 1993 Fate of Nations (which features Moya Brennan of Clannad and former Cutting Crew guitarist Kevin MacMichael).
+Expected output: 'entities: [{'span': 'Now and Zen', 'entity': 'Album'}, {'span': 'Manic Nirvana', 'entity': 'Album'}, {'span': 'Fate of Nations', 'entity': 'Album'}, {'span': 'Moya Brennan', 'entity': 'Musical Artist'}, {'span': 'Clannad', 'entity': 'Band'}, {'span': 'Cutting Crew', 'entity': 'Band'}, {'span': 'Kevin MacMichael', 'entity': 'Musical Artist'}]'
+
+Example #3: She released her first Spanish language album, Mi Plan, in 2009, which won her a Latin Grammy Award for Latin Grammy Award for Best Female Pop Vocal Album.
+Expected output: 'entities: [{'span': 'Spanish', 'entity': 'Misc'}, {'span': 'Mi Plan', 'entity': 'Album'}, {'span': 'Latin Grammy Award for Latin Grammy Award for Best Female Pop Vocal Album', 'entity': 'Award'}]'
+
+Example #4: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+
+Example #5: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #2: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #3: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #4: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #5: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: (AgRg no REsp 1199918/SP, Rel. Ministro REYNALDO SOARES DA FONSECA, QUINTA TURMA, julgado em 04/08/2015, DJe 12/08/2015) Realço, por fim, que o Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1199918/SP', 'entity': 'Jurisprudência'}, {'span': 'REYNALDO SOARES DA FONSECA', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '04/08/2015', 'entity': 'Tempo'}, {'span': '12/08/2015', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno, Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #8: O presente recurso foi interposto contra decisão publicada na vigência do NCPC, razão pela qual devem ser exigidos os requisitos de admissibilidade recursal na forma nele prevista, nos termos do Enunciado nº 3 aprovado pelo Plenário do STJ na sessão de 9/3/2016: Aos recursos interpostos com PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 7 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio Branco-AC - Mod. 500258 - Autos n.º 1002199-81.2017.8.01.0000/50000 fundamento no CPC/2015 (relativos a decisões publicadas a partir de 18 de março de 2016) serão exigidos os requisitos de admissibilidade recursal na forma do novo CPC.
+Expected output: 'entities: [{'span': 'NCPC', 'entity': 'Legislação'}, {'span': 'Plenário do STJ', 'entity': 'Organização'}, {'span': '9/3/2016', 'entity': 'Tempo'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio Branco-AC', 'entity': 'Localização'}, {'span': 'Autos n.º 1002199-81.2017.8.01.0000/50000', 'entity': 'Jurisprudência'}, {'span': 'CPC/2015', 'entity': 'Legislação'}, {'span': '18 de março de 2016', 'entity': 'Tempo'}, {'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #9: A indenização deverá ser nos termos da Súmula 474, STJ.
+Expected output: 'entities: [{'span': 'Súmula 474, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #10: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+

@@ -1,0 +1,30 @@
+Example #1: O primeiro voo bem-sucedido e registrado de um helicóptero foi realizado em 1907, por Paul Cornu, na França, embora o primeiro helicóptero de uso prático tenha sido o Focke-Wulf Fw 61, de fabrico alemão, em 1936.
+Expected output: 'entities: [{'span': '1907', 'entity': 'Tempo'}, {'span': 'Paul Cornu', 'entity': 'Pessoa'}, {'span': 'França', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}, {'span': '1936', 'entity': 'Tempo'}]'
+
+Example #2: Porém, o primeiro voo de um helicóptero completamente controlável foi demonstrado por Hanna Reitsch em 1937 em Berlim, Alemanha conduzindo um Focke-Wulf Fw 61.
+Expected output: 'entities: [{'span': 'Hanna Reitsch', 'entity': 'Pessoa'}, {'span': '1937', 'entity': 'Tempo'}, {'span': 'Berlim', 'entity': 'Localização'}, {'span': 'Alemanha', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}]'
+
+Example #3: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #4: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #5: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #6: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #7: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #9: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #10: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+

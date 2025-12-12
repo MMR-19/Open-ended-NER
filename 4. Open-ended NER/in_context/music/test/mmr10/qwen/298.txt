@@ -1,0 +1,30 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: Attracting over 200,000 fans, Black Sabbath appeared alongside popular 1970s rock and pop bands Deep Purple, Eagles, Emerson, Lake & Palmer, Rare Earth, Seals and Crofts, Black Oak Arkansas, and Earth, Wind & Fire.
+Expected output: 'entities: [{'span': 'Black Sabbath', 'entity': 'Band'}, {'span': 'rock', 'entity': 'Music Genre'}, {'span': 'pop', 'entity': 'Music Genre'}, {'span': 'Deep Purple', 'entity': 'Band'}, {'span': 'Eagles', 'entity': 'Band'}, {'span': 'Emerson, Lake & Palmer', 'entity': 'Band'}, {'span': 'Rare Earth', 'entity': 'Band'}, {'span': 'Seals and Crofts', 'entity': 'Band'}, {'span': 'Black Oak Arkansas', 'entity': 'Band'}, {'span': 'Earth, Wind & Fire', 'entity': 'Band'}]'
+
+Example #3: Coldcut returned with the single Everything Is Under Control at the end of 2005, featuring Jon Spencer (of Jon Spencer Blues Explosion) and Mike Ladd.
+Expected output: 'entities: [{'span': 'Coldcut', 'entity': 'Band'}, {'span': 'Everything Is Under Control', 'entity': 'Song'}, {'span': 'Jon Spencer', 'entity': 'Musical Artist'}, {'span': 'Jon Spencer Blues Explosion', 'entity': 'Band'}, {'span': 'Mike Ladd', 'entity': 'Musical Artist'}]'
+
+Example #4: Depeche Mode contributed their cover of the U2 song So Cruel to the tribute album AHK-toong BAY-bi Covered honouring the 20th anniversary of Achtung Baby, a 1991 album by U2.
+Expected output: 'entities: [{'span': 'Depeche', 'entity': 'Band'}, {'span': 'U2', 'entity': 'Band'}, {'span': 'So Cruel', 'entity': 'Song'}, {'span': 'AHK-toong BAY-bi Covered', 'entity': 'Album'}, {'span': 'Achtung Baby', 'entity': 'Album'}]'
+
+Example #5: Brazil Classics! -- redirects here --, the label's first compilation series, consists of seven albums surveying genres ranging from Samba to Tropicália, as well as individual artists.
+Expected output: 'entities: [{'span': 'Brazil Classics', 'entity': 'Album'}, {'span': 'Samba', 'entity': 'Music Genre'}, {'span': 'Tropicália', 'entity': 'Music Genre'}]'
+
+Example #6: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+
+Example #7: This was followed by a series of small, intimate gigs at UK venues such as Liverpool's The Cavern Club, London's Mean Fiddler, and Glasgow's Barrowland Ballroom.
+Expected output: 'entities: [{'span': 'UK', 'entity': 'Country'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'The Cavern Club', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Mean Fiddler', 'entity': 'Location'}, {'span': 'Glasgow', 'entity': 'Location'}, {'span': 'Barrowland Ballroom', 'entity': 'Location'}]'
+
+Example #8: Prestwich joined Little River Band in 1984 and appeared on the albums, Playing to Win and No Reins, before departing in 1986 to join Farnham's touring band.
+Expected output: 'entities: [{'span': 'Little River Band', 'entity': 'Band'}, {'span': 'Playing to Win', 'entity': 'Album'}, {'span': 'No Reins', 'entity': 'Album'}, {'span': 'Farnham', 'entity': 'Musical Artist'}]'
+
+Example #9: Following the hard rock and heavy metal origins on the band's first two albums, Too Fast for Love (1981) and Shout at the Devil (1983), the release of its third album Theatre of Pain (1985) saw Mötley Crüe joining the first wave of glam metal.
+Expected output: 'entities: [{'span': 'hard rock', 'entity': 'Music Genre'}, {'span': 'heavy metal', 'entity': 'Music Genre'}, {'span': 'Too Fast for Love', 'entity': 'Album'}, {'span': 'Shout at the Devil', 'entity': 'Album'}, {'span': 'Theatre of Pain', 'entity': 'Album'}, {'span': 'the first wave of glam metal', 'entity': 'Event'}]'
+
+Example #10: In addition, the film won the BAFTA Award for Best Film, BAFTA Award for Best Direction (Nichols), BAFTA Award for Most Promising Newcomer to Leading Film Roles (Hoffman), the BAFTA Award for Best Editing (Sam O 'Steen).
+Expected output: 'entities: [{'span': 'BAFTA Award for Best Film', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Direction', 'entity': 'Award'}, {'span': 'Nichols', 'entity': 'Person'}, {'span': 'BAFTA Award for Most Promising Newcomer to Leading Film Roles', 'entity': 'Award'}, {'span': 'Hoffman', 'entity': 'Person'}, {'span': 'BAFTA Award for Best Editing', 'entity': 'Award'}, {'span': "Sam O 'Steen", 'entity': 'Person'}]'
+

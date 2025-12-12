@@ -1,0 +1,60 @@
+Example #1: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #2: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #3: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #4: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #5: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #6: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #7: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #8: The dividend committee is authorized to declare distributions on the Fund s shares including, but not limited to, regular and special dividends, capital gains and ordinary income distributions.
+Expected output: 'entities: []'
+
+Example #9: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #10: Audit and Related Fees.
+Expected output: 'entities: []'
+
+Example #11: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #12: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #13: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #14: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #15: IPOs On October 1, 2003, the Commission filed a complaint (the “ IPO Complaint ”) against J.P. Morgan Securities Inc. (predecessor to JPMS, “ JPMSI ”) in the United States District Court for the District of Columbia (the “ D.C. District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'IPO Complaint', 'entity': 'Miscellaneous'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}, {'span': 'JPMS', 'entity': 'Business'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'United States District Court for the District of Columbia', 'entity': 'Court'}, {'span': 'D.C. District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #16: The number of compliance, risk management and regulatory oversight committee meetings of each Fund held during its last fiscal year is shown in Appendix C.
+Expected output: 'entities: []'
+
+Example #17: In February 2000, plaintiff Adam A. Schwartz filed a lawsuit in California Superior Court against VISA International Corp., VISA International Service Association, Inc., VISA U.S.A., Inc. and MasterCard International Incorporated alleging that VISA and MasterCard have unlawfully concealed the fact that each increases by 1 % the rate at which it converts foreign currency to United States dollars for credit card purchases made in foreign currencies by United States cardholders.
+Expected output: 'entities: [{'span': 'Adam A. Schwartz', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'VISA International Corp.', 'entity': 'Business'}, {'span': 'VISA International Service Association, Inc.', 'entity': 'Business'}, {'span': 'VISA U.S.A., Inc.', 'entity': 'Business'}, {'span': 'MasterCard International Incorporated', 'entity': 'Business'}, {'span': 'VISA', 'entity': 'Business'}, {'span': 'MasterCard', 'entity': 'Business'}, {'span': 'United States', 'entity': 'Location'}]'
+
+Example #18: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #19: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #20: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+

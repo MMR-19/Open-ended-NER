@@ -1,0 +1,30 @@
+Example #1: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #2: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #3: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #4: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #5: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #6: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #7: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #8: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #9: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #10: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+

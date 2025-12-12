@@ -1,0 +1,15 @@
+Example #1: Brasília, 23 de fevereiro de 2010 (data de julgamento) MINISTRO JOÃO OTÁVIO DE NORONHA Relator Documento: 946903 - Inteiro Teor do Acórdão - Site certificado - DJe: 08/03/2010 Página 1 de 6 Superior Tribunal de Justiça AgRg no RECURSO ESPECIAL Nº 971.113 - SP (2007/0173845-8) RELATOR: MINISTRO JOÃO OTÁVIO DE NORONHA AGRAVANTE: BANCO PANAMERICANO S/A ADVOGADO: JOÃO FULANETO E OUTRO (S) AGRAVADO: ELZA ALMEIDA MENDES ADVOGADO: NÁDIA PEREIRA REGO RELATÓRIO O EXMO. SR. MINISTRO JOÃO OTÁVIO DE NORONHA: Trata-se de agravo regimental interposto por BANCO PANAMERICANO S/A contra decisão que não conheceu de recurso especial sob os seguintes fundamentos: a) não há vedação legal a que se fixe valor de indenização por danos morais tomando como referência o valor do salário mínimo; o que não é admitida é a utilização de tal parâmetro como fator de correção monetária; e b) o acolhimento da tese veiculada no recurso especial dependeria da apreciação e do reexame de provas presentes nos autos (incidência da Súmula n. 7 do STJ).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2010', 'entity': 'Tempo'}, {'span': 'JOÃO OTÁVIO DE NORONHA', 'entity': 'Pessoa'}, {'span': '08/03/2010', 'entity': 'Tempo'}, {'span': 'Superior Tribunal de Justiça', 'entity': 'Organização'}, {'span': 'AgRg no RECURSO ESPECIAL Nº 971.113 - SP', 'entity': 'Jurisprudência'}, {'span': '2007/0173845-8', 'entity': 'Jurisprudência'}, {'span': 'BANCO PANAMERICANO S/A', 'entity': 'Organização'}, {'span': 'JOÃO FULANETO', 'entity': 'Pessoa'}, {'span': 'ELZA ALMEIDA MENDES', 'entity': 'Pessoa'}, {'span': 'NÁDIA PEREIRA REGO', 'entity': 'Pessoa'}, {'span': 'Súmula n. 7 do STJ', 'entity': 'Jurisprudência'}]'
+
+Example #2: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+
+Example #3: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+
+Example #4: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #5: SÚMULAS 5 E 7 DO STJ.
+Expected output: 'entities: [{'span': 'SÚMULAS 5 E 7 DO STJ', 'entity': 'Jurisprudência'}]'
+

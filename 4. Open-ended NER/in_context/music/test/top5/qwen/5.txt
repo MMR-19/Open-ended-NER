@@ -1,0 +1,15 @@
+Example #1: The band also released three full-length albums dubbed (and later packaged together as) The Trilogy: The Maggot, The Bootlicker, and The Crybaby.
+Expected output: 'entities: [{'span': 'The Trilogy', 'entity': 'Album'}, {'span': 'The Maggot', 'entity': 'Album'}, {'span': 'The Bootlicker', 'entity': 'Album'}, {'span': 'The Crybaby', 'entity': 'Album'}]'
+
+Example #2: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #3: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #4: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+
+Example #5: He also appeared with RBX, Nas and KRS-One on East Coast Killer, West Coast Killer from Dr. Dre's Dr. Dre Presents the Aftermath album, and contributed to an album entitled The Psycho Realm with Psycho Realm.
+Expected output: 'entities: [{'span': 'RBX', 'entity': 'Musical Artist'}, {'span': 'Nas', 'entity': 'Musical Artist'}, {'span': 'KRS-One', 'entity': 'Musical Artist'}, {'span': 'East Coast Killer', 'entity': 'Song'}, {'span': 'West Coast Killer', 'entity': 'Song'}, {'span': 'Dr. Dre', 'entity': 'Musical Artist'}, {'span': 'Dr. Dre Presents the Aftermath', 'entity': 'Album'}, {'span': 'The Psycho Realm', 'entity': 'Album'}, {'span': 'Psycho Realm', 'entity': 'Band'}]'
+

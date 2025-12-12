@@ -1,0 +1,15 @@
+Example #1: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #2: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+
+Example #3: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #4: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #5: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+

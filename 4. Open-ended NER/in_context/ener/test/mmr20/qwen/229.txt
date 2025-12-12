@@ -1,0 +1,60 @@
+Example #1: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #2: about March 1, 2010.
+Expected output: 'entities: []'
+
+Example #3: The committee has also reviewed and discussed the audited financial statements with management.
+Expected output: 'entities: []'
+
+Example #4: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #5: To vote by mail, please mark, sign, date and mail the enclosed proxy card.
+Expected output: 'entities: []'
+
+Example #6: All shareholders are cordially invited to attend the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #7: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #8: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #9: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #10: If the communication is intended for a specific Board Member and so indicates it will be sent only to that Board Member.
+Expected output: 'entities: []'
+
+Example #11: Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.
+Expected output: 'entities: [{'span': 'Chemical Financial', 'entity': 'Business'}, {'span': 'OAK', 'entity': 'Business'}, {'span': 'SEC', 'entity': 'Government'}, {'span': 'Chemical Financial Corporation', 'entity': 'Business'}, {'span': 'East Main Street', 'entity': 'Location'}, {'span': 'Midland', 'entity': 'Location'}, {'span': 'MI', 'entity': 'Location'}, {'span': 'Lori A. Gwizdala', 'entity': 'Person'}, {'span': 'O.A.K. Financial Corporation', 'entity': 'Business'}, {'span': '84th Street, SW', 'entity': 'Location'}, {'span': 'Byron Center', 'entity': 'Location'}, {'span': 'James A. Luyk', 'entity': 'Person'}]'
+
+Example #12: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #13: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #14: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #15: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #16: Payment of Filing Fee (check the appropriate box):
+Expected output: 'entities: []'
+
+Example #17: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #18: The following table sets forth information with respect to each officer of the Funds.
+Expected output: 'entities: []'
+
+Example #19: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+
+Example #20: Board Members Amboian, Kundert and Toth were last elected as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+

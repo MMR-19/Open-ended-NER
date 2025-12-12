@@ -1,0 +1,60 @@
+Example #1: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #2: Following the Civil War, Reconstruction Era economic expansion led to an increase in logging and deforestation, especially in the southern Adirondacks.
+Expected output: 'entities: [{'span': 'Civil War', 'entity': 'Event'}, {'span': 'Reconstruction Era', 'entity': 'Time'}, {'span': 'Adirondacks', 'entity': 'Location'}]'
+
+Example #3: He was honoured for his pioneering work on prevention of Rh disease of the newborn, and also for his work on the genetics of the Lepidoptera (butterflies and moths).
+Expected output: 'entities: [{'span': 'Rh disease', 'entity': 'Disease'}, {'span': 'Lepidoptera', 'entity': 'Animal'}]'
+
+Example #4: Better documented, the bacterium " Pseudomonas aeruginosa " and the fungus " Cladosporium resinae " are commonly detected in aircraft fuel tanks that use kerosene-based fuels (not avgas), and laboratory cultures can degrade aluminium.
+Expected output: 'entities: [{'span': 'Cladosporium', 'entity': 'Biological entity'}]'
+
+Example #5: Globotruncanid Foraminifera and echinoderms such as sea urchins and starfish (sea stars) thrived.
+Expected output: 'entities: [{'span': 'Foraminifera', 'entity': 'Biological entity'}]'
+
+Example #6: Circa 1938, Ruth Graves Wakefield added chopped up bits from a Nestlé semi-sweet chocolate bar into a cookie.
+Expected output: 'entities: [{'span': 'Ruth Graves Wakefield', 'entity': 'Person'}, {'span': 'Nestlé', 'entity': 'Organization'}, {'span': 'chocolate bar', 'entity': 'Food'}]'
+
+Example #7: White fir is popular as a Christmas tree and for Christmas decoration owing to its soft needles, generally excellent needle retention and abundance.
+Expected output: 'entities: [{'span': 'Christmas tree', 'entity': 'Plant'}, {'span': 'Christmas', 'entity': 'Time'}]'
+
+Example #8: It is also associated with the monster Hydra, with its many heads, killed by Hercules, represented in another constellation.
+Expected output: 'entities: [{'span': 'Hydra', 'entity': 'Mythological entity'}, {'span': 'Hercules', 'entity': 'Mythological entity'}, {'span': 'another constellation', 'entity': 'Celestial Body'}]'
+
+Example #9: " Soft commodities ", or " softs ", are commodities such as coffee, cocoa, sugar, corn, wheat, soybean, fruit and livestock.
+Expected output: 'entities: [{'span': 'coffee', 'entity': 'Food'}, {'span': 'cocoa', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'soybean', 'entity': 'Plant'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'livestock', 'entity': 'Animal'}]'
+
+Example #10: While the region is best known for its convict history it is now the key area in the battle to save the Tasmanian devil from extinction from a new type of contagious cancer called devil facial tumour disease (DFTD).
+Expected output: 'entities: [{'span': 'Tasmanian devil', 'entity': 'Animal'}, {'span': 'contagious cancer', 'entity': 'Disease'}, {'span': 'devil facial tumour disease', 'entity': 'Disease'}]'
+
+Example #11: It was ported to Android systems on November 21, 2013.
+Expected output: 'entities: [{'span': 'Android', 'entity': 'Instrument'}]'
+
+Example #12: He also co-hosted the short-lived TV talent show " The Hit " on RTÉ One along with Aidan Power.
+Expected output: 'entities: [{'span': 'The Hit', 'entity': 'Media'}, {'span': 'RTÉ One', 'entity': 'Organization'}, {'span': 'Aidan Power', 'entity': 'Person'}]'
+
+Example #13: It flowers in spring, from May to August, and produces seed from July to September.
+Expected output: 'entities: [{'span': 'spring', 'entity': 'Time'}, {'span': 'seed', 'entity': 'Food'}]'
+
+Example #14: This is the fertilized eggs or roe (" qaarsat, meluk, imlauk ") of the Pacific herring attached to eelgrass, seaweed or other submerged vegetation.
+Expected output: 'entities: [{'span': 'roe', 'entity': 'Food'}, {'span': 'Pacific herring', 'entity': 'Animal'}, {'span': 'eelgrass', 'entity': 'Plant'}]'
+
+Example #15: An older sister, Susan, is a rabbi who lives in Jerusalem with her husband, Yosef Abramowitz, the co-founder and president of Arava Power Company, and their five children.
+Expected output: 'entities: [{'span': 'Susan', 'entity': 'Person'}, {'span': 'Jerusalem', 'entity': 'Location'}, {'span': 'Yosef Abramowitz', 'entity': 'Person'}, {'span': 'Arava Power Company', 'entity': 'Organization'}]'
+
+Example #16: In 1975 the Venera 9 was the first to return images from the surface of another planet, returning images from Venus.
+Expected output: 'entities: [{'span': 'Venera 9', 'entity': 'Instrument'}, {'span': 'Venus', 'entity': 'Celestial Body'}]'
+
+Example #17: The booklet contains many images from the HIStory World Tour and " Ghosts " film.
+Expected output: 'entities: [{'span': 'HIStory World Tour', 'entity': 'Event'}, {'span': 'Ghosts', 'entity': 'Media'}]'
+
+Example #18: Designed as a four-seat development of the Bede BD-12, which was, in turn, a two-seat version of the single-seat Bede BD-5, the BD-14 was to feature a cantilever low-wing, a four-seat enclosed cockpit under a gull-wing canopy, retractable tricycle landing gear and a single engine in pusher configuration.
+Expected output: 'entities: [{'span': 'Bede BD-12', 'entity': 'Vehicle'}, {'span': 'Bede BD-5', 'entity': 'Media'}]'
+
+Example #19: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #20: Hanns Bruno Geinitz described " Kreischeria wiedei " from the coal measures of Zwickau in Germany, although he interpreted it as a fossil pseudoscorpion.
+Expected output: 'entities: [{'span': 'Hanns Bruno Geinitz', 'entity': 'Person'}, {'span': 'Zwickau', 'entity': 'Location'}, {'span': 'Germany', 'entity': 'Location'}, {'span': 'pseudoscorpion', 'entity': 'Animal'}]'
+

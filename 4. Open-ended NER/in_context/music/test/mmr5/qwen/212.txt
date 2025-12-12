@@ -1,0 +1,15 @@
+Example #1: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #2: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #3: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+
+Example #4: On 26 February 1987, A Hard Day's Night was officially released on compact disc in mono, along with Please Please Me, With the Beatles, and Beatles for Sale.
+Expected output: 'entities: [{'span': "Hard Day's Night", 'entity': 'Album'}, {'span': 'Please Please Me', 'entity': 'Album'}, {'span': 'With the Beatles', 'entity': 'Album'}, {'span': 'Beatles for Sale', 'entity': 'Album'}]'
+
+Example #5: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+

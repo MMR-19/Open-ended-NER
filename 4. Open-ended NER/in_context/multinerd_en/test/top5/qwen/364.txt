@@ -1,0 +1,15 @@
+Example #1: It began approximately in the mid-18 th century and depending on the author either ended with the beginning of contemporary history after World War II, or includes that period up to the present day.
+Expected output: 'entities: [{'span': 'contemporary history', 'entity': 'Time'}, {'span': 'World War II', 'entity': 'Event'}]'
+
+Example #2: The Age of Enlightenment, the subsequent French Revolution and the Napoleonic Wars shaped the continent culturally, politically and economically from the end of the 17th century until the first half of the 19th century.
+Expected output: 'entities: [{'span': 'Age of Enlightenment', 'entity': 'Time'}, {'span': 'French Revolution', 'entity': 'Event'}, {'span': 'Napoleonic Wars', 'entity': 'Event'}]'
+
+Example #3: The museum also has a Tupolev Tu-144 on display " – this is the only place where both supersonic airliners can be seen together.
+Expected output: 'entities: [{'span': 'Tupolev Tu-144', 'entity': 'Vehicle'}]'
+
+Example #4: During the Middle Ages it was usually made with wheat, barley, rye, or oats.
+Expected output: 'entities: [{'span': 'Middle Ages', 'entity': 'Time'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'barley', 'entity': 'Plant'}, {'span': 'rye', 'entity': 'Plant'}]'
+
+Example #5: In medieval times, a hawk or falcon would have been used to catch the rabbit as it exited the warren burrow.
+Expected output: 'entities: [{'span': 'medieval', 'entity': 'Time'}, {'span': 'hawk', 'entity': 'Animal'}, {'span': 'falcon', 'entity': 'Animal'}]'
+

@@ -1,0 +1,60 @@
+Example #1: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+
+Example #2: Four COSMIC mutational signatures have been associated with DNA mismatch repair deficiency and found in tumors with microsatellite instability: Signature 6, 15, 20 and 26.
+Expected output: 'entities: [{'span': 'COSMIC', 'entity': 'Misc'}, {'span': 'DNA mismatch repair', 'entity': 'Misc'}]'
+
+Example #3: In DNA replication, RNA primers must be inserted along the lagging strand so that DNA polymerase is able to synthesize the strand in the 5 to 3 direction.
+Expected output: 'entities: [{'span': 'DNA replication', 'entity': 'Misc'}, {'span': 'RNA primers', 'entity': 'Misc'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #4: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #5: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #6: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+
+Example #7: One of the first significant contributions of Maheswari was the discovery of RNA polymerase activity in chloroplasts which he accomplished during his early stint at California Institute of Technology while working with Robert S. Bandurski and their researches revealed the presence of DNA in organelle.
+Expected output: 'entities: [{'span': 'Maheswari', 'entity': 'Scientist'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'chloroplasts', 'entity': 'Misc'}, {'span': 'California Institute of Technology', 'entity': 'University'}, {'span': 'Robert S. Bandurski', 'entity': 'Scientist'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'organelle', 'entity': 'Misc'}]'
+
+Example #8: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #9: Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.
+Expected output: 'entities: [{'span': 'silencing mechanisms', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'transcription factor', 'entity': 'Misc'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #10: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #11: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #12: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #13: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #14: Lindsay and his wife Rachel translated Hans Kramers book, The Atom and the Bohr Theory of its Structure, in 1923, Hans Kramers & amp; Helge Holst, The Atom and the Bohr Theory of its Structure: An Elementary Presentation, Gyldendal, 210pp.
+Expected output: 'entities: [{'span': 'Lindsay', 'entity': 'Person'}, {'span': 'Rachel', 'entity': 'Person'}, {'span': 'Hans Kramers', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure', 'entity': 'Misc'}, {'span': 'Helge Holst', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure: An Elementary Presentation', 'entity': 'Misc'}, {'span': 'Gyldendal', 'entity': 'Organisation'}]'
+
+Example #15: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #16: For example, when there is a mistake in base pairing, DNA mismatch repair has a bias favoring GC pairs.
+Expected output: 'entities: [{'span': 'DNA mismatch repair', 'entity': 'Misc'}, {'span': 'GC pairs', 'entity': 'Misc'}]'
+
+Example #17: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #18: The two-part finale's epic scale and underlying plot was first conceived in early 2007 as the last regular-series story for departing producer s Russell T Davies, Julie Gardner, and Phil Collinson: the fourth series finale is the last story produced by Collinson; and Steven Moffat and Piers Wenger replaced Davies and Gardner as show runner and executive producer respectively in 2010.
+Expected output: 'entities: [{'span': 'Russell T Davies', 'entity': 'Person'}, {'span': 'Julie Gardner', 'entity': 'Person'}, {'span': 'Phil Collinson', 'entity': 'Person'}, {'span': 'Collinson', 'entity': 'Person'}, {'span': 'Steven Moffat', 'entity': 'Person'}, {'span': 'Piers Wenger', 'entity': 'Person'}, {'span': 'Davies', 'entity': 'Person'}, {'span': 'Gardner', 'entity': 'Person'}]'
+
+Example #19: The outer gas giant planets are Jupiter, Saturn, Uranus, and Neptune.
+Expected output: 'entities: [{'span': 'gas giant', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #20: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+

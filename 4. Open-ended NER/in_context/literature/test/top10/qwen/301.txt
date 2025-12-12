@@ -1,0 +1,30 @@
+Example #1: Bova holds the position of President Emeritus of the National Space Society and served as President of Science Fiction and Fantasy Writers of America (SFWA) from 1990 to 1992.
+Expected output: 'entities: [{'span': 'Bova', 'entity': 'Writer'}, {'span': 'President Emeritus', 'entity': 'Misc'}, {'span': 'National Space Society', 'entity': 'Organisation'}, {'span': 'Science Fiction and Fantasy Writers of America', 'entity': 'Organisation'}, {'span': 'SFWA', 'entity': 'Organisation'}]'
+
+Example #2: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+
+Example #3: Lindbergh's Pulitzer Prize -winning biographer, A. Scott Berg, contended that Lindbergh was not so much a supporter of the Nazi regime as someone so stubborn in his convictions and relatively inexperienced in political maneuvering that he easily allowed rivals to portray him as one.
+Expected output: 'entities: [{'span': 'Lindbergh', 'entity': 'Person'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'A. Scott Berg', 'entity': 'Writer'}, {'span': 'Nazi', 'entity': 'Misc'}]'
+
+Example #4: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #5: Due to pressure by fans on Asimov to write another book in his Foundation series, he did so with Foundation's Edge (1982) and Foundation and Earth (1986), and then went back to before the original trilogy with Prelude to Foundation (1988) and Forward the Foundation (1992), his last novel.
+Expected output: 'entities: [{'span': 'Asimov', 'entity': 'Writer'}, {'span': 'Foundation series', 'entity': 'Misc'}, {'span': "Foundation's Edge", 'entity': 'Book'}, {'span': 'Foundation and Earth', 'entity': 'Book'}, {'span': 'trilogy', 'entity': 'Misc'}, {'span': 'Prelude to Foundation', 'entity': 'Book'}, {'span': 'Forward the Foundation', 'entity': 'Book'}, {'span': 'novel', 'entity': 'Literary Genre'}]'
+
+Example #6: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #7: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #8: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #9: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #10: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+

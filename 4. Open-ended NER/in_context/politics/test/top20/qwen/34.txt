@@ -1,0 +1,60 @@
+Example #1: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #2: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #3: He gained further international attention as the chief leader of the Non-Aligned Movement, alongside Jawaharlal Nehru of India, Gamal Abdel Nasser of Egypt, and Kwame Nkrumah of Ghana.
+Expected output: 'entities: [{'span': 'Non-Aligned Movement', 'entity': 'Organisation'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}]'
+
+Example #4: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #5: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #6: In 1961, Tito co-founded the movement with Egypt's Gamal Abdel Nasser, India's Jawaharlal Nehru, Indonesia's Sukarno and Ghana's Kwame Nkrumah, in an action called The Initiative of Five (Tito, Nehru, Nasser, Sukarno, Nkrumah), thus establishing strong ties with third world countries.
+Expected output: 'entities: [{'span': 'Tito', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'Indonesia', 'entity': 'Country'}, {'span': 'Sukarno', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Nasser', 'entity': 'Politician'}, {'span': 'Nkrumah', 'entity': 'Politician'}]'
+
+Example #7: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #8: The Soviet Politburo decisions were guided by a Special Commission on Afghanistan, which consisted of Yuri Andropov the KGB chairman, Andrei Gromyko the Minister of Foreign Affairs, Defence Minister Dmitriy Ustinov, and Boris Ponomarev, the head of the International Department of the Central Committee.
+Expected output: 'entities: [{'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Politburo', 'entity': 'Misc'}, {'span': 'Afghanistan', 'entity': 'Country'}, {'span': 'Yuri Andropov', 'entity': 'Politician'}, {'span': 'KGB', 'entity': 'Organisation'}, {'span': 'Andrei Gromyko', 'entity': 'Politician'}, {'span': 'Dmitriy Ustinov', 'entity': 'Politician'}, {'span': 'Boris Ponomarev', 'entity': 'Politician'}, {'span': 'International Department of the Central Committee', 'entity': 'Organisation'}]'
+
+Example #9: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #10: Assisted by his top aide Harry Hopkins and with very strong national support, he worked closely with British Prime Minister Winston Churchill, Soviet leader Joseph Stalin and Chinese Generalissimo Chiang Kai-shek in leading the Allied Powers against the Axis Powers.
+Expected output: 'entities: [{'span': 'Harry Hopkins', 'entity': 'Politician'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Chinese', 'entity': 'Misc'}, {'span': 'Chiang Kai-shek', 'entity': 'Politician'}, {'span': 'Allied Powers', 'entity': 'Organisation'}, {'span': 'Axis Powers', 'entity': 'Organisation'}]'
+
+Example #11: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #12: The movement was immediately supported by Mariotto Segni, leader of the centrist Segni Pact; after few weeks the post-communist Democratic Party of the Left of Massimo D 'Alema, the PPI and the Federation of the Greens also joined the Olive Tree coalition.
+Expected output: 'entities: [{'span': 'Mariotto Segni', 'entity': 'Politician'}, {'span': 'Segni Pact', 'entity': 'Political Party'}, {'span': 'Democratic Party of the Left', 'entity': 'Political Party'}, {'span': "Massimo D 'Alema", 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'the Olive Tree', 'entity': 'Organisation'}]'
+
+Example #13: The devolved administration was suspended several times (especially between 15 October 2002 and 8 May 2007) because the Ulster Unionist Party and Democratic Unionist Party were uncomfortable being in government with Sinn Féin when the Provisional Irish Republican Army had failed to decommission its arms fully and continued its criminal activities.
+Expected output: 'entities: [{'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Provisional Irish Republican Army', 'entity': 'Organisation'}]'
+
+Example #14: He was appointed to the Committee and started to appoint allies to him, among them Edvard Kardelj, Milovan Đilas, Aleksandar Ranković and Boris Kidrič.
+Expected output: 'entities: [{'span': 'Edvard Kardelj', 'entity': 'Politician'}, {'span': 'Milovan Đilas', 'entity': 'Politician'}, {'span': 'Aleksandar Ranković', 'entity': 'Politician'}, {'span': 'Boris Kidrič', 'entity': 'Politician'}]'
+
+Example #15: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #16: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #17: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #18: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+
+Example #19: Washington appointed fellow Virginian Edmund Randolph as Attorney General, Samuel Osgood as Postmaster General, Thomas Jefferson as Secretary of State, and Henry Knox as Secretary of War.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Politician'}, {'span': 'Edmund Randolph', 'entity': 'Politician'}, {'span': 'Samuel Osgood', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'Henry Knox', 'entity': 'Politician'}]'
+
+Example #20: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+

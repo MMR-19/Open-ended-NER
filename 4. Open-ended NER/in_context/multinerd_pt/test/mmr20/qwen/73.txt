@@ -1,0 +1,60 @@
+Example #1: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #2: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #3: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #4: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #5: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #6: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #7: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #8: Seu último jogo nos Patriots aconteceu na semana 4 no Monday Night Football contra o Miami Dolphins; ele não registrou uma recepção pela primeira vez em sua carreira nos Patriots.
+Expected output: 'entities: [{'span': 'Monday Night Football', 'entity': 'Média'}, {'span': 'Miami Dolphins', 'entity': 'Organização'}]'
+
+Example #9: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #10: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #11: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #12: " Aetanthus " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #13: Observações com o Hubble estabeleceram um limite superior na concentração possível na atmosfera, baseado na falta de detecção, que ainda é compatível com as medições da ionosfera.
+Expected output: 'entities: [{'span': 'Hubble', 'entity': 'Instrumento'}]'
+
+Example #14: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+
+Example #15: Essa formação lançou o álbum " I Can See Your House from Here " (1979), mais comercial, e que causou problemas com os patrocinadores por mostrar em sua capa um astronauta crucificado olhando para a Terra.
+Expected output: 'entities: [{'span': 'I Can See Your House from Here', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #16: Três dias depois, marcou seu primeiro gol, também dando uma assistência de Sergio Agüero numa goleada por 5 a 0 sobre o Steaua Bucureşti, da Romênia, em partida válida pelos playoffs da Liga dos Campeões.
+Expected output: 'entities: [{'span': 'Sergio Agüero', 'entity': 'Pessoa'}, {'span': 'Steaua Bucureşti', 'entity': 'Organização'}, {'span': 'Romênia', 'entity': 'Localização'}, {'span': 'Liga dos Campeões', 'entity': 'Evento'}]'
+
+Example #17: O " Toxoplasma gondii " é um protozoário parasita intracelular obrigatório do grupo dos Apicomplexa, como outros parasitas como o " Plasmodium ".
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}]'
+
+Example #18: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #19: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #20: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+

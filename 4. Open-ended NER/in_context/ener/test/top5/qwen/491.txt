@@ -1,0 +1,15 @@
+Example #1: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #2: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #3: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #4: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #5: Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.
+Expected output: 'entities: [{'span': 'Chemical Financial', 'entity': 'Business'}, {'span': 'OAK', 'entity': 'Business'}, {'span': 'SEC', 'entity': 'Government'}, {'span': 'Chemical Financial Corporation', 'entity': 'Business'}, {'span': 'East Main Street', 'entity': 'Location'}, {'span': 'Midland', 'entity': 'Location'}, {'span': 'MI', 'entity': 'Location'}, {'span': 'Lori A. Gwizdala', 'entity': 'Person'}, {'span': 'O.A.K. Financial Corporation', 'entity': 'Business'}, {'span': '84th Street, SW', 'entity': 'Location'}, {'span': 'Byron Center', 'entity': 'Location'}, {'span': 'James A. Luyk', 'entity': 'Person'}]'
+

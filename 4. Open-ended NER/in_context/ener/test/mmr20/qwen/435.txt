@@ -1,0 +1,60 @@
+Example #1: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #2: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #3: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #4: IPOs On October 1, 2003, the Commission filed a complaint (the “ IPO Complaint ”) against J.P. Morgan Securities Inc. (predecessor to JPMS, “ JPMSI ”) in the United States District Court for the District of Columbia (the “ D.C. District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'IPO Complaint', 'entity': 'Miscellaneous'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}, {'span': 'JPMS', 'entity': 'Business'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'United States District Court for the District of Columbia', 'entity': 'Court'}, {'span': 'D.C. District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #5: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #6: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #7: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #8: In February 2000, plaintiff Adam A. Schwartz filed a lawsuit in California Superior Court against VISA International Corp., VISA International Service Association, Inc., VISA U.S.A., Inc. and MasterCard International Incorporated alleging that VISA and MasterCard have unlawfully concealed the fact that each increases by 1 % the rate at which it converts foreign currency to United States dollars for credit card purchases made in foreign currencies by United States cardholders.
+Expected output: 'entities: [{'span': 'Adam A. Schwartz', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'VISA International Corp.', 'entity': 'Business'}, {'span': 'VISA International Service Association, Inc.', 'entity': 'Business'}, {'span': 'VISA U.S.A., Inc.', 'entity': 'Business'}, {'span': 'MasterCard International Incorporated', 'entity': 'Business'}, {'span': 'VISA', 'entity': 'Business'}, {'span': 'MasterCard', 'entity': 'Business'}, {'span': 'United States', 'entity': 'Location'}]'
+
+Example #9: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #10: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #11: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #12: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #13: If the communication is intended for a specific Board Member and so indicates it will be sent only to that Board Member.
+Expected output: 'entities: []'
+
+Example #14: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #15: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #16: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #17: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #18: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #19: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #20: The inspectors of election will treat abstentions and broker non-votes (i.e., shares held by brokers or nominees, typically in street name, as to which (i) instructions have not been received from the beneficial owners or persons entitled to vote and (ii) the broker or nominee does not have discretionary voting power on a particular matter) as present for purposes of determining a quorum.
+Expected output: 'entities: []'
+

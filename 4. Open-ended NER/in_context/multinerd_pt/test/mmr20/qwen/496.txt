@@ -1,0 +1,60 @@
+Example #1: O filme acompanha uma equipe de seis membros da Estação Espacial Internacional que encontram o que inicialmente parece ser a primeira evidência da vida em Marte; No entanto, a tripulação descobre que tal achado pode não ser o que parece.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Marte', 'entity': 'Corpo celeste'}]'
+
+Example #2: Suas canções falam principalmente sobre o amor, mas já tratou de outros temas mais polêmicos como religião e guerra, principalmente no álbum " Chorus ", escrito na época da guerra do Golfo.
+Expected output: 'entities: [{'span': 'Chorus', 'entity': 'Média'}, {'span': 'guerra do Golfo', 'entity': 'Evento'}]'
+
+Example #3: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+
+Example #4: pelo novo Airbus A320.
+Expected output: 'entities: [{'span': 'Airbus A320', 'entity': 'Veículo'}]'
+
+Example #5: Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) que se serve com pirão e farinha de mandioca, peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e / ou na folha de bananeira, peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros.
+Expected output: 'entities: [{'span': 'pirão', 'entity': 'Comida'}, {'span': 'farinha de mandioca', 'entity': 'Comida'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'bananeira', 'entity': 'Planta'}, {'span': 'tainha', 'entity': 'Animal'}]'
+
+Example #6: Em 1940, durante a Segunda Guerra Mundial, os alemães invadiram e derrotaram as forças norueguesas e anglo-francesas em Narvik, impondo um governo fantoche sob Vidkun Quisling.
+Expected output: 'entities: [{'span': '1940', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Narvik', 'entity': 'Localização'}, {'span': 'Vidkun Quisling', 'entity': 'Pessoa'}]'
+
+Example #7: Foi inspirado no TeX e no GNU Emacs.
+Expected output: 'entities: [{'span': 'TeX', 'entity': 'Média'}, {'span': 'GNU Emacs', 'entity': 'Instrumento'}]'
+
+Example #8: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #9: O single apareceu em um comercial para o carro Citroën C4.
+Expected output: 'entities: [{'span': 'Citroën C4', 'entity': 'Veículo'}]'
+
+Example #10: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #11: Nos anos 1980 com o advento da HBO (que pode apresentar os comediantes sem censura) e outros canais a cabo como o Comedy Central contribuíram para o " boom " do " stand-up comedy ".
+Expected output: 'entities: [{'span': 'HBO', 'entity': 'Organização'}, {'span': 'Comedy Central', 'entity': 'Média'}]'
+
+Example #12: Entre eles estão o fuzil AK-47 e o caça MiG-29.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}, {'span': 'MiG-29', 'entity': 'Veículo'}]'
+
+Example #13: O cogumelo está atualmente classificado na seção " Thejogali " do subgênero " Russularia ", dentro do gênero " Lactarius ".
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #14: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #15: Nela, contava com a participação de mais dois personagens, totalizando em 16 personagens selecionaveis, tendo Zeus como o último chefe.
+Expected output: 'entities: [{'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #16: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #17: Em seu romance " 120 Dias de Sodoma ", por exemplo, nobres devassos abusam de crianças raptadas encerrados num castelo de luxo, num clima de crescente violência, com coprofagia, mutilações e assassinatos.
+Expected output: 'entities: [{'span': '120 Dias de Sodoma', 'entity': 'Média'}, {'span': 'coprofagia', 'entity': 'Comida'}]'
+
+Example #18: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #19: Tem propriedades medicinais contra artrite, diabete, pressão alta, e a flor, contra tosse, bronquite e resfriado.
+Expected output: 'entities: [{'span': 'artrite', 'entity': 'Doença'}, {'span': 'flor', 'entity': 'Planta'}, {'span': 'bronquite', 'entity': 'Doença'}]'
+
+Example #20: O clipe de " Elastic Heart " causou controvérsia após alguns comentaristas acusarem-la de pedofilia devido a aparente idade dos dançarinos.
+Expected output: 'entities: [{'span': 'Elastic Heart', 'entity': 'Média'}, {'span': 'pedofilia', 'entity': 'Doença'}]'
+

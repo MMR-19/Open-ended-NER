@@ -1,0 +1,60 @@
+Example #1: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #2: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #3: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #4: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #5: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #6: Consistia no sacrifício de um porco (" sus "), de um carneiro (" ovis ") e de um boi (" taurus ") em homenagem ao deus Marte para abençoar e purificar a terra.
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #7: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #8: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #9: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #10: Sua introdução em 1973 foi decisiva, pois as vendas do Volkswagen Fusca estavam caindo, e os outros modelos maiores de tração traseira como o 411 e 412 não estavam se saindo bem no mercado.
+Expected output: 'entities: [{'span': 'Volkswagen Fusca', 'entity': 'Veículo'}]'
+
+Example #11: Foi iniciada uma ação para deter esta rotação e assim que isso foi feito, os painéis solares foram abertos e dirigidos ao Sol e as antenas da Rede de Espaço Profundo iniciaram o monitoramento da nave espacial.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'Rede de Espaço Profundo', 'entity': 'Instrumento'}]'
+
+Example #12: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #13: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #14: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #15: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #16: A primeira carrinha de caixa aberta a ser fabricada foi baseada no carro Ford Model T, com a traseira modificada.
+Expected output: 'entities: [{'span': 'Ford Model T', 'entity': 'Veículo'}]'
+
+Example #17: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #18: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #19: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #20: Montado sobre o eixo estão pequenas asas estabilizadoras - os " ruddevators " visíveis na figura, com um formato " V " - ou alternativamente quatro superfícies, similares à montagem feita no jato da Segunda Guerra Mundial Heinkel He 162.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Heinkel He 162', 'entity': 'Veículo'}]'
+

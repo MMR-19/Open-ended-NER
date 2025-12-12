@@ -1,0 +1,60 @@
+Example #1: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #2: The IERS was established in its present form in 1987 by the International Astronomical Union and the International Union of Geodesy and Geophysics, replacing the earlier International Polar Motion Service (IPMS) and the Earth rotation section of the Bureau International de l 'Heure (BIH).
+Expected output: 'entities: [{'span': 'IERS', 'entity': 'Organisation'}, {'span': 'International Astronomical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}, {'span': 'International Polar Motion Service', 'entity': 'Organisation'}, {'span': 'IPMS', 'entity': 'Organisation'}, {'span': "Earth rotation section of the Bureau International de l 'Heure", 'entity': 'Organisation'}, {'span': 'BIH', 'entity': 'Organisation'}]'
+
+Example #3: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #4: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+
+Example #5: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #6: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #7: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #8: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #9: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #10: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #11: The album received a Grammy Award nomination for Grammy Award for Best Pop Vocal Album at the 45th Annual Grammy Awards (2003).
+Expected output: 'entities: [{'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Pop Vocal Album', 'entity': 'Award'}, {'span': '45th Annual Grammy Awards', 'entity': 'Award'}]'
+
+Example #12: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #13: Eigen received his Ph.D. at the University of Göttingen in 1951 under supervision of Arnold Eucken.
+Expected output: 'entities: [{'span': 'Eigen', 'entity': 'Scientist'}, {'span': 'University of Göttingen', 'entity': 'University'}, {'span': 'Arnold Eucken', 'entity': 'Scientist'}]'
+
+Example #14: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #15: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #16: Ong Valley () is a mainly ice-free valley 5 nautical miles (9 km) long, just west of Kreiling Mesa in the Miller Range.
+Expected output: 'entities: [{'span': 'Ong Valley', 'entity': 'Location'}, {'span': 'Kreiling Mesa', 'entity': 'Location'}, {'span': 'Miller Range', 'entity': 'Location'}]'
+
+Example #17: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #18: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #19: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #20: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+

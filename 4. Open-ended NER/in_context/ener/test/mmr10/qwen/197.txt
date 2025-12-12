@@ -1,0 +1,30 @@
+Example #1: The audit committee is responsible for the oversight and monitoring of (1) the accounting and reporting policies, procedures and practices and the audit of the financial statements of the Funds, (2) the quality and integrity of the financial statements of the Funds and (3) the independent registered public accounting firm s qualifications, performance and independence.
+Expected output: 'entities: []'
+
+Example #2: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #3: A copy of the Audit Committee Charter is attached as Appendix D.
+Expected output: 'entities: []'
+
+Example #4: All nominations from Fund shareholders will be acknowledged, although there may be times when the committee is not actively recruiting new Board members.
+Expected output: 'entities: []'
+
+Example #5: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #6: The committee has also reviewed and discussed the audited financial statements with management.
+Expected output: 'entities: []'
+
+Example #7: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #8: The committee operates under a written charter adopted and approved by the Boards of each Fund, a copy of which is available on the Funds website at www.nuveen.com/CEF/Info/Shareholder/.
+Expected output: 'entities: []'
+
+Example #9: The Board shall appoint the members and the Chairman of the Audit Committee, on the recommendation of the Nominating and Governance Committee.
+Expected output: 'entities: []'
+
+Example #10: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+

@@ -1,0 +1,60 @@
+Example #1: O seu nome deriva de Atlas, titã punido por Zeus a carregar eternamente a Terra em suas costas.
+Expected output: 'entities: [{'span': 'Atlas', 'entity': 'Entidade mitológica'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #2: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #3: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #4: O nome vem da deusa romana " Fauna ", deusa da terra e da fertilidade.
+Expected output: 'entities: [{'span': 'Fauna', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #5: É nomeado em relação ao deus grego Hermes.
+Expected output: 'entities: [{'span': 'Hermes', 'entity': 'Entidade mitológica'}]'
+
+Example #6: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+
+Example #7: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #9: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #10: Ela representa a divinização da terra e é considerada, ao lado de Obatalá (a representação divinizada do céu), como a casal primordial e propulsor da criação.
+Expected output: 'entities: [{'span': 'terra', 'entity': 'Corpo celeste'}, {'span': 'Obatalá', 'entity': 'Entidade mitológica'}]'
+
+Example #11: A divindade mais importante para os incas, no entanto, era Inti, o deus do sol.
+Expected output: 'entities: [{'span': 'Inti', 'entity': 'Entidade mitológica'}, {'span': 'sol', 'entity': 'Corpo celeste'}]'
+
+Example #12: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #13: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #14: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #15: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #16: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #17: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #18: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #19: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #20: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+

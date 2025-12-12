@@ -1,0 +1,30 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #3: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #4: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #5: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #6: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #7: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #8: Por força do § 11 do art. 85 do CPC/15, majora-se a verba honorária imposta à Apelante para 12 % (doze por cento) sobre o valor da causa, mantida a suspensão de exigibilidade do referido encargo.
+Expected output: 'entities: [{'span': '§ 11 do art. 85 do CPC/15', 'entity': 'Jurisprudência'}]'
+
+Example #9: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #10: REQUERIDA: A Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56-38.2016.7.08.0008, referente a WELLEN PABLO TEIXEIRA CORDOVIL, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56-38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'WELLEN PABLO TEIXEIRA CORDOVIL', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+

@@ -1,0 +1,30 @@
+Example #1: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #2: Tal entendimento se extrai, com clareza, do art. 14 do Decreto n. 10.829/87, cuja observância se impõe no artigo 3º, inciso XI, da LODF, determinando que “ o Governador do Distrito Federal proporá a edição de leis que venham a dispor sobre o uso e ocupação do solo em todo o território do Distrito Federal ”.
+Expected output: 'entities: [{'span': 'art. 14 do Decreto n. 10.829/87', 'entity': 'Legislação'}, {'span': 'artigo 3º, inciso XI, da LODF', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #4: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #5: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #6: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #7: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #8: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #9: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #10: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+

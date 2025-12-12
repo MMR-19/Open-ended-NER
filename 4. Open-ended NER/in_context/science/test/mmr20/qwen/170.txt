@@ -1,0 +1,60 @@
+Example #1: Nihonium was first reported to have been created in 2003 by a Russian-American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan.
+Expected output: 'entities: [{'span': 'Nihonium', 'entity': 'Chemical Element'}, {'span': 'Russian-American', 'entity': 'Misc'}, {'span': 'Joint Institute for Nuclear Research', 'entity': 'Organisation'}, {'span': 'JINR', 'entity': 'Organisation'}, {'span': 'Dubna', 'entity': 'Location'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'Riken', 'entity': 'Organisation'}, {'span': 'Wakō', 'entity': 'Location'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #2: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #3: The relative positions of five planets (Saturn, Jupiter, Mars, Venus, and Mercury) were shown, as were the moon's phases and the position of the Sun in the zodiac.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'moon', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'zodiac', 'entity': 'Misc'}]'
+
+Example #4: The album received a Grammy Award nomination for Grammy Award for Best Pop Vocal Album at the 45th Annual Grammy Awards (2003).
+Expected output: 'entities: [{'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Pop Vocal Album', 'entity': 'Award'}, {'span': '45th Annual Grammy Awards', 'entity': 'Award'}]'
+
+Example #5: Ubiquitin ligase are proteins that assist in tagging their targets with an epigenetic mark known as ubiquitin.
+Expected output: 'entities: [{'span': 'Ubiquitin ligase', 'entity': 'Enzyme'}, {'span': 'ubiquitin', 'entity': 'Protein'}]'
+
+Example #6: The author of the Dictionary of Minor Planet Names, Lutz D. Schmadel, contacted Italian astronomer Paul G. Comba, who confirmed that this naming was another clear instance of homage to him.
+Expected output: 'entities: [{'span': 'Dictionary of Minor Planet Names', 'entity': 'Misc'}, {'span': 'Lutz D. Schmadel', 'entity': 'Person'}, {'span': 'Italian', 'entity': 'Misc'}, {'span': 'Paul G. Comba', 'entity': 'Scientist'}]'
+
+Example #7: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #8: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #9: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #10: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #11: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #12: The IERS was established in its present form in 1987 by the International Astronomical Union and the International Union of Geodesy and Geophysics, replacing the earlier International Polar Motion Service (IPMS) and the Earth rotation section of the Bureau International de l 'Heure (BIH).
+Expected output: 'entities: [{'span': 'IERS', 'entity': 'Organisation'}, {'span': 'International Astronomical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}, {'span': 'International Polar Motion Service', 'entity': 'Organisation'}, {'span': 'IPMS', 'entity': 'Organisation'}, {'span': "Earth rotation section of the Bureau International de l 'Heure", 'entity': 'Organisation'}, {'span': 'BIH', 'entity': 'Organisation'}]'
+
+Example #13: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #14: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #15: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+
+Example #16: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #17: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #18: Since the middle of the 20th century, the region has come to play host to numerous international sports and entertainment festivals, such as the Lisbon & amp; Estoril Film Festival (in Estoril), the 4 Hours of Estoril endurance race (in Cascais), and NOS Alive music festival (in Algés).
+Expected output: 'entities: [{'span': 'international sports', 'entity': 'Misc'}, {'span': 'entertainment festivals', 'entity': 'Misc'}, {'span': 'Lisbon & amp; Estoril Film Festival', 'entity': 'Event'}, {'span': 'Estoril', 'entity': 'Location'}, {'span': '4 Hours of Estoril endurance race', 'entity': 'Event'}, {'span': 'Cascais', 'entity': 'Location'}, {'span': 'NOS Alive music festival', 'entity': 'Event'}, {'span': 'Algés', 'entity': 'Location'}]'
+
+Example #19: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #20: However, in November 2015, a group of Chinese scientists used the gene editing technique CRISPR / Cas9 to edit single-celled, non-viable embryos to see the effectiveness of this technique.
+Expected output: 'entities: [{'span': 'Chinese', 'entity': 'Misc'}, {'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'Cas9', 'entity': 'Misc'}]'
+

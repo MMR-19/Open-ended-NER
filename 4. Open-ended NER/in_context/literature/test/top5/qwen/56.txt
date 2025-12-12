@@ -1,0 +1,15 @@
+Example #1: For the general reader, Jonson's reputation rests on a few lyrics that, though brief, are surpassed for grace and precision by very few Renaissance poems: On My First Sonne; To Celia; To Penshurst; and the epitaph on Salomon Pavy, a boy player abducted from his parents who acted in Jonson's plays.
+Expected output: 'entities: [{'span': 'Jonson', 'entity': 'Person'}, {'span': 'Renaissance poems', 'entity': 'Literary Genre'}, {'span': 'On My First Sonne', 'entity': 'Poem'}, {'span': 'To Celia', 'entity': 'Poem'}, {'span': 'To Penshurst', 'entity': 'Poem'}, {'span': 'Salomon Pavy', 'entity': 'Person'}, {'span': 'Jonson', 'entity': 'Writer'}]'
+
+Example #2: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #3: Arrian, Anabasis Alexandri 1.12.1, Cicero, Pro Archia Poeta 24.
+Expected output: 'entities: [{'span': 'Arrian', 'entity': 'Writer'}, {'span': 'Anabasis Alexandri', 'entity': 'Book'}, {'span': 'Cicero', 'entity': 'Writer'}, {'span': 'Pro Archia Poeta', 'entity': 'Book'}]'
+
+Example #4: Highly regarded in his lifetime and for a period thereafter, he is now largely remembered for his anti-slavery writings and his poems Barbara Frietchie, The Barefoot Boy, Maud Muller and Snow-Bound.
+Expected output: 'entities: [{'span': 'anti-slavery writings', 'entity': 'Literary Genre'}, {'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Barbara Frietchie', 'entity': 'Poem'}, {'span': 'The Barefoot Boy', 'entity': 'Poem'}, {'span': 'Maud Muller', 'entity': 'Poem'}, {'span': 'Snow-Bound', 'entity': 'Poem'}]'
+
+Example #5: This uses the words of war poet Wilfred Owen ' s At a Calvary near the Ancre.
+Expected output: 'entities: [{'span': 'Wilfred Owen', 'entity': 'Writer'}, {'span': 'At a Calvary near the Ancre', 'entity': 'Poem'}]'
+

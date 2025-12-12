@@ -1,0 +1,60 @@
+Example #1: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #2: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #3: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #4: In 1871 he was elected a fellow of the Linnean Society of London, and in 1881 he was elected a fellow of the Royal Society.
+Expected output: 'entities: [{'span': 'fellow of the Linnean Society of London', 'entity': 'Award'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}]'
+
+Example #5: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #6: Hewish has Honorary degrees from six universities including Manchester, Exeter and Cambridge, is a Foreign Member of the Belgian Royal Academy and the American Academy of Arts and Sciences and the Indian National Science Academy.
+Expected output: 'entities: [{'span': 'Hewish', 'entity': 'Scientist'}, {'span': 'Manchester', 'entity': 'University'}, {'span': 'Exeter', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'Belgian Royal Academy', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Indian National Science Academy', 'entity': 'Organisation'}]'
+
+Example #7: He also is one of the two Shaw Prize Founding Members and is a Distinguished Professor-at-Large at the Chinese University of Hong Kong.
+Expected output: 'entities: [{'span': 'Shaw Prize', 'entity': 'Award'}, {'span': 'Chinese University of Hong Kong', 'entity': 'University'}]'
+
+Example #8: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #9: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #10: He was awarded honorary degree from the University of Cambridge in Cambridge, UK, and the Copley Medal of the Royal Society in 1906.
+Expected output: 'entities: [{'span': 'University of Cambridge', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'Location'}, {'span': 'UK', 'entity': 'Country'}, {'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #11: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #12: During his life, in addition to the Nobel Prize, Hopkins was awarded the Royal Medal of the Royal Society in 1918, the Cameron Prize for Therapeutics of the University of Edinburgh in 1922, and the Copley Medal of the Royal Society in 1926.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Hopkins', 'entity': 'Person'}, {'span': 'Royal Medal of the Royal Society', 'entity': 'Award'}, {'span': 'Cameron Prize for Therapeutics of the University of Edinburgh', 'entity': 'Award'}, {'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}]'
+
+Example #13: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #14: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #15: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #16: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #17: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #18: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #19: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #20: This discovery, which earned him the Copley Medal of the Royal Society in 1825, was followed by another, that a rotating plate of copper tends to communicate its motion to a magnetic needle suspended over it, which he called magnetism of rotation Annales de chimie et de physique (1824), vol.
+Expected output: 'entities: [{'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}, {'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'magnetism of rotation', 'entity': 'Misc'}, {'span': 'Annales de chimie et de physique', 'entity': 'Academic Journal'}]'
+

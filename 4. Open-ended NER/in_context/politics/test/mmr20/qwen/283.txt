@@ -1,0 +1,60 @@
+Example #1: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #2: Joschka Fischer became Vice-Chancellor of Germany and foreign minister in the new government, which had two other Green ministers (Andrea Fischer, later Renate Künast, and Jürgen Trittin).
+Expected output: 'entities: [{'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Andrea Fischer', 'entity': 'Person'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #3: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #4: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #5: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #6: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+
+Example #7: Isaac Butt (6 September 1813 - 5 May 1879), was an Irish barrister, politician, Member of Parliament (M.P.) in the House of Commons of the United Kingdom, and the founder and first leader of a number of Irish nationalist parties and organisations, including the Irish Metropolitan Conservative Society in 1836, the Home Government Association in 1870 and in 1873 the Home Rule League.
+Expected output: 'entities: [{'span': 'Isaac Butt', 'entity': 'Politician'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'House of Commons of the United Kingdom', 'entity': 'Organisation'}, {'span': 'Irish nationalist', 'entity': 'Misc'}, {'span': 'Irish Metropolitan Conservative Society', 'entity': 'Political Party'}, {'span': 'Home Government Association', 'entity': 'Political Party'}, {'span': 'Home Rule League', 'entity': 'Political Party'}]'
+
+Example #8: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #9: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #10: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #11: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #12: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+
+Example #13: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #14: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #15: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #16: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #17: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #18: He introduced measures to combat resistance, and when a widespread strike took place in Amsterdam, Arnhem and Hilversum in May 1943, special summary court-martial procedures were brought in, and a collective fine of 18 million guilder s was imposed.
+Expected output: 'entities: [{'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Hilversum', 'entity': 'Location'}]'
+
+Example #19: Beginning as a private secretary and assistant to Abraham Lincoln, Hay's highest office was United States Secretary of State under Presidents William McKinley and Theodore Roosevelt.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Hay', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}]'
+
+Example #20: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+

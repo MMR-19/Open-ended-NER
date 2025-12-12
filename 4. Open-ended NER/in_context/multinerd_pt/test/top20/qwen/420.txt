@@ -1,0 +1,60 @@
+Example #1: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #2: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #3: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #4: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #5: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #6: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #7: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #8: Marcou seus primeiros gols pelo clube merengue numa goleada sobre o Deportivo La Coruña por 8 – 2, válida pelo Campeonato Espanhol.
+Expected output: 'entities: [{'span': 'Deportivo La Coruña', 'entity': 'Organização'}, {'span': 'Campeonato Espanhol', 'entity': 'Evento'}]'
+
+Example #9: Três dias depois, marcou seu primeiro gol, também dando uma assistência de Sergio Agüero numa goleada por 5 a 0 sobre o Steaua Bucureşti, da Romênia, em partida válida pelos playoffs da Liga dos Campeões.
+Expected output: 'entities: [{'span': 'Sergio Agüero', 'entity': 'Pessoa'}, {'span': 'Steaua Bucureşti', 'entity': 'Organização'}, {'span': 'Romênia', 'entity': 'Localização'}, {'span': 'Liga dos Campeões', 'entity': 'Evento'}]'
+
+Example #10: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #11: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #12: Após iniciar a temporada 2010 – 11 como terceira opção para o gol do Arsenal, ganhou oportunidades devido às lesões de Manuel Almunia, então titular, e de seu reserva Łukasz Fabiański.
+Expected output: 'entities: [{'span': 'Arsenal', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Manuel Almunia', 'entity': 'Pessoa'}, {'span': 'Łukasz Fabiański', 'entity': 'Pessoa'}]'
+
+Example #13: Seu último jogo nos Patriots aconteceu na semana 4 no Monday Night Football contra o Miami Dolphins; ele não registrou uma recepção pela primeira vez em sua carreira nos Patriots.
+Expected output: 'entities: [{'span': 'Monday Night Football', 'entity': 'Média'}, {'span': 'Miami Dolphins', 'entity': 'Organização'}]'
+
+Example #14: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #15: Foi sede de quatro World Series (1917, 1918, 1919 e 1959), incluindo um com o Chicago Cubs (1918), devido a baixa capacidade do Wrigley Field.
+Expected output: 'entities: [{'span': 'World Series', 'entity': 'Evento'}, {'span': '1917', 'entity': 'Tempo'}, {'span': '1918', 'entity': 'Tempo'}, {'span': '1919', 'entity': 'Tempo'}, {'span': '1959', 'entity': 'Tempo'}, {'span': 'Chicago Cubs', 'entity': 'Organização'}, {'span': 'Wrigley Field', 'entity': 'Localização'}]'
+
+Example #16: Extensamente citada nos Atos dos Apóstolos e nas epístolas paulinas, na cidade de Antioquia é descrita por São Lucas, ele mesmo membro da comunidade, a primeira vez em que os discípulos de Cristo foram chamados cristãos.
+Expected output: 'entities: [{'span': 'Atos dos Apóstolos', 'entity': 'Média'}, {'span': 'Antioquia', 'entity': 'Localização'}, {'span': 'São Lucas', 'entity': 'Entidade mitológica'}, {'span': 'Cristo', 'entity': 'Pessoa'}]'
+
+Example #17: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #18: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #19: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+
+Example #20: Nos tempos antigos, foi utilizado para alojar a parte atlética dos Jogos das Panateneias, em homenagem à deusa grega Atena.
+Expected output: 'entities: [{'span': 'Jogos das Panateneias', 'entity': 'Evento'}, {'span': 'Atena', 'entity': 'Entidade mitológica'}]'
+

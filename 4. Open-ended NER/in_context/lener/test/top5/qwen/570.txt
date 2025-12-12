@@ -1,0 +1,15 @@
+Example #1: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #2: Julgo extinto o processo, com resolução do mérito, nos termos do art. 487, I, do NCPC.
+Expected output: 'entities: [{'span': 'art. 487, I, do NCPC', 'entity': 'Legislação'}]'
+
+Example #3: (TJMG - Apelação Cível 1.0024.13.330164-8/001, Relator (a): Des. (a) Aparecida Grossi, 16ª CÂMARA CÍVEL, julgamento em 06/10/0017, publicação da súmula em 11/10/2017) EMENTA: DIREITO PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0024.13.330164-8/001', 'entity': 'Jurisprudência'}, {'span': 'Aparecida Grossi', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/10/0017', 'entity': 'Tempo'}, {'span': '11/10/2017', 'entity': 'Tempo'}]'
+
+Example #4: (AgRg no REsp 1251201/MG, Rel. Ministro NAPOLEÃO NUNES MAIA FILHO, PRIMEIRA TURMA, julgado em 18/10/2016, DJe 27/10/2016).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1251201/MG', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '18/10/2016', 'entity': 'Tempo'}, {'span': '27/10/2016', 'entity': 'Tempo'}]'
+
+Example #5: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+

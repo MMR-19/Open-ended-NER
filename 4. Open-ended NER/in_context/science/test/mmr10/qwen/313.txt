@@ -1,0 +1,30 @@
+Example #1: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #2: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #3: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+
+Example #4: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #5: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #6: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #7: In 1977, the UK-APC named a series of peaks in Palmer Land, Antarctica the Sverdrup Nunataks after him.
+Expected output: 'entities: [{'span': 'UK-APC', 'entity': 'Organisation'}, {'span': 'Palmer Land', 'entity': 'Location'}, {'span': 'Antarctica', 'entity': 'Location'}, {'span': 'Sverdrup Nunataks', 'entity': 'Misc'}]'
+
+Example #8: Human leukocyte antigen constitutes a group of cell surface antigens also known as the Major histocompatibility complex of humans.
+Expected output: 'entities: [{'span': 'Human leukocyte antigen', 'entity': 'Misc'}, {'span': 'Major histocompatibility complex', 'entity': 'Misc'}]'
+
+Example #9: Lost was created by Jeffrey Lieber, J. J. Abrams and Damon Lindelof, who share story writing credits for the pilot episode, which Abrams directed.
+Expected output: 'entities: [{'span': 'Lost', 'entity': 'Misc'}, {'span': 'Jeffrey Lieber', 'entity': 'Person'}, {'span': 'J. J. Abrams', 'entity': 'Person'}, {'span': 'Damon Lindelof', 'entity': 'Person'}, {'span': 'pilot episode', 'entity': 'Misc'}, {'span': 'Abrams', 'entity': 'Person'}]'
+
+Example #10: Prominent anatomists and geologists such as Georges Cuvier, Richard Owen, Adam Sedgwick, and Charles Lyell attacked it vigorously.
+Expected output: 'entities: [{'span': 'Georges Cuvier', 'entity': 'Scientist'}, {'span': 'Richard Owen', 'entity': 'Scientist'}, {'span': 'Adam Sedgwick', 'entity': 'Scientist'}, {'span': 'Charles Lyell', 'entity': 'Scientist'}]'
+

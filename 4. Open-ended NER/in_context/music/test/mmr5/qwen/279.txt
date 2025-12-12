@@ -1,0 +1,15 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+
+Example #3: In 2005, American Idiot won a Grammy Award for Grammy Award for Best Rock Album and was nominated in six other categories including Grammy Award for Album of the Year.
+Expected output: 'entities: [{'span': 'American Idiot', 'entity': 'Album'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Grammy Award for Best Rock Album', 'entity': 'Award'}, {'span': 'Grammy Award for Album of the Year', 'entity': 'Award'}]'
+
+Example #4: He has been involved in charitable work, including ONE Campaign, H2O Africa Foundation, Feeding America, and Water.org.
+Expected output: 'entities: [{'span': 'ONE Campaign', 'entity': 'Organisation'}, {'span': 'H2O Africa Foundation', 'entity': 'Organisation'}, {'span': 'Feeding America', 'entity': 'Organisation'}, {'span': 'Water.org', 'entity': 'Organisation'}]'
+
+Example #5: The self-titled record was an instant success both critically and commercially, led by the official theme song for UAAP Season 71 of the UAAP - Puso (trans: Heart).
+Expected output: 'entities: [{'span': 'UAAP Season 71', 'entity': 'Event'}, {'span': 'UAAP', 'entity': 'Organisation'}, {'span': 'Puso', 'entity': 'Song'}, {'span': 'Heart', 'entity': 'Song'}]'
+

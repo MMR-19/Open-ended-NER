@@ -1,0 +1,30 @@
+Example #1: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #2: The committee may use any process it deems appropriate for the purpose of evaluating candidates, which process may include, without limitation, personal interviews, background checks, written submissions by the candidates and third party references.
+Expected output: 'entities: []'
+
+Example #3: Robert P. Bremner, Jack B. Evans, David J. Kundert, Chair, William J. Schneider and Terence J. Toth are current members of the audit committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #4: The Board Members elected by holders of Preferred Shares will be elected to serve until the next annual meeting or until their successors have been duly elected and qualified.
+Expected output: 'entities: []'
+
+Example #5: The number of dividend committee meetings of each Fund held during its last fiscal year is shown in Appendix C.
+Expected output: 'entities: []'
+
+Example #6: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2010 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Executive Officer of the Company, certify that, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #7: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #8: The following table sets forth, for each Board Member nominee and for the Board Member nominees and officers as a group, the amount of shares beneficially owned in each Fund as of December 31, 2009.
+Expected output: 'entities: []'
+
+Example #9: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #10: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+

@@ -1,0 +1,60 @@
+Example #1: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #2: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #3: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #4: Esta categoria inclui artigos e categorias sobre o domínio Archaea.
+Expected output: 'entities: [{'span': 'Archaea', 'entity': 'Entidade biológica'}]'
+
+Example #5: Ela é a mãe de Thor e a personificação da Terra.
+Expected output: 'entities: [{'span': 'Thor', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #6: Também inspirou uma canção de sucesso, " Wuthering Heights ", composta e interpretada por Kate Bush para o álbum " The Kick Inside ", de 1978, e posteriormente regravada pela banda Angra, em seu álbum " Angels Cry ", de 1993.
+Expected output: 'entities: [{'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'The Kick Inside', 'entity': 'Média'}, {'span': '1978', 'entity': 'Tempo'}, {'span': 'Angra', 'entity': 'Organização'}, {'span': 'Angels Cry', 'entity': 'Média'}, {'span': '1993', 'entity': 'Tempo'}]'
+
+Example #7: Seus símbolos incluem a murta, o golfinho, o pombo, o cisne, a rosa, a romã, limeira, pérolas e joias.
+Expected output: 'entities: [{'span': 'murta', 'entity': 'Planta'}, {'span': 'golfinho', 'entity': 'Animal'}, {'span': 'cisne', 'entity': 'Animal'}, {'span': 'rosa', 'entity': 'Planta'}, {'span': 'romã', 'entity': 'Planta'}, {'span': 'limeira', 'entity': 'Comida'}]'
+
+Example #8: O ônibus espacial lançou e posicionou vários satélites na órbita da Terra, além de lançar, posicionar e realizar manutenções e reparos no Hubble, um dos maiores e mais bem sucedidos telescópios espaciais já criados.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Hubble', 'entity': 'Instrumento'}]'
+
+Example #9: Em seu romance " 120 Dias de Sodoma ", por exemplo, nobres devassos abusam de crianças raptadas encerrados num castelo de luxo, num clima de crescente violência, com coprofagia, mutilações e assassinatos.
+Expected output: 'entities: [{'span': '120 Dias de Sodoma', 'entity': 'Média'}, {'span': 'coprofagia', 'entity': 'Comida'}]'
+
+Example #10: Os membros de Basidiomycota, vulgarmente chamados fungos de bastão ou basidiomicetes, produzem meiósporos chamados basidiósporos em estruturas chamadas basídios.
+Expected output: 'entities: [{'span': 'Basidiomycota', 'entity': 'Entidade biológica'}]'
+
+Example #11: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #12: Foi inspirado no TeX e no GNU Emacs.
+Expected output: 'entities: [{'span': 'TeX', 'entity': 'Média'}, {'span': 'GNU Emacs', 'entity': 'Instrumento'}]'
+
+Example #13: Suas canções falam principalmente sobre o amor, mas já tratou de outros temas mais polêmicos como religião e guerra, principalmente no álbum " Chorus ", escrito na época da guerra do Golfo.
+Expected output: 'entities: [{'span': 'Chorus', 'entity': 'Média'}, {'span': 'guerra do Golfo', 'entity': 'Evento'}]'
+
+Example #14: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+
+Example #15: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #16: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #17: Existiam também os jogos que eram realizados anualmente em locais diferentes, e que culminaram nos Jogos Olímpicos da Antiguidade, realizados a quatro anos e dedicados a Zeus.
+Expected output: 'entities: [{'span': 'Jogos Olímpicos da Antiguidade', 'entity': 'Evento'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #18: Um poema sumeriano de 3900 anos homenageando a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu, descrevendo a produção de cerveja de cevada utilizando pão.
+Expected output: 'entities: [{'span': 'Ninkasi', 'entity': 'Entidade mitológica'}, {'span': 'cevada', 'entity': 'Planta'}, {'span': 'pão', 'entity': 'Comida'}]'
+
+Example #19: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+
+Example #20: Entretanto, a sonda Mars Reconnaissance Orbiter revelou veios de água salgada que fluem em regiões montanhosas nos meses mais quentes do planeta, aumentando a possibilidade da existência de vida micro-orgânica.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrumento'}]'
+

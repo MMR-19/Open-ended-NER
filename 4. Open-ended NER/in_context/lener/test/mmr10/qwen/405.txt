@@ -1,0 +1,30 @@
+Example #1: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #2: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #3: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #4: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #5: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #6: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #7: No entanto, em razão do princípio da estabilidade da demanda, não se admite a alteração da causa de pedir, ainda que com o consentimento do réu, após o saneamento do processo, consoante vedação contida no art. 329, II, do CPC.
+Expected output: 'entities: [{'span': 'art. 329, II, do CPC', 'entity': 'Legislação'}]'
+
+Example #8: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #9: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #10: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+

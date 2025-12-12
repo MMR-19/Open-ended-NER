@@ -1,0 +1,30 @@
+Example #1: As with BLEU, the basic unit of evaluation is the sentence, the algorithm first creates an alignment (see illustrations) between two sentence s, the candidate translation string, and the reference translation string.
+Expected output: 'entities: [{'span': 'BLEU', 'entity': 'Metrics'}]'
+
+Example #2: The NIST metric is based on the BLEU metric, but with some alterations.
+Expected output: 'entities: [{'span': 'NIST metric', 'entity': 'Metrics'}, {'span': 'BLEU metric', 'entity': 'Metrics'}]'
+
+Example #3: The most common way is using the so-called ROUGE (Recall-Oriented Understudy for Gisting Evaluation) measure.
+Expected output: 'entities: [{'span': 'ROUGE', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}]'
+
+Example #4: One of the metrics used in NIST ' s annual Document Understanding Conferences, in which research groups submit their systems for both summarization and translation tasks, is the ROUGE metric (Recall-Oriented Understudy for Gisting Evaluation, In Advances of Neural Information Processing Systems (NIPS), Montreal, Canada, December - 2014.
+Expected output: 'entities: [{'span': "NIST ' s annual Document Understanding Conferences", 'entity': 'Conference'}, {'span': 'summarization', 'entity': 'Task'}, {'span': 'translation tasks', 'entity': 'Task'}, {'span': 'ROUGE metric', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}, {'span': 'Neural Information Processing Systems', 'entity': 'Conference'}, {'span': 'NIPS', 'entity': 'Conference'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Canada', 'entity': 'Country'}]'
+
+Example #5: Speech recognition and speech synthesis deal with how spoken language can be understood or created using computers.
+Expected output: 'entities: [{'span': 'Speech recognition', 'entity': 'Task'}, {'span': 'speech synthesis', 'entity': 'Task'}]'
+
+Example #6: The information retrieval metrics such as precision and recall or DCG are useful to assess the quality of a recommendation method.
+Expected output: 'entities: [{'span': 'information retrieval', 'entity': 'Task'}, {'span': 'precision', 'entity': 'Metrics'}, {'span': 'recall', 'entity': 'Metrics'}, {'span': 'DCG', 'entity': 'Metrics'}]'
+
+Example #7: Several of these programs are available online, such as Google Translate and the SYSTRAN system that powers AltaVista's BabelFish (now Yahoo's Babelfish as of 9 May 2008).
+Expected output: 'entities: [{'span': 'Google Translate', 'entity': 'Product'}, {'span': 'SYSTRAN system', 'entity': 'Product'}, {'span': 'AltaVista', 'entity': 'Organisation'}, {'span': 'BabelFish', 'entity': 'Product'}, {'span': 'Yahoo', 'entity': 'Organisation'}, {'span': 'Babelfish', 'entity': 'Product'}]'
+
+Example #8: Grammar checkers are most often implemented as a feature of a larger program, such as a word processor, but are also available as a stand-alone application that can be activated from within programs that work with editable text.
+Expected output: 'entities: [{'span': 'Grammar checkers', 'entity': 'Product'}, {'span': 'word processor', 'entity': 'Product'}]'
+
+Example #9: The input is called speech recognition and the output is called speech synthesis.
+Expected output: 'entities: [{'span': 'speech recognition', 'entity': 'Task'}, {'span': 'speech synthesis', 'entity': 'Task'}]'
+
+Example #10: Since 2002, perceptron training has become popular in the field of natural language processing for such tasks as part-of-speech tagging and syntactic parsing (Collins, 2002).
+Expected output: 'entities: [{'span': 'natural language processing', 'entity': 'Field'}, {'span': 'part-of-speech tagging', 'entity': 'Task'}, {'span': 'syntactic parsing', 'entity': 'Task'}, {'span': 'Collins', 'entity': 'Researcher'}]'
+

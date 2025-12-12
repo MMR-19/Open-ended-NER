@@ -1,0 +1,60 @@
+Example #1: Each Fund will furnish, without charge, a copy of its annual report and/or semi-annual report as available upon request.
+Expected output: 'entities: []'
+
+Example #2: (“ BS & Co. ”) in the New York District Court in a civil action captioned Securities and Exchange Commission v. Bear, Stearns & Co.
+Expected output: 'entities: [{'span': 'BS & Co.', 'entity': 'Business'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Bear, Stearns & Co.', 'entity': 'Business'}]'
+
+Example #3: The Company is subject to the informational requirements of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and in accordance therewith files reports, proxy statements and other information including annual and quarterly reports on Form 10-K and 10-Q (the “ 1934 Act Filings ”) with the Securities and Exchange Commission (the “ Commission ”).
+Expected output: 'entities: [{'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': '10-Q', 'entity': 'Miscellaneous'}, {'span': '1934 Act Filings', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #4: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #5: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #6: The following table indicates which shareholders are solicited with respect to each matter:
+Expected output: 'entities: []'
+
+Example #7: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #8: Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.
+Expected output: 'entities: [{'span': 'Chemical Financial', 'entity': 'Business'}, {'span': 'OAK', 'entity': 'Business'}, {'span': 'SEC', 'entity': 'Government'}, {'span': 'Chemical Financial Corporation', 'entity': 'Business'}, {'span': 'East Main Street', 'entity': 'Location'}, {'span': 'Midland', 'entity': 'Location'}, {'span': 'MI', 'entity': 'Location'}, {'span': 'Lori A. Gwizdala', 'entity': 'Person'}, {'span': 'O.A.K. Financial Corporation', 'entity': 'Business'}, {'span': '84th Street, SW', 'entity': 'Location'}, {'span': 'Byron Center', 'entity': 'Location'}, {'span': 'James A. Luyk', 'entity': 'Person'}]'
+
+Example #9: The number of compliance, risk management and regulatory oversight committee meetings of each Fund held during its last fiscal year is shown in Appendix C.
+Expected output: 'entities: []'
+
+Example #10: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #11: The dividend committee is authorized to declare distributions on the Fund s shares including, but not limited to, regular and special dividends, capital gains and ordinary income distributions.
+Expected output: 'entities: []'
+
+Example #12: Audit and Related Fees.
+Expected output: 'entities: []'
+
+Example #13: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #14: Based on the committee s review and discussions with management and the independent registered public accounting firm, the representations of management and the report of the independent registered public accounting firm to the committee, the committee has recommended that the audited financial statements be included in each Fund s Annual Report.
+Expected output: 'entities: []'
+
+Example #15: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #16: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #17: In connection with the Quarterly Report of InsPro Technologies Corporation (the `` Company '') on Form 10-Q for the fiscal quarter ended March 31, 2011 as filed with the Securities and Exchange Commission on the date hereof (the `` Report ''), I, Anthony R. Verdi, Chief Financial Officer of the Company, certify, based on my knowledge:
+Expected output: 'entities: [{'span': 'InsPro Technologies Corporation', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Anthony R. Verdi', 'entity': 'Person'}]'
+
+Example #18: Timely submission of a proposal does not mean that such proposal will be included in a proxy statement.
+Expected output: 'entities: []'
+
+Example #19: Each Fund s proxy statement is available at www.nuveen.com/CEF/Info/Shareholder/Proxy Statements.aspx.
+Expected output: 'entities: []'
+
+Example #20: We have acted as special counsel to Regency Energy Partners LP, a Delaware limited partnership (the Partnership), Regency Energy Finance Corp., a Delaware corporation (Regency Finance and, together with the Partnership, the Issuers), and the entities listed on Schedule I hereto (collectively, the Guarantors), in connection with the filing on the date hereof with the Securities and Exchange Commission (the Commission) of Post-Effective Amendment No. 1 (the Amendment) to the registration statement on Form S-3 (File No. 333-169901) (the Registration Statement) under the Securities Act of 1933, as amended (the Act).
+Expected output: 'entities: [{'span': 'Regency Energy Partners LP', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'Regency Energy Finance Corp.', 'entity': 'Business'}, {'span': 'Regency Finance', 'entity': 'Business'}, {'span': 'Schedule I', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}]'
+

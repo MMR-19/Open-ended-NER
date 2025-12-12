@@ -1,0 +1,30 @@
+Example #1: The annual retainer, fees and expenses are allocated among the funds managed by the Adviser, on the basis of relative net asset sizes although fund management may, in its discretion, establish a minimum amount to be allocated to each fund.
+Expected output: 'entities: []'
+
+Example #2: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #3: Shareholders of a Fund who execute proxies may revoke them at any time before they are voted by filing with that Fund a written notice of revocation, by delivering a duly executed proxy bearing a later date, or by attending the Annual Meeting and voting in person.
+Expected output: 'entities: []'
+
+Example #4: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #5: Enron On July 28, 2003, the Commission filed a complaint (the “ Enron Complaint ”) against JPMC in the United States District Court for the Southern District of Texas (the “ Texas District Court ”) in a civil action captioned Securities and Exchange Commission v. JPMorgan Chase & Co.
+Expected output: 'entities: [{'span': 'Enron', 'entity': 'Business'}, {'span': 'Enron Complaint', 'entity': 'Miscellaneous'}, {'span': 'JPMC', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of Texas', 'entity': 'Court'}, {'span': 'Texas District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'JPMorgan Chase & Co.', 'entity': 'Business'}]'
+
+Example #6: The Audit Committee shall assist the Board in oversight and monitoring of (1) the accounting and reporting policies, processes and practices, and the audits of the financial statements, of the Funds; (2) the quality and integrity of the financial statements of the Funds; (3) the Funds compliance with legal and regulatory requirements, (4) the independent auditors qualifications, performance and independence; and (5) oversight of the Pricing Procedures of the Funds and the Valuation Group.
+Expected output: 'entities: []'
+
+Example #7: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #8: The following table sets forth information with respect to each officer of the Funds.
+Expected output: 'entities: []'
+
+Example #9: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #10: Payment of Filing Fee (check the appropriate box):
+Expected output: 'entities: []'
+

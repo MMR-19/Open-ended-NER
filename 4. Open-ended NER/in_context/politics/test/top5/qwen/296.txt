@@ -1,0 +1,15 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #3: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #4: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #5: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+

@@ -1,0 +1,60 @@
+Example #1: The other side of the road houses several historical buildings and institutions including the M. A. Chidambaram Stadium, the University of Madras, the Presidency College, Vivekananda House, Queen Mary's College, Inspector General of Police Headquarters, All India Radio - Chennai, Dr. Annie Besant Park.
+Expected output: 'entities: [{'span': 'M. A. Chidambaram Stadium', 'entity': 'Location'}, {'span': 'University of Madras', 'entity': 'University'}, {'span': 'Presidency College', 'entity': 'University'}, {'span': 'Vivekananda House', 'entity': 'Location'}, {'span': "Queen Mary's College", 'entity': 'University'}, {'span': 'Inspector General of Police Headquarters', 'entity': 'Organisation'}, {'span': 'All India Radio', 'entity': 'Organisation'}, {'span': 'Chennai', 'entity': 'Location'}, {'span': 'Dr. Annie Besant Park', 'entity': 'Location'}]'
+
+Example #2: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #3: The Thimble Tickle squid was found aground offshore, alive, on 2 November 1878, near Little Bay Copper Mine, Thimble Tickle Bay, Notre Dame Bay, Newfoundland Colony.
+Expected output: 'entities: [{'span': 'Thimble Tickle squid', 'entity': 'Misc'}, {'span': 'Little Bay Copper Mine', 'entity': 'Location'}, {'span': 'Thimble Tickle Bay', 'entity': 'Location'}, {'span': 'Notre Dame Bay', 'entity': 'Location'}, {'span': 'Newfoundland Colony', 'entity': 'Country'}]'
+
+Example #4: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #5: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+
+Example #6: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #7: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #8: Human leukocyte antigen constitutes a group of cell surface antigens also known as the Major histocompatibility complex of humans.
+Expected output: 'entities: [{'span': 'Human leukocyte antigen', 'entity': 'Misc'}, {'span': 'Major histocompatibility complex', 'entity': 'Misc'}]'
+
+Example #9: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #10: Boom Town, a 1940 film about wildcatting in the early Oklahoma oil industry, starred Clark Gable and Spencer Tracy.
+Expected output: 'entities: [{'span': 'Boom Town', 'entity': 'Misc'}, {'span': 'Oklahoma', 'entity': 'Location'}, {'span': 'Clark Gable', 'entity': 'Person'}, {'span': 'Spencer Tracy', 'entity': 'Person'}]'
+
+Example #11: This mechanism is evident on Jupiter and Saturn and on brown dwarf s whose central temperatures are not high enough to undergo nuclear fusion.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #12: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #13: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #14: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #15: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #16: Comparisons were frequently drawn between the second cyclotron at the Harvard Cyclotron Laboratory and the Harwell Synchrocyclotron, and in 1974 clinicians from Oxford ' s Radcliffe Infirmary led by Dr T Hockaday floated plans to replicate the proton therapy work carried out at Massachusetts General Hospital with the accelerator.
+Expected output: 'entities: [{'span': 'Harvard Cyclotron Laboratory', 'entity': 'Organisation'}, {'span': 'Harwell Synchrocyclotron', 'entity': 'Misc'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Radcliffe Infirmary', 'entity': 'Location'}, {'span': 'T Hockaday', 'entity': 'Scientist'}, {'span': 'Massachusetts General Hospital', 'entity': 'Organisation'}]'
+
+Example #17: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #18: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+
+Example #19: It is bounded in the north by the A30 road and runs from Retew and Treviscoe in the west to Redmoor and Penpillick in the east.
+Expected output: 'entities: [{'span': 'A30 road', 'entity': 'Location'}, {'span': 'Retew', 'entity': 'Location'}, {'span': 'Treviscoe', 'entity': 'Location'}, {'span': 'Redmoor', 'entity': 'Location'}, {'span': 'Penpillick', 'entity': 'Location'}]'
+
+Example #20: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+

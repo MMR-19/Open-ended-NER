@@ -1,0 +1,30 @@
+Example #1: Those persons who were shareholders of record at the close of business on Monday, February 8, 2010 will be entitled to one vote for each share held and a proportionate fractional vote for each fractional vote held.
+Expected output: 'entities: []'
+
+Example #2: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #3: by the New York District Court (the “ Bear Final Judgment ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Bear Final Judgment', 'entity': 'Miscellaneous'}]'
+
+Example #4: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+
+Example #5: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #6: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #7: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #8: Each Independent Board Member receives a $ 100,000 annual retainer plus (a) a fee of $ 3,250 per day for attendance in person or by telephone at a regularly scheduled meeting of the Board;
+Expected output: 'entities: []'
+
+Example #9: The dividend committee is authorized to declare distributions on the Fund s shares including, but not limited to, regular and special dividends, capital gains and ordinary income distributions.
+Expected output: 'entities: []'
+
+Example #10: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+

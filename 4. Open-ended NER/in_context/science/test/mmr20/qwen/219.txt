@@ -1,0 +1,60 @@
+Example #1: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #2: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #3: Lost was created by Jeffrey Lieber, J. J. Abrams and Damon Lindelof, who share story writing credits for the pilot episode, which Abrams directed.
+Expected output: 'entities: [{'span': 'Lost', 'entity': 'Misc'}, {'span': 'Jeffrey Lieber', 'entity': 'Person'}, {'span': 'J. J. Abrams', 'entity': 'Person'}, {'span': 'Damon Lindelof', 'entity': 'Person'}, {'span': 'pilot episode', 'entity': 'Misc'}, {'span': 'Abrams', 'entity': 'Person'}]'
+
+Example #4: Several scholars including Steven Pinker, Chomsky, Gerald Edelman, and Alexander Luria have indicated the importance of the emergence of human language as an important regulative mechanism of learning and memory in the context of the development of higher-order consciousness.
+Expected output: 'entities: [{'span': 'Steven Pinker', 'entity': 'Scientist'}, {'span': 'Chomsky', 'entity': 'Scientist'}, {'span': 'Gerald Edelman', 'entity': 'Scientist'}, {'span': 'Alexander Luria', 'entity': 'Scientist'}, {'span': 'higher-order consciousness', 'entity': 'Theory'}]'
+
+Example #5: Examples are 5-O-Methylgenistein, 5-O-Methylmyricetin or 5-O-methylquercetin, also known as azaleatin.
+Expected output: 'entities: [{'span': '5-O-Methylgenistein', 'entity': 'Chemical Compound'}, {'span': '5-O-Methylmyricetin', 'entity': 'Chemical Compound'}, {'span': '5-O-methylquercetin', 'entity': 'Chemical Compound'}, {'span': 'azaleatin', 'entity': 'Chemical Compound'}]'
+
+Example #6: For example, Saturn ' s moons Titan and Enceladus and Jupiter ' s moons Europa and Ganymede, all of which are outside the habitable zone, may hold large volumes of liquid water in subsurface ocean s.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Titan', 'entity': 'Astronomical Object'}, {'span': 'Enceladus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Europa', 'entity': 'Astronomical Object'}, {'span': 'Ganymede', 'entity': 'Astronomical Object'}]'
+
+Example #7: Such experiments were independently performed by Walther Bothe and Hans Geiger,
+Expected output: 'entities: [{'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Hans Geiger', 'entity': 'Scientist'}]'
+
+Example #8: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #9: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #10: He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase
+Expected output: 'entities: [{'span': 'enzymology', 'entity': 'Discipline'}, {'span': 'Rieske protein non-heme iron oxygenases', 'entity': 'Enzyme'}, {'span': 'Alcohol dehydrogenase', 'entity': 'Enzyme'}]'
+
+Example #11: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+
+Example #12: Boom Town, a 1940 film about wildcatting in the early Oklahoma oil industry, starred Clark Gable and Spencer Tracy.
+Expected output: 'entities: [{'span': 'Boom Town', 'entity': 'Misc'}, {'span': 'Oklahoma', 'entity': 'Location'}, {'span': 'Clark Gable', 'entity': 'Person'}, {'span': 'Spencer Tracy', 'entity': 'Person'}]'
+
+Example #13: Nihonium was first reported to have been created in 2003 by a Russian-American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan.
+Expected output: 'entities: [{'span': 'Nihonium', 'entity': 'Chemical Element'}, {'span': 'Russian-American', 'entity': 'Misc'}, {'span': 'Joint Institute for Nuclear Research', 'entity': 'Organisation'}, {'span': 'JINR', 'entity': 'Organisation'}, {'span': 'Dubna', 'entity': 'Location'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'Riken', 'entity': 'Organisation'}, {'span': 'Wakō', 'entity': 'Location'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #14: In 1871 he was elected a fellow of the Linnean Society of London, and in 1881 he was elected a fellow of the Royal Society.
+Expected output: 'entities: [{'span': 'fellow of the Linnean Society of London', 'entity': 'Award'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}]'
+
+Example #15: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #16: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #17: In DNA replication, RNA primers must be inserted along the lagging strand so that DNA polymerase is able to synthesize the strand in the 5 to 3 direction.
+Expected output: 'entities: [{'span': 'DNA replication', 'entity': 'Misc'}, {'span': 'RNA primers', 'entity': 'Misc'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #18: In 1931, an expedition led by Hubert Wilkins and Lincoln Ellsworth and partly financed by William Randolph Hearst, attempted to reach the North Pole with a leased US Navy submarine named Nautilus.
+Expected output: 'entities: [{'span': 'Hubert Wilkins', 'entity': 'Person'}, {'span': 'Lincoln Ellsworth', 'entity': 'Person'}, {'span': 'William Randolph Hearst', 'entity': 'Person'}, {'span': 'North Pole', 'entity': 'Location'}, {'span': 'US Navy submarine named Nautilus', 'entity': 'Misc'}]'
+
+Example #19: In order to get a meaningful sulfur signal from the analysis, the buffer should not contain sulfur (i.e. no BES, DDT, HEPES, MES, MOPS, or PIPES compounds).
+Expected output: 'entities: [{'span': 'sulfur', 'entity': 'Chemical Element'}, {'span': 'BES', 'entity': 'Chemical Compound'}, {'span': 'DDT', 'entity': 'Chemical Compound'}, {'span': 'HEPES', 'entity': 'Chemical Compound'}, {'span': 'MES', 'entity': 'Chemical Compound'}, {'span': 'MOPS', 'entity': 'Chemical Compound'}, {'span': 'PIPES', 'entity': 'Chemical Compound'}]'
+
+Example #20: He described Bleach's portrayal as a halfway house between the original version as played by Michael Wisher and the more exuberant ... turn by Terry Molloy.
+Expected output: 'entities: [{'span': 'Michael Wisher', 'entity': 'Person'}, {'span': 'Terry Molloy', 'entity': 'Person'}]'
+

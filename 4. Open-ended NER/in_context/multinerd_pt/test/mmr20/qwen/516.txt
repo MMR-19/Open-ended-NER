@@ -1,0 +1,60 @@
+Example #1: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #2: Consiste numa sopa rica de peixe com muito alho e tomate (s).
+Expected output: 'entities: [{'span': 'sopa', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}]'
+
+Example #3: Os seres unicelulares, outrora incluídos nos grupos das plantas ou dos animais, se possuíssem ou não capacidade fotossintética, encontram-se actualmente agrupados entre os Protista, junto com alguns seres multicelulares.
+Expected output: 'entities: [{'span': 'plantas', 'entity': 'Planta'}, {'span': 'animais', 'entity': 'Animal'}, {'span': 'Protista', 'entity': 'Entidade biológica'}]'
+
+Example #4: A companhia aérea aposentou seu último Boeing 747 (JA8089) em 1º de março de 2011.
+Expected output: 'entities: [{'span': 'Boeing 747', 'entity': 'Veículo'}]'
+
+Example #5: Seu filho, Simon Bolivar Buckner, Jr., foi um general americano durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Simon Bolivar Buckner, Jr.', 'entity': 'Pessoa'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #6: Existiam também os jogos que eram realizados anualmente em locais diferentes, e que culminaram nos Jogos Olímpicos da Antiguidade, realizados a quatro anos e dedicados a Zeus.
+Expected output: 'entities: [{'span': 'Jogos Olímpicos da Antiguidade', 'entity': 'Evento'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #7: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #8: Os dados registrados pelo telescópio espacial Kepler apresentam um padrão realmente incomum, o que levou muitos pesquisadores a se interessar pelo caso.
+Expected output: 'entities: [{'span': 'telescópio espacial Kepler', 'entity': 'Instrumento'}]'
+
+Example #9: Travou contacto com a espiritualidade oriental, a partir de uma viagem à Índia, em 1911, e com a psicologia analítica, por meio de um discípulo de Carl Gustav Jung, em decorrência de uma crise emocional causada pela eclosão da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'Índia', 'entity': 'Localização'}, {'span': '1911', 'entity': 'Tempo'}, {'span': 'Carl Gustav Jung', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #10: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #11: " Globimetula " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #12: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #13: Chama-se " hermafrodita " (do nome do deus grego Hermafrodito, filho de Hermes e de Afrodite – respectivamente representantes dos sexo masculino e feminino) um indivíduo que produz ambos gametas femininos e masculinos funcionais durante sua vida.
+Expected output: 'entities: [{'span': 'Hermafrodito', 'entity': 'Entidade mitológica'}, {'span': 'Hermes', 'entity': 'Entidade mitológica'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #14: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #15: Porém, o primeiro voo de um helicóptero completamente controlável foi demonstrado por Hanna Reitsch em 1937 em Berlim, Alemanha conduzindo um Focke-Wulf Fw 61.
+Expected output: 'entities: [{'span': 'Hanna Reitsch', 'entity': 'Pessoa'}, {'span': '1937', 'entity': 'Tempo'}, {'span': 'Berlim', 'entity': 'Localização'}, {'span': 'Alemanha', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}]'
+
+Example #16: Alguns membros da tropa podiam adquirir fuzis de assalto AK-47 tão somente preenchendo um formulário de demanda.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}]'
+
+Example #17: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #18: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #19: Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII Corporation, empresa japonesa que era representante da Microsoft no Japão até 1986.
+Expected output: 'entities: [{'span': 'Kazuhiko Nishi', 'entity': 'Pessoa'}, {'span': 'ASCII Corporation', 'entity': 'Organização'}, {'span': 'Microsoft', 'entity': 'Organização'}, {'span': 'Japão', 'entity': 'Localização'}, {'span': '1986', 'entity': 'Tempo'}]'
+
+Example #20: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+

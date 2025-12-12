@@ -1,0 +1,30 @@
+Example #1: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #2: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #3: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #4: Nela, contava com a participação de mais dois personagens, totalizando em 16 personagens selecionaveis, tendo Zeus como o último chefe.
+Expected output: 'entities: [{'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #5: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #6: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #7: Consiste numa sopa rica de peixe com muito alho e tomate (s).
+Expected output: 'entities: [{'span': 'sopa', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}]'
+
+Example #8: No início do século XX, as principais exportações foram café, cacau, gado, açúcar, tabaco, batata doce, couros bovinos e borracha.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'cacau', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'açúcar', 'entity': 'Comida'}, {'span': 'tabaco', 'entity': 'Planta'}]'
+
+Example #9: É nomeado em relação ao deus grego Hermes.
+Expected output: 'entities: [{'span': 'Hermes', 'entity': 'Entidade mitológica'}]'
+
+Example #10: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+

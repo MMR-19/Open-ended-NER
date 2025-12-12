@@ -1,0 +1,30 @@
+Example #1: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #2: The inspectors of election will treat abstentions and broker non-votes (i.e., shares held by brokers or nominees, typically in street name, as to which (i) instructions have not been received from the beneficial owners or persons entitled to vote and (ii) the broker or nominee does not have discretionary voting power on a particular matter) as present for purposes of determining a quorum.
+Expected output: 'entities: []'
+
+Example #3: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #4: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #5: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #6: IF YOU CAN NOT BE PRESENT AT THE MEETING, YOU ARE REQUESTED TO FILL IN, SIGN AND RETURN THE ENCLOSED PROXY PROMPTLY.
+Expected output: 'entities: []'
+
+Example #7: For the purpose of meeting the 30 % test, abstentions will be treated as shares voted and, for the purpose of meeting the 10 % test, abstentions will not be treated as shares voted against the item.
+Expected output: 'entities: []'
+
+Example #8: For purposes of determining the approval of the proposal to elect nominees for each Fund, abstentions and broker non-votes will have no effect on the election of Board Members.
+Expected output: 'entities: []'
+
+Example #9: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #10: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+

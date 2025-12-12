@@ -1,0 +1,15 @@
+Example #1: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #2: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #3: On 21 December 2012, the Cassini-Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.
+Expected output: 'entities: [{'span': 'Cassini-Huygens', 'entity': 'Misc'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #4: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+
+Example #5: Such celebrities as Hermann von Helmholtz, Gustav Kirchhoff, William Thomson (Lord Kelvin), the Siemens brothers, and the Marquis of Salisbury visited the small Norwegian exhibit booth and watched with amazement as a system of pulsating spheres and similar devices appeared to reproduce well-known electric and magnetic phenomena.
+Expected output: 'entities: [{'span': 'Hermann von Helmholtz', 'entity': 'Scientist'}, {'span': 'Gustav Kirchhoff', 'entity': 'Scientist'}, {'span': 'William Thomson', 'entity': 'Scientist'}, {'span': 'Lord Kelvin', 'entity': 'Scientist'}, {'span': 'Siemens brothers', 'entity': 'Person'}, {'span': 'Marquis of Salisbury', 'entity': 'Person'}, {'span': 'Norwegian', 'entity': 'Misc'}]'
+

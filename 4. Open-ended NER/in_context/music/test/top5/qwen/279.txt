@@ -1,0 +1,15 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #3: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+
+Example #4: The self-titled record was an instant success both critically and commercially, led by the official theme song for UAAP Season 71 of the UAAP - Puso (trans: Heart).
+Expected output: 'entities: [{'span': 'UAAP Season 71', 'entity': 'Event'}, {'span': 'UAAP', 'entity': 'Organisation'}, {'span': 'Puso', 'entity': 'Song'}, {'span': 'Heart', 'entity': 'Song'}]'
+
+Example #5: Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award -winning singles Spoonman and Black Hole Sun.
+Expected output: 'entities: [{'span': 'Soundgarden', 'entity': 'Band'}, {'span': 'Superunknown', 'entity': 'Album'}, {'span': 'Billboard 200', 'entity': 'Misc'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Spoonman', 'entity': 'Song'}, {'span': 'Black Hole Sun', 'entity': 'Song'}]'
+

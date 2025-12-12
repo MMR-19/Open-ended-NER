@@ -1,0 +1,30 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: USO E OCUPAÇÃO DO SOLO NO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #3: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #4: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #5: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #6: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #7: (RR-180400-29.2004.5.03.0044, Relator Ministro: Augusto César Leite de Carvalho, 6ª Turma, DEJT 30/3/2010) '' MULTA DO ART. 477 DA CLT.
+Expected output: 'entities: [{'span': 'RR-180400-29.2004.5.03.0044', 'entity': 'Jurisprudência'}, {'span': 'Augusto César Leite de Carvalho', 'entity': 'Pessoa'}, {'span': '6ª Turma', 'entity': 'Organização'}, {'span': '30/3/2010', 'entity': 'Tempo'}, {'span': 'ART. 477 DA CLT', 'entity': 'Legislação'}]'
+
+Example #8: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #9: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #10: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+

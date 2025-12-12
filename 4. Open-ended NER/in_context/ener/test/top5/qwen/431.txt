@@ -1,0 +1,15 @@
+Example #1: The Corporation shall indemnify any person who was or is a party or is threatened to be made a party to any threatened, pending or completed action or suit by or in the right of the Corporation to procure a judgment in its favor by reason of the fact that such person is or was a director, officer, employee or agent of the Corporation, or is or was serving at the request of the Corporation as a director, officer, employee or agent of another corporation, partnership, joint venture, trust or other enterprise against expenses (including attorneys ’ fees) actually and reasonably incurred by such person in connection with the defense or settlement of such action or suit if such person acted in good faith and in a manner such person reasonably believed to be in or not opposed to the best interests of the Corporation and except that no indemnification shall be made in respect of any claim, issue or matter as to which such person shall have been adjudged to be liable to the Corporation unless and only to the extent that the Court of Chancery of the State of Delaware or the court in which such action or suit was brought shall determine upon application that, despite the adjudication of liability, but in view of all the circumstances of the case, such person is fairly and reasonably entitled to indemnity for such expenses which the Court of Chancery or such other court shall deem proper.
+Expected output: 'entities: [{'span': 'Court of Chancery of the State of Delaware', 'entity': 'Court'}, {'span': 'Court of Chancery', 'entity': 'Court'}]'
+
+Example #2: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #3: For the purpose of meeting the 30 % test, abstentions will be treated as shares voted and, for the purpose of meeting the 10 % test, abstentions will not be treated as shares voted against the item.
+Expected output: 'entities: []'
+
+Example #4: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #5: A quorum of shareholders is required to take action at each Annual Meeting.
+Expected output: 'entities: []'
+

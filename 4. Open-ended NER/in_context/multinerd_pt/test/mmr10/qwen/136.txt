@@ -1,0 +1,30 @@
+Example #1: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #2: Existiam também os jogos que eram realizados anualmente em locais diferentes, e que culminaram nos Jogos Olímpicos da Antiguidade, realizados a quatro anos e dedicados a Zeus.
+Expected output: 'entities: [{'span': 'Jogos Olímpicos da Antiguidade', 'entity': 'Evento'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #3: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #4: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #5: Três dias depois, marcou seu primeiro gol, também dando uma assistência de Sergio Agüero numa goleada por 5 a 0 sobre o Steaua Bucureşti, da Romênia, em partida válida pelos playoffs da Liga dos Campeões.
+Expected output: 'entities: [{'span': 'Sergio Agüero', 'entity': 'Pessoa'}, {'span': 'Steaua Bucureşti', 'entity': 'Organização'}, {'span': 'Romênia', 'entity': 'Localização'}, {'span': 'Liga dos Campeões', 'entity': 'Evento'}]'
+
+Example #6: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #7: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #8: O ônibus espacial lançou e posicionou vários satélites na órbita da Terra, além de lançar, posicionar e realizar manutenções e reparos no Hubble, um dos maiores e mais bem sucedidos telescópios espaciais já criados.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Hubble', 'entity': 'Instrumento'}]'
+
+Example #9: Pode ser preparado com camarões frescos inteiros, ou secos e moídos, com peixe, com bacalhau ou com carne de frango, acompanhados de arroz.
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'bacalhau', 'entity': 'Comida'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #10: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+

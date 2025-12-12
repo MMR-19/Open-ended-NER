@@ -1,0 +1,60 @@
+Example #1: (A / S): ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações: O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116, de 30 de junho de 2006, daquele Estado, de origem parlamentar, que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado, previstas na Lei Complementar nº 92, de 5 de julho de 2002 ”.
+Expected output: 'entities: [{'span': 'ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ', 'entity': 'Organização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Lei Complementar nº 116', 'entity': 'Legislação'}, {'span': '30 de junho de 2006', 'entity': 'Tempo'}, {'span': 'Coordenação da Receita do Estado', 'entity': 'Organização'}, {'span': 'Lei Complementar nº 92', 'entity': 'Legislação'}, {'span': '5 de julho de 2002', 'entity': 'Tempo'}]'
+
+Example #2: A indenização deverá ser nos termos da Súmula 474, STJ.
+Expected output: 'entities: [{'span': 'Súmula 474, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #3: Para fins de regularização, fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Complementar nº 840, de 23 de dezembro de 2011, a cessão do servidor TIAGO DA SILVA, matrícula nº 158.920-2, Analista em Políticas Públicas e Gestão Governamental, da Secretaria de Estado de Justiça e Cidadania do Distrito Federal, à Administração Regional do Varjão - RA XXIII, para exercer o Cargo em Comissão, símbolo DFA-12, de Assessor, da Coordenação Executiva, com ônus para o órgão de origem, de 29/03/2017 a 08/09/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Complementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'TIAGO DA SILVA', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Justiça e Cidadania do Distrito Federal', 'entity': 'Organização'}, {'span': 'Varjão - RA XXIII', 'entity': 'Localização'}, {'span': '29/03/2017', 'entity': 'Tempo'}, {'span': '08/09/2017', 'entity': 'Tempo'}]'
+
+Example #4: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359 - CLASSE 32 ITAPEVI - SÃO PAULO Relator: Ministro Napoleão Nunes Maia Filho Agravante: Partido da Social Democracia Brasileira (PSDB) - Municipal Advogados: Thiago Tommasi Marinho - OAB: 2720041SP e outro Agravado: Partido Social Democrata Cristão (PSDC) - Municipal Advogado: Eduardo dos Santos Amaral - OAB: 2874551SP ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359', 'entity': 'Jurisprudência'}, {'span': 'ITAPEVI - SÃO PAULO', 'entity': 'Localização'}, {'span': 'Napoleão Nunes Maia Filho', 'entity': 'Pessoa'}, {'span': 'Partido da Social Democracia Brasileira', 'entity': 'Organização'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'Thiago Tommasi Marinho', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Partido Social Democrata Cristão', 'entity': 'Organização'}, {'span': 'PSDC', 'entity': 'Organização'}, {'span': 'Eduardo dos Santos Amaral', 'entity': 'Pessoa'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #5: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #6: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #7: O Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': 'Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #8: Por força do § 11 do art. 85 do CPC/15, majora-se a verba honorária imposta à Apelante para 12 % (doze por cento) sobre o valor da causa, mantida a suspensão de exigibilidade do referido encargo.
+Expected output: 'entities: [{'span': '§ 11 do art. 85 do CPC/15', 'entity': 'Jurisprudência'}]'
+
+Example #9: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #10: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #11: Nesse contexto, observa-se que o procedimento constitucional estabelecido para a criação e elaboração de normas acerca da administração dos bens públicos, desafetação e alterações de destinações originais compete privativamente ao Senhor Governador do Distrito Federal, e não ao Poder Legislativo Distrital.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #12: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #13: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #14: Ou seja, além do dispositivo se referir apenas a obras e serviços de engenharia (§ 1º do art. 48 da Lei 8.666/1993), portanto, inaplicável ao objeto do Pregão Eletrônico 25/2016, houve erro grosseiro no cálculo realizado, uma vez que, segundo o critério invocado, todas as propostas inferiores a R $ 3.855.600,00 (70 % do valor estimado) deveriam ter sido consideradas inexequíveis.
+Expected output: 'entities: [{'span': '§ 1º do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #15: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #16: A modulação dos efeitos da declaração de inconstitucionalidade somente é possível por razões de segurança jurídica ou de excepcional interesse social, em conformidade com o que dispõe o art. 27 da Lei nº 9.868/99, inocorrentes na hipótese. ” (ADI 2010002002050-8, Conselho Especial, Relator Desembargador SÉRGIO BITTENCOURT, julgado em 17/8/2010, DJ-e de 17/11/2010 p. 44) (grifo nosso) “ CONSTITUCIONAL E ADMINISTRATIVO.
+Expected output: 'entities: [{'span': 'art. 27 da Lei nº 9.868/99', 'entity': 'Legislação'}, {'span': 'ADI 2010002002050-8', 'entity': 'Jurisprudência'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'SÉRGIO BITTENCOURT', 'entity': 'Pessoa'}, {'span': '17/8/2010', 'entity': 'Tempo'}, {'span': '17/11/2010', 'entity': 'Tempo'}]'
+
+Example #17: Ementa e Acórdão 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO RELATOR: MIN. LUIZ FUX PACTE.
+Expected output: 'entities: [{'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}]'
+
+Example #18: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #19: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #20: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+

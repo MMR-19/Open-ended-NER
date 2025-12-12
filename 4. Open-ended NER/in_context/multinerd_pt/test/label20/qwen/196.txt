@@ -1,0 +1,60 @@
+Example #1: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #2: A economia é baseada na produção de sal marinho em salinas, na agricultura de subsistência (algodão arbóreo, caju, arroz, milho, mandioca e feijão), na pecuária (bovinos, suínos e avícola), e na piscicultura (criatórios de camarão).
+Expected output: 'entities: [{'span': 'sal marinho', 'entity': 'Comida'}, {'span': 'caju', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #3: Ela representa a divinização da terra e é considerada, ao lado de Obatalá (a representação divinizada do céu), como a casal primordial e propulsor da criação.
+Expected output: 'entities: [{'span': 'terra', 'entity': 'Corpo celeste'}, {'span': 'Obatalá', 'entity': 'Entidade mitológica'}]'
+
+Example #4: Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) que se serve com pirão e farinha de mandioca, peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e / ou na folha de bananeira, peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros.
+Expected output: 'entities: [{'span': 'pirão', 'entity': 'Comida'}, {'span': 'farinha de mandioca', 'entity': 'Comida'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'bananeira', 'entity': 'Planta'}, {'span': 'tainha', 'entity': 'Animal'}]'
+
+Example #5: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #6: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #7: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #8: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #9: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #10: Foi sede de quatro World Series (1917, 1918, 1919 e 1959), incluindo um com o Chicago Cubs (1918), devido a baixa capacidade do Wrigley Field.
+Expected output: 'entities: [{'span': 'World Series', 'entity': 'Evento'}, {'span': '1917', 'entity': 'Tempo'}, {'span': '1918', 'entity': 'Tempo'}, {'span': '1919', 'entity': 'Tempo'}, {'span': '1959', 'entity': 'Tempo'}, {'span': 'Chicago Cubs', 'entity': 'Organização'}, {'span': 'Wrigley Field', 'entity': 'Localização'}]'
+
+Example #11: Sopa de lacassá e porco afumado, " min chi " (carne picada), balichão, " tacho " (ensopado de carne e legumes), arroz gordo, cabidela de pato, camarões grandes recheados, chetnim de bacalhau, inhame " chau-chau " com " lap-yôck ", galinha assada, caldo de raiz de lótus e caril de galinha são algumas das comidas macaenses populares.
+Expected output: 'entities: [{'span': 'min chi', 'entity': 'Comida'}, {'span': 'pato', 'entity': 'Animal'}, {'span': 'camarões', 'entity': 'Animal'}, {'span': 'chetnim de bacalhau', 'entity': 'Comida'}, {'span': 'inhame', 'entity': 'Planta'}, {'span': 'lótus', 'entity': 'Planta'}, {'span': 'caril', 'entity': 'Comida'}]'
+
+Example #12: É sobretudo forte na produção de azeite (70 % do total espanhol), arroz, frutas, trigo, plantas industriais e na produção de gado.
+Expected output: 'entities: [{'span': 'azeite', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #13: Nesta fase, os olímpicos não eram os únicos deuses que os gregos adoravam: existiam uma variedade de divindades rupestres, como o deus-bode Pã, o deus da natureza e florestas, as ninfas - náiades (que moravam nas nascentes), dríades (espíritos das árvores) e as nereidas (que habitavam o mar) -, deuses de rios, sátiros, meio homem, meio bode, e outras divindades que residiam em florestas, bosques e mares.
+Expected output: 'entities: [{'span': 'Pã', 'entity': 'Entidade mitológica'}]'
+
+Example #14: Os ingredientes da peixada são postas de peixe de água salgada, suco de limão, alho, azeite de oliva, cebola, tomate, coentro, batata, sal, pimenta-do-reino e farinha de mandioca crua.
+Expected output: 'entities: [{'span': 'peixe', 'entity': 'Animal'}, {'span': 'suco', 'entity': 'Comida'}, {'span': 'limão', 'entity': 'Planta'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'batata', 'entity': 'Comida'}, {'span': 'farinha', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}]'
+
+Example #15: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #16: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #17: Consistia no sacrifício de um porco (" sus "), de um carneiro (" ovis ") e de um boi (" taurus ") em homenagem ao deus Marte para abençoar e purificar a terra.
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #18: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #19: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #20: Chama-se " hermafrodita " (do nome do deus grego Hermafrodito, filho de Hermes e de Afrodite – respectivamente representantes dos sexo masculino e feminino) um indivíduo que produz ambos gametas femininos e masculinos funcionais durante sua vida.
+Expected output: 'entities: [{'span': 'Hermafrodito', 'entity': 'Entidade mitológica'}, {'span': 'Hermes', 'entity': 'Entidade mitológica'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+

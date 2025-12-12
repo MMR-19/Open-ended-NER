@@ -1,0 +1,60 @@
+Example #1: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #2: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #3: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #4: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #5: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #6: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #7: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #8: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #9: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #10: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #11: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #12: Foi sede de quatro World Series (1917, 1918, 1919 e 1959), incluindo um com o Chicago Cubs (1918), devido a baixa capacidade do Wrigley Field.
+Expected output: 'entities: [{'span': 'World Series', 'entity': 'Evento'}, {'span': '1917', 'entity': 'Tempo'}, {'span': '1918', 'entity': 'Tempo'}, {'span': '1919', 'entity': 'Tempo'}, {'span': '1959', 'entity': 'Tempo'}, {'span': 'Chicago Cubs', 'entity': 'Organização'}, {'span': 'Wrigley Field', 'entity': 'Localização'}]'
+
+Example #13: Após iniciar a temporada 2010 – 11 como terceira opção para o gol do Arsenal, ganhou oportunidades devido às lesões de Manuel Almunia, então titular, e de seu reserva Łukasz Fabiański.
+Expected output: 'entities: [{'span': 'Arsenal', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Manuel Almunia', 'entity': 'Pessoa'}, {'span': 'Łukasz Fabiański', 'entity': 'Pessoa'}]'
+
+Example #14: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #15: Foi iniciada uma ação para deter esta rotação e assim que isso foi feito, os painéis solares foram abertos e dirigidos ao Sol e as antenas da Rede de Espaço Profundo iniciaram o monitoramento da nave espacial.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'Rede de Espaço Profundo', 'entity': 'Instrumento'}]'
+
+Example #16: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #17: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #18: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #19: Em 2007, com o lançamento do terceiro disco da banda, " Celestial ", deram início a segunda turnê da carreira, a Celestial World Tour, que teve início em 20 de abril de 2007 e teve término em fevereiro de 2008.
+Expected output: 'entities: [{'span': 'Celestial', 'entity': 'Média'}, {'span': 'Celestial World Tour', 'entity': 'Evento'}]'
+
+Example #20: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+

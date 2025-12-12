@@ -1,0 +1,30 @@
+Example #1: Foi inspirado no TeX e no GNU Emacs.
+Expected output: 'entities: [{'span': 'TeX', 'entity': 'Média'}, {'span': 'GNU Emacs', 'entity': 'Instrumento'}]'
+
+Example #2: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #3: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #4: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #5: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #6: A maioria dos integrantes do reino Fungi, assim como as bactérias, obtém alimento decompondo a matéria orgânica do corpo de organismos mortos, atuando como saprófagos, conhecidos popularmente como decompositores.
+Expected output: 'entities: [{'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #7: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #8: A primeira carrinha de caixa aberta a ser fabricada foi baseada no carro Ford Model T, com a traseira modificada.
+Expected output: 'entities: [{'span': 'Ford Model T', 'entity': 'Veículo'}]'
+
+Example #9: O seu nome deriva de Atlas, titã punido por Zeus a carregar eternamente a Terra em suas costas.
+Expected output: 'entities: [{'span': 'Atlas', 'entity': 'Entidade mitológica'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: Extensamente citada nos Atos dos Apóstolos e nas epístolas paulinas, na cidade de Antioquia é descrita por São Lucas, ele mesmo membro da comunidade, a primeira vez em que os discípulos de Cristo foram chamados cristãos.
+Expected output: 'entities: [{'span': 'Atos dos Apóstolos', 'entity': 'Média'}, {'span': 'Antioquia', 'entity': 'Localização'}, {'span': 'São Lucas', 'entity': 'Entidade mitológica'}, {'span': 'Cristo', 'entity': 'Pessoa'}]'
+

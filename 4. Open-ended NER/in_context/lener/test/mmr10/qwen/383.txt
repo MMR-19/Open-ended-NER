@@ -1,0 +1,30 @@
+Example #1: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #2: - Lei de autoria parlamentar que dispõe sobre o uso e ocupação do solo no Distrito Federal padece de vício formal de iniciativa, uma vez que só poderia ter sido proposta por projeto de lei de iniciativa privativa do Chefe do Poder Executivo.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #4: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #5: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #6: O presente recurso foi interposto contra decisão publicada na vigência do NCPC, razão pela qual devem ser exigidos os requisitos de admissibilidade recursal na forma nele prevista, nos termos do Enunciado nº 3 aprovado pelo Plenário do STJ na sessão de 9/3/2016: Aos recursos interpostos com PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 7 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio Branco-AC - Mod. 500258 - Autos n.º 1002199-81.2017.8.01.0000/50000 fundamento no CPC/2015 (relativos a decisões publicadas a partir de 18 de março de 2016) serão exigidos os requisitos de admissibilidade recursal na forma do novo CPC.
+Expected output: 'entities: [{'span': 'NCPC', 'entity': 'Legislação'}, {'span': 'Plenário do STJ', 'entity': 'Organização'}, {'span': '9/3/2016', 'entity': 'Tempo'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio Branco-AC', 'entity': 'Localização'}, {'span': 'Autos n.º 1002199-81.2017.8.01.0000/50000', 'entity': 'Jurisprudência'}, {'span': 'CPC/2015', 'entity': 'Legislação'}, {'span': '18 de março de 2016', 'entity': 'Tempo'}, {'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #7: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #8: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #9: A cláusula penal compensatória deve atender ao princípio da razoabilidade, devendo ser redimensionada pelo magistrado, nos termos do art. 413 do CPC, a fim de afastar o ganho injustificado de uma das partes contratantes em prejuízo da outra.
+Expected output: 'entities: [{'span': 'art. 413 do CPC', 'entity': 'Legislação'}]'
+
+Example #10: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+

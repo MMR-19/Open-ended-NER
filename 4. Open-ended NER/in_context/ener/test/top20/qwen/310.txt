@@ -1,0 +1,60 @@
+Example #1: by the New York District Court (the “ Bear Final Judgment ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Bear Final Judgment', 'entity': 'Miscellaneous'}]'
+
+Example #2: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #3: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #4: To the extent that any court action is permitted consistent with or to enforce Section 7 of this Agreement, the Parties hereby consent to the jurisdiction of the San Diego County Superior Court of California State and the United States District Court for the Southern District of California.
+Expected output: 'entities: [{'span': 'San Diego County Superior Court of California State', 'entity': 'Court'}, {'span': 'United States District Court for the Southern District of California', 'entity': 'Court'}]'
+
+Example #5: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #6: Morgan Securities executed on June 17, 2011, a Consent of Defendant J.P. Morgan Securities (the “ Consent ”), in which J.P. Morgan Securities neither admitted nor denied any of the allegations (except as to personal and subject matter jurisdiction) in a complaint filed by the Commission, but in which it consented to the entry of a final judgment (“ Final Judgment ”) against it by the United States District Court for the Southern District of New York (the “ Court ”).
+Expected output: 'entities: [{'span': 'Morgan Securities', 'entity': 'Business'}, {'span': 'J.P. Morgan Securities', 'entity': 'Business'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}]'
+
+Example #7: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+
+Example #8: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #9: Timely submission of a proposal does not mean that such proposal will be included in a proxy statement.
+Expected output: 'entities: []'
+
+Example #10: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #11: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+
+Example #12: The Ninth Circuit affirmed the dismissal of the consumer fraud and implied covenant claims.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}]'
+
+Example #13: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #14: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #15: Audit Committee members shall be independent of the Funds and free of any relationship that, in the opinion of the Directors/Trustees, would interfere with their exercise of independent judgment as an Audit Committee member.
+Expected output: 'entities: []'
+
+Example #16: The Corporation shall indemnify any person who was or is a party or is threatened to be made a party to any threatened, pending or completed action or suit by or in the right of the Corporation to procure a judgment in its favor by reason of the fact that such person is or was a director, officer, employee or agent of the Corporation, or is or was serving at the request of the Corporation as a director, officer, employee or agent of another corporation, partnership, joint venture, trust or other enterprise against expenses (including attorneys ’ fees) actually and reasonably incurred by such person in connection with the defense or settlement of such action or suit if such person acted in good faith and in a manner such person reasonably believed to be in or not opposed to the best interests of the Corporation and except that no indemnification shall be made in respect of any claim, issue or matter as to which such person shall have been adjudged to be liable to the Corporation unless and only to the extent that the Court of Chancery of the State of Delaware or the court in which such action or suit was brought shall determine upon application that, despite the adjudication of liability, but in view of all the circumstances of the case, such person is fairly and reasonably entitled to indemnity for such expenses which the Court of Chancery or such other court shall deem proper.
+Expected output: 'entities: [{'span': 'Court of Chancery of the State of Delaware', 'entity': 'Court'}, {'span': 'Court of Chancery', 'entity': 'Court'}]'
+
+Example #17: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #18: The cases were consolidated in the District Court for the Southern District of New York for pretrial purposes.
+Expected output: 'entities: [{'span': 'District Court for the Southern District of New York', 'entity': 'Court'}]'
+
+Example #19: The committee has also reviewed and discussed the audited financial statements with management.
+Expected output: 'entities: []'
+
+Example #20: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+

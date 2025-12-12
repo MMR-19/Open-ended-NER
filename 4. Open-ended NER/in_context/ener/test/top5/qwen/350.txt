@@ -1,0 +1,15 @@
+Example #1: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #2: Failure of a quorum to be present at any Annual Meeting will necessitate adjournment and will subject that Fund to additional expense.
+Expected output: 'entities: []'
+
+Example #3: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #4: Each Independent Board Member receives a $ 100,000 annual retainer plus (a) a fee of $ 3,250 per day for attendance in person or by telephone at a regularly scheduled meeting of the Board;
+Expected output: 'entities: []'
+
+Example #5: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+

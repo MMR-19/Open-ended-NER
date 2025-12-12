@@ -1,0 +1,15 @@
+Example #1: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #2: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #3: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #4: (TJMG - Apelação Cível 1.0549.15.003028-2/003, Relator (a): Des. (a) Otávio Portes, 16ª CÂMARA CÍVEL, julgamento em 28/09/2017, publicação da súmula em 06/10/2017) Assim sendo, entendo que deve ser acolhida a preliminar de nulidade do feito arguida pelo Ministério Público na instância recursal, sobremaneira, quando há prejuízo para o incapaz.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0549.15.003028-2/003', 'entity': 'Jurisprudência'}, {'span': 'Otávio Portes', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '28/09/2017', 'entity': 'Tempo'}, {'span': '06/10/2017', 'entity': 'Tempo'}, {'span': 'Ministério Público', 'entity': 'Organização'}]'
+
+Example #5: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+

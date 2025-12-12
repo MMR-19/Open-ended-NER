@@ -1,0 +1,30 @@
+Example #1: He visited some European universities and institutions, including Cavendish Laboratory, Georg August University of Göttingen, and University of Copenhagen.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Georg August University of Göttingen', 'entity': 'University'}, {'span': 'University of Copenhagen', 'entity': 'University'}]'
+
+Example #2: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #3: From 1916 to 1921, he was a lecturer in the physics department of the Rajabazar Science College under University of Calcutta.
+Expected output: 'entities: [{'span': 'physics department of the Rajabazar Science College', 'entity': 'Organisation'}, {'span': 'University of Calcutta', 'entity': 'University'}]'
+
+Example #4: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #5: This increased DctA expression, they found, permitted Citsup + / sup cells to re-uptake Succinic acid, Malic acid, and Fumaric acid released into the medium by the CitT transporter during import of citrate.
+Expected output: 'entities: [{'span': 'DctA', 'entity': 'Protein'}, {'span': 'Succinic acid', 'entity': 'Chemical Compound'}, {'span': 'Malic acid', 'entity': 'Chemical Compound'}, {'span': 'Fumaric acid', 'entity': 'Chemical Compound'}, {'span': 'CitT', 'entity': 'Protein'}, {'span': 'citrate', 'entity': 'Chemical Compound'}]'
+
+Example #6: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+
+Example #7: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #8: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #9: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #10: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+

@@ -1,0 +1,60 @@
+Example #1: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: Nesse contexto, observa-se que o procedimento constitucional estabelecido para a criação e elaboração de normas acerca da administração dos bens públicos, desafetação e alterações de destinações originais compete privativamente ao Senhor Governador do Distrito Federal, e não ao Poder Legislativo Distrital.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES (RELATOR): A decisão ora atacada não merece reparos, uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL, no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal, inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal (HC 133.091-AgR, Rel. Min. CELSO DE MELLO, Tribunal Pleno, DJe de 5/8/2016).
+Expected output: 'entities: [{'span': 'HABEAS CORPUS 151.914', 'entity': 'Jurisprudência'}, {'span': 'ESPÍRITO SANTO', 'entity': 'Localização'}, {'span': 'ALEXANDRE DE MORAES', 'entity': 'Pessoa'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'HC 133.091-AgR', 'entity': 'Jurisprudência'}, {'span': 'CELSO DE MELLO', 'entity': 'Pessoa'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': '5/8/2016', 'entity': 'Tempo'}]'
+
+Example #4: Portanto, a proclamação da inconstitucionalidade da Lei Complementar Distrital nº 85, de 13 de fevereiro de 1998, com efeitos ex tunc e eficácia erga omnes é medida que se impõe. ” (ADI 2010002007992-9, Conselho Especial, Relator Desembargador NATANAEL CAETANO, julgado em 14/9/2010, DJ-e de 17/11/2010 p. 44) (grifo nosso) “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'Lei Complementar Distrital nº 85', 'entity': 'Legislação'}, {'span': '13 de fevereiro de 1998', 'entity': 'Tempo'}, {'span': 'ADI 2010002007992-9', 'entity': 'Jurisprudência'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'NATANAEL CAETANO', 'entity': 'Pessoa'}, {'span': '14/9/2010', 'entity': 'Tempo'}, {'span': '17/11/2010', 'entity': 'Tempo'}]'
+
+Example #5: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #6: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #7: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #8: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #9: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #10: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #11: Art. 3º A Norma de Edificação, Uso e Gabarito NGB a ser utilizada para efeito desta Lei Complementar é a mesma que vigora atualmente para toda a Região Administrativa do Paranoá RA VII.
+Expected output: 'entities: [{'span': 'Região Administrativa do Paranoá', 'entity': 'Localização'}, {'span': 'RA VII', 'entity': 'Localização'}]'
+
+Example #12: No entanto, em razão do princípio da estabilidade da demanda, não se admite a alteração da causa de pedir, ainda que com o consentimento do réu, após o saneamento do processo, consoante vedação contida no art. 329, II, do CPC.
+Expected output: 'entities: [{'span': 'art. 329, II, do CPC', 'entity': 'Legislação'}]'
+
+Example #13: Este o conteúdo da Súmula 262: “ o critério definido no art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93 conduz a uma presunção relativa de inexequibilidade de preços, devendo a Administração dar à licitante a oportunidade de demonstrar a exequibilidade da sua proposta ”.
+Expected output: 'entities: [{'span': 'art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93', 'entity': 'Legislação'}]'
+
+Example #14: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #15: A técnica está prevista expressamente no art. 322, § 1º, do CPC, o qual concretiza a nova perspectiva atribuída ao Processo Civil, voltada para uma efetiva prestação jurisdicional, para a justa composição da lide e para a proteção da boa- PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 2 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 fé. 2.
+Expected output: 'entities: [{'span': 'art. 322, § 1º, do CPC', 'entity': 'Legislação'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #16: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #17: O Sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29/12/2003, o Recibo 001 PRONAC 03.3925 (Peça 1, p. 52), 3/1/2002, no valor inicial de R $ 84.783,41, para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” que previa a realização de 20 espetáculos circenses itinerantes no Estado do Paraná com a Trupe “ Aero Circus ”, nos seguintes municípios, conforme a solicitação de apoio a projetos (Peça 1, p. 4-22): Município Quantidade de espetáculos Londrina 3 Campo Mourão 2 Curitiba 3 Cascavel 3 Foz do Iguaçu 3 Guarapuava 3 Maringá 3 3.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29/12/2003', 'entity': 'Tempo'}, {'span': '3/1/2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}]'
+
+Example #18: A Corte regional entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de Itapevi/SP, na pessoa da pré-candidata oponente do partido ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas, e configurou propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Município de Itapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #19: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #20: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+

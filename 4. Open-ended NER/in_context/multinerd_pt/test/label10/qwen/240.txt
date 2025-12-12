@@ -1,0 +1,30 @@
+Example #1: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #2: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #3: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #4: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #5: Os principais produtos cultivados ou criados no estado são milho, trigo e soja, além de gado, leite e carne bovina.
+Expected output: 'entities: [{'span': 'milho', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'carne', 'entity': 'Comida'}]'
+
+Example #6: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #7: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #8: Seus símbolos incluem a murta, o golfinho, o pombo, o cisne, a rosa, a romã, limeira, pérolas e joias.
+Expected output: 'entities: [{'span': 'murta', 'entity': 'Planta'}, {'span': 'golfinho', 'entity': 'Animal'}, {'span': 'cisne', 'entity': 'Animal'}, {'span': 'rosa', 'entity': 'Planta'}, {'span': 'romã', 'entity': 'Planta'}, {'span': 'limeira', 'entity': 'Comida'}]'
+
+Example #9: Noutras receitas, começa-se por refogar alho, cebola, cenoura e aipo em azeite e junta-se o grão com a água de cozer, que também pode ser caldo de galinha; podem ainda juntar-se ovos cozidos e peixe frito da véspera.
+Expected output: 'entities: [{'span': 'refogar', 'entity': 'Comida'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'cenoura', 'entity': 'Planta'}, {'span': 'azeite', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}]'
+
+Example #10: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+

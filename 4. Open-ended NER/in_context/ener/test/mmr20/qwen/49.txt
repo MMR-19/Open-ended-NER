@@ -1,0 +1,60 @@
+Example #1: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #2: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #3: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+
+Example #4: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #5: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #6: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+
+Example #7: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #8: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #9: The following table sets forth information with respect to each officer of the Funds.
+Expected output: 'entities: []'
+
+Example #10: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #11: In addition to the payments described above, the Independent Chairman receives $ 50,000 annually and the Lead Independent Director, if any, receives $ 35,000, the chairpersons of the audit committee, the dividend committee and the compliance, risk management and regulatory oversight committee receive $ 7,500 and the chairperson of the nominating and governance committee receives $ 5,000 as additional retainers to the annual retainer paid to such individuals.
+Expected output: 'entities: []'
+
+Example #12: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #13: Payment of Filing Fee (check the appropriate box):
+Expected output: 'entities: []'
+
+Example #14: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #15: All candidates must meet high expectations of personal integrity, governance experience and professional competence that are assessed on the basis of personal interviews, recommendations, or direct knowledge by committee members.
+Expected output: 'entities: []'
+
+Example #16: The officers are elected by the Board on an annual basis to serve until successors are elected and qualified.
+Expected output: 'entities: []'
+
+Example #17: The number of regular quarterly meetings and special meetings held by the Board of each Fund during the Fund s last fiscal year is shown in Appendix C. During the last fiscal year, each Board Member attended 75 % or more of each Fund s Board meetings and the committee meetings (if a member thereof) held during the period for which such Board Member was a Board Member.
+Expected output: 'entities: []'
+
+Example #18: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #19: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #20: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+

@@ -1,0 +1,60 @@
+Example #1: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #2: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #3: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #4: South Mumbai has reputed and leading educational institutions such as Jamnalal Bajaj Institute of Management Studies, St. Xavier's College, Government Law College, Jai Hind College, Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals, Sydenham Institute of Management Studies, Research and Entrepreneurship Education to name a few.
+Expected output: 'entities: [{'span': 'South', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Jamnalal Bajaj Institute of Management Studies', 'entity': 'Organisation'}, {'span': "St. Xavier's College", 'entity': 'University'}, {'span': 'Government Law College', 'entity': 'University'}, {'span': 'Jai Hind College', 'entity': 'University'}, {'span': 'Grant Medical College', 'entity': 'University'}, {'span': 'Sir Jamshedjee Jeejeebhoy Group of Hospitals', 'entity': 'Organisation'}, {'span': 'Sydenham Institute of Management Studies', 'entity': 'Organisation'}, {'span': 'Research and Entrepreneurship Education', 'entity': 'Organisation'}]'
+
+Example #5: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #6: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #7: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #8: He also is one of the two Shaw Prize Founding Members and is a Distinguished Professor-at-Large at the Chinese University of Hong Kong.
+Expected output: 'entities: [{'span': 'Shaw Prize', 'entity': 'Award'}, {'span': 'Chinese University of Hong Kong', 'entity': 'University'}]'
+
+Example #9: Bio-active constituents of human milk that have been cataloged to possess immune-modulating capabilities include immunoglobulins, Lactoferrin, Lysozyme, oligosaccharide s, lipid s, cytokine s, hormone s, and growth factor s.
+Expected output: 'entities: [{'span': 'immunoglobulins', 'entity': 'Protein'}, {'span': 'Lactoferrin', 'entity': 'Protein'}, {'span': 'Lysozyme', 'entity': 'Enzyme'}, {'span': 'oligosaccharide', 'entity': 'Misc'}, {'span': 'lipid', 'entity': 'Misc'}, {'span': 'cytokine', 'entity': 'Misc'}, {'span': 'hormone', 'entity': 'Misc'}, {'span': 'growth factor', 'entity': 'Misc'}]'
+
+Example #10: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #11: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #12: In 1871 he was elected a fellow of the Linnean Society of London, and in 1881 he was elected a fellow of the Royal Society.
+Expected output: 'entities: [{'span': 'fellow of the Linnean Society of London', 'entity': 'Award'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}]'
+
+Example #13: He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase
+Expected output: 'entities: [{'span': 'enzymology', 'entity': 'Discipline'}, {'span': 'Rieske protein non-heme iron oxygenases', 'entity': 'Enzyme'}, {'span': 'Alcohol dehydrogenase', 'entity': 'Enzyme'}]'
+
+Example #14: 5145 Pholus in diameter, that crosses the orbit of both Saturn and Neptune.
+Expected output: 'entities: [{'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #15: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #16: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #17: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #18: Several scholars including Steven Pinker, Chomsky, Gerald Edelman, and Alexander Luria have indicated the importance of the emergence of human language as an important regulative mechanism of learning and memory in the context of the development of higher-order consciousness.
+Expected output: 'entities: [{'span': 'Steven Pinker', 'entity': 'Scientist'}, {'span': 'Chomsky', 'entity': 'Scientist'}, {'span': 'Gerald Edelman', 'entity': 'Scientist'}, {'span': 'Alexander Luria', 'entity': 'Scientist'}, {'span': 'higher-order consciousness', 'entity': 'Theory'}]'
+
+Example #19: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #20: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+

@@ -1,0 +1,15 @@
+Example #1: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #2: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #3: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #4: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #5: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+

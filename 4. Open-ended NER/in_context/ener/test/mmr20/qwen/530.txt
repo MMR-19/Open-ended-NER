@@ -1,0 +1,60 @@
+Example #1: These experience requirements may vary depending on the current composition of the Board, since the goal is to ensure an appropriate range of skills and experience, in the aggregate.
+Expected output: 'entities: []'
+
+Example #2: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #3: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #4: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #5: The Board Members elected by holders of Preferred Shares will be elected to serve until the next annual meeting or until their successors have been duly elected and qualified.
+Expected output: 'entities: []'
+
+Example #6: Based on such review, it is authorized to make recommendations to the Board.
+Expected output: 'entities: []'
+
+Example #7: Payment of Filing Fee (check the appropriate box):
+Expected output: 'entities: []'
+
+Example #8: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #9: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+
+Example #10: Industry Litigation In 1996, Wal-Mart Stores, Inc. and several other retailers sued MasterCard International Incorporated, VISA U.S.A., Inc. and VISA International, Inc. in the U.S. District Court for the Eastern District of New York (the District Court).
+Expected output: 'entities: [{'span': 'Wal-Mart Stores, Inc.', 'entity': 'Business'}, {'span': 'MasterCard International Incorporated', 'entity': 'Business'}, {'span': 'VISA U.S.A., Inc.', 'entity': 'Business'}, {'span': 'VISA International, Inc.', 'entity': 'Business'}, {'span': 'U.S. District Court for the Eastern District of New York', 'entity': 'Court'}]'
+
+Example #11: The number of executive committee meetings of each Fund held during its last fiscal year is shown in Appendix C.
+Expected output: 'entities: []'
+
+Example #12: If the communication is intended for a specific Board Member and so indicates it will be sent only to that Board Member.
+Expected output: 'entities: []'
+
+Example #13: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #14: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #15: To vote by telephone, please call the toll-free number located on your proxy card and follow the recorded instructions, using your proxy card as a guide.
+Expected output: 'entities: []'
+
+Example #16: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #17: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #18: Jack B. Evans, Chair, Judith M. Stockdale and Terence J. Toth are current members of the dividend committee of each Fund.
+Expected output: 'entities: [{'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #19: The names of the persons filing this statement on Schedule 13D are: MAK Capital One LLC, a Delaware limited liability company (“ MAK Capital ”), MAK Capital Fund LP, a Bermuda limited partnership (“ MAK Fund ”), MAK-ro Capital Master Fund LP (“ MAK-ro Fund ”), a Cayman Islands limited partnership, Michael A. Kaufman (“ Mr. Kaufman ”), Paloma International L.P., a Delaware limited partnership (`` Paloma ''), and S. Donald Sussman (“ Mr. Sussman, ” and collectively, the `` Reporting Persons '').
+Expected output: 'entities: [{'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'MAK Capital One LLC', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'MAK Capital', 'entity': 'Business'}, {'span': 'MAK Capital Fund LP', 'entity': 'Business'}, {'span': 'Bermuda', 'entity': 'Location'}, {'span': 'MAK Fund', 'entity': 'Business'}, {'span': 'MAK-ro Capital Master Fund LP', 'entity': 'Business'}, {'span': 'MAK-ro Fund', 'entity': 'Business'}, {'span': 'Cayman Islands', 'entity': 'Location'}, {'span': 'Michael A. Kaufman', 'entity': 'Person'}, {'span': 'Kaufman', 'entity': 'Person'}, {'span': 'Paloma International L.P.', 'entity': 'Business'}, {'span': 'Paloma', 'entity': 'Business'}, {'span': 'S. Donald Sussman', 'entity': 'Person'}, {'span': 'Sussman', 'entity': 'Person'}]'
+
+Example #20: The nominating and governance committee looks to many sources for recommendations of qualified candidates, including current Board Members, employees of the Adviser, current shareholders of the Funds, third party sources and any other persons or entities that may be deemed necessary or desirable by the committee.
+Expected output: 'entities: []'
+

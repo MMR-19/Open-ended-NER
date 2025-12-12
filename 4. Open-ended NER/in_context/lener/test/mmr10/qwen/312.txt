@@ -1,0 +1,30 @@
+Example #1: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #2: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #3: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #4: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #5: O sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29.12.2003, o recibo 1 Pronac 03.3925 (peça 1, p. 52), de 3.1.2002, no valor inicial de R $ 84.783,41 (peça 1, p. 30), para a realização do projeto “ Aero Circus Espetáculos Itinerantes ”, que previa a realização de 20 espetáculos circenses itinerantes nos municípios de Londrina, Campo Mourão, Curitiba, Cascavel, Foz do Iguaçu, Guarapuava e Maringá, todos no Estado do Paraná, com a Trupe “ Aero Circus ”.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29.12.2003', 'entity': 'Tempo'}, {'span': '3.1.2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}]'
+
+Example #6: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #7: A indenização deverá ser nos termos da Súmula 474, STJ.
+Expected output: 'entities: [{'span': 'Súmula 474, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #8: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #9: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #10: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+

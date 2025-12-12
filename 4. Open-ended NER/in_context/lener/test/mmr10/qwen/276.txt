@@ -1,0 +1,30 @@
+Example #1: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #2: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #3: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #4: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #5: Este o conteúdo da Súmula 262: “ o critério definido no art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93 conduz a uma presunção relativa de inexequibilidade de preços, devendo a Administração dar à licitante a oportunidade de demonstrar a exequibilidade da sua proposta ”.
+Expected output: 'entities: [{'span': 'art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93', 'entity': 'Legislação'}]'
+
+Example #6: Requer, ainda, o provimento do recurso para o fim de ajustar os honorários sucumbenciais, nos termos do art. 86, parágrafo único, do CPC.
+Expected output: 'entities: [{'span': 'art. 86, parágrafo único, do CPC', 'entity': 'Legislação'}]'
+
+Example #7: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #8: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #9: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #10: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho do Secretário de Estado de Gestão Administrativa e Desburocratização do Distrito Federal, publicado no DODF nº 178, de 15/09/2015, pág. 27, referente ao Processo: 020.003.701/2015, Interessado: MATHEUS TEI- XEIRA DE OLIVEIRA, Assunto: Cessão servidor, ONDE SE LÊ: `` AUTORIZO, com base no Decreto nº 36.496, de 13/05/2015, combinado com os artigos 26 e 152 da Lei Complementar nº 840 de 23/12/2011, (...) '', LEIA-SE: AUTORIZO, com base no Decreto nº 36.496, de 13/05/2015, combinado com o Decreto nº 36.825, de 22/10/2015, e na forma do disposto do art. 26, inciso II e art. 152, inciso I, alínea `` a '', c/c o caput do art. 154, da Lei Complementar nº 840 de 23 de dezembro de 2011 (...).
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': '15/09/2015', 'entity': 'Tempo'}, {'span': '020.003.701/2015', 'entity': 'Jurisprudência'}, {'span': 'MATHEUS TEI- XEIRA DE OLIVEIRA', 'entity': 'Pessoa'}, {'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13/05/2015', 'entity': 'Tempo'}, {'span': 'artigos 26 e 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22/10/2015', 'entity': 'Tempo'}, {'span': "art. 26, inciso II e art. 152, inciso I, alínea `` a '', c/c o caput do art. 154, da Lei Complementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}]'
+

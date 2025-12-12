@@ -1,0 +1,15 @@
+Example #1: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #2: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #3: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #4: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #5: (TST-AgR-AIRR-323-89.2014.5.02.0371, Relator Ministro Cláudio Mascarenhas Brandão, 7ª Turma, DEJT 11/02/2016) AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA INTERPOSTO NA VIGÊNCIA DA LEI 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-323-89.2014.5.02.0371', 'entity': 'Jurisprudência'}, {'span': 'Cláudio Mascarenhas Brandão', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '11/02/2016', 'entity': 'Tempo'}, {'span': 'LEI 13.015/2014', 'entity': 'Legislação'}]'
+

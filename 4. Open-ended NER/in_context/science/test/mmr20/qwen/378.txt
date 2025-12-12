@@ -1,0 +1,60 @@
+Example #1: In 1991, John Preskill and Kip Thorne bet against Stephen Hawking that the hypothesis was FALSE.
+Expected output: 'entities: [{'span': 'John Preskill', 'entity': 'Scientist'}, {'span': 'Kip Thorne', 'entity': 'Scientist'}, {'span': 'Stephen Hawking', 'entity': 'Scientist'}]'
+
+Example #2: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+
+Example #3: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #4: The IERS was established in its present form in 1987 by the International Astronomical Union and the International Union of Geodesy and Geophysics, replacing the earlier International Polar Motion Service (IPMS) and the Earth rotation section of the Bureau International de l 'Heure (BIH).
+Expected output: 'entities: [{'span': 'IERS', 'entity': 'Organisation'}, {'span': 'International Astronomical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}, {'span': 'International Polar Motion Service', 'entity': 'Organisation'}, {'span': 'IPMS', 'entity': 'Organisation'}, {'span': "Earth rotation section of the Bureau International de l 'Heure", 'entity': 'Organisation'}, {'span': 'BIH', 'entity': 'Organisation'}]'
+
+Example #5: Several scholars including Steven Pinker, Chomsky, Gerald Edelman, and Alexander Luria have indicated the importance of the emergence of human language as an important regulative mechanism of learning and memory in the context of the development of higher-order consciousness.
+Expected output: 'entities: [{'span': 'Steven Pinker', 'entity': 'Scientist'}, {'span': 'Chomsky', 'entity': 'Scientist'}, {'span': 'Gerald Edelman', 'entity': 'Scientist'}, {'span': 'Alexander Luria', 'entity': 'Scientist'}, {'span': 'higher-order consciousness', 'entity': 'Theory'}]'
+
+Example #6: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #7: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #8: The two-part finale's epic scale and underlying plot was first conceived in early 2007 as the last regular-series story for departing producer s Russell T Davies, Julie Gardner, and Phil Collinson: the fourth series finale is the last story produced by Collinson; and Steven Moffat and Piers Wenger replaced Davies and Gardner as show runner and executive producer respectively in 2010.
+Expected output: 'entities: [{'span': 'Russell T Davies', 'entity': 'Person'}, {'span': 'Julie Gardner', 'entity': 'Person'}, {'span': 'Phil Collinson', 'entity': 'Person'}, {'span': 'Collinson', 'entity': 'Person'}, {'span': 'Steven Moffat', 'entity': 'Person'}, {'span': 'Piers Wenger', 'entity': 'Person'}, {'span': 'Davies', 'entity': 'Person'}, {'span': 'Gardner', 'entity': 'Person'}]'
+
+Example #9: Two pairs of fathers and sons have won Nobel Prizes in other fields: Hans von Euler-Chelpin (chemistry, 1929) and Ulf von Euler (medicine, 1970); and Arthur Kornberg (medicine, 1969) and Roger D. Kornberg (chemistry, 2006).
+Expected output: 'entities: [{'span': 'Nobel Prizes', 'entity': 'Award'}, {'span': 'Hans von Euler-Chelpin', 'entity': 'Scientist'}, {'span': 'chemistry', 'entity': 'Discipline'}, {'span': 'Ulf von Euler', 'entity': 'Scientist'}, {'span': 'medicine', 'entity': 'Discipline'}, {'span': 'Arthur Kornberg', 'entity': 'Scientist'}, {'span': 'Roger D. Kornberg', 'entity': 'Scientist'}]'
+
+Example #10: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+
+Example #11: In 1831, Michael Faraday made the seminal observation that time-varying magnetic fields could induce electric currents and then, in 1864, James Clerk Maxwell published his famous paper A Dynamical Theory of the Electromagnetic Field. Maxwell 1864 5, page 499; also David J. Griffiths (1999), Introduction to electrodynamics, third Edition, ed.
+Expected output: 'entities: [{'span': 'Michael Faraday', 'entity': 'Scientist'}, {'span': 'James Clerk Maxwell', 'entity': 'Scientist'}, {'span': 'A Dynamical Theory of the Electromagnetic Field', 'entity': 'Misc'}, {'span': 'Maxwell', 'entity': 'Scientist'}, {'span': 'David J. Griffiths', 'entity': 'Scientist'}, {'span': 'electrodynamics', 'entity': 'Discipline'}]'
+
+Example #12: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #13: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #14: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+
+Example #15: Knowles was heavily influenced by the Motown Sound of the 1960s and 1970s prior to the album's recording, prompting her to work with several like-minded producers and songwriters such as Jack Splash, CeeLo Green, Mark Ronson, and former Holland-Dozier-Holland member Lamont Dozier.
+Expected output: 'entities: [{'span': 'Knowles', 'entity': 'Person'}, {'span': 'Motown Sound', 'entity': 'Organisation'}, {'span': 'Jack Splash', 'entity': 'Person'}, {'span': 'CeeLo Green', 'entity': 'Person'}, {'span': 'Mark Ronson', 'entity': 'Person'}, {'span': 'Holland-Dozier-Holland', 'entity': 'Organisation'}, {'span': 'Lamont Dozier', 'entity': 'Person'}]'
+
+Example #16: Nihonium was first reported to have been created in 2003 by a Russian-American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan.
+Expected output: 'entities: [{'span': 'Nihonium', 'entity': 'Chemical Element'}, {'span': 'Russian-American', 'entity': 'Misc'}, {'span': 'Joint Institute for Nuclear Research', 'entity': 'Organisation'}, {'span': 'JINR', 'entity': 'Organisation'}, {'span': 'Dubna', 'entity': 'Location'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'Riken', 'entity': 'Organisation'}, {'span': 'Wakō', 'entity': 'Location'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #17: Boom Town, a 1940 film about wildcatting in the early Oklahoma oil industry, starred Clark Gable and Spencer Tracy.
+Expected output: 'entities: [{'span': 'Boom Town', 'entity': 'Misc'}, {'span': 'Oklahoma', 'entity': 'Location'}, {'span': 'Clark Gable', 'entity': 'Person'}, {'span': 'Spencer Tracy', 'entity': 'Person'}]'
+
+Example #18: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #19: Such experiments were independently performed by Walther Bothe and Hans Geiger,
+Expected output: 'entities: [{'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Hans Geiger', 'entity': 'Scientist'}]'
+
+Example #20: In 1977, the UK-APC named a series of peaks in Palmer Land, Antarctica the Sverdrup Nunataks after him.
+Expected output: 'entities: [{'span': 'UK-APC', 'entity': 'Organisation'}, {'span': 'Palmer Land', 'entity': 'Location'}, {'span': 'Antarctica', 'entity': 'Location'}, {'span': 'Sverdrup Nunataks', 'entity': 'Misc'}]'
+

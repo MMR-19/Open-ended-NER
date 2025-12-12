@@ -1,0 +1,60 @@
+Example #1: During his time as governor, Thompson served as chairman of the National Governors Association and the Education Commission of the States, in addition to the Council of State Governments, the Republican Governors Association, the Council of Great Lakes Governors, and the Midwestern Governors Association.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'National Governors Association', 'entity': 'Political Party'}, {'span': 'Education Commission of the States', 'entity': 'Organisation'}, {'span': 'Council of State Governments', 'entity': 'Organisation'}, {'span': 'Republican Governors Association', 'entity': 'Political Party'}, {'span': 'Council of Great Lakes Governors', 'entity': 'Organisation'}, {'span': 'Midwestern Governors Association', 'entity': 'Organisation'}]'
+
+Example #2: This tends to lead to the chamber being dominated by two major parties, the Liberal Party of Australia / National Party of Australia Coalition and the Australian Labor Party.
+Expected output: 'entities: [{'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}]'
+
+Example #3: Washington appointed fellow Virginian Edmund Randolph as Attorney General, Samuel Osgood as Postmaster General, Thomas Jefferson as Secretary of State, and Henry Knox as Secretary of War.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Politician'}, {'span': 'Edmund Randolph', 'entity': 'Politician'}, {'span': 'Samuel Osgood', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'Henry Knox', 'entity': 'Politician'}]'
+
+Example #4: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #5: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #6: In this same period, such organizations as the Colonial Dames of America, the Mary Ball Washington Memorial Society, Preservation Virginia, United Daughters of the Confederacy, and Sons of Confederate Veterans were also founded.
+Expected output: 'entities: [{'span': 'Colonial Dames of America', 'entity': 'Organisation'}, {'span': 'Mary Ball Washington Memorial Society', 'entity': 'Organisation'}, {'span': 'Preservation Virginia', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}]'
+
+Example #7: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #8: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #9: After some time, more candidates were presented, like Union of Democrats for Europe leader Clemente Mastella, Italy of Values leader and former magistrate Antonio Di Pietro, Federation of the Greens leader Alfonso Pecoraro Scanio and others few minor candidates.
+Expected output: 'entities: [{'span': 'Union of Democrats for Europe', 'entity': 'Political Party'}, {'span': 'Clemente Mastella', 'entity': 'Politician'}, {'span': 'Italy of Values', 'entity': 'Political Party'}, {'span': 'Antonio Di Pietro', 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'Alfonso Pecoraro Scanio', 'entity': 'Politician'}]'
+
+Example #10: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #11: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #12: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #13: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+
+Example #14: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #15: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #16: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #17: After winning the 1979 United Kingdom general election, Margaret Thatcher appointed Keith Joseph, the director of the Hayekian Centre for Policy Studies, as her secretary of state for industry in an effort to redirect parliament's economic strategies.
+Expected output: 'entities: [{'span': '1979 United Kingdom general election', 'entity': 'Election'}, {'span': 'Margaret Thatcher', 'entity': 'Politician'}, {'span': 'Keith Joseph', 'entity': 'Politician'}, {'span': 'Hayekian Centre for Policy Studies', 'entity': 'Organisation'}]'
+
+Example #18: Hagelin stood as a candidate for President of the United States for the Natural Law Party, a party founded by the TM movement, in the 1992 United States presidential election, 1996 United States presidential election and 2000 United States presidential election elections.
+Expected output: 'entities: [{'span': 'Hagelin', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'Natural Law Party', 'entity': 'Political Party'}, {'span': 'TM movement', 'entity': 'Event'}, {'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': '1996 United States presidential election', 'entity': 'Election'}, {'span': '2000 United States presidential election', 'entity': 'Election'}]'
+
+Example #19: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #20: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+

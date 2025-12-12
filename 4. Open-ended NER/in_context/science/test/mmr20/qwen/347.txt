@@ -1,0 +1,60 @@
+Example #1: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #2: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #3: He has written several invited review articles and book chapters for a number of prestigious journals and books including Chemical Reviews, Accounts of Chemical Research, Angewandte Chemie and the main textbook in the field of circular dichroism, Comprehensive Chiroptical Spectroscopy.
+Expected output: 'entities: [{'span': 'Chemical Reviews', 'entity': 'Academic Journal'}, {'span': 'Accounts of Chemical Research', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'circular dichroism', 'entity': 'Theory'}, {'span': 'Comprehensive Chiroptical Spectroscopy', 'entity': 'Misc'}]'
+
+Example #4: The outer gas giant planets are Jupiter, Saturn, Uranus, and Neptune.
+Expected output: 'entities: [{'span': 'gas giant', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #5: Liver function test s may be elevated, particularly involving Gamma-glutamyltransferase and Alkaline phosphatase, with ultrasound and CT scans being considered medical imaging investigations of choice.
+Expected output: 'entities: [{'span': 'Liver function test', 'entity': 'Misc'}, {'span': 'Gamma-glutamyltransferase', 'entity': 'Protein'}, {'span': 'Alkaline phosphatase', 'entity': 'Enzyme'}, {'span': 'ultrasound', 'entity': 'Misc'}, {'span': 'CT scans', 'entity': 'Misc'}]'
+
+Example #6: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #7: Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.
+Expected output: 'entities: [{'span': 'silencing mechanisms', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'transcription factor', 'entity': 'Misc'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #8: In order to get a meaningful sulfur signal from the analysis, the buffer should not contain sulfur (i.e. no BES, DDT, HEPES, MES, MOPS, or PIPES compounds).
+Expected output: 'entities: [{'span': 'sulfur', 'entity': 'Chemical Element'}, {'span': 'BES', 'entity': 'Chemical Compound'}, {'span': 'DDT', 'entity': 'Chemical Compound'}, {'span': 'HEPES', 'entity': 'Chemical Compound'}, {'span': 'MES', 'entity': 'Chemical Compound'}, {'span': 'MOPS', 'entity': 'Chemical Compound'}, {'span': 'PIPES', 'entity': 'Chemical Compound'}]'
+
+Example #9: It has one of the six Indian Institute of Management Indore and one of sixteen Indian Institute of Technology Indore.
+Expected output: 'entities: [{'span': 'Indian Institute of Management Indore', 'entity': 'University'}, {'span': 'Indian Institute of Technology Indore', 'entity': 'University'}]'
+
+Example #10: Yunjin Kim played Sun-Hwa Kwon, the daughter of a powerful and incredibly wealthy Korean businessman and mobster, with Daniel Dae Kim as her husband and father's enforcer Jin-Soo Kwon.
+Expected output: 'entities: [{'span': 'Yunjin Kim', 'entity': 'Person'}, {'span': 'Sun-Hwa Kwon', 'entity': 'Person'}, {'span': 'Korean', 'entity': 'Misc'}, {'span': 'Daniel Dae Kim', 'entity': 'Person'}, {'span': 'Jin-Soo Kwon', 'entity': 'Person'}]'
+
+Example #11: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #12: The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT8, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+Expected output: 'entities: [{'span': 'keratins', 'entity': 'Misc'}, {'span': 'KRT23', 'entity': 'Protein'}, {'span': 'KRT24', 'entity': 'Protein'}, {'span': 'KRT25', 'entity': 'Protein'}, {'span': 'KRT26', 'entity': 'Protein'}, {'span': 'KRT27', 'entity': 'Protein'}, {'span': 'KRT28', 'entity': 'Protein'}, {'span': 'KRT31', 'entity': 'Protein'}, {'span': 'KRT32', 'entity': 'Protein'}, {'span': 'KRT33A', 'entity': 'Protein'}, {'span': 'KRT33B', 'entity': 'Protein'}, {'span': 'KRT34', 'entity': 'Protein'}, {'span': 'KRT35', 'entity': 'Protein'}, {'span': 'KRT36', 'entity': 'Protein'}, {'span': 'KRT37', 'entity': 'Protein'}, {'span': 'KRT38', 'entity': 'Protein'}, {'span': 'KRT39', 'entity': 'Protein'}, {'span': 'KRT40', 'entity': 'Protein'}, {'span': 'KRT71', 'entity': 'Protein'}, {'span': 'KRT72', 'entity': 'Protein'}, {'span': 'KRT73', 'entity': 'Protein'}, {'span': 'KRT74', 'entity': 'Protein'}, {'span': 'KRT75', 'entity': 'Protein'}, {'span': 'KRT76', 'entity': 'Protein'}, {'span': 'KRT77', 'entity': 'Protein'}, {'span': 'KRT78', 'entity': 'Protein'}, {'span': 'KRT79', 'entity': 'Protein'}, {'span': 'KRT8', 'entity': 'Protein'}, {'span': 'KRT80', 'entity': 'Protein'}, {'span': 'KRT81', 'entity': 'Protein'}, {'span': 'KRT82', 'entity': 'Protein'}, {'span': 'KRT83', 'entity': 'Protein'}, {'span': 'KRT84', 'entity': 'Protein'}, {'span': 'KRT85', 'entity': 'Protein'}, {'span': 'KRT86', 'entity': 'Protein'}]'
+
+Example #13: Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Walther Bothe, Wolfgang Gentner, Otto Haxel, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Hans Kopfermann', 'entity': 'Scientist'}, {'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Wolfgang Gentner', 'entity': 'Scientist'}, {'span': 'Otto Haxel', 'entity': 'Scientist'}, {'span': 'Willibald Jentschke', 'entity': 'Scientist'}, {'span': 'Heinz Maier-Leibnitz', 'entity': 'Scientist'}, {'span': 'Josef Mattauch', 'entity': 'Scientist'}, {'span': 'Wolfgang Riezler', 'entity': 'Scientist'}, {'span': 'Wilhelm Walcher', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}]'
+
+Example #14: The Thimble Tickle squid was found aground offshore, alive, on 2 November 1878, near Little Bay Copper Mine, Thimble Tickle Bay, Notre Dame Bay, Newfoundland Colony.
+Expected output: 'entities: [{'span': 'Thimble Tickle squid', 'entity': 'Misc'}, {'span': 'Little Bay Copper Mine', 'entity': 'Location'}, {'span': 'Thimble Tickle Bay', 'entity': 'Location'}, {'span': 'Notre Dame Bay', 'entity': 'Location'}, {'span': 'Newfoundland Colony', 'entity': 'Country'}]'
+
+Example #15: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+
+Example #16: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #17: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #18: Human leukocyte antigen constitutes a group of cell surface antigens also known as the Major histocompatibility complex of humans.
+Expected output: 'entities: [{'span': 'Human leukocyte antigen', 'entity': 'Misc'}, {'span': 'Major histocompatibility complex', 'entity': 'Misc'}]'
+
+Example #19: Julius Tafel discovered that hydroxylamine hydrochloride or sulfate salts can be produced by electrolytic reduction of nitric acid with Hydrochloric acid or Sulfuric acid respectively:
+Expected output: 'entities: [{'span': 'Julius Tafel', 'entity': 'Scientist'}, {'span': 'hydroxylamine hydrochloride', 'entity': 'Chemical Compound'}, {'span': 'sulfate salts', 'entity': 'Misc'}, {'span': 'nitric acid', 'entity': 'Chemical Compound'}, {'span': 'Hydrochloric acid', 'entity': 'Chemical Compound'}, {'span': 'Sulfuric acid', 'entity': 'Chemical Compound'}]'
+
+Example #20: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+

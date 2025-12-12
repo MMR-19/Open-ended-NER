@@ -1,0 +1,15 @@
+Example #1: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #2: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #3: In addition to the Tydings-Butler race, McCarthy campaigned for several other Republicans in the 1950 United States Senate elections, including Everett Dirksen against Democratic incumbent and Senate Majority Leader Scott W. Lucas.
+Expected output: 'entities: [{'span': 'Tydings-Butler race', 'entity': 'Event'}, {'span': 'McCarthy', 'entity': 'Politician'}, {'span': 'Republicans', 'entity': 'Misc'}, {'span': '1950 United States Senate elections', 'entity': 'Election'}, {'span': 'Everett Dirksen', 'entity': 'Politician'}, {'span': 'Scott W. Lucas', 'entity': 'Politician'}]'
+
+Example #4: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #5: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+

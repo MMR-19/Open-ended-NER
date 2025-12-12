@@ -1,0 +1,60 @@
+Example #1: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #2: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #3: A indenização deverá ser nos termos da Súmula 474, STJ.
+Expected output: 'entities: [{'span': 'Súmula 474, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #4: Inexiste vício material na lei complementar que altera a taxa máxima de construção e o uso do território se a Lei Orgânica do Distrito Federal não limita a regulação da normatização da utilização do solo no Distrito Federal por meio do plano diretor de ordenamento territorial e dos planos diretores locais, mas apenas preconiza que nesses instrumentos básicos se fixarão os vetores e as diretrizes a serem observadas na concretização dos objetivos neles estabelecidos, de tal sorte a se permitir o emprego de outras vias legislativas para fixar regras de uso e ocupação do solo.
+Expected output: 'entities: [{'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #6: O sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29.12.2003, o recibo 1 Pronac 03.3925 (peça 1, p. 52), de 3.1.2002, no valor inicial de R $ 84.783,41 (peça 1, p. 30), para a realização do projeto “ Aero Circus Espetáculos Itinerantes ”, que previa a realização de 20 espetáculos circenses itinerantes nos municípios de Londrina, Campo Mourão, Curitiba, Cascavel, Foz do Iguaçu, Guarapuava e Maringá, todos no Estado do Paraná, com a Trupe “ Aero Circus ”.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29.12.2003', 'entity': 'Tempo'}, {'span': '3.1.2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}]'
+
+Example #7: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #8: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #9: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #10: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #11: A decisão impugnada merece confirmação, na medida em que a jurisprudência deste Superior Tribunal de Justiça ja sedimentou no sentido de que a ausência de intimação do Ministério Público, por si só, não gera nulidade do julgado, a não ser que se constate `` efetivo prejuízo para as partes ou para apuração ou para apuração da verdade substancial da controvérsia jurídica, à luz do princípio pas de nullités sans grief '' (AgRg em RESp n.º 426.672/RJ, Ministro Herman Benjamin, Publicado em 05/06/2014), hipótese inocorrente no caso dos autos.
+Expected output: 'entities: [{'span': 'Superior Tribunal de Justiça', 'entity': 'Organização'}, {'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'AgRg em RESp n.º 426.672/RJ', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': '05/06/2014', 'entity': 'Tempo'}]'
+
+Example #12: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #13: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #14: Diante da sucumbência recíproca, condeno as partes ao pagamento, na proporção de 70 % para o réu e 30 % para o autor, das custas processuais e honorários advocatícios, os quais arbitro em 15 % sobre o valor da condenação (art. 85, §2º CPC).
+Expected output: 'entities: [{'span': 'art. 85, §2º CPC', 'entity': 'Legislação'}]'
+
+Example #15: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #16: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #17: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #18: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #19: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #20: (TJMG - Agravo de Instrumento-Cr 1.0079.14.024867-9/001, Relator (a): Des. (a) Eduardo Brum, 4ª CÂMARA CRIMINAL, julgamento em 30/03/2016, publicação da súmula em 06/04/2016) EMENTA: AGRAVO DE INSTRUMENTO CRIMINAL - LEI MARIA DA PENHA - VIOLÊNCIA DOMÉSTICA - INDÍCIOS SUFICIENTES DE AUTORIA E MATERIALIDADE - MEDIDAS PROTETIVAS - REQUISITOS SATISFEITOS - MANUTENÇÃO DA PROTEÇÃO DE URGÊNCIA - MEDIDA DE CAUTELA - NECESSIDADE DE AVALIAÇÃO DO RISCO ATUAL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento-Cr 1.0079.14.024867-9/001', 'entity': 'Jurisprudência'}, {'span': 'Eduardo Brum', 'entity': 'Pessoa'}, {'span': '4ª CÂMARA CRIMINAL', 'entity': 'Organização'}, {'span': '30/03/2016', 'entity': 'Tempo'}, {'span': '06/04/2016', 'entity': 'Tempo'}, {'span': 'LEI MARIA DA PENHA', 'entity': 'Legislação'}]'
+

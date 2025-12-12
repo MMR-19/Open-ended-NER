@@ -1,0 +1,30 @@
+Example #1: The compliance, risk management and regulatory oversight committee is responsible for the oversight of compliance issues, risk management, and other regulatory matters affecting the Funds which are not otherwise the jurisdiction of the other Board committees.
+Expected output: 'entities: []'
+
+Example #2: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+
+Example #3: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #4: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #5: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #6: Audit and Related Fees.
+Expected output: 'entities: []'
+
+Example #7: Dominic Minore Securities and Exchange Commission Investment Company Division 100 F. Street, N.E.
+Expected output: 'entities: [{'span': 'Dominic Minore', 'entity': 'Person'}, {'span': 'Securities', 'entity': 'Government'}, {'span': 'and Exchange Commission Investment Company Division', 'entity': 'Government'}, {'span': 'F. Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #8: Timely submission of a proposal does not mean that such proposal will be included in a proxy statement.
+Expected output: 'entities: []'
+
+Example #9: Objectors to the settlement filed appeals in the Second Circuit.
+Expected output: 'entities: [{'span': 'Second Circuit', 'entity': 'Court'}]'
+
+Example #10: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+

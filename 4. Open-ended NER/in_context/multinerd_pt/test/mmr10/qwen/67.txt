@@ -1,0 +1,30 @@
+Example #1: Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) que se serve com pirão e farinha de mandioca, peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e / ou na folha de bananeira, peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros.
+Expected output: 'entities: [{'span': 'pirão', 'entity': 'Comida'}, {'span': 'farinha de mandioca', 'entity': 'Comida'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'bananeira', 'entity': 'Planta'}, {'span': 'tainha', 'entity': 'Animal'}]'
+
+Example #2: " Globimetula " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #3: Alguns membros da tropa podiam adquirir fuzis de assalto AK-47 tão somente preenchendo um formulário de demanda.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}]'
+
+Example #4: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #5: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #6: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #7: A maioria dos integrantes do reino Fungi, assim como as bactérias, obtém alimento decompondo a matéria orgânica do corpo de organismos mortos, atuando como saprófagos, conhecidos popularmente como decompositores.
+Expected output: 'entities: [{'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #8: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+
+Example #9: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #10: O primeiro voo bem-sucedido e registrado de um helicóptero foi realizado em 1907, por Paul Cornu, na França, embora o primeiro helicóptero de uso prático tenha sido o Focke-Wulf Fw 61, de fabrico alemão, em 1936.
+Expected output: 'entities: [{'span': '1907', 'entity': 'Tempo'}, {'span': 'Paul Cornu', 'entity': 'Pessoa'}, {'span': 'França', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}, {'span': '1936', 'entity': 'Tempo'}]'
+

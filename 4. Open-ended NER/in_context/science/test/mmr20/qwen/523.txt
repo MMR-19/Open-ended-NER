@@ -1,0 +1,60 @@
+Example #1: During his life, in addition to the Nobel Prize, Hopkins was awarded the Royal Medal of the Royal Society in 1918, the Cameron Prize for Therapeutics of the University of Edinburgh in 1922, and the Copley Medal of the Royal Society in 1926.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Hopkins', 'entity': 'Person'}, {'span': 'Royal Medal of the Royal Society', 'entity': 'Award'}, {'span': 'Cameron Prize for Therapeutics of the University of Edinburgh', 'entity': 'Award'}, {'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}]'
+
+Example #2: The IERS was established in its present form in 1987 by the International Astronomical Union and the International Union of Geodesy and Geophysics, replacing the earlier International Polar Motion Service (IPMS) and the Earth rotation section of the Bureau International de l 'Heure (BIH).
+Expected output: 'entities: [{'span': 'IERS', 'entity': 'Organisation'}, {'span': 'International Astronomical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}, {'span': 'International Polar Motion Service', 'entity': 'Organisation'}, {'span': 'IPMS', 'entity': 'Organisation'}, {'span': "Earth rotation section of the Bureau International de l 'Heure", 'entity': 'Organisation'}, {'span': 'BIH', 'entity': 'Organisation'}]'
+
+Example #3: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #4: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #5: Since the middle of the 20th century, the region has come to play host to numerous international sports and entertainment festivals, such as the Lisbon & amp; Estoril Film Festival (in Estoril), the 4 Hours of Estoril endurance race (in Cascais), and NOS Alive music festival (in Algés).
+Expected output: 'entities: [{'span': 'international sports', 'entity': 'Misc'}, {'span': 'entertainment festivals', 'entity': 'Misc'}, {'span': 'Lisbon & amp; Estoril Film Festival', 'entity': 'Event'}, {'span': 'Estoril', 'entity': 'Location'}, {'span': '4 Hours of Estoril endurance race', 'entity': 'Event'}, {'span': 'Cascais', 'entity': 'Location'}, {'span': 'NOS Alive music festival', 'entity': 'Event'}, {'span': 'Algés', 'entity': 'Location'}]'
+
+Example #6: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #7: Two pairs of fathers and sons have won Nobel Prizes in other fields: Hans von Euler-Chelpin (chemistry, 1929) and Ulf von Euler (medicine, 1970); and Arthur Kornberg (medicine, 1969) and Roger D. Kornberg (chemistry, 2006).
+Expected output: 'entities: [{'span': 'Nobel Prizes', 'entity': 'Award'}, {'span': 'Hans von Euler-Chelpin', 'entity': 'Scientist'}, {'span': 'chemistry', 'entity': 'Discipline'}, {'span': 'Ulf von Euler', 'entity': 'Scientist'}, {'span': 'medicine', 'entity': 'Discipline'}, {'span': 'Arthur Kornberg', 'entity': 'Scientist'}, {'span': 'Roger D. Kornberg', 'entity': 'Scientist'}]'
+
+Example #8: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #9: Ragtime was nominated for twelve Tony Awards and won the Tony Award for Best Original Score for Lynn Ahrens and Stephen Flahertyin addition to the Drama Desk Award for Outstanding Lyrics.
+Expected output: 'entities: [{'span': 'Ragtime', 'entity': 'Misc'}, {'span': 'Tony Awards', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}, {'span': 'Lynn Ahrens', 'entity': 'Person'}, {'span': 'Stephen Flahertyin', 'entity': 'Person'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}]'
+
+Example #10: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #11: Examples are 5-O-Methylgenistein, 5-O-Methylmyricetin or 5-O-methylquercetin, also known as azaleatin.
+Expected output: 'entities: [{'span': '5-O-Methylgenistein', 'entity': 'Chemical Compound'}, {'span': '5-O-Methylmyricetin', 'entity': 'Chemical Compound'}, {'span': '5-O-methylquercetin', 'entity': 'Chemical Compound'}, {'span': 'azaleatin', 'entity': 'Chemical Compound'}]'
+
+Example #12: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #13: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+
+Example #14: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #15: He also is one of the two Shaw Prize Founding Members and is a Distinguished Professor-at-Large at the Chinese University of Hong Kong.
+Expected output: 'entities: [{'span': 'Shaw Prize', 'entity': 'Award'}, {'span': 'Chinese University of Hong Kong', 'entity': 'University'}]'
+
+Example #16: In 1931, an expedition led by Hubert Wilkins and Lincoln Ellsworth and partly financed by William Randolph Hearst, attempted to reach the North Pole with a leased US Navy submarine named Nautilus.
+Expected output: 'entities: [{'span': 'Hubert Wilkins', 'entity': 'Person'}, {'span': 'Lincoln Ellsworth', 'entity': 'Person'}, {'span': 'William Randolph Hearst', 'entity': 'Person'}, {'span': 'North Pole', 'entity': 'Location'}, {'span': 'US Navy submarine named Nautilus', 'entity': 'Misc'}]'
+
+Example #17: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #18: On migrating to the blood stream, nitrogen dioxide poisoning results in an irreversible inhibition of the Acetylcholinesterase which may lead to muscular paralysis, convulsions, bronchoconstriction, the narrowing of the airways in the lungs (bronchi and bronchioles) and death by asphyxia tion.
+Expected output: 'entities: [{'span': 'blood stream', 'entity': 'Misc'}, {'span': 'nitrogen dioxide', 'entity': 'Chemical Compound'}, {'span': 'Acetylcholinesterase', 'entity': 'Enzyme'}, {'span': 'muscular paralysis', 'entity': 'Misc'}, {'span': 'convulsions', 'entity': 'Misc'}, {'span': 'bronchoconstriction', 'entity': 'Misc'}, {'span': 'bronchi', 'entity': 'Misc'}, {'span': 'bronchioles', 'entity': 'Misc'}, {'span': 'asphyxia tion', 'entity': 'Misc'}]'
+
+Example #19: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #20: In DNA replication, RNA primers must be inserted along the lagging strand so that DNA polymerase is able to synthesize the strand in the 5 to 3 direction.
+Expected output: 'entities: [{'span': 'DNA replication', 'entity': 'Misc'}, {'span': 'RNA primers', 'entity': 'Misc'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}]'
+

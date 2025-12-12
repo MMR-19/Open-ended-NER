@@ -1,0 +1,15 @@
+Example #1: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #2: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #3: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #4: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #5: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+

@@ -1,0 +1,60 @@
+Example #1: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #4: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #5: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #6: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #8: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #9: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #10: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #11: Constata-se que tais normas, efetivamente, não foram elaboradas por quem detinha legitimidade para tratar a respeito de destinação de área urbana, matéria essa cuja iniciativa é privativa do Governador do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #12: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #13: Ou seja, além do dispositivo se referir apenas a obras e serviços de engenharia (§ 1º do art. 48 da Lei 8.666/1993), portanto, inaplicável ao objeto do Pregão Eletrônico 25/2016, houve erro grosseiro no cálculo realizado, uma vez que, segundo o critério invocado, todas as propostas inferiores a R $ 3.855.600,00 (70 % do valor estimado) deveriam ter sido consideradas inexequíveis.
+Expected output: 'entities: [{'span': '§ 1º do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #14: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #15: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #16: (EDcl no AgInt no AREsp 892.042/SC, Rel. Ministro MAURO CAMPBELL MARQUES, SEGUNDA TURMA, julgado em PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 12 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio Branco-AC - Mod. 500258 - Autos n.º 1002199-81.2017.8.01.0000/50000 02/02/2017, DJe 08/02/2017).
+Expected output: 'entities: [{'span': 'EDcl no AgInt no AREsp 892.042/SC', 'entity': 'Jurisprudência'}, {'span': 'MAURO CAMPBELL MARQUES', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio Branco-AC', 'entity': 'Localização'}, {'span': 'Autos n.º 1002199-81.2017.8.01.0000/50000', 'entity': 'Jurisprudência'}, {'span': '02/02/2017', 'entity': 'Tempo'}, {'span': '08/02/2017', 'entity': 'Tempo'}]'
+
+Example #17: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #18: O CPC/2015 também não admite a alteração da causa de pedir, ainda que com consentimento do réu, após o saneamento do processo (art. 329, II).
+Expected output: 'entities: [{'span': 'CPC/2015', 'entity': 'Legislação'}]'
+
+Example #19: DES. SALDANHA DA FONSECA (RELATOR): Prejudicial de mérito Prescrição (f. 224-227) A apelante alega que o sinistro ocorreu em 19/12/2009, sendo a ação distribuída em 25/10/2013, restam operados os efeitos da prescrição quinquenal (art. 206, § 3º, IX, CC e Súmula 405, STJ).
+Expected output: 'entities: [{'span': 'SALDANHA DA FONSECA', 'entity': 'Pessoa'}, {'span': '19/12/2009', 'entity': 'Tempo'}, {'span': '25/10/2013', 'entity': 'Tempo'}, {'span': 'art. 206, § 3º, IX, CC', 'entity': 'Legislação'}, {'span': 'Súmula 405, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #20: (A / S): ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações: O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116, de 30 de junho de 2006, daquele Estado, de origem parlamentar, que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado, previstas na Lei Complementar nº 92, de 5 de julho de 2002 ”.
+Expected output: 'entities: [{'span': 'ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ', 'entity': 'Organização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Lei Complementar nº 116', 'entity': 'Legislação'}, {'span': '30 de junho de 2006', 'entity': 'Tempo'}, {'span': 'Coordenação da Receita do Estado', 'entity': 'Organização'}, {'span': 'Lei Complementar nº 92', 'entity': 'Legislação'}, {'span': '5 de julho de 2002', 'entity': 'Tempo'}]'
+

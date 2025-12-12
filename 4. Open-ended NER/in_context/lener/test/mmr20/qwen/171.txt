@@ -1,0 +1,60 @@
+Example #1: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #4: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #5: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #6: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #7: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #8: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #9: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #10: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #11: Procedência do pedido para declarar, com efeitos `` ex tunc '' e `` erga omnes '', a inconstitucionalidade da Lei Distrital nº 683, de 21 de março de 2003, que aprova área de estudo para implantação do Setor Habitacional Catetinho. ” (20070020033532ADI, Relator HUMBERTO ADJUTO ULHÔA, Conselho Especial, julgado em 16/12/2008, DJ 30/01/2009 p. 36) (g.n.) “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'Lei Distrital nº 683', 'entity': 'Legislação'}, {'span': '21 de março de 2003', 'entity': 'Tempo'}, {'span': 'Setor Habitacional Catetinho.', 'entity': 'Localização'}, {'span': '20070020033532ADI', 'entity': 'Jurisprudência'}, {'span': 'HUMBERTO ADJUTO ULHÔA', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '16/12/2008', 'entity': 'Tempo'}, {'span': '30/01/2009', 'entity': 'Tempo'}]'
+
+Example #12: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #13: `` EMENTA: 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO (CPM, ART. 187) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA, NA HIPÓTESE DE CRIME DE DESERÇÃO, PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos, Matricula 8829. Em 13/03/2018 14:29:31. Para confirmar a validade deste documento, acesse: https: //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 PENAL - EXTINÇÃO DEFINITIVA DO PROCESSO CRIMINAL INSTAURADO PERANTE A JUSTIÇA MILITAR - PEDIDO DEFERIDO. ''
+Expected output: 'entities: [{'span': 'CPM, ART. 187', 'entity': 'Legislação'}, {'span': 'SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'entity': 'Jurisprudência'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Luis Carlos Gomes Mattos', 'entity': 'Pessoa'}, {'span': '13/03/2018', 'entity': 'Tempo'}]'
+
+Example #14: A técnica está prevista expressamente no art. 322, § 1º, do CPC, o qual concretiza a nova perspectiva atribuída ao Processo Civil, voltada para uma efetiva prestação jurisdicional, para a justa composição da lide e para a proteção da boa- PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 2 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 fé. 2.
+Expected output: 'entities: [{'span': 'art. 322, § 1º, do CPC', 'entity': 'Legislação'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #15: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #16: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #17: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #18: Brasília, 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG (*) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento, Orçamento e Gestão - SEPLAG, link http: //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html, conforme preconiza o art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017, publicada no Diário Oficial do Distrito Federal - DODF nº 148, de 03/08/2017 e suas alterações.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '29 de dezembro de 2017', 'entity': 'Tempo'}, {'span': '130º', 'entity': 'Tempo'}, {'span': 'República', 'entity': 'Organização'}, {'span': '58º', 'entity': 'Tempo'}, {'span': 'RODRIGO ROLLEMBERG', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Planejamento, Orçamento e Gestão', 'entity': 'Organização'}, {'span': 'SEPLAG', 'entity': 'Organização'}, {'span': 'art. 97, §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'entity': 'Legislação'}, {'span': '03/08/2017', 'entity': 'Tempo'}]'
+
+Example #19: Art. 3º A Norma de Edificação, Uso e Gabarito NGB a ser utilizada para efeito desta Lei Complementar é a mesma que vigora atualmente para toda a Região Administrativa do Paranoá RA VII.
+Expected output: 'entities: [{'span': 'Região Administrativa do Paranoá', 'entity': 'Localização'}, {'span': 'RA VII', 'entity': 'Localização'}]'
+
+Example #20: Caberia ao pregoeiro convocar os licitantes, sucessivamente, conforme as respectivas classificações, e conceder-lhes a oportunidade de comprovar a viabilidade financeira de suas propostas, conforme estabelece o inciso II do art. 48 da Lei 8.666/1993.
+Expected output: 'entities: [{'span': 'inciso II do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+

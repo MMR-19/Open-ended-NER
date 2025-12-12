@@ -1,0 +1,15 @@
+Example #1: Tem propriedades medicinais contra artrite, diabete, pressão alta, e a flor, contra tosse, bronquite e resfriado.
+Expected output: 'entities: [{'span': 'artrite', 'entity': 'Doença'}, {'span': 'flor', 'entity': 'Planta'}, {'span': 'bronquite', 'entity': 'Doença'}]'
+
+Example #2: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #3: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #4: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #5: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+

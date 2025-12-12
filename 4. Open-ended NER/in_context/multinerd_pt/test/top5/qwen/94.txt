@@ -1,0 +1,15 @@
+Example #1: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #2: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #3: Foi iniciada uma ação para deter esta rotação e assim que isso foi feito, os painéis solares foram abertos e dirigidos ao Sol e as antenas da Rede de Espaço Profundo iniciaram o monitoramento da nave espacial.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'Rede de Espaço Profundo', 'entity': 'Instrumento'}]'
+
+Example #4: No século 28, após o fim da construção da Estação Espacial Internacional, diversas raças alienígenas fazem contato com a humanidade e adicionam sua tecnologia à estação, tornando sua massa demasiadamente grande para mantê-la na órbita da Terra.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #5: Enquanto a maioria das pessoas tende a pensar em colônias humanas em Marte ou na Lua, alguns argumentam que as primeiras colônias extraterrestres serão em órbita (como na Estação Espacial Internacional).
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Corpo celeste'}, {'span': 'Lua', 'entity': 'Corpo celeste'}, {'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}]'
+

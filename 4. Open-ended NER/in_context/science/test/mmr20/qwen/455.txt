@@ -1,0 +1,60 @@
+Example #1: Alberts has also served as an editor for numerous peer-reviewed journals in a variety of fields, including Behavioral Ecology (journal), the American Journal of Primatology, and PeerJ.
+Expected output: 'entities: [{'span': 'Alberts', 'entity': 'Scientist'}, {'span': 'Behavioral Ecology', 'entity': 'Academic Journal'}, {'span': 'American Journal of Primatology', 'entity': 'Academic Journal'}, {'span': 'PeerJ', 'entity': 'Academic Journal'}]'
+
+Example #2: From the 16th century, researchers including Jan Baptist van Helmont, Robert Boyle, and Isaac Newton tried to establish theories of the experimentally observed chemical transformations.
+Expected output: 'entities: [{'span': 'Jan Baptist van Helmont', 'entity': 'Scientist'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #3: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #4: In 1871 he was elected a fellow of the Linnean Society of London, and in 1881 he was elected a fellow of the Royal Society.
+Expected output: 'entities: [{'span': 'fellow of the Linnean Society of London', 'entity': 'Award'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}]'
+
+Example #5: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #6: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #7: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #8: ChemBioChem is a sister publication to other scientific journal s published by Wiley-VCH, including Angewandte Chemie, ChemMedChem, ChemPhysChem, ChemSusChem, ChemCatChem, and ChemistryViews.
+Expected output: 'entities: [{'span': 'ChemBioChem', 'entity': 'Academic Journal'}, {'span': 'Wiley-VCH', 'entity': 'Organisation'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'ChemMedChem', 'entity': 'Academic Journal'}, {'span': 'ChemPhysChem', 'entity': 'Academic Journal'}, {'span': 'ChemSusChem', 'entity': 'Academic Journal'}, {'span': 'ChemCatChem', 'entity': 'Academic Journal'}, {'span': 'ChemistryViews', 'entity': 'Academic Journal'}]'
+
+Example #9: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #10: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #11: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #12: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #13: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+
+Example #14: DNA methyltransferase nowiki / s) are involved in regulation of the electrophysiological landscape of the brain through methylation of CpG nowiki / s.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'electrophysiological landscape', 'entity': 'Misc'}, {'span': 'methylation', 'entity': 'Misc'}, {'span': 'CpG', 'entity': 'Misc'}]'
+
+Example #15: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #16: After that, they present these peptides in complexes together with their Major histocompatibility complex molecules on their cell surface.
+Expected output: 'entities: [{'span': 'Major histocompatibility complex', 'entity': 'Protein'}]'
+
+Example #17: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #18: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #19: The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT8, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+Expected output: 'entities: [{'span': 'keratins', 'entity': 'Misc'}, {'span': 'KRT23', 'entity': 'Protein'}, {'span': 'KRT24', 'entity': 'Protein'}, {'span': 'KRT25', 'entity': 'Protein'}, {'span': 'KRT26', 'entity': 'Protein'}, {'span': 'KRT27', 'entity': 'Protein'}, {'span': 'KRT28', 'entity': 'Protein'}, {'span': 'KRT31', 'entity': 'Protein'}, {'span': 'KRT32', 'entity': 'Protein'}, {'span': 'KRT33A', 'entity': 'Protein'}, {'span': 'KRT33B', 'entity': 'Protein'}, {'span': 'KRT34', 'entity': 'Protein'}, {'span': 'KRT35', 'entity': 'Protein'}, {'span': 'KRT36', 'entity': 'Protein'}, {'span': 'KRT37', 'entity': 'Protein'}, {'span': 'KRT38', 'entity': 'Protein'}, {'span': 'KRT39', 'entity': 'Protein'}, {'span': 'KRT40', 'entity': 'Protein'}, {'span': 'KRT71', 'entity': 'Protein'}, {'span': 'KRT72', 'entity': 'Protein'}, {'span': 'KRT73', 'entity': 'Protein'}, {'span': 'KRT74', 'entity': 'Protein'}, {'span': 'KRT75', 'entity': 'Protein'}, {'span': 'KRT76', 'entity': 'Protein'}, {'span': 'KRT77', 'entity': 'Protein'}, {'span': 'KRT78', 'entity': 'Protein'}, {'span': 'KRT79', 'entity': 'Protein'}, {'span': 'KRT8', 'entity': 'Protein'}, {'span': 'KRT80', 'entity': 'Protein'}, {'span': 'KRT81', 'entity': 'Protein'}, {'span': 'KRT82', 'entity': 'Protein'}, {'span': 'KRT83', 'entity': 'Protein'}, {'span': 'KRT84', 'entity': 'Protein'}, {'span': 'KRT85', 'entity': 'Protein'}, {'span': 'KRT86', 'entity': 'Protein'}]'
+
+Example #20: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+

@@ -1,0 +1,30 @@
+Example #1: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #2: In 1917, he was appointed as the first Palit Professor of Physics by Ashutosh Mukherjee at the Rajabazar Science College, University of Calcutta.
+Expected output: 'entities: [{'span': 'Palit Professor of Physics', 'entity': 'Award'}, {'span': 'Ashutosh Mukherjee', 'entity': 'Scientist'}, {'span': 'Rajabazar Science College', 'entity': 'University'}, {'span': 'University of Calcutta', 'entity': 'University'}]'
+
+Example #3: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #4: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #5: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #6: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #7: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #8: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #9: During that year, he moved to University of Würzburg and two years later, in 1869 to University of Bonn.
+Expected output: 'entities: [{'span': 'University of Würzburg', 'entity': 'University'}, {'span': 'University of Bonn', 'entity': 'University'}]'
+
+Example #10: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+

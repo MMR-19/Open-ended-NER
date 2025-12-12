@@ -1,0 +1,15 @@
+Example #1: To the extent that any court action is permitted consistent with or to enforce Section 7 of this Agreement, the Parties hereby consent to the jurisdiction of the San Diego County Superior Court of California State and the United States District Court for the Southern District of California.
+Expected output: 'entities: [{'span': 'San Diego County Superior Court of California State', 'entity': 'Court'}, {'span': 'United States District Court for the Southern District of California', 'entity': 'Court'}]'
+
+Example #2: On October 31, 2003, the New York District Court entered a Final Judgment As To Defendant JPMSI (the “ JPMSI Research Analysts Final Judgment ”) that, among other things, enjoined JPMSI, directly or through its officers, directors, agents and employees, from violating then NASD Conduct Rules 2110, 2210, and 3010 and NYSE Rules 342, 401, 472, and 476 (the “ JPMSI Research Analysts Injunction ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Final Judgment', 'entity': 'Miscellaneous'}, {'span': 'NASD Conduct Rules', 'entity': 'Legislation/Act'}, {'span': 'NYSE Rules', 'entity': 'Legislation/Act'}, {'span': 'JPMSI Research Analysts Injunction', 'entity': 'Miscellaneous'}]'
+
+Example #3: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #4: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #5: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+

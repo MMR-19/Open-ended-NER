@@ -1,0 +1,60 @@
+Example #1: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #2: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #3: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #4: During the last four years of the Second Polish Republic, the major politicians included President Ignacy Mościcki, Foreign Minister Józef Beck and the Commander-in-Chief of the Polish Army, Edward Rydz-Śmigły.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': 'Ignacy Mościcki', 'entity': 'Politician'}, {'span': 'Józef Beck', 'entity': 'Politician'}, {'span': 'Polish Army', 'entity': 'Misc'}, {'span': 'Edward Rydz-Śmigły', 'entity': 'Politician'}]'
+
+Example #5: Chief towns included Kingston, Port of Spain, Bridgetown, Spanish Town, Montego Bay, Mandeville, Castries, Roseau, St. George's, Kingstown, St. John's, and Basseterre.
+Expected output: 'entities: [{'span': 'Kingston', 'entity': 'Location'}, {'span': 'Port of Spain', 'entity': 'Location'}, {'span': 'Bridgetown', 'entity': 'Location'}, {'span': 'Spanish Town', 'entity': 'Location'}, {'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Mandeville', 'entity': 'Location'}, {'span': 'Castries', 'entity': 'Location'}, {'span': 'Roseau', 'entity': 'Location'}, {'span': "St. George's", 'entity': 'Location'}, {'span': 'Kingstown', 'entity': 'Location'}, {'span': "St. John's", 'entity': 'Location'}, {'span': 'Basseterre', 'entity': 'Location'}]'
+
+Example #6: Representatives of the Kuomintang, Communist Party of China, Chinese Youth Party, and China Democratic League, as well as independent delegates, attended the conference in Chongqing.
+Expected output: 'entities: [{'span': 'Kuomintang', 'entity': 'Political Party'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Chinese Youth Party', 'entity': 'Political Party'}, {'span': 'China Democratic League', 'entity': 'Political Party'}, {'span': 'Chongqing', 'entity': 'Location'}]'
+
+Example #7: In the 1980s, Indira Gandhi along with Canadian Prime Minister Pierre Trudeau, Zambia's President Kenneth Kaunda, Australian prime minister Malcolm Fraser and Singapore Prime Minister Lee Kuan Yew was regarded as one of the pillars of the commonwealth India under Indira also hosted the 1983 Commonwealth heads of Government summit in New Delhi in 1983.
+Expected output: 'entities: [{'span': 'Indira Gandhi', 'entity': 'Politician'}, {'span': 'Canadian', 'entity': 'Misc'}, {'span': 'Pierre Trudeau', 'entity': 'Politician'}, {'span': 'Zambia', 'entity': 'Country'}, {'span': 'Kenneth Kaunda', 'entity': 'Politician'}, {'span': 'Australian', 'entity': 'Misc'}, {'span': 'Malcolm Fraser', 'entity': 'Politician'}, {'span': 'Singapore', 'entity': 'Misc'}, {'span': 'Lee Kuan Yew', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Indira', 'entity': 'Politician'}, {'span': '1983 Commonwealth heads of Government summit', 'entity': 'Event'}, {'span': 'New Delhi', 'entity': 'Location'}]'
+
+Example #8: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #9: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #10: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #11: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #12: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #13: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+
+Example #14: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #15: In the weeks leading up to the 1852 United States presidential election, he campaigned in numerous Southern states for Democratic candidates Franklin Pierce and William R. King.
+Expected output: 'entities: [{'span': '1852 United States presidential election', 'entity': 'Election'}, {'span': 'Franklin Pierce', 'entity': 'Politician'}, {'span': 'William R. King', 'entity': 'Politician'}]'
+
+Example #16: Westerwelle stepped down as party leader following the 2011 state elections, in which the party was wiped out in 2011 Saxony-Anhalt state election and 2011 Rhineland-Palatinate state election and lost half its seats in 2011 Baden-Württemberg state election.
+Expected output: 'entities: [{'span': 'Westerwelle', 'entity': 'Politician'}, {'span': '2011 Saxony-Anhalt state election', 'entity': 'Election'}, {'span': '2011 Rhineland-Palatinate state election', 'entity': 'Election'}, {'span': '2011 Baden-Württemberg state election', 'entity': 'Election'}]'
+
+Example #17: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #18: Its continued use by the Southern Army's post-war veterans groups, the United Confederate Veterans (U.C.V.) and the later Sons of Confederate Veterans, (S.C.V.), and elements of the design by related similar female descendants organizations of the United Daughters of the Confederacy, (U.D.C.), led to the assumption that it was, as it has been termed, the soldier's flag or the Confederate battle flag.
+Expected output: 'entities: [{'span': 'Southern Army', 'entity': 'Organisation'}, {'span': 'United Confederate Veterans', 'entity': 'Organisation'}, {'span': 'U.C.V.', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}, {'span': 'S.C.V.', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'U.D.C.', 'entity': 'Organisation'}]'
+
+Example #19: The Soviet Politburo decisions were guided by a Special Commission on Afghanistan, which consisted of Yuri Andropov the KGB chairman, Andrei Gromyko the Minister of Foreign Affairs, Defence Minister Dmitriy Ustinov, and Boris Ponomarev, the head of the International Department of the Central Committee.
+Expected output: 'entities: [{'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Politburo', 'entity': 'Misc'}, {'span': 'Afghanistan', 'entity': 'Country'}, {'span': 'Yuri Andropov', 'entity': 'Politician'}, {'span': 'KGB', 'entity': 'Organisation'}, {'span': 'Andrei Gromyko', 'entity': 'Politician'}, {'span': 'Dmitriy Ustinov', 'entity': 'Politician'}, {'span': 'Boris Ponomarev', 'entity': 'Politician'}, {'span': 'International Department of the Central Committee', 'entity': 'Organisation'}]'
+
+Example #20: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+

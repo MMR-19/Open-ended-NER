@@ -1,0 +1,60 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #3: MARIÂNGELA MEYER (RELATORA) V O T O Trata-se de apelação cível interposta por REBECCA DE AGUIAR LACERDA contra a sentença de fls. 138/140, prolatada pelo MM.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}, {'span': 'REBECCA DE AGUIAR LACERDA', 'entity': 'Pessoa'}]'
+
+Example #4: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #5: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #6: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #7: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #8: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+
+Example #9: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #11: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #12: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #13: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #14: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #15: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #16: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #17: (TJMG Apelação Cível 1.0027.13.026710-0/001, Relator (a): Des. (a) Valdez Leite Machado, 14ª CÂMARA CÍVEL, julgamento em 08/02/2018, publicação da súmula em 21/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0027.13.026710-0/001', 'entity': 'Jurisprudência'}, {'span': 'Valdez Leite Machado', 'entity': 'Pessoa'}, {'span': '14ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '08/02/2018', 'entity': 'Tempo'}, {'span': '21/02/2018', 'entity': 'Tempo'}]'
+
+Example #18: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #19: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #20: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+

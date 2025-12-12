@@ -1,0 +1,60 @@
+Example #1: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #2: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #3: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #4: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #5: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #6: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #7: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #8: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #9: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #10: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #11: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #12: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #13: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #14: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #15: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #16: Sua introdução em 1973 foi decisiva, pois as vendas do Volkswagen Fusca estavam caindo, e os outros modelos maiores de tração traseira como o 411 e 412 não estavam se saindo bem no mercado.
+Expected output: 'entities: [{'span': 'Volkswagen Fusca', 'entity': 'Veículo'}]'
+
+Example #17: Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII Corporation, empresa japonesa que era representante da Microsoft no Japão até 1986.
+Expected output: 'entities: [{'span': 'Kazuhiko Nishi', 'entity': 'Pessoa'}, {'span': 'ASCII Corporation', 'entity': 'Organização'}, {'span': 'Microsoft', 'entity': 'Organização'}, {'span': 'Japão', 'entity': 'Localização'}, {'span': '1986', 'entity': 'Tempo'}]'
+
+Example #18: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+
+Example #19: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #20: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+

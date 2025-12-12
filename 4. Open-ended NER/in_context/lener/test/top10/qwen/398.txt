@@ -1,0 +1,30 @@
+Example #1: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #2: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #3: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #4: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #5: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #6: ART. 20, § 4°, DO CPC.
+Expected output: 'entities: [{'span': 'ART. 20, § 4°, DO CPC', 'entity': 'Legislação'}]'
+
+Example #7: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #8: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #9: Reconhece-se o vício formal de inconstitucionalidade apontado na Lei Complementar distrital nº 788, de 02 de dezembro de 2008, que, ao dispor sobre a desafetação e a ocupação dos espaços intersticiais das quadras residenciais de Brazlândia-DF Região Administrativa IV, não observou a legitimidade para a propositura de leis que versem sobre a administração de áreas públicas e sobre o uso e a ocupação do solo no Distrito Federal, que é privativa do Chefe do Poder Executivo local.
+Expected output: 'entities: [{'span': 'Lei Complementar distrital nº 788', 'entity': 'Legislação'}, {'span': '02 de dezembro de 2008', 'entity': 'Tempo'}, {'span': 'Brazlândia-DF', 'entity': 'Localização'}, {'span': 'Região Administrativa IV', 'entity': 'Localização'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+

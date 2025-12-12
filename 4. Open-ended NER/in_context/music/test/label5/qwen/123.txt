@@ -1,0 +1,15 @@
+Example #1: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #2: The stadium also hosted such events as 1973 Summer Universiade, 1986 Goodwill Games and 2013 World Championships in Athletics.
+Expected output: 'entities: [{'span': '1973 Summer Universiade', 'entity': 'Event'}, {'span': '1986 Goodwill Games', 'entity': 'Event'}, {'span': '2013 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #3: Arguably the most successful boy band manager from the U.S. was Lou Pearlman, who founded commercially successful acts such as the Backstreet Boys in 1993, NSYNC and LFO in 1995, O-Town in 2000, and US5 in 2005.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Lou Pearlman', 'entity': 'Musical Artist'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'NSYNC', 'entity': 'Band'}, {'span': 'LFO', 'entity': 'Band'}, {'span': 'O-Town', 'entity': 'Band'}, {'span': 'US5', 'entity': 'Band'}]'
+
+Example #4: Arguably the most successful boy band manager from the U.S. was Lou Pearlman, who founded commercially successful acts such as the Backstreet Boys in 1993, NSYNC and LFO in 1995, O-Town in 2000, and US5 in 2005.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Lou Pearlman', 'entity': 'Person'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'NSYNC', 'entity': 'Band'}, {'span': 'LFO', 'entity': 'Band'}, {'span': 'O-Town', 'entity': 'Band'}, {'span': 'US5', 'entity': 'Band'}]'
+
+Example #5: These albums spawned some of Carey's most successful singles, including Hero, Without You, All I Want for Christmas Is You, Fantasy, Always Be My Baby, as well as One Sweet Day, which peaked at number one in the U.S. for 16 weeks and became Billboard s Song Of The Decade (1990s Decade).
+Expected output: 'entities: [{'span': 'Carey', 'entity': 'Musical Artist'}, {'span': 'Hero', 'entity': 'Song'}, {'span': 'Without You', 'entity': 'Song'}, {'span': 'All I Want for Christmas Is You', 'entity': 'Song'}, {'span': 'Fantasy', 'entity': 'Song'}, {'span': 'Always Be My Baby', 'entity': 'Song'}, {'span': 'One Sweet Day', 'entity': 'Song'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Billboard', 'entity': 'Organisation'}, {'span': 'Song Of The Decade', 'entity': 'Misc'}]'
+

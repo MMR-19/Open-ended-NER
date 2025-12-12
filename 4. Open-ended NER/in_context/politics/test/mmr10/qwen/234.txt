@@ -1,0 +1,30 @@
+Example #1: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #2: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #3: Kristol was a fellow of the American Academy of Arts and Sciences, a member of the Council on Foreign Relations and a fellow emeritus at the American Enterprise Institute (having been an associate fellow from 1972, a senior fellow from 1977 and the John M. Olin Distinguished Fellow from 1988 to 1999).
+Expected output: 'entities: [{'span': 'Kristol', 'entity': 'Person'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Council on Foreign Relations', 'entity': 'Organisation'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'John M. Olin Distinguished Fellow', 'entity': 'Misc'}]'
+
+Example #4: Successively, she was a member of the Social Democracy of the Kingdom of Poland and Lithuania (SDKPiL), the Social Democratic Party of Germany (SPD), the Independent Social Democratic Party of Germany (USPD) and the Communist Party of Germany (KPD).
+Expected output: 'entities: [{'span': 'Social Democracy of the Kingdom of Poland and Lithuania', 'entity': 'Political Party'}, {'span': 'SDKPiL', 'entity': 'Political Party'}, {'span': 'Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Independent Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'USPD', 'entity': 'Political Party'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'KPD', 'entity': 'Political Party'}]'
+
+Example #5: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #6: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #7: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #8: Westerwelle stepped down as party leader following the 2011 state elections, in which the party was wiped out in 2011 Saxony-Anhalt state election and 2011 Rhineland-Palatinate state election and lost half its seats in 2011 Baden-Württemberg state election.
+Expected output: 'entities: [{'span': 'Westerwelle', 'entity': 'Politician'}, {'span': '2011 Saxony-Anhalt state election', 'entity': 'Election'}, {'span': '2011 Rhineland-Palatinate state election', 'entity': 'Election'}, {'span': '2011 Baden-Württemberg state election', 'entity': 'Election'}]'
+
+Example #9: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #10: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+

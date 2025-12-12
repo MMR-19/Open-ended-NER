@@ -1,0 +1,60 @@
+Example #1: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #2: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #3: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #4: His arguments concerning liberty and the social contract later influenced the written works of Alexander Hamilton, James Madison, Thomas Jefferson, and other Founding Fathers of the United States.
+Expected output: 'entities: [{'span': 'liberty', 'entity': 'Political Party'}, {'span': 'Alexander Hamilton', 'entity': 'Politician'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #5: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #6: After winning the 1979 United Kingdom general election, Margaret Thatcher appointed Keith Joseph, the director of the Hayekian Centre for Policy Studies, as her secretary of state for industry in an effort to redirect parliament's economic strategies.
+Expected output: 'entities: [{'span': '1979 United Kingdom general election', 'entity': 'Election'}, {'span': 'Margaret Thatcher', 'entity': 'Politician'}, {'span': 'Keith Joseph', 'entity': 'Politician'}, {'span': 'Hayekian Centre for Policy Studies', 'entity': 'Organisation'}]'
+
+Example #7: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #8: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #9: Its continued use by the Southern Army's post-war veterans groups, the United Confederate Veterans (U.C.V.) and the later Sons of Confederate Veterans, (S.C.V.), and elements of the design by related similar female descendants organizations of the United Daughters of the Confederacy, (U.D.C.), led to the assumption that it was, as it has been termed, the soldier's flag or the Confederate battle flag.
+Expected output: 'entities: [{'span': 'Southern Army', 'entity': 'Organisation'}, {'span': 'United Confederate Veterans', 'entity': 'Organisation'}, {'span': 'U.C.V.', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}, {'span': 'S.C.V.', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'U.D.C.', 'entity': 'Organisation'}]'
+
+Example #10: It is generally estimated that over 3 million people marched in Rome, between one and two million in London, more than 600,000 in Madrid, 300,000 in Berlin, as well as in Damascus, Paris, New York, Oslo, Stockholm, Brussels, Johannesburg, Montreal - more than 600 cities in all, worldwide.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Country'}, {'span': 'London', 'entity': 'Country'}, {'span': 'Madrid', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Damascus', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'New York', 'entity': 'Location'}, {'span': 'Oslo', 'entity': 'Location'}, {'span': 'Stockholm', 'entity': 'Location'}, {'span': 'Brussels', 'entity': 'Location'}, {'span': 'Johannesburg', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #11: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #12: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #13: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #14: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #15: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #16: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #17: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+
+Example #18: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #19: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #20: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+

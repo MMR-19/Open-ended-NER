@@ -1,0 +1,60 @@
+Example #1: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #2: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #3: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+
+Example #4: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #5: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #6: Motivated by Tower's victory, and hoping to prevent the far-right John Birch Society from coming to power, Bush ran for the chairmanship of the Harris County, Texas Republican Party, winning election in February 1963. Like most other Texas Republicans, Bush supported conservative Senator Barry Goldwater over the more centrist Nelson Rockefeller in the 1964 Republican Party presidential primaries.
+Expected output: 'entities: [{'span': 'Tower', 'entity': 'Person'}, {'span': 'John Birch Society', 'entity': 'Organisation'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Harris County', 'entity': 'Location'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Republican Party', 'entity': 'Political Party'}, {'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Barry Goldwater', 'entity': 'Politician'}, {'span': 'Nelson Rockefeller', 'entity': 'Politician'}, {'span': '1964 Republican Party presidential primaries', 'entity': 'Election'}]'
+
+Example #7: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #8: The Italian Socialist Party, led by Bettino Craxi, became more and more critical of the communists and of the Soviet Union; Craxi himself pushed in favor of Ronald Reagan ' s positioning of Pershing II missiles in Italy, a move many communists strongly disapproved of.
+Expected output: 'entities: [{'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Bettino Craxi', 'entity': 'Politician'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Craxi', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'Pershing II', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}]'
+
+Example #9: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #10: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #11: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #12: The movement was immediately supported by Mariotto Segni, leader of the centrist Segni Pact; after few weeks the post-communist Democratic Party of the Left of Massimo D 'Alema, the PPI and the Federation of the Greens also joined the Olive Tree coalition.
+Expected output: 'entities: [{'span': 'Mariotto Segni', 'entity': 'Politician'}, {'span': 'Segni Pact', 'entity': 'Political Party'}, {'span': 'Democratic Party of the Left', 'entity': 'Political Party'}, {'span': "Massimo D 'Alema", 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'the Olive Tree', 'entity': 'Organisation'}]'
+
+Example #13: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #14: Six other Republican senators - Wayne Morse, Irving Ives, Charles W. Tobey, Edward John Thye, George Aiken, and Robert C. Hendrickson - joined her in condemning McCarthy's tactics.
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Wayne Morse', 'entity': 'Politician'}, {'span': 'Irving Ives', 'entity': 'Politician'}, {'span': 'Charles W. Tobey', 'entity': 'Politician'}, {'span': 'Edward John Thye', 'entity': 'Politician'}, {'span': 'George Aiken', 'entity': 'Politician'}, {'span': 'Robert C. Hendrickson', 'entity': 'Politician'}, {'span': 'McCarthy', 'entity': 'Politician'}]'
+
+Example #15: His wartime leadership established him as Madison's heir apparent, and he easily defeated Federalist Party candidate Rufus King in the 1816 United States presidential election.
+Expected output: 'entities: [{'span': 'Madison', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}, {'span': 'Rufus King', 'entity': 'Politician'}, {'span': '1816 United States presidential election', 'entity': 'Election'}]'
+
+Example #16: After losing the 2000 nomination, Jello became highly active in Ralph Nader ' s presidential campaign, as well as in 2004 United States presidential election and 2008 United States presidential election.
+Expected output: 'entities: [{'span': 'Jello', 'entity': 'Politician'}, {'span': 'Ralph Nader', 'entity': 'Politician'}, {'span': '2004 United States presidential election', 'entity': 'Election'}, {'span': '2008 United States presidential election', 'entity': 'Election'}]'
+
+Example #17: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #18: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #19: In the 1992 United States presidential election, Bush and Quayle were challenged in their bid for reelection by the Democratic ticket of Arkansas Governor Bill Clinton and Tennessee Senator Al Gore and the independent ticket of Texas businessman Ross Perot and retired Vice Admiral James Stockdale.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}, {'span': 'Arkansas', 'entity': 'Location'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Tennessee', 'entity': 'Location'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Ross Perot', 'entity': 'Politician'}, {'span': 'James Stockdale', 'entity': 'Politician'}]'
+
+Example #20: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+

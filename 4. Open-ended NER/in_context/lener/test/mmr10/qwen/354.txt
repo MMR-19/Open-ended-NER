@@ -1,0 +1,30 @@
+Example #1: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #2: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #3: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #4: Ou seja, além do dispositivo se referir apenas a obras e serviços de engenharia (§ 1º do art. 48 da Lei 8.666/1993), portanto, inaplicável ao objeto do Pregão Eletrônico 25/2016, houve erro grosseiro no cálculo realizado, uma vez que, segundo o critério invocado, todas as propostas inferiores a R $ 3.855.600,00 (70 % do valor estimado) deveriam ter sido consideradas inexequíveis.
+Expected output: 'entities: [{'span': '§ 1º do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #5: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #7: De igual modo, está pacificado no STJ o entendimento acerca da possibilidade de sucessiva prorrogação das interceptações, desde que devidamente fundamentadas, apesar de o art. 5º da Lei n. 9.296/1996 prever o prazo máximo de 15 (quinze) dias para tal medida, renovável por igual período (RHC 41.179/SP, Rel. Ministro FELIX FISCHER, QUINTA TURMA, julgado em 09/06/2015, DJe 19/06/2015, e HC 210.022/SP, Rel. Ministro SEBASTIÃO REIS JÚNIOR, SEXTA TURMA, julgado em 21/08/2014, DJe 05/09/2014).
+Expected output: 'entities: [{'span': 'STJ', 'entity': 'Organização'}, {'span': 'art. 5º da Lei n. 9.296/1996', 'entity': 'Legislação'}, {'span': 'RHC 41.179/SP', 'entity': 'Jurisprudência'}, {'span': 'FELIX FISCHER', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '09/06/2015', 'entity': 'Tempo'}, {'span': '19/06/2015', 'entity': 'Tempo'}, {'span': 'HC 210.022/SP', 'entity': 'Jurisprudência'}, {'span': 'SEBASTIÃO REIS JÚNIOR', 'entity': 'Pessoa'}, {'span': 'SEXTA TURMA', 'entity': 'Organização'}, {'span': '21/08/2014', 'entity': 'Tempo'}, {'span': '05/09/2014', 'entity': 'Tempo'}]'
+
+Example #8: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #9: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #10: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+

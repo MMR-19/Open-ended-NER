@@ -1,0 +1,60 @@
+Example #1: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #2: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+
+Example #3: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #4: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #5: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #6: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #7: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #8: Spermidine synthase uses putrescine and S-Adenosylmethioninamine (decarboxylated S-Adenosyl methionine) to produce spermidine.
+Expected output: 'entities: [{'span': 'Spermidine synthase', 'entity': 'Enzyme'}, {'span': 'putrescine', 'entity': 'Chemical Compound'}, {'span': 'S-Adenosylmethioninamine', 'entity': 'Chemical Compound'}, {'span': 'decarboxylated', 'entity': 'Misc'}, {'span': 'S-Adenosyl methionine', 'entity': 'Chemical Compound'}, {'span': 'spermidine', 'entity': 'Chemical Compound'}]'
+
+Example #9: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #10: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #11: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #12: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #13: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #14: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #15: Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Walther Bothe, Wolfgang Gentner, Otto Haxel, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Hans Kopfermann', 'entity': 'Scientist'}, {'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Wolfgang Gentner', 'entity': 'Scientist'}, {'span': 'Otto Haxel', 'entity': 'Scientist'}, {'span': 'Willibald Jentschke', 'entity': 'Scientist'}, {'span': 'Heinz Maier-Leibnitz', 'entity': 'Scientist'}, {'span': 'Josef Mattauch', 'entity': 'Scientist'}, {'span': 'Wolfgang Riezler', 'entity': 'Scientist'}, {'span': 'Wilhelm Walcher', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}]'
+
+Example #16: The study claimed precise CRISPR and homology-directed repair response with high accuracy and percision.
+Expected output: 'entities: [{'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'homology-directed repair response', 'entity': 'Misc'}]'
+
+Example #17: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #18: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #19: Still within the same PCR tube, overnight IVT reaction is assembled, including standard IVT buffer, NTPs, T7 RNA polymerase, RNase inhibitor, DMSO, etc.
+Expected output: 'entities: [{'span': 'PCR tube', 'entity': 'Misc'}, {'span': 'IVT reaction', 'entity': 'Misc'}, {'span': 'IVT buffer', 'entity': 'Misc'}, {'span': 'NTPs', 'entity': 'Misc'}, {'span': 'T7 RNA polymerase', 'entity': 'Enzyme'}, {'span': 'RNase inhibitor', 'entity': 'Protein'}, {'span': 'DMSO', 'entity': 'Chemical Compound'}]'
+
+Example #20: Also, Mercury's fairly eccentric orbit makes it much easier to detect the perihelion shift than is the case for the nearly circular orbits of Venus and Earth.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+

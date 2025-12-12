@@ -1,0 +1,30 @@
+Example #1: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #2: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #3: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #4: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #5: The committee may use any process it deems appropriate for the purpose of evaluating candidates, which process may include, without limitation, personal interviews, background checks, written submissions by the candidates and third party references.
+Expected output: 'entities: []'
+
+Example #6: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #7: To the knowledge of management of the Funds, no shareholder of a Fund owns more than 10 % of a registered class of a Fund s equity securities, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #8: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+
+Example #9: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #10: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+

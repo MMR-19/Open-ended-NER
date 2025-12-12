@@ -1,0 +1,30 @@
+Example #1: IF YOU CAN NOT BE PRESENT AT THE MEETING, YOU ARE REQUESTED TO FILL IN, SIGN AND RETURN THE ENCLOSED PROXY PROMPTLY.
+Expected output: 'entities: []'
+
+Example #2: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #3: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #4: To vote by mail, please mark, sign, date and mail the enclosed proxy card.
+Expected output: 'entities: []'
+
+Example #5: Any notices, requests, demands and other communications provided for by this Agreement shall be sufficient if in writing and delivered in person or sent by a nationally recognized overnight courier service or by registered or certified mail, postage prepaid, return receipt requested, to the Executive at the last address the Executive has filed in writing with the Company or, in the case of the Company, to Kenneth L. Waggoner, Executive Vice President Legal, General Counsel and Director of the Company, 12526 High Bluff Drive, Suite 155, San Diego, California USA.
+Expected output: 'entities: [{'span': 'Kenneth L. Waggoner', 'entity': 'Person'}, {'span': 'High Bluff Drive', 'entity': 'Location'}, {'span': 'San Diego', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}, {'span': 'USA', 'entity': 'Location'}]'
+
+Example #6: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #7: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #8: Timely submission of a proposal does not mean that such proposal will be included in a proxy statement.
+Expected output: 'entities: []'
+
+Example #9: You may vote by mail, telephone or over the Internet.
+Expected output: 'entities: [{'span': 'Internet', 'entity': 'Miscellaneous'}]'
+
+Example #10: It is the intention of the persons named in the enclosed proxy to vote the shares represented thereby for the election of the nominees listed in the table below unless the proxy is marked otherwise.
+Expected output: 'entities: []'
+

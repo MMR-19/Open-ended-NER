@@ -1,0 +1,60 @@
+Example #1: As blástulas são provavelmente representativas do tipo de colônia de onde os animais evoluíram; formas similares ocorrem entre os flagelados, como os " Volvox ".
+Expected output: 'entities: [{'span': 'Volvox', 'entity': 'Entidade biológica'}]'
+
+Example #2: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #3: Ela é a mãe de Thor e a personificação da Terra.
+Expected output: 'entities: [{'span': 'Thor', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #4: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #5: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #6: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #7: Os dados registrados pelo telescópio espacial Kepler apresentam um padrão realmente incomum, o que levou muitos pesquisadores a se interessar pelo caso.
+Expected output: 'entities: [{'span': 'telescópio espacial Kepler', 'entity': 'Instrumento'}]'
+
+Example #8: " Diplatia " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #9: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #11: O avião foi desenvolvido juntamente com o Boeing 757, que atuaria em rotas nacionais e internacionais curtas.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #12: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #13: Chama-se " hermafrodita " (do nome do deus grego Hermafrodito, filho de Hermes e de Afrodite – respectivamente representantes dos sexo masculino e feminino) um indivíduo que produz ambos gametas femininos e masculinos funcionais durante sua vida.
+Expected output: 'entities: [{'span': 'Hermafrodito', 'entity': 'Entidade mitológica'}, {'span': 'Hermes', 'entity': 'Entidade mitológica'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #14: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #15: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #16: Trata-se do Nissan Leaf.
+Expected output: 'entities: [{'span': 'Nissan Leaf', 'entity': 'Veículo'}]'
+
+Example #17: Em seu romance " 120 Dias de Sodoma ", por exemplo, nobres devassos abusam de crianças raptadas encerrados num castelo de luxo, num clima de crescente violência, com coprofagia, mutilações e assassinatos.
+Expected output: 'entities: [{'span': '120 Dias de Sodoma', 'entity': 'Média'}, {'span': 'coprofagia', 'entity': 'Comida'}]'
+
+Example #18: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #19: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #20: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+

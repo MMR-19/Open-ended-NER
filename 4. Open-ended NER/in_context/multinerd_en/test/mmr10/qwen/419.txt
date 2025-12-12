@@ -1,0 +1,30 @@
+Example #1: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+
+Example #2: His " " Monoplane " " was a large aircraft made of aluminium, with a wingspan of and a weight of only without the pilot.
+Expected output: 'entities: [{'span': 'Monoplane', 'entity': 'Vehicle'}]'
+
+Example #3: He grew to love her, and worshipped her god, Lugh.
+Expected output: 'entities: [{'span': 'Lugh', 'entity': 'Mythological entity'}]'
+
+Example #4: The industrialist is so distraught by the end of Earth civilization he suffers a fatal heart attack.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'heart attack', 'entity': 'Disease'}]'
+
+Example #5: Traditionally, the winner of the men's heavyweight class will go on to compete in major national and international strongman contests such as the World's Strongest Man and the Arnold Strongman Classic.
+Expected output: 'entities: [{'span': "World's Strongest Man", 'entity': 'Media'}, {'span': 'Arnold Strongman Classic', 'entity': 'Event'}]'
+
+Example #6: This is unlike the original cartoon, which featured other stories such as " Tom Slick " and " Super Chicken ".
+Expected output: 'entities: [{'span': 'Tom Slick', 'entity': 'Celestial Body'}, {'span': 'Super Chicken', 'entity': 'Media'}]'
+
+Example #7: With the onset of World War II, the Ministry of Supply in the United Kingdom established a BW program at Porton Down, headed by the microbiologist Paul Fildes.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'Ministry of Supply', 'entity': 'Organization'}, {'span': 'United Kingdom', 'entity': 'Location'}, {'span': 'Porton Down', 'entity': 'Location'}, {'span': 'Paul Fildes', 'entity': 'Person'}]'
+
+Example #8: His first major league hit was a fourth-inning single off Drew Smyly in a 4&ndash; 1 loss to the Detroit Tigers at Camden Yards six nights later on May 13.
+Expected output: 'entities: [{'span': 'Drew Smyly', 'entity': 'Person'}, {'span': 'Detroit Tigers', 'entity': 'Organization'}, {'span': 'Camden Yards', 'entity': 'Location'}]'
+
+Example #9: His mother, Cheri Lynn Honkala, is a noted advocate for the homeless in Philadelphia, and was the vice-presidential nominee of the Green Party in the 2012 presidential election.
+Expected output: 'entities: [{'span': 'Cheri Lynn Honkala', 'entity': 'Person'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Green Party', 'entity': 'Organization'}]'
+
+Example #10: Nevertheless, he was encouraged to begin work (1869) on a major choral work, " Les Béatitudes ", which was to occupy him for more than ten years, the delay partly due to the interruptions of the Franco-Prussian War.
+Expected output: 'entities: [{'span': 'Les Béatitudes', 'entity': 'Media'}, {'span': 'Franco-Prussian War', 'entity': 'Event'}]'
+

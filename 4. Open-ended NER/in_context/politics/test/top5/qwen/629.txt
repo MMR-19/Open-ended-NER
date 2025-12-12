@@ -1,0 +1,15 @@
+Example #1: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #2: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #3: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #4: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #5: He introduced measures to combat resistance, and when a widespread strike took place in Amsterdam, Arnhem and Hilversum in May 1943, special summary court-martial procedures were brought in, and a collective fine of 18 million guilder s was imposed.
+Expected output: 'entities: [{'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Hilversum', 'entity': 'Location'}]'
+

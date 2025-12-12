@@ -1,0 +1,15 @@
+Example #1: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #2: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #3: Os principais produtos cultivados ou criados no estado são milho, trigo e soja, além de gado, leite e carne bovina.
+Expected output: 'entities: [{'span': 'milho', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'carne', 'entity': 'Comida'}]'
+
+Example #4: No início do século XX, as principais exportações foram café, cacau, gado, açúcar, tabaco, batata doce, couros bovinos e borracha.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'cacau', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'açúcar', 'entity': 'Comida'}, {'span': 'tabaco', 'entity': 'Planta'}]'
+
+Example #5: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+

@@ -1,0 +1,60 @@
+Example #1: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #2: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #3: He was born in Brussels, Belgium, the youngest child of Henry L'Estrange Styleman Le Strange of Hunstanton, Norfolk, educated at Clifton College and died in Cambridge.
+Expected output: 'entities: [{'span': 'Brussels', 'entity': 'Location'}, {'span': 'Belgium', 'entity': 'Location'}, {'span': "Henry L'Estrange Styleman Le Strange", 'entity': 'Person'}, {'span': 'Hunstanton', 'entity': 'Location'}, {'span': 'Norfolk', 'entity': 'Location'}, {'span': 'Clifton College', 'entity': 'Organization'}, {'span': 'Cambridge', 'entity': 'Organization'}]'
+
+Example #4: In antiquity it was a place of worship, because it was believed to be the cave where the titan Rhea hid the infant Zeus, to protect him from his father Cronus who intended to swallow him like others of his progeny.
+Expected output: 'entities: [{'span': 'Rhea', 'entity': 'Mythological entity'}, {'span': 'Zeus', 'entity': 'Mythological entity'}, {'span': 'Cronus', 'entity': 'Mythological entity'}]'
+
+Example #5: He grew to love her, and worshipped her god, Lugh.
+Expected output: 'entities: [{'span': 'Lugh', 'entity': 'Mythological entity'}]'
+
+Example #6: His trip was filmed for " The American Sportsman " on ABC, although all did not go well at first as the salmon were not running.
+Expected output: 'entities: [{'span': 'The American Sportsman', 'entity': 'Media'}, {'span': 'ABC', 'entity': 'Organization'}, {'span': 'salmon', 'entity': 'Animal'}]'
+
+Example #7: His first major league hit was a fourth-inning single off Drew Smyly in a 4&ndash; 1 loss to the Detroit Tigers at Camden Yards six nights later on May 13.
+Expected output: 'entities: [{'span': 'Drew Smyly', 'entity': 'Person'}, {'span': 'Detroit Tigers', 'entity': 'Organization'}, {'span': 'Camden Yards', 'entity': 'Location'}]'
+
+Example #8: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #9: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #10: He was replaced in that role by Osiris during the Middle Kingdom (2000 – 1700 BC).
+Expected output: 'entities: [{'span': 'Osiris', 'entity': 'Mythological entity'}, {'span': 'Middle Kingdom', 'entity': 'Time'}]'
+
+Example #11: Over the course of the Middle Kingdom, however, he was displaced in that role by Amun, who may have arisen elsewhere.
+Expected output: 'entities: [{'span': 'Middle Kingdom', 'entity': 'Time'}, {'span': 'Amun', 'entity': 'Mythological entity'}]'
+
+Example #12: Her mother Ceres, also known as Demeter, the goddess of agriculture or of the Earth, went looking for her across all of the world, and all in vain.
+Expected output: 'entities: [{'span': 'Ceres', 'entity': 'Mythological entity'}, {'span': 'Demeter', 'entity': 'Mythological entity'}, {'span': 'Earth', 'entity': 'Celestial Body'}]'
+
+Example #13: An older sister, Susan, is a rabbi who lives in Jerusalem with her husband, Yosef Abramowitz, the co-founder and president of Arava Power Company, and their five children.
+Expected output: 'entities: [{'span': 'Susan', 'entity': 'Person'}, {'span': 'Jerusalem', 'entity': 'Location'}, {'span': 'Yosef Abramowitz', 'entity': 'Person'}, {'span': 'Arava Power Company', 'entity': 'Organization'}]'
+
+Example #14: The industrialist is so distraught by the end of Earth civilization he suffers a fatal heart attack.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'heart attack', 'entity': 'Disease'}]'
+
+Example #15: He made his first team debut, providing an assist for Jackie Henderson in a 3 – 0 victory over Manchester United at Old Trafford.
+Expected output: 'entities: [{'span': 'Jackie Henderson', 'entity': 'Person'}, {'span': 'Manchester United', 'entity': 'Organization'}, {'span': 'Old Trafford', 'entity': 'Location'}]'
+
+Example #16: He was honoured for his pioneering work on prevention of Rh disease of the newborn, and also for his work on the genetics of the Lepidoptera (butterflies and moths).
+Expected output: 'entities: [{'span': 'Rh disease', 'entity': 'Disease'}, {'span': 'Lepidoptera', 'entity': 'Animal'}]'
+
+Example #17: It was supplanted by Egyptian Arabic as a spoken language toward the early modern period, but language revitalisation efforts have been underway since the 19th century.
+Expected output: 'entities: [{'span': 'Egyptian Arabic', 'entity': 'Media'}, {'span': 'early modern period', 'entity': 'Time'}]'
+
+Example #18: The hero is presented devoid of rank or status, and seems notably human, though heroic, as he is forever trying to pull Paris's arrow from his heel.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Mythological entity'}]'
+
+Example #19: 2055 – 1650 BC) he was replaced by Osiris in his role as lord of the underworld.
+Expected output: 'entities: [{'span': 'Osiris', 'entity': 'Mythological entity'}]'
+
+Example #20: His mother, Cheri Lynn Honkala, is a noted advocate for the homeless in Philadelphia, and was the vice-presidential nominee of the Green Party in the 2012 presidential election.
+Expected output: 'entities: [{'span': 'Cheri Lynn Honkala', 'entity': 'Person'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Green Party', 'entity': 'Organization'}]'
+

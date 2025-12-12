@@ -1,0 +1,60 @@
+Example #1: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #2: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #3: Sua introdução em 1973 foi decisiva, pois as vendas do Volkswagen Fusca estavam caindo, e os outros modelos maiores de tração traseira como o 411 e 412 não estavam se saindo bem no mercado.
+Expected output: 'entities: [{'span': 'Volkswagen Fusca', 'entity': 'Veículo'}]'
+
+Example #4: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #5: No entanto, dentro do 747 vítima do ataque, o pesadelo ainda não tinha acabado, pois o único piloto que ainda estava vivo foi morto pelas cobras e estas tomaram conta da cabine de comando.
+Expected output: 'entities: [{'span': '747', 'entity': 'Veículo'}]'
+
+Example #6: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #7: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #9: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #10: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #11: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #12: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #13: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #14: O projeto foi concebido no final dos anos 50 e aprovado em 1962, mas só entrou em operação no final daquela década, como solução temporária enquanto o Parus não ficava pronto.
+Expected output: 'entities: [{'span': 'Parus', 'entity': 'Veículo'}]'
+
+Example #15: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #16: No século 28, após o fim da construção da Estação Espacial Internacional, diversas raças alienígenas fazem contato com a humanidade e adicionam sua tecnologia à estação, tornando sua massa demasiadamente grande para mantê-la na órbita da Terra.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #17: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #18: Após uma permanência de 23 dias a bordo da Salyut 1, a primeira estação espacial colocada em órbita, na volta para a Terra, após uma reentrada normal, a cápsula foi aberta e a tripulação foi encontrada morta.
+Expected output: 'entities: [{'span': 'Salyut 1', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #19: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #20: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+

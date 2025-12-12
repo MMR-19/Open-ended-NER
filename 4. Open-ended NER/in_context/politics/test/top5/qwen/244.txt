@@ -1,0 +1,15 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #3: During and following his first governorship, Brown ran as a candidate for the Democratic presidential nomination in 1976 United States presidential election, 1980 Democratic Party presidential primaries and 1992 Democratic Party presidential primaries.
+Expected output: 'entities: [{'span': 'Brown', 'entity': 'Politician'}, {'span': '1976 United States presidential election', 'entity': 'Election'}, {'span': '1980 Democratic Party presidential primaries', 'entity': 'Election'}, {'span': '1992 Democratic Party presidential primaries', 'entity': 'Election'}]'
+
+Example #4: Hagelin stood as a candidate for President of the United States for the Natural Law Party, a party founded by the TM movement, in the 1992 United States presidential election, 1996 United States presidential election and 2000 United States presidential election elections.
+Expected output: 'entities: [{'span': 'Hagelin', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'Natural Law Party', 'entity': 'Political Party'}, {'span': 'TM movement', 'entity': 'Event'}, {'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': '1996 United States presidential election', 'entity': 'Election'}, {'span': '2000 United States presidential election', 'entity': 'Election'}]'
+
+Example #5: Johnson ran for governor three times: in 1947 Mississippi gubernatorial election, 1951 Mississippi gubernatorial election, and 1955 Mississippi gubernatorial election, but was unsuccessful.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': '1947 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1951 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1955 Mississippi gubernatorial election', 'entity': 'Election'}]'
+

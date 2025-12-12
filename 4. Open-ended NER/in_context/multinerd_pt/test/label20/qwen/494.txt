@@ -1,0 +1,60 @@
+Example #1: " Aetanthus " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #2: " Diplatia " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #3: " Globimetula " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #4: A associação simbiótica de muitas das espécies desta família com " Rhizobium " confere à família grande importância ecológica, já que em muitos ecossistemas são o principal elo na fixação do azoto atmosférico.
+Expected output: 'entities: [{'span': 'Rhizobium', 'entity': 'Entidade biológica'}]'
+
+Example #5: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #6: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #7: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #8: O " Toxoplasma gondii " é um protozoário parasita intracelular obrigatório do grupo dos Apicomplexa, como outros parasitas como o " Plasmodium ".
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}]'
+
+Example #9: Montado sobre o eixo estão pequenas asas estabilizadoras - os " ruddevators " visíveis na figura, com um formato " V " - ou alternativamente quatro superfícies, similares à montagem feita no jato da Segunda Guerra Mundial Heinkel He 162.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Heinkel He 162', 'entity': 'Veículo'}]'
+
+Example #10: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #11: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #12: O título é um spin-off da série " Drakengard " e ocorre após os acontecimentos do quinto final do primeiro jogo, eventos que deixaram o planeta Terra em estado de ruína.
+Expected output: 'entities: [{'span': 'Drakengard', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #13: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #14: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #15: Embora o sabor forte e azedo seja uma característica definidora da espécie, ele é mais fraco ou mesmo ausente em alguns cogumelos mais velhos, o que não é incomum para uma espécie do gênero " Lactarius ".
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #16: Questionada pelos fãs, a equipe responsável pelo Twitter do escritor respondeu em meados do mesmo mês que ele estava " melhorando lentamente ", mantendo a postura de não entrar em detalhes a respeito do que levou à internação.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #17: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #18: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #19: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #20: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+

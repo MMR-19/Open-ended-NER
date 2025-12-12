@@ -1,0 +1,60 @@
+Example #1: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #2: O single apareceu em um comercial para o carro Citroën C4.
+Expected output: 'entities: [{'span': 'Citroën C4', 'entity': 'Veículo'}]'
+
+Example #3: Também inspirou uma canção de sucesso, " Wuthering Heights ", composta e interpretada por Kate Bush para o álbum " The Kick Inside ", de 1978, e posteriormente regravada pela banda Angra, em seu álbum " Angels Cry ", de 1993.
+Expected output: 'entities: [{'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'The Kick Inside', 'entity': 'Média'}, {'span': '1978', 'entity': 'Tempo'}, {'span': 'Angra', 'entity': 'Organização'}, {'span': 'Angels Cry', 'entity': 'Média'}, {'span': '1993', 'entity': 'Tempo'}]'
+
+Example #4: Em 1993, uma banda brasileira de power metal, Angra, fez um diferente arranjo da canção de Kate Bush, Wuthering Heights, dando à música uma harmonização mais pesada com as guitarras e lançou no seu album Angels Cry.
+Expected output: 'entities: [{'span': 'Angra', 'entity': 'Organização'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Angels Cry', 'entity': 'Média'}]'
+
+Example #5: Suas canções falam principalmente sobre o amor, mas já tratou de outros temas mais polêmicos como religião e guerra, principalmente no álbum " Chorus ", escrito na época da guerra do Golfo.
+Expected output: 'entities: [{'span': 'Chorus', 'entity': 'Média'}, {'span': 'guerra do Golfo', 'entity': 'Evento'}]'
+
+Example #6: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #7: Em 2007, com o lançamento do terceiro disco da banda, " Celestial ", deram início a segunda turnê da carreira, a Celestial World Tour, que teve início em 20 de abril de 2007 e teve término em fevereiro de 2008.
+Expected output: 'entities: [{'span': 'Celestial', 'entity': 'Média'}, {'span': 'Celestial World Tour', 'entity': 'Evento'}]'
+
+Example #8: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #9: Essa formação lançou o álbum " I Can See Your House from Here " (1979), mais comercial, e que causou problemas com os patrocinadores por mostrar em sua capa um astronauta crucificado olhando para a Terra.
+Expected output: 'entities: [{'span': 'I Can See Your House from Here', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: O clipe de " Elastic Heart " causou controvérsia após alguns comentaristas acusarem-la de pedofilia devido a aparente idade dos dançarinos.
+Expected output: 'entities: [{'span': 'Elastic Heart', 'entity': 'Média'}, {'span': 'pedofilia', 'entity': 'Doença'}]'
+
+Example #11: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #12: A atriz negou uma entrevista a um dos jornalistas do programa e foi ao seu Twitter reclamar do acontecido.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #13: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #14: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #15: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #16: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #17: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #18: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #19: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #20: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+

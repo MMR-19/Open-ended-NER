@@ -1,0 +1,60 @@
+Example #1: Alberts has also served as an editor for numerous peer-reviewed journals in a variety of fields, including Behavioral Ecology (journal), the American Journal of Primatology, and PeerJ.
+Expected output: 'entities: [{'span': 'Alberts', 'entity': 'Scientist'}, {'span': 'Behavioral Ecology', 'entity': 'Academic Journal'}, {'span': 'American Journal of Primatology', 'entity': 'Academic Journal'}, {'span': 'PeerJ', 'entity': 'Academic Journal'}]'
+
+Example #2: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #3: Organizations such as Community Forestry International, Cool Earth, The Nature Conservancy, World Wide Fund for Nature, Conservation International, African Conservation Foundation and Greenpeace also focus on preserving forest habitats.
+Expected output: 'entities: [{'span': 'Community Forestry International', 'entity': 'Organisation'}, {'span': 'Cool Earth', 'entity': 'Organisation'}, {'span': 'The Nature Conservancy', 'entity': 'Organisation'}, {'span': 'World Wide Fund for Nature', 'entity': 'Organisation'}, {'span': 'Conservation International', 'entity': 'Organisation'}, {'span': 'African Conservation Foundation', 'entity': 'Organisation'}, {'span': 'Greenpeace', 'entity': 'Organisation'}]'
+
+Example #4: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #5: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #6: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #7: The planets have been designated Pr0201 b and Pr0211 b.
+Expected output: 'entities: [{'span': 'Pr0201 b', 'entity': 'Astronomical Object'}, {'span': 'Pr0211 b', 'entity': 'Astronomical Object'}]'
+
+Example #8: He has written several invited review articles and book chapters for a number of prestigious journals and books including Chemical Reviews, Accounts of Chemical Research, Angewandte Chemie and the main textbook in the field of circular dichroism, Comprehensive Chiroptical Spectroscopy.
+Expected output: 'entities: [{'span': 'Chemical Reviews', 'entity': 'Academic Journal'}, {'span': 'Accounts of Chemical Research', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'circular dichroism', 'entity': 'Theory'}, {'span': 'Comprehensive Chiroptical Spectroscopy', 'entity': 'Misc'}]'
+
+Example #9: South Mumbai has reputed and leading educational institutions such as Jamnalal Bajaj Institute of Management Studies, St. Xavier's College, Government Law College, Jai Hind College, Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals, Sydenham Institute of Management Studies, Research and Entrepreneurship Education to name a few.
+Expected output: 'entities: [{'span': 'South', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Jamnalal Bajaj Institute of Management Studies', 'entity': 'Organisation'}, {'span': "St. Xavier's College", 'entity': 'University'}, {'span': 'Government Law College', 'entity': 'University'}, {'span': 'Jai Hind College', 'entity': 'University'}, {'span': 'Grant Medical College', 'entity': 'University'}, {'span': 'Sir Jamshedjee Jeejeebhoy Group of Hospitals', 'entity': 'Organisation'}, {'span': 'Sydenham Institute of Management Studies', 'entity': 'Organisation'}, {'span': 'Research and Entrepreneurship Education', 'entity': 'Organisation'}]'
+
+Example #10: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #11: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #12: Other toxins with a similar mode of action to ATX-II are Scorpion toxin.
+Expected output: 'entities: [{'span': 'ATX-II', 'entity': 'Chemical Compound'}, {'span': 'Scorpion toxin', 'entity': 'Protein'}]'
+
+Example #13: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #14: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #15: The kinetic isotope effect (KIE) of ribulose-1,5-bisphosphate carboxylase oxygenase (RuBisCO) is the isotopic fractionation associated solely with the step in the Calvin-Benson Cycle where a molecule of carbon dioxide (
+Expected output: 'entities: [{'span': 'kinetic isotope effect', 'entity': 'Misc'}, {'span': 'KIE', 'entity': 'Misc'}, {'span': 'ribulose-1,5-bisphosphate carboxylase oxygenase', 'entity': 'Enzyme'}, {'span': 'RuBisCO', 'entity': 'Enzyme'}, {'span': 'isotopic fractionation', 'entity': 'Misc'}, {'span': 'Calvin-Benson Cycle', 'entity': 'Misc'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}]'
+
+Example #16: The widely used iGluSnFR consists of a circularly permuted Green fluorescent protein fused to a glutamate binding protein (GluBP) from a bacterium.
+Expected output: 'entities: [{'span': 'iGluSnFR', 'entity': 'Misc'}, {'span': 'Green fluorescent protein', 'entity': 'Protein'}, {'span': 'glutamate binding protein', 'entity': 'Protein'}, {'span': 'GluBP', 'entity': 'Protein'}]'
+
+Example #17: From the 16th century, researchers including Jan Baptist van Helmont, Robert Boyle, and Isaac Newton tried to establish theories of the experimentally observed chemical transformations.
+Expected output: 'entities: [{'span': 'Jan Baptist van Helmont', 'entity': 'Scientist'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #18: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #19: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+
+Example #20: In 1977, the UK-APC named a series of peaks in Palmer Land, Antarctica the Sverdrup Nunataks after him.
+Expected output: 'entities: [{'span': 'UK-APC', 'entity': 'Organisation'}, {'span': 'Palmer Land', 'entity': 'Location'}, {'span': 'Antarctica', 'entity': 'Location'}, {'span': 'Sverdrup Nunataks', 'entity': 'Misc'}]'
+

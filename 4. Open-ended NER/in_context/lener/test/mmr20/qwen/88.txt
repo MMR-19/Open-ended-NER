@@ -1,0 +1,60 @@
+Example #1: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #2: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #3: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #4: Tal entendimento se extrai, com clareza, do art. 14 do Decreto n. 10.829/87, cuja observância se impõe no artigo 3º, inciso XI, da LODF, determinando que “ o Governador do Distrito Federal proporá a edição de leis que venham a dispor sobre o uso e ocupação do solo em todo o território do Distrito Federal ”.
+Expected output: 'entities: [{'span': 'art. 14 do Decreto n. 10.829/87', 'entity': 'Legislação'}, {'span': 'artigo 3º, inciso XI, da LODF', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #6: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #7: SÚMULAS 5 E 7 DO STJ.
+Expected output: 'entities: [{'span': 'SÚMULAS 5 E 7 DO STJ', 'entity': 'Jurisprudência'}]'
+
+Example #8: (REsp 1263234/TO, Rel. Ministra NANCY ANDRIGHI, TERCEIRA TURMA, julgado em 11/06/2013, DJe 01/07/2013) PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'REsp 1263234/TO', 'entity': 'Jurisprudência'}, {'span': 'NANCY ANDRIGHI', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '11/06/2013', 'entity': 'Tempo'}, {'span': '01/07/2013', 'entity': 'Tempo'}]'
+
+Example #9: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #10: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #11: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #12: REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018). ''
+Expected output: 'entities: [{'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #13: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #14: O Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': 'Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #15: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #16: (TJMG Apelação Cível 1.0027.13.026710-0/001, Relator (a): Des. (a) Valdez Leite Machado, 14ª CÂMARA CÍVEL, julgamento em 08/02/2018, publicação da súmula em 21/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0027.13.026710-0/001', 'entity': 'Jurisprudência'}, {'span': 'Valdez Leite Machado', 'entity': 'Pessoa'}, {'span': '14ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '08/02/2018', 'entity': 'Tempo'}, {'span': '21/02/2018', 'entity': 'Tempo'}]'
+
+Example #17: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #18: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #19: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #20: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+

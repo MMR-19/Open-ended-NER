@@ -1,0 +1,60 @@
+Example #1: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #2: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'União', 'entity': 'Organização'}]'
+
+Example #3: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+
+Example #4: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+
+Example #5: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #6: (TJMG - Apelação Cível 1.0637.14.008046-5/001, Relator (a): Des. (a) Vasconcelos Lins, 18ª CÂMARA CÍVEL, julgamento em 06/02/2018, publicação da súmula em 09/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0637.14.008046-5/001', 'entity': 'Jurisprudência'}, {'span': 'Vasconcelos Lins', 'entity': 'Pessoa'}, {'span': '18ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/02/2018', 'entity': 'Tempo'}, {'span': '09/02/2018', 'entity': 'Tempo'}]'
+
+Example #7: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #8: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #9: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #10: Brasília, 8 de1ç reiro de 2018. p.) LEÃO NUNES ÏIA FILHO - RELATOR AgR-REspe no 68-49.201 6.6.26.03591SP 02 RELATÓRIO O SENHOR MINISTRO NAPOLEÃO NUNES MAIA FILHO: Senhor Presidente, trata-se de agravo interno interposto pelo PSDB - MUNICIPAL de decisão que negou seguimento ao recurso especial manejado contra acórdão proferido pelo TRE de São Paulo, que deu parcial provimento ao recurso eleitoral, apenas para reduzir a multa aplicada, mantendo, todavia, a condenação por propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '8 de1ç reiro de 2018.', 'entity': 'Tempo'}, {'span': 'LEÃO NUNES ÏIA FILHO', 'entity': 'Pessoa'}, {'span': 'AgR-REspe no 68-49.201 6.6.26.03591SP', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'TRE de São Paulo', 'entity': 'Organização'}]'
+
+Example #11: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #12: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #13: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #14: (TJMG Apelação Cível 1.0027.13.026710-0/001, Relator (a): Des. (a) Valdez Leite Machado, 14ª CÂMARA CÍVEL, julgamento em 08/02/2018, publicação da súmula em 21/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0027.13.026710-0/001', 'entity': 'Jurisprudência'}, {'span': 'Valdez Leite Machado', 'entity': 'Pessoa'}, {'span': '14ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '08/02/2018', 'entity': 'Tempo'}, {'span': '21/02/2018', 'entity': 'Tempo'}]'
+
+Example #15: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #16: (REsp 1439024/DF, Rel. Ministro HERMAN BENJAMIN, SEGUNDA TURMA, julgado em 22/11/2016, DJe 30/11/2016).
+Expected output: 'entities: [{'span': 'REsp 1439024/DF', 'entity': 'Jurisprudência'}, {'span': 'HERMAN BENJAMIN', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': '22/11/2016', 'entity': 'Tempo'}, {'span': '30/11/2016', 'entity': 'Tempo'}]'
+
+Example #17: Brasília (DF), 17 de maio de 2011 Des. LÉCIO RESENDE Relator R E L A T Ó R I O A PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS propõe Ação Direta de Inconstitucionalidade em face das Leis distritais n.º 747, de 23 de agosto de 1994, e 2.018, de 28 de julho de 1998, e da Lei Complementar distrital n.º 380, de 4 de abril de 2001, que tratam da ocupação de áreas públicas na Região Administrativa do Paranoá RA VII, sob a alegação de afronta aos artigos 3º, item XI, 52, 100, itens VI e XXI, e 321, todos da Lei Orgânica do Distrito Federal LODF.
+Expected output: 'entities: [{'span': 'Brasília (DF)', 'entity': 'Localização'}, {'span': '17 de maio de 2011', 'entity': 'Tempo'}, {'span': 'LÉCIO RESENDE', 'entity': 'Pessoa'}, {'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}, {'span': 'Leis distritais n.º 747', 'entity': 'Legislação'}, {'span': '23 de agosto de 1994', 'entity': 'Tempo'}, {'span': '2.018', 'entity': 'Legislação'}, {'span': '28 de julho de 1998', 'entity': 'Tempo'}, {'span': 'Lei Complementar distrital n.º 380', 'entity': 'Legislação'}, {'span': '4 de abril de 2001', 'entity': 'Tempo'}, {'span': 'Região Administrativa do Paranoá', 'entity': 'Localização'}, {'span': 'RA VII', 'entity': 'Localização'}, {'span': 'artigos 3º, item XI, 52, 100, itens VI e XXI, e 321, todos da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'LODF', 'entity': 'Legislação'}]'
+
+Example #18: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #19: Menciono, a título exemplificativo, o julgamento da Ação Rescisória nº 1.536, relatora ministra Cármen Lúcia, acórdão publicado em 6 de setembro de 2007, a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Ação Rescisória nº 1.536', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '6 de setembro de 2007', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #20: Menciono, a título exemplificativo, o julgamento da Ação Rescisória nº 1.536, relatora ministra Cármen Lúcia, acórdão publicado em 6 de setembro de 2007, a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Ação Rescisória nº 1.536', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '6 de setembro de 2007', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+

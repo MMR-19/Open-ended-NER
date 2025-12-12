@@ -1,0 +1,30 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #3: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #4: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #5: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #6: Brasília, 23 de fevereiro de 2016 (Data do Julgamento) Ministra Maria Thereza de Assis Moura Relatora HABEAS CORPUS Nº 340.624 - SP (2015⁄0282121-1) RELATORA: MINISTRA MARIA THEREZA DE ASSIS MOURA IMPETRANTE: GUILHERME RODRIGUES DA SILVA E OUTROS ADVOGADO: GUILHERME RODRIGUES DA SILVA E OUTRO (S) IMPETRADO: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO PACIENTE: CLAUDINEI RICARDO ZIRONDI RELATÓRIO MINISTRA MARIA THEREZA DE ASSIS MOURA (Relatora): Trata-se de habeas corpus, com pedido de liminar, impetrado em favor de CLAUDINEI RICARDO ZIRONDI, apontando como autoridade coatora o Desembargador Relator no Tribunal de Justiça do Estado de São Paulo (HC n.º 2220691-95.2015.8.26.0000).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2016', 'entity': 'Tempo'}, {'span': 'Maria Thereza de Assis Moura', 'entity': 'Pessoa'}, {'span': 'HABEAS CORPUS Nº 340.624 - SP', 'entity': 'Jurisprudência'}, {'span': '2015⁄0282121-1', 'entity': 'Jurisprudência'}, {'span': 'MARIA THEREZA DE ASSIS MOURA', 'entity': 'Pessoa'}, {'span': 'GUILHERME RODRIGUES DA SILVA', 'entity': 'Pessoa'}, {'span': 'TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO', 'entity': 'Organização'}, {'span': 'CLAUDINEI RICARDO ZIRONDI', 'entity': 'Pessoa'}, {'span': 'Tribunal de Justiça do Estado de São Paulo', 'entity': 'Organização'}, {'span': 'HC n.º 2220691-95.2015.8.26.0000', 'entity': 'Jurisprudência'}]'
+
+Example #7: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #8: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #9: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #10: (RR-180400-29.2004.5.03.0044, Relator Ministro: Augusto César Leite de Carvalho, 6ª Turma, DEJT 30/3/2010) '' MULTA DO ART. 477 DA CLT.
+Expected output: 'entities: [{'span': 'RR-180400-29.2004.5.03.0044', 'entity': 'Jurisprudência'}, {'span': 'Augusto César Leite de Carvalho', 'entity': 'Pessoa'}, {'span': '6ª Turma', 'entity': 'Organização'}, {'span': '30/3/2010', 'entity': 'Tempo'}, {'span': 'ART. 477 DA CLT', 'entity': 'Legislação'}]'
+

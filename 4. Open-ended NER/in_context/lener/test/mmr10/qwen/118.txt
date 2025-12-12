@@ -1,0 +1,30 @@
+Example #1: Cuida-se de ação direta de inconstitucionalidade, proposta pela Procuradora-Geral de Justiça do Distrito Federal e Territórios, visando à declaração de inconstitucionalidade das Leis Distritais 747/94 e 2018/98, além da Lei Complementar 380/2001, em face dos artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Leis Distritais 747/94', 'entity': 'Legislação'}, {'span': '2018/98', 'entity': 'Legislação'}, {'span': 'Lei Complementar 380/2001', 'entity': 'Legislação'}, {'span': 'artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF', 'entity': 'Legislação'}]'
+
+Example #2: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #3: Brasília, 23 de fevereiro de 2016 (Data do Julgamento) Ministra Maria Thereza de Assis Moura Relatora HABEAS CORPUS Nº 340.624 - SP (2015⁄0282121-1) RELATORA: MINISTRA MARIA THEREZA DE ASSIS MOURA IMPETRANTE: GUILHERME RODRIGUES DA SILVA E OUTROS ADVOGADO: GUILHERME RODRIGUES DA SILVA E OUTRO (S) IMPETRADO: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO PACIENTE: CLAUDINEI RICARDO ZIRONDI RELATÓRIO MINISTRA MARIA THEREZA DE ASSIS MOURA (Relatora): Trata-se de habeas corpus, com pedido de liminar, impetrado em favor de CLAUDINEI RICARDO ZIRONDI, apontando como autoridade coatora o Desembargador Relator no Tribunal de Justiça do Estado de São Paulo (HC n.º 2220691-95.2015.8.26.0000).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2016', 'entity': 'Tempo'}, {'span': 'Maria Thereza de Assis Moura', 'entity': 'Pessoa'}, {'span': 'HABEAS CORPUS Nº 340.624 - SP', 'entity': 'Jurisprudência'}, {'span': '2015⁄0282121-1', 'entity': 'Jurisprudência'}, {'span': 'MARIA THEREZA DE ASSIS MOURA', 'entity': 'Pessoa'}, {'span': 'GUILHERME RODRIGUES DA SILVA', 'entity': 'Pessoa'}, {'span': 'TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO', 'entity': 'Organização'}, {'span': 'CLAUDINEI RICARDO ZIRONDI', 'entity': 'Pessoa'}, {'span': 'Tribunal de Justiça do Estado de São Paulo', 'entity': 'Organização'}, {'span': 'HC n.º 2220691-95.2015.8.26.0000', 'entity': 'Jurisprudência'}]'
+
+Example #4: A ementa do acórdão proferido na Pet 1738-AgRg, Rel. o Min. Celso de Mello, Pleno, DJe 1º/10/199, é elucidativa e precisa quanto a taxatividade da competência do Supremo Tribunal Federal: “ E M E N T A: PROTESTO JUDICIAL FORMULADO CONTRA DEPUTADO FEDERAL - MEDIDA DESTITUÍDA DE CARÁTER PENAL (CPC, ART. 867) - AUSÊNCIA DE Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Pet 1738-AgRg', 'entity': 'Jurisprudência'}, {'span': 'Celso de Mello', 'entity': 'Pessoa'}, {'span': '1º/10/199', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'CPC, ART. 867', 'entity': 'Legislação'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #5: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #7: - Lei de autoria parlamentar que dispõe sobre o uso e ocupação do solo no Distrito Federal padece de vício formal de iniciativa, uma vez que só poderia ter sido proposta por projeto de lei de iniciativa privativa do Chefe do Poder Executivo.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #8: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #9: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #10: Este ato representa, dentro do sistema positivo, o momento inaugural e fundante da ordem jurídica vigente no âmbito do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

@@ -1,0 +1,60 @@
+Example #1: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #2: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #3: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #4: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #5: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #6: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #7: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #8: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #9: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+
+Example #10: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #11: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+
+Example #12: Fianna Fáil was last in government from 1997 Irish general election to 2011 Irish general election under Bertie Ahern and Brian Cowen, with a periodic high of 81 seats in 2002 Irish general election, reduced to 77 in 2007 Irish general election.
+Expected output: 'entities: [{'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': '1997 Irish general election', 'entity': 'Election'}, {'span': '2011 Irish general election', 'entity': 'Election'}, {'span': 'Bertie Ahern', 'entity': 'Politician'}, {'span': 'Brian Cowen', 'entity': 'Politician'}, {'span': '2002 Irish general election', 'entity': 'Election'}, {'span': '2007 Irish general election', 'entity': 'Election'}]'
+
+Example #13: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #14: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #15: The Italian Socialist Party, led by Bettino Craxi, became more and more critical of the communists and of the Soviet Union; Craxi himself pushed in favor of Ronald Reagan ' s positioning of Pershing II missiles in Italy, a move many communists strongly disapproved of.
+Expected output: 'entities: [{'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Bettino Craxi', 'entity': 'Politician'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Craxi', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'Pershing II', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}]'
+
+Example #16: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #17: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #18: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #19: Formed by the Social Democratic Party (SDP) and the Liberal Party, the SDP-Liberal Alliance was established in 1981, contesting the 1983 United Kingdom general election, 1984 European Parliament election in the United Kingdom and 1987 United Kingdom general election.
+Expected output: 'entities: [{'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'SDP', 'entity': 'Political Party'}, {'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'SDP-Liberal Alliance', 'entity': 'Political Party'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1984 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #20: In June 1970, a Dutch group called Kabouters won 5 of the 45 seats on the Amsterdam Gemeenteraad (City Council), as well as two seats each on councils in The Hague and Leeuwarden and one seat apiece in Arnhem, Alkmaar and Leiden.
+Expected output: 'entities: [{'span': 'Dutch', 'entity': 'Misc'}, {'span': 'Kabouters', 'entity': 'Organisation'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'The Hague', 'entity': 'Location'}, {'span': 'Leeuwarden', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Alkmaar', 'entity': 'Location'}, {'span': 'Leiden', 'entity': 'Location'}]'
+

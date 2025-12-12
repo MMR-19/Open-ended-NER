@@ -1,0 +1,30 @@
+Example #1: by the New York District Court (the “ Bear Final Judgment ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Bear Final Judgment', 'entity': 'Miscellaneous'}]'
+
+Example #2: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #3: Jack B. Evans, Chair, Judith M. Stockdale and Terence J. Toth are current members of the dividend committee of each Fund.
+Expected output: 'entities: [{'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #4: Other Litigation On March 23, 2004, plaintiff James A. McCoy filed a lawsuit in California Superior Court against Chase Manhattan Bank, USA, N.A., the predecessor entity of Chase USA.
+Expected output: 'entities: [{'span': 'James A. McCoy', 'entity': 'Person'}, {'span': 'California Superior Court', 'entity': 'Court'}, {'span': 'Chase Manhattan Bank, USA, N.A.', 'entity': 'Business'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+
+Example #5: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #6: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #7: A copy of the Audit Committee Charter is attached as Appendix D.
+Expected output: 'entities: []'
+
+Example #8: Rule 452 permits proportionate voting of Preferred Shares with respect to a particular item if, among other things, (i) a minimum of 30 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares with respect to such item and (ii) less than 10 % of the Preferred Shares or shares of a series of Preferred Shares outstanding has been voted by the holders of such shares against such item.
+Expected output: 'entities: []'
+
+Example #9: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #10: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+

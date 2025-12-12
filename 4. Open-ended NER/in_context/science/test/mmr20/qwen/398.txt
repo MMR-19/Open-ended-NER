@@ -1,0 +1,60 @@
+Example #1: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #2: He studied at CMS College Kottayam, and graduated with honors from the Madras Christian College in 1951.
+Expected output: 'entities: [{'span': 'CMS College Kottayam', 'entity': 'University'}, {'span': 'Madras Christian College', 'entity': 'University'}]'
+
+Example #3: She is awakened as a Soldier by the white cat Artemis when she is thirteen years old and instructed that she has a duty to become the beautiful warrior, Sailor V. Artemis explains that Venus and Earth are twin planets of about the same size and weight, that Venus is her mother star, and that she must protect Earth from its enemies.
+Expected output: 'entities: [{'span': 'Artemis', 'entity': 'Misc'}, {'span': 'Sailor V. Artemis', 'entity': 'Person'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #4: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #5: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #6: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #7: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #8: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #9: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #10: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #11: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #12: He visited some European universities and institutions, including Cavendish Laboratory, Georg August University of Göttingen, and University of Copenhagen.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Georg August University of Göttingen', 'entity': 'University'}, {'span': 'University of Copenhagen', 'entity': 'University'}]'
+
+Example #13: Bio-active constituents of human milk that have been cataloged to possess immune-modulating capabilities include immunoglobulins, Lactoferrin, Lysozyme, oligosaccharide s, lipid s, cytokine s, hormone s, and growth factor s.
+Expected output: 'entities: [{'span': 'immunoglobulins', 'entity': 'Protein'}, {'span': 'Lactoferrin', 'entity': 'Protein'}, {'span': 'Lysozyme', 'entity': 'Enzyme'}, {'span': 'oligosaccharide', 'entity': 'Misc'}, {'span': 'lipid', 'entity': 'Misc'}, {'span': 'cytokine', 'entity': 'Misc'}, {'span': 'hormone', 'entity': 'Misc'}, {'span': 'growth factor', 'entity': 'Misc'}]'
+
+Example #14: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #15: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #16: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #17: Knowles was heavily influenced by the Motown Sound of the 1960s and 1970s prior to the album's recording, prompting her to work with several like-minded producers and songwriters such as Jack Splash, CeeLo Green, Mark Ronson, and former Holland-Dozier-Holland member Lamont Dozier.
+Expected output: 'entities: [{'span': 'Knowles', 'entity': 'Person'}, {'span': 'Motown Sound', 'entity': 'Organisation'}, {'span': 'Jack Splash', 'entity': 'Person'}, {'span': 'CeeLo Green', 'entity': 'Person'}, {'span': 'Mark Ronson', 'entity': 'Person'}, {'span': 'Holland-Dozier-Holland', 'entity': 'Organisation'}, {'span': 'Lamont Dozier', 'entity': 'Person'}]'
+
+Example #18: Lindsay and his wife Rachel translated Hans Kramers book, The Atom and the Bohr Theory of its Structure, in 1923, Hans Kramers & amp; Helge Holst, The Atom and the Bohr Theory of its Structure: An Elementary Presentation, Gyldendal, 210pp.
+Expected output: 'entities: [{'span': 'Lindsay', 'entity': 'Person'}, {'span': 'Rachel', 'entity': 'Person'}, {'span': 'Hans Kramers', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure', 'entity': 'Misc'}, {'span': 'Helge Holst', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure: An Elementary Presentation', 'entity': 'Misc'}, {'span': 'Gyldendal', 'entity': 'Organisation'}]'
+
+Example #19: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #20: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+

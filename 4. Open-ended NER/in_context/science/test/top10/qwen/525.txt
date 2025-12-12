@@ -1,0 +1,30 @@
+Example #1: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #2: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #3: On 21 December 2012, the Cassini-Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.
+Expected output: 'entities: [{'span': 'Cassini-Huygens', 'entity': 'Misc'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #4: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+
+Example #5: Such celebrities as Hermann von Helmholtz, Gustav Kirchhoff, William Thomson (Lord Kelvin), the Siemens brothers, and the Marquis of Salisbury visited the small Norwegian exhibit booth and watched with amazement as a system of pulsating spheres and similar devices appeared to reproduce well-known electric and magnetic phenomena.
+Expected output: 'entities: [{'span': 'Hermann von Helmholtz', 'entity': 'Scientist'}, {'span': 'Gustav Kirchhoff', 'entity': 'Scientist'}, {'span': 'William Thomson', 'entity': 'Scientist'}, {'span': 'Lord Kelvin', 'entity': 'Scientist'}, {'span': 'Siemens brothers', 'entity': 'Person'}, {'span': 'Marquis of Salisbury', 'entity': 'Person'}, {'span': 'Norwegian', 'entity': 'Misc'}]'
+
+Example #6: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #7: The relative positions of five planets (Saturn, Jupiter, Mars, Venus, and Mercury) were shown, as were the moon's phases and the position of the Sun in the zodiac.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'moon', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'zodiac', 'entity': 'Misc'}]'
+
+Example #8: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #9: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #10: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+

@@ -1,0 +1,15 @@
+Example #1: The self-titled record was an instant success both critically and commercially, led by the official theme song for UAAP Season 71 of the UAAP - Puso (trans: Heart).
+Expected output: 'entities: [{'span': 'UAAP Season 71', 'entity': 'Event'}, {'span': 'UAAP', 'entity': 'Organisation'}, {'span': 'Puso', 'entity': 'Song'}, {'span': 'Heart', 'entity': 'Song'}]'
+
+Example #2: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+
+Example #3: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #4: In 1995, Nas did guest performances on the albums Doe or Die by AZ, The Infamous by Mobb Deep, Only Built 4 Cuban Linx by Raekwon and 4,5,6 by Kool G Rap.
+Expected output: 'entities: [{'span': 'Nas', 'entity': 'Musical Artist'}, {'span': 'Doe or Die', 'entity': 'Album'}, {'span': 'AZ', 'entity': 'Musical Artist'}, {'span': 'The Infamous', 'entity': 'Album'}, {'span': 'Mobb Deep', 'entity': 'Band'}, {'span': 'Only Built 4 Cuban Linx', 'entity': 'Album'}, {'span': 'Raekwon', 'entity': 'Musical Artist'}, {'span': '4,5,6', 'entity': 'Album'}, {'span': 'Kool G Rap', 'entity': 'Musical Artist'}]'
+
+Example #5: By the end of World War II, mountaineer string band music known as Bluegrass music had emerged when Bill Monroe joined with Lester Flatt and Earl Scruggs, introduced by Roy Acuff at the Grand Ole Opry.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'Bluegrass music', 'entity': 'Music Genre'}, {'span': 'Bill Monroe', 'entity': 'Musical Artist'}, {'span': 'Lester Flatt', 'entity': 'Musical Artist'}, {'span': 'Earl Scruggs', 'entity': 'Musical Artist'}, {'span': 'Roy Acuff', 'entity': 'Musical Artist'}, {'span': 'Grand Ole Opry', 'entity': 'Location'}]'
+

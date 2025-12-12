@@ -1,0 +1,15 @@
+Example #1: Esta categoria inclui artigos e categorias sobre o domínio Archaea.
+Expected output: 'entities: [{'span': 'Archaea', 'entity': 'Entidade biológica'}]'
+
+Example #2: Inclui todos os eucariontes que não podem ser classificados como parte dos reinos Animalia (animais), Plantae (plantas) ou Fungi (fungos).
+Expected output: 'entities: [{'span': 'Animalia', 'entity': 'Animal'}, {'span': 'Plantae', 'entity': 'Planta'}, {'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #3: A única classe neste subfilo é Saccharomycetes.
+Expected output: 'entities: [{'span': 'Saccharomycetes', 'entity': 'Entidade biológica'}]'
+
+Example #4: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #5: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+

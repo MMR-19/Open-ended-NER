@@ -1,0 +1,60 @@
+Example #1: Excluding the Japanese Communist Party, the coalition was backed by all of the former opposition parties, which included the newly formed JNP, the Japan Socialist Party, the Japan Renewal Party (Shinseito), Komeito, the Democratic Socialist Party, the Socialist Democratic Federation, and the New Party Sakigake, who together controlled 243 seats in the House of Representatives.
+Expected output: 'entities: [{'span': 'Japanese Communist Party', 'entity': 'Political Party'}, {'span': 'JNP', 'entity': 'Political Party'}, {'span': 'Japan Socialist Party', 'entity': 'Political Party'}, {'span': 'Japan Renewal Party', 'entity': 'Political Party'}, {'span': 'Shinseito', 'entity': 'Political Party'}, {'span': 'Komeito', 'entity': 'Political Party'}, {'span': 'Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Socialist Democratic Federation', 'entity': 'Political Party'}, {'span': 'New Party Sakigake', 'entity': 'Political Party'}]'
+
+Example #2: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #3: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #4: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #5: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #6: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #7: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #8: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #9: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #10: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #11: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #12: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #13: Subsequently, the party allied itself with the New Liberal Movement in the formation of the Australian Democrats for the 1977 Australian federal election.
+Expected output: 'entities: [{'span': 'New Liberal Movement', 'entity': 'Political Party'}, {'span': 'Australian Democrats', 'entity': 'Political Party'}, {'span': '1977 Australian federal election', 'entity': 'Election'}]'
+
+Example #14: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #15: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #16: Inukai was a leading figure in the successors to the Rikken Kaishintō, the Shimpotō, Kenseitō and the Rikken Kokumintō, which eventually toppled the government of Katsura Tarō in 1913.
+Expected output: 'entities: [{'span': 'Inukai', 'entity': 'Politician'}, {'span': 'Rikken Kaishintō', 'entity': 'Political Party'}, {'span': 'Shimpotō', 'entity': 'Political Party'}, {'span': 'Kenseitō', 'entity': 'Political Party'}, {'span': 'Rikken Kokumintō', 'entity': 'Political Party'}, {'span': 'Katsura Tarō', 'entity': 'Politician'}]'
+
+Example #17: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+
+Example #18: After some time, more candidates were presented, like Union of Democrats for Europe leader Clemente Mastella, Italy of Values leader and former magistrate Antonio Di Pietro, Federation of the Greens leader Alfonso Pecoraro Scanio and others few minor candidates.
+Expected output: 'entities: [{'span': 'Union of Democrats for Europe', 'entity': 'Political Party'}, {'span': 'Clemente Mastella', 'entity': 'Politician'}, {'span': 'Italy of Values', 'entity': 'Political Party'}, {'span': 'Antonio Di Pietro', 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'Alfonso Pecoraro Scanio', 'entity': 'Politician'}]'
+
+Example #19: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #20: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+

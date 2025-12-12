@@ -1,0 +1,30 @@
+Example #1: Cuida-se de ação direta de inconstitucionalidade, proposta pela Procuradora-Geral de Justiça do Distrito Federal e Territórios, visando à declaração de inconstitucionalidade das Leis Distritais 747/94 e 2018/98, além da Lei Complementar 380/2001, em face dos artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Leis Distritais 747/94', 'entity': 'Legislação'}, {'span': '2018/98', 'entity': 'Legislação'}, {'span': 'Lei Complementar 380/2001', 'entity': 'Legislação'}, {'span': 'artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF', 'entity': 'Legislação'}]'
+
+Example #2: Nesse contexto, observa-se que o procedimento constitucional estabelecido para a criação e elaboração de normas acerca da administração dos bens públicos, desafetação e alterações de destinações originais compete privativamente ao Senhor Governador do Distrito Federal, e não ao Poder Legislativo Distrital.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #4: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #5: NORMA QUE DISPÕE SOBRE PARÂMETROS DE OCUPAÇÃO DE ÁREAS SITUADAS NO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #6: Este ato representa, dentro do sistema positivo, o momento inaugural e fundante da ordem jurídica vigente no âmbito do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #8: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #9: `` EMENTA: 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO (CPM, ART. 187) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA, NA HIPÓTESE DE CRIME DE DESERÇÃO, PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos, Matricula 8829. Em 13/03/2018 14:29:31. Para confirmar a validade deste documento, acesse: https: //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 PENAL - EXTINÇÃO DEFINITIVA DO PROCESSO CRIMINAL INSTAURADO PERANTE A JUSTIÇA MILITAR - PEDIDO DEFERIDO. ''
+Expected output: 'entities: [{'span': 'CPM, ART. 187', 'entity': 'Legislação'}, {'span': 'SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'entity': 'Jurisprudência'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Luis Carlos Gomes Mattos', 'entity': 'Pessoa'}, {'span': '13/03/2018', 'entity': 'Tempo'}]'
+
+Example #10: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+

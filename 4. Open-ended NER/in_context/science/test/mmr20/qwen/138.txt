@@ -1,0 +1,60 @@
+Example #1: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #2: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #3: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #4: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #5: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #6: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #7: One of these was in the category of Best Performance by an Actor in a Leading Role in a Dramatic Program or Mini-Series for Beau Bridges ' leading role as Simon Kress, which also garnered nominations for the Primetime Emmy Award for Outstanding Guest Actor in a Drama Series and the CableACE Award for Best Actor in a Dramatic Series.
+Expected output: 'entities: [{'span': 'Best Performance', 'entity': 'Award'}, {'span': 'Simon Kress', 'entity': 'Person'}, {'span': 'Primetime Emmy Award for Outstanding Guest Actor', 'entity': 'Award'}, {'span': 'CableACE Award for Best Actor', 'entity': 'Award'}]'
+
+Example #8: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #9: Examples are 5-O-Methylgenistein, 5-O-Methylmyricetin or 5-O-methylquercetin, also known as azaleatin.
+Expected output: 'entities: [{'span': '5-O-Methylgenistein', 'entity': 'Chemical Compound'}, {'span': '5-O-Methylmyricetin', 'entity': 'Chemical Compound'}, {'span': '5-O-methylquercetin', 'entity': 'Chemical Compound'}, {'span': 'azaleatin', 'entity': 'Chemical Compound'}]'
+
+Example #10: 5145 Pholus in diameter, that crosses the orbit of both Saturn and Neptune.
+Expected output: 'entities: [{'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #11: He studied at CMS College Kottayam, and graduated with honors from the Madras Christian College in 1951.
+Expected output: 'entities: [{'span': 'CMS College Kottayam', 'entity': 'University'}, {'span': 'Madras Christian College', 'entity': 'University'}]'
+
+Example #12: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #13: He also is one of the two Shaw Prize Founding Members and is a Distinguished Professor-at-Large at the Chinese University of Hong Kong.
+Expected output: 'entities: [{'span': 'Shaw Prize', 'entity': 'Award'}, {'span': 'Chinese University of Hong Kong', 'entity': 'University'}]'
+
+Example #14: In 1871 he was elected a fellow of the Linnean Society of London, and in 1881 he was elected a fellow of the Royal Society.
+Expected output: 'entities: [{'span': 'fellow of the Linnean Society of London', 'entity': 'Award'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}]'
+
+Example #15: He was also a member of the Royal Academies of Medicine and the Royal Academy of Sciences, Arts, and of Literature of Belgium; the Pontifical Academy of Sciences of the Vatican; the American Academy of Arts and Sciences; the French National Academy of Medicine; the Academy of Sciences of Paris; the Deutsche Akademie der Naturforscher Leopoldina; the American Philosophical Society.
+Expected output: 'entities: [{'span': 'Royal Academies of Medicine', 'entity': 'Organisation'}, {'span': 'Royal Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Arts', 'entity': 'Discipline'}, {'span': 'Literature of Belgium', 'entity': 'Discipline'}, {'span': 'Pontifical Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Vatican', 'entity': 'Location'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'National Academy of Medicine', 'entity': 'Organisation'}, {'span': 'Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Deutsche Akademie der Naturforscher Leopoldina', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}]'
+
+Example #16: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #17: He was awarded honorary degree from the University of Cambridge in Cambridge, UK, and the Copley Medal of the Royal Society in 1906.
+Expected output: 'entities: [{'span': 'University of Cambridge', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'Location'}, {'span': 'UK', 'entity': 'Country'}, {'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #18: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #19: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #20: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+

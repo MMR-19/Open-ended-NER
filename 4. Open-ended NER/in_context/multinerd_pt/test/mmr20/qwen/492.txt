@@ -1,0 +1,60 @@
+Example #1: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #2: " Diplatia " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #3: O avião foi desenvolvido juntamente com o Boeing 757, que atuaria em rotas nacionais e internacionais curtas.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #4: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #5: O filme acompanha uma equipe de seis membros da Estação Espacial Internacional que encontram o que inicialmente parece ser a primeira evidência da vida em Marte; No entanto, a tripulação descobre que tal achado pode não ser o que parece.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Marte', 'entity': 'Corpo celeste'}]'
+
+Example #6: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+
+Example #7: Trata-se do Nissan Leaf.
+Expected output: 'entities: [{'span': 'Nissan Leaf', 'entity': 'Veículo'}]'
+
+Example #8: Pode ser preparado com camarões frescos inteiros, ou secos e moídos, com peixe, com bacalhau ou com carne de frango, acompanhados de arroz.
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'bacalhau', 'entity': 'Comida'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #9: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+
+Example #10: Ele foi colocado por Zeus entre as estrelas na forma da constelação de Orion.
+Expected output: 'entities: [{'span': 'Zeus', 'entity': 'Entidade mitológica'}, {'span': 'constelação de Orion', 'entity': 'Corpo celeste'}]'
+
+Example #11: A atriz negou uma entrevista a um dos jornalistas do programa e foi ao seu Twitter reclamar do acontecido.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #12: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #13: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #14: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #15: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #16: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #17: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #18: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #19: Os membros de Basidiomycota, vulgarmente chamados fungos de bastão ou basidiomicetes, produzem meiósporos chamados basidiósporos em estruturas chamadas basídios.
+Expected output: 'entities: [{'span': 'Basidiomycota', 'entity': 'Entidade biológica'}]'
+
+Example #20: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+

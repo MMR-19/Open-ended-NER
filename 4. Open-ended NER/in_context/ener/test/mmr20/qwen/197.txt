@@ -1,0 +1,60 @@
+Example #1: The audit committee is responsible for the oversight and monitoring of (1) the accounting and reporting policies, procedures and practices and the audit of the financial statements of the Funds, (2) the quality and integrity of the financial statements of the Funds and (3) the independent registered public accounting firm s qualifications, performance and independence.
+Expected output: 'entities: []'
+
+Example #2: Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #3: A copy of the Audit Committee Charter is attached as Appendix D.
+Expected output: 'entities: []'
+
+Example #4: All nominations from Fund shareholders will be acknowledged, although there may be times when the committee is not actively recruiting new Board members.
+Expected output: 'entities: []'
+
+Example #5: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #6: The committee has also reviewed and discussed the audited financial statements with management.
+Expected output: 'entities: []'
+
+Example #7: In September 2010, the FASB issued Accounting Standards Update (ASU) No. 201025, Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans, a consensus of the FASB Emerging Issues Task Force (Update).
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Update', 'entity': 'Legislation/Act'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Plan Accounting Defined Contribution Pension Plans (Topic 962), Reporting Loans to Participants by Defined Contribution Pension Plans', 'entity': 'Miscellaneous'}, {'span': 'FASB Emerging Issues Task Force', 'entity': 'Government'}]'
+
+Example #8: The committee operates under a written charter adopted and approved by the Boards of each Fund, a copy of which is available on the Funds website at www.nuveen.com/CEF/Info/Shareholder/.
+Expected output: 'entities: []'
+
+Example #9: The Board shall appoint the members and the Chairman of the Audit Committee, on the recommendation of the Nominating and Governance Committee.
+Expected output: 'entities: []'
+
+Example #10: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #11: Each such member of the Audit Committee shall have a basic understanding of finance and accounting, be able to read and understand fundamental financial statements, and be financially literate, and at least one such member shall have accounting or related financial management expertise, in each case as determined by the Directors/Trustees, exercising their business judgment (this person may also serve as the Audit Committee s financial expert as defined by the Commission).
+Expected output: 'entities: []'
+
+Example #12: The number of audit committee meetings of each Fund held during its last fiscal year is shown in Appendix C.
+Expected output: 'entities: []'
+
+Example #13: The cost of preparing, printing and mailing the enclosed proxy, accompanying notice and proxy statement and all other costs in connection with the solicitation of proxies will be paid by the Funds pro rata based on the number of shareholder accounts.
+Expected output: 'entities: []'
+
+Example #14: With respect to any disputes concerning federal law, such disputes shall be determined in accordance with the law as it would be interpreted and applied by the United States Court of Appeals for the Ninth Circuit.
+Expected output: 'entities: [{'span': 'United States Court of Appeals for the Ninth Circuit', 'entity': 'Court'}]'
+
+Example #15: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #16: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #17: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+
+Example #18: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #19: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #20: Robert P. Bremner, Jack B. Evans, David J. Kundert, Chair, William J. Schneider and Terence J. Toth are current members of the audit committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+

@@ -1,0 +1,15 @@
+Example #1: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #2: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #3: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #4: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #5: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+

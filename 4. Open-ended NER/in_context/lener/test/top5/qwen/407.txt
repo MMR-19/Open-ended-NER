@@ -1,0 +1,15 @@
+Example #1: A Corte regional entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de Itapevi/SP, na pessoa da pré-candidata oponente do partido ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas, e configurou propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Município de Itapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #2: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #3: (TJMG - Apelação Cível 1.0549.15.003028-2/003, Relator (a): Des. (a) Otávio Portes, 16ª CÂMARA CÍVEL, julgamento em 28/09/2017, publicação da súmula em 06/10/2017) Assim sendo, entendo que deve ser acolhida a preliminar de nulidade do feito arguida pelo Ministério Público na instância recursal, sobremaneira, quando há prejuízo para o incapaz.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0549.15.003028-2/003', 'entity': 'Jurisprudência'}, {'span': 'Otávio Portes', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '28/09/2017', 'entity': 'Tempo'}, {'span': '06/10/2017', 'entity': 'Tempo'}, {'span': 'Ministério Público', 'entity': 'Organização'}]'
+
+Example #4: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #5: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+

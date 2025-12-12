@@ -1,0 +1,30 @@
+Example #1: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+
+Example #2: This style emerged in the United States in the early and mid-1980s, with innovators such as Queensrÿche, Fates Warning, and Dream Theater.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'Queensrÿche', 'entity': 'Band'}, {'span': 'Fates Warning', 'entity': 'Band'}, {'span': 'Dream Theater', 'entity': 'Band'}]'
+
+Example #3: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #4: This was followed by a series of small, intimate gigs at UK venues such as Liverpool's The Cavern Club, London's Mean Fiddler, and Glasgow's Barrowland Ballroom.
+Expected output: 'entities: [{'span': 'UK', 'entity': 'Country'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'The Cavern Club', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Mean Fiddler', 'entity': 'Location'}, {'span': 'Glasgow', 'entity': 'Location'}, {'span': 'Barrowland Ballroom', 'entity': 'Location'}]'
+
+Example #5: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+
+Example #6: Today, musicians as diverse as Keith Urban, Rod Stewart, Taj Mahal, Joe Satriani, David Hidalgo, Larry Lalonde and Doc Watson play the six-string guitar banjo.
+Expected output: 'entities: [{'span': 'Keith Urban', 'entity': 'Musical Artist'}, {'span': 'Rod Stewart', 'entity': 'Musical Artist'}, {'span': 'Taj Mahal', 'entity': 'Musical Artist'}, {'span': 'Joe Satriani', 'entity': 'Musical Artist'}, {'span': 'David Hidalgo', 'entity': 'Musical Artist'}, {'span': 'Larry Lalonde', 'entity': 'Musical Artist'}, {'span': 'Doc Watson', 'entity': 'Musical Artist'}, {'span': 'six-string guitar banjo', 'entity': 'Musical Instrument'}]'
+
+Example #7: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #8: Poland has always been a very open country to new music genres and even before the fall of the communism, music styles like rock, Heavy metal music, jazz, Electronic music, and New wave music were well-known.
+Expected output: 'entities: [{'span': 'Poland', 'entity': 'Country'}, {'span': 'fall of the communism', 'entity': 'Event'}, {'span': 'rock', 'entity': 'Music Genre'}, {'span': 'Heavy metal music', 'entity': 'Music Genre'}, {'span': 'jazz', 'entity': 'Music Genre'}, {'span': 'Electronic music', 'entity': 'Music Genre'}, {'span': 'New wave music', 'entity': 'Music Genre'}]'
+
+Example #9: Parton received nominations for Drama Desk Award for Outstanding Music and Drama Desk Award for Outstanding Lyrics, as well as a nomination for Tony Award for Best Original Score.
+Expected output: 'entities: [{'span': 'Parton', 'entity': 'Musical Artist'}, {'span': 'Drama Desk Award for Outstanding Music', 'entity': 'Award'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #10: Barney Bubbles directed several videos, including the Specials ' Ghost Town, Squeeze ' s Is That Love and Tempted, Elvis Costello ' s Clubland and New Lace Sleeves, and Fun Boy Three ' s The Lunatics (Have Taken Over the Asylum).
+Expected output: 'entities: [{'span': 'Barney Bubbles', 'entity': 'Person'}, {'span': 'the Specials', 'entity': 'Band'}, {'span': 'Ghost Town', 'entity': 'Band'}, {'span': 'Squeeze', 'entity': 'Band'}, {'span': 'Is That Love', 'entity': 'Song'}, {'span': 'Tempted', 'entity': 'Song'}, {'span': 'Elvis Costello', 'entity': 'Musical Artist'}, {'span': 'Clubland', 'entity': 'Song'}, {'span': 'New Lace Sleeves', 'entity': 'Song'}, {'span': 'Fun Boy Three', 'entity': 'Band'}, {'span': 'The Lunatics (Have Taken Over the Asylum)', 'entity': 'Song'}]'
+

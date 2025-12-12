@@ -1,0 +1,30 @@
+Example #1: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #2: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #3: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #4: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #5: Under the Deferred Compensation Plan, Independent Board Members of the Participating Funds may defer receipt of all, or a portion, of the compensation they earn for their services to the Participating Funds, in lieu of receiving current payments of such compensation.
+Expected output: 'entities: []'
+
+Example #6: EXHIBIT 31.1 CERTIFICATION PURSUANT TO 18 U.S.C. ss 1350, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Harold C. F. Dickout, certify that:
+Expected output: 'entities: [{'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'SARBANES-OXLEY ACT OF 2002', 'entity': 'Legislation/Act'}, {'span': 'Harold C. F. Dickout', 'entity': 'Person'}]'
+
+Example #7: On January 4, 2005, the U.S. Court of Appeals for the Second Circuit affirmed the District Court s order approving the settlement in all respects.
+Expected output: 'entities: [{'span': 'U.S. Court of Appeals for the Second Circuit', 'entity': 'Court'}]'
+
+Example #8: No postage is required if mailed in the United States.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Location'}]'
+
+Example #9: Audit Committee members shall be independent of the Funds and free of any relationship that, in the opinion of the Directors/Trustees, would interfere with their exercise of independent judgment as an Audit Committee member.
+Expected output: 'entities: []'
+
+Example #10: The audit committee has approved in advance all audit services and non-audit services that the independent registered public accounting firm provided to each Fund and to the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund).
+Expected output: 'entities: []'
+

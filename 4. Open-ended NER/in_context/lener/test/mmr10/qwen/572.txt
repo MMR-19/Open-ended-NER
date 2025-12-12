@@ -1,0 +1,30 @@
+Example #1: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #2: Nesse contexto, observa-se que o procedimento constitucional estabelecido para a criação e elaboração de normas acerca da administração dos bens públicos, desafetação e alterações de destinações originais compete privativamente ao Senhor Governador do Distrito Federal, e não ao Poder Legislativo Distrital.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: O que se exige, portanto, em relação aos instrumentos legais que buscam concretizar a previsão dos planos diretores é a coerência com essas normas gerais e com a LODF Julgado procedente o pedido. ” (ADI 2008.00.2.012286-2, Rel. Des. J. J. Costa Carvalho, Conselho Especial, julgado em 25.08.2009, DJ-e de 02.12.2009, p. 28) (grifei).
+Expected output: 'entities: [{'span': 'LODF', 'entity': 'Legislação'}, {'span': 'ADI 2008.00.2.012286-2', 'entity': 'Jurisprudência'}, {'span': 'J. J. Costa Carvalho', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '25.08.2009', 'entity': 'Tempo'}, {'span': '02.12.2009', 'entity': 'Tempo'}]'
+
+Example #4: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #5: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #6: A cláusula penal compensatória deve atender ao princípio da razoabilidade, devendo ser redimensionada pelo magistrado, nos termos do art. 413 do CPC, a fim de afastar o ganho injustificado de uma das partes contratantes em prejuízo da outra.
+Expected output: 'entities: [{'span': 'art. 413 do CPC', 'entity': 'Legislação'}]'
+
+Example #7: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #8: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #9: Caberia ao pregoeiro convocar os licitantes, sucessivamente, conforme as respectivas classificações, e conceder-lhes a oportunidade de comprovar a viabilidade financeira de suas propostas, conforme estabelece o inciso II do art. 48 da Lei 8.666/1993.
+Expected output: 'entities: [{'span': 'inciso II do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #10: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+

@@ -1,0 +1,6 @@
+Example #1: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho da Secretária de Estado de Planejamento, Orçamento e Gestão de 17 de maio de 2016, publicado no DODF nº 94, de 18 de maio de 2016, pág. 26, referente ao Processo: 300.000.002/2016, Interessado: RAFAEL LUCIANO ROOS, Assunto: Cessão de servidor, ONDE SE LÊ: `` (...) e na forma do disposto do art. 152 da Lei Complementar nº 840 de 23/12/2011, (...) ''.
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': '17 de maio de 2016', 'entity': 'Tempo'}, {'span': '18 de maio de 2016', 'entity': 'Tempo'}, {'span': '300.000.002/2016', 'entity': 'Jurisprudência'}, {'span': 'RAFAEL LUCIANO ROOS', 'entity': 'Pessoa'}, {'span': 'art. 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}]'
+
+Example #2: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+

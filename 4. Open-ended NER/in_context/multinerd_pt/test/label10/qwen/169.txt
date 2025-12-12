@@ -1,0 +1,30 @@
+Example #1: Aproveitando a oportunidade em suas mãos, Nelson Piquet marcou o melhor tempo em Jacarepaguá com seu modelo Brabham BT49 ao testar os compostos da Goodyear na quarta-feira de cinzas.
+Expected output: 'entities: [{'span': 'Nelson Piquet', 'entity': 'Pessoa'}, {'span': 'Jacarepaguá', 'entity': 'Localização'}, {'span': 'Brabham BT49', 'entity': 'Veículo'}, {'span': 'Goodyear', 'entity': 'Organização'}, {'span': 'quarta-feira de cinzas', 'entity': 'Tempo'}]'
+
+Example #2: Aproveitando a oportunidade em suas mãos, Nelson Piquet marcou o melhor tempo em Jacarepaguá com seu modelo Brabham BT49 ao testar os compostos da Goodyear na quarta-feira de cinzas.
+Expected output: 'entities: [{'span': 'Nelson Piquet', 'entity': 'Pessoa'}, {'span': 'Jacarepaguá', 'entity': 'Localização'}, {'span': 'Brabham BT49', 'entity': 'Veículo'}, {'span': 'Goodyear', 'entity': 'Organização'}, {'span': 'quarta-feira de cinzas', 'entity': 'Tempo'}]'
+
+Example #3: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #4: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #5: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #6: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #7: Essa formação lançou o álbum " I Can See Your House from Here " (1979), mais comercial, e que causou problemas com os patrocinadores por mostrar em sua capa um astronauta crucificado olhando para a Terra.
+Expected output: 'entities: [{'span': 'I Can See Your House from Here', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: O primeiro voo bem-sucedido e registrado de um helicóptero foi realizado em 1907, por Paul Cornu, na França, embora o primeiro helicóptero de uso prático tenha sido o Focke-Wulf Fw 61, de fabrico alemão, em 1936.
+Expected output: 'entities: [{'span': '1907', 'entity': 'Tempo'}, {'span': 'Paul Cornu', 'entity': 'Pessoa'}, {'span': 'França', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}, {'span': '1936', 'entity': 'Tempo'}]'
+
+Example #9: Porém, o primeiro voo de um helicóptero completamente controlável foi demonstrado por Hanna Reitsch em 1937 em Berlim, Alemanha conduzindo um Focke-Wulf Fw 61.
+Expected output: 'entities: [{'span': 'Hanna Reitsch', 'entity': 'Pessoa'}, {'span': '1937', 'entity': 'Tempo'}, {'span': 'Berlim', 'entity': 'Localização'}, {'span': 'Alemanha', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}]'
+
+Example #10: O " Toxoplasma gondii " é um protozoário parasita intracelular obrigatório do grupo dos Apicomplexa, como outros parasitas como o " Plasmodium ".
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}]'
+

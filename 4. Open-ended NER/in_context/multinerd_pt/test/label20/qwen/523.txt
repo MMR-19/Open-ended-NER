@@ -1,0 +1,60 @@
+Example #1: Suas canções falam principalmente sobre o amor, mas já tratou de outros temas mais polêmicos como religião e guerra, principalmente no álbum " Chorus ", escrito na época da guerra do Golfo.
+Expected output: 'entities: [{'span': 'Chorus', 'entity': 'Média'}, {'span': 'guerra do Golfo', 'entity': 'Evento'}]'
+
+Example #2: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #3: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #4: Nesta fase, os olímpicos não eram os únicos deuses que os gregos adoravam: existiam uma variedade de divindades rupestres, como o deus-bode Pã, o deus da natureza e florestas, as ninfas - náiades (que moravam nas nascentes), dríades (espíritos das árvores) e as nereidas (que habitavam o mar) -, deuses de rios, sátiros, meio homem, meio bode, e outras divindades que residiam em florestas, bosques e mares.
+Expected output: 'entities: [{'span': 'Pã', 'entity': 'Entidade mitológica'}]'
+
+Example #5: Ela representa a divinização da terra e é considerada, ao lado de Obatalá (a representação divinizada do céu), como a casal primordial e propulsor da criação.
+Expected output: 'entities: [{'span': 'terra', 'entity': 'Corpo celeste'}, {'span': 'Obatalá', 'entity': 'Entidade mitológica'}]'
+
+Example #6: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+
+Example #7: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #8: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #9: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #10: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #11: Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) que se serve com pirão e farinha de mandioca, peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e / ou na folha de bananeira, peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros.
+Expected output: 'entities: [{'span': 'pirão', 'entity': 'Comida'}, {'span': 'farinha de mandioca', 'entity': 'Comida'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'bananeira', 'entity': 'Planta'}, {'span': 'tainha', 'entity': 'Animal'}]'
+
+Example #12: O mais representativo prato típico do estado é o açaí acompanhado de farinha de mandioca e alguma proteína, como peixes, camarão regional, frango ou carne vermelha.
+Expected output: 'entities: [{'span': 'açaí', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'carne vermelha', 'entity': 'Comida'}]'
+
+Example #13: Encontra-se a menos de 5 " km do centro da cidade, oferecendo infraestrutura para a operação de aeronaves de médio porte como Boeings 737 e Fokker 100 s.
+Expected output: 'entities: [{'span': 'Boeings 737', 'entity': 'Veículo'}, {'span': 'Fokker 100', 'entity': 'Veículo'}]'
+
+Example #14: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #15: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #16: O mesmo possui uma magnitude absoluta de 5,6 e, tem um diâmetro estimado de cerca de 158 km, por isso existem poucas chances que possa ser classificado como um planeta anão, devido ao seu tamanho relativamente pequeno.
+Expected output: 'entities: [{'span': 'planeta anão', 'entity': 'Corpo celeste'}]'
+
+Example #17: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #18: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #19: Elas dividem várias características com colônias de protozoários, como o " Volvox ", embora elas tenham um nível mais alto de especialização celular e interdependência.
+Expected output: 'entities: [{'span': 'Volvox', 'entity': 'Entidade biológica'}]'
+
+Example #20: Após iniciar a temporada 2010 – 11 como terceira opção para o gol do Arsenal, ganhou oportunidades devido às lesões de Manuel Almunia, então titular, e de seu reserva Łukasz Fabiański.
+Expected output: 'entities: [{'span': 'Arsenal', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Manuel Almunia', 'entity': 'Pessoa'}, {'span': 'Łukasz Fabiański', 'entity': 'Pessoa'}]'
+

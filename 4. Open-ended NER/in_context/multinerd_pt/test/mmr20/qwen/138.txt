@@ -1,0 +1,60 @@
+Example #1: O single apareceu em um comercial para o carro Citroën C4.
+Expected output: 'entities: [{'span': 'Citroën C4', 'entity': 'Veículo'}]'
+
+Example #2: Os alemães também criaram o seu tanque, o A7V.
+Expected output: 'entities: [{'span': 'A7V', 'entity': 'Veículo'}]'
+
+Example #3: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #4: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #5: Mais recentemente, o Telescópio Espacial Hubble detectou que essa atmosfera era composta de oxigénio, tal como a atmosfera encontrada em Europa.
+Expected output: 'entities: [{'span': 'Telescópio Espacial Hubble', 'entity': 'Instrumento'}, {'span': 'Europa', 'entity': 'Corpo celeste'}]'
+
+Example #6: É nomeado em relação ao deus grego Hermes.
+Expected output: 'entities: [{'span': 'Hermes', 'entity': 'Entidade mitológica'}]'
+
+Example #7: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #8: Foi exibida no Brasil pelo SBT, de 21 de novembro de 1996 a 18 de fevereiro de 1997, substituindo " Maria Mercedes " e sendo substituída por " Maria do Bairro ".
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'SBT', 'entity': 'Organização'}, {'span': '1996', 'entity': 'Tempo'}, {'span': '1997', 'entity': 'Tempo'}, {'span': 'Maria Mercedes', 'entity': 'Média'}, {'span': 'Maria do Bairro', 'entity': 'Média'}]'
+
+Example #9: Encontra-se a menos de 5 " km do centro da cidade, oferecendo infraestrutura para a operação de aeronaves de médio porte como Boeings 737 e Fokker 100 s.
+Expected output: 'entities: [{'span': 'Boeings 737', 'entity': 'Veículo'}, {'span': 'Fokker 100', 'entity': 'Veículo'}]'
+
+Example #10: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #11: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+
+Example #12: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+
+Example #13: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #14: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #15: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #16: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #17: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #18: No México, o argentino conquistou dois titulos internacionais de caráter amistoso: A Série Mundial de Futebol e a Dallas Cup, ambos em 2007.
+Expected output: 'entities: [{'span': 'México', 'entity': 'Localização'}, {'span': 'Série Mundial de Futebol', 'entity': 'Média'}, {'span': 'Dallas Cup', 'entity': 'Evento'}, {'span': '2007', 'entity': 'Tempo'}]'
+
+Example #19: Trata-se do Nissan Leaf.
+Expected output: 'entities: [{'span': 'Nissan Leaf', 'entity': 'Veículo'}]'
+
+Example #20: O título é um spin-off da série " Drakengard " e ocorre após os acontecimentos do quinto final do primeiro jogo, eventos que deixaram o planeta Terra em estado de ruína.
+Expected output: 'entities: [{'span': 'Drakengard', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+

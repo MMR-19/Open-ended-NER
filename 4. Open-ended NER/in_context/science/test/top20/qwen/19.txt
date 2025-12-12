@@ -1,0 +1,60 @@
+Example #1: The relative positions of five planets (Saturn, Jupiter, Mars, Venus, and Mercury) were shown, as were the moon's phases and the position of the Sun in the zodiac.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'moon', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'zodiac', 'entity': 'Misc'}]'
+
+Example #2: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #3: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #4: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #5: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #6: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #7: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #8: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #9: Minimum distances from the Earth, Venus, and Jupiter, are 0.5, 0.8, and 3.5 AU, respectively.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #10: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #11: The orbit of 70 Panopaea places it in a mean motion resonance with the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': '70 Panopaea', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #12: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #13: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+
+Example #14: On 21 December 2012, the Cassini-Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.
+Expected output: 'entities: [{'span': 'Cassini-Huygens', 'entity': 'Misc'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #15: The outer gas giant planets are Jupiter, Saturn, Uranus, and Neptune.
+Expected output: 'entities: [{'span': 'gas giant', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #16: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #17: This mechanism is evident on Jupiter and Saturn and on brown dwarf s whose central temperatures are not high enough to undergo nuclear fusion.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #18: Also, Mercury's fairly eccentric orbit makes it much easier to detect the perihelion shift than is the case for the nearly circular orbits of Venus and Earth.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #19: 5145 Pholus in diameter, that crosses the orbit of both Saturn and Neptune.
+Expected output: 'entities: [{'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #20: She is awakened as a Soldier by the white cat Artemis when she is thirteen years old and instructed that she has a duty to become the beautiful warrior, Sailor V. Artemis explains that Venus and Earth are twin planets of about the same size and weight, that Venus is her mother star, and that she must protect Earth from its enemies.
+Expected output: 'entities: [{'span': 'Artemis', 'entity': 'Misc'}, {'span': 'Sailor V. Artemis', 'entity': 'Person'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+

@@ -1,0 +1,15 @@
+Example #1: " Sagittaria engelmanniana " occurs in wetlands, predominantly those with acidic water such as " Sphagnum " bogs.
+Expected output: 'entities: [{'span': 'Sphagnum', 'entity': 'Biological entity'}]'
+
+Example #2: The algae is sometimes identified as " Cladophora " sp. or " Dichotomosiphon tuberosus ".
+Expected output: 'entities: [{'span': 'Cladophora', 'entity': 'Biological entity'}]'
+
+Example #3: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #4: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #5: This is the fertilized eggs or roe (" qaarsat, meluk, imlauk ") of the Pacific herring attached to eelgrass, seaweed or other submerged vegetation.
+Expected output: 'entities: [{'span': 'roe', 'entity': 'Food'}, {'span': 'Pacific herring', 'entity': 'Animal'}, {'span': 'eelgrass', 'entity': 'Plant'}]'
+

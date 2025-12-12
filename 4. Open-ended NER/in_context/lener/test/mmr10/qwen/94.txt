@@ -1,0 +1,30 @@
+Example #1: (TST-AgR-AIRR-323-89.2014.5.02.0371, Relator Ministro Cláudio Mascarenhas Brandão, 7ª Turma, DEJT 11/02/2016) AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA INTERPOSTO NA VIGÊNCIA DA LEI 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-323-89.2014.5.02.0371', 'entity': 'Jurisprudência'}, {'span': 'Cláudio Mascarenhas Brandão', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '11/02/2016', 'entity': 'Tempo'}, {'span': 'LEI 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #2: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #3: Sobremais, a apelante anexou à exordial planilha de atualização do débito (p. 35), a qual estabelece de forma detalhada os valores que compõem a pretensão inicial, 1 TJRJ, Agravo de Instrumento n.º 00113878520158190000, Relator: Fernando Cerqueira Chagas, Data de Julgamento: 22/05/2015, Décima Primeira Câmara Cível, Data de Publicação: 26/05/2015; REsp 944.352/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, julgado em 29/11/2007, DJ 07/02/2008.
+Expected output: 'entities: [{'span': 'TJRJ', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento n.º 00113878520158190000', 'entity': 'Jurisprudência'}, {'span': 'Fernando Cerqueira Chagas', 'entity': 'Pessoa'}, {'span': '22/05/2015', 'entity': 'Tempo'}, {'span': 'Décima Primeira Câmara Cível', 'entity': 'Organização'}, {'span': '26/05/2015', 'entity': 'Tempo'}, {'span': 'REsp 944.352/SP', 'entity': 'Jurisprudência'}, {'span': 'Arnaldo Esteves Lima', 'entity': 'Pessoa'}, {'span': 'Quinta Turma', 'entity': 'Organização'}, {'span': '29/11/2007', 'entity': 'Tempo'}, {'span': '07/02/2008', 'entity': 'Tempo'}]'
+
+Example #4: Ementa e Acórdão 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO RELATOR: MIN. LUIZ FUX PACTE.
+Expected output: 'entities: [{'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}]'
+
+Example #5: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #7: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #8: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #9: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #10: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+

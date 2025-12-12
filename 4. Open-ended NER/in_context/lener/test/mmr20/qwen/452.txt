@@ -1,0 +1,60 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: Procedência do pedido para declarar, com efeitos `` ex tunc '' e `` erga omnes '', a inconstitucionalidade da Lei Distrital nº 683, de 21 de março de 2003, que aprova área de estudo para implantação do Setor Habitacional Catetinho. ” (20070020033532ADI, Relator HUMBERTO ADJUTO ULHÔA, Conselho Especial, julgado em 16/12/2008, DJ 30/01/2009 p. 36) (g.n.) “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'Lei Distrital nº 683', 'entity': 'Legislação'}, {'span': '21 de março de 2003', 'entity': 'Tempo'}, {'span': 'Setor Habitacional Catetinho.', 'entity': 'Localização'}, {'span': '20070020033532ADI', 'entity': 'Jurisprudência'}, {'span': 'HUMBERTO ADJUTO ULHÔA', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '16/12/2008', 'entity': 'Tempo'}, {'span': '30/01/2009', 'entity': 'Tempo'}]'
+
+Example #3: (RR-180400-29.2004.5.03.0044, Relator Ministro: Augusto César Leite de Carvalho, 6ª Turma, DEJT 30/3/2010) '' MULTA DO ART. 477 DA CLT.
+Expected output: 'entities: [{'span': 'RR-180400-29.2004.5.03.0044', 'entity': 'Jurisprudência'}, {'span': 'Augusto César Leite de Carvalho', 'entity': 'Pessoa'}, {'span': '6ª Turma', 'entity': 'Organização'}, {'span': '30/3/2010', 'entity': 'Tempo'}, {'span': 'ART. 477 DA CLT', 'entity': 'Legislação'}]'
+
+Example #4: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #5: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #6: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #8: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #9: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #10: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #11: Brasília, 23 de fevereiro de 2016 (Data do Julgamento) Ministra Maria Thereza de Assis Moura Relatora HABEAS CORPUS Nº 340.624 - SP (2015⁄0282121-1) RELATORA: MINISTRA MARIA THEREZA DE ASSIS MOURA IMPETRANTE: GUILHERME RODRIGUES DA SILVA E OUTROS ADVOGADO: GUILHERME RODRIGUES DA SILVA E OUTRO (S) IMPETRADO: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO PACIENTE: CLAUDINEI RICARDO ZIRONDI RELATÓRIO MINISTRA MARIA THEREZA DE ASSIS MOURA (Relatora): Trata-se de habeas corpus, com pedido de liminar, impetrado em favor de CLAUDINEI RICARDO ZIRONDI, apontando como autoridade coatora o Desembargador Relator no Tribunal de Justiça do Estado de São Paulo (HC n.º 2220691-95.2015.8.26.0000).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2016', 'entity': 'Tempo'}, {'span': 'Maria Thereza de Assis Moura', 'entity': 'Pessoa'}, {'span': 'HABEAS CORPUS Nº 340.624 - SP', 'entity': 'Jurisprudência'}, {'span': '2015⁄0282121-1', 'entity': 'Jurisprudência'}, {'span': 'MARIA THEREZA DE ASSIS MOURA', 'entity': 'Pessoa'}, {'span': 'GUILHERME RODRIGUES DA SILVA', 'entity': 'Pessoa'}, {'span': 'TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO', 'entity': 'Organização'}, {'span': 'CLAUDINEI RICARDO ZIRONDI', 'entity': 'Pessoa'}, {'span': 'Tribunal de Justiça do Estado de São Paulo', 'entity': 'Organização'}, {'span': 'HC n.º 2220691-95.2015.8.26.0000', 'entity': 'Jurisprudência'}]'
+
+Example #12: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359 - CLASSE 32 ITAPEVI - SÃO PAULO Relator: Ministro Napoleão Nunes Maia Filho Agravante: Partido da Social Democracia Brasileira (PSDB) - Municipal Advogados: Thiago Tommasi Marinho - OAB: 2720041SP e outro Agravado: Partido Social Democrata Cristão (PSDC) - Municipal Advogado: Eduardo dos Santos Amaral - OAB: 2874551SP ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359', 'entity': 'Jurisprudência'}, {'span': 'ITAPEVI - SÃO PAULO', 'entity': 'Localização'}, {'span': 'Napoleão Nunes Maia Filho', 'entity': 'Pessoa'}, {'span': 'Partido da Social Democracia Brasileira', 'entity': 'Organização'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'Thiago Tommasi Marinho', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Partido Social Democrata Cristão', 'entity': 'Organização'}, {'span': 'PSDC', 'entity': 'Organização'}, {'span': 'Eduardo dos Santos Amaral', 'entity': 'Pessoa'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #13: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #14: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+
+Example #15: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #16: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #17: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #18: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #19: (RE 437642 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. ELLEN GRACIE, Órgão Julgador: Segunda Turma, DJe de 3/9/2010) TRIBUTÁRIO.
+Expected output: 'entities: [{'span': 'RE 437642 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'ELLEN GRACIE', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '3/9/2010', 'entity': 'Tempo'}]'
+
+Example #20: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+

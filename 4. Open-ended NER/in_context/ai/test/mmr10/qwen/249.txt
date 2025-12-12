@@ -1,0 +1,30 @@
+Example #1: The task of recognizing named entities in text is Named Entity Recognition while the task of determining the identity of the named entities mentioned in text is called Entity Linking.
+Expected output: 'entities: [{'span': 'recognizing named entities in text', 'entity': 'Task'}, {'span': 'Named Entity Recognition', 'entity': 'Task'}, {'span': 'Entity Linking', 'entity': 'Task'}]'
+
+Example #2: Beginning at the 2019 Toronto International Film Festival, films may now be restricted from screening at Scotiabank Theatre Toronto - one of the festival's main venues - and screened elsewhere (such as TIFF Bell Lightbox and other local cinemas) if distributed by a service such as Netflix.
+Expected output: 'entities: [{'span': '2019 Toronto International Film Festival', 'entity': 'Misc'}, {'span': 'Scotiabank Theatre Toronto', 'entity': 'Location'}, {'span': 'TIFF Bell Lightbox', 'entity': 'Location'}, {'span': 'Netflix', 'entity': 'Organisation'}]'
+
+Example #3: The NIST metric is based on the BLEU metric, but with some alterations.
+Expected output: 'entities: [{'span': 'NIST metric', 'entity': 'Metrics'}, {'span': 'BLEU metric', 'entity': 'Metrics'}]'
+
+Example #4: During the 1990s, encouraged by successes in speech recognition and speech synthesis, research began into speech translation with the development of the German Verbmobil project.
+Expected output: 'entities: [{'span': 'speech recognition', 'entity': 'Task'}, {'span': 'speech synthesis', 'entity': 'Task'}, {'span': 'speech translation', 'entity': 'Task'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Verbmobil project', 'entity': 'Misc'}]'
+
+Example #5: Another technique particularly used for recurrent neural network s is the long short-term memory (LSTM) network of 1997 by Sepp Hochreiter & Jürgen Schmidhuber.
+Expected output: 'entities: [{'span': 'recurrent neural network', 'entity': 'Algorithm'}, {'span': 'long short-term memory', 'entity': 'Algorithm'}, {'span': 'LSTM', 'entity': 'Algorithm'}, {'span': 'Sepp Hochreiter', 'entity': 'Researcher'}, {'span': 'Jürgen Schmidhuber', 'entity': 'Researcher'}]'
+
+Example #6: Poggio is an honorary member of the Neuroscience Research Program, a member of the American Academy of Arts and Sciences and a founding fellow of AAAI and a founding member of the McGovern Institute for Brain Research.
+Expected output: 'entities: [{'span': 'Poggio', 'entity': 'Researcher'}, {'span': 'Neuroscience Research Program', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'AAAI', 'entity': 'Conference'}, {'span': 'McGovern Institute for Brain Research', 'entity': 'Organisation'}]'
+
+Example #7: RapidMiner provides learning schemes, models and algorithms and can be extended using R and Python scripts. David Norris, Bloor Research, November 13, 2013.
+Expected output: 'entities: [{'span': 'RapidMiner', 'entity': 'Product'}, {'span': 'R', 'entity': 'Programming Language'}, {'span': 'Python', 'entity': 'Programming Language'}, {'span': 'David Norris', 'entity': 'Researcher'}, {'span': 'Bloor Research', 'entity': 'Organisation'}]'
+
+Example #8: Since the early 1990s, it has been recommended by several authorities, including the Audio Engineering Society that measurements of dynamic range be made with an audio signal present, which is then filtered out in the noise floor measurement used in determining dynamic range. This avoids questionable measurements based on the use of blank media, or muting circuits.
+Expected output: 'entities: [{'span': 'Audio Engineering Society', 'entity': 'Organisation'}, {'span': 'audio signal', 'entity': 'Misc'}, {'span': 'noise floor measurement', 'entity': 'Metrics'}]'
+
+Example #9: Grammar checkers are most often implemented as a feature of a larger program, such as a word processor, but are also available as a stand-alone application that can be activated from within programs that work with editable text.
+Expected output: 'entities: [{'span': 'Grammar checkers', 'entity': 'Product'}, {'span': 'word processor', 'entity': 'Product'}]'
+
+Example #10: Lafferty received numerous awards, including two Test-of-Time awards at the International Conference on Machine Learning 2011 & 2012,
+Expected output: 'entities: [{'span': 'Lafferty', 'entity': 'Researcher'}, {'span': 'Test-of-Time awards', 'entity': 'Misc'}, {'span': 'International Conference on Machine Learning 2011 & 2012', 'entity': 'Conference'}]'
+

@@ -1,0 +1,30 @@
+Example #1: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #2: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: Intimem-se. ” Narra a apelante que, desde maio de 2014, a PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 5 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 empresa apelada não pagava os aluguéis mensais, o IPTU do imóvel e as contas de energia, razão pela qual pleiteou o despejo, bem como a condenação da locatária ao pagamento dos aluguéis vencidos e vincendos até a data da efetiva desocupação do imóvel e dos demais encargos da locação, já acrescidos da multa contratual.
+Expected output: 'entities: [{'span': 'maio de 2014', 'entity': 'Tempo'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #4: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #5: Julgo extinto o processo, com resolução do mérito, nos termos do art. 487, I, do NCPC.
+Expected output: 'entities: [{'span': 'art. 487, I, do NCPC', 'entity': 'Legislação'}]'
+
+Example #6: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #7: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #8: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #9: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #10: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+

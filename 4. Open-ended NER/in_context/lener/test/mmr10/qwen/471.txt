@@ -1,0 +1,30 @@
+Example #1: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #2: As determinações constantes nas referidas Leis distritais, ora impugnadas, têm o seguinte teor: “ LEI Nº 747, DE 23 DE AGOSTO DE 1994 (Autor do Projeto: Deputado Salviano Guimarães) Promulgação negada pelo Sr. Governador do Distrito Federal ao Projeto de Lei que Autoriza o Poder Executivo a ocupar a Zona de Expansão Urbana do Paranoá 7 ZEU 1. Faço saber que a Câmara Legislativa do Distrito Federal aprovou e eu promulgo, na forma do § 6º do art. 74 da Lei Orgânica do Distrito Federal, a Lei nº 747, de 23 de agosto de 1994: Art. 1º Fica o Poder Executivo autorizado a ocupar a Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1, nos termos da Lei nº 353, de 18 de novembro de 1992, para a fixação dos moradores remanescentes da antiga Vila Paranoá, não contemplados no Programa de Assentamento da População de Baixa Renda.
+Expected output: 'entities: [{'span': 'LEI Nº 747', 'entity': 'Legislação'}, {'span': '23 DE AGOSTO DE 1994', 'entity': 'Tempo'}, {'span': 'Salviano Guimarães', 'entity': 'Pessoa'}, {'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Zona de Expansão Urbana do Paranoá', 'entity': 'Localização'}, {'span': 'Câmara Legislativa do Distrito Federal', 'entity': 'Organização'}, {'span': '§ 6º do art. 74 da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Lei nº 747', 'entity': 'Legislação'}, {'span': '23 de agosto de 1994', 'entity': 'Tempo'}, {'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Lei nº 353', 'entity': 'Legislação'}, {'span': '18 de novembro de 1992', 'entity': 'Tempo'}, {'span': 'Vila Paranoá', 'entity': 'Localização'}]'
+
+Example #3: ART. 20, § 4°, DO CPC.
+Expected output: 'entities: [{'span': 'ART. 20, § 4°, DO CPC', 'entity': 'Legislação'}]'
+
+Example #4: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #5: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #6: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #7: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #8: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #9: (A / S): ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações: O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116, de 30 de junho de 2006, daquele Estado, de origem parlamentar, que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado, previstas na Lei Complementar nº 92, de 5 de julho de 2002 ”.
+Expected output: 'entities: [{'span': 'ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ', 'entity': 'Organização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Lei Complementar nº 116', 'entity': 'Legislação'}, {'span': '30 de junho de 2006', 'entity': 'Tempo'}, {'span': 'Coordenação da Receita do Estado', 'entity': 'Organização'}, {'span': 'Lei Complementar nº 92', 'entity': 'Legislação'}, {'span': '5 de julho de 2002', 'entity': 'Tempo'}]'
+
+Example #10: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+

@@ -1,0 +1,30 @@
+Example #1: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #2: ART. 20, § 4°, DO CPC.
+Expected output: 'entities: [{'span': 'ART. 20, § 4°, DO CPC', 'entity': 'Legislação'}]'
+
+Example #3: A técnica está prevista expressamente no art. 322, § 1º, do CPC, o qual concretiza a nova perspectiva atribuída ao Processo Civil, voltada para uma efetiva prestação jurisdicional, para a justa composição da lide e para a proteção da boa- PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 2 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 fé. 2.
+Expected output: 'entities: [{'span': 'art. 322, § 1º, do CPC', 'entity': 'Legislação'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #4: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #5: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #6: (EDcl no AgInt no AREsp 892.042/SC, Rel. Ministro MAURO CAMPBELL MARQUES, SEGUNDA TURMA, julgado em PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 12 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio Branco-AC - Mod. 500258 - Autos n.º 1002199-81.2017.8.01.0000/50000 02/02/2017, DJe 08/02/2017).
+Expected output: 'entities: [{'span': 'EDcl no AgInt no AREsp 892.042/SC', 'entity': 'Jurisprudência'}, {'span': 'MAURO CAMPBELL MARQUES', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio Branco-AC', 'entity': 'Localização'}, {'span': 'Autos n.º 1002199-81.2017.8.01.0000/50000', 'entity': 'Jurisprudência'}, {'span': '02/02/2017', 'entity': 'Tempo'}, {'span': '08/02/2017', 'entity': 'Tempo'}]'
+
+Example #7: Recebo a apelação nos termos do art. 1.012 do NCPC.
+Expected output: 'entities: [{'span': 'art. 1.012 do NCPC', 'entity': 'Legislação'}]'
+
+Example #8: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #9: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #10: (TJMG - Apelação Cível 1.0637.14.008046-5/001, Relator (a): Des. (a) Vasconcelos Lins, 18ª CÂMARA CÍVEL, julgamento em 06/02/2018, publicação da súmula em 09/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0637.14.008046-5/001', 'entity': 'Jurisprudência'}, {'span': 'Vasconcelos Lins', 'entity': 'Pessoa'}, {'span': '18ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/02/2018', 'entity': 'Tempo'}, {'span': '09/02/2018', 'entity': 'Tempo'}]'
+

@@ -1,0 +1,15 @@
+Example #1: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #2: Following boundary changes, Major became the MP for the newly formed seat of Huntingdon in 1983 United Kingdom general election (retaining the seat in 1987 United Kingdom general election, 1992 United Kingdom general election and 1997 United Kingdom general election before retiring from Parliament in 2001 United Kingdom general election).
+Expected output: 'entities: [{'span': 'Huntingdon', 'entity': 'Location'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}, {'span': '1992 United Kingdom general election', 'entity': 'Election'}, {'span': '1997 United Kingdom general election', 'entity': 'Election'}, {'span': '2001 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #3: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #4: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #5: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+

@@ -1,0 +1,30 @@
+Example #1: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #2: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #3: Such celebrities as Hermann von Helmholtz, Gustav Kirchhoff, William Thomson (Lord Kelvin), the Siemens brothers, and the Marquis of Salisbury visited the small Norwegian exhibit booth and watched with amazement as a system of pulsating spheres and similar devices appeared to reproduce well-known electric and magnetic phenomena.
+Expected output: 'entities: [{'span': 'Hermann von Helmholtz', 'entity': 'Scientist'}, {'span': 'Gustav Kirchhoff', 'entity': 'Scientist'}, {'span': 'William Thomson', 'entity': 'Scientist'}, {'span': 'Lord Kelvin', 'entity': 'Scientist'}, {'span': 'Siemens brothers', 'entity': 'Person'}, {'span': 'Marquis of Salisbury', 'entity': 'Person'}, {'span': 'Norwegian', 'entity': 'Misc'}]'
+
+Example #4: He visited some European universities and institutions, including Cavendish Laboratory, Georg August University of Göttingen, and University of Copenhagen.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Georg August University of Göttingen', 'entity': 'University'}, {'span': 'University of Copenhagen', 'entity': 'University'}]'
+
+Example #5: Two pairs of fathers and sons have won Nobel Prizes in other fields: Hans von Euler-Chelpin (chemistry, 1929) and Ulf von Euler (medicine, 1970); and Arthur Kornberg (medicine, 1969) and Roger D. Kornberg (chemistry, 2006).
+Expected output: 'entities: [{'span': 'Nobel Prizes', 'entity': 'Award'}, {'span': 'Hans von Euler-Chelpin', 'entity': 'Scientist'}, {'span': 'chemistry', 'entity': 'Discipline'}, {'span': 'Ulf von Euler', 'entity': 'Scientist'}, {'span': 'medicine', 'entity': 'Discipline'}, {'span': 'Arthur Kornberg', 'entity': 'Scientist'}, {'span': 'Roger D. Kornberg', 'entity': 'Scientist'}]'
+
+Example #6: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #7: Such experiments were independently performed by Walther Bothe and Hans Geiger,
+Expected output: 'entities: [{'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Hans Geiger', 'entity': 'Scientist'}]'
+
+Example #8: In the Early Modern period, scientists such as William Harvey in England and Galileo Galilei in Italy reacted against the theories of Aristotle and other classical era thinkers like Galen, establishing new theories based to some degree on observation and experiment.
+Expected output: 'entities: [{'span': 'Early Modern period', 'entity': 'Misc'}, {'span': 'William Harvey', 'entity': 'Scientist'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'Galen', 'entity': 'Person'}]'
+
+Example #9: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #10: Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Walther Bothe, Wolfgang Gentner, Otto Haxel, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Hans Kopfermann', 'entity': 'Scientist'}, {'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Wolfgang Gentner', 'entity': 'Scientist'}, {'span': 'Otto Haxel', 'entity': 'Scientist'}, {'span': 'Willibald Jentschke', 'entity': 'Scientist'}, {'span': 'Heinz Maier-Leibnitz', 'entity': 'Scientist'}, {'span': 'Josef Mattauch', 'entity': 'Scientist'}, {'span': 'Wolfgang Riezler', 'entity': 'Scientist'}, {'span': 'Wilhelm Walcher', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}]'
+

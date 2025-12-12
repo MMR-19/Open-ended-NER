@@ -1,0 +1,15 @@
+Example #1: Other works soon followed, including A Tale of Two Cities (1859) and Great Expectations (1861), which were resounding successes.
+Expected output: 'entities: [{'span': 'A Tale of Two Cities', 'entity': 'Book'}, {'span': 'Great Expectations', 'entity': 'Book'}]'
+
+Example #2: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #3: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #4: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #5: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+

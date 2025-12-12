@@ -1,0 +1,60 @@
+Example #1: Board Members Amboian, Kundert and Toth were last elected as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #2: Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members and Board Member Hunter was last elected to each Fund s Board as a Class I Board Member at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}, {'span': 'Hunter', 'entity': 'Person'}]'
+
+Example #3: The Board shall appoint the members and the Chairman of the Audit Committee, on the recommendation of the Nominating and Governance Committee.
+Expected output: 'entities: []'
+
+Example #4: In addition to the payments described above, the Independent Chairman receives $ 50,000 annually and the Lead Independent Director, if any, receives $ 35,000, the chairpersons of the audit committee, the dividend committee and the compliance, risk management and regulatory oversight committee receive $ 7,500 and the chairperson of the nominating and governance committee receives $ 5,000 as additional retainers to the annual retainer paid to such individuals.
+Expected output: 'entities: []'
+
+Example #5: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #6: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #7: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #8: The Board Members elected by holders of Preferred Shares will be elected to serve until the next annual meeting or until their successors have been duly elected and qualified.
+Expected output: 'entities: []'
+
+Example #9: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #10: The officers are elected by the Board on an annual basis to serve until successors are elected and qualified.
+Expected output: 'entities: []'
+
+Example #11: The committee is currently composed of five Independent Board Members and operates under a written charter adopted and approved by each Board.
+Expected output: 'entities: []'
+
+Example #12: At the Annual Meeting of each Minnesota Corporation, Board Members are to be elected to serve until the next annual meeting or until their successors shall have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Minnesota', 'entity': 'Location'}]'
+
+Example #13: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+
+Example #14: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #15: Accordingly, such Board Members are deemed Independent Board Members.
+Expected output: 'entities: []'
+
+Example #16: As of February 8, 2010, the Board Members and executive officers as a group beneficially owned less than 1 % of the outstanding shares of each Fund.
+Expected output: 'entities: []'
+
+Example #17: As of February 8, 2010, each Board Member s individual beneficial shareholdings of each Fund constituted less than 1 % of the outstanding shares of each Fund.
+Expected output: 'entities: []'
+
+Example #18: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #19: We, the undersigned directors of Acorda Therapeutics, Inc., hereby severally constitute and appoint Ron Cohen our true and lawful attorney with full power to him to sign for us and in our names in the capacities indicated below, this Registration Statement on Form S-8 filed herewith and any and all subsequent amendments to said registration statement, and generally to do all such things in our names and on our behalf in our capacities as directors to enable Acorda Therapeutics, Inc. to comply with the provisions of the Securities Act of 1933, as amended, and all requirements of the Securities and Exchange Commission, hereby ratifying and confirming our signatures as they may be signed by our said attorney to said registration statement and any and all amendments thereto.
+Expected output: 'entities: [{'span': 'Acorda Therapeutics, Inc.', 'entity': 'Business'}, {'span': 'Ron Cohen', 'entity': 'Person'}, {'span': 'Form S-8', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}]'
+
+Example #20: The Audit Committee shall be comprised of at least three Directors/Trustees.
+Expected output: 'entities: []'
+

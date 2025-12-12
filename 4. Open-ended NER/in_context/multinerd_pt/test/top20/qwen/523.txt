@@ -1,0 +1,60 @@
+Example #1: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #2: Suas canções falam principalmente sobre o amor, mas já tratou de outros temas mais polêmicos como religião e guerra, principalmente no álbum " Chorus ", escrito na época da guerra do Golfo.
+Expected output: 'entities: [{'span': 'Chorus', 'entity': 'Média'}, {'span': 'guerra do Golfo', 'entity': 'Evento'}]'
+
+Example #3: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #4: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #5: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #6: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #7: É sobretudo forte na produção de azeite (70 % do total espanhol), arroz, frutas, trigo, plantas industriais e na produção de gado.
+Expected output: 'entities: [{'span': 'azeite', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #8: Os principais produtos cultivados ou criados no estado são milho, trigo e soja, além de gado, leite e carne bovina.
+Expected output: 'entities: [{'span': 'milho', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'carne', 'entity': 'Comida'}]'
+
+Example #9: Seus principais produtos são borracha e rum da cana-de-açúcar, além de banana, amendoim, camarão e sal.
+Expected output: 'entities: [{'span': 'rum', 'entity': 'Comida'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'banana', 'entity': 'Planta'}, {'span': 'amendoim', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #10: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #11: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #12: A economia é baseada na produção de sal marinho em salinas, na agricultura de subsistência (algodão arbóreo, caju, arroz, milho, mandioca e feijão), na pecuária (bovinos, suínos e avícola), e na piscicultura (criatórios de camarão).
+Expected output: 'entities: [{'span': 'sal marinho', 'entity': 'Comida'}, {'span': 'caju', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #13: Esta categoria inclui artigos e categorias sobre o domínio Archaea.
+Expected output: 'entities: [{'span': 'Archaea', 'entity': 'Entidade biológica'}]'
+
+Example #14: Ela é a mãe de Thor e a personificação da Terra.
+Expected output: 'entities: [{'span': 'Thor', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #15: No Brasil já foi traduzida e interpretada por Luiza Possi, com o título de " Além do arco-íris ", na trilha sonora da novela " Chocolate com Pimenta ", em 2003.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Luiza Possi', 'entity': 'Pessoa'}, {'span': 'Chocolate com Pimenta', 'entity': 'Média'}, {'span': '2003', 'entity': 'Tempo'}]'
+
+Example #16: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #17: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+
+Example #18: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #19: Nesta fase, os olímpicos não eram os únicos deuses que os gregos adoravam: existiam uma variedade de divindades rupestres, como o deus-bode Pã, o deus da natureza e florestas, as ninfas - náiades (que moravam nas nascentes), dríades (espíritos das árvores) e as nereidas (que habitavam o mar) -, deuses de rios, sátiros, meio homem, meio bode, e outras divindades que residiam em florestas, bosques e mares.
+Expected output: 'entities: [{'span': 'Pã', 'entity': 'Entidade mitológica'}]'
+
+Example #20: Ela representa a divinização da terra e é considerada, ao lado de Obatalá (a representação divinizada do céu), como a casal primordial e propulsor da criação.
+Expected output: 'entities: [{'span': 'terra', 'entity': 'Corpo celeste'}, {'span': 'Obatalá', 'entity': 'Entidade mitológica'}]'
+

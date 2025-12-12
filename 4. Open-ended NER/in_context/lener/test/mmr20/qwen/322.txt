@@ -1,0 +1,60 @@
+Example #1: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #2: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #3: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #4: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #5: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #6: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #7: APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001 - COMARCA DE BELO HORIZONTE - APELANTE (S): REBECCA DE AGUIAR LACERDA REPDO (A) PELO (A) CURADOR (A) SARA GONÇALVES DE AGUIAR - APELADO (A) (S): UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA A C Ó R D Ã O Vistos etc., acorda, em Turma, a 10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais, na conformidade da ata dos julgamentos, em ACOLHER A PRELIMINAR DE NULIDADE DO FEITO ARGUIDA PELO MINISTÉRIO PÚBLICO.
+Expected output: 'entities: [{'span': 'APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001', 'entity': 'Jurisprudência'}, {'span': 'COMARCA DE BELO HORIZONTE', 'entity': 'Localização'}, {'span': 'REBECCA DE AGUIAR LACERDA REPDO', 'entity': 'Pessoa'}, {'span': 'SARA GONÇALVES DE AGUIAR', 'entity': 'Pessoa'}, {'span': 'UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA', 'entity': 'Organização'}, {'span': '10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais', 'entity': 'Organização'}, {'span': 'MINISTÉRIO PÚBLICO', 'entity': 'Organização'}]'
+
+Example #8: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #9: `` EMENTA: 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO (CPM, ART. 187) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA, NA HIPÓTESE DE CRIME DE DESERÇÃO, PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos, Matricula 8829. Em 13/03/2018 14:29:31. Para confirmar a validade deste documento, acesse: https: //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 PENAL - EXTINÇÃO DEFINITIVA DO PROCESSO CRIMINAL INSTAURADO PERANTE A JUSTIÇA MILITAR - PEDIDO DEFERIDO. ''
+Expected output: 'entities: [{'span': 'CPM, ART. 187', 'entity': 'Legislação'}, {'span': 'SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'entity': 'Jurisprudência'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Luis Carlos Gomes Mattos', 'entity': 'Pessoa'}, {'span': '13/03/2018', 'entity': 'Tempo'}]'
+
+Example #10: O CPC/2015 também não admite a alteração da causa de pedir, ainda que com consentimento do réu, após o saneamento do processo (art. 329, II).
+Expected output: 'entities: [{'span': 'CPC/2015', 'entity': 'Legislação'}]'
+
+Example #11: (TJMG - Agravo de Instrumento-Cr 1.0079.14.024867-9/001, Relator (a): Des. (a) Eduardo Brum, 4ª CÂMARA CRIMINAL, julgamento em 30/03/2016, publicação da súmula em 06/04/2016) EMENTA: AGRAVO DE INSTRUMENTO CRIMINAL - LEI MARIA DA PENHA - VIOLÊNCIA DOMÉSTICA - INDÍCIOS SUFICIENTES DE AUTORIA E MATERIALIDADE - MEDIDAS PROTETIVAS - REQUISITOS SATISFEITOS - MANUTENÇÃO DA PROTEÇÃO DE URGÊNCIA - MEDIDA DE CAUTELA - NECESSIDADE DE AVALIAÇÃO DO RISCO ATUAL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento-Cr 1.0079.14.024867-9/001', 'entity': 'Jurisprudência'}, {'span': 'Eduardo Brum', 'entity': 'Pessoa'}, {'span': '4ª CÂMARA CRIMINAL', 'entity': 'Organização'}, {'span': '30/03/2016', 'entity': 'Tempo'}, {'span': '06/04/2016', 'entity': 'Tempo'}, {'span': 'LEI MARIA DA PENHA', 'entity': 'Legislação'}]'
+
+Example #12: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #13: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #14: (AgRg no REsp 1199918/SP, Rel. Ministro REYNALDO SOARES DA FONSECA, QUINTA TURMA, julgado em 04/08/2015, DJe 12/08/2015) Realço, por fim, que o Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1199918/SP', 'entity': 'Jurisprudência'}, {'span': 'REYNALDO SOARES DA FONSECA', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '04/08/2015', 'entity': 'Tempo'}, {'span': '12/08/2015', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno, Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #15: Ementa e Acórdão 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO RELATOR: MIN. LUIZ FUX PACTE.
+Expected output: 'entities: [{'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}]'
+
+Example #16: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #17: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #18: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #19: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #20: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+

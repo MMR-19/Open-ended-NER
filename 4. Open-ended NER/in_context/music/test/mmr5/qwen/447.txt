@@ -1,0 +1,15 @@
+Example #1: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+
+Example #2: This style emerged in the United States in the early and mid-1980s, with innovators such as Queensrÿche, Fates Warning, and Dream Theater.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'Queensrÿche', 'entity': 'Band'}, {'span': 'Fates Warning', 'entity': 'Band'}, {'span': 'Dream Theater', 'entity': 'Band'}]'
+
+Example #3: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #4: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #5: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+

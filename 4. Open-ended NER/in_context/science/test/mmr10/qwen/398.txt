@@ -1,0 +1,30 @@
+Example #1: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #2: He studied at CMS College Kottayam, and graduated with honors from the Madras Christian College in 1951.
+Expected output: 'entities: [{'span': 'CMS College Kottayam', 'entity': 'University'}, {'span': 'Madras Christian College', 'entity': 'University'}]'
+
+Example #3: She is awakened as a Soldier by the white cat Artemis when she is thirteen years old and instructed that she has a duty to become the beautiful warrior, Sailor V. Artemis explains that Venus and Earth are twin planets of about the same size and weight, that Venus is her mother star, and that she must protect Earth from its enemies.
+Expected output: 'entities: [{'span': 'Artemis', 'entity': 'Misc'}, {'span': 'Sailor V. Artemis', 'entity': 'Person'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #4: He represented his country at the 2013 World Championships in Athletics and 2015 World Championships in Athletics without qualifying for the final.
+Expected output: 'entities: [{'span': '2013 World Championships', 'entity': 'Event'}, {'span': 'Athletics', 'entity': 'Misc'}, {'span': '2015 World Championships', 'entity': 'Event'}]'
+
+Example #5: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #6: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #7: Oxon) Royal College of Physicians, the son of Sir Henry Acland, 1st Baronet MD Royal Society.
+Expected output: 'entities: [{'span': 'Oxon', 'entity': 'Location'}, {'span': 'Royal College of Physicians', 'entity': 'University'}, {'span': 'Henry Acland', 'entity': 'Scientist'}, {'span': 'Baronet MD Royal Society', 'entity': 'Award'}]'
+
+Example #8: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #9: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #10: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+

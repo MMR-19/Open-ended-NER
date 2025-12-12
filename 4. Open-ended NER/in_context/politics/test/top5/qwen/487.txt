@@ -1,0 +1,15 @@
+Example #1: He was also the Member of Parliament for Upper Bann from 1990 Upper Bann by-election to 2005 United Kingdom general election in Northern Ireland and the Member of the Legislative Assembly (MLA) for Upper Bann from 1998 to 2007 Northern Ireland Assembly election.
+Expected output: 'entities: [{'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'Upper Bann', 'entity': 'Organisation'}, {'span': '1990 Upper Bann by-election', 'entity': 'Election'}, {'span': '2005 United Kingdom general election in Northern Ireland', 'entity': 'Election'}, {'span': 'Legislative Assembly', 'entity': 'Organisation'}, {'span': 'MLA', 'entity': 'Organisation'}, {'span': '2007 Northern Ireland Assembly election', 'entity': 'Election'}]'
+
+Example #2: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #3: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #4: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #5: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+

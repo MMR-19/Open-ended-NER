@@ -1,0 +1,30 @@
+Example #1: Por meio do jornalismo, ingressou no serviço secreto britânico (SIS) e, sob a cobertura de sua profissão, espionou para os ingleses na Espanha, durante o período da Guerra Civil Espanhola (1936 - 1939).
+Expected output: 'entities: [{'span': 'SIS', 'entity': 'Organização'}, {'span': 'Espanha', 'entity': 'Localização'}, {'span': 'Guerra Civil Espanhola', 'entity': 'Evento'}, {'span': '1936', 'entity': 'Tempo'}, {'span': '1939', 'entity': 'Tempo'}]'
+
+Example #2: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #3: A primeira carrinha de caixa aberta a ser fabricada foi baseada no carro Ford Model T, com a traseira modificada.
+Expected output: 'entities: [{'span': 'Ford Model T', 'entity': 'Veículo'}]'
+
+Example #4: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #5: Foi sede de quatro World Series (1917, 1918, 1919 e 1959), incluindo um com o Chicago Cubs (1918), devido a baixa capacidade do Wrigley Field.
+Expected output: 'entities: [{'span': 'World Series', 'entity': 'Evento'}, {'span': '1917', 'entity': 'Tempo'}, {'span': '1918', 'entity': 'Tempo'}, {'span': '1919', 'entity': 'Tempo'}, {'span': '1959', 'entity': 'Tempo'}, {'span': 'Chicago Cubs', 'entity': 'Organização'}, {'span': 'Wrigley Field', 'entity': 'Localização'}]'
+
+Example #6: Nos anos 1980 com o advento da HBO (que pode apresentar os comediantes sem censura) e outros canais a cabo como o Comedy Central contribuíram para o " boom " do " stand-up comedy ".
+Expected output: 'entities: [{'span': 'HBO', 'entity': 'Organização'}, {'span': 'Comedy Central', 'entity': 'Média'}]'
+
+Example #7: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #8: Questionada pelos fãs, a equipe responsável pelo Twitter do escritor respondeu em meados do mesmo mês que ele estava " melhorando lentamente ", mantendo a postura de não entrar em detalhes a respeito do que levou à internação.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #9: Ela é a mãe de Thor e a personificação da Terra.
+Expected output: 'entities: [{'span': 'Thor', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+

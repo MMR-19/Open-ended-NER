@@ -1,0 +1,15 @@
+Example #1: Her stage credits include Norman Mailer ' s The Deer Park, Israel Horovitz ' s The Indian Wants the Bronx, Neil Simon's The Good Doctor and Joseph Papp ' s 1974 Richard III at the Lincoln Center.
+Expected output: 'entities: [{'span': 'Norman Mailer', 'entity': 'Writer'}, {'span': 'The Deer Park', 'entity': 'Book'}, {'span': 'Israel Horovitz', 'entity': 'Writer'}, {'span': 'The Indian Wants the Bronx', 'entity': 'Book'}, {'span': 'Neil Simon', 'entity': 'Writer'}, {'span': 'The Good Doctor', 'entity': 'Book'}, {'span': 'Joseph Papp', 'entity': 'Person'}, {'span': 'Richard III', 'entity': 'Misc'}, {'span': 'Lincoln Center', 'entity': 'Location'}]'
+
+Example #2: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #3: With his poem Yo soy Joaquín, known in English as I Am Joaquin, Gonzales shared his new cosmological vision of the Chicano, who was neither Indian nor European, neither Mexican nor American, but a combination of all the conflicting identities.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'Yo soy Joaquín', 'entity': 'Poem'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'I Am Joaquin', 'entity': 'Poem'}, {'span': 'Gonzales', 'entity': 'Writer'}, {'span': 'Chicano', 'entity': 'Poem'}, {'span': 'Indian', 'entity': 'Misc'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Mexican', 'entity': 'Misc'}, {'span': 'American', 'entity': 'Misc'}]'
+
+Example #4: Also in 2007 he provided consulting services to Silver Pictures on the film adaptation of Richard K. Morgan ' s hardboiled cyberpunk science-fiction novel Altered Carbon (2002).
+Expected output: 'entities: [{'span': 'Silver Pictures', 'entity': 'Organisation'}, {'span': 'Richard K. Morgan', 'entity': 'Writer'}, {'span': 'science-fiction novel', 'entity': 'Literary Genre'}, {'span': 'Altered Carbon', 'entity': 'Book'}]'
+
+Example #5: To please his wife, Diederichs agreed to publish Hesse's collection of prose entitled One Hour After Midnight in 1898 (although it is dated 1899) .Freedman (1978) pp. 78-80.
+Expected output: 'entities: [{'span': 'Diederichs', 'entity': 'Person'}, {'span': 'Hesse', 'entity': 'Writer'}, {'span': 'prose', 'entity': 'Literary Genre'}, {'span': 'One Hour After Midnight', 'entity': 'Poem'}, {'span': '.Freedman', 'entity': 'Book'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #2: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #3: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #4: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #5: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #6: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #7: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #8: Jeddah, Medina and Dubai are the major focus city for the airline, with flights from Islamabad, Karachi, Lahore, Peshawar, Multan, Sialkot and Faisalabad.
+Expected output: 'entities: [{'span': 'Jeddah', 'entity': 'Location'}, {'span': 'Medina', 'entity': 'Location'}, {'span': 'Dubai', 'entity': 'Location'}, {'span': 'Islamabad', 'entity': 'Location'}, {'span': 'Karachi', 'entity': 'Location'}, {'span': 'Lahore', 'entity': 'Location'}, {'span': 'Peshawar', 'entity': 'Location'}, {'span': 'Multan', 'entity': 'Location'}, {'span': 'Sialkot', 'entity': 'Location'}, {'span': 'Faisalabad', 'entity': 'Location'}]'
+
+Example #9: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #10: Gandhian right-wing Congressmen Vallabhbhai Patel, Rajendra Prasad and C. Rajagopalachari .In the 1930s the Congress Socialist Party group was formed within the INC under the leadership of Jayaprakash Narayan, Narendra Deo and Nehru, however, never joined the group but did act as bridge between them and Gandhi.
+Expected output: 'entities: [{'span': 'Gandhian', 'entity': 'Politician'}, {'span': 'Vallabhbhai Patel', 'entity': 'Politician'}, {'span': 'Rajendra Prasad', 'entity': 'Politician'}, {'span': 'C. Rajagopalachari', 'entity': 'Politician'}, {'span': 'Congress Socialist Party', 'entity': 'Political Party'}, {'span': 'INC', 'entity': 'Misc'}, {'span': 'Jayaprakash Narayan', 'entity': 'Politician'}, {'span': 'Narendra Deo', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Gandhi', 'entity': 'Politician'}]'
+

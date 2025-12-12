@@ -1,0 +1,60 @@
+Example #1: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+
+Example #2: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #3: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #4: Samuel became a county judge, and the guests at his home included Andrew Jackson, who had already served as a judge and in Congress.Borneman, James learned from the political talk around the dinner table; both Samuel and Ezekiel were strong supporters of President Thomas Jefferson and opponents of the Federalist Party.
+Expected output: 'entities: [{'span': 'Samuel', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'James', 'entity': 'Politician'}, {'span': 'Ezekiel', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}]'
+
+Example #5: During his time as governor, Thompson served as chairman of the National Governors Association and the Education Commission of the States, in addition to the Council of State Governments, the Republican Governors Association, the Council of Great Lakes Governors, and the Midwestern Governors Association.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'National Governors Association', 'entity': 'Political Party'}, {'span': 'Education Commission of the States', 'entity': 'Organisation'}, {'span': 'Council of State Governments', 'entity': 'Organisation'}, {'span': 'Republican Governors Association', 'entity': 'Political Party'}, {'span': 'Council of Great Lakes Governors', 'entity': 'Organisation'}, {'span': 'Midwestern Governors Association', 'entity': 'Organisation'}]'
+
+Example #6: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #7: After winning the 1979 United Kingdom general election, Margaret Thatcher appointed Keith Joseph, the director of the Hayekian Centre for Policy Studies, as her secretary of state for industry in an effort to redirect parliament's economic strategies.
+Expected output: 'entities: [{'span': '1979 United Kingdom general election', 'entity': 'Election'}, {'span': 'Margaret Thatcher', 'entity': 'Politician'}, {'span': 'Keith Joseph', 'entity': 'Politician'}, {'span': 'Hayekian Centre for Policy Studies', 'entity': 'Organisation'}]'
+
+Example #8: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #9: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #10: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+
+Example #11: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #12: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #13: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+
+Example #14: Hamlin survived six of his successors in the vice presidency: Andrew Johnson, Schuyler Colfax, Henry Wilson, William A. Wheeler, Chester A. Arthur, and Thomas A. Hendricks.
+Expected output: 'entities: [{'span': 'Hamlin', 'entity': 'Politician'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Schuyler Colfax', 'entity': 'Politician'}, {'span': 'Henry Wilson', 'entity': 'Politician'}, {'span': 'William A. Wheeler', 'entity': 'Politician'}, {'span': 'Chester A. Arthur', 'entity': 'Politician'}, {'span': 'Thomas A. Hendricks', 'entity': 'Politician'}]'
+
+Example #15: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #16: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #17: After some time, more candidates were presented, like Union of Democrats for Europe leader Clemente Mastella, Italy of Values leader and former magistrate Antonio Di Pietro, Federation of the Greens leader Alfonso Pecoraro Scanio and others few minor candidates.
+Expected output: 'entities: [{'span': 'Union of Democrats for Europe', 'entity': 'Political Party'}, {'span': 'Clemente Mastella', 'entity': 'Politician'}, {'span': 'Italy of Values', 'entity': 'Political Party'}, {'span': 'Antonio Di Pietro', 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'Alfonso Pecoraro Scanio', 'entity': 'Politician'}]'
+
+Example #18: Hagelin stood as a candidate for President of the United States for the Natural Law Party, a party founded by the TM movement, in the 1992 United States presidential election, 1996 United States presidential election and 2000 United States presidential election elections.
+Expected output: 'entities: [{'span': 'Hagelin', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'Natural Law Party', 'entity': 'Political Party'}, {'span': 'TM movement', 'entity': 'Event'}, {'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': '1996 United States presidential election', 'entity': 'Election'}, {'span': '2000 United States presidential election', 'entity': 'Election'}]'
+
+Example #19: Motivated by Tower's victory, and hoping to prevent the far-right John Birch Society from coming to power, Bush ran for the chairmanship of the Harris County, Texas Republican Party, winning election in February 1963. Like most other Texas Republicans, Bush supported conservative Senator Barry Goldwater over the more centrist Nelson Rockefeller in the 1964 Republican Party presidential primaries.
+Expected output: 'entities: [{'span': 'Tower', 'entity': 'Person'}, {'span': 'John Birch Society', 'entity': 'Organisation'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Harris County', 'entity': 'Location'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Republican Party', 'entity': 'Political Party'}, {'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Barry Goldwater', 'entity': 'Politician'}, {'span': 'Nelson Rockefeller', 'entity': 'Politician'}, {'span': '1964 Republican Party presidential primaries', 'entity': 'Election'}]'
+
+Example #20: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+

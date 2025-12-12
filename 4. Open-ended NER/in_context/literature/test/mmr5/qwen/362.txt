@@ -1,0 +1,15 @@
+Example #1: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #2: Due to pressure by fans on Asimov to write another book in his Foundation series, he did so with Foundation's Edge (1982) and Foundation and Earth (1986), and then went back to before the original trilogy with Prelude to Foundation (1988) and Forward the Foundation (1992), his last novel.
+Expected output: 'entities: [{'span': 'Asimov', 'entity': 'Writer'}, {'span': 'Foundation series', 'entity': 'Misc'}, {'span': "Foundation's Edge", 'entity': 'Book'}, {'span': 'Foundation and Earth', 'entity': 'Book'}, {'span': 'trilogy', 'entity': 'Misc'}, {'span': 'Prelude to Foundation', 'entity': 'Book'}, {'span': 'Forward the Foundation', 'entity': 'Book'}, {'span': 'novel', 'entity': 'Literary Genre'}]'
+
+Example #3: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+
+Example #4: In 1985, Spielberg released The Color Purple, an adaptation of Alice Walker ' s Pulitzer Prize -winning The Color Purple, about a generation of empowered African-American women during depression-era America.
+Expected output: 'entities: [{'span': 'Spielberg', 'entity': 'Writer'}, {'span': 'The Color Purple', 'entity': 'Book'}, {'span': 'Alice Walker', 'entity': 'Writer'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'African-American', 'entity': 'Misc'}, {'span': 'America', 'entity': 'Country'}]'
+
+Example #5: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+

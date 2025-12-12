@@ -1,0 +1,30 @@
+Example #1: The NIST metric is based on the BLEU metric, but with some alterations.
+Expected output: 'entities: [{'span': 'NIST metric', 'entity': 'Metrics'}, {'span': 'BLEU metric', 'entity': 'Metrics'}]'
+
+Example #2: Lafferty received numerous awards, including two Test-of-Time awards at the International Conference on Machine Learning 2011 & 2012,
+Expected output: 'entities: [{'span': 'Lafferty', 'entity': 'Researcher'}, {'span': 'Test-of-Time awards', 'entity': 'Misc'}, {'span': 'International Conference on Machine Learning 2011 & 2012', 'entity': 'Conference'}]'
+
+Example #3: During the 1990s, encouraged by successes in speech recognition and speech synthesis, research began into speech translation with the development of the German Verbmobil project.
+Expected output: 'entities: [{'span': 'speech recognition', 'entity': 'Task'}, {'span': 'speech synthesis', 'entity': 'Task'}, {'span': 'speech translation', 'entity': 'Task'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Verbmobil project', 'entity': 'Misc'}]'
+
+Example #4: He discusses Breadth-first search and Depth-first search techniques, but eventually concludes that the results represent expert system s that incarnate a lot of technical knowledge but don 't shine much light on the mental processes that humans use to solve such puzzles.
+Expected output: 'entities: [{'span': 'Breadth-first search', 'entity': 'Algorithm'}, {'span': 'Depth-first search', 'entity': 'Algorithm'}, {'span': 'expert system', 'entity': 'Product'}]'
+
+Example #5: A typical factory contains hundreds of industrial robot s working on fully automated production lines, with one robot for every ten human workers.
+Expected output: 'entities: [{'span': 'industrial robot', 'entity': 'Product'}]'
+
+Example #6: As with BLEU, the basic unit of evaluation is the sentence, the algorithm first creates an alignment (see illustrations) between two sentence s, the candidate translation string, and the reference translation string.
+Expected output: 'entities: [{'span': 'BLEU', 'entity': 'Metrics'}]'
+
+Example #7: Linear-fractional programming (LFP) is a generalization of linear programming (LP).
+Expected output: 'entities: [{'span': 'Linear-fractional programming', 'entity': 'Algorithm'}, {'span': 'LFP', 'entity': 'Algorithm'}, {'span': 'linear programming', 'entity': 'Algorithm'}, {'span': 'LP', 'entity': 'Algorithm'}]'
+
+Example #8: With long-time collaborator Laurent Cohen, a neurologist at the Pitié-Salpêtrière Hospital in Paris, Dehaene also identified patients with lesions in different regions of the parietal lobe with impaired multiplication, but preserved subtraction (associated with lesions of the inferior parietal lobule) and others with impaired subtraction, but preserved multiplication (associated with lesions to the intraparietal sulcus).
+Expected output: 'entities: [{'span': 'Laurent Cohen', 'entity': 'Researcher'}, {'span': 'Pitié-Salpêtrière Hospital', 'entity': 'Organisation'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Dehaene', 'entity': 'Researcher'}, {'span': 'parietal lobe', 'entity': 'Misc'}, {'span': 'inferior parietal lobule', 'entity': 'Misc'}, {'span': 'intraparietal sulcus', 'entity': 'Misc'}]'
+
+Example #9: or equivalently using DCG notation:
+Expected output: 'entities: [{'span': 'DCG', 'entity': 'Metrics'}]'
+
+Example #10: Neuroevolution is commonly used as part of the reinforcement learning paradigm, and it can be contrasted with conventional deep learning techniques that use gradient descent on a neural network with a fixed topology.
+Expected output: 'entities: [{'span': 'Neuroevolution', 'entity': 'Misc'}, {'span': 'reinforcement learning', 'entity': 'Field'}, {'span': 'deep learning', 'entity': 'Field'}, {'span': 'gradient descent', 'entity': 'Algorithm'}, {'span': 'neural network', 'entity': 'Algorithm'}]'
+

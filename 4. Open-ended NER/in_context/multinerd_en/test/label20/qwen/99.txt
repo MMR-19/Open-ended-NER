@@ -1,0 +1,60 @@
+Example #1: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #2: It began approximately in the mid-18 th century and depending on the author either ended with the beginning of contemporary history after World War II, or includes that period up to the present day.
+Expected output: 'entities: [{'span': 'contemporary history', 'entity': 'Time'}, {'span': 'World War II', 'entity': 'Event'}]'
+
+Example #3: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #4: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #5: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #6: Her mother Ceres, also known as Demeter, the goddess of agriculture or of the Earth, went looking for her across all of the world, and all in vain.
+Expected output: 'entities: [{'span': 'Ceres', 'entity': 'Mythological entity'}, {'span': 'Demeter', 'entity': 'Mythological entity'}, {'span': 'Earth', 'entity': 'Celestial Body'}]'
+
+Example #7: These can include those of advanced age, patients bed-bound in a hospital, individuals with certain types of physical or mental disability, and people working in extreme conditions, such as astronauts.
+Expected output: 'entities: [{'span': 'those of advanced age', 'entity': 'Time'}, {'span': 'mental', 'entity': 'Disease'}, {'span': 'disability', 'entity': 'Disease'}]'
+
+Example #8: For example, although the typical recipe calls for beef and pork, the Kiev variant uses mutton or lamb as well as beef, while in the Poltava region, the stock for borscht is cooked on poultry meat, that is, chicken, duck or goose.
+Expected output: 'entities: [{'span': 'Kiev', 'entity': 'Location'}, {'span': 'mutton or lamb', 'entity': 'Food'}, {'span': 'Poltava', 'entity': 'Location'}, {'span': 'goose', 'entity': 'Animal'}]'
+
+Example #9: This required extensive modifications to add a large radar to the nose of the aircraft, a second crew member to operate it, and a new weapons bay using a rotating door that kept its four AIM-4 Falcon missiles or two AIR-2 Genie rockets hidden within the airframe until it was time to be fired.
+Expected output: 'entities: [{'span': 'AIM-4 Falcon', 'entity': 'Instrument'}, {'span': 'AIR-2 Genie', 'entity': 'Vehicle'}]'
+
+Example #10: This required extensive modifications to add a large radar to the nose of the aircraft, a second crew member to operate it, and a new weapons bay using a rotating door that kept its four AIM-4 Falcon missiles or two AIR-2 Genie rockets hidden within the airframe until it was time to be fired.
+Expected output: 'entities: [{'span': 'AIM-4 Falcon', 'entity': 'Instrument'}, {'span': 'AIR-2 Genie', 'entity': 'Vehicle'}]'
+
+Example #11: A " spider roll " is a type of " makizushi " sushi that includes breaded or battered soft-shell crab and other ingredients such as cucumber, avocado, daikon sprouts or lettuce, and spicy mayonnaise, rolled inside nori and sushi rice.
+Expected output: 'entities: [{'span': 'sushi', 'entity': 'Food'}, {'span': 'soft-shell crab', 'entity': 'Animal'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'daikon', 'entity': 'Plant'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'nori', 'entity': 'Food'}]'
+
+Example #12: " obložený chlebíček ") - slant ways cut slice of " veka " (long narrow white bread) spread with butter and / or with various combinations of mayonnaise salads and hard boiled egg, cheese, ham, salami, smoked fish (salmon or sprats or pickled herring), tomato, pickled cucumber, lettuce, raw onion or other vegetable, etc.
+Expected output: 'entities: [{'span': 'veka', 'entity': 'Food'}, {'span': 'butter', 'entity': 'Food'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'cheese', 'entity': 'Food'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'salami', 'entity': 'Food'}, {'span': 'salmon', 'entity': 'Animal'}, {'span': 'sprats', 'entity': 'Food'}, {'span': 'herring', 'entity': 'Animal'}, {'span': 'tomato', 'entity': 'Plant'}, {'span': 'pickled cucumber', 'entity': 'Food'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'onion', 'entity': 'Plant'}]'
+
+Example #13: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #14: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #15: The hero is presented devoid of rank or status, and seems notably human, though heroic, as he is forever trying to pull Paris's arrow from his heel.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Mythological entity'}]'
+
+Example #16: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+
+Example #17: While the therapy cannot undo the effects of a person's first puberty, developing secondary sex characteristics associated with a different sex can relieve some or all of the distress and discomfort associated with gender dysphoria, and can help the person to " pass " or be seen as the gender they identify with.
+Expected output: 'entities: [{'span': 'puberty', 'entity': 'Time'}, {'span': 'gender dysphoria', 'entity': 'Disease'}]'
+
+Example #18: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #19: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #20: In Tabriz, they are made of almond flour, sugar, egg white, vanilla, margarine and pistachio.
+Expected output: 'entities: [{'span': 'Tabriz', 'entity': 'Location'}, {'span': 'egg white', 'entity': 'Food'}, {'span': 'vanilla', 'entity': 'Food'}, {'span': 'margarine', 'entity': 'Food'}, {'span': 'pistachio', 'entity': 'Plant'}]'
+

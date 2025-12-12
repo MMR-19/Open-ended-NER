@@ -1,0 +1,15 @@
+Example #1: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #2: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #3: MARIÂNGELA MEYER (RELATORA) V O T O Trata-se de apelação cível interposta por REBECCA DE AGUIAR LACERDA contra a sentença de fls. 138/140, prolatada pelo MM.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}, {'span': 'REBECCA DE AGUIAR LACERDA', 'entity': 'Pessoa'}]'
+
+Example #4: Firmado por assinatura digital (MP 2.200-2/2001) DELAÍDE MIRANDA ARANTES Ministra Relatora fls. PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242 Firmado por assinatura digital em 04/03/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}, {'span': 'DELAÍDE MIRANDA ARANTES', 'entity': 'Pessoa'}, {'span': 'PROCESSO Nº TST-ED-RR-151-93.2010.5.09.0242', 'entity': 'Jurisprudência'}, {'span': '04/03/2016', 'entity': 'Tempo'}, {'span': 'Infra-Estrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}]'
+
+Example #5: Brasília, 23 de fevereiro de 2016 (Data do Julgamento) Ministra Maria Thereza de Assis Moura Relatora HABEAS CORPUS Nº 340.624 - SP (2015⁄0282121-1) RELATORA: MINISTRA MARIA THEREZA DE ASSIS MOURA IMPETRANTE: GUILHERME RODRIGUES DA SILVA E OUTROS ADVOGADO: GUILHERME RODRIGUES DA SILVA E OUTRO (S) IMPETRADO: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO PACIENTE: CLAUDINEI RICARDO ZIRONDI RELATÓRIO MINISTRA MARIA THEREZA DE ASSIS MOURA (Relatora): Trata-se de habeas corpus, com pedido de liminar, impetrado em favor de CLAUDINEI RICARDO ZIRONDI, apontando como autoridade coatora o Desembargador Relator no Tribunal de Justiça do Estado de São Paulo (HC n.º 2220691-95.2015.8.26.0000).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2016', 'entity': 'Tempo'}, {'span': 'Maria Thereza de Assis Moura', 'entity': 'Pessoa'}, {'span': 'HABEAS CORPUS Nº 340.624 - SP', 'entity': 'Jurisprudência'}, {'span': '2015⁄0282121-1', 'entity': 'Jurisprudência'}, {'span': 'MARIA THEREZA DE ASSIS MOURA', 'entity': 'Pessoa'}, {'span': 'GUILHERME RODRIGUES DA SILVA', 'entity': 'Pessoa'}, {'span': 'TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO', 'entity': 'Organização'}, {'span': 'CLAUDINEI RICARDO ZIRONDI', 'entity': 'Pessoa'}, {'span': 'Tribunal de Justiça do Estado de São Paulo', 'entity': 'Organização'}, {'span': 'HC n.º 2220691-95.2015.8.26.0000', 'entity': 'Jurisprudência'}]'
+

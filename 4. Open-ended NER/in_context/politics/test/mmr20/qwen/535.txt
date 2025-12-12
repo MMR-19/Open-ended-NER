@@ -1,0 +1,60 @@
+Example #1: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #2: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #3: Following Genscher's resignation, Chancellor Helmut Kohl and FDP chairman Otto Graf Lambsdorff named Irmgard Schwaetzer, a former aide to Genscher, to be the new Foreign Minister.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'Otto Graf Lambsdorff', 'entity': 'Politician'}, {'span': 'Irmgard Schwaetzer', 'entity': 'Politician'}]'
+
+Example #4: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #5: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #6: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #7: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #8: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #9: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #10: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #11: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #12: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #13: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #14: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #15: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+
+Example #16: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #17: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #18: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #19: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #20: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+

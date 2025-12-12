@@ -1,0 +1,60 @@
+Example #1: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #2: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #3: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #4: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #5: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #6: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #7: After two failed attempts, New Democratic Party candidate Olivia Chow (wife of NDP leader Jack Layton), was elected in the 2006 Canadian federal election, representing the riding of Trinity - Spadina, and the Bloc Québécois had an ethnic Chinese candidate, May Chiu, running in the riding of LaSalle - Émard against Liberal Party of Canada leader Paul Martin during the 2006 election.
+Expected output: 'entities: [{'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Olivia Chow', 'entity': 'Politician'}, {'span': 'NDP', 'entity': 'Political Party'}, {'span': 'Jack Layton', 'entity': 'Politician'}, {'span': '2006 Canadian federal election', 'entity': 'Election'}, {'span': 'Trinity - Spadina', 'entity': 'Location'}, {'span': 'Bloc Québécois', 'entity': 'Political Party'}, {'span': 'May Chiu', 'entity': 'Politician'}, {'span': 'LaSalle - Émard', 'entity': 'Location'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'Paul Martin', 'entity': 'Politician'}, {'span': '2006 election', 'entity': 'Election'}]'
+
+Example #8: Page returned to cabinet after the 1934 Australian federal election, when the Country Party entered a new coalition with Joseph Lyons ' United Australia Party.
+Expected output: 'entities: [{'span': '1934 Australian federal election', 'entity': 'Election'}, {'span': 'Country Party', 'entity': 'Political Party'}, {'span': 'Joseph Lyons', 'entity': 'Politician'}, {'span': 'United Australia Party', 'entity': 'Political Party'}]'
+
+Example #9: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #10: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #11: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #12: Formed by the Social Democratic Party (SDP) and the Liberal Party, the SDP-Liberal Alliance was established in 1981, contesting the 1983 United Kingdom general election, 1984 European Parliament election in the United Kingdom and 1987 United Kingdom general election.
+Expected output: 'entities: [{'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'SDP', 'entity': 'Political Party'}, {'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'SDP-Liberal Alliance', 'entity': 'Political Party'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1984 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #13: The major political parties at this time were the Polish Socialist Party, National Democracy, various Peasant Parties, Polish Christian Democratic Party, and political groups of ethnic minorities (German: German Social Democratic Party of Poland, Jewish: General Jewish Labour Bund in Poland, United Jewish Socialist Workers Party, and Ukrainian: Ukrainian National Democratic Alliance).
+Expected output: 'entities: [{'span': 'Polish Socialist Party', 'entity': 'Political Party'}, {'span': 'National Democracy', 'entity': 'Political Party'}, {'span': 'Peasant Parties', 'entity': 'Political Party'}, {'span': 'Polish Christian Democratic Party', 'entity': 'Political Party'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'German Social Democratic Party of Poland', 'entity': 'Political Party'}, {'span': 'Jewish', 'entity': 'Misc'}, {'span': 'General Jewish Labour Bund in Poland', 'entity': 'Political Party'}, {'span': 'United Jewish Socialist Workers Party', 'entity': 'Political Party'}, {'span': 'Ukrainian', 'entity': 'Misc'}, {'span': 'Ukrainian National Democratic Alliance', 'entity': 'Political Party'}]'
+
+Example #14: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #15: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #16: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #17: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #18: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #19: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #20: In Italy, the Italian Social Movement led by Giorgio Almirante was a major neo-fascist movement that transformed itself into a self-described post-fascist movement called the National Alliance (AN), which has been an ally of Silvio Berlusconi ' s Forza Italia for a decade.
+Expected output: 'entities: [{'span': 'Italy', 'entity': 'Location'}, {'span': 'Italian Social Movement', 'entity': 'Political Party'}, {'span': 'Giorgio Almirante', 'entity': 'Politician'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'AN', 'entity': 'Political Party'}, {'span': 'Silvio Berlusconi', 'entity': 'Politician'}, {'span': 'Forza Italia', 'entity': 'Political Party'}]'
+

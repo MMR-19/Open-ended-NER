@@ -1,0 +1,30 @@
+Example #1: Any additional costs of solicitation will be paid by the Fund that requires additional solicitation.
+Expected output: 'entities: []'
+
+Example #2: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #3: To the Shareholders of the Above Funds:
+Expected output: 'entities: []'
+
+Example #4: John P. Amboian, Robert P. Bremner, Chair, and Judith M. Stockdale serve as current members of the executive committee of each Fund.
+Expected output: 'entities: [{'span': 'John P. Amboian', 'entity': 'Location'}, {'span': 'Robert P. Bremner', 'entity': 'Location'}, {'span': 'Judith M. Stockdale', 'entity': 'Location'}]'
+
+Example #5: Robert P. Bremner, Chair, Jack B. Evans, William C. Hunter, David J. Kundert, William J. Schneider, Judith M. Stockdale, Carole E. Stone and Terence J. Toth are current members of the nominating and governance committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'William C. Hunter', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Judith M. Stockdale', 'entity': 'Person'}, {'span': 'Carole E. Stone', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #6: The cost of preparing, printing and mailing the enclosed proxy, accompanying notice and proxy statement and all other costs in connection with the solicitation of proxies will be paid by the Funds pro rata based on the number of shareholder accounts.
+Expected output: 'entities: []'
+
+Example #7: The Audit Committee shall assist the Board in oversight and monitoring of (1) the accounting and reporting policies, processes and practices, and the audits of the financial statements, of the Funds; (2) the quality and integrity of the financial statements of the Funds; (3) the Funds compliance with legal and regulatory requirements, (4) the independent auditors qualifications, performance and independence; and (5) oversight of the Pricing Procedures of the Funds and the Valuation Group.
+Expected output: 'entities: []'
+
+Example #8: Audit Committee members shall be independent of the Funds and free of any relationship that, in the opinion of the Directors/Trustees, would interfere with their exercise of independent judgment as an Audit Committee member.
+Expected output: 'entities: []'
+
+Example #9: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #10: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+

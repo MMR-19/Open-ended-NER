@@ -1,0 +1,30 @@
+Example #1: It is generally estimated that over 3 million people marched in Rome, between one and two million in London, more than 600,000 in Madrid, 300,000 in Berlin, as well as in Damascus, Paris, New York, Oslo, Stockholm, Brussels, Johannesburg, Montreal - more than 600 cities in all, worldwide.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Country'}, {'span': 'London', 'entity': 'Country'}, {'span': 'Madrid', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Damascus', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'New York', 'entity': 'Location'}, {'span': 'Oslo', 'entity': 'Location'}, {'span': 'Stockholm', 'entity': 'Location'}, {'span': 'Brussels', 'entity': 'Location'}, {'span': 'Johannesburg', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #2: He was the former president of the American Political Science Association and a member of the American Academy of Arts and Sciences, American Philosophical Society and Human Rights Foundation.
+Expected output: 'entities: [{'span': 'American Political Science Association', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'Human Rights Foundation', 'entity': 'Organisation'}]'
+
+Example #3: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #4: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #5: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+
+Example #6: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #7: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #8: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #9: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #10: He gained further international attention as the chief leader of the Non-Aligned Movement, alongside Jawaharlal Nehru of India, Gamal Abdel Nasser of Egypt, and Kwame Nkrumah of Ghana.
+Expected output: 'entities: [{'span': 'Non-Aligned Movement', 'entity': 'Organisation'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}]'
+

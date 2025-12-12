@@ -1,0 +1,30 @@
+Example #1: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #2: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #3: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #4: (REsp 1439024/DF, Rel. Ministro HERMAN BENJAMIN, SEGUNDA TURMA, julgado em 22/11/2016, DJe 30/11/2016).
+Expected output: 'entities: [{'span': 'REsp 1439024/DF', 'entity': 'Jurisprudência'}, {'span': 'HERMAN BENJAMIN', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': '22/11/2016', 'entity': 'Tempo'}, {'span': '30/11/2016', 'entity': 'Tempo'}]'
+
+Example #5: (AgRg no REsp 1251201/MG, Rel. Ministro NAPOLEÃO NUNES MAIA FILHO, PRIMEIRA TURMA, julgado em 18/10/2016, DJe 27/10/2016).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1251201/MG', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '18/10/2016', 'entity': 'Tempo'}, {'span': '27/10/2016', 'entity': 'Tempo'}]'
+
+Example #6: (AgRg no REsp 526.638/SP, Rel. Ministra MARIA ISABEL GALLOTTI, QUARTA TURMA, julgado em 19/02/2013, DJe 27/02/2013).
+Expected output: 'entities: [{'span': 'AgRg no REsp 526.638/SP', 'entity': 'Jurisprudência'}, {'span': 'MARIA ISABEL GALLOTTI', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '19/02/2013', 'entity': 'Tempo'}, {'span': '27/02/2013', 'entity': 'Tempo'}]'
+
+Example #7: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #8: REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018). ''
+Expected output: 'entities: [{'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #9: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #10: A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts. 557, caput, e § 1º-A, do Código de Processo Civil, e 3º do Código de Processo Penal - CPP, que permitem ao relator dar provimento, negar seguimento a recurso manifestamente inadmissível, improcedente, prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal, do Supremo Tribunal Federal, ou de Tribunal Superior '' (AgRg nos EREsp 1.387.000/PR, Rel. Min. Ericson Maranho (Desembargador convocado do TJ/SP), Terceira Seção, DJe 17/06/2015).
+Expected output: 'entities: [{'span': 'arts. 557, caput, e § 1º-A, do Código de Processo Civil', 'entity': 'Legislação'}, {'span': '3º do Código de Processo Penal - CPP', 'entity': 'Legislação'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'AgRg nos EREsp 1.387.000/PR', 'entity': 'Jurisprudência'}, {'span': 'Ericson Maranho', 'entity': 'Pessoa'}, {'span': 'TJ/SP', 'entity': 'Organização'}, {'span': '17/06/2015', 'entity': 'Tempo'}]'
+

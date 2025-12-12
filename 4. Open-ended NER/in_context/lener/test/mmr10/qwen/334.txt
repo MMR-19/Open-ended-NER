@@ -1,0 +1,30 @@
+Example #1: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #2: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #3: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #4: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL PARA A PROPOSITURA DE LEIS QUE VERSEM SOBRE ALTERAÇÃO DE USO DE SOLO NO ÂMBITO DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #5: `` EMENTA: 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO (CPM, ART. 187) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA, NA HIPÓTESE DE CRIME DE DESERÇÃO, PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos, Matricula 8829. Em 13/03/2018 14:29:31. Para confirmar a validade deste documento, acesse: https: //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 PENAL - EXTINÇÃO DEFINITIVA DO PROCESSO CRIMINAL INSTAURADO PERANTE A JUSTIÇA MILITAR - PEDIDO DEFERIDO. ''
+Expected output: 'entities: [{'span': 'CPM, ART. 187', 'entity': 'Legislação'}, {'span': 'SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'entity': 'Jurisprudência'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Luis Carlos Gomes Mattos', 'entity': 'Pessoa'}, {'span': '13/03/2018', 'entity': 'Tempo'}]'
+
+Example #6: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #7: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #8: Em razão do princípio da estabilidade da demanda, não se admite a alteração da causa de pedir, ainda que com o consentimento do réu, após o saneamento do processo, consoante vedação contida no art. 329, II, do CPC.
+Expected output: 'entities: [{'span': 'art. 329, II, do CPC', 'entity': 'Legislação'}]'
+
+Example #9: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #10: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+

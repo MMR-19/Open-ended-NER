@@ -1,0 +1,30 @@
+Example #1: In addition to writing for The New Yorker, he has written for The Atlantic Monthly and National Geographic.
+Expected output: 'entities: [{'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'The Atlantic Monthly', 'entity': 'Magazine'}, {'span': 'National Geographic', 'entity': 'Magazine'}]'
+
+Example #2: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+
+Example #3: Due to pressure by fans on Asimov to write another book in his Foundation series, he did so with Foundation's Edge (1982) and Foundation and Earth (1986), and then went back to before the original trilogy with Prelude to Foundation (1988) and Forward the Foundation (1992), his last novel.
+Expected output: 'entities: [{'span': 'Asimov', 'entity': 'Writer'}, {'span': 'Foundation series', 'entity': 'Misc'}, {'span': "Foundation's Edge", 'entity': 'Book'}, {'span': 'Foundation and Earth', 'entity': 'Book'}, {'span': 'trilogy', 'entity': 'Misc'}, {'span': 'Prelude to Foundation', 'entity': 'Book'}, {'span': 'Forward the Foundation', 'entity': 'Book'}, {'span': 'novel', 'entity': 'Literary Genre'}]'
+
+Example #4: Bova holds the position of President Emeritus of the National Space Society and served as President of Science Fiction and Fantasy Writers of America (SFWA) from 1990 to 1992.
+Expected output: 'entities: [{'span': 'Bova', 'entity': 'Writer'}, {'span': 'President Emeritus', 'entity': 'Misc'}, {'span': 'National Space Society', 'entity': 'Organisation'}, {'span': 'Science Fiction and Fantasy Writers of America', 'entity': 'Organisation'}, {'span': 'SFWA', 'entity': 'Organisation'}]'
+
+Example #5: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #6: Also in 2007 he provided consulting services to Silver Pictures on the film adaptation of Richard K. Morgan ' s hardboiled cyberpunk science-fiction novel Altered Carbon (2002).
+Expected output: 'entities: [{'span': 'Silver Pictures', 'entity': 'Organisation'}, {'span': 'Richard K. Morgan', 'entity': 'Writer'}, {'span': 'science-fiction novel', 'entity': 'Literary Genre'}, {'span': 'Altered Carbon', 'entity': 'Book'}]'
+
+Example #7: John Updike, comparing Abner to a hillbilly Candide, added that the strip's richness of social and philosophical commentary approached the Voltairean.
+Expected output: 'entities: [{'span': 'John Updike', 'entity': 'Writer'}, {'span': 'Abner', 'entity': 'Person'}, {'span': 'Candide', 'entity': 'Book'}]'
+
+Example #8: He also gave a lecture at the Beethovensaal in Berlin on 13 October 1922, which appeared in Neue Rundschau in November 1922 in which he developed his eccentric defence of the Republic, based on extensive close readings of Novalis and Walt Whitman.
+Expected output: 'entities: [{'span': 'Beethovensaal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Neue Rundschau', 'entity': 'Magazine'}, {'span': 'Novalis', 'entity': 'Writer'}, {'span': 'Walt Whitman', 'entity': 'Writer'}]'
+
+Example #9: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #10: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+

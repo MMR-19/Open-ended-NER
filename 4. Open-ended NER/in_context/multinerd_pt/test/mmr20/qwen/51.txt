@@ -1,0 +1,60 @@
+Example #1: A companhia aérea aposentou seu último Boeing 747 (JA8089) em 1º de março de 2011.
+Expected output: 'entities: [{'span': 'Boeing 747', 'entity': 'Veículo'}]'
+
+Example #2: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #3: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #4: Em 2007, com o lançamento do terceiro disco da banda, " Celestial ", deram início a segunda turnê da carreira, a Celestial World Tour, que teve início em 20 de abril de 2007 e teve término em fevereiro de 2008.
+Expected output: 'entities: [{'span': 'Celestial', 'entity': 'Média'}, {'span': 'Celestial World Tour', 'entity': 'Evento'}]'
+
+Example #5: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #6: A única classe neste subfilo é Saccharomycetes.
+Expected output: 'entities: [{'span': 'Saccharomycetes', 'entity': 'Entidade biológica'}]'
+
+Example #7: No século 28, após o fim da construção da Estação Espacial Internacional, diversas raças alienígenas fazem contato com a humanidade e adicionam sua tecnologia à estação, tornando sua massa demasiadamente grande para mantê-la na órbita da Terra.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Aproveitando a oportunidade em suas mãos, Nelson Piquet marcou o melhor tempo em Jacarepaguá com seu modelo Brabham BT49 ao testar os compostos da Goodyear na quarta-feira de cinzas.
+Expected output: 'entities: [{'span': 'Nelson Piquet', 'entity': 'Pessoa'}, {'span': 'Jacarepaguá', 'entity': 'Localização'}, {'span': 'Brabham BT49', 'entity': 'Veículo'}, {'span': 'Goodyear', 'entity': 'Organização'}, {'span': 'quarta-feira de cinzas', 'entity': 'Tempo'}]'
+
+Example #9: O single apareceu em um comercial para o carro Citroën C4.
+Expected output: 'entities: [{'span': 'Citroën C4', 'entity': 'Veículo'}]'
+
+Example #10: Alguns membros da tropa podiam adquirir fuzis de assalto AK-47 tão somente preenchendo um formulário de demanda.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}]'
+
+Example #11: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+
+Example #12: Seu nome também foi alterado para " Britannic " e seu comissionamento adiado para 1914.
+Expected output: 'entities: [{'span': 'Britannic', 'entity': 'Veículo'}]'
+
+Example #13: Sendo retomada a produção em 2008, com o retorno da produção do modelo DeLorean DMC-12.
+Expected output: 'entities: [{'span': 'DeLorean DMC-12', 'entity': 'Veículo'}]'
+
+Example #14: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #15: Em janeiro de 2015, a artista recorreu à sua conta oficial no Twitter para revelar algumas pistas sobre o novo material, escrevendo o seguinte: " Proof of life & Dr. Dre # TheNextEpisode " (" sic ").
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}, {'span': 'Dr. Dre', 'entity': 'Pessoa'}, {'span': 'TheNextEpisode', 'entity': 'Média'}]'
+
+Example #16: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #17: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #18: Uma imagem que retornou da Voyager era a Terra, a 6,4 bilhões de quilômetros de distância, mostrando-a como um " pálido ponto azul " na granulada imagem.
+Expected output: 'entities: [{'span': 'Voyager', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #19: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #20: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+

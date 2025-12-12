@@ -1,0 +1,60 @@
+Example #1: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #2: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #3: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #4: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #5: 6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene (6,7-Dibromonaphthalene-1,4-endoxide, accessible after debromination from 1,2,4,5-Tetrabromobenzene using an equivalent of N-Butyllithium and Diels-Alder reaction in furan in 70 % yield { { cite journal | author = H. Hart, A. Bashir-Hashemi, J. Luo, M. A. Meador | journal = Tetrahedron | title = Iptycenes: Extended Triptycenes | volume = 42 | year = 1986 | page = 1641-1654 | doi = 10.1016 / S0040-4020 (1) 87581-5
+Expected output: 'entities: [{'span': '6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene', 'entity': 'Chemical Compound'}, {'span': '6,7-Dibromonaphthalene-1,4-endoxide', 'entity': 'Chemical Compound'}, {'span': '1,2,4,5-Tetrabromobenzene', 'entity': 'Chemical Compound'}, {'span': 'N-Butyllithium', 'entity': 'Chemical Compound'}, {'span': 'Diels-Alder reaction', 'entity': 'Misc'}, {'span': 'furan', 'entity': 'Chemical Compound'}, {'span': 'H. Hart', 'entity': 'Scientist'}, {'span': 'A. Bashir-Hashemi', 'entity': 'Scientist'}, {'span': 'J. Luo', 'entity': 'Scientist'}, {'span': 'M. A. Meador', 'entity': 'Scientist'}, {'span': 'Tetrahedron', 'entity': 'Academic Journal'}, {'span': 'Iptycenes: Extended Triptycenes', 'entity': 'Misc'}]'
+
+Example #6: The Apollo 7 mission is dramatized in the 1998 miniseries From the Earth to the Moon episode We Have Cleared the Tower, with Mark Harmon as Schirra, John Mese as Eisele, Fredric Lehne as Cunningham, and Max Wright as Wendt.
+Expected output: 'entities: [{'span': 'Apollo 7 mission', 'entity': 'Misc'}, {'span': 'From the Earth to the Moon', 'entity': 'Misc'}, {'span': 'We Have Cleared the Tower', 'entity': 'Misc'}, {'span': 'Mark Harmon', 'entity': 'Person'}, {'span': 'Schirra', 'entity': 'Person'}, {'span': 'John Mese', 'entity': 'Person'}, {'span': 'Eisele', 'entity': 'Person'}, {'span': 'Fredric Lehne', 'entity': 'Person'}, {'span': 'Cunningham', 'entity': 'Person'}, {'span': 'Max Wright', 'entity': 'Person'}, {'span': 'Wendt', 'entity': 'Person'}]'
+
+Example #7: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #8: In 1991, John Preskill and Kip Thorne bet against Stephen Hawking that the hypothesis was FALSE.
+Expected output: 'entities: [{'span': 'John Preskill', 'entity': 'Scientist'}, {'span': 'Kip Thorne', 'entity': 'Scientist'}, {'span': 'Stephen Hawking', 'entity': 'Scientist'}]'
+
+Example #9: Between 1855 and 1881 it had two parts, the first for the meridian of Greenwich contained data on the Sun, Moon, lunar distances, Venus, Mars, Jupiter, and Saturn, which was published separately as The American Nautical Almanac.
+Expected output: 'entities: [{'span': 'meridian of Greenwich', 'entity': 'Location'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'Moon', 'entity': 'Astronomical Object'}, {'span': 'lunar distances', 'entity': 'Misc'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Nautical Almanac', 'entity': 'Misc'}]'
+
+Example #10: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #11: On 21 December 2012, the Cassini-Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.
+Expected output: 'entities: [{'span': 'Cassini-Huygens', 'entity': 'Misc'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #12: Also, Mercury's fairly eccentric orbit makes it much easier to detect the perihelion shift than is the case for the nearly circular orbits of Venus and Earth.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #13: The author of the Dictionary of Minor Planet Names, Lutz D. Schmadel, contacted Italian astronomer Paul G. Comba, who confirmed that this naming was another clear instance of homage to him.
+Expected output: 'entities: [{'span': 'Dictionary of Minor Planet Names', 'entity': 'Misc'}, {'span': 'Lutz D. Schmadel', 'entity': 'Person'}, {'span': 'Italian', 'entity': 'Misc'}, {'span': 'Paul G. Comba', 'entity': 'Scientist'}]'
+
+Example #14: August Kopff, a colleague of Wolf at Heidelberg, then discovered 617 Patroclus eight months after Achilles, and, in early 1907, he discovered the largest of all Jupiter trojans, 624 Hektor.
+Expected output: 'entities: [{'span': 'August Kopff', 'entity': 'Scientist'}, {'span': 'Wolf', 'entity': 'Scientist'}, {'span': 'Heidelberg', 'entity': 'Location'}, {'span': '617 Patroclus', 'entity': 'Astronomical Object'}, {'span': 'Achilles', 'entity': 'Astronomical Object'}, {'span': 'Jupiter trojans', 'entity': 'Misc'}, {'span': '624 Hektor', 'entity': 'Astronomical Object'}]'
+
+Example #15: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #16: It will use the gravity assist technique with Earth once, with Venus twice, and six times with Mercury.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}]'
+
+Example #17: It is bounded in the north by the A30 road and runs from Retew and Treviscoe in the west to Redmoor and Penpillick in the east.
+Expected output: 'entities: [{'span': 'A30 road', 'entity': 'Location'}, {'span': 'Retew', 'entity': 'Location'}, {'span': 'Treviscoe', 'entity': 'Location'}, {'span': 'Redmoor', 'entity': 'Location'}, {'span': 'Penpillick', 'entity': 'Location'}]'
+
+Example #18: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #19: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+
+Example #20: Rhea was not named until 1847, when John Herschel (son of William Herschel, discoverer of the planet Uranus, and two other moons of Saturn, Mimas and Enceladus) suggested in Results of Astronomical Observations made at the Cape of Good Hope that the names of the Titans, sisters and brothers of Kronos (Saturn, in Roman mythology), be used.
+Expected output: 'entities: [{'span': 'Rhea', 'entity': 'Astronomical Object'}, {'span': 'John Herschel', 'entity': 'Scientist'}, {'span': 'William Herschel', 'entity': 'Scientist'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Mimas', 'entity': 'Astronomical Object'}, {'span': 'Enceladus', 'entity': 'Astronomical Object'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}, {'span': 'Titans', 'entity': 'Astronomical Object'}, {'span': 'Kronos', 'entity': 'Astronomical Object'}, {'span': 'Roman', 'entity': 'Misc'}]'
+

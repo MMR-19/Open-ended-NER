@@ -1,0 +1,30 @@
+Example #1: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #2: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #3: The movement was immediately supported by Mariotto Segni, leader of the centrist Segni Pact; after few weeks the post-communist Democratic Party of the Left of Massimo D 'Alema, the PPI and the Federation of the Greens also joined the Olive Tree coalition.
+Expected output: 'entities: [{'span': 'Mariotto Segni', 'entity': 'Politician'}, {'span': 'Segni Pact', 'entity': 'Political Party'}, {'span': 'Democratic Party of the Left', 'entity': 'Political Party'}, {'span': "Massimo D 'Alema", 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'the Olive Tree', 'entity': 'Organisation'}]'
+
+Example #4: These include the TRUE Blue Crew, Antipodean Resistance, the Australian Defence League, National Action (Australia), the Q Society, Reclaim Australia and the Lads Society (formerly United Patriots Front).
+Expected output: 'entities: [{'span': 'TRUE Blue Crew', 'entity': 'Organisation'}, {'span': 'Antipodean Resistance', 'entity': 'Organisation'}, {'span': 'Australian Defence League', 'entity': 'Organisation'}, {'span': 'National Action', 'entity': 'Organisation'}, {'span': 'Australia', 'entity': 'Country'}, {'span': 'Q Society', 'entity': 'Organisation'}, {'span': 'Reclaim Australia', 'entity': 'Organisation'}, {'span': 'Lads Society', 'entity': 'Organisation'}, {'span': 'United Patriots Front', 'entity': 'Organisation'}]'
+
+Example #5: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #6: Representatives of the Kuomintang, Communist Party of China, Chinese Youth Party, and China Democratic League, as well as independent delegates, attended the conference in Chongqing.
+Expected output: 'entities: [{'span': 'Kuomintang', 'entity': 'Political Party'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Chinese Youth Party', 'entity': 'Political Party'}, {'span': 'China Democratic League', 'entity': 'Political Party'}, {'span': 'Chongqing', 'entity': 'Location'}]'
+
+Example #7: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+
+Example #8: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #9: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #10: Though most other Texas Republicans supported Ronald Reagan in the 1968 Republican Party presidential primaries, Bush endorsed Richard Nixon, who went on to win the party's nomination.
+Expected output: 'entities: [{'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': '1968 Republican Party presidential primaries', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Excluding the Japanese Communist Party, the coalition was backed by all of the former opposition parties, which included the newly formed JNP, the Japan Socialist Party, the Japan Renewal Party (Shinseito), Komeito, the Democratic Socialist Party, the Socialist Democratic Federation, and the New Party Sakigake, who together controlled 243 seats in the House of Representatives.
+Expected output: 'entities: [{'span': 'Japanese Communist Party', 'entity': 'Political Party'}, {'span': 'JNP', 'entity': 'Political Party'}, {'span': 'Japan Socialist Party', 'entity': 'Political Party'}, {'span': 'Japan Renewal Party', 'entity': 'Political Party'}, {'span': 'Shinseito', 'entity': 'Political Party'}, {'span': 'Komeito', 'entity': 'Political Party'}, {'span': 'Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Socialist Democratic Federation', 'entity': 'Political Party'}, {'span': 'New Party Sakigake', 'entity': 'Political Party'}]'
+
+Example #2: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #3: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #4: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #5: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #6: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #7: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #8: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #9: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #10: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+

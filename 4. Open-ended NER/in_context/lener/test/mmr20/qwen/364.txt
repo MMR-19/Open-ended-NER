@@ -1,0 +1,60 @@
+Example #1: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #2: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #3: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #4: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #5: Caberia ao pregoeiro convocar os licitantes, sucessivamente, conforme as respectivas classificações, e conceder-lhes a oportunidade de comprovar a viabilidade financeira de suas propostas, conforme estabelece o inciso II do art. 48 da Lei 8.666/1993.
+Expected output: 'entities: [{'span': 'inciso II do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #6: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #7: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #8: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #9: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #10: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #11: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359 - CLASSE 32 ITAPEVI - SÃO PAULO Relator: Ministro Napoleão Nunes Maia Filho Agravante: Partido da Social Democracia Brasileira (PSDB) - Municipal Advogados: Thiago Tommasi Marinho - OAB: 2720041SP e outro Agravado: Partido Social Democrata Cristão (PSDC) - Municipal Advogado: Eduardo dos Santos Amaral - OAB: 2874551SP ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'ACÓRDÃO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL N° 68-49. 201 6.6.26.0359', 'entity': 'Jurisprudência'}, {'span': 'ITAPEVI - SÃO PAULO', 'entity': 'Localização'}, {'span': 'Napoleão Nunes Maia Filho', 'entity': 'Pessoa'}, {'span': 'Partido da Social Democracia Brasileira', 'entity': 'Organização'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'Thiago Tommasi Marinho', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Partido Social Democrata Cristão', 'entity': 'Organização'}, {'span': 'PSDC', 'entity': 'Organização'}, {'span': 'Eduardo dos Santos Amaral', 'entity': 'Pessoa'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #12: (TJMG - Agravo de Instrumento-Cr 1.0079.14.024867-9/001, Relator (a): Des. (a) Eduardo Brum, 4ª CÂMARA CRIMINAL, julgamento em 30/03/2016, publicação da súmula em 06/04/2016) EMENTA: AGRAVO DE INSTRUMENTO CRIMINAL - LEI MARIA DA PENHA - VIOLÊNCIA DOMÉSTICA - INDÍCIOS SUFICIENTES DE AUTORIA E MATERIALIDADE - MEDIDAS PROTETIVAS - REQUISITOS SATISFEITOS - MANUTENÇÃO DA PROTEÇÃO DE URGÊNCIA - MEDIDA DE CAUTELA - NECESSIDADE DE AVALIAÇÃO DO RISCO ATUAL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento-Cr 1.0079.14.024867-9/001', 'entity': 'Jurisprudência'}, {'span': 'Eduardo Brum', 'entity': 'Pessoa'}, {'span': '4ª CÂMARA CRIMINAL', 'entity': 'Organização'}, {'span': '30/03/2016', 'entity': 'Tempo'}, {'span': '06/04/2016', 'entity': 'Tempo'}, {'span': 'LEI MARIA DA PENHA', 'entity': 'Legislação'}]'
+
+Example #13: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #14: Condeno o réu a pagar á parte autora os seguintes valores: a) R $ 20.000,00 (vinte mil reais), referentes a parte PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 4 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 dos alugueres dos meses de setembro a dezembro de 2013, no valor de R $ 5.000,00 (cinco mil reais) por cada mês; b) R $ 210.000,00 (duzentos e dez mil reais), referente aos alugueres mensais de R $ 30.000,00 (trinta mil reais), alusivos o período de maio a novembro de 2014; c) R $ 45.000,00 (quarenta e cinco mil reais) por cada mês referente ao período de novembro de 2014 outubro de 2015 (data da desocupação do imóvel); d) R $ 8.843,10 (oito mil, oitocentos e quarenta e três reais e dez centavos), referentes às despesas com energia, a serem corrigidas monetariamente pelo INPC a partir do efetivo desembolso pelo autor (14 de outubro de 2014) e de juros de 1 % a partir da citação; e) 10 % (dez por cento) sobre o valor total do débito, a título de honorários advocatícios, a serem pagos ao autor.
+Expected output: 'entities: [{'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}, {'span': 'meses de setembro a dezembro de 2013', 'entity': 'Tempo'}, {'span': 'período de maio a novembro de 2014', 'entity': 'Tempo'}, {'span': 'período de novembro de 2014 outubro de 2015', 'entity': 'Tempo'}, {'span': '14 de outubro de 2014', 'entity': 'Tempo'}]'
+
+Example #15: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #16: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #17: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #18: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #19: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #20: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+

@@ -1,0 +1,30 @@
+Example #1: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #2: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #3: É entendimento pacificado que `` a intervenção do Ministério Público, nos processos que envolvam interesse de incapaz, se motiva e, ao mesmo tempo, se justifica na possibilidade de desequilíbrio da relação jurídica e no eventual comprometimento do contraditório em função da existência da parte vulnerável '' (STJ, REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018).
+Expected output: 'entities: [{'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'STJ', 'entity': 'Organização'}, {'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #4: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #5: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #6: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #7: APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001 - COMARCA DE BELO HORIZONTE - APELANTE (S): REBECCA DE AGUIAR LACERDA REPDO (A) PELO (A) CURADOR (A) SARA GONÇALVES DE AGUIAR - APELADO (A) (S): UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA A C Ó R D Ã O Vistos etc., acorda, em Turma, a 10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais, na conformidade da ata dos julgamentos, em ACOLHER A PRELIMINAR DE NULIDADE DO FEITO ARGUIDA PELO MINISTÉRIO PÚBLICO.
+Expected output: 'entities: [{'span': 'APELAÇÃO CÍVEL Nº 1.0024.13.385589-0/001', 'entity': 'Jurisprudência'}, {'span': 'COMARCA DE BELO HORIZONTE', 'entity': 'Localização'}, {'span': 'REBECCA DE AGUIAR LACERDA REPDO', 'entity': 'Pessoa'}, {'span': 'SARA GONÇALVES DE AGUIAR', 'entity': 'Pessoa'}, {'span': 'UNIMED RIO COOPERATIVA DE TRABALHO MÉDICO DO RIO DE JANEIRO LTDA', 'entity': 'Organização'}, {'span': '10ª CÂMARA CÍVEL do Tribunal de Justiça do Estado de Minas Gerais', 'entity': 'Organização'}, {'span': 'MINISTÉRIO PÚBLICO', 'entity': 'Organização'}]'
+
+Example #8: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #9: `` EMENTA: 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO (CPM, ART. 187) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA, NA HIPÓTESE DE CRIME DE DESERÇÃO, PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos, Matricula 8829. Em 13/03/2018 14:29:31. Para confirmar a validade deste documento, acesse: https: //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 PENAL - EXTINÇÃO DEFINITIVA DO PROCESSO CRIMINAL INSTAURADO PERANTE A JUSTIÇA MILITAR - PEDIDO DEFERIDO. ''
+Expected output: 'entities: [{'span': 'CPM, ART. 187', 'entity': 'Legislação'}, {'span': 'SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'entity': 'Jurisprudência'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Luis Carlos Gomes Mattos', 'entity': 'Pessoa'}, {'span': '13/03/2018', 'entity': 'Tempo'}]'
+
+Example #10: O CPC/2015 também não admite a alteração da causa de pedir, ainda que com consentimento do réu, após o saneamento do processo (art. 329, II).
+Expected output: 'entities: [{'span': 'CPC/2015', 'entity': 'Legislação'}]'
+

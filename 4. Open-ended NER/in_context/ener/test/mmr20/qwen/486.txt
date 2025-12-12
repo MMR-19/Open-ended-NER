@@ -1,0 +1,60 @@
+Example #1: The Judicial Panel on Multidistrict Litigation consolidated the cases in the Eastern District of New York for pretrial proceedings.
+Expected output: 'entities: [{'span': 'Judicial Panel on Multidistrict Litigation', 'entity': 'Government'}, {'span': 'Eastern District of New York', 'entity': 'Court'}]'
+
+Example #2: The information as to beneficial ownership is based on statements furnished by each Board Member nominee and officer.
+Expected output: 'entities: []'
+
+Example #3: You may vote by mail, telephone or over the Internet.
+Expected output: 'entities: [{'span': 'Internet', 'entity': 'Miscellaneous'}]'
+
+Example #4: We have acted as special counsel to Regency Energy Partners LP, a Delaware limited partnership (the Partnership), Regency Energy Finance Corp., a Delaware corporation (Regency Finance and, together with the Partnership, the Issuers), and the entities listed on Schedule I hereto (collectively, the Guarantors), in connection with the filing on the date hereof with the Securities and Exchange Commission (the Commission) of Post-Effective Amendment No. 1 (the Amendment) to the registration statement on Form S-3 (File No. 333-169901) (the Registration Statement) under the Securities Act of 1933, as amended (the Act).
+Expected output: 'entities: [{'span': 'Regency Energy Partners LP', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}, {'span': 'Regency Energy Finance Corp.', 'entity': 'Business'}, {'span': 'Regency Finance', 'entity': 'Business'}, {'span': 'Schedule I', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}]'
+
+Example #5: In October, 2010, the FASB issued ASU 2010-26, Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Accounting for Costs Associated with Acquiring or Renewing Insurance Contracts', 'entity': 'Miscellaneous'}]'
+
+Example #6: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #7: Regarding tax and research projects conducted by the independent registered public accounting firm for each Fund and the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund), such engagements will be (i) pre-approved by the audit committee if they are expected to be for amounts greater than $ 10,000; (ii) reported to the audit committee chairman for his verbal approval prior to engagement if they are expected to be for amounts under $ 10,000 but greater than $ 5,000; and (iii) reported to the audit committee at the next audit committee meeting if they are expected to be for an amount under $ 5,000.
+Expected output: 'entities: []'
+
+Example #8: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #9: In those circumstances nominations will be kept on file until active recruitment is under way.
+Expected output: 'entities: []'
+
+Example #10: The Board of Directors The Corporate Trust Services division of Wells Fargo Bank, National Association: We have examined management s assessment, included in the accompanying Assessment of Compliance with Applicable Servicing Criteria, that The Corporate Trust Services division of Wells Fargo Bank, National Association (the Company) complied with the servicing criteria set forth in Item 1122 (d) of the Securities and Exchange Commission s Regulation AB for publicly-issued (i.e., transaction-level reporting initially required under the Securities Exchange Act of 1934, as amended) residential mortgage-backed securities, commercial mortgage-backed securities, and other asset-backed securities, for which the Company provides master servicing, trustee, securities administration, or paying agent services, excluding transactions issued by any agency or instrumentality of the U.S. government or any government sponsored entity and further excluding the transactions issued prior to 2006 for which Wells Fargo outsources all material servicing activities (as defined by Regulation AB) (the Platform), except for servicing criteria 1122 (d) (4) (ii), 1122 (d) (4) (iv), 1122 (d) (4) (v), 1122 (d) (4) (viii), 1122 (d) (4) (ix), 1122 (d) (4) (x), 1122 (d) (4) (xi), 1122 (d) (4) (xii), and 1122 (d) (4) (xiii), which the Company has determined are not applicable to the activities it performs with respect to the Platform, as of and for the twelve months ended December 31, 2009.
+Expected output: 'entities: [{'span': 'Wells Fargo Bank, National Association', 'entity': 'Business'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Regulation AB', 'entity': 'Legislation/Act'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'Wells Fargo', 'entity': 'Business'}]'
+
+Example #11: All shareholders are cordially invited to attend the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #12: As of February 8, 2010, the shares of the Funds were issued and outstanding as follows:
+Expected output: 'entities: []'
+
+Example #13: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #14: The current members of the committee are:
+Expected output: 'entities: []'
+
+Example #15: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #16: Linda Cvrkel Branch Chief United States Securities and Exchange Commission Division of Corporation Finance 100 F Street, N.E.
+Expected output: 'entities: [{'span': 'Linda Cvrkel', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'F Street', 'entity': 'Location'}, {'span': 'N.E.', 'entity': 'Location'}]'
+
+Example #17: For each Massachusetts Business Trust, except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Tax-Advantaged Dividend, Global Government, Global Value, Multi-Currency, Quality Preferred, Quality Preferred 2, Quality Preferred 3, Real Estate, Diversified Dividend, Tax-Advantaged, Multi-Strategy and Multi-Strategy 2, under normal circumstances, holders of Preferred Shares are entitled to elect two (2) Board Members.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'Quality Preferred', 'entity': 'Business'}, {'span': 'Quality Preferred 2', 'entity': 'Business'}, {'span': 'Quality Preferred 3', 'entity': 'Business'}, {'span': 'Real Estate', 'entity': 'Business'}, {'span': 'Diversified Dividend', 'entity': 'Business'}, {'span': 'Tax-Advantaged', 'entity': 'Business'}, {'span': 'Multi-Strategy', 'entity': 'Business'}, {'span': 'Multi-Strategy 2', 'entity': 'Business'}]'
+
+Example #18: Based on such review, it is authorized to make recommendations to the Board.
+Expected output: 'entities: []'
+
+Example #19: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #20: Check the appropriate box:
+Expected output: 'entities: []'
+

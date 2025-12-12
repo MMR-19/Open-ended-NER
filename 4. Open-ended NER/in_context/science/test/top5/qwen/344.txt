@@ -1,0 +1,15 @@
+Example #1: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #2: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #3: In 1831, Michael Faraday made the seminal observation that time-varying magnetic fields could induce electric currents and then, in 1864, James Clerk Maxwell published his famous paper A Dynamical Theory of the Electromagnetic Field. Maxwell 1864 5, page 499; also David J. Griffiths (1999), Introduction to electrodynamics, third Edition, ed.
+Expected output: 'entities: [{'span': 'Michael Faraday', 'entity': 'Scientist'}, {'span': 'James Clerk Maxwell', 'entity': 'Scientist'}, {'span': 'A Dynamical Theory of the Electromagnetic Field', 'entity': 'Misc'}, {'span': 'Maxwell', 'entity': 'Scientist'}, {'span': 'David J. Griffiths', 'entity': 'Scientist'}, {'span': 'electrodynamics', 'entity': 'Discipline'}]'
+
+Example #4: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #5: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+

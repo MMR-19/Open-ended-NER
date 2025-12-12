@@ -1,0 +1,30 @@
+Example #1: Nos termos da Lei Orgânica do Distrito Federal, compete privativamente ao Chefe do Poder Executivo a legitimidade para a propositura de leis que versem sobre a administração de áreas públicas e sobre o uso e a ocupação do solo no Distrito Federal.
+Expected output: 'entities: [{'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #2: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #3: O que se exige, portanto, em relação aos instrumentos legais que buscam concretizar a previsão dos planos diretores é a coerência com essas normas gerais e com a LODF Julgado procedente o pedido. ” (ADI 2008.00.2.012286-2, Rel. Des. J. J. Costa Carvalho, Conselho Especial, julgado em 25.08.2009, DJ-e de 02.12.2009, p. 28) (grifei).
+Expected output: 'entities: [{'span': 'LODF', 'entity': 'Legislação'}, {'span': 'ADI 2008.00.2.012286-2', 'entity': 'Jurisprudência'}, {'span': 'J. J. Costa Carvalho', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '25.08.2009', 'entity': 'Tempo'}, {'span': '02.12.2009', 'entity': 'Tempo'}]'
+
+Example #4: Declarada, com efeitos ex tunc e erga omnes, a inconstitucionalidade formal das Leis Complementares distritais nº 656 e 660, de 29/11/20. ” (20080020041936ADI, Relator MARIO MACHADO, Conselho Especial, julgado em 20/01/2009, DJ 04/03/2009 p. 83).
+Expected output: 'entities: [{'span': 'Leis Complementares distritais nº 656', 'entity': 'Legislação'}, {'span': '660', 'entity': 'Legislação'}, {'span': '29/11/20.', 'entity': 'Tempo'}, {'span': '20080020041936ADI', 'entity': 'Jurisprudência'}, {'span': 'MARIO MACHADO', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '20/01/2009', 'entity': 'Tempo'}, {'span': '04/03/2009', 'entity': 'Tempo'}]'
+
+Example #5: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #6: Mérito Quanto ao mérito, a publicação em site oficial da prefeitura do Município de Paraíba do Sul/RJ, em período vedado, da criação e execução de programa de governo local, sugerindo ser o primeiro recorrente, na qualidade de chefe do Poder Executivo, `` mais competente do que os seus adversários '' (fl. 129), não se enquadra nas exceções previstas no ad. 73, VI, b, da Lei das Eleições.
+Expected output: 'entities: [{'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': 'ad. 73, VI, b, da Lei das Eleições', 'entity': 'Legislação'}]'
+
+Example #7: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #8: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #9: No Brasil, com a Independência, ao longo de todos os sete textos constitucionais que atravessaram o Império e a República, esses instrumentos de poder são dois: as leis e as Forças Armadas, a balança equilibrada da Justiça e a clava forte que a garante.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}]'
+
+Example #10: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+

@@ -1,0 +1,60 @@
+Example #1: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #2: Art. 3º A Norma de Edificação, Uso e Gabarito NGB a ser utilizada para efeito desta Lei Complementar é a mesma que vigora atualmente para toda a Região Administrativa do Paranoá RA VII.
+Expected output: 'entities: [{'span': 'Região Administrativa do Paranoá', 'entity': 'Localização'}, {'span': 'RA VII', 'entity': 'Localização'}]'
+
+Example #3: Para fins de regularização fica AUTORIZADA, com base no Decreto nº 36.496, de 13 de maio de 2015, combinado com o Decreto nº 36.825, de 22 de outubro de 2015, e na forma do art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840, de 23 de dezembro de 2011, a cessão da servidora RIANE NATÁLIA SOARES VASCONCELOS, matrícula nº 216.567-8, Professora de Educação Básica, da Secretaria de Estado de Educação do Distrito Federal, para exercer o Cargo de Natureza Especial, símbolo CNE-07, de Chefe da Ouvidoria da Administração Regional do Plano Piloto - RA-I do Distrito Federal, com ônus para o órgão de origem, a contar de 12/06/2017.
+Expected output: 'entities: [{'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13 de maio de 2015', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22 de outubro de 2015', 'entity': 'Tempo'}, {'span': "art. 152, inciso I, alínea `` a '', c/c o art. 154, parágrafo único, inciso II, da Lei Com- plementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}, {'span': 'RIANE NATÁLIA SOARES VASCONCELOS', 'entity': 'Pessoa'}, {'span': 'Secretaria de Estado de Educação do Distrito Federal', 'entity': 'Organização'}, {'span': 'Plano Piloto - RA-I do Distrito Federal', 'entity': 'Localização'}, {'span': '12/06/2017', 'entity': 'Tempo'}]'
+
+Example #4: REQUERIDA: A Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56-38.2016.7.08.0008, referente a WELLEN PABLO TEIXEIRA CORDOVIL, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56-38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'WELLEN PABLO TEIXEIRA CORDOVIL', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #5: Diante da sucumbência recíproca, condeno as partes ao pagamento, na proporção de 70 % para o réu e 30 % para o autor, das custas processuais e honorários advocatícios, os quais arbitro em 15 % sobre o valor da condenação (art. 85, §2º CPC).
+Expected output: 'entities: [{'span': 'art. 85, §2º CPC', 'entity': 'Legislação'}]'
+
+Example #6: `` (RR - 10258-45.2013.5.04.0271 Data de Julgamento: 20/05/2015, Rel. Desembargador Convocado: Cláudio Armando Couce de Menezes, 2ª Turma, DEJT 29/05/2015) Nesse contexto, o Tribunal Regional, ao adotar o entendimento de que devida a aplicação da multa do artigo 467 da CLT, aparentemente, violou o artigo 467 da CLT.
+Expected output: 'entities: [{'span': 'RR - 10258-45.2013.5.04.0271', 'entity': 'Jurisprudência'}, {'span': '20/05/2015', 'entity': 'Tempo'}, {'span': 'Cláudio Armando Couce de Menezes', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '29/05/2015', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #7: Procedência do pedido para declarar, com efeitos `` ex tunc '' e `` erga omnes '', a inconstitucionalidade da Lei Distrital nº 683, de 21 de março de 2003, que aprova área de estudo para implantação do Setor Habitacional Catetinho. ” (20070020033532ADI, Relator HUMBERTO ADJUTO ULHÔA, Conselho Especial, julgado em 16/12/2008, DJ 30/01/2009 p. 36) (g.n.) “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'Lei Distrital nº 683', 'entity': 'Legislação'}, {'span': '21 de março de 2003', 'entity': 'Tempo'}, {'span': 'Setor Habitacional Catetinho.', 'entity': 'Localização'}, {'span': '20070020033532ADI', 'entity': 'Jurisprudência'}, {'span': 'HUMBERTO ADJUTO ULHÔA', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '16/12/2008', 'entity': 'Tempo'}, {'span': '30/01/2009', 'entity': 'Tempo'}]'
+
+Example #8: A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts. 557, caput, e § 1º-A, do Código de Processo Civil, e 3º do Código de Processo Penal - CPP, que permitem ao relator dar provimento, negar seguimento a recurso manifestamente inadmissível, improcedente, prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal, do Supremo Tribunal Federal, ou de Tribunal Superior '' (AgRg nos EREsp 1.387.000/PR, Rel. Min. Ericson Maranho (Desembargador convocado do TJ/SP), Terceira Seção, DJe 17/06/2015).
+Expected output: 'entities: [{'span': 'arts. 557, caput, e § 1º-A, do Código de Processo Civil', 'entity': 'Legislação'}, {'span': '3º do Código de Processo Penal - CPP', 'entity': 'Legislação'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'AgRg nos EREsp 1.387.000/PR', 'entity': 'Jurisprudência'}, {'span': 'Ericson Maranho', 'entity': 'Pessoa'}, {'span': 'TJ/SP', 'entity': 'Organização'}, {'span': '17/06/2015', 'entity': 'Tempo'}]'
+
+Example #9: Ementa e Acórdão 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO RELATOR: MIN. LUIZ FUX PACTE.
+Expected output: 'entities: [{'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}]'
+
+Example #10: O Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': 'Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #11: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #12: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #13: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #14: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #15: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #16: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #17: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #18: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #19: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #20: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+

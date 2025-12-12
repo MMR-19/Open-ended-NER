@@ -1,0 +1,15 @@
+Example #1: The audit committee has approved in advance all audit services and non-audit services that the independent registered public accounting firm provided to each Fund and to the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund).
+Expected output: 'entities: []'
+
+Example #2: Generally, the audit committee must approve each Fund s independent registered public accounting firm s engagements (i) with the Fund for audit or non-audit services and (ii) with the Adviser and Adviser Entities for non-audit services if the engagement relates directly to the operations and financial reporting of the Fund.
+Expected output: 'entities: []'
+
+Example #3: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #4: Weiss is also an Independent Vice-Chairman of the Board and Chairman of the Audit Committee of numerous BlackRock-sponsored mutual funds.
+Expected output: 'entities: [{'span': 'Weiss', 'entity': 'Person'}, {'span': 'BlackRock-sponsored', 'entity': 'Miscellaneous'}]'
+
+Example #5: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+

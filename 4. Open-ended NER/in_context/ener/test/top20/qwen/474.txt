@@ -1,0 +1,60 @@
+Example #1: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #2: The letter should indicate that you are a Fund shareholder and note the Fund or Funds that you own.
+Expected output: 'entities: []'
+
+Example #3: To the Shareholders of the Above Funds:
+Expected output: 'entities: []'
+
+Example #4: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #5: Shareholders of a Fund who execute proxies may revoke them at any time before they are voted by filing with that Fund a written notice of revocation, by delivering a duly executed proxy bearing a later date, or by attending the Annual Meeting and voting in person.
+Expected output: 'entities: []'
+
+Example #6: Audit Committee members shall be independent of the Funds and free of any relationship that, in the opinion of the Directors/Trustees, would interfere with their exercise of independent judgment as an Audit Committee member.
+Expected output: 'entities: []'
+
+Example #7: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #8: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #9: The committee operates under a written charter adopted and approved by the Boards of each Fund, a copy of which is available on the Funds website at www.nuveen.com/CEF/Info/Shareholder/.
+Expected output: 'entities: []'
+
+Example #10: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #11: The Audit Committee shall assist the Board in oversight and monitoring of (1) the accounting and reporting policies, processes and practices, and the audits of the financial statements, of the Funds; (2) the quality and integrity of the financial statements of the Funds; (3) the Funds compliance with legal and regulatory requirements, (4) the independent auditors qualifications, performance and independence; and (5) oversight of the Pricing Procedures of the Funds and the Valuation Group.
+Expected output: 'entities: []'
+
+Example #12: Under the Deferred Compensation Plan, Independent Board Members of the Participating Funds may defer receipt of all, or a portion, of the compensation they earn for their services to the Participating Funds, in lieu of receiving current payments of such compensation.
+Expected output: 'entities: []'
+
+Example #13: The compliance, risk management and regulatory oversight committee is responsible for the oversight of compliance issues, risk management, and other regulatory matters affecting the Funds which are not otherwise the jurisdiction of the other Board committees.
+Expected output: 'entities: []'
+
+Example #14: To the knowledge of management of the Funds, no shareholder of a Fund owns more than 10 % of a registered class of a Fund s equity securities, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #15: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #16: The dividend committee is authorized to declare distributions on the Fund s shares including, but not limited to, regular and special dividends, capital gains and ordinary income distributions.
+Expected output: 'entities: []'
+
+Example #17: Each of the nominees has agreed to serve as a Board Member of each Fund if elected.
+Expected output: 'entities: []'
+
+Example #18: Check the appropriate box:
+Expected output: 'entities: []'
+
+Example #19: IF YOU CAN NOT BE PRESENT AT THE MEETING, YOU ARE REQUESTED TO FILL IN, SIGN AND RETURN THE ENCLOSED PROXY PROMPTLY.
+Expected output: 'entities: []'
+
+Example #20: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+

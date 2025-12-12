@@ -1,0 +1,30 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #3: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513114. Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #4: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #5: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #6: (RE 437642 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. ELLEN GRACIE, Órgão Julgador: Segunda Turma, DJe de 3/9/2010) TRIBUTÁRIO.
+Expected output: 'entities: [{'span': 'RE 437642 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'ELLEN GRACIE', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '3/9/2010', 'entity': 'Tempo'}]'
+
+Example #7: (RR-180400-29.2004.5.03.0044, Relator Ministro: Augusto César Leite de Carvalho, 6ª Turma, DEJT 30/3/2010) '' MULTA DO ART. 477 DA CLT.
+Expected output: 'entities: [{'span': 'RR-180400-29.2004.5.03.0044', 'entity': 'Jurisprudência'}, {'span': 'Augusto César Leite de Carvalho', 'entity': 'Pessoa'}, {'span': '6ª Turma', 'entity': 'Organização'}, {'span': '30/3/2010', 'entity': 'Tempo'}, {'span': 'ART. 477 DA CLT', 'entity': 'Legislação'}]'
+
+Example #8: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #9: Brasília, 23 de fevereiro de 2016 (Data do Julgamento) Ministra Maria Thereza de Assis Moura Relatora HABEAS CORPUS Nº 340.624 - SP (2015⁄0282121-1) RELATORA: MINISTRA MARIA THEREZA DE ASSIS MOURA IMPETRANTE: GUILHERME RODRIGUES DA SILVA E OUTROS ADVOGADO: GUILHERME RODRIGUES DA SILVA E OUTRO (S) IMPETRADO: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO PACIENTE: CLAUDINEI RICARDO ZIRONDI RELATÓRIO MINISTRA MARIA THEREZA DE ASSIS MOURA (Relatora): Trata-se de habeas corpus, com pedido de liminar, impetrado em favor de CLAUDINEI RICARDO ZIRONDI, apontando como autoridade coatora o Desembargador Relator no Tribunal de Justiça do Estado de São Paulo (HC n.º 2220691-95.2015.8.26.0000).
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '23 de fevereiro de 2016', 'entity': 'Tempo'}, {'span': 'Maria Thereza de Assis Moura', 'entity': 'Pessoa'}, {'span': 'HABEAS CORPUS Nº 340.624 - SP', 'entity': 'Jurisprudência'}, {'span': '2015⁄0282121-1', 'entity': 'Jurisprudência'}, {'span': 'MARIA THEREZA DE ASSIS MOURA', 'entity': 'Pessoa'}, {'span': 'GUILHERME RODRIGUES DA SILVA', 'entity': 'Pessoa'}, {'span': 'TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO', 'entity': 'Organização'}, {'span': 'CLAUDINEI RICARDO ZIRONDI', 'entity': 'Pessoa'}, {'span': 'Tribunal de Justiça do Estado de São Paulo', 'entity': 'Organização'}, {'span': 'HC n.º 2220691-95.2015.8.26.0000', 'entity': 'Jurisprudência'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+

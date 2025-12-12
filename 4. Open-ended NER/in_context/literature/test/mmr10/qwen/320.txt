@@ -1,0 +1,30 @@
+Example #1: This uses the words of war poet Wilfred Owen ' s At a Calvary near the Ancre.
+Expected output: 'entities: [{'span': 'Wilfred Owen', 'entity': 'Writer'}, {'span': 'At a Calvary near the Ancre', 'entity': 'Poem'}]'
+
+Example #2: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #3: His interest in space, however, was his primary focus, especially after reading science fiction stories by writers such as H. G. Wells and Edgar Rice Burroughs, which stirred his imagination about life on other planets such as Mars.
+Expected output: 'entities: [{'span': 'science fiction stories', 'entity': 'Literary Genre'}, {'span': 'H. G. Wells', 'entity': 'Writer'}, {'span': 'Edgar Rice Burroughs', 'entity': 'Writer'}, {'span': 'Mars', 'entity': 'Misc'}]'
+
+Example #4: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+
+Example #5: The period around World War II also saw the publication of the time travel novel Lest Darkness Fall by L. Sprague de Camp, in which an American academic travels to Italy at the time of the Byzantine invasion of the Ostrogoths.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'time travel novel', 'entity': 'Literary Genre'}, {'span': 'Lest Darkness Fall', 'entity': 'Book'}, {'span': 'L. Sprague de Camp', 'entity': 'Writer'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Byzantine', 'entity': 'Misc'}, {'span': 'Ostrogoths', 'entity': 'Misc'}]'
+
+Example #6: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #7: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #8: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #9: Lindbergh's Pulitzer Prize -winning biographer, A. Scott Berg, contended that Lindbergh was not so much a supporter of the Nazi regime as someone so stubborn in his convictions and relatively inexperienced in political maneuvering that he easily allowed rivals to portray him as one.
+Expected output: 'entities: [{'span': 'Lindbergh', 'entity': 'Person'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'A. Scott Berg', 'entity': 'Writer'}, {'span': 'Nazi', 'entity': 'Misc'}]'
+
+Example #10: Paul Christopher, J. D. Salinger ' s Holden Caulfield, and J. P. Donleavy ' s Sebastion Dangerfield in The Ginger Man (1955) are among the post-World War II literary heroes who have stymied Hollywood efforts to depict them.see J.P. Donnelley, 91, Author Who Stirred Controversy With ' Ginger Man, ' Dies, The New York Times, September 14, 2017.
+Expected output: 'entities: [{'span': 'Paul Christopher', 'entity': 'Writer'}, {'span': 'J. D. Salinger', 'entity': 'Writer'}, {'span': 'Holden Caulfield', 'entity': 'Person'}, {'span': 'J. P. Donleavy', 'entity': 'Writer'}, {'span': 'Sebastion Dangerfield', 'entity': 'Person'}, {'span': 'The Ginger Man', 'entity': 'Book'}, {'span': 'post-World War II literary', 'entity': 'Misc'}, {'span': 'Hollywood', 'entity': 'Organisation'}, {'span': 'J.P. Donnelley', 'entity': 'Writer'}, {'span': 'Ginger Man', 'entity': 'Book'}, {'span': 'The New York Times', 'entity': 'Organisation'}]'
+

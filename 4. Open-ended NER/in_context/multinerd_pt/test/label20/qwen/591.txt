@@ -1,0 +1,60 @@
+Example #1: Embora o sabor forte e azedo seja uma característica definidora da espécie, ele é mais fraco ou mesmo ausente em alguns cogumelos mais velhos, o que não é incomum para uma espécie do gênero " Lactarius ".
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #2: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+
+Example #3: A economia é baseada na produção de sal marinho em salinas, na agricultura de subsistência (algodão arbóreo, caju, arroz, milho, mandioca e feijão), na pecuária (bovinos, suínos e avícola), e na piscicultura (criatórios de camarão).
+Expected output: 'entities: [{'span': 'sal marinho', 'entity': 'Comida'}, {'span': 'caju', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #4: A universidade possui a deusa romana Minerva em sua identidade institucional, considerada a deusa das artes e de todos os ofícios, também é associada como deusa da sabedoria e do conhecimento.
+Expected output: 'entities: [{'span': 'Minerva', 'entity': 'Entidade mitológica'}]'
+
+Example #5: No norte foram cultivados a mandioca, o café e o algodão; nas terras altas centrais, era cultivado o milho; e no sul, onde a precipitação é menor, a pecuária foi predominante.
+Expected output: 'entities: [{'span': 'mandioca', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'pecuária', 'entity': 'Animal'}]'
+
+Example #6: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #7: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #8: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #9: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #10: Ela representa a divinização da terra e é considerada, ao lado de Obatalá (a representação divinizada do céu), como a casal primordial e propulsor da criação.
+Expected output: 'entities: [{'span': 'terra', 'entity': 'Corpo celeste'}, {'span': 'Obatalá', 'entity': 'Entidade mitológica'}]'
+
+Example #11: O mais representativo prato típico do estado é o açaí acompanhado de farinha de mandioca e alguma proteína, como peixes, camarão regional, frango ou carne vermelha.
+Expected output: 'entities: [{'span': 'açaí', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'carne vermelha', 'entity': 'Comida'}]'
+
+Example #12: O título é um spin-off da série " Drakengard " e ocorre após os acontecimentos do quinto final do primeiro jogo, eventos que deixaram o planeta Terra em estado de ruína.
+Expected output: 'entities: [{'span': 'Drakengard', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #13: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #14: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+
+Example #15: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #16: Sua letra é baseada nas cruéis experiências bizarras do médico nazista Josef Mengele nos campos de concentração da Auschwitz durante a Segunda Guerra Mundial, e é a faixa de abertura do álbum de 1986 " Reign in Blood ".
+Expected output: 'entities: [{'span': 'Josef Mengele', 'entity': 'Pessoa'}, {'span': 'Auschwitz', 'entity': 'Localização'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': '1986', 'entity': 'Tempo'}, {'span': 'Reign in Blood', 'entity': 'Média'}]'
+
+Example #17: Extensamente citada nos Atos dos Apóstolos e nas epístolas paulinas, na cidade de Antioquia é descrita por São Lucas, ele mesmo membro da comunidade, a primeira vez em que os discípulos de Cristo foram chamados cristãos.
+Expected output: 'entities: [{'span': 'Atos dos Apóstolos', 'entity': 'Média'}, {'span': 'Antioquia', 'entity': 'Localização'}, {'span': 'São Lucas', 'entity': 'Entidade mitológica'}, {'span': 'Cristo', 'entity': 'Pessoa'}]'
+
+Example #18: O mesmo possui uma magnitude absoluta de 5,6 e, tem um diâmetro estimado de cerca de 158 km, por isso existem poucas chances que possa ser classificado como um planeta anão, devido ao seu tamanho relativamente pequeno.
+Expected output: 'entities: [{'span': 'planeta anão', 'entity': 'Corpo celeste'}]'
+
+Example #19: A aeronave contava com uma turbina SNECMA Atar 09 C e um exaustor variável de pétalas, mais aberto.
+Expected output: 'entities: [{'span': 'SNECMA Atar 09 C', 'entity': 'Instrumento'}]'
+
+Example #20: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+

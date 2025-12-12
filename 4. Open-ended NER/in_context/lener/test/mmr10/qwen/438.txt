@@ -1,0 +1,30 @@
+Example #1: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #2: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #3: Requer, ainda, o provimento do recurso para o fim de ajustar os honorários sucumbenciais, nos termos do art. 86, parágrafo único, do CPC.
+Expected output: 'entities: [{'span': 'art. 86, parágrafo único, do CPC', 'entity': 'Legislação'}]'
+
+Example #4: A modulação dos efeitos da declaração de inconstitucionalidade somente é possível por razões de segurança jurídica ou de excepcional interesse social, em conformidade com o que dispõe o art. 27 da Lei nº 9.868/99, inocorrentes na hipótese. ” (ADI 2010002002050-8, Conselho Especial, Relator Desembargador SÉRGIO BITTENCOURT, julgado em 17/8/2010, DJ-e de 17/11/2010 p. 44) (grifo nosso) “ CONSTITUCIONAL E ADMINISTRATIVO.
+Expected output: 'entities: [{'span': 'art. 27 da Lei nº 9.868/99', 'entity': 'Legislação'}, {'span': 'ADI 2010002002050-8', 'entity': 'Jurisprudência'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'SÉRGIO BITTENCOURT', 'entity': 'Pessoa'}, {'span': '17/8/2010', 'entity': 'Tempo'}, {'span': '17/11/2010', 'entity': 'Tempo'}]'
+
+Example #5: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+
+Example #6: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #7: A decisão impugnada merece confirmação, na medida em que a jurisprudência deste Superior Tribunal de Justiça ja sedimentou no sentido de que a ausência de intimação do Ministério Público, por si só, não gera nulidade do julgado, a não ser que se constate `` efetivo prejuízo para as partes ou para apuração ou para apuração da verdade substancial da controvérsia jurídica, à luz do princípio pas de nullités sans grief '' (AgRg em RESp n.º 426.672/RJ, Ministro Herman Benjamin, Publicado em 05/06/2014), hipótese inocorrente no caso dos autos.
+Expected output: 'entities: [{'span': 'Superior Tribunal de Justiça', 'entity': 'Organização'}, {'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'AgRg em RESp n.º 426.672/RJ', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': '05/06/2014', 'entity': 'Tempo'}]'
+
+Example #8: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #9: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #10: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+

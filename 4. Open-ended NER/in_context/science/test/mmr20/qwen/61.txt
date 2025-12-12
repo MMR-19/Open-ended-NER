@@ -1,0 +1,60 @@
+Example #1: Jeffreys received the Gold Medal of the Royal Astronomical Society in 1937, the Royal Society ' s Copley Medal in 1960, and the Royal Statistical Society ' s Guy Medal in Gold in 1962.
+Expected output: 'entities: [{'span': 'Jeffreys', 'entity': 'Scientist'}, {'span': 'Gold Medal of the Royal Astronomical Society', 'entity': 'Award'}, {'span': "Royal Society ' s Copley Medal", 'entity': 'Award'}, {'span': "Royal Statistical Society ' s Guy Medal in Gold", 'entity': 'Award'}]'
+
+Example #2: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #3: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #4: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+
+Example #5: These included the Elliott Cresson Medal from the Franklin Institute in 1942, He was a Fellow of the American Physical Society, serving as its president in 1950, and a member of the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences.
+Expected output: 'entities: [{'span': 'Elliott Cresson Medal', 'entity': 'Award'}, {'span': 'Franklin Institute', 'entity': 'Organisation'}, {'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}]'
+
+Example #6: In 1977, the UK-APC named a series of peaks in Palmer Land, Antarctica the Sverdrup Nunataks after him.
+Expected output: 'entities: [{'span': 'UK-APC', 'entity': 'Organisation'}, {'span': 'Palmer Land', 'entity': 'Location'}, {'span': 'Antarctica', 'entity': 'Location'}, {'span': 'Sverdrup Nunataks', 'entity': 'Misc'}]'
+
+Example #7: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #8: During his life, in addition to the Nobel Prize, Hopkins was awarded the Royal Medal of the Royal Society in 1918, the Cameron Prize for Therapeutics of the University of Edinburgh in 1922, and the Copley Medal of the Royal Society in 1926.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Hopkins', 'entity': 'Person'}, {'span': 'Royal Medal of the Royal Society', 'entity': 'Award'}, {'span': 'Cameron Prize for Therapeutics of the University of Edinburgh', 'entity': 'Award'}, {'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}]'
+
+Example #9: He was awarded the Copley Medal by the Royal Society in 1850, and his Solar Tables, compiled with the assistance of Christian Olufsen, appeared in 1854.
+Expected output: 'entities: [{'span': 'Copley Medal', 'entity': 'Award'}, {'span': 'Royal Society', 'entity': 'Organisation'}, {'span': 'Solar Tables', 'entity': 'Misc'}, {'span': 'Christian Olufsen', 'entity': 'Scientist'}]'
+
+Example #10: The Hannes Alfvén Prize, awarded annually by the European Physical Society for outstanding contributions in plasma physics, is named after him.
+Expected output: 'entities: [{'span': 'Hannes Alfvén Prize', 'entity': 'Award'}, {'span': 'European Physical Society', 'entity': 'Organisation'}, {'span': 'plasma physics', 'entity': 'Discipline'}]'
+
+Example #11: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #12: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #13: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #14: 196 (1976) His research articles have appeared in Physical Review, The Astrophysical Journal, Reviews of Modern Physics, Nature, and other journals.
+Expected output: 'entities: [{'span': 'Physical Review', 'entity': 'Academic Journal'}, {'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'Reviews of Modern Physics', 'entity': 'Academic Journal'}, {'span': 'Nature', 'entity': 'Academic Journal'}]'
+
+Example #15: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #16: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #17: Prominent anatomists and geologists such as Georges Cuvier, Richard Owen, Adam Sedgwick, and Charles Lyell attacked it vigorously.
+Expected output: 'entities: [{'span': 'Georges Cuvier', 'entity': 'Scientist'}, {'span': 'Richard Owen', 'entity': 'Scientist'}, {'span': 'Adam Sedgwick', 'entity': 'Scientist'}, {'span': 'Charles Lyell', 'entity': 'Scientist'}]'
+
+Example #18: The Patriot was nominated for three Academy Awards: Academy Award for Best Sound Mixing (Kevin O 'Connell, Greg P. Russell and Lee Orloff), Academy Award for Best Cinematography, and Academy Award for Best Original Score.
+Expected output: 'entities: [{'span': 'The Patriot', 'entity': 'Misc'}, {'span': 'Academy Award for Best Sound Mixing', 'entity': 'Award'}, {'span': "Kevin O 'Connell", 'entity': 'Person'}, {'span': 'Greg P. Russell', 'entity': 'Person'}, {'span': 'Lee Orloff', 'entity': 'Person'}, {'span': 'Academy Award for Best Cinematography', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #19: He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase
+Expected output: 'entities: [{'span': 'enzymology', 'entity': 'Discipline'}, {'span': 'Rieske protein non-heme iron oxygenases', 'entity': 'Enzyme'}, {'span': 'Alcohol dehydrogenase', 'entity': 'Enzyme'}]'
+
+Example #20: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+

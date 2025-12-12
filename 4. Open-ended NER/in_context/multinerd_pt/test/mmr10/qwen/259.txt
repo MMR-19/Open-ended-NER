@@ -1,0 +1,30 @@
+Example #1: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #2: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #3: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #4: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #5: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #6: Tem propriedades medicinais contra artrite, diabete, pressão alta, e a flor, contra tosse, bronquite e resfriado.
+Expected output: 'entities: [{'span': 'artrite', 'entity': 'Doença'}, {'span': 'flor', 'entity': 'Planta'}, {'span': 'bronquite', 'entity': 'Doença'}]'
+
+Example #7: Inclui todos os eucariontes que não podem ser classificados como parte dos reinos Animalia (animais), Plantae (plantas) ou Fungi (fungos).
+Expected output: 'entities: [{'span': 'Animalia', 'entity': 'Animal'}, {'span': 'Plantae', 'entity': 'Planta'}, {'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #8: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #9: A associação simbiótica de muitas das espécies desta família com " Rhizobium " confere à família grande importância ecológica, já que em muitos ecossistemas são o principal elo na fixação do azoto atmosférico.
+Expected output: 'entities: [{'span': 'Rhizobium', 'entity': 'Entidade biológica'}]'
+
+Example #10: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+

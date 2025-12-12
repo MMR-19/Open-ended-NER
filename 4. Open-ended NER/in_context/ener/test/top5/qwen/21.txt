@@ -1,0 +1,15 @@
+Example #1: Board Members Amboian, Kundert and Toth were last elected as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #2: Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members and Board Member Hunter was last elected to each Fund s Board as a Class I Board Member at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}, {'span': 'Hunter', 'entity': 'Person'}]'
+
+Example #3: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #4: Under the Deferred Compensation Plan, Independent Board Members of the Participating Funds may defer receipt of all, or a portion, of the compensation they earn for their services to the Participating Funds, in lieu of receiving current payments of such compensation.
+Expected output: 'entities: []'
+
+Example #5: In addition to the payments described above, the Independent Chairman receives $ 50,000 annually and the Lead Independent Director, if any, receives $ 35,000, the chairpersons of the audit committee, the dividend committee and the compliance, risk management and regulatory oversight committee receive $ 7,500 and the chairperson of the nominating and governance committee receives $ 5,000 as additional retainers to the annual retainer paid to such individuals.
+Expected output: 'entities: []'
+

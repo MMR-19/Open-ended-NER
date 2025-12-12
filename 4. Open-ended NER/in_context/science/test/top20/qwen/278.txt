@@ -1,0 +1,60 @@
+Example #1: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #2: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #3: Comparisons were frequently drawn between the second cyclotron at the Harvard Cyclotron Laboratory and the Harwell Synchrocyclotron, and in 1974 clinicians from Oxford ' s Radcliffe Infirmary led by Dr T Hockaday floated plans to replicate the proton therapy work carried out at Massachusetts General Hospital with the accelerator.
+Expected output: 'entities: [{'span': 'Harvard Cyclotron Laboratory', 'entity': 'Organisation'}, {'span': 'Harwell Synchrocyclotron', 'entity': 'Misc'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Radcliffe Infirmary', 'entity': 'Location'}, {'span': 'T Hockaday', 'entity': 'Scientist'}, {'span': 'Massachusetts General Hospital', 'entity': 'Organisation'}]'
+
+Example #4: He also is one of the two Shaw Prize Founding Members and is a Distinguished Professor-at-Large at the Chinese University of Hong Kong.
+Expected output: 'entities: [{'span': 'Shaw Prize', 'entity': 'Award'}, {'span': 'Chinese University of Hong Kong', 'entity': 'University'}]'
+
+Example #5: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #6: Several scholars including Steven Pinker, Chomsky, Gerald Edelman, and Alexander Luria have indicated the importance of the emergence of human language as an important regulative mechanism of learning and memory in the context of the development of higher-order consciousness.
+Expected output: 'entities: [{'span': 'Steven Pinker', 'entity': 'Scientist'}, {'span': 'Chomsky', 'entity': 'Scientist'}, {'span': 'Gerald Edelman', 'entity': 'Scientist'}, {'span': 'Alexander Luria', 'entity': 'Scientist'}, {'span': 'higher-order consciousness', 'entity': 'Theory'}]'
+
+Example #7: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #8: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+
+Example #9: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #10: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #11: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #12: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #13: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #14: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #15: One of the first significant contributions of Maheswari was the discovery of RNA polymerase activity in chloroplasts which he accomplished during his early stint at California Institute of Technology while working with Robert S. Bandurski and their researches revealed the presence of DNA in organelle.
+Expected output: 'entities: [{'span': 'Maheswari', 'entity': 'Scientist'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'chloroplasts', 'entity': 'Misc'}, {'span': 'California Institute of Technology', 'entity': 'University'}, {'span': 'Robert S. Bandurski', 'entity': 'Scientist'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'organelle', 'entity': 'Misc'}]'
+
+Example #16: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+
+Example #17: Hewish has Honorary degrees from six universities including Manchester, Exeter and Cambridge, is a Foreign Member of the Belgian Royal Academy and the American Academy of Arts and Sciences and the Indian National Science Academy.
+Expected output: 'entities: [{'span': 'Hewish', 'entity': 'Scientist'}, {'span': 'Manchester', 'entity': 'University'}, {'span': 'Exeter', 'entity': 'University'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'Belgian Royal Academy', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Indian National Science Academy', 'entity': 'Organisation'}]'
+
+Example #18: In the Early Modern period, scientists such as William Harvey in England and Galileo Galilei in Italy reacted against the theories of Aristotle and other classical era thinkers like Galen, establishing new theories based to some degree on observation and experiment.
+Expected output: 'entities: [{'span': 'Early Modern period', 'entity': 'Misc'}, {'span': 'William Harvey', 'entity': 'Scientist'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'Galen', 'entity': 'Person'}]'
+
+Example #19: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #20: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+

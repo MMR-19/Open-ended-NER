@@ -1,0 +1,60 @@
+Example #1: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #2: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #3: Seu último jogo nos Patriots aconteceu na semana 4 no Monday Night Football contra o Miami Dolphins; ele não registrou uma recepção pela primeira vez em sua carreira nos Patriots.
+Expected output: 'entities: [{'span': 'Monday Night Football', 'entity': 'Média'}, {'span': 'Miami Dolphins', 'entity': 'Organização'}]'
+
+Example #4: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #5: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #6: Em 14 de janeiro de 2013, o programa foi transferido para Lisboa, passando a apresentação para João Baião e Tânia Ribas de Oliveira, que anteriormente apresentavam o " Portugal no Coração ".
+Expected output: 'entities: [{'span': '2013', 'entity': 'Tempo'}, {'span': 'Lisboa', 'entity': 'Localização'}, {'span': 'João Baião', 'entity': 'Pessoa'}, {'span': 'Tânia Ribas de Oliveira', 'entity': 'Pessoa'}, {'span': 'Portugal no Coração', 'entity': 'Média'}]'
+
+Example #7: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #8: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #9: Acabou esquecido para a disputa da Copa América de 2001 e da Copa Ouro da CONCACAF de 2002.
+Expected output: 'entities: [{'span': 'Copa América de 2001', 'entity': 'Evento'}, {'span': 'Copa Ouro da CONCACAF de 2002', 'entity': 'Média'}]'
+
+Example #10: Após iniciar a temporada 2010 – 11 como terceira opção para o gol do Arsenal, ganhou oportunidades devido às lesões de Manuel Almunia, então titular, e de seu reserva Łukasz Fabiański.
+Expected output: 'entities: [{'span': 'Arsenal', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Manuel Almunia', 'entity': 'Pessoa'}, {'span': 'Łukasz Fabiański', 'entity': 'Pessoa'}]'
+
+Example #11: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #12: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #13: " Eu sempre tive o sonho de ser um ator, mas não cheguei diretamente à Televisa ", disse o ator que começou em 1988, trabalhando como dublê do ator Eduardo Yáñez na telenovela " Dulce Desafío ".
+Expected output: 'entities: [{'span': 'Televisa', 'entity': 'Organização'}, {'span': '1988', 'entity': 'Tempo'}, {'span': 'Eduardo Yáñez', 'entity': 'Pessoa'}, {'span': 'Dulce Desafío', 'entity': 'Média'}]'
+
+Example #14: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #15: Três dias depois, marcou seu primeiro gol, também dando uma assistência de Sergio Agüero numa goleada por 5 a 0 sobre o Steaua Bucureşti, da Romênia, em partida válida pelos playoffs da Liga dos Campeões.
+Expected output: 'entities: [{'span': 'Sergio Agüero', 'entity': 'Pessoa'}, {'span': 'Steaua Bucureşti', 'entity': 'Organização'}, {'span': 'Romênia', 'entity': 'Localização'}, {'span': 'Liga dos Campeões', 'entity': 'Evento'}]'
+
+Example #16: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #17: Marcou seus primeiros gols pelo clube merengue numa goleada sobre o Deportivo La Coruña por 8 – 2, válida pelo Campeonato Espanhol.
+Expected output: 'entities: [{'span': 'Deportivo La Coruña', 'entity': 'Organização'}, {'span': 'Campeonato Espanhol', 'entity': 'Evento'}]'
+
+Example #18: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #19: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #20: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+

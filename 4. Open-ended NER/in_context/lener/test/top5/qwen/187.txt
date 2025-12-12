@@ -1,0 +1,15 @@
+Example #1: Rio Branco, 27 de março de 2018.
+Expected output: 'entities: [{'span': 'Rio Branco', 'entity': 'Localização'}, {'span': '27 de março de 2018', 'entity': 'Tempo'}]'
+
+Example #2: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #3: Menciono, a título exemplificativo, o julgamento da Ação Rescisória nº 1.536, relatora ministra Cármen Lúcia, acórdão publicado em 6 de setembro de 2007, a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Ação Rescisória nº 1.536', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '6 de setembro de 2007', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #4: Menciono, a título exemplificativo, o julgamento da Ação Rescisória nº 1.536, relatora ministra Cármen Lúcia, acórdão publicado em 6 de setembro de 2007, a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Ação Rescisória nº 1.536', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '6 de setembro de 2007', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #5: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+

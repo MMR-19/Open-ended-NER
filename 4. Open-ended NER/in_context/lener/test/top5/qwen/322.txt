@@ -1,0 +1,15 @@
+Example #1: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #2: Audiência - Sr. André Luiz Moreira da Silva a. desclassificação sumária de onze propostas, sem que fosse concedida aos licitantes a oportunidade de demonstrar a sua capacidade de bem executar os serviços, nos termos e condições exigidos pelo instrumento convocatório, contrariando o entendimento defendido pelo Tribunal em reiteradas deliberações, a exemplo dos Acórdãos 2.528/2012, 3.344/2012 e 3.092/2014, do Plenário; 14. Informa que, na ocasião, teria sido realizado estudo na legislação, e teriam sido adotadas como parâmetro de inexequibilidade ‘ propostas abaixo de 70 % do valor orçado pela administração, nos termos do art. 48, inciso II, alíneas ‘ a ’ e ‘ b ’, da Lei 8.666/1993 ’.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'Acórdãos 2.528/2012', 'entity': 'Jurisprudência'}, {'span': '3.344/2012', 'entity': 'Jurisprudência'}, {'span': '3.092/2014', 'entity': 'Jurisprudência'}, {'span': 'Plenário', 'entity': 'Organização'}, {'span': 'art. 48, inciso II, alíneas ‘ a ’ e ‘ b ’, da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #3: (TJMG - Apelação Cível 1.0549.15.003028-2/003, Relator (a): Des. (a) Otávio Portes, 16ª CÂMARA CÍVEL, julgamento em 28/09/2017, publicação da súmula em 06/10/2017) Assim sendo, entendo que deve ser acolhida a preliminar de nulidade do feito arguida pelo Ministério Público na instância recursal, sobremaneira, quando há prejuízo para o incapaz.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0549.15.003028-2/003', 'entity': 'Jurisprudência'}, {'span': 'Otávio Portes', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '28/09/2017', 'entity': 'Tempo'}, {'span': '06/10/2017', 'entity': 'Tempo'}, {'span': 'Ministério Público', 'entity': 'Organização'}]'
+
+Example #4: Este o conteúdo da Súmula 262: “ o critério definido no art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93 conduz a uma presunção relativa de inexequibilidade de preços, devendo a Administração dar à licitante a oportunidade de demonstrar a exequibilidade da sua proposta ”.
+Expected output: 'entities: [{'span': 'art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93', 'entity': 'Legislação'}]'
+
+Example #5: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+

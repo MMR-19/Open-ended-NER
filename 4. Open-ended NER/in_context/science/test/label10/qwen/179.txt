@@ -1,0 +1,30 @@
+Example #1: In the 2002 film, this musical number is performed by Catherine Zeta-Jones (as Velma Kelly), Susan Misner (as Liz), Denise Faye (as Annie), Deidre Goodwin (as June), Ekaterina Shchelkanova (as Katalin Helinszki nicknamed the Hunyak) and Mýa (as Mona).
+Expected output: 'entities: [{'span': 'Catherine Zeta-Jones', 'entity': 'Person'}, {'span': 'Velma Kelly', 'entity': 'Person'}, {'span': 'Susan Misner', 'entity': 'Person'}, {'span': 'Liz', 'entity': 'Person'}, {'span': 'Denise Faye', 'entity': 'Person'}, {'span': 'Annie', 'entity': 'Person'}, {'span': 'Deidre Goodwin', 'entity': 'Person'}, {'span': 'June', 'entity': 'Person'}, {'span': 'Ekaterina Shchelkanova', 'entity': 'Person'}, {'span': 'Katalin Helinszki', 'entity': 'Person'}, {'span': 'Hunyak', 'entity': 'Person'}, {'span': 'Mýa', 'entity': 'Person'}, {'span': 'Mona', 'entity': 'Person'}]'
+
+Example #2: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+
+Example #3: Since the middle of the 20th century, the region has come to play host to numerous international sports and entertainment festivals, such as the Lisbon & amp; Estoril Film Festival (in Estoril), the 4 Hours of Estoril endurance race (in Cascais), and NOS Alive music festival (in Algés).
+Expected output: 'entities: [{'span': 'international sports', 'entity': 'Misc'}, {'span': 'entertainment festivals', 'entity': 'Misc'}, {'span': 'Lisbon & amp; Estoril Film Festival', 'entity': 'Event'}, {'span': 'Estoril', 'entity': 'Location'}, {'span': '4 Hours of Estoril endurance race', 'entity': 'Event'}, {'span': 'Cascais', 'entity': 'Location'}, {'span': 'NOS Alive music festival', 'entity': 'Event'}, {'span': 'Algés', 'entity': 'Location'}]'
+
+Example #4: The show has received recognition as one of Britain's finest television programmes, winning the 2006 British Academy Television Award for Best Drama Series and five consecutive (2005-2010) awards at the National Television Awards during Russell T Davies ' tenure as executive producer.
+Expected output: 'entities: [{'span': 'Britain', 'entity': 'Country'}, {'span': 'British Academy Television Award for Best Drama Series', 'entity': 'Award'}, {'span': 'National Television Awards', 'entity': 'Award'}, {'span': 'Russell T Davies', 'entity': 'Person'}]'
+
+Example #5: The relative positions of five planets (Saturn, Jupiter, Mars, Venus, and Mercury) were shown, as were the moon's phases and the position of the Sun in the zodiac.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'moon', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}, {'span': 'zodiac', 'entity': 'Misc'}]'
+
+Example #6: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #7: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #8: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #9: She is one of only six female artists (including Reba McEntire, Barbara Mandrell, Shania Twain, Loretta Lynn, and Taylor Swift), to win the Country Music Association's highest honor, Entertainer of the Year (1978).
+Expected output: 'entities: [{'span': 'Reba McEntire', 'entity': 'Person'}, {'span': 'Barbara Mandrell', 'entity': 'Person'}, {'span': 'Shania Twain', 'entity': 'Person'}, {'span': 'Loretta Lynn', 'entity': 'Person'}, {'span': 'Taylor Swift', 'entity': 'Person'}, {'span': 'Country Music Association', 'entity': 'Organisation'}]'
+
+Example #10: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Her early works in the 1960s (her debut The Barbra Streisand Album, The Second Barbra Streisand Album, The Third Album, My Name Is Barbra, etc.
+Expected output: 'entities: [{'span': 'The Barbra Streisand Album', 'entity': 'Album'}, {'span': 'The Second Barbra Streisand Album', 'entity': 'Album'}, {'span': 'The Third Album', 'entity': 'Album'}, {'span': 'My Name Is Barbra', 'entity': 'Album'}]'
+
+Example #2: Extreme, Red Hot Chili Peppers, Living Colour, Jane's Addiction, Prince, Primus, Fishbone, Faith No More, Rage Against the Machine, Infectious Grooves, and Incubus spread the approach and styles garnered from funk pioneers to new audiences in the mid-to-late 1980s and the 1990s.
+Expected output: 'entities: [{'span': 'Extreme', 'entity': 'Band'}, {'span': 'Red Hot Chili Peppers', 'entity': 'Band'}, {'span': 'Living Colour', 'entity': 'Band'}, {'span': "Jane's Addiction", 'entity': 'Band'}, {'span': 'Prince', 'entity': 'Musical Artist'}, {'span': 'Primus', 'entity': 'Band'}, {'span': 'Fishbone', 'entity': 'Band'}, {'span': 'Faith No More', 'entity': 'Band'}, {'span': 'Rage Against the Machine', 'entity': 'Band'}, {'span': 'Infectious Grooves', 'entity': 'Band'}, {'span': 'Incubus', 'entity': 'Band'}, {'span': 'funk', 'entity': 'Misc'}]'
+
+Example #3: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+
+Example #4: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+
+Example #5: Prestwich joined Little River Band in 1984 and appeared on the albums, Playing to Win and No Reins, before departing in 1986 to join Farnham's touring band.
+Expected output: 'entities: [{'span': 'Little River Band', 'entity': 'Band'}, {'span': 'Playing to Win', 'entity': 'Album'}, {'span': 'No Reins', 'entity': 'Album'}, {'span': 'Farnham', 'entity': 'Musical Artist'}]'
+
+Example #6: The stadium also hosted such events as 1973 Summer Universiade, 1986 Goodwill Games and 2013 World Championships in Athletics.
+Expected output: 'entities: [{'span': '1973 Summer Universiade', 'entity': 'Event'}, {'span': '1986 Goodwill Games', 'entity': 'Event'}, {'span': '2013 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #7: International who's who in popular music, Volume 4 p.37. Routledge, 2002 The band was renamed Rocket Baby Dolls and adopted a Gothic rock - Glam rock image.
+Expected output: 'entities: [{'span': 'popular music', 'entity': 'Music Genre'}, {'span': 'Rocket Baby Dolls', 'entity': 'Band'}, {'span': 'Gothic rock', 'entity': 'Music Genre'}, {'span': 'Glam rock', 'entity': 'Music Genre'}]'
+
+Example #8: Despite the appeal of the Nashville sound, many traditional country artists emerged during this period and dominated the genre: Loretta Lynn, Merle Haggard, Buck Owens, Porter Wagoner, George Jones, and Sonny James among them.
+Expected output: 'entities: [{'span': 'the Nashville sound', 'entity': 'Music Genre'}, {'span': 'Loretta Lynn', 'entity': 'Musical Artist'}, {'span': 'Merle Haggard', 'entity': 'Musical Artist'}, {'span': 'Buck Owens', 'entity': 'Musical Artist'}, {'span': 'Porter Wagoner', 'entity': 'Musical Artist'}, {'span': 'George Jones', 'entity': 'Musical Artist'}, {'span': 'Sonny James', 'entity': 'Musical Artist'}]'
+
+Example #9: On 9 June 1892 the Paris Opéra-Comique staged Les Troyens à Carthage (in the Théâtre de la Ville as its premiere) and witnessed a triumphant debut for the 17-year-old Marie Delna as Didon, with Stéphane Lafarge as Énée, conducted by Jules Danbé; these staged performances of Part 2 continued into the next year.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Location'}, {'span': 'Opéra-Comique', 'entity': 'Organisation'}, {'span': 'Les Troyens à Carthage', 'entity': 'Misc'}, {'span': 'Théâtre de la Ville', 'entity': 'Location'}, {'span': 'Marie Delna', 'entity': 'Musical Artist'}, {'span': 'Didon', 'entity': 'Misc'}, {'span': 'Stéphane Lafarge', 'entity': 'Person'}, {'span': 'Énée', 'entity': 'Misc'}, {'span': 'Jules Danbé', 'entity': 'Musical Artist'}]'
+
+Example #10: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+

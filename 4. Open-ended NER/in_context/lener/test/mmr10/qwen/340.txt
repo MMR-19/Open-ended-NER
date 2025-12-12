@@ -1,0 +1,30 @@
+Example #1: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #2: Tal entendimento se extrai, com clareza, do art. 14 do Decreto n. 10.829/87, cuja observância se impõe no artigo 3º, inciso XI, da LODF, determinando que “ o Governador do Distrito Federal proporá a edição de leis que venham a dispor sobre o uso e ocupação do solo em todo o território do Distrito Federal ”.
+Expected output: 'entities: [{'span': 'art. 14 do Decreto n. 10.829/87', 'entity': 'Legislação'}, {'span': 'artigo 3º, inciso XI, da LODF', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #4: CPC, ARTS.
+Expected output: 'entities: [{'span': 'CPC', 'entity': 'Legislação'}]'
+
+Example #5: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #6: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #7: SÚMULA Nº 405/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA Nº 405/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #8: LEI N. 13.146/2015.
+Expected output: 'entities: [{'span': 'LEI N. 13.146/2015', 'entity': 'Legislação'}]'
+
+Example #9: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #10: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+

@@ -1,0 +1,60 @@
+Example #1: O primeiro voo bem-sucedido e registrado de um helicóptero foi realizado em 1907, por Paul Cornu, na França, embora o primeiro helicóptero de uso prático tenha sido o Focke-Wulf Fw 61, de fabrico alemão, em 1936.
+Expected output: 'entities: [{'span': '1907', 'entity': 'Tempo'}, {'span': 'Paul Cornu', 'entity': 'Pessoa'}, {'span': 'França', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}, {'span': '1936', 'entity': 'Tempo'}]'
+
+Example #2: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #3: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #4: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #5: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #6: Ainda em 1979 surge o primeiro single da banda: " " California Über Alles " ", uma crítica direta ao então governador da Califórnia, Jerry Brown.
+Expected output: 'entities: [{'span': '1979', 'entity': 'Tempo'}, {'span': 'California Über Alles', 'entity': 'Média'}, {'span': 'Califórnia', 'entity': 'Localização'}, {'span': 'Jerry Brown', 'entity': 'Pessoa'}]'
+
+Example #7: Os seres unicelulares, outrora incluídos nos grupos das plantas ou dos animais, se possuíssem ou não capacidade fotossintética, encontram-se actualmente agrupados entre os Protista, junto com alguns seres multicelulares.
+Expected output: 'entities: [{'span': 'plantas', 'entity': 'Planta'}, {'span': 'animais', 'entity': 'Animal'}, {'span': 'Protista', 'entity': 'Entidade biológica'}]'
+
+Example #8: Seu nome também foi alterado para " Britannic " e seu comissionamento adiado para 1914.
+Expected output: 'entities: [{'span': 'Britannic', 'entity': 'Veículo'}]'
+
+Example #9: A primeira carrinha de caixa aberta a ser fabricada foi baseada no carro Ford Model T, com a traseira modificada.
+Expected output: 'entities: [{'span': 'Ford Model T', 'entity': 'Veículo'}]'
+
+Example #10: Alguns membros da tropa podiam adquirir fuzis de assalto AK-47 tão somente preenchendo um formulário de demanda.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}]'
+
+Example #11: Em 1940, durante a Segunda Guerra Mundial, os alemães invadiram e derrotaram as forças norueguesas e anglo-francesas em Narvik, impondo um governo fantoche sob Vidkun Quisling.
+Expected output: 'entities: [{'span': '1940', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Narvik', 'entity': 'Localização'}, {'span': 'Vidkun Quisling', 'entity': 'Pessoa'}]'
+
+Example #12: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+
+Example #13: Enquanto a maioria das pessoas tende a pensar em colônias humanas em Marte ou na Lua, alguns argumentam que as primeiras colônias extraterrestres serão em órbita (como na Estação Espacial Internacional).
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Corpo celeste'}, {'span': 'Lua', 'entity': 'Corpo celeste'}, {'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}]'
+
+Example #14: Um poema sumeriano de 3900 anos homenageando a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu, descrevendo a produção de cerveja de cevada utilizando pão.
+Expected output: 'entities: [{'span': 'Ninkasi', 'entity': 'Entidade mitológica'}, {'span': 'cevada', 'entity': 'Planta'}, {'span': 'pão', 'entity': 'Comida'}]'
+
+Example #15: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #16: A Agência Cooperativa Magnum, fundada em 1947 em Paris, por quatro fotógrafos: Henri Cartier-Bresson, Robert Capa, David Seymour e George Rodger, foi a pioneira.
+Expected output: 'entities: [{'span': 'Agência Cooperativa Magnum', 'entity': 'Organização'}, {'span': '1947', 'entity': 'Tempo'}, {'span': 'Paris', 'entity': 'Localização'}, {'span': 'Henri Cartier-Bresson', 'entity': 'Pessoa'}, {'span': 'Robert Capa', 'entity': 'Pessoa'}, {'span': 'David Seymour', 'entity': 'Pessoa'}, {'span': 'George Rodger', 'entity': 'Pessoa'}]'
+
+Example #17: Travou contacto com a espiritualidade oriental, a partir de uma viagem à Índia, em 1911, e com a psicologia analítica, por meio de um discípulo de Carl Gustav Jung, em decorrência de uma crise emocional causada pela eclosão da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'Índia', 'entity': 'Localização'}, {'span': '1911', 'entity': 'Tempo'}, {'span': 'Carl Gustav Jung', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #18: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #19: A versão 1.0 do Maven utiliza o arquivo para definição do POM.
+Expected output: 'entities: [{'span': 'Maven', 'entity': 'Instrumento'}]'
+
+Example #20: Nos anos 1980 com o advento da HBO (que pode apresentar os comediantes sem censura) e outros canais a cabo como o Comedy Central contribuíram para o " boom " do " stand-up comedy ".
+Expected output: 'entities: [{'span': 'HBO', 'entity': 'Organização'}, {'span': 'Comedy Central', 'entity': 'Média'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: World War I saw a massive increase of conditions that came to be termed " shell shock ".
+Expected output: 'entities: [{'span': 'World War I', 'entity': 'Event'}, {'span': 'shell shock', 'entity': 'Disease'}]'
+
+Example #4: World War I saw a massive increase of conditions that came to be termed " shell shock ".
+Expected output: 'entities: [{'span': 'World War I', 'entity': 'Event'}, {'span': 'shell shock', 'entity': 'Disease'}]'
+
+Example #5: These can include those of advanced age, patients bed-bound in a hospital, individuals with certain types of physical or mental disability, and people working in extreme conditions, such as astronauts.
+Expected output: 'entities: [{'span': 'those of advanced age', 'entity': 'Time'}, {'span': 'mental', 'entity': 'Disease'}, {'span': 'disability', 'entity': 'Disease'}]'
+
+Example #6: For example, Hyperion, a satellite of Saturn, exhibits this behaviour, and its rotation period is described as chaotic.
+Expected output: 'entities: [{'span': 'Hyperion', 'entity': 'Mythological entity'}, {'span': 'Saturn', 'entity': 'Celestial Body'}]'
+
+Example #7: Traditional dietary patterns characterized by vegetables, fruit, meat, fish, and whole grains, as opposed to a western pattern diet characterized by processed foods, refined grains, sugary products, and beer were associated with lower odds for major depression or dysthymia (mood disorder) and for anxiety disorders in women.
+Expected output: 'entities: [{'span': 'vegetables', 'entity': 'Food'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'meat', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'whole grains', 'entity': 'Food'}, {'span': 'western pattern diet', 'entity': 'Food'}, {'span': 'processed foods', 'entity': 'Food'}, {'span': 'beer', 'entity': 'Food'}, {'span': 'dysthymia', 'entity': 'Disease'}, {'span': 'anxiety disorders', 'entity': 'Disease'}]'
+
+Example #8: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #9: There are also several reports in the medical literature of deaths from " D. stramonium " and " D. ferox " intoxication.
+Expected output: 'entities: [{'span': 'D. stramonium', 'entity': 'Plant'}, {'span': 'D. ferox', 'entity': 'Animal'}, {'span': 'intoxication', 'entity': 'Disease'}]'
+
+Example #10: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+

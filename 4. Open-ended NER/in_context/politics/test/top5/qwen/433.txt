@@ -1,0 +1,15 @@
+Example #1: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #2: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #3: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #4: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #5: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+

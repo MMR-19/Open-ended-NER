@@ -1,0 +1,15 @@
+Example #1: For example, although the typical recipe calls for beef and pork, the Kiev variant uses mutton or lamb as well as beef, while in the Poltava region, the stock for borscht is cooked on poultry meat, that is, chicken, duck or goose.
+Expected output: 'entities: [{'span': 'Kiev', 'entity': 'Location'}, {'span': 'mutton or lamb', 'entity': 'Food'}, {'span': 'Poltava', 'entity': 'Location'}, {'span': 'goose', 'entity': 'Animal'}]'
+
+Example #2: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #3: Menu items that are generally considered breakfast foods are served in the school's dining hall late at night (hence " midnight ") as a study break before or during final exams, or as a traditional community-building event.
+Expected output: 'entities: [{'span': 'breakfast', 'entity': 'Food'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #4: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #5: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+

@@ -1,0 +1,60 @@
+Example #1: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #2: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #3: " Diplatia " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #4: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #5: Tem propriedades medicinais contra artrite, diabete, pressão alta, e a flor, contra tosse, bronquite e resfriado.
+Expected output: 'entities: [{'span': 'artrite', 'entity': 'Doença'}, {'span': 'flor', 'entity': 'Planta'}, {'span': 'bronquite', 'entity': 'Doença'}]'
+
+Example #6: Entretanto, a sonda Mars Reconnaissance Orbiter revelou veios de água salgada que fluem em regiões montanhosas nos meses mais quentes do planeta, aumentando a possibilidade da existência de vida micro-orgânica.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrumento'}]'
+
+Example #7: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #8: Nos anos 1980 com o advento da HBO (que pode apresentar os comediantes sem censura) e outros canais a cabo como o Comedy Central contribuíram para o " boom " do " stand-up comedy ".
+Expected output: 'entities: [{'span': 'HBO', 'entity': 'Organização'}, {'span': 'Comedy Central', 'entity': 'Média'}]'
+
+Example #9: pelo novo Airbus A320.
+Expected output: 'entities: [{'span': 'Airbus A320', 'entity': 'Veículo'}]'
+
+Example #10: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #11: A maioria dos integrantes do reino Fungi, assim como as bactérias, obtém alimento decompondo a matéria orgânica do corpo de organismos mortos, atuando como saprófagos, conhecidos popularmente como decompositores.
+Expected output: 'entities: [{'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #12: É vulgar supor que os ácidos presentes no estômago o manteriam imune a agentes infecciosos, porém, muitos estudos apontam para que a " Helicobacter pylori " seja o agente responsável pela maioria dos casos de gastrite crónica, úlceras gástricas e cancro do estômago (nos casos de adenocarcinoma e linfoma MALT - tipo específico de linfoma da mucosa do estômago).
+Expected output: 'entities: [{'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'gastrite', 'entity': 'Doença'}, {'span': 'úlceras gástricas', 'entity': 'Doença'}, {'span': 'cancro do estômago', 'entity': 'Doença'}, {'span': 'linfoma', 'entity': 'Doença'}]'
+
+Example #13: No Palmeiras, porém, o jogador sofreu com muitas lesões e não conseguiu manter o bom futebol que apresentava no rubro-negro baiano, disputando apenas oito partidas pelo Brasileirão de 2009.
+Expected output: 'entities: [{'span': 'Palmeiras', 'entity': 'Organização'}, {'span': 'lesões', 'entity': 'Doença'}, {'span': 'Brasileirão de 2009', 'entity': 'Evento'}]'
+
+Example #14: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #15: Também inspirou uma canção de sucesso, " Wuthering Heights ", composta e interpretada por Kate Bush para o álbum " The Kick Inside ", de 1978, e posteriormente regravada pela banda Angra, em seu álbum " Angels Cry ", de 1993.
+Expected output: 'entities: [{'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'The Kick Inside', 'entity': 'Média'}, {'span': '1978', 'entity': 'Tempo'}, {'span': 'Angra', 'entity': 'Organização'}, {'span': 'Angels Cry', 'entity': 'Média'}, {'span': '1993', 'entity': 'Tempo'}]'
+
+Example #16: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #17: Os dados registrados pelo telescópio espacial Kepler apresentam um padrão realmente incomum, o que levou muitos pesquisadores a se interessar pelo caso.
+Expected output: 'entities: [{'span': 'telescópio espacial Kepler', 'entity': 'Instrumento'}]'
+
+Example #18: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #19: Porém, o primeiro voo de um helicóptero completamente controlável foi demonstrado por Hanna Reitsch em 1937 em Berlim, Alemanha conduzindo um Focke-Wulf Fw 61.
+Expected output: 'entities: [{'span': 'Hanna Reitsch', 'entity': 'Pessoa'}, {'span': '1937', 'entity': 'Tempo'}, {'span': 'Berlim', 'entity': 'Localização'}, {'span': 'Alemanha', 'entity': 'Localização'}, {'span': 'Focke-Wulf Fw 61', 'entity': 'Veículo'}]'
+
+Example #20: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+

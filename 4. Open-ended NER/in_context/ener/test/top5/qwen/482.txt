@@ -1,0 +1,15 @@
+Example #1: This Information Statement has been filed with the Securities and Exchange Commission and is being furnished, pursuant to Section 14C of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), to the holders (the “ Stockholders ”) of the common stock, par value $ .0001 per share (the “ Common Stock ”), of Comcam, Inc., a Delaware Corporation (the “ Company ”), to notify such Stockholders that on or about March 5, 2010, the Company received written consents in lieu of a meeting of Stockholders from holders of 683,952,500 shares representing approximately 91 % of the 744,640,134 shares of the total issued and outstanding shares of voting stock of the Company (the “ Majority Stockholders ”) to authorize 1-for-85 reverse stock split (pro-rata reduction of outstanding shares) of our issued and outstanding shares of Common Stock (the “ Reverse Stock Split ”).
+Expected output: 'entities: [{'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Comcam, Inc.', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}]'
+
+Example #2: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #3: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #4: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #5: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+

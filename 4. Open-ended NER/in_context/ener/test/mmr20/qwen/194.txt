@@ -1,0 +1,60 @@
+Example #1: Based on the committee s review and discussions with management and the independent registered public accounting firm, the representations of management and the report of the independent registered public accounting firm to the committee, the committee has recommended that the audited financial statements be included in each Fund s Annual Report.
+Expected output: 'entities: []'
+
+Example #2: The Company ’ s financial statements are prepared using generally accepted accounting principles in the United States of America applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course of business.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #3: To the knowledge of management of the Funds, no shareholder of a Fund owns more than 10 % of a registered class of a Fund s equity securities, except as provided in Appendix B.
+Expected output: 'entities: []'
+
+Example #4: The following tables provide the aggregate fees billed during each Fund s last two fiscal years by each Fund s independent registered public accounting firm for engagements directly related to the operations and financial reporting of each Fund including those relating (i) to each Fund for services provided to the Fund and (ii) to the Adviser and certain entities controlling, controlled by, or under common control with the Adviser that provide ongoing services to each Fund (Adviser Entities).
+Expected output: 'entities: []'
+
+Example #5: The Board determined that S. Leland Dill qualifies as ACFE and is independent (as each item defined in Item 3 of Form N-CSR).
+Expected output: 'entities: [{'span': 'S. Leland Dill', 'entity': 'Person'}, {'span': 'Form N-CSR', 'entity': 'Miscellaneous'}]'
+
+Example #6: A representative of each independent registered public accounting firm will be present at the Annual Meetings to make a statement, if such representative so desires, and to respond to shareholders questions.
+Expected output: 'entities: []'
+
+Example #7: While certain U.S. Government-sponsored agencies (such as the Federal Home Loan Mortgage Corporation and the Federal National Mortgage Association) may be chartered or sponsored by acts of Congress, their securities are neither issued nor guaranteed by the U.S. Risks of Repurchase Agreements and Reverse Repurchase Agreements.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Location'}, {'span': 'Federal Home Loan Mortgage Corporation', 'entity': 'Government'}, {'span': 'Federal National Mortgage Association', 'entity': 'Government'}, {'span': 'Congress', 'entity': 'Government'}]'
+
+Example #8: The Financial Accounting Standards Board (FASB) Accounting Standards Codification (ASC) has become the exclusive reference of authoritative U.S. generally accepted accounting principles (GAAP) recognized by the FASB to be applied by nongovernmental entities.
+Expected output: 'entities: [{'span': 'Financial Accounting Standards Board', 'entity': 'Government'}, {'span': 'FASB', 'entity': 'Government'}, {'span': 'Accounting Standards Codification', 'entity': 'Legislation/Act'}, {'span': 'ASC', 'entity': 'Legislation/Act'}, {'span': 'U.S.', 'entity': 'Location'}, {'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'GAAP', 'entity': 'Legislation/Act'}]'
+
+Example #9: The committee also selects, retains, evaluates and may replace each Fund s independent registered public accounting firm.
+Expected output: 'entities: []'
+
+Example #10: The accompanying unaudited consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States of America (“ US GAAP ”) for interim financial information and with the instructions to Form 10-Q and Article 8-03 of Regulation S-X.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}, {'span': 'US GAAP', 'entity': 'Legislation/Act'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Regulation S-X', 'entity': 'Legislation/Act'}]'
+
+Example #11: Research Analysts - JPMSI On April 28, 2003, the Commission filed a complaint (the “ JPMSI Research Analysts Complaint ”) against JPMSI in the United States District Court for the Southern District of New York (the “ New York District Court ”) in a civil action captioned Securities and Exchange Commission v. J.P. Morgan Securities Inc..
+Expected output: 'entities: [{'span': 'JPMSI', 'entity': 'Business'}, {'span': 'JPMSI Research Analysts Complaint', 'entity': 'Miscellaneous'}, {'span': 'United States District Court for the Southern District of New York', 'entity': 'Court'}, {'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'J.P. Morgan Securities Inc.', 'entity': 'Business'}]'
+
+Example #12: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #13: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+
+Example #14: Each Fund s proxy statement is available at www.nuveen.com/CEF/Info/Shareholder/Proxy Statements.aspx.
+Expected output: 'entities: []'
+
+Example #15: Officers receive no compensation from the Funds.
+Expected output: 'entities: []'
+
+Example #16: The audit committee of each Board is responsible for the oversight and monitoring of (1) the accounting and reporting policies, processes and practices, and the audit of the financial statements, of each Fund, (2) the quality and integrity of the Funds financial statements and (3) the independent registered public accounting firm s qualifications, performance and independence.
+Expected output: 'entities: []'
+
+Example #17: The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period.
+Expected output: 'entities: [{'span': 'accounting principles generally accepted', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}]'
+
+Example #18: Each Fund will furnish, without charge, a copy of its annual report and/or semi-annual report as available upon request.
+Expected output: 'entities: []'
+
+Example #19: The committee, in discharging its duties, has met with and held discussions with management and each Fund s independent registered public accounting firm.
+Expected output: 'entities: []'
+
+Example #20: Regarding tax and research projects conducted by the independent registered public accounting firm for each Fund and the Adviser and Adviser Entities (with respect to the operations and financial reporting of each Fund), such engagements will be (i) pre-approved by the audit committee if they are expected to be for amounts greater than $ 10,000; (ii) reported to the audit committee chairman for his verbal approval prior to engagement if they are expected to be for amounts under $ 10,000 but greater than $ 5,000; and (iii) reported to the audit committee at the next audit committee meeting if they are expected to be for an amount under $ 5,000.
+Expected output: 'entities: []'
+

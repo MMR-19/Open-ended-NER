@@ -1,0 +1,15 @@
+Example #1: As with BLEU, the basic unit of evaluation is the sentence, the algorithm first creates an alignment (see illustrations) between two sentence s, the candidate translation string, and the reference translation string.
+Expected output: 'entities: [{'span': 'BLEU', 'entity': 'Metrics'}]'
+
+Example #2: More recently, fictional representations of artificially intelligent robots in films such as A.I. Artificial Intelligence and Ex Machina and the 2016 TV adaptation of Westworld have engaged audience sympathy for the robots themselves.
+Expected output: 'entities: [{'span': 'artificially intelligent robots', 'entity': 'Product'}, {'span': 'A.I. Artificial Intelligence', 'entity': 'Misc'}, {'span': 'Ex Machina', 'entity': 'Misc'}, {'span': 'Westworld', 'entity': 'Misc'}]'
+
+Example #3: Xu has published more than 50 papers at international conferences and in journals in the field of computer vision and won the Best Paper Award at the international conference on Non-Photorealistic Rendering and Animation (NPAR) 2012 and the Best Reviewer Award at the international conferences Asian Conference on Computer Vision ACCV 2012 and International Conference on Computer Vision (ICCV) 2015.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Researcher'}, {'span': 'computer vision', 'entity': 'Field'}, {'span': 'Best Paper Award', 'entity': 'Misc'}, {'span': 'international conference on Non-Photorealistic Rendering and Animation', 'entity': 'Conference'}, {'span': 'NPAR', 'entity': 'Conference'}, {'span': 'Best Reviewer Award', 'entity': 'Misc'}, {'span': 'international conferences Asian Conference on Computer Vision', 'entity': 'Conference'}, {'span': 'ACCV 2012', 'entity': 'Conference'}, {'span': 'International Conference on Computer Vision', 'entity': 'Conference'}, {'span': 'ICCV', 'entity': 'Conference'}]'
+
+Example #4: Same implementation, to run in Java with JShell (Java 9 minimum): codejshell scriptfile / codesyntaxhighlight lang = java
+Expected output: 'entities: [{'span': 'Java', 'entity': 'Programming Language'}, {'span': 'JShell', 'entity': 'Product'}, {'span': 'Java 9', 'entity': 'Programming Language'}, {'span': 'codejshell', 'entity': 'Product'}, {'span': 'java', 'entity': 'Programming Language'}]'
+
+Example #5: He discusses Breadth-first search and Depth-first search techniques, but eventually concludes that the results represent expert system s that incarnate a lot of technical knowledge but don 't shine much light on the mental processes that humans use to solve such puzzles.
+Expected output: 'entities: [{'span': 'Breadth-first search', 'entity': 'Algorithm'}, {'span': 'Depth-first search', 'entity': 'Algorithm'}, {'span': 'expert system', 'entity': 'Product'}]'
+

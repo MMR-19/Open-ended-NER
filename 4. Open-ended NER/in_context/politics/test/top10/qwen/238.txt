@@ -1,0 +1,30 @@
+Example #1: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #2: Fianna Fáil was last in government from 1997 Irish general election to 2011 Irish general election under Bertie Ahern and Brian Cowen, with a periodic high of 81 seats in 2002 Irish general election, reduced to 77 in 2007 Irish general election.
+Expected output: 'entities: [{'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': '1997 Irish general election', 'entity': 'Election'}, {'span': '2011 Irish general election', 'entity': 'Election'}, {'span': 'Bertie Ahern', 'entity': 'Politician'}, {'span': 'Brian Cowen', 'entity': 'Politician'}, {'span': '2002 Irish general election', 'entity': 'Election'}, {'span': '2007 Irish general election', 'entity': 'Election'}]'
+
+Example #3: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #4: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #5: His party won 14 seats in the 1998 Nova Scotia general election and held the balance of power in a minority government where both the Nova Scotia Liberal Party and the Nova Scotia New Democratic Party, led by Russell MacLellan and Robert Chisholm, respectively, each had nineteen seats.
+Expected output: 'entities: [{'span': '1998 Nova Scotia general election', 'entity': 'Election'}, {'span': 'Nova Scotia Liberal Party', 'entity': 'Political Party'}, {'span': 'Nova Scotia New Democratic Party', 'entity': 'Political Party'}, {'span': 'Russell MacLellan', 'entity': 'Politician'}, {'span': 'Robert Chisholm', 'entity': 'Politician'}]'
+
+Example #6: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #7: Whereas most leaders had come from or identified with the independence movement Sinn Féin (in its 1917-22 phase), Bruton identified more with the more moderate Irish Parliamentary Party (IPP) tradition that Sinn Féin had eclipsed at the 1918 Irish general election.
+Expected output: 'entities: [{'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Bruton', 'entity': 'Location'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}, {'span': 'IPP', 'entity': 'Political Party'}, {'span': '1918 Irish general election', 'entity': 'Election'}]'
+
+Example #8: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #9: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #10: After narrowly losing the 1969 Australian federal election, Whitlam led Labor to victory at the 1972 election after 23 years of continuous Liberal Party of Australia - National Party of Australia Coalition Government.
+Expected output: 'entities: [{'span': '1969 Australian federal election', 'entity': 'Election'}, {'span': 'Whitlam', 'entity': 'Politician'}, {'span': 'Labor', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+

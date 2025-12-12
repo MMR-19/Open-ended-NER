@@ -1,0 +1,60 @@
+Example #1: (TST-AgR-AIRR-323-89.2014.5.02.0371, Relator Ministro Cláudio Mascarenhas Brandão, 7ª Turma, DEJT 11/02/2016) AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA INTERPOSTO NA VIGÊNCIA DA LEI 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-323-89.2014.5.02.0371', 'entity': 'Jurisprudência'}, {'span': 'Cláudio Mascarenhas Brandão', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '11/02/2016', 'entity': 'Tempo'}, {'span': 'LEI 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #2: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #3: Número do Acórdão ACÓRDÃO 2924/2017 - PLENÁRIO Relator BRUNO DANTAS Processo 021.074/2016-0 Tipo de processo DENÚNCIA (DEN) Data da sessão 12/12/2017 Número da ata 26/2017 Interessado / Responsável / Recorrente 3.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2924/2017', 'entity': 'Jurisprudência'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'BRUNO DANTAS', 'entity': 'Pessoa'}, {'span': 'Processo 021.074/2016-0', 'entity': 'Jurisprudência'}, {'span': '12/12/2017', 'entity': 'Tempo'}]'
+
+Example #4: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #5: (REsp 1263234/TO, Rel. Ministra NANCY ANDRIGHI, TERCEIRA TURMA, julgado em 11/06/2013, DJe 01/07/2013) PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'REsp 1263234/TO', 'entity': 'Jurisprudência'}, {'span': 'NANCY ANDRIGHI', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '11/06/2013', 'entity': 'Tempo'}, {'span': '01/07/2013', 'entity': 'Tempo'}]'
+
+Example #6: (REsp 1439024/DF, Rel. Ministro HERMAN BENJAMIN, SEGUNDA TURMA, julgado em 22/11/2016, DJe 30/11/2016).
+Expected output: 'entities: [{'span': 'REsp 1439024/DF', 'entity': 'Jurisprudência'}, {'span': 'HERMAN BENJAMIN', 'entity': 'Pessoa'}, {'span': 'SEGUNDA TURMA', 'entity': 'Organização'}, {'span': '22/11/2016', 'entity': 'Tempo'}, {'span': '30/11/2016', 'entity': 'Tempo'}]'
+
+Example #7: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #8: (TJMG - Apelação Cível 1.0024.13.330164-8/001, Relator (a): Des. (a) Aparecida Grossi, 16ª CÂMARA CÍVEL, julgamento em 06/10/0017, publicação da súmula em 11/10/2017) EMENTA: DIREITO PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0024.13.330164-8/001', 'entity': 'Jurisprudência'}, {'span': 'Aparecida Grossi', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/10/0017', 'entity': 'Tempo'}, {'span': '11/10/2017', 'entity': 'Tempo'}]'
+
+Example #9: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #10: Precedentes: REsp 932.731/BA, Rel. Ministro Herman Benjamin, Segunda Turma, DJe 31.8.2009; REsp 1.061.852/PR, Rel. Ministro Benedito Gonçalves, Primeira Turma, DJe 28.9.2009; e REsp 1.249.358/RJ, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 28.6.2013.
+Expected output: 'entities: [{'span': 'REsp 932.731/BA', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '31.8.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.061.852/PR', 'entity': 'Jurisprudência'}, {'span': 'Ministro Benedito Gonçalves', 'entity': 'Pessoa'}, {'span': '28.9.2009', 'entity': 'Tempo'}, {'span': 'REsp 1.249.358/RJ', 'entity': 'Jurisprudência'}, {'span': 'Mauro Campbell Marques', 'entity': 'Pessoa'}, {'span': '28.6.2013', 'entity': 'Tempo'}]'
+
+Example #11: A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts. 557, caput, e § 1º-A, do Código de Processo Civil, e 3º do Código de Processo Penal - CPP, que permitem ao relator dar provimento, negar seguimento a recurso manifestamente inadmissível, improcedente, prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal, do Supremo Tribunal Federal, ou de Tribunal Superior '' (AgRg nos EREsp 1.387.000/PR, Rel. Min. Ericson Maranho (Desembargador convocado do TJ/SP), Terceira Seção, DJe 17/06/2015).
+Expected output: 'entities: [{'span': 'arts. 557, caput, e § 1º-A, do Código de Processo Civil', 'entity': 'Legislação'}, {'span': '3º do Código de Processo Penal - CPP', 'entity': 'Legislação'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'AgRg nos EREsp 1.387.000/PR', 'entity': 'Jurisprudência'}, {'span': 'Ericson Maranho', 'entity': 'Pessoa'}, {'span': 'TJ/SP', 'entity': 'Organização'}, {'span': '17/06/2015', 'entity': 'Tempo'}]'
+
+Example #12: (AgRg no REsp 526.638/SP, Rel. Ministra MARIA ISABEL GALLOTTI, QUARTA TURMA, julgado em 19/02/2013, DJe 27/02/2013).
+Expected output: 'entities: [{'span': 'AgRg no REsp 526.638/SP', 'entity': 'Jurisprudência'}, {'span': 'MARIA ISABEL GALLOTTI', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '19/02/2013', 'entity': 'Tempo'}, {'span': '27/02/2013', 'entity': 'Tempo'}]'
+
+Example #13: Brasília, 21 4ipvembro de 20 MINISTRO ARCISIO VIEIRA DE CARVALHO NETO - RELATOR REspe n° 59-08.2016.6.1 9.0028/RJ 4 RELATÓRIO O SENHOR MINISTRO TARCISIO VIEIRA DE CARVALHO NETO: Senhora Presidente, trata-se de recurso especial interposto por Márcio de Abreu Oliveira - então candidato à reeleição ao cargo de Prefeito do Município de Paraíba do Sul/RJ no pleito de 2016 - e pelo Partido Progressista (PP) contra acórdão do Tribunal Regional Eleitoral do Rio de Janeiro (TRE/RJ) pelo qual foi reformada parcialmente a sentença e mantida a condenação do primeiro, bem como a condenação solidária do Partido Progressista (PP) - Municipal.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '21 4ipvembro de 20', 'entity': 'Tempo'}, {'span': 'ARCISIO VIEIRA DE CARVALHO NETO', 'entity': 'Pessoa'}, {'span': 'REspe n° 59-08.2016.6.1 9.0028/RJ', 'entity': 'Jurisprudência'}, {'span': 'TARCISIO VIEIRA DE CARVALHO NETO', 'entity': 'Pessoa'}, {'span': 'Márcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': '2016', 'entity': 'Tempo'}, {'span': 'Partido Progressista', 'entity': 'Organização'}, {'span': 'PP', 'entity': 'Organização'}, {'span': 'Tribunal Regional Eleitoral do Rio de Janeiro', 'entity': 'Organização'}, {'span': 'TRE/RJ', 'entity': 'Organização'}]'
+
+Example #14: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #15: REsp n. 1694984/MS, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 14/11/2017, DJe 01/02/2018). ''
+Expected output: 'entities: [{'span': 'REsp n. 1694984/MS', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '14/11/2017', 'entity': 'Tempo'}, {'span': '01/02/2018', 'entity': 'Tempo'}]'
+
+Example #16: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #17: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513116. Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED.: PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #18: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #19: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #20: AgRg no REsp 1319821/PB, Rel. Ministra MARGA TESSLER (JUÍZA FEDERAL CONVOCADA DO TRF 4ª REGIÃO), PRIMEIRA TURMA, julgado em 09/12/2014, DJe 16/12/2014). ''
+Expected output: 'entities: [{'span': 'AgRg no REsp 1319821/PB', 'entity': 'Jurisprudência'}, {'span': 'MARGA TESSLER', 'entity': 'Pessoa'}, {'span': 'TRF 4ª REGIÃO', 'entity': 'Organização'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '09/12/2014', 'entity': 'Tempo'}, {'span': '16/12/2014', 'entity': 'Tempo'}]'
+

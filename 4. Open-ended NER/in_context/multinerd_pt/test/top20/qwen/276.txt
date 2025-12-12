@@ -1,0 +1,60 @@
+Example #1: É possível que prolongados jejuns a tenham enfraquecido ao ponto de ter sucumbido à epidemia gerada pela pneumónica que varreu a Europa em 1918, em consequência da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'pneumónica', 'entity': 'Doença'}, {'span': 'Europa', 'entity': 'Localização'}, {'span': '1918', 'entity': 'Tempo'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #2: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #3: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #4: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #5: As bactérias patogênicas são uma das principais causas de morte e doença humana e causam infecções como tétano (Causado por Clostridium tetani), febre tifóide, difteria, sífilis, cólera, intoxicação alimentar, lepra (causada por Micobacterium leprae) e tuberculose (Causada por Mycobacterium tubeculosis) Uma causa patogênica para uma doença médica conhecida só pode ser descoberta muitos anos depois, como foi o caso do Helicobacter pylori e da úlcera péptica.
+Expected output: 'entities: [{'span': 'tétano', 'entity': 'Doença'}, {'span': 'febre tifóide', 'entity': 'Doença'}, {'span': 'difteria', 'entity': 'Doença'}, {'span': 'sífilis', 'entity': 'Doença'}, {'span': 'cólera', 'entity': 'Doença'}, {'span': 'intoxicação alimentar', 'entity': 'Doença'}, {'span': 'tuberculose', 'entity': 'Doença'}, {'span': 'Helicobacter pylori', 'entity': 'Entidade biológica'}, {'span': 'úlcera péptica', 'entity': 'Doença'}]'
+
+Example #6: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #7: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #8: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #9: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #10: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #11: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #12: A cidade foi tomada por uma epidemia e os habitantes viram nisso uma retaliação por não terem dado atenção ao filho de Afrodite, fizeram rituais e pediram que ele ficasse entre eles.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #13: Questionada pelos fãs, a equipe responsável pelo Twitter do escritor respondeu em meados do mesmo mês que ele estava " melhorando lentamente ", mantendo a postura de não entrar em detalhes a respeito do que levou à internação.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #14: No século 28, após o fim da construção da Estação Espacial Internacional, diversas raças alienígenas fazem contato com a humanidade e adicionam sua tecnologia à estação, tornando sua massa demasiadamente grande para mantê-la na órbita da Terra.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #15: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #16: Em 2001, enquanto servia de assistente técnico no Toronto Raptors, soreu um acidente vascular cerebral, o qual ficou parcialmente paralisado.
+Expected output: 'entities: [{'span': 'Toronto Raptors', 'entity': 'Organização'}, {'span': 'acidente vascular cerebral', 'entity': 'Doença'}]'
+
+Example #17: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #18: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #19: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #20: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+

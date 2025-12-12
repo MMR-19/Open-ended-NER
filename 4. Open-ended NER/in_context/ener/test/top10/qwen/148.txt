@@ -1,0 +1,30 @@
+Example #1: The executive committee, which meets between regular meetings of the Board, is authorized to exercise all of the powers of the Board; provided that the scope of the powers of the executive committee, unless otherwise specifically authorized by the full Board, is limited to: (i) emergency matters where assembly of the full Board is impracticable (in which case management will take all reasonable steps to quickly notify each individual Board Member of the actions taken by the executive committee) and (ii) matters of an administrative or ministerial nature.
+Expected output: 'entities: []'
+
+Example #2: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #3: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #4: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #5: Those persons who were shareholders of record at the close of business on Monday, February 8, 2010 will be entitled to one vote for each share held and a proportionate fractional vote for each fractional vote held.
+Expected output: 'entities: []'
+
+Example #6: To the extent that any court action is permitted consistent with or to enforce Section 7 of this Agreement, the Parties hereby consent to the jurisdiction of the San Diego County Superior Court of California State and the United States District Court for the Southern District of California.
+Expected output: 'entities: [{'span': 'San Diego County Superior Court of California State', 'entity': 'Court'}, {'span': 'United States District Court for the Southern District of California', 'entity': 'Court'}]'
+
+Example #7: The Ninth Circuit affirmed the dismissal of the consumer fraud and implied covenant claims.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}]'
+
+Example #8: Audit Committee Pre-Approval Policies and Procedures.
+Expected output: 'entities: []'
+
+Example #9: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #10: about March 1, 2010.
+Expected output: 'entities: []'
+

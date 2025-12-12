@@ -1,0 +1,15 @@
+Example #1: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #2: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #3: Bova holds the position of President Emeritus of the National Space Society and served as President of Science Fiction and Fantasy Writers of America (SFWA) from 1990 to 1992.
+Expected output: 'entities: [{'span': 'Bova', 'entity': 'Writer'}, {'span': 'President Emeritus', 'entity': 'Misc'}, {'span': 'National Space Society', 'entity': 'Organisation'}, {'span': 'Science Fiction and Fantasy Writers of America', 'entity': 'Organisation'}, {'span': 'SFWA', 'entity': 'Organisation'}]'
+
+Example #4: It was nominated for seven Academy Awards and won four, including Academy Award for Best Picture and Academy Award for Best Original Screenplay.
+Expected output: 'entities: [{'span': 'Academy Awards', 'entity': 'Award'}, {'span': 'Academy Award for Best Picture', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Screenplay', 'entity': 'Award'}]'
+
+Example #5: In response to what at least appeared to be a blatant snub by his own countrymen, the director Sidney Lumet led a successful campaign to have Kurosawa receive an Oscar nomination for Academy Award for Best Director that year (Sydney Pollack ultimately won the award for directing Out of Africa).
+Expected output: 'entities: [{'span': 'Sidney Lumet', 'entity': 'Person'}, {'span': 'Kurosawa', 'entity': 'Person'}, {'span': 'Oscar', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Sydney Pollack', 'entity': 'Person'}, {'span': 'Out of Africa', 'entity': 'Misc'}]'
+

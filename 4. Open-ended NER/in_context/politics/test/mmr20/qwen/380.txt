@@ -1,0 +1,60 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: The Theosophical Society built several Buddhist schools in Ceylon, most notably Ananda College in 1886, Dharmaraja College Kandy in 1887, Maliyadeva College Kurunegala in 1888, Mahinda College Galle in 1892, Nalanda College, Colombo in 1925, Musaeus Girls College in Colombo and Dharmasoka College in Ambalangoda.
+Expected output: 'entities: [{'span': 'Theosophical Society', 'entity': 'Organisation'}, {'span': 'Buddhist', 'entity': 'Misc'}, {'span': 'Ceylon', 'entity': 'Location'}, {'span': 'Ananda College', 'entity': 'Organisation'}, {'span': 'Dharmaraja College', 'entity': 'Organisation'}, {'span': 'Kandy', 'entity': 'Location'}, {'span': 'Maliyadeva College', 'entity': 'Organisation'}, {'span': 'Kurunegala', 'entity': 'Location'}, {'span': 'Mahinda College', 'entity': 'Organisation'}, {'span': 'Galle', 'entity': 'Location'}, {'span': 'Nalanda College', 'entity': 'Organisation'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Musaeus Girls College', 'entity': 'Organisation'}, {'span': 'Dharmasoka College', 'entity': 'Organisation'}, {'span': 'Ambalangoda', 'entity': 'Location'}]'
+
+Example #3: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #4: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #5: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #6: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #7: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #8: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #9: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #10: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #11: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #12: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #13: Various Governors-General had previously served as governors of an Australian state or colony: Lord Hopetoun (Victoria 1889-1895); Lord Tennyson (South Australia 1899-1902); Lord Gowrie (South Australia 1928-34; and New South Wales 1935-1936); Major General Michael Jeffery (Western Australia 1993-2000); Quentin Bryce (Queensland 2003-2008); General David Hurley (New South Wales 2014 - 2019).
+Expected output: 'entities: [{'span': 'Australian', 'entity': 'Misc'}, {'span': 'Lord Hopetoun', 'entity': 'Politician'}, {'span': 'Victoria', 'entity': 'Location'}, {'span': 'Lord Tennyson', 'entity': 'Politician'}, {'span': 'South Australia', 'entity': 'Location'}, {'span': 'Lord Gowrie', 'entity': 'Politician'}, {'span': 'New South Wales', 'entity': 'Location'}, {'span': 'Michael Jeffery', 'entity': 'Politician'}, {'span': 'Western Australia', 'entity': 'Location'}, {'span': 'Quentin Bryce', 'entity': 'Politician'}, {'span': 'Queensland', 'entity': 'Location'}, {'span': 'David Hurley', 'entity': 'Politician'}]'
+
+Example #14: Brooks was a member of the Masonic Lodge, the Shriners, the Benevolent and Protective Order of Elks, American Legion, Veterans of Foreign Wars, and the Kiwanis International.
+Expected output: 'entities: [{'span': 'Brooks', 'entity': 'Person'}, {'span': 'Masonic Lodge', 'entity': 'Organisation'}, {'span': 'Shriners', 'entity': 'Organisation'}, {'span': 'Benevolent and Protective Order of Elks', 'entity': 'Organisation'}, {'span': 'American Legion', 'entity': 'Organisation'}, {'span': 'Veterans of Foreign Wars', 'entity': 'Organisation'}, {'span': 'Kiwanis International', 'entity': 'Organisation'}]'
+
+Example #15: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+
+Example #16: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #17: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #18: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #19: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #20: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+

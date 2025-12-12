@@ -1,0 +1,30 @@
+Example #1: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #3: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #4: Brasília, 21 4ipvembro de 20 MINISTRO ARCISIO VIEIRA DE CARVALHO NETO - RELATOR REspe n° 59-08.2016.6.1 9.0028/RJ 4 RELATÓRIO O SENHOR MINISTRO TARCISIO VIEIRA DE CARVALHO NETO: Senhora Presidente, trata-se de recurso especial interposto por Márcio de Abreu Oliveira - então candidato à reeleição ao cargo de Prefeito do Município de Paraíba do Sul/RJ no pleito de 2016 - e pelo Partido Progressista (PP) contra acórdão do Tribunal Regional Eleitoral do Rio de Janeiro (TRE/RJ) pelo qual foi reformada parcialmente a sentença e mantida a condenação do primeiro, bem como a condenação solidária do Partido Progressista (PP) - Municipal.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '21 4ipvembro de 20', 'entity': 'Tempo'}, {'span': 'ARCISIO VIEIRA DE CARVALHO NETO', 'entity': 'Pessoa'}, {'span': 'REspe n° 59-08.2016.6.1 9.0028/RJ', 'entity': 'Jurisprudência'}, {'span': 'TARCISIO VIEIRA DE CARVALHO NETO', 'entity': 'Pessoa'}, {'span': 'Márcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': '2016', 'entity': 'Tempo'}, {'span': 'Partido Progressista', 'entity': 'Organização'}, {'span': 'PP', 'entity': 'Organização'}, {'span': 'Tribunal Regional Eleitoral do Rio de Janeiro', 'entity': 'Organização'}, {'span': 'TRE/RJ', 'entity': 'Organização'}]'
+
+Example #5: Requer, ainda, o provimento do recurso para o fim de ajustar os honorários sucumbenciais, nos termos do art. 86, parágrafo único, do CPC.
+Expected output: 'entities: [{'span': 'art. 86, parágrafo único, do CPC', 'entity': 'Legislação'}]'
+
+Example #6: ), quantia impugnada pelo apelante, com base na Súmula 474 do STJ.
+Expected output: 'entities: [{'span': 'Súmula 474 do STJ', 'entity': 'Jurisprudência'}]'
+
+Example #7: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #8: DES. SALDANHA DA FONSECA (RELATOR): Prejudicial de mérito Prescrição (f. 224-227) A apelante alega que o sinistro ocorreu em 19/12/2009, sendo a ação distribuída em 25/10/2013, restam operados os efeitos da prescrição quinquenal (art. 206, § 3º, IX, CC e Súmula 405, STJ).
+Expected output: 'entities: [{'span': 'SALDANHA DA FONSECA', 'entity': 'Pessoa'}, {'span': '19/12/2009', 'entity': 'Tempo'}, {'span': '25/10/2013', 'entity': 'Tempo'}, {'span': 'art. 206, § 3º, IX, CC', 'entity': 'Legislação'}, {'span': 'Súmula 405, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #9: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #10: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+

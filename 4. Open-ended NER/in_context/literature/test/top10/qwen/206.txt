@@ -1,0 +1,30 @@
+Example #1: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #2: One of his poems, Ikke Bødlen, was featured as one of the best poems on Human Rights on a 1979 book published by Amnesty International Denmark, and would be later translated into the first verse of Roger Waters ' song Each Small Candle.
+Expected output: 'entities: [{'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Ikke Bødlen', 'entity': 'Poem'}, {'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Denmark', 'entity': 'Country'}, {'span': 'verse', 'entity': 'Literary Genre'}, {'span': 'Roger Waters', 'entity': 'Writer'}, {'span': 'Each Small Candle', 'entity': 'Misc'}]'
+
+Example #3: Seymour Hersh, Nixon's Last Cover-Up: The Tapes He Wants the Archives to Suppress; The New Yorker, December 14, 1992, pp. 80-81 In passing sentence in February 1972, the judge rejected the D.A. ' s motion that Capp agree to undergo psychiatric treatment.
+Expected output: 'entities: [{'span': 'Seymour Hersh', 'entity': 'Writer'}, {'span': 'Nixon', 'entity': 'Person'}, {'span': 'Last Cover-Up: The Tapes He Wants the Archives to Suppress', 'entity': 'Misc'}, {'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'D.A.', 'entity': 'Misc'}, {'span': 'Capp', 'entity': 'Writer'}]'
+
+Example #4: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #5: Although not accessible for years within Germany to comply with a court order from S. Fischer Verlag regarding the works of Heinrich Mann, Thomas Mann and Alfred Döblin, Project Gutenberg is once more accessible.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'S. Fischer Verlag', 'entity': 'Organisation'}, {'span': 'Heinrich Mann', 'entity': 'Writer'}, {'span': 'Thomas Mann', 'entity': 'Writer'}, {'span': 'Alfred Döblin', 'entity': 'Writer'}, {'span': 'Project Gutenberg', 'entity': 'Organisation'}]'
+
+Example #6: Lindbergh's Pulitzer Prize -winning biographer, A. Scott Berg, contended that Lindbergh was not so much a supporter of the Nazi regime as someone so stubborn in his convictions and relatively inexperienced in political maneuvering that he easily allowed rivals to portray him as one.
+Expected output: 'entities: [{'span': 'Lindbergh', 'entity': 'Person'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'A. Scott Berg', 'entity': 'Writer'}, {'span': 'Nazi', 'entity': 'Misc'}]'
+
+Example #7: With his poem Yo soy Joaquín, known in English as I Am Joaquin, Gonzales shared his new cosmological vision of the Chicano, who was neither Indian nor European, neither Mexican nor American, but a combination of all the conflicting identities.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'Yo soy Joaquín', 'entity': 'Poem'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'I Am Joaquin', 'entity': 'Poem'}, {'span': 'Gonzales', 'entity': 'Writer'}, {'span': 'Chicano', 'entity': 'Poem'}, {'span': 'Indian', 'entity': 'Misc'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Mexican', 'entity': 'Misc'}, {'span': 'American', 'entity': 'Misc'}]'
+
+Example #8: In 2009, Erdrich was a Pulitzer Prize finalist for The Plague of Doves The Plague of Doves focuses on the historical lynching of four Native people wrongly accused of murdering a Caucasian family, and the effect of this injustice on the current generations.
+Expected output: 'entities: [{'span': 'Erdrich', 'entity': 'Writer'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'The Plague of Doves', 'entity': 'Book'}, {'span': 'Caucasian', 'entity': 'Misc'}]'
+
+Example #9: Cuarón's feature Children of Men, an adaptation of the P. D. James The Children of Men starring Clive Owen, Julianne Moore and Michael Caine, received wide critical acclaim, including three Academy Awards nominations.
+Expected output: 'entities: [{'span': 'Cuarón', 'entity': 'Writer'}, {'span': 'Children of Men', 'entity': 'Book'}, {'span': 'P. D. James', 'entity': 'Writer'}, {'span': 'The Children of Men', 'entity': 'Book'}, {'span': 'Clive Owen', 'entity': 'Person'}, {'span': 'Julianne Moore', 'entity': 'Person'}, {'span': 'Michael Caine', 'entity': 'Person'}, {'span': 'Academy Awards', 'entity': 'Award'}]'
+
+Example #10: In The Crisis magazine in 1943, Harold Preece criticized Hurston for her perpetuation of Negro primitivism in order to advance her own literary career.
+Expected output: 'entities: [{'span': 'The Crisis', 'entity': 'Magazine'}, {'span': 'Harold Preece', 'entity': 'Writer'}, {'span': 'Hurston', 'entity': 'Writer'}, {'span': 'Negro primitivism', 'entity': 'Literary Genre'}]'
+

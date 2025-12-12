@@ -1,0 +1,15 @@
+Example #1: Os ingredientes da peixada são postas de peixe de água salgada, suco de limão, alho, azeite de oliva, cebola, tomate, coentro, batata, sal, pimenta-do-reino e farinha de mandioca crua.
+Expected output: 'entities: [{'span': 'peixe', 'entity': 'Animal'}, {'span': 'suco', 'entity': 'Comida'}, {'span': 'limão', 'entity': 'Planta'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'batata', 'entity': 'Comida'}, {'span': 'farinha', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}]'
+
+Example #2: Noutras receitas, começa-se por refogar alho, cebola, cenoura e aipo em azeite e junta-se o grão com a água de cozer, que também pode ser caldo de galinha; podem ainda juntar-se ovos cozidos e peixe frito da véspera.
+Expected output: 'entities: [{'span': 'refogar', 'entity': 'Comida'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'cenoura', 'entity': 'Planta'}, {'span': 'azeite', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}]'
+
+Example #3: As ervas verdes incluem tradicionalmente manjericão, coentro, sálvia, estragão, manjerona, hortelã, salsa, folhas de feno-grego, hissopo e endro; os grãos e outros condimentos secos incluem paprika, malagueta, pimenta preta, louro, sementes de coentro e de feno grego e pétalas de cravo-de-burro.
+Expected output: 'entities: [{'span': 'ervas', 'entity': 'Comida'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'estragão', 'entity': 'Planta'}, {'span': 'manjerona', 'entity': 'Planta'}, {'span': 'feno-grego', 'entity': 'Comida'}, {'span': 'endro', 'entity': 'Planta'}, {'span': 'cravo-de-burro', 'entity': 'Animal'}]'
+
+Example #4: Pode ser preparado com camarões frescos inteiros, ou secos e moídos, com peixe, com bacalhau ou com carne de frango, acompanhados de arroz.
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'bacalhau', 'entity': 'Comida'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #5: Um poema sumeriano de 3900 anos homenageando a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu, descrevendo a produção de cerveja de cevada utilizando pão.
+Expected output: 'entities: [{'span': 'Ninkasi', 'entity': 'Entidade mitológica'}, {'span': 'cevada', 'entity': 'Planta'}, {'span': 'pão', 'entity': 'Comida'}]'
+

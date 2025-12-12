@@ -1,0 +1,60 @@
+Example #1: Noutras receitas, começa-se por refogar alho, cebola, cenoura e aipo em azeite e junta-se o grão com a água de cozer, que também pode ser caldo de galinha; podem ainda juntar-se ovos cozidos e peixe frito da véspera.
+Expected output: 'entities: [{'span': 'refogar', 'entity': 'Comida'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'cenoura', 'entity': 'Planta'}, {'span': 'azeite', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}]'
+
+Example #2: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #3: Os portos de ancoragem foram reforçados para acomodar módulos de 20 toneladas baseadas na TKS.
+Expected output: 'entities: [{'span': 'TKS', 'entity': 'Veículo'}]'
+
+Example #4: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #5: Marcou seus primeiros gols pelo clube merengue numa goleada sobre o Deportivo La Coruña por 8 – 2, válida pelo Campeonato Espanhol.
+Expected output: 'entities: [{'span': 'Deportivo La Coruña', 'entity': 'Organização'}, {'span': 'Campeonato Espanhol', 'entity': 'Evento'}]'
+
+Example #6: Em seu romance " 120 Dias de Sodoma ", por exemplo, nobres devassos abusam de crianças raptadas encerrados num castelo de luxo, num clima de crescente violência, com coprofagia, mutilações e assassinatos.
+Expected output: 'entities: [{'span': '120 Dias de Sodoma', 'entity': 'Média'}, {'span': 'coprofagia', 'entity': 'Comida'}]'
+
+Example #7: Consistia no sacrifício de um porco (" sus "), de um carneiro (" ovis ") e de um boi (" taurus ") em homenagem ao deus Marte para abençoar e purificar a terra.
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #9: Este género mostra o começo de polaridade e diferenciação colonial visto no género " Volvox ", visto que as células anteriores possuem manchas oculares maiores.
+Expected output: 'entities: [{'span': 'Volvox', 'entity': 'Entidade biológica'}]'
+
+Example #10: A atriz negou uma entrevista a um dos jornalistas do programa e foi ao seu Twitter reclamar do acontecido.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #11: Nas eleições presidenciais de 1920, o Partido Republicano retornou à Casa Branca, com a eleição de Warren G. Harding, que prometera em sua campanha o " retorno à normalidade ", após os anos traumáticos da Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': '1920', 'entity': 'Tempo'}, {'span': 'Partido Republicano', 'entity': 'Organização'}, {'span': 'Casa Branca', 'entity': 'Localização'}, {'span': 'Warren G. Harding', 'entity': 'Pessoa'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #12: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #13: Seus principais produtos são borracha e rum da cana-de-açúcar, além de banana, amendoim, camarão e sal.
+Expected output: 'entities: [{'span': 'rum', 'entity': 'Comida'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'banana', 'entity': 'Planta'}, {'span': 'amendoim', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #14: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #15: Entrou em produção como o Fokker M. 5.
+Expected output: 'entities: [{'span': 'Fokker M. 5', 'entity': 'Veículo'}]'
+
+Example #16: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #17: Entretanto, a sonda Mars Reconnaissance Orbiter revelou veios de água salgada que fluem em regiões montanhosas nos meses mais quentes do planeta, aumentando a possibilidade da existência de vida micro-orgânica.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrumento'}]'
+
+Example #18: Os ingredientes da peixada são postas de peixe de água salgada, suco de limão, alho, azeite de oliva, cebola, tomate, coentro, batata, sal, pimenta-do-reino e farinha de mandioca crua.
+Expected output: 'entities: [{'span': 'peixe', 'entity': 'Animal'}, {'span': 'suco', 'entity': 'Comida'}, {'span': 'limão', 'entity': 'Planta'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'batata', 'entity': 'Comida'}, {'span': 'farinha', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}]'
+
+Example #19: Outras ervas e especiarias comuns incluem manjericão, tomilho e sementes de erva-doce.
+Expected output: 'entities: [{'span': 'manjericão', 'entity': 'Animal'}, {'span': 'tomilho', 'entity': 'Planta'}, {'span': 'erva-doce', 'entity': 'Comida'}]'
+
+Example #20: A versão 1.0 do Maven utiliza o arquivo para definição do POM.
+Expected output: 'entities: [{'span': 'Maven', 'entity': 'Instrumento'}]'
+

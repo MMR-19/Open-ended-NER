@@ -1,0 +1,30 @@
+Example #1: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+
+Example #2: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #3: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #4: Em 2019 apareceu em uma homenagem no Domingo Show, onde mostrou-se muito debilitado, apresentando um suposto quadro de Alzheimer.
+Expected output: 'entities: [{'span': 'Domingo Show', 'entity': 'Média'}, {'span': 'Alzheimer', 'entity': 'Doença'}]'
+
+Example #5: O clipe de " Elastic Heart " causou controvérsia após alguns comentaristas acusarem-la de pedofilia devido a aparente idade dos dançarinos.
+Expected output: 'entities: [{'span': 'Elastic Heart', 'entity': 'Média'}, {'span': 'pedofilia', 'entity': 'Doença'}]'
+
+Example #6: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #7: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #8: Ele atualmente trabalha na WWE no programa RAW.
+Expected output: 'entities: [{'span': 'WWE', 'entity': 'Organização'}, {'span': 'RAW', 'entity': 'Média'}]'
+
+Example #9: A atriz negou uma entrevista a um dos jornalistas do programa e foi ao seu Twitter reclamar do acontecido.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #10: Questionada pelos fãs, a equipe responsável pelo Twitter do escritor respondeu em meados do mesmo mês que ele estava " melhorando lentamente ", mantendo a postura de não entrar em detalhes a respeito do que levou à internação.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+

@@ -1,0 +1,15 @@
+Example #1: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #2: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #3: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #4: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+
+Example #5: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+

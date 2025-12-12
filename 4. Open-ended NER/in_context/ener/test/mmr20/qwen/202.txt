@@ -1,0 +1,60 @@
+Example #1: Board Members Amboian, Kundert and Toth were last elected as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #2: by the New York District Court (the “ Bear Final Judgment ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Bear Final Judgment', 'entity': 'Miscellaneous'}]'
+
+Example #3: Premium was September 30, 2009.
+Expected output: 'entities: []'
+
+Example #4: The following table sets forth, for each Board Member nominee and for the Board Member nominees and officers as a group, the amount of shares beneficially owned in each Fund as of December 31, 2009.
+Expected output: 'entities: []'
+
+Example #5: Pursuant to the organizational documents of each Massachusetts Business Trust, each Board is divided into three classes, Class I, Class II and Class III, to be elected by the holders of the outstanding Common Shares and any outstanding Preferred Shares, voting together as a single class to serve until the third succeeding annual meeting subsequent to their election or thereafter, in each case until their successors have been duly elected and qualified.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}]'
+
+Example #6: The committee may use any process it deems appropriate for the purpose of evaluating candidates, which process may include, without limitation, personal interviews, background checks, written submissions by the candidates and third party references.
+Expected output: 'entities: []'
+
+Example #7: Robert P. Bremner, Jack B. Evans, David J. Kundert, Chair, William J. Schneider and Terence J. Toth are current members of the audit committee of each Fund.
+Expected output: 'entities: [{'span': 'Robert P. Bremner', 'entity': 'Person'}, {'span': 'Jack B. Evans', 'entity': 'Person'}, {'span': 'David J. Kundert', 'entity': 'Person'}, {'span': 'William J. Schneider', 'entity': 'Person'}, {'span': 'Terence J. Toth', 'entity': 'Person'}]'
+
+Example #8: (b) a fee of $ 2,500 per meeting for attendance in person where such in-person attendance is required and $ 1,500 per meeting for attendance by telephone or in person where in-person attendance is not required at a special, non-regularly scheduled board meeting; (c) a fee of $ 2,000 per meeting for attendance in person or $ 1,500 per meeting for attendance by telephone at an audit committee meeting; (d) a fee of $ 2,000 per meeting for attendance at a regularly scheduled compliance, risk management and regulatory oversight committee meeting for regular quarterly meetings and $ 1,000 per meeting for attendance of other, non-quarterly meetings; (e) a fee of $ 1,000 per meeting for attendance in person or by telephone for a meeting of the dividend committee; and (f) a fee of $ 500 per meeting for attendance in person at all other committee meetings, $ 1,000 for attendance at shareholder meetings, on a day on which no regularly scheduled board meeting is held in which in-person attendance is required, $ 250 per meeting for attendance by telephone at all other committee meetings (excluding shareholder meetings) where in-person attendance is not required and $ 100 per meeting when the executive committee acts as pricing committee for IPOs, plus, in each case, expenses incurred in attending such meetings.
+Expected output: 'entities: []'
+
+Example #9: In connection with this Annual Report of Beauty Brands Group, Inc. (the “ Company ”) on Form 10-K for the year ending December 31, 2009, as filed with the Securities and Exchange Commission on the date hereof (the “ Report ”), I, James Altucher, Chairman of the Board of Directors and President of the Company, certify to the best of my knowledge, pursuant to 18 U.S.C. 1350, as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Beauty Brands Group, Inc.', 'entity': 'Business'}, {'span': 'Form 10-K', 'entity': 'Miscellaneous'}, {'span': 'James Altucher', 'entity': 'Person'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+
+Example #10: Management did not renew four mineral claims, collectively named the “ BARD 1-4 Property, ” situated in the Paymaster Canyon area of Esmeralda County in west-central Nevada.
+Expected output: 'entities: [{'span': 'BARD 1-4 Property', 'entity': 'Miscellaneous'}, {'span': 'Paymaster Canyon', 'entity': 'Location'}, {'span': 'Esmeralda County', 'entity': 'Location'}, {'span': 'Nevada', 'entity': 'Location'}]'
+
+Example #11: The Board unanimously recommends that shareholders vote FOR the election of the nominees.
+Expected output: 'entities: []'
+
+Example #12: The policy of the Board relating to attendance by Board Members at annual meetings of the Funds and the number of Board Members who attended the last annual meeting of shareholders of each Fund is posted on the Funds website at www.nuveen.com/CEF/Info/Shareholder/.
+Expected output: 'entities: []'
+
+Example #13: The officers are elected by the Board on an annual basis to serve until successors are elected and qualified.
+Expected output: 'entities: []'
+
+Example #14: Accordingly, such Board Members are deemed Independent Board Members.
+Expected output: 'entities: []'
+
+Example #15: For each other Massachusetts Business Trust except New York Value 2, Core Equity, Equity Premium, Equity Premium Advantage, Equity Premium Income, Equity Premium Opportunity, Global Government, Global Value, Tax-Advantaged Dividend and Multi-Currency, New York Dividend, New York Dividend 2, Insured New York Dividend and Insured New York Tax-Free, Board Members Amboian, Kundert and Toth were last elected to each Fund s Board as Class II Board Members at the annual meeting of shareholders held on June 30, 2008.
+Expected output: 'entities: [{'span': 'Massachusetts', 'entity': 'Location'}, {'span': 'New York Value 2', 'entity': 'Business'}, {'span': 'Core Equity', 'entity': 'Business'}, {'span': 'Equity Premium', 'entity': 'Business'}, {'span': 'Equity Premium Advantage', 'entity': 'Business'}, {'span': 'Equity Premium Income', 'entity': 'Business'}, {'span': 'Equity Premium Opportunity', 'entity': 'Business'}, {'span': 'Global Government', 'entity': 'Business'}, {'span': 'Global Value', 'entity': 'Business'}, {'span': 'Tax-Advantaged Dividend', 'entity': 'Business'}, {'span': 'Multi-Currency', 'entity': 'Business'}, {'span': 'New York Dividend', 'entity': 'Business'}, {'span': 'New York Dividend 2', 'entity': 'Business'}, {'span': 'Insured New York Dividend', 'entity': 'Business'}, {'span': 'Insured New York Tax-Free', 'entity': 'Business'}, {'span': 'Amboian', 'entity': 'Person'}, {'span': 'Kundert', 'entity': 'Person'}, {'span': 'Toth', 'entity': 'Person'}]'
+
+Example #16: On June 22, 2005, a group of merchants filed a putative class action complaint in the U.S. District Court for the District of Connecticut.
+Expected output: 'entities: [{'span': 'U.S. District Court for the District of Connecticut', 'entity': 'Court'}]'
+
+Example #17: In April 2011, the FASB issued ASU 2011-02, Receivables (Topic 310): A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring.
+Expected output: 'entities: [{'span': 'FASB', 'entity': 'Government'}, {'span': 'ASU', 'entity': 'Legislation/Act'}, {'span': 'Receivables', 'entity': 'Miscellaneous'}, {'span': 'A Creditor ’ s Determination of Whether a Restructuring Is a Troubled Debt Restructuring', 'entity': 'Miscellaneous'}]'
+
+Example #18: The executive committee, which meets between regular meetings of the Board, is authorized to exercise all of the powers of the Board; provided that the scope of the powers of the executive committee, unless otherwise specifically authorized by the full Board, is limited to: (i) emergency matters where assembly of the full Board is impracticable (in which case management will take all reasonable steps to quickly notify each individual Board Member of the actions taken by the executive committee) and (ii) matters of an administrative or ministerial nature.
+Expected output: 'entities: []'
+
+Example #19: Shareholders of record at the close of business on February 8, 2010 are entitled to notice of and to vote at the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #20: On June 15, 2009, the Ninth Circuit denied Chase USA s motion for rehearing en banc.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}]'
+

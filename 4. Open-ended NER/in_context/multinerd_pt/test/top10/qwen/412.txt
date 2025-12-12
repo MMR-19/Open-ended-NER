@@ -1,0 +1,30 @@
+Example #1: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #2: Os principais produtos cultivados ou criados no estado são milho, trigo e soja, além de gado, leite e carne bovina.
+Expected output: 'entities: [{'span': 'milho', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'carne', 'entity': 'Comida'}]'
+
+Example #3: O principal setor econômico é a agropecuária, com destaque a comercialização de leite, a recria de gado, o plantio de arroz, feijão, cana-de-açúcar, café e milho, e a criação de aves e suínos.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'cana-de-açúcar', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'aves', 'entity': 'Animal'}]'
+
+Example #4: As principais atividades econômicas são a bovinocultura de leite, produção de suínos e aves, a atividade agrícola voltada à produção de grãos, destacando-se o milho, o soja e o feijão.
+Expected output: 'entities: [{'span': 'leite', 'entity': 'Comida'}, {'span': 'aves', 'entity': 'Animal'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}]'
+
+Example #5: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #6: É sobretudo forte na produção de azeite (70 % do total espanhol), arroz, frutas, trigo, plantas industriais e na produção de gado.
+Expected output: 'entities: [{'span': 'azeite', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #7: A economia é baseada na produção de sal marinho em salinas, na agricultura de subsistência (algodão arbóreo, caju, arroz, milho, mandioca e feijão), na pecuária (bovinos, suínos e avícola), e na piscicultura (criatórios de camarão).
+Expected output: 'entities: [{'span': 'sal marinho', 'entity': 'Comida'}, {'span': 'caju', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #8: Eles também construíram outras duas igrejas e um monastério dedicado a João Batista e são reconhecidos como introdutores da produção de cana-de-açúcar na cidade.
+Expected output: 'entities: [{'span': 'João Batista', 'entity': 'Entidade mitológica'}]'
+
+Example #9: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+
+Example #10: Consistia no sacrifício de um porco (" sus "), de um carneiro (" ovis ") e de um boi (" taurus ") em homenagem ao deus Marte para abençoar e purificar a terra.
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+

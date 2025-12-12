@@ -1,0 +1,60 @@
+Example #1: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+
+Example #2: Minimum distances from the Earth, Venus, and Jupiter, are 0.5, 0.8, and 3.5 AU, respectively.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #3: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #4: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #5: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #6: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #7: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #8: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #9: 6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene (6,7-Dibromonaphthalene-1,4-endoxide, accessible after debromination from 1,2,4,5-Tetrabromobenzene using an equivalent of N-Butyllithium and Diels-Alder reaction in furan in 70 % yield { { cite journal | author = H. Hart, A. Bashir-Hashemi, J. Luo, M. A. Meador | journal = Tetrahedron | title = Iptycenes: Extended Triptycenes | volume = 42 | year = 1986 | page = 1641-1654 | doi = 10.1016 / S0040-4020 (1) 87581-5
+Expected output: 'entities: [{'span': '6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene', 'entity': 'Chemical Compound'}, {'span': '6,7-Dibromonaphthalene-1,4-endoxide', 'entity': 'Chemical Compound'}, {'span': '1,2,4,5-Tetrabromobenzene', 'entity': 'Chemical Compound'}, {'span': 'N-Butyllithium', 'entity': 'Chemical Compound'}, {'span': 'Diels-Alder reaction', 'entity': 'Misc'}, {'span': 'furan', 'entity': 'Chemical Compound'}, {'span': 'H. Hart', 'entity': 'Scientist'}, {'span': 'A. Bashir-Hashemi', 'entity': 'Scientist'}, {'span': 'J. Luo', 'entity': 'Scientist'}, {'span': 'M. A. Meador', 'entity': 'Scientist'}, {'span': 'Tetrahedron', 'entity': 'Academic Journal'}, {'span': 'Iptycenes: Extended Triptycenes', 'entity': 'Misc'}]'
+
+Example #10: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #11: Harold Washington College is a City Colleges of Chicago community college located in the Loop.
+Expected output: 'entities: [{'span': 'Harold Washington College', 'entity': 'University'}, {'span': 'Chicago community college', 'entity': 'Organisation'}, {'span': 'Loop', 'entity': 'Location'}]'
+
+Example #12: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+
+Example #13: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #14: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #15: Pacific Union College, classified as a National Liberal Arts College by the Carnegie Foundation for the Advancement of Teaching, is the county's only four-year college and serves roughly 1,500 students.
+Expected output: 'entities: [{'span': 'Pacific Union College', 'entity': 'University'}, {'span': 'Carnegie Foundation for the Advancement of Teaching', 'entity': 'Organisation'}]'
+
+Example #16: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #17: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #18: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+
+Example #19: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #20: The area is also served by two hospitals with Merlin Park University Hospital to the west and the private Galway Clinic to the east of Doughiska.
+Expected output: 'entities: [{'span': 'Merlin Park University Hospital', 'entity': 'Organisation'}, {'span': 'Galway Clinic', 'entity': 'Organisation'}, {'span': 'Doughiska', 'entity': 'Location'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Robert Caro has cited it as the strongest influence on The Power Broker, his Pulitzer Prize -winning biography of Robert Moses, though Caro does not mention Jacobs by name even once in the book despite Jacobs ' battles with Moses over his proposed Lower Manhattan Expressway.
+Expected output: 'entities: [{'span': 'Robert Caro', 'entity': 'Writer'}, {'span': 'The Power Broker', 'entity': 'Book'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'Robert Moses', 'entity': 'Person'}, {'span': 'Caro', 'entity': 'Writer'}, {'span': 'Jacobs', 'entity': 'Writer'}, {'span': 'Moses', 'entity': 'Person'}, {'span': 'Lower Manhattan Expressway', 'entity': 'Misc'}]'
+
+Example #2: Private Eye parodied Sue Townsend ' s The Secret Diary of Adrian Mole, age 13 ¾ to write The Secret Diary of John Major, age 47 ¾, in which Major was portrayed as naïve and childish, keeping lists of his enemies in a Rymans Notebook called his Bastards Book, and featuring my wife Norman and Mr Dr Mawhinney as recurring character s.
+Expected output: 'entities: [{'span': 'Private Eye', 'entity': 'Magazine'}, {'span': 'Sue Townsend', 'entity': 'Writer'}, {'span': 'The Secret Diary of Adrian Mole, age 13 ¾', 'entity': 'Book'}, {'span': 'The Secret Diary of John Major, age 47 ¾', 'entity': 'Book'}, {'span': 'Major', 'entity': 'Person'}, {'span': 'Rymans Notebook', 'entity': 'Misc'}, {'span': 'Bastards Book', 'entity': 'Misc'}, {'span': 'Norman', 'entity': 'Person'}, {'span': 'Mr Dr Mawhinney', 'entity': 'Person'}]'
+
+Example #3: Lindbergh's Pulitzer Prize -winning biographer, A. Scott Berg, contended that Lindbergh was not so much a supporter of the Nazi regime as someone so stubborn in his convictions and relatively inexperienced in political maneuvering that he easily allowed rivals to portray him as one.
+Expected output: 'entities: [{'span': 'Lindbergh', 'entity': 'Person'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'A. Scott Berg', 'entity': 'Writer'}, {'span': 'Nazi', 'entity': 'Misc'}]'
+
+Example #4: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #5: In 1960, aged 42, he approached Aleksandr Tvardovsky, a poet and the chief editor of the Novy Mir magazine, with the manuscript of One Day in the Life of Ivan Denisovich.
+Expected output: 'entities: [{'span': 'Aleksandr Tvardovsky', 'entity': 'Writer'}, {'span': 'Novy Mir', 'entity': 'Magazine'}, {'span': 'One Day in the Life of Ivan Denisovich', 'entity': 'Book'}]'
+
+Example #6: He was influenced by the Marxist playwright Bertolt Brecht and was invited by Brecht to be his assistant at the East Berlin State Opera but turned down the offer.
+Expected output: 'entities: [{'span': 'Marxist', 'entity': 'Misc'}, {'span': 'Bertolt Brecht', 'entity': 'Writer'}, {'span': 'Brecht', 'entity': 'Writer'}, {'span': 'East Berlin State Opera', 'entity': 'Location'}]'
+
+Example #7: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #8: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #9: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #10: Although not accessible for years within Germany to comply with a court order from S. Fischer Verlag regarding the works of Heinrich Mann, Thomas Mann and Alfred Döblin, Project Gutenberg is once more accessible.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'S. Fischer Verlag', 'entity': 'Organisation'}, {'span': 'Heinrich Mann', 'entity': 'Writer'}, {'span': 'Thomas Mann', 'entity': 'Writer'}, {'span': 'Alfred Döblin', 'entity': 'Writer'}, {'span': 'Project Gutenberg', 'entity': 'Organisation'}]'
+

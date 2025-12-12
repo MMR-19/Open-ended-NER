@@ -1,0 +1,60 @@
+Example #1: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+
+Example #2: August Kopff, a colleague of Wolf at Heidelberg, then discovered 617 Patroclus eight months after Achilles, and, in early 1907, he discovered the largest of all Jupiter trojans, 624 Hektor.
+Expected output: 'entities: [{'span': 'August Kopff', 'entity': 'Scientist'}, {'span': 'Wolf', 'entity': 'Scientist'}, {'span': 'Heidelberg', 'entity': 'Location'}, {'span': '617 Patroclus', 'entity': 'Astronomical Object'}, {'span': 'Achilles', 'entity': 'Astronomical Object'}, {'span': 'Jupiter trojans', 'entity': 'Misc'}, {'span': '624 Hektor', 'entity': 'Astronomical Object'}]'
+
+Example #3: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #4: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #5: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #6: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+
+Example #7: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #8: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #9: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #10: The area is also served by two hospitals with Merlin Park University Hospital to the west and the private Galway Clinic to the east of Doughiska.
+Expected output: 'entities: [{'span': 'Merlin Park University Hospital', 'entity': 'Organisation'}, {'span': 'Galway Clinic', 'entity': 'Organisation'}, {'span': 'Doughiska', 'entity': 'Location'}]'
+
+Example #11: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #12: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+
+Example #13: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #14: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #15: Comparisons were frequently drawn between the second cyclotron at the Harvard Cyclotron Laboratory and the Harwell Synchrocyclotron, and in 1974 clinicians from Oxford ' s Radcliffe Infirmary led by Dr T Hockaday floated plans to replicate the proton therapy work carried out at Massachusetts General Hospital with the accelerator.
+Expected output: 'entities: [{'span': 'Harvard Cyclotron Laboratory', 'entity': 'Organisation'}, {'span': 'Harwell Synchrocyclotron', 'entity': 'Misc'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Radcliffe Infirmary', 'entity': 'Location'}, {'span': 'T Hockaday', 'entity': 'Scientist'}, {'span': 'Massachusetts General Hospital', 'entity': 'Organisation'}]'
+
+Example #16: Human leukocyte antigen constitutes a group of cell surface antigens also known as the Major histocompatibility complex of humans.
+Expected output: 'entities: [{'span': 'Human leukocyte antigen', 'entity': 'Misc'}, {'span': 'Major histocompatibility complex', 'entity': 'Misc'}]'
+
+Example #17: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #18: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #19: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #20: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+

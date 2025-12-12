@@ -1,0 +1,30 @@
+Example #1: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #2: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #3: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #4: Behind the long table set up on the steps of the Rathaus Schöneberg were U.S. and German dignitaries, including Dean Rusk (Kennedy's Secretary of State), Lucius D. Clay (the US administrator of Germany), Konrad Adenauer (the German chancellor), Willy Brandt, and Otto Bach (President of the Abgeordnetenhaus of Berlin).
+Expected output: 'entities: [{'span': 'Rathaus Schöneberg', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Dean Rusk', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'Lucius D. Clay', 'entity': 'Politician'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Konrad Adenauer', 'entity': 'Politician'}, {'span': 'Willy Brandt', 'entity': 'Politician'}, {'span': 'Otto Bach', 'entity': 'Politician'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #5: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #6: In Italy, the Italian Social Movement led by Giorgio Almirante was a major neo-fascist movement that transformed itself into a self-described post-fascist movement called the National Alliance (AN), which has been an ally of Silvio Berlusconi ' s Forza Italia for a decade.
+Expected output: 'entities: [{'span': 'Italy', 'entity': 'Location'}, {'span': 'Italian Social Movement', 'entity': 'Political Party'}, {'span': 'Giorgio Almirante', 'entity': 'Politician'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'AN', 'entity': 'Political Party'}, {'span': 'Silvio Berlusconi', 'entity': 'Politician'}, {'span': 'Forza Italia', 'entity': 'Political Party'}]'
+
+Example #7: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #8: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #9: Following boundary changes, Major became the MP for the newly formed seat of Huntingdon in 1983 United Kingdom general election (retaining the seat in 1987 United Kingdom general election, 1992 United Kingdom general election and 1997 United Kingdom general election before retiring from Parliament in 2001 United Kingdom general election).
+Expected output: 'entities: [{'span': 'Huntingdon', 'entity': 'Location'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}, {'span': '1992 United Kingdom general election', 'entity': 'Election'}, {'span': '1997 United Kingdom general election', 'entity': 'Election'}, {'span': '2001 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #10: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+

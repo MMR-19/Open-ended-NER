@@ -1,0 +1,15 @@
+Example #1: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #2: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #3: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #4: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #5: Em 1940, durante a Segunda Guerra Mundial, os alemães invadiram e derrotaram as forças norueguesas e anglo-francesas em Narvik, impondo um governo fantoche sob Vidkun Quisling.
+Expected output: 'entities: [{'span': '1940', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Narvik', 'entity': 'Localização'}, {'span': 'Vidkun Quisling', 'entity': 'Pessoa'}]'
+

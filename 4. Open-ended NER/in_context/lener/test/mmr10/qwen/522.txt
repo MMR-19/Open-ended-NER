@@ -1,0 +1,30 @@
+Example #1: Por fim, as razões de justificativas apresentadas pelo Sr. André Luiz Moreira da Silva não foram suficientes para afastar os questionamentos contidos na audiência que lhe foi encaminhada, sujeitando-o à multa prevista no inciso II do art. 58 da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'inciso II do art. 58 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #2: Nesse contexto, observa-se que o procedimento constitucional estabelecido para a criação e elaboração de normas acerca da administração dos bens públicos, desafetação e alterações de destinações originais compete privativamente ao Senhor Governador do Distrito Federal, e não ao Poder Legislativo Distrital.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #4: Diante da sucumbência recíproca, condeno as partes ao pagamento, na proporção de 70 % para o réu e 30 % para o autor, das custas processuais e honorários advocatícios, os quais arbitro em 15 % sobre o valor da condenação (art. 85, §2º CPC).
+Expected output: 'entities: [{'span': 'art. 85, §2º CPC', 'entity': 'Legislação'}]'
+
+Example #5: Art. 3º A ocupação da Zona de Expansão Urbana 1 do Paranoá 7 ZEU 1 fica condicionada ao zoneamento da Área de Proteção Ambiental do Lago Paranoá.
+Expected output: 'entities: [{'span': 'Zona de Expansão Urbana 1 do Paranoá', 'entity': 'Localização'}, {'span': 'Área de Proteção Ambiental do Lago Paranoá', 'entity': 'Localização'}]'
+
+Example #6: SÚMULAS 5 E 7 DO STJ.
+Expected output: 'entities: [{'span': 'SÚMULAS 5 E 7 DO STJ', 'entity': 'Jurisprudência'}]'
+
+Example #7: O que se exige, portanto, em relação aos instrumentos legais que buscam concretizar a previsão dos planos diretores é a coerência com essas normas gerais e com a LODF Julgado procedente o pedido. ” (ADI 2008.00.2.012286-2, Rel. Des. J. J. Costa Carvalho, Conselho Especial, julgado em 25.08.2009, DJ-e de 02.12.2009, p. 28) (grifei).
+Expected output: 'entities: [{'span': 'LODF', 'entity': 'Legislação'}, {'span': 'ADI 2008.00.2.012286-2', 'entity': 'Jurisprudência'}, {'span': 'J. J. Costa Carvalho', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '25.08.2009', 'entity': 'Tempo'}, {'span': '02.12.2009', 'entity': 'Tempo'}]'
+
+Example #8: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #9: O Sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29/12/2003, o Recibo 001 PRONAC 03.3925 (Peça 1, p. 52), 3/1/2002, no valor inicial de R $ 84.783,41, para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” que previa a realização de 20 espetáculos circenses itinerantes no Estado do Paraná com a Trupe “ Aero Circus ”, nos seguintes municípios, conforme a solicitação de apoio a projetos (Peça 1, p. 4-22): Município Quantidade de espetáculos Londrina 3 Campo Mourão 2 Curitiba 3 Cascavel 3 Foz do Iguaçu 3 Guarapuava 3 Maringá 3 3.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29/12/2003', 'entity': 'Tempo'}, {'span': '3/1/2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}]'
+
+Example #10: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+

@@ -1,0 +1,30 @@
+Example #1: The WHO, the American Academy of Pediatrics, the Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention, the American Academy of Family Physicians, the British Medical Association, and the Royal Pharmaceutical Society of Great Britain recommend routine vaccination of children against mumps.
+Expected output: 'entities: [{'span': 'WHO', 'entity': 'Organisation'}, {'span': 'American Academy of Pediatrics', 'entity': 'Organisation'}, {'span': 'Advisory Committee on Immunization Practices of the Centers for Disease Control and Prevention', 'entity': 'Organisation'}, {'span': 'American Academy of Family Physicians', 'entity': 'Organisation'}, {'span': 'British Medical Association', 'entity': 'Organisation'}, {'span': 'Royal Pharmaceutical Society of Great Britain', 'entity': 'Organisation'}, {'span': 'mumps', 'entity': 'Misc'}]'
+
+Example #2: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+
+Example #3: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #4: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #5: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #6: However, Health Canada, the American Association for the Advancement of Science, the American Medical Association, the National Academies of Sciences, the World Health Organization, and several other scientific and medical institutions from around the world have all concluded that genetically modified foods are safe to eat.
+Expected output: 'entities: [{'span': 'Health Canada', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'American Medical Association', 'entity': 'Organisation'}, {'span': 'National Academies of Sciences', 'entity': 'Organisation'}, {'span': 'World Health Organization', 'entity': 'Organisation'}]'
+
+Example #7: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #8: The IERS was established in its present form in 1987 by the International Astronomical Union and the International Union of Geodesy and Geophysics, replacing the earlier International Polar Motion Service (IPMS) and the Earth rotation section of the Bureau International de l 'Heure (BIH).
+Expected output: 'entities: [{'span': 'IERS', 'entity': 'Organisation'}, {'span': 'International Astronomical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}, {'span': 'International Polar Motion Service', 'entity': 'Organisation'}, {'span': 'IPMS', 'entity': 'Organisation'}, {'span': "Earth rotation section of the Bureau International de l 'Heure", 'entity': 'Organisation'}, {'span': 'BIH', 'entity': 'Organisation'}]'
+
+Example #9: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #10: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+

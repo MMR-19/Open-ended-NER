@@ -1,0 +1,30 @@
+Example #1: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #2: Sopa de lacassá e porco afumado, " min chi " (carne picada), balichão, " tacho " (ensopado de carne e legumes), arroz gordo, cabidela de pato, camarões grandes recheados, chetnim de bacalhau, inhame " chau-chau " com " lap-yôck ", galinha assada, caldo de raiz de lótus e caril de galinha são algumas das comidas macaenses populares.
+Expected output: 'entities: [{'span': 'min chi', 'entity': 'Comida'}, {'span': 'pato', 'entity': 'Animal'}, {'span': 'camarões', 'entity': 'Animal'}, {'span': 'chetnim de bacalhau', 'entity': 'Comida'}, {'span': 'inhame', 'entity': 'Planta'}, {'span': 'lótus', 'entity': 'Planta'}, {'span': 'caril', 'entity': 'Comida'}]'
+
+Example #3: Também produz seringueira, café, manga, leite, gado de corte, eucalipto.
+Expected output: 'entities: [{'span': 'seringueira', 'entity': 'Planta'}, {'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'gado', 'entity': 'Animal'}]'
+
+Example #4: O setor agropecuário do município se destaca especialmente pela produção de café e leite, apesar da presença de outras culturas agrícolas (e.g., soja, milho e feijão) e da criação de gado de corte.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'leite', 'entity': 'Comida'}, {'span': 'soja', 'entity': 'Planta'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'gado de corte', 'entity': 'Animal'}]'
+
+Example #5: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #6: Alguns exemplos são a feijoada com mandioca, beiju, palma de cactus (da qual se prepara o caruru da palma do cactus) com milho, e também tradicionalmente, o vatapá (normalmente acompanhado com camarão) e acarajé.
+Expected output: 'entities: [{'span': 'feijoada', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}, {'span': 'palma de cactus', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'milho', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}]'
+
+Example #7: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #8: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #9: Já no Brasil, especialmente na Bahia, é servido com pimenta, camarão seco, caruru e vatapá (também uma iguaria africana), sendo relativamente comum a adição de vinagrete.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Bahia', 'entity': 'Localização'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'caruru', 'entity': 'Comida'}, {'span': 'vinagrete', 'entity': 'Comida'}]'
+
+Example #10: Pode ser preparado com camarões frescos inteiros, ou secos e moídos, com peixe, com bacalhau ou com carne de frango, acompanhados de arroz.
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'bacalhau', 'entity': 'Comida'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}]'
+

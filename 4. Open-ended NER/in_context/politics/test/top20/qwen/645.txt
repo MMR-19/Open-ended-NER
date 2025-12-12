@@ -1,0 +1,60 @@
+Example #1: He led a government's coalition composed by Christian Democrats, Italian Socialist Party, Italian Democratic Socialist Party, Italian Republican Party and Italian Liberal Party.
+Expected output: 'entities: [{'span': 'Christian Democrats', 'entity': 'Misc'}, {'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Republican Party', 'entity': 'Political Party'}, {'span': 'Italian Liberal Party', 'entity': 'Political Party'}]'
+
+Example #2: The major political parties at this time were the Polish Socialist Party, National Democracy, various Peasant Parties, Polish Christian Democratic Party, and political groups of ethnic minorities (German: German Social Democratic Party of Poland, Jewish: General Jewish Labour Bund in Poland, United Jewish Socialist Workers Party, and Ukrainian: Ukrainian National Democratic Alliance).
+Expected output: 'entities: [{'span': 'Polish Socialist Party', 'entity': 'Political Party'}, {'span': 'National Democracy', 'entity': 'Political Party'}, {'span': 'Peasant Parties', 'entity': 'Political Party'}, {'span': 'Polish Christian Democratic Party', 'entity': 'Political Party'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'German Social Democratic Party of Poland', 'entity': 'Political Party'}, {'span': 'Jewish', 'entity': 'Misc'}, {'span': 'General Jewish Labour Bund in Poland', 'entity': 'Political Party'}, {'span': 'United Jewish Socialist Workers Party', 'entity': 'Political Party'}, {'span': 'Ukrainian', 'entity': 'Misc'}, {'span': 'Ukrainian National Democratic Alliance', 'entity': 'Political Party'}]'
+
+Example #3: The devolved administration was suspended several times (especially between 15 October 2002 and 8 May 2007) because the Ulster Unionist Party and Democratic Unionist Party were uncomfortable being in government with Sinn Féin when the Provisional Irish Republican Army had failed to decommission its arms fully and continued its criminal activities.
+Expected output: 'entities: [{'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Provisional Irish Republican Army', 'entity': 'Organisation'}]'
+
+Example #4: Social conservatives often felt that they were being sidelined by officials in the Progressive Conservative Party of Canada and its leadership of so-called Red Tories for the last half of the twentieth century and therefore many eventually made their political home with parties such as the Social Credit Party of Canada and the Reform Party of Canada.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Red Tories', 'entity': 'Misc'}, {'span': 'Social Credit Party of Canada', 'entity': 'Political Party'}, {'span': 'Reform Party of Canada', 'entity': 'Political Party'}]'
+
+Example #5: The Italian Socialist Party, led by Bettino Craxi, became more and more critical of the communists and of the Soviet Union; Craxi himself pushed in favor of Ronald Reagan ' s positioning of Pershing II missiles in Italy, a move many communists strongly disapproved of.
+Expected output: 'entities: [{'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Bettino Craxi', 'entity': 'Politician'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Craxi', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'Pershing II', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}]'
+
+Example #6: In Italy, the Italian Social Movement led by Giorgio Almirante was a major neo-fascist movement that transformed itself into a self-described post-fascist movement called the National Alliance (AN), which has been an ally of Silvio Berlusconi ' s Forza Italia for a decade.
+Expected output: 'entities: [{'span': 'Italy', 'entity': 'Location'}, {'span': 'Italian Social Movement', 'entity': 'Political Party'}, {'span': 'Giorgio Almirante', 'entity': 'Politician'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'AN', 'entity': 'Political Party'}, {'span': 'Silvio Berlusconi', 'entity': 'Politician'}, {'span': 'Forza Italia', 'entity': 'Political Party'}]'
+
+Example #7: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #8: Genscher was one of the FDP's driving forces when, in 1982, the party switched sides from its coalition with the SPD to support the Christian Democratic Union of Germany in their Constructive vote of no confidence to have incumbent Helmut Schmidt replaced with opposition leader Helmut Kohl as Chancellor.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Christian Democratic Union of Germany', 'entity': 'Political Party'}, {'span': 'Helmut Schmidt', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}]'
+
+Example #9: Westerwelle stepped down as party leader following the 2011 state elections, in which the party was wiped out in 2011 Saxony-Anhalt state election and 2011 Rhineland-Palatinate state election and lost half its seats in 2011 Baden-Württemberg state election.
+Expected output: 'entities: [{'span': 'Westerwelle', 'entity': 'Politician'}, {'span': '2011 Saxony-Anhalt state election', 'entity': 'Election'}, {'span': '2011 Rhineland-Palatinate state election', 'entity': 'Election'}, {'span': '2011 Baden-Württemberg state election', 'entity': 'Election'}]'
+
+Example #10: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #11: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #12: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+
+Example #13: As the Australia Party it became influential, particularly in the landmark 1972 Australian federal election when its preferences assisted the Australian Labor Party to victory - ending 23 years of Liberal Party of Australia / National Party of Australia Coalition government.
+Expected output: 'entities: [{'span': 'Australia', 'entity': 'Country'}, {'span': '1972 Australian federal election', 'entity': 'Election'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+
+Example #14: Page returned to cabinet after the 1934 Australian federal election, when the Country Party entered a new coalition with Joseph Lyons ' United Australia Party.
+Expected output: 'entities: [{'span': '1934 Australian federal election', 'entity': 'Election'}, {'span': 'Country Party', 'entity': 'Political Party'}, {'span': 'Joseph Lyons', 'entity': 'Politician'}, {'span': 'United Australia Party', 'entity': 'Political Party'}]'
+
+Example #15: After narrowly losing the 1969 Australian federal election, Whitlam led Labor to victory at the 1972 election after 23 years of continuous Liberal Party of Australia - National Party of Australia Coalition Government.
+Expected output: 'entities: [{'span': '1969 Australian federal election', 'entity': 'Election'}, {'span': 'Whitlam', 'entity': 'Politician'}, {'span': 'Labor', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+
+Example #16: This tends to lead to the chamber being dominated by two major parties, the Liberal Party of Australia / National Party of Australia Coalition and the Australian Labor Party.
+Expected output: 'entities: [{'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}]'
+
+Example #17: Subsequently, the party allied itself with the New Liberal Movement in the formation of the Australian Democrats for the 1977 Australian federal election.
+Expected output: 'entities: [{'span': 'New Liberal Movement', 'entity': 'Political Party'}, {'span': 'Australian Democrats', 'entity': 'Political Party'}, {'span': '1977 Australian federal election', 'entity': 'Election'}]'
+
+Example #18: From their 18 % share of the first German federal elections under proportional representation in 1919 German federal election, they dropped, for example, to 4.9 % in the 1928 German federal election and to 1.0 % in the November 1932 German federal election.
+Expected output: 'entities: [{'span': 'first German federal elections', 'entity': 'Election'}, {'span': '1919 German federal election', 'entity': 'Election'}, {'span': '1928 German federal election', 'entity': 'Election'}, {'span': 'November 1932 German federal election', 'entity': 'Election'}]'
+
+Example #19: Successively, she was a member of the Social Democracy of the Kingdom of Poland and Lithuania (SDKPiL), the Social Democratic Party of Germany (SPD), the Independent Social Democratic Party of Germany (USPD) and the Communist Party of Germany (KPD).
+Expected output: 'entities: [{'span': 'Social Democracy of the Kingdom of Poland and Lithuania', 'entity': 'Political Party'}, {'span': 'SDKPiL', 'entity': 'Political Party'}, {'span': 'Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Independent Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'USPD', 'entity': 'Political Party'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'KPD', 'entity': 'Political Party'}]'
+
+Example #20: Đinđić was voted out of his position as Belgrade mayor by the Serbian Renewal Movement, Socialist Party of Serbia and Serbian Radical Party.
+Expected output: 'entities: [{'span': 'Đinđić', 'entity': 'Politician'}, {'span': 'Belgrade', 'entity': 'Location'}, {'span': 'Serbian Renewal Movement', 'entity': 'Political Party'}, {'span': 'Socialist Party of Serbia', 'entity': 'Political Party'}, {'span': 'Serbian Radical Party', 'entity': 'Political Party'}]'
+

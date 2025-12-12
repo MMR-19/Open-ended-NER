@@ -1,0 +1,60 @@
+Example #1: O single apareceu em um comercial para o carro Citroën C4.
+Expected output: 'entities: [{'span': 'Citroën C4', 'entity': 'Veículo'}]'
+
+Example #2: Essa formação lançou o álbum " I Can See Your House from Here " (1979), mais comercial, e que causou problemas com os patrocinadores por mostrar em sua capa um astronauta crucificado olhando para a Terra.
+Expected output: 'entities: [{'span': 'I Can See Your House from Here', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #3: Essa versão foi lançada em 2018 para as plataformas Steam e Google Play.
+Expected output: 'entities: [{'span': 'Steam', 'entity': 'Instrumento'}, {'span': 'Google Play', 'entity': 'Média'}]'
+
+Example #4: O clipe de " Elastic Heart " causou controvérsia após alguns comentaristas acusarem-la de pedofilia devido a aparente idade dos dançarinos.
+Expected output: 'entities: [{'span': 'Elastic Heart', 'entity': 'Média'}, {'span': 'pedofilia', 'entity': 'Doença'}]'
+
+Example #5: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #6: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #7: De acordo com alguns episódios, acredita-se que ele tenha dado uma fortuna ao Diabo em troca de sua longevidade sendo que estranhamente num parque de diversões tinha um espelho que deixava ver as pessoas como eram no inferno e ele era rei.
+Expected output: 'entities: [{'span': 'Diabo', 'entity': 'Entidade mitológica'}]'
+
+Example #8: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #9: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #10: Em 2013, depois de gravar o comercial da Head & Shoulders, no qual brinca com seu inglês pouco escorreito (que ficou famoso nas Eliminatórias da Copa do Mundo de Futebol da Africa do Sul em 2009) - tal produção, no entanto, seria a segunda gravada pelo treinador, que, em 2012, já havia participado de um reclame da Pepsi.
+Expected output: 'entities: [{'span': 'Head & Shoulders', 'entity': 'Instrumento'}, {'span': 'Eliminatórias da Copa do Mundo de Futebol da Africa do Sul', 'entity': 'Evento'}, {'span': '2009', 'entity': 'Tempo'}, {'span': 'Pepsi', 'entity': 'Comida'}]'
+
+Example #11: A aeronave contava com uma turbina SNECMA Atar 09 C e um exaustor variável de pétalas, mais aberto.
+Expected output: 'entities: [{'span': 'SNECMA Atar 09 C', 'entity': 'Instrumento'}]'
+
+Example #12: Nela, contava com a participação de mais dois personagens, totalizando em 16 personagens selecionaveis, tendo Zeus como o último chefe.
+Expected output: 'entities: [{'span': 'Zeus', 'entity': 'Entidade mitológica'}]'
+
+Example #13: Trata-se do Nissan Leaf.
+Expected output: 'entities: [{'span': 'Nissan Leaf', 'entity': 'Veículo'}]'
+
+Example #14: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #15: O filme acompanha uma equipe de seis membros da Estação Espacial Internacional que encontram o que inicialmente parece ser a primeira evidência da vida em Marte; No entanto, a tripulação descobre que tal achado pode não ser o que parece.
+Expected output: 'entities: [{'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}, {'span': 'Marte', 'entity': 'Corpo celeste'}]'
+
+Example #16: O avião foi desenvolvido juntamente com o Boeing 757, que atuaria em rotas nacionais e internacionais curtas.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+
+Example #17: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #18: Observações feitas pelo telescópio espacial Hubble revelaram que o asteroide possui seis caudas, assemelhando-se com um cometa.
+Expected output: 'entities: [{'span': 'telescópio espacial Hubble', 'entity': 'Instrumento'}, {'span': 'cometa', 'entity': 'Corpo celeste'}]'
+
+Example #19: Em 1993, uma banda brasileira de power metal, Angra, fez um diferente arranjo da canção de Kate Bush, Wuthering Heights, dando à música uma harmonização mais pesada com as guitarras e lançou no seu album Angels Cry.
+Expected output: 'entities: [{'span': 'Angra', 'entity': 'Organização'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Angels Cry', 'entity': 'Média'}]'
+
+Example #20: No entanto, dentro do 747 vítima do ataque, o pesadelo ainda não tinha acabado, pois o único piloto que ainda estava vivo foi morto pelas cobras e estas tomaram conta da cabine de comando.
+Expected output: 'entities: [{'span': '747', 'entity': 'Veículo'}]'
+

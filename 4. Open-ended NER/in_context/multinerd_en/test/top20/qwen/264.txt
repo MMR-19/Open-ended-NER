@@ -1,0 +1,60 @@
+Example #1: Traditional dietary patterns characterized by vegetables, fruit, meat, fish, and whole grains, as opposed to a western pattern diet characterized by processed foods, refined grains, sugary products, and beer were associated with lower odds for major depression or dysthymia (mood disorder) and for anxiety disorders in women.
+Expected output: 'entities: [{'span': 'vegetables', 'entity': 'Food'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'meat', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'whole grains', 'entity': 'Food'}, {'span': 'western pattern diet', 'entity': 'Food'}, {'span': 'processed foods', 'entity': 'Food'}, {'span': 'beer', 'entity': 'Food'}, {'span': 'dysthymia', 'entity': 'Disease'}, {'span': 'anxiety disorders', 'entity': 'Disease'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: Drying prevents yeasts and bread molds (" Rhizopus ") from growing by removing moisture so bacteria cannot grow.
+Expected output: 'entities: [{'span': 'Rhizopus', 'entity': 'Biological entity'}]'
+
+Example #4: Less commonly seen in developed countries are organisms such as " Vibrio cholerae " which causes cholera and various strains of " Salmonella " which cause typhoid and para-typhoid diseases.
+Expected output: 'entities: [{'span': 'cholera', 'entity': 'Disease'}, {'span': 'Salmonella', 'entity': 'Biological entity'}]'
+
+Example #5: During the Middle Ages it was usually made with wheat, barley, rye, or oats.
+Expected output: 'entities: [{'span': 'Middle Ages', 'entity': 'Time'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'barley', 'entity': 'Plant'}, {'span': 'rye', 'entity': 'Plant'}]'
+
+Example #6: " M. hominis " causes " male sterility / Genitals inflammation " in humans.
+Expected output: 'entities: [{'span': 'M. hominis', 'entity': 'Animal'}, {'span': 'male sterility', 'entity': 'Disease'}]'
+
+Example #7: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #8: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #9: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #10: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #11: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #12: Erectile dysfunction from vascular disease is usually seen only amongst elderly individuals who have atherosclerosis.
+Expected output: 'entities: [{'span': 'elderly', 'entity': 'Time'}, {'span': 'atherosclerosis', 'entity': 'Disease'}]'
+
+Example #13: There are also several reports in the medical literature of deaths from " D. stramonium " and " D. ferox " intoxication.
+Expected output: 'entities: [{'span': 'D. stramonium', 'entity': 'Plant'}, {'span': 'D. ferox', 'entity': 'Animal'}, {'span': 'intoxication', 'entity': 'Disease'}]'
+
+Example #14: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #15: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #16: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #17: In Brittany, a " galette " (or " galette bretonne ") is a large thin pancake made of buckwheat flour, often cooked on one side only.
+Expected output: 'entities: [{'span': 'Brittany', 'entity': 'Location'}, {'span': 'galette', 'entity': 'Food'}, {'span': 'buckwheat', 'entity': 'Plant'}]'
+
+Example #18: These can include those of advanced age, patients bed-bound in a hospital, individuals with certain types of physical or mental disability, and people working in extreme conditions, such as astronauts.
+Expected output: 'entities: [{'span': 'those of advanced age', 'entity': 'Time'}, {'span': 'mental', 'entity': 'Disease'}, {'span': 'disability', 'entity': 'Disease'}]'
+
+Example #19: While the region is best known for its convict history it is now the key area in the battle to save the Tasmanian devil from extinction from a new type of contagious cancer called devil facial tumour disease (DFTD).
+Expected output: 'entities: [{'span': 'Tasmanian devil', 'entity': 'Animal'}, {'span': 'contagious cancer', 'entity': 'Disease'}, {'span': 'devil facial tumour disease', 'entity': 'Disease'}]'
+
+Example #20: " Soft commodities ", or " softs ", are commodities such as coffee, cocoa, sugar, corn, wheat, soybean, fruit and livestock.
+Expected output: 'entities: [{'span': 'coffee', 'entity': 'Food'}, {'span': 'cocoa', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'soybean', 'entity': 'Plant'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'livestock', 'entity': 'Animal'}]'
+

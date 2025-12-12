@@ -1,0 +1,30 @@
+Example #1: Em se tratando de diplomas normativos que disponham sobre a administração de áreas públicas e sobre o uso e ocupação do solo do Distrito Federal, a iniciativa do processo legislativo compete privativamente ao Governador do Distrito Federal.Por isso mesmo, demonstrado que a iniciativa das leis distritais em apreço coube a parlamentar, declara-se a inconstitucionalidade formal dos diplomas legais impugnados. ” (ADI 2008.00.2.016888-0, Rel. Des. João Mariosi, Conselho Especial, julgado em 08.09.2009, DJ-e de 10.02.2010, p. 22) (grifei).
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Distrito Federal.Por', 'entity': 'Localização'}, {'span': 'ADI 2008.00.2.016888-0', 'entity': 'Jurisprudência'}, {'span': 'João Mariosi', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '08.09.2009', 'entity': 'Tempo'}, {'span': '10.02.2010', 'entity': 'Tempo'}]'
+
+Example #2: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #4: Mérito Quanto ao mérito, a publicação em site oficial da prefeitura do Município de Paraíba do Sul/RJ, em período vedado, da criação e execução de programa de governo local, sugerindo ser o primeiro recorrente, na qualidade de chefe do Poder Executivo, `` mais competente do que os seus adversários '' (fl. 129), não se enquadra nas exceções previstas no ad. 73, VI, b, da Lei das Eleições.
+Expected output: 'entities: [{'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': 'ad. 73, VI, b, da Lei das Eleições', 'entity': 'Legislação'}]'
+
+Example #5: Admito, pois, a presente ação e tenho como ente legitimado a propô-la a Excelentíssima Senhora PROCURADORA-GERAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #6: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #7: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho da Secretária de Estado de Planejamento, Orçamento e Gestão de 17 de maio de 2016, publicado no DODF nº 94, de 18 de maio de 2016, pág. 26, referente ao Processo: 300.000.002/2016, Interessado: RAFAEL LUCIANO ROOS, Assunto: Cessão de servidor, ONDE SE LÊ: `` (...) e na forma do disposto do art. 152 da Lei Complementar nº 840 de 23/12/2011, (...) ''.
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': '17 de maio de 2016', 'entity': 'Tempo'}, {'span': '18 de maio de 2016', 'entity': 'Tempo'}, {'span': '300.000.002/2016', 'entity': 'Jurisprudência'}, {'span': 'RAFAEL LUCIANO ROOS', 'entity': 'Pessoa'}, {'span': 'art. 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}]'
+
+Example #8: 46): i) declarar a nulidade de todos os atos do processo, a partir do primeiro encontro 'fortuito ' de supostos fatos penais - 21 de janeiro de 2016 - que envolvam a Presidenta, em vista da usurpação de competência do STF. ii) ou, a nulidade a partir do recebimento da denúncia, por incompetência da Justiça Federal da Subseção Judiciária de Curitiba/PR para o processamento e julgamento dos crimes de corrupção passiva e lavagem de dinheiro imputados ao ex-presidente LULA (art. 70 do CPP), devendo os autos ser remetidos aos Foros Competentes; iii) a nulidade da sentença, por violar o princípio da correlação entre a sentença e a denúncia; 254.
+Expected output: 'entities: [{'span': '21 de janeiro de 2016', 'entity': 'Tempo'}, {'span': 'STF', 'entity': 'Organização'}, {'span': 'Curitiba/PR', 'entity': 'Localização'}, {'span': 'LULA', 'entity': 'Pessoa'}, {'span': 'art. 70 do CPP', 'entity': 'Legislação'}]'
+
+Example #9: Este ato representa, dentro do sistema positivo, o momento inaugural e fundante da ordem jurídica vigente no âmbito do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #10: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+

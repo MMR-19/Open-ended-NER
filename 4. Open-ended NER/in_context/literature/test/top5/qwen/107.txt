@@ -1,0 +1,15 @@
+Example #1: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+
+Example #2: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #3: In 1990, he published the last Rabbit novel, Rabbit at Rest, which won the Pulitzer Prize and the National Book Critics Circle Award.
+Expected output: 'entities: [{'span': 'Rabbit novel', 'entity': 'Misc'}, {'span': 'Rabbit at Rest', 'entity': 'Book'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'National Book Critics Circle Award', 'entity': 'Award'}]'
+
+Example #4: This acted as a prelude to the release the following year of The Whitsun Weddings, the volume which cemented his reputation; almost immediately after its publication he was granted a Fellowship of the Royal Society of Literature.
+Expected output: 'entities: [{'span': 'The Whitsun Weddings', 'entity': 'Book'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}]'
+
+Example #5: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+

@@ -1,0 +1,60 @@
+Example #1: He has been elected a Fellow of the American Physical Society, the Chinese Academy of Sciences, the Academia Sinica, the Russian Academy of Sciences, and the Royal Society.
+Expected output: 'entities: [{'span': 'Fellow of the American Physical Society', 'entity': 'Award'}, {'span': 'Chinese Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Academia Sinica', 'entity': 'Organisation'}, {'span': 'Russian Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Royal Society', 'entity': 'Organisation'}]'
+
+Example #2: The Apollo 7 mission is dramatized in the 1998 miniseries From the Earth to the Moon episode We Have Cleared the Tower, with Mark Harmon as Schirra, John Mese as Eisele, Fredric Lehne as Cunningham, and Max Wright as Wendt.
+Expected output: 'entities: [{'span': 'Apollo 7 mission', 'entity': 'Misc'}, {'span': 'From the Earth to the Moon', 'entity': 'Misc'}, {'span': 'We Have Cleared the Tower', 'entity': 'Misc'}, {'span': 'Mark Harmon', 'entity': 'Person'}, {'span': 'Schirra', 'entity': 'Person'}, {'span': 'John Mese', 'entity': 'Person'}, {'span': 'Eisele', 'entity': 'Person'}, {'span': 'Fredric Lehne', 'entity': 'Person'}, {'span': 'Cunningham', 'entity': 'Person'}, {'span': 'Max Wright', 'entity': 'Person'}, {'span': 'Wendt', 'entity': 'Person'}]'
+
+Example #3: In August 1955, Grissom was reassigned to the U.S. Air Force Institute of Technology at Wright-Patterson Air Force Base near Dayton, Ohio.
+Expected output: 'entities: [{'span': 'Grissom', 'entity': 'Person'}, {'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Dayton', 'entity': 'Location'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #4: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #5: The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT8, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+Expected output: 'entities: [{'span': 'keratins', 'entity': 'Misc'}, {'span': 'KRT23', 'entity': 'Protein'}, {'span': 'KRT24', 'entity': 'Protein'}, {'span': 'KRT25', 'entity': 'Protein'}, {'span': 'KRT26', 'entity': 'Protein'}, {'span': 'KRT27', 'entity': 'Protein'}, {'span': 'KRT28', 'entity': 'Protein'}, {'span': 'KRT31', 'entity': 'Protein'}, {'span': 'KRT32', 'entity': 'Protein'}, {'span': 'KRT33A', 'entity': 'Protein'}, {'span': 'KRT33B', 'entity': 'Protein'}, {'span': 'KRT34', 'entity': 'Protein'}, {'span': 'KRT35', 'entity': 'Protein'}, {'span': 'KRT36', 'entity': 'Protein'}, {'span': 'KRT37', 'entity': 'Protein'}, {'span': 'KRT38', 'entity': 'Protein'}, {'span': 'KRT39', 'entity': 'Protein'}, {'span': 'KRT40', 'entity': 'Protein'}, {'span': 'KRT71', 'entity': 'Protein'}, {'span': 'KRT72', 'entity': 'Protein'}, {'span': 'KRT73', 'entity': 'Protein'}, {'span': 'KRT74', 'entity': 'Protein'}, {'span': 'KRT75', 'entity': 'Protein'}, {'span': 'KRT76', 'entity': 'Protein'}, {'span': 'KRT77', 'entity': 'Protein'}, {'span': 'KRT78', 'entity': 'Protein'}, {'span': 'KRT79', 'entity': 'Protein'}, {'span': 'KRT8', 'entity': 'Protein'}, {'span': 'KRT80', 'entity': 'Protein'}, {'span': 'KRT81', 'entity': 'Protein'}, {'span': 'KRT82', 'entity': 'Protein'}, {'span': 'KRT83', 'entity': 'Protein'}, {'span': 'KRT84', 'entity': 'Protein'}, {'span': 'KRT85', 'entity': 'Protein'}, {'span': 'KRT86', 'entity': 'Protein'}]'
+
+Example #6: Hideki Shirakawa (白川 英樹 Shirakawa Hideki, born August 20, 1936) is a Japanese chemist, engineer, and Professor Emeritus at the University of Tsukuba and Zhejiang University.
+Expected output: 'entities: [{'span': 'Hideki Shirakawa', 'entity': 'Scientist'}, {'span': '白川 英樹', 'entity': 'Scientist'}, {'span': 'Shirakawa Hideki', 'entity': 'Scientist'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'University of Tsukuba', 'entity': 'University'}, {'span': 'Zhejiang University', 'entity': 'University'}]'
+
+Example #7: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #8: She represented her country at the 2017 World Championships in Athletics without advancing from the first round.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #9: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #10: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #11: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #12: The Cricket Club of India (CCI) and Mumbai Cricket Association (MCA) are located at Mumbai's two cricket stadiums, namely Brabourne Stadium and Wankhede Stadium respectively.
+Expected output: 'entities: [{'span': 'Cricket Club of India', 'entity': 'Organisation'}, {'span': 'CCI', 'entity': 'Organisation'}, {'span': 'Mumbai Cricket Association', 'entity': 'Organisation'}, {'span': 'MCA', 'entity': 'Organisation'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Brabourne Stadium', 'entity': 'Location'}, {'span': 'Wankhede Stadium', 'entity': 'Location'}]'
+
+Example #13: Yunjin Kim played Sun-Hwa Kwon, the daughter of a powerful and incredibly wealthy Korean businessman and mobster, with Daniel Dae Kim as her husband and father's enforcer Jin-Soo Kwon.
+Expected output: 'entities: [{'span': 'Yunjin Kim', 'entity': 'Person'}, {'span': 'Sun-Hwa Kwon', 'entity': 'Person'}, {'span': 'Korean', 'entity': 'Misc'}, {'span': 'Daniel Dae Kim', 'entity': 'Person'}, {'span': 'Jin-Soo Kwon', 'entity': 'Person'}]'
+
+Example #14: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+
+Example #15: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #16: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #17: He has written several invited review articles and book chapters for a number of prestigious journals and books including Chemical Reviews, Accounts of Chemical Research, Angewandte Chemie and the main textbook in the field of circular dichroism, Comprehensive Chiroptical Spectroscopy.
+Expected output: 'entities: [{'span': 'Chemical Reviews', 'entity': 'Academic Journal'}, {'span': 'Accounts of Chemical Research', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}, {'span': 'circular dichroism', 'entity': 'Theory'}, {'span': 'Comprehensive Chiroptical Spectroscopy', 'entity': 'Misc'}]'
+
+Example #18: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #19: Antonio de Ulloa y de la Torre-Giralt, Fellow of the Royal Society, Royal Swedish Academy of Sciences, KOS (12 January 1716 - 3 July 1795) was a Spanish general of the navy, explorer, scientist, author, astronomer, colonial administrator and the first Spanish governor of Louisiana.
+Expected output: 'entities: [{'span': 'Antonio de Ulloa y de la Torre-Giralt', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'KOS', 'entity': 'Organisation'}, {'span': 'Spanish general', 'entity': 'Misc'}, {'span': 'Spanish governor', 'entity': 'Misc'}, {'span': 'Louisiana', 'entity': 'Location'}]'
+
+Example #20: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+

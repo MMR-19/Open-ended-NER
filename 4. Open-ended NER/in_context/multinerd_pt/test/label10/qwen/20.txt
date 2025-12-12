@@ -1,0 +1,30 @@
+Example #1: Em 1993, uma banda brasileira de power metal, Angra, fez um diferente arranjo da canção de Kate Bush, Wuthering Heights, dando à música uma harmonização mais pesada com as guitarras e lançou no seu album Angels Cry.
+Expected output: 'entities: [{'span': 'Angra', 'entity': 'Organização'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Angels Cry', 'entity': 'Média'}]'
+
+Example #2: Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.
+Expected output: 'entities: [{'span': 'Salyut 6', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #3: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #4: O segundo grande desastre aconteceu em 21 de abril de 1940, quando a cidade foi atacada por esquadrões da Luftwaffe formadas por bombardeiros Heinkel He 111 durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Luftwaffe', 'entity': 'Organização'}, {'span': 'Heinkel He 111', 'entity': 'Veículo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #5: Contudo, perdia a suspensão multilink de seus antecessores, algo que foi bastante criticado pela imprensa na sua época, pois era considerado uma involução dos seus antecessores, principalmente após o lançamento do Ford Focus, que se tornou " benchmark " nesse sentido.
+Expected output: 'entities: [{'span': 'Ford Focus', 'entity': 'Veículo'}]'
+
+Example #6: Acredita-se que a sua guarnição tenha estado de prontidão ao tempo das Guerras Napoleônicas, quando, em 1809, as tropas franceses sob o comando do general Soult, se concentravam em Ourense, nos preparativos para a invasão.
+Expected output: 'entities: [{'span': 'Guerras Napoleônicas', 'entity': 'Evento'}, {'span': '1809', 'entity': 'Tempo'}, {'span': 'Soult', 'entity': 'Pessoa'}, {'span': 'Ourense', 'entity': 'Localização'}]'
+
+Example #7: Foi só quando as sondas Pioneer 10 e Pioneer 11 chegaram a Júpiter em 1973 e em 1974, respectivamente, que se conseguiu obter as primeiras imagens mais detalhadas das grandes luas de Júpiter.
+Expected output: 'entities: [{'span': 'Pioneer 10', 'entity': 'Instrumento'}, {'span': 'Pioneer 11', 'entity': 'Instrumento'}, {'span': 'Júpiter', 'entity': 'Corpo celeste'}, {'span': '1973', 'entity': 'Tempo'}, {'span': '1974', 'entity': 'Tempo'}]'
+
+Example #8: A nota mais trágica desses anos foi a epidemia de cólera que irrompeu na cidade em 1855, ceifando mais de 1.400 vidas, o que se repetiria dez anos depois, mas com menor número de mortes.
+Expected output: 'entities: [{'span': 'cólera', 'entity': 'Doença'}]'
+
+Example #9: A primeira carrinha de caixa aberta a ser fabricada foi baseada no carro Ford Model T, com a traseira modificada.
+Expected output: 'entities: [{'span': 'Ford Model T', 'entity': 'Veículo'}]'
+
+Example #10: No ano seguinte, ele foi promovido para a equipe principal, e estreou em 3 de agosto do mesmo ano, entrando no intervalo de uma vitória sobre o Juventus pela Copa Paulista.
+Expected output: 'entities: [{'span': 'Juventus', 'entity': 'Organização'}, {'span': 'Copa Paulista', 'entity': 'Evento'}]'
+

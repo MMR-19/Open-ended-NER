@@ -1,0 +1,15 @@
+Example #1: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+
+Example #2: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #3: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+
+Example #4: Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ, bem como das correspondências relativas ao IPTU (fls. 146/166 do Apenso 1).
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+
+Example #5: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+

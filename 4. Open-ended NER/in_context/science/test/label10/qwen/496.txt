@@ -1,0 +1,30 @@
+Example #1: Four COSMIC mutational signatures have been associated with DNA mismatch repair deficiency and found in tumors with microsatellite instability: Signature 6, 15, 20 and 26.
+Expected output: 'entities: [{'span': 'COSMIC', 'entity': 'Misc'}, {'span': 'DNA mismatch repair', 'entity': 'Misc'}]'
+
+Example #2: For example, when there is a mistake in base pairing, DNA mismatch repair has a bias favoring GC pairs.
+Expected output: 'entities: [{'span': 'DNA mismatch repair', 'entity': 'Misc'}, {'span': 'GC pairs', 'entity': 'Misc'}]'
+
+Example #3: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #4: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #5: Liver function test s may be elevated, particularly involving Gamma-glutamyltransferase and Alkaline phosphatase, with ultrasound and CT scans being considered medical imaging investigations of choice.
+Expected output: 'entities: [{'span': 'Liver function test', 'entity': 'Misc'}, {'span': 'Gamma-glutamyltransferase', 'entity': 'Protein'}, {'span': 'Alkaline phosphatase', 'entity': 'Enzyme'}, {'span': 'ultrasound', 'entity': 'Misc'}, {'span': 'CT scans', 'entity': 'Misc'}]'
+
+Example #6: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #7: In 1970, he was awarded the Louisa Gross Horwitz Prize from Columbia University together with Renato Dulbecco winner of 1975 Nobel Prize in Physiology or Medicine for discoveries concerning the functional organization of the cell that were seminal events in the development of modern cell biology, In 1988 he was also elected an Honorary Member of the American-Romanian Academy of Arts and Sciences (ARA).
+Expected output: 'entities: [{'span': 'Louisa Gross Horwitz Prize', 'entity': 'Award'}, {'span': 'Columbia University', 'entity': 'University'}, {'span': 'Renato Dulbecco', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physiology or Medicine', 'entity': 'Award'}, {'span': 'cell biology', 'entity': 'Discipline'}, {'span': 'American-Romanian Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'ARA', 'entity': 'Organisation'}]'
+
+Example #8: Holmes has served on the editorial or advisory boards of numerous learned scientific journals, including Organic Letters, Chemical Communications and Angewandte Chemie.
+Expected output: 'entities: [{'span': 'Holmes', 'entity': 'Scientist'}, {'span': 'Organic Letters', 'entity': 'Academic Journal'}, {'span': 'Chemical Communications', 'entity': 'Academic Journal'}, {'span': 'Angewandte Chemie', 'entity': 'Academic Journal'}]'
+
+Example #9: One of these was in the category of Best Performance by an Actor in a Leading Role in a Dramatic Program or Mini-Series for Beau Bridges ' leading role as Simon Kress, which also garnered nominations for the Primetime Emmy Award for Outstanding Guest Actor in a Drama Series and the CableACE Award for Best Actor in a Dramatic Series.
+Expected output: 'entities: [{'span': 'Best Performance', 'entity': 'Award'}, {'span': 'Simon Kress', 'entity': 'Person'}, {'span': 'Primetime Emmy Award for Outstanding Guest Actor', 'entity': 'Award'}, {'span': 'CableACE Award for Best Actor', 'entity': 'Award'}]'
+
+Example #10: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+

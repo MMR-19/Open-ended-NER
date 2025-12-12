@@ -1,0 +1,30 @@
+Example #1: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+
+Example #2: Necmettin Erbakan (1926-2011) was the leader of several of the parties, the National Order Party (Milli Nizam Partisi, 1970-1971), the National Salvation Party (Milli Selamet Partisi, 1972-1981), and the Welfare Party (Refah Partisi, 1983-1998); he also became a member of the Felicity Party (Saadet Partisi, 2003-2011).
+Expected output: 'entities: [{'span': 'Necmettin Erbakan', 'entity': 'Politician'}, {'span': 'National Order Party', 'entity': 'Political Party'}, {'span': 'Milli Nizam Partisi', 'entity': 'Political Party'}, {'span': 'National Salvation Party', 'entity': 'Political Party'}, {'span': 'Milli Selamet Partisi', 'entity': 'Political Party'}, {'span': 'Welfare Party', 'entity': 'Political Party'}, {'span': 'Refah Partisi', 'entity': 'Political Party'}, {'span': 'Felicity Party', 'entity': 'Political Party'}, {'span': 'Saadet Partisi', 'entity': 'Political Party'}]'
+
+Example #3: This tends to lead to the chamber being dominated by two major parties, the Liberal Party of Australia / National Party of Australia Coalition and the Australian Labor Party.
+Expected output: 'entities: [{'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}]'
+
+Example #4: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #5: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #6: Samuel became a county judge, and the guests at his home included Andrew Jackson, who had already served as a judge and in Congress.Borneman, James learned from the political talk around the dinner table; both Samuel and Ezekiel were strong supporters of President Thomas Jefferson and opponents of the Federalist Party.
+Expected output: 'entities: [{'span': 'Samuel', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'James', 'entity': 'Politician'}, {'span': 'Ezekiel', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}]'
+
+Example #7: From their 18 % share of the first German federal elections under proportional representation in 1919 German federal election, they dropped, for example, to 4.9 % in the 1928 German federal election and to 1.0 % in the November 1932 German federal election.
+Expected output: 'entities: [{'span': 'first German federal elections', 'entity': 'Election'}, {'span': '1919 German federal election', 'entity': 'Election'}, {'span': '1928 German federal election', 'entity': 'Election'}, {'span': 'November 1932 German federal election', 'entity': 'Election'}]'
+
+Example #8: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #9: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #10: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+

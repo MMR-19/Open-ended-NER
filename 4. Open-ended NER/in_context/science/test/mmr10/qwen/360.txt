@@ -1,0 +1,30 @@
+Example #1: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #2: This minor planet was named by the discoverer in memory of English astronomers Charles Mason (1728-1786) and Jeremiah Dixon (1733-1779), who observed the 1761 transit of Venus from the Cape of Good Hope.
+Expected output: 'entities: [{'span': 'minor planet', 'entity': 'Misc'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Charles Mason', 'entity': 'Scientist'}, {'span': 'Jeremiah Dixon', 'entity': 'Scientist'}, {'span': '1761 transit of Venus', 'entity': 'Event'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}]'
+
+Example #3: The Oak Ridge Institute for Science and Education, operated by Oak Ridge Associated Universities, conducts research and education programs for the DOE, Department of Homeland Security, and other federal agencies.
+Expected output: 'entities: [{'span': 'Oak Ridge Institute for Science and Education', 'entity': 'Organisation'}, {'span': 'Oak Ridge Associated Universities', 'entity': 'University'}, {'span': 'DOE', 'entity': 'Organisation'}, {'span': 'Department of Homeland Security', 'entity': 'Organisation'}]'
+
+Example #4: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+
+Example #5: Several genes known to be affected by differential methylation are the CYP1A1 xenobiotic response element, Aryl hydrocarbon receptor repressor, and F2RL3.
+Expected output: 'entities: [{'span': 'CYP1A1', 'entity': 'Protein'}, {'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'F2RL3', 'entity': 'Misc'}]'
+
+Example #6: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #7: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #8: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #9: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #10: Both Jupiter and Saturn have magnetic fields that are stronger than Earth's (Jupiter's equatorial field strength is 4.3 gauss, compared to 0.3 gauss for Earth), and both have extensive radiation belts.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'radiation belts', 'entity': 'Misc'}]'
+

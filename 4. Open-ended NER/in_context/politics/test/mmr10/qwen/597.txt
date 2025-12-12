@@ -1,0 +1,30 @@
+Example #1: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #2: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #3: The devolved administration was suspended several times (especially between 15 October 2002 and 8 May 2007) because the Ulster Unionist Party and Democratic Unionist Party were uncomfortable being in government with Sinn Féin when the Provisional Irish Republican Army had failed to decommission its arms fully and continued its criminal activities.
+Expected output: 'entities: [{'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Provisional Irish Republican Army', 'entity': 'Organisation'}]'
+
+Example #4: Following Genscher's resignation, Chancellor Helmut Kohl and FDP chairman Otto Graf Lambsdorff named Irmgard Schwaetzer, a former aide to Genscher, to be the new Foreign Minister.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'Otto Graf Lambsdorff', 'entity': 'Politician'}, {'span': 'Irmgard Schwaetzer', 'entity': 'Politician'}]'
+
+Example #5: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #6: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #7: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #8: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #9: Hagelin stood as a candidate for President of the United States for the Natural Law Party, a party founded by the TM movement, in the 1992 United States presidential election, 1996 United States presidential election and 2000 United States presidential election elections.
+Expected output: 'entities: [{'span': 'Hagelin', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'Natural Law Party', 'entity': 'Political Party'}, {'span': 'TM movement', 'entity': 'Event'}, {'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': '1996 United States presidential election', 'entity': 'Election'}, {'span': '2000 United States presidential election', 'entity': 'Election'}]'
+
+Example #10: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+

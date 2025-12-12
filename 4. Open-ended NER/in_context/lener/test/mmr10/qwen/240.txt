@@ -1,0 +1,30 @@
+Example #1: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #2: MARIÂNGELA MEYER RELATORA.
+Expected output: 'entities: [{'span': 'MARIÂNGELA MEYER', 'entity': 'Pessoa'}]'
+
+Example #3: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #4: ALTERAÇÃO DE DESTINAÇÃO DE ÁREAS PÚBLICAS NA CEILÂNDIA E EM BRASÍLIA.
+Expected output: 'entities: [{'span': 'CEILÂNDIA', 'entity': 'Localização'}, {'span': 'BRASÍLIA', 'entity': 'Localização'}]'
+
+Example #5: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #6: O Sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29/12/2003, o Recibo 001 PRONAC 03.3925 (Peça 1, p. 52), 3/1/2002, no valor inicial de R $ 84.783,41, para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” que previa a realização de 20 espetáculos circenses itinerantes no Estado do Paraná com a Trupe “ Aero Circus ”, nos seguintes municípios, conforme a solicitação de apoio a projetos (Peça 1, p. 4-22): Município Quantidade de espetáculos Londrina 3 Campo Mourão 2 Curitiba 3 Cascavel 3 Foz do Iguaçu 3 Guarapuava 3 Maringá 3 3.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29/12/2003', 'entity': 'Tempo'}, {'span': '3/1/2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}]'
+
+Example #7: Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #8: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #9: NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES (RELATOR): A decisão ora atacada não merece reparos, uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL, no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal, inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal (HC 133.091-AgR, Rel. Min. CELSO DE MELLO, Tribunal Pleno, DJe de 5/8/2016).
+Expected output: 'entities: [{'span': 'HABEAS CORPUS 151.914', 'entity': 'Jurisprudência'}, {'span': 'ESPÍRITO SANTO', 'entity': 'Localização'}, {'span': 'ALEXANDRE DE MORAES', 'entity': 'Pessoa'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'HC 133.091-AgR', 'entity': 'Jurisprudência'}, {'span': 'CELSO DE MELLO', 'entity': 'Pessoa'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': '5/8/2016', 'entity': 'Tempo'}]'
+
+Example #10: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+

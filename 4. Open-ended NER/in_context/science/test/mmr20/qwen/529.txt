@@ -1,0 +1,60 @@
+Example #1: He received his PhD in 1953 and began postdoctoral work at the University of London, Cambridge University, and the University of Amsterdam.
+Expected output: 'entities: [{'span': 'University of London', 'entity': 'University'}, {'span': 'Cambridge University', 'entity': 'University'}, {'span': 'University of Amsterdam', 'entity': 'University'}]'
+
+Example #2: From 1916 to 1921, he was a lecturer in the physics department of the Rajabazar Science College under University of Calcutta.
+Expected output: 'entities: [{'span': 'physics department of the Rajabazar Science College', 'entity': 'Organisation'}, {'span': 'University of Calcutta', 'entity': 'University'}]'
+
+Example #3: Lindsay and his wife Rachel translated Hans Kramers book, The Atom and the Bohr Theory of its Structure, in 1923, Hans Kramers & amp; Helge Holst, The Atom and the Bohr Theory of its Structure: An Elementary Presentation, Gyldendal, 210pp.
+Expected output: 'entities: [{'span': 'Lindsay', 'entity': 'Person'}, {'span': 'Rachel', 'entity': 'Person'}, {'span': 'Hans Kramers', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure', 'entity': 'Misc'}, {'span': 'Helge Holst', 'entity': 'Scientist'}, {'span': 'The Atom and the Bohr Theory of its Structure: An Elementary Presentation', 'entity': 'Misc'}, {'span': 'Gyldendal', 'entity': 'Organisation'}]'
+
+Example #4: During that year, he moved to University of Würzburg and two years later, in 1869 to University of Bonn.
+Expected output: 'entities: [{'span': 'University of Würzburg', 'entity': 'University'}, {'span': 'University of Bonn', 'entity': 'University'}]'
+
+Example #5: Joly was elected a Fellow of the Royal Society of London in 1892, was awarded the Boyle Medal of the Royal Dublin Society in 1911,, a student geological association established in 1960.
+Expected output: 'entities: [{'span': 'Joly', 'entity': 'Scientist'}, {'span': 'Fellow of the Royal Society of London', 'entity': 'Award'}, {'span': 'Boyle Medal', 'entity': 'Award'}, {'span': 'Royal Dublin Society', 'entity': 'Organisation'}]'
+
+Example #6: He died, aged 78, on August 5, 2013, at the University of Maryland Medical Center ' s R Adams Cowley Shock Trauma Center from complications following a fall at his home in Annapolis, MD.
+Expected output: 'entities: [{'span': 'University of Maryland Medical Center', 'entity': 'Organisation'}, {'span': 'R Adams Cowley Shock Trauma Center', 'entity': 'Organisation'}, {'span': 'Annapolis', 'entity': 'Location'}, {'span': 'MD', 'entity': 'Location'}]'
+
+Example #7: There were three names on the list: Werner Heisenberg, who received the Nobel Prize in Physics in 1932, Peter Debye, who would receive the Nobel Prize in Chemistry in 1936, and Richard Becker - all former students of Sommerfeld.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'Peter Debye', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}, {'span': 'Richard Becker', 'entity': 'Scientist'}, {'span': 'Sommerfeld', 'entity': 'Scientist'}]'
+
+Example #8: She represented her country at the 2017 World Championships in Athletics without reaching the semifinals.
+Expected output: 'entities: [{'span': '2017 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #9: He studied at CMS College Kottayam, and graduated with honors from the Madras Christian College in 1951.
+Expected output: 'entities: [{'span': 'CMS College Kottayam', 'entity': 'University'}, {'span': 'Madras Christian College', 'entity': 'University'}]'
+
+Example #10: Mechnikov was appointed docent at the newly established Odessa University (now Odessa University).
+Expected output: 'entities: [{'span': 'Mechnikov', 'entity': 'Scientist'}, {'span': 'Odessa University', 'entity': 'University'}]'
+
+Example #11: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #12: The kinetic isotope effect (KIE) of ribulose-1,5-bisphosphate carboxylase oxygenase (RuBisCO) is the isotopic fractionation associated solely with the step in the Calvin-Benson Cycle where a molecule of carbon dioxide (
+Expected output: 'entities: [{'span': 'kinetic isotope effect', 'entity': 'Misc'}, {'span': 'KIE', 'entity': 'Misc'}, {'span': 'ribulose-1,5-bisphosphate carboxylase oxygenase', 'entity': 'Enzyme'}, {'span': 'RuBisCO', 'entity': 'Enzyme'}, {'span': 'isotopic fractionation', 'entity': 'Misc'}, {'span': 'Calvin-Benson Cycle', 'entity': 'Misc'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}]'
+
+Example #13: Eigen received his Ph.D. at the University of Göttingen in 1951 under supervision of Arnold Eucken.
+Expected output: 'entities: [{'span': 'Eigen', 'entity': 'Scientist'}, {'span': 'University of Göttingen', 'entity': 'University'}, {'span': 'Arnold Eucken', 'entity': 'Scientist'}]'
+
+Example #14: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+
+Example #15: After the war, he returned to research at the Cavendish Laboratory in Cambridge and completed building his first mass spectrograph that he reported on in 1919 and a fellow of the Royal Society and received the Nobel Prize in Chemistry the following year.
+Expected output: 'entities: [{'span': 'Cavendish Laboratory', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'fellow of the Royal Society', 'entity': 'Award'}, {'span': 'Nobel Prize in Chemistry', 'entity': 'Award'}]'
+
+Example #16: Stockport played for eight seasons from the 1895-96 season to the end of 1902-1903 season, the latter two seasons played at Edgeley Park, the club finished 17th of 22 in the initial combined league, then 5th, 11th, 11th, 9th, 12th, 6th, in the 14-club Lancashire Senior Competition, and then 18th of 18 in Division 2 of the recombined league, after which it withdrew from the Northern Rugby Football Union.
+Expected output: 'entities: [{'span': 'Stockport', 'entity': 'Location'}, {'span': 'Edgeley Park', 'entity': 'Location'}, {'span': 'Lancashire Senior Competition', 'entity': 'Event'}, {'span': 'Northern Rugby Football Union', 'entity': 'Organisation'}]'
+
+Example #17: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #18: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #19: Knowles was heavily influenced by the Motown Sound of the 1960s and 1970s prior to the album's recording, prompting her to work with several like-minded producers and songwriters such as Jack Splash, CeeLo Green, Mark Ronson, and former Holland-Dozier-Holland member Lamont Dozier.
+Expected output: 'entities: [{'span': 'Knowles', 'entity': 'Person'}, {'span': 'Motown Sound', 'entity': 'Organisation'}, {'span': 'Jack Splash', 'entity': 'Person'}, {'span': 'CeeLo Green', 'entity': 'Person'}, {'span': 'Mark Ronson', 'entity': 'Person'}, {'span': 'Holland-Dozier-Holland', 'entity': 'Organisation'}, {'span': 'Lamont Dozier', 'entity': 'Person'}]'
+
+Example #20: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+

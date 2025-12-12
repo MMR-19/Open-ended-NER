@@ -1,0 +1,15 @@
+Example #1: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #2: Assisted by his top aide Harry Hopkins and with very strong national support, he worked closely with British Prime Minister Winston Churchill, Soviet leader Joseph Stalin and Chinese Generalissimo Chiang Kai-shek in leading the Allied Powers against the Axis Powers.
+Expected output: 'entities: [{'span': 'Harry Hopkins', 'entity': 'Politician'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Chinese', 'entity': 'Misc'}, {'span': 'Chiang Kai-shek', 'entity': 'Politician'}, {'span': 'Allied Powers', 'entity': 'Organisation'}, {'span': 'Axis Powers', 'entity': 'Organisation'}]'
+
+Example #3: On the train trip from Washington D.C., to Gettysburg on November 18, Lincoln was accompanied by three members of his Cabinet, William H. Seward, John Palmer Usher and Montgomery Blair, several foreign officials, his secretary John Nicolay, and his assistant secretary, John Hay.
+Expected output: 'entities: [{'span': 'Washington D.C.', 'entity': 'Location'}, {'span': 'Gettysburg', 'entity': 'Location'}, {'span': 'Lincoln', 'entity': 'Politician'}, {'span': 'William H. Seward', 'entity': 'Politician'}, {'span': 'John Palmer Usher', 'entity': 'Politician'}, {'span': 'Montgomery Blair', 'entity': 'Politician'}, {'span': 'John Nicolay', 'entity': 'Politician'}, {'span': 'John Hay', 'entity': 'Politician'}]'
+
+Example #4: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #5: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+

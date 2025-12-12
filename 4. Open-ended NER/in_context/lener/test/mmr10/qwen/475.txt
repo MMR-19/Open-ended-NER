@@ -1,0 +1,30 @@
+Example #1: Por força do § 11 do art. 85 do CPC/15, majora-se a verba honorária imposta à Apelante para 12 % (doze por cento) sobre o valor da causa, mantida a suspensão de exigibilidade do referido encargo.
+Expected output: 'entities: [{'span': '§ 11 do art. 85 do CPC/15', 'entity': 'Jurisprudência'}]'
+
+Example #2: Tanto o Decreto n.º 10.829/87, quanto a Portaria n.º 314/92, do Instituto Brasileiro do Patrimônio Cultural IBPC, hoje Instituto do Patrimônio Histórico e Artístico Nacional IPHAN, conferem ao Governador do Distrito Federal competência privativa para iniciar o processo legislativo, quando se tratar o tema de uso e ocupação do solo em todo o território do Distrito Federal.
+Expected output: 'entities: [{'span': 'Decreto n.º 10.829/87', 'entity': 'Legislação'}, {'span': 'Portaria n.º 314/92', 'entity': 'Legislação'}, {'span': 'Instituto Brasileiro do Patrimônio Cultural', 'entity': 'Organização'}, {'span': 'IBPC', 'entity': 'Organização'}, {'span': 'Instituto do Patrimônio Histórico e Artístico Nacional', 'entity': 'Organização'}, {'span': 'IPHAN', 'entity': 'Organização'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: ART. 18, § 2º, DA LC 76/93.
+Expected output: 'entities: [{'span': 'ART. 18, § 2º, DA LC 76/93', 'entity': 'Legislação'}]'
+
+Example #4: (A / S): ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações: O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116, de 30 de junho de 2006, daquele Estado, de origem parlamentar, que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado, previstas na Lei Complementar nº 92, de 5 de julho de 2002 ”.
+Expected output: 'entities: [{'span': 'ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ', 'entity': 'Organização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Lei Complementar nº 116', 'entity': 'Legislação'}, {'span': '30 de junho de 2006', 'entity': 'Tempo'}, {'span': 'Coordenação da Receita do Estado', 'entity': 'Organização'}, {'span': 'Lei Complementar nº 92', 'entity': 'Legislação'}, {'span': '5 de julho de 2002', 'entity': 'Tempo'}]'
+
+Example #5: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+
+Example #6: O sr. Robsmar da Silva, sob o amparo da Lei 8.313/1991, Lei Rouanet, assinou, em 29.12.2003, o recibo 1 Pronac 03.3925 (peça 1, p. 52), de 3.1.2002, no valor inicial de R $ 84.783,41 (peça 1, p. 30), para a realização do projeto “ Aero Circus Espetáculos Itinerantes ”, que previa a realização de 20 espetáculos circenses itinerantes nos municípios de Londrina, Campo Mourão, Curitiba, Cascavel, Foz do Iguaçu, Guarapuava e Maringá, todos no Estado do Paraná, com a Trupe “ Aero Circus ”.
+Expected output: 'entities: [{'span': 'Robsmar da Silva', 'entity': 'Pessoa'}, {'span': 'Lei 8.313/1991', 'entity': 'Legislação'}, {'span': 'Lei Rouanet', 'entity': 'Legislação'}, {'span': '29.12.2003', 'entity': 'Tempo'}, {'span': '3.1.2002', 'entity': 'Tempo'}, {'span': 'Aero Circus Espetáculos Itinerantes', 'entity': 'Organização'}, {'span': 'Londrina', 'entity': 'Localização'}, {'span': 'Campo Mourão', 'entity': 'Localização'}, {'span': 'Curitiba', 'entity': 'Localização'}, {'span': 'Cascavel', 'entity': 'Localização'}, {'span': 'Foz do Iguaçu', 'entity': 'Localização'}, {'span': 'Guarapuava', 'entity': 'Localização'}, {'span': 'Maringá', 'entity': 'Localização'}, {'span': 'Estado do Paraná', 'entity': 'Localização'}, {'span': 'Aero Circus', 'entity': 'Organização'}]'
+
+Example #7: INCIDÊNCIA DA SÚMULA 211/STJ.
+Expected output: 'entities: [{'span': 'SÚMULA 211/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #8: Ou seja, além do dispositivo se referir apenas a obras e serviços de engenharia (§ 1º do art. 48 da Lei 8.666/1993), portanto, inaplicável ao objeto do Pregão Eletrônico 25/2016, houve erro grosseiro no cálculo realizado, uma vez que, segundo o critério invocado, todas as propostas inferiores a R $ 3.855.600,00 (70 % do valor estimado) deveriam ter sido consideradas inexequíveis.
+Expected output: 'entities: [{'span': '§ 1º do art. 48 da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #9: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #10: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+

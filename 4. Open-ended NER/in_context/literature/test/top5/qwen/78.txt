@@ -1,0 +1,15 @@
+Example #1: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #2: The British military historian John Keegan attacked Clausewitz's theory in his book A History of Warfare. John Keegan, A History of Warfare.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'John Keegan', 'entity': 'Writer'}, {'span': 'Clausewitz', 'entity': 'Writer'}, {'span': 'A History of Warfare', 'entity': 'Book'}]'
+
+Example #3: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #4: Verne's collaboration with the publisher Pierre-Jules Hetzel led to the creation of the Voyages extraordinaires, a widely popular series of scrupulously researched adventure novels including Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Sea (1870), and Around the World in Eighty Days (1873).
+Expected output: 'entities: [{'span': 'Verne', 'entity': 'Writer'}, {'span': 'Pierre-Jules Hetzel', 'entity': 'Writer'}, {'span': 'Voyages extraordinaires', 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'Journey to the Center of the Earth', 'entity': 'Book'}, {'span': 'Twenty Thousand Leagues Under the Sea', 'entity': 'Book'}, {'span': 'Around the World in Eighty Days', 'entity': 'Book'}]'
+
+Example #5: To Dolapdere, he sarcastically gave the name Cholera (Kolera in Turkish) in Ağır Roman, thereby recalling both its shabbiness and the fact that the great Poland poet Adam Mickiewicz died there from the cholera in 1855.
+Expected output: 'entities: [{'span': 'Dolapdere', 'entity': 'Location'}, {'span': 'Cholera', 'entity': 'Misc'}, {'span': 'Kolera', 'entity': 'Misc'}, {'span': 'Turkish', 'entity': 'Misc'}, {'span': 'Ağır Roman', 'entity': 'Book'}, {'span': 'Poland', 'entity': 'Country'}, {'span': 'Adam Mickiewicz', 'entity': 'Writer'}, {'span': 'cholera', 'entity': 'Misc'}]'
+

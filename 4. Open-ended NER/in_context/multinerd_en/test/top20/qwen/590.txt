@@ -1,0 +1,60 @@
+Example #1: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #2: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #3: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #4: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #5: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #6: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #7: During the Middle Ages it was usually made with wheat, barley, rye, or oats.
+Expected output: 'entities: [{'span': 'Middle Ages', 'entity': 'Time'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'barley', 'entity': 'Plant'}, {'span': 'rye', 'entity': 'Plant'}]'
+
+Example #8: Some recipes also call for small quantities of star anise, asafoetida, chili, stone flower (known as " dagadphool "), and " kababchini " (" cubeb ").
+Expected output: 'entities: [{'span': 'asafoetida', 'entity': 'Food'}, {'span': 'chili', 'entity': 'Plant'}, {'span': 'stone flower', 'entity': 'Animal'}]'
+
+Example #9: Drying prevents yeasts and bread molds (" Rhizopus ") from growing by removing moisture so bacteria cannot grow.
+Expected output: 'entities: [{'span': 'Rhizopus', 'entity': 'Biological entity'}]'
+
+Example #10: This takes place each year around November – after the start of the wet season and in synchronisation with the cycle of the moon.
+Expected output: 'entities: [{'span': 'wet season', 'entity': 'Time'}, {'span': 'moon', 'entity': 'Celestial Body'}]'
+
+Example #11: The colonists enjoyed butter in cooking as well, but it was rare prior to the American Revolution, as cattle were not yet plentiful.
+Expected output: 'entities: [{'span': 'butter', 'entity': 'Food'}, {'span': 'American Revolution', 'entity': 'Event'}, {'span': 'cattle', 'entity': 'Animal'}]'
+
+Example #12: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #13: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #14: In Tabriz, they are made of almond flour, sugar, egg white, vanilla, margarine and pistachio.
+Expected output: 'entities: [{'span': 'Tabriz', 'entity': 'Location'}, {'span': 'egg white', 'entity': 'Food'}, {'span': 'vanilla', 'entity': 'Food'}, {'span': 'margarine', 'entity': 'Food'}, {'span': 'pistachio', 'entity': 'Plant'}]'
+
+Example #15: In Brazil, they are often filled with heart of palm, cheese, ham, ground meat, chicken or shrimp.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Location'}, {'span': 'cheese', 'entity': 'Food'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'ground meat', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'shrimp', 'entity': 'Animal'}]'
+
+Example #16: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #17: For example, although the typical recipe calls for beef and pork, the Kiev variant uses mutton or lamb as well as beef, while in the Poltava region, the stock for borscht is cooked on poultry meat, that is, chicken, duck or goose.
+Expected output: 'entities: [{'span': 'Kiev', 'entity': 'Location'}, {'span': 'mutton or lamb', 'entity': 'Food'}, {'span': 'Poltava', 'entity': 'Location'}, {'span': 'goose', 'entity': 'Animal'}]'
+
+Example #18: Menu items that are generally considered breakfast foods are served in the school's dining hall late at night (hence " midnight ") as a study break before or during final exams, or as a traditional community-building event.
+Expected output: 'entities: [{'span': 'breakfast', 'entity': 'Food'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #19: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #20: This is the fertilized eggs or roe (" qaarsat, meluk, imlauk ") of the Pacific herring attached to eelgrass, seaweed or other submerged vegetation.
+Expected output: 'entities: [{'span': 'roe', 'entity': 'Food'}, {'span': 'Pacific herring', 'entity': 'Animal'}, {'span': 'eelgrass', 'entity': 'Plant'}]'
+

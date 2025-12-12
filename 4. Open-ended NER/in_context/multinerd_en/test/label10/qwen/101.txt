@@ -1,0 +1,30 @@
+Example #1: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: The hero is presented devoid of rank or status, and seems notably human, though heroic, as he is forever trying to pull Paris's arrow from his heel.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Mythological entity'}]'
+
+Example #4: The symbol for 2 Pallas, the spear of Pallas Athena, was invented by Baron Franz Xaver von Zach, who organized a group of twenty-four astronomers to search for a planet between the orbits of Mars and Jupiter.
+Expected output: 'entities: [{'span': '2 Pallas', 'entity': 'Celestial Body'}, {'span': 'Pallas Athena', 'entity': 'Mythological entity'}, {'span': 'Franz Xaver von Zach', 'entity': 'Person'}, {'span': 'Mars', 'entity': 'Celestial Body'}, {'span': 'Jupiter', 'entity': 'Celestial Body'}]'
+
+Example #5: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #6: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #7: It is also used to prevent bacterial endocarditis in high-risk people having dental work done, to prevent " Streptococcus pneumoniae " and other encapsulated bacterial infections in those without spleens, such as people with sickle-cell disease, and for both the prevention and the treatment of anthrax.
+Expected output: 'entities: [{'span': 'Streptococcus pneumoniae', 'entity': 'Biological entity'}]'
+
+Example #8: The park's elevation and dry desert air, along with the relatively stable atmosphere in the region, often make for excellent seeing conditions.
+Expected output: 'entities: [{'span': 'dry', 'entity': 'Disease'}, {'span': 'relatively stable', 'entity': 'Time'}]'
+
+Example #9: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+
+Example #10: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+

@@ -1,0 +1,60 @@
+Example #1: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #2: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #3: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #4: Consiste numa sopa rica de peixe com muito alho e tomate (s).
+Expected output: 'entities: [{'span': 'sopa', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}]'
+
+Example #5: Essa formação lançou o álbum " I Can See Your House from Here " (1979), mais comercial, e que causou problemas com os patrocinadores por mostrar em sua capa um astronauta crucificado olhando para a Terra.
+Expected output: 'entities: [{'span': 'I Can See Your House from Here', 'entity': 'Média'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #6: Os membros de Basidiomycota, vulgarmente chamados fungos de bastão ou basidiomicetes, produzem meiósporos chamados basidiósporos em estruturas chamadas basídios.
+Expected output: 'entities: [{'span': 'Basidiomycota', 'entity': 'Entidade biológica'}]'
+
+Example #7: pelo novo Airbus A320.
+Expected output: 'entities: [{'span': 'Airbus A320', 'entity': 'Veículo'}]'
+
+Example #8: Depois da guerra civil e durante a Segunda Guerra Mundial, os portos do país serviram como entrepostos para o contrabando de suprimentos da indústria de guerra da Alemanha Nazi.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Alemanha Nazi', 'entity': 'Organização'}]'
+
+Example #9: O mesmo possui uma magnitude absoluta de 5,6 e, tem um diâmetro estimado de cerca de 158 km, por isso existem poucas chances que possa ser classificado como um planeta anão, devido ao seu tamanho relativamente pequeno.
+Expected output: 'entities: [{'span': 'planeta anão', 'entity': 'Corpo celeste'}]'
+
+Example #10: Marcou seus primeiros gols pelo clube merengue numa goleada sobre o Deportivo La Coruña por 8 – 2, válida pelo Campeonato Espanhol.
+Expected output: 'entities: [{'span': 'Deportivo La Coruña', 'entity': 'Organização'}, {'span': 'Campeonato Espanhol', 'entity': 'Evento'}]'
+
+Example #11: A divindade mais importante para os incas, no entanto, era Inti, o deus do sol.
+Expected output: 'entities: [{'span': 'Inti', 'entity': 'Entidade mitológica'}, {'span': 'sol', 'entity': 'Corpo celeste'}]'
+
+Example #12: Mais recentemente, o Telescópio Espacial Hubble detectou que essa atmosfera era composta de oxigénio, tal como a atmosfera encontrada em Europa.
+Expected output: 'entities: [{'span': 'Telescópio Espacial Hubble', 'entity': 'Instrumento'}, {'span': 'Europa', 'entity': 'Corpo celeste'}]'
+
+Example #13: " Aetanthus " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #14: Foi inspirado no TeX e no GNU Emacs.
+Expected output: 'entities: [{'span': 'TeX', 'entity': 'Média'}, {'span': 'GNU Emacs', 'entity': 'Instrumento'}]'
+
+Example #15: Em 4 de março de 2009, o presidente da Venezuela, Hugo Chávez, anunciou a expropriação da empresa naquele país, devido ao descumprimento da política de abastecimento de alimentos do país, que determina que pelo menos 80 % da produção de arroz seja do arroz branco, sujeito a controle de preços no país.
+Expected output: 'entities: [{'span': '2009', 'entity': 'Tempo'}, {'span': 'Venezuela', 'entity': 'Localização'}, {'span': 'Hugo Chávez', 'entity': 'Pessoa'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #16: Um poema sumeriano de 3900 anos homenageando a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu, descrevendo a produção de cerveja de cevada utilizando pão.
+Expected output: 'entities: [{'span': 'Ninkasi', 'entity': 'Entidade mitológica'}, {'span': 'cevada', 'entity': 'Planta'}, {'span': 'pão', 'entity': 'Comida'}]'
+
+Example #17: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #18: Este género mostra o começo de polaridade e diferenciação colonial visto no género " Volvox ", visto que as células anteriores possuem manchas oculares maiores.
+Expected output: 'entities: [{'span': 'Volvox', 'entity': 'Entidade biológica'}]'
+
+Example #19: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #20: É sobretudo forte na produção de azeite (70 % do total espanhol), arroz, frutas, trigo, plantas industriais e na produção de gado.
+Expected output: 'entities: [{'span': 'azeite', 'entity': 'Comida'}, {'span': 'arroz', 'entity': 'Planta'}, {'span': 'trigo', 'entity': 'Planta'}, {'span': 'gado', 'entity': 'Animal'}]'
+

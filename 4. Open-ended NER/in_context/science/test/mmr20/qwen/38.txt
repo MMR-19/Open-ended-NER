@@ -1,0 +1,60 @@
+Example #1: H3K9me3 is an epigenetic modification to the DNA packaging protein Histone H3.
+Expected output: 'entities: [{'span': 'H3K9me3', 'entity': 'Misc'}, {'span': 'epigenetic modification', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #2: However, in November 2015, a group of Chinese scientists used the gene editing technique CRISPR / Cas9 to edit single-celled, non-viable embryos to see the effectiveness of this technique.
+Expected output: 'entities: [{'span': 'Chinese', 'entity': 'Misc'}, {'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'Cas9', 'entity': 'Misc'}]'
+
+Example #3: Alberts has also served as an editor for numerous peer-reviewed journals in a variety of fields, including Behavioral Ecology (journal), the American Journal of Primatology, and PeerJ.
+Expected output: 'entities: [{'span': 'Alberts', 'entity': 'Scientist'}, {'span': 'Behavioral Ecology', 'entity': 'Academic Journal'}, {'span': 'American Journal of Primatology', 'entity': 'Academic Journal'}, {'span': 'PeerJ', 'entity': 'Academic Journal'}]'
+
+Example #4: The widely used iGluSnFR consists of a circularly permuted Green fluorescent protein fused to a glutamate binding protein (GluBP) from a bacterium.
+Expected output: 'entities: [{'span': 'iGluSnFR', 'entity': 'Misc'}, {'span': 'Green fluorescent protein', 'entity': 'Protein'}, {'span': 'glutamate binding protein', 'entity': 'Protein'}, {'span': 'GluBP', 'entity': 'Protein'}]'
+
+Example #5: Lost was created by Jeffrey Lieber, J. J. Abrams and Damon Lindelof, who share story writing credits for the pilot episode, which Abrams directed.
+Expected output: 'entities: [{'span': 'Lost', 'entity': 'Misc'}, {'span': 'Jeffrey Lieber', 'entity': 'Person'}, {'span': 'J. J. Abrams', 'entity': 'Person'}, {'span': 'Damon Lindelof', 'entity': 'Person'}, {'span': 'pilot episode', 'entity': 'Misc'}, {'span': 'Abrams', 'entity': 'Person'}]'
+
+Example #6: Her laboratory has determined the structures of numerous large protein complexes that play critically important roles in immune signaling, including structures of TRAFs, Myddosome and IKK-beta in Toll-like receptor, the Inflammasome, and the synaptic Recombination-activating gene.
+Expected output: 'entities: [{'span': 'TRAFs', 'entity': 'Protein'}, {'span': 'Myddosome', 'entity': 'Misc'}, {'span': 'IKK-beta', 'entity': 'Protein'}, {'span': 'Toll-like receptor', 'entity': 'Protein'}, {'span': 'Inflammasome', 'entity': 'Misc'}, {'span': 'synaptic Recombination-activating gene', 'entity': 'Protein'}]'
+
+Example #7: 6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene (6,7-Dibromonaphthalene-1,4-endoxide, accessible after debromination from 1,2,4,5-Tetrabromobenzene using an equivalent of N-Butyllithium and Diels-Alder reaction in furan in 70 % yield { { cite journal | author = H. Hart, A. Bashir-Hashemi, J. Luo, M. A. Meador | journal = Tetrahedron | title = Iptycenes: Extended Triptycenes | volume = 42 | year = 1986 | page = 1641-1654 | doi = 10.1016 / S0040-4020 (1) 87581-5
+Expected output: 'entities: [{'span': '6,7-Dibromo-1,4-epoxy-1,4-dihydronaphthalene', 'entity': 'Chemical Compound'}, {'span': '6,7-Dibromonaphthalene-1,4-endoxide', 'entity': 'Chemical Compound'}, {'span': '1,2,4,5-Tetrabromobenzene', 'entity': 'Chemical Compound'}, {'span': 'N-Butyllithium', 'entity': 'Chemical Compound'}, {'span': 'Diels-Alder reaction', 'entity': 'Misc'}, {'span': 'furan', 'entity': 'Chemical Compound'}, {'span': 'H. Hart', 'entity': 'Scientist'}, {'span': 'A. Bashir-Hashemi', 'entity': 'Scientist'}, {'span': 'J. Luo', 'entity': 'Scientist'}, {'span': 'M. A. Meador', 'entity': 'Scientist'}, {'span': 'Tetrahedron', 'entity': 'Academic Journal'}, {'span': 'Iptycenes: Extended Triptycenes', 'entity': 'Misc'}]'
+
+Example #8: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #9: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #10: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #11: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #12: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #13: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+
+Example #14: Four COSMIC mutational signatures have been associated with DNA mismatch repair deficiency and found in tumors with microsatellite instability: Signature 6, 15, 20 and 26.
+Expected output: 'entities: [{'span': 'COSMIC', 'entity': 'Misc'}, {'span': 'DNA mismatch repair', 'entity': 'Misc'}]'
+
+Example #15: The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT8, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+Expected output: 'entities: [{'span': 'keratins', 'entity': 'Misc'}, {'span': 'KRT23', 'entity': 'Protein'}, {'span': 'KRT24', 'entity': 'Protein'}, {'span': 'KRT25', 'entity': 'Protein'}, {'span': 'KRT26', 'entity': 'Protein'}, {'span': 'KRT27', 'entity': 'Protein'}, {'span': 'KRT28', 'entity': 'Protein'}, {'span': 'KRT31', 'entity': 'Protein'}, {'span': 'KRT32', 'entity': 'Protein'}, {'span': 'KRT33A', 'entity': 'Protein'}, {'span': 'KRT33B', 'entity': 'Protein'}, {'span': 'KRT34', 'entity': 'Protein'}, {'span': 'KRT35', 'entity': 'Protein'}, {'span': 'KRT36', 'entity': 'Protein'}, {'span': 'KRT37', 'entity': 'Protein'}, {'span': 'KRT38', 'entity': 'Protein'}, {'span': 'KRT39', 'entity': 'Protein'}, {'span': 'KRT40', 'entity': 'Protein'}, {'span': 'KRT71', 'entity': 'Protein'}, {'span': 'KRT72', 'entity': 'Protein'}, {'span': 'KRT73', 'entity': 'Protein'}, {'span': 'KRT74', 'entity': 'Protein'}, {'span': 'KRT75', 'entity': 'Protein'}, {'span': 'KRT76', 'entity': 'Protein'}, {'span': 'KRT77', 'entity': 'Protein'}, {'span': 'KRT78', 'entity': 'Protein'}, {'span': 'KRT79', 'entity': 'Protein'}, {'span': 'KRT8', 'entity': 'Protein'}, {'span': 'KRT80', 'entity': 'Protein'}, {'span': 'KRT81', 'entity': 'Protein'}, {'span': 'KRT82', 'entity': 'Protein'}, {'span': 'KRT83', 'entity': 'Protein'}, {'span': 'KRT84', 'entity': 'Protein'}, {'span': 'KRT85', 'entity': 'Protein'}, {'span': 'KRT86', 'entity': 'Protein'}]'
+
+Example #16: Primary structure of calponin consists of a conserved N-terminal Calponin homology domain, a conserved middle region containing two actin-binding sites, and a C-terminal variable region that contributes to the differences among there isoforms.
+Expected output: 'entities: [{'span': 'calponin', 'entity': 'Protein'}, {'span': 'N-terminal Calponin homology domain', 'entity': 'Misc'}, {'span': 'C-terminal variable region', 'entity': 'Misc'}]'
+
+Example #17: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #18: In DNA replication, RNA primers must be inserted along the lagging strand so that DNA polymerase is able to synthesize the strand in the 5 to 3 direction.
+Expected output: 'entities: [{'span': 'DNA replication', 'entity': 'Misc'}, {'span': 'RNA primers', 'entity': 'Misc'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #19: Using single-molecule force spectroscopy, his lab showed how intracellular molecules such as Alpha catenin and b-catenin modulate cell-cell adhesion mediated by E-cadherin.
+Expected output: 'entities: [{'span': 'single-molecule force spectroscopy', 'entity': 'Misc'}, {'span': 'Alpha catenin', 'entity': 'Protein'}, {'span': 'b-catenin', 'entity': 'Protein'}, {'span': 'E-cadherin', 'entity': 'Protein'}]'
+
+Example #20: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+

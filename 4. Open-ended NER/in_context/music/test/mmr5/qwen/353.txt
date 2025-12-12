@@ -1,0 +1,15 @@
+Example #1: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #2: He has won numerous accolades for his work, including an Academy Award for Best Adapted Screenplay, a Student Academy Award, a BAFTA Award for Best Adapted Screenplay, two Emmy Awards, two Peabody Award s, and the Cannes Grand Prix.
+Expected output: 'entities: [{'span': 'Academy Award for Best Adapted Screenplay', 'entity': 'Award'}, {'span': 'Student Academy Award', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Adapted Screenplay', 'entity': 'Award'}, {'span': 'Emmy Awards', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Cannes Grand Prix', 'entity': 'Award'}]'
+
+Example #3: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #4: The stadium also hosted such events as 1973 Summer Universiade, 1986 Goodwill Games and 2013 World Championships in Athletics.
+Expected output: 'entities: [{'span': '1973 Summer Universiade', 'entity': 'Event'}, {'span': '1986 Goodwill Games', 'entity': 'Event'}, {'span': '2013 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #5: He also became progressively more involved with Irish-American organizations: in 1908 he joined the Friendly Sons of St. Patrick (becoming president in 1916), the oldest Irish association in New York, and in 1911 he became a member of the American Irish Historical Society.
+Expected output: 'entities: [{'span': 'Irish-American', 'entity': 'Misc'}, {'span': 'Friendly Sons of St. Patrick', 'entity': 'Organisation'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'New York', 'entity': 'Location'}, {'span': 'American Irish Historical Society', 'entity': 'Organisation'}]'
+

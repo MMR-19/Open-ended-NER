@@ -1,0 +1,30 @@
+Example #1: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+
+Example #2: Deste Laudo também se extrai que a unidade consumidora, informada pelo Apelante (nº 54140007-2), está atrelada ao endereço: RUA MARIA RITA 1207, BL 2, Apt. 1501, PORTO NOVO, SÃO GONÇALO/RJ, e não ao informado na conta apresentada.
+Expected output: 'entities: [{'span': 'RUA MARIA RITA', 'entity': 'Localização'}, {'span': 'PORTO NOVO', 'entity': 'Localização'}, {'span': 'SÃO GONÇALO/RJ', 'entity': 'Localização'}]'
+
+Example #3: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #4: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+
+Example #5: A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts. 557, caput, e § 1º-A, do Código de Processo Civil, e 3º do Código de Processo Penal - CPP, que permitem ao relator dar provimento, negar seguimento a recurso manifestamente inadmissível, improcedente, prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal, do Supremo Tribunal Federal, ou de Tribunal Superior '' (AgRg nos EREsp 1.387.000/PR, Rel. Min. Ericson Maranho (Desembargador convocado do TJ/SP), Terceira Seção, DJe 17/06/2015).
+Expected output: 'entities: [{'span': 'arts. 557, caput, e § 1º-A, do Código de Processo Civil', 'entity': 'Legislação'}, {'span': '3º do Código de Processo Penal - CPP', 'entity': 'Legislação'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'AgRg nos EREsp 1.387.000/PR', 'entity': 'Jurisprudência'}, {'span': 'Ericson Maranho', 'entity': 'Pessoa'}, {'span': 'TJ/SP', 'entity': 'Organização'}, {'span': '17/06/2015', 'entity': 'Tempo'}]'
+
+Example #6: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #7: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN. MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO (RELATOR) – Inicialmente, consigno a impropriedade da manifestação do AdvogadoGeral da União.
+Expected output: 'entities: [{'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}]'
+
+Example #8: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #9: Por fim, como bem assentado no decisum agravado, não há como ser acolhida a alegação de que apenas se reproduziram matérias já veiculadas nos jornais locais, inexistindo qualquer juízo de valor sobre os atuais chefes do Poder Executivo de Itapevi no panfleto impugnado (fis. 192).
+Expected output: 'entities: [{'span': 'Itapevi', 'entity': 'Localização'}]'
+
+Example #10: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho da Secretária de Estado de Planejamento, Orçamento e Gestão de 17 de maio de 2016, publicado no DODF nº 94, de 18 de maio de 2016, pág. 26, referente ao Processo: 300.000.002/2016, Interessado: RAFAEL LUCIANO ROOS, Assunto: Cessão de servidor, ONDE SE LÊ: `` (...) e na forma do disposto do art. 152 da Lei Complementar nº 840 de 23/12/2011, (...) ''.
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': '17 de maio de 2016', 'entity': 'Tempo'}, {'span': '18 de maio de 2016', 'entity': 'Tempo'}, {'span': '300.000.002/2016', 'entity': 'Jurisprudência'}, {'span': 'RAFAEL LUCIANO ROOS', 'entity': 'Pessoa'}, {'span': 'art. 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}]'
+

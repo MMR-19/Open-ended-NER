@@ -1,0 +1,30 @@
+Example #1: Os documentos particulares acostados aos autos não afastam a prescrição, em conformidade com as Súmulas 278 e 573, STJ.
+Expected output: 'entities: [{'span': 'Súmulas 278 e 573, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #2: DES. SALDANHA DA FONSECA (RELATOR): Prejudicial de mérito Prescrição (f. 224-227) A apelante alega que o sinistro ocorreu em 19/12/2009, sendo a ação distribuída em 25/10/2013, restam operados os efeitos da prescrição quinquenal (art. 206, § 3º, IX, CC e Súmula 405, STJ).
+Expected output: 'entities: [{'span': 'SALDANHA DA FONSECA', 'entity': 'Pessoa'}, {'span': '19/12/2009', 'entity': 'Tempo'}, {'span': '25/10/2013', 'entity': 'Tempo'}, {'span': 'art. 206, § 3º, IX, CC', 'entity': 'Legislação'}, {'span': 'Súmula 405, STJ', 'entity': 'Jurisprudência'}]'
+
+Example #3: ART. 20, § 4°, DO CPC.
+Expected output: 'entities: [{'span': 'ART. 20, § 4°, DO CPC', 'entity': 'Legislação'}]'
+
+Example #4: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #5: A técnica está prevista expressamente no art. 322, § 1º, do CPC, o qual concretiza a nova perspectiva atribuída ao Processo Civil, voltada para uma efetiva prestação jurisdicional, para a justa composição da lide e para a proteção da boa- PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 2 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 fé. 2.
+Expected output: 'entities: [{'span': 'art. 322, § 1º, do CPC', 'entity': 'Legislação'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #6: EMENTA: AÇÃO DE COBRANÇA - INDENIZAÇÃO DO SEGURO DPVAT - INVALIDEZ PERMANENTE PARCIAL INCOMPLETA - SÚMULA 474/STJ - CORREÇÃO MONETÁRIA - SÚMULA 580 DO STJ - JUROS DE MORA - SÚMULA 426/STJ - HONORÁRIOS ADVOCATÍCIOS - INTERESSE PROCESSUAL - REGISTRO DE OCORRÊNCIA - CERCEAMENTO DE DEFESA - PRESCRIÃO - TERMO INICIAL.
+Expected output: 'entities: [{'span': 'SÚMULA 474/STJ', 'entity': 'Jurisprudência'}, {'span': 'SÚMULA 580 DO STJ', 'entity': 'Jurisprudência'}, {'span': 'SÚMULA 426/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #7: De igual modo, está pacificado no STJ o entendimento acerca da possibilidade de sucessiva prorrogação das interceptações, desde que devidamente fundamentadas, apesar de o art. 5º da Lei n. 9.296/1996 prever o prazo máximo de 15 (quinze) dias para tal medida, renovável por igual período (RHC 41.179/SP, Rel. Ministro FELIX FISCHER, QUINTA TURMA, julgado em 09/06/2015, DJe 19/06/2015, e HC 210.022/SP, Rel. Ministro SEBASTIÃO REIS JÚNIOR, SEXTA TURMA, julgado em 21/08/2014, DJe 05/09/2014).
+Expected output: 'entities: [{'span': 'STJ', 'entity': 'Organização'}, {'span': 'art. 5º da Lei n. 9.296/1996', 'entity': 'Legislação'}, {'span': 'RHC 41.179/SP', 'entity': 'Jurisprudência'}, {'span': 'FELIX FISCHER', 'entity': 'Pessoa'}, {'span': 'QUINTA TURMA', 'entity': 'Organização'}, {'span': '09/06/2015', 'entity': 'Tempo'}, {'span': '19/06/2015', 'entity': 'Tempo'}, {'span': 'HC 210.022/SP', 'entity': 'Jurisprudência'}, {'span': 'SEBASTIÃO REIS JÚNIOR', 'entity': 'Pessoa'}, {'span': 'SEXTA TURMA', 'entity': 'Organização'}, {'span': '21/08/2014', 'entity': 'Tempo'}, {'span': '05/09/2014', 'entity': 'Tempo'}]'
+
+Example #8: (TJMG - Apelação Cível 1.0024.13.330164-8/001, Relator (a): Des. (a) Aparecida Grossi, 16ª CÂMARA CÍVEL, julgamento em 06/10/0017, publicação da súmula em 11/10/2017) EMENTA: DIREITO PROCESSUAL CIVIL.
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0024.13.330164-8/001', 'entity': 'Jurisprudência'}, {'span': 'Aparecida Grossi', 'entity': 'Pessoa'}, {'span': '16ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '06/10/0017', 'entity': 'Tempo'}, {'span': '11/10/2017', 'entity': 'Tempo'}]'
+
+Example #9: A decisão impugnada merece confirmação, na medida em que a jurisprudência deste Superior Tribunal de Justiça ja sedimentou no sentido de que a ausência de intimação do Ministério Público, por si só, não gera nulidade do julgado, a não ser que se constate `` efetivo prejuízo para as partes ou para apuração ou para apuração da verdade substancial da controvérsia jurídica, à luz do princípio pas de nullités sans grief '' (AgRg em RESp n.º 426.672/RJ, Ministro Herman Benjamin, Publicado em 05/06/2014), hipótese inocorrente no caso dos autos.
+Expected output: 'entities: [{'span': 'Superior Tribunal de Justiça', 'entity': 'Organização'}, {'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'AgRg em RESp n.º 426.672/RJ', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': '05/06/2014', 'entity': 'Tempo'}]'
+
+Example #10: ART. 535, II DO CPC.
+Expected output: 'entities: [{'span': 'ART. 535, II DO CPC', 'entity': 'Legislação'}]'
+

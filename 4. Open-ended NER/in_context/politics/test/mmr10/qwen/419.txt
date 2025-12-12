@@ -1,0 +1,30 @@
+Example #1: After two failed attempts, New Democratic Party candidate Olivia Chow (wife of NDP leader Jack Layton), was elected in the 2006 Canadian federal election, representing the riding of Trinity - Spadina, and the Bloc Québécois had an ethnic Chinese candidate, May Chiu, running in the riding of LaSalle - Émard against Liberal Party of Canada leader Paul Martin during the 2006 election.
+Expected output: 'entities: [{'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Olivia Chow', 'entity': 'Politician'}, {'span': 'NDP', 'entity': 'Political Party'}, {'span': 'Jack Layton', 'entity': 'Politician'}, {'span': '2006 Canadian federal election', 'entity': 'Election'}, {'span': 'Trinity - Spadina', 'entity': 'Location'}, {'span': 'Bloc Québécois', 'entity': 'Political Party'}, {'span': 'May Chiu', 'entity': 'Politician'}, {'span': 'LaSalle - Émard', 'entity': 'Location'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'Paul Martin', 'entity': 'Politician'}, {'span': '2006 election', 'entity': 'Election'}]'
+
+Example #2: Social conservatives often felt that they were being sidelined by officials in the Progressive Conservative Party of Canada and its leadership of so-called Red Tories for the last half of the twentieth century and therefore many eventually made their political home with parties such as the Social Credit Party of Canada and the Reform Party of Canada.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Red Tories', 'entity': 'Misc'}, {'span': 'Social Credit Party of Canada', 'entity': 'Political Party'}, {'span': 'Reform Party of Canada', 'entity': 'Political Party'}]'
+
+Example #3: The January 1910 United Kingdom general election and December 1910 United Kingdom general election elections in 1910 destroyed the large Liberal majority, meaning they relied on the Irish Parliamentary Party to maintain a government.
+Expected output: 'entities: [{'span': 'January 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'December 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}]'
+
+Example #4: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #5: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #6: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #7: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #8: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #9: The Republicans gained the upper hand in the campaign, as Cleveland's campaign was poorly managed by Calvin S. Brice and William H. Barnum, whereas Harrison had engaged more aggressive fundraisers and tacticians in Matthew Quay and John Wanamaker.
+Expected output: 'entities: [{'span': 'Republicans', 'entity': 'Misc'}, {'span': 'Calvin S. Brice', 'entity': 'Politician'}, {'span': 'William H. Barnum', 'entity': 'Politician'}, {'span': 'Matthew Quay', 'entity': 'Politician'}, {'span': 'John Wanamaker', 'entity': 'Politician'}]'
+
+Example #10: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+

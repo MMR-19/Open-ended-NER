@@ -1,0 +1,15 @@
+Example #1: On 26 February 1987, A Hard Day's Night was officially released on compact disc in mono, along with Please Please Me, With the Beatles, and Beatles for Sale.
+Expected output: 'entities: [{'span': "Hard Day's Night", 'entity': 'Album'}, {'span': 'Please Please Me', 'entity': 'Album'}, {'span': 'With the Beatles', 'entity': 'Album'}, {'span': 'Beatles for Sale', 'entity': 'Album'}]'
+
+Example #2: For Mirrors, instead of working with previous producers Sandy Pearlman (who instead went on to manage Black Sabbath) and Murray Krugman, Blue Öyster Cult chose Tom Werman, who had worked with acts such as Cheap Trick and Ted Nugent.
+Expected output: 'entities: [{'span': 'Mirrors', 'entity': 'Album'}, {'span': 'Sandy Pearlman', 'entity': 'Person'}, {'span': 'Black Sabbath', 'entity': 'Band'}, {'span': 'Murray Krugman', 'entity': 'Person'}, {'span': 'Blue Öyster Cult', 'entity': 'Band'}, {'span': 'Tom Werman', 'entity': 'Person'}, {'span': 'Cheap Trick', 'entity': 'Band'}, {'span': 'Ted Nugent', 'entity': 'Musical Artist'}]'
+
+Example #3: Parton received nominations for Drama Desk Award for Outstanding Music and Drama Desk Award for Outstanding Lyrics, as well as a nomination for Tony Award for Best Original Score.
+Expected output: 'entities: [{'span': 'Parton', 'entity': 'Musical Artist'}, {'span': 'Drama Desk Award for Outstanding Music', 'entity': 'Award'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #4: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #5: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+

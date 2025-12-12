@@ -1,0 +1,60 @@
+Example #1: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #2: Johnson ran for governor three times: in 1947 Mississippi gubernatorial election, 1951 Mississippi gubernatorial election, and 1955 Mississippi gubernatorial election, but was unsuccessful.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': '1947 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1951 Mississippi gubernatorial election', 'entity': 'Election'}, {'span': '1955 Mississippi gubernatorial election', 'entity': 'Election'}]'
+
+Example #3: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #4: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #5: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #6: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+
+Example #7: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #8: He was appointed to the Committee and started to appoint allies to him, among them Edvard Kardelj, Milovan Đilas, Aleksandar Ranković and Boris Kidrič.
+Expected output: 'entities: [{'span': 'Edvard Kardelj', 'entity': 'Politician'}, {'span': 'Milovan Đilas', 'entity': 'Politician'}, {'span': 'Aleksandar Ranković', 'entity': 'Politician'}, {'span': 'Boris Kidrič', 'entity': 'Politician'}]'
+
+Example #9: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #10: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #11: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #12: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #13: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #14: After narrowly losing the 1969 Australian federal election, Whitlam led Labor to victory at the 1972 election after 23 years of continuous Liberal Party of Australia - National Party of Australia Coalition Government.
+Expected output: 'entities: [{'span': '1969 Australian federal election', 'entity': 'Election'}, {'span': 'Whitlam', 'entity': 'Politician'}, {'span': 'Labor', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+
+Example #15: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+
+Example #16: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #17: Isaac Butt (6 September 1813 - 5 May 1879), was an Irish barrister, politician, Member of Parliament (M.P.) in the House of Commons of the United Kingdom, and the founder and first leader of a number of Irish nationalist parties and organisations, including the Irish Metropolitan Conservative Society in 1836, the Home Government Association in 1870 and in 1873 the Home Rule League.
+Expected output: 'entities: [{'span': 'Isaac Butt', 'entity': 'Politician'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'House of Commons of the United Kingdom', 'entity': 'Organisation'}, {'span': 'Irish nationalist', 'entity': 'Misc'}, {'span': 'Irish Metropolitan Conservative Society', 'entity': 'Political Party'}, {'span': 'Home Government Association', 'entity': 'Political Party'}, {'span': 'Home Rule League', 'entity': 'Political Party'}]'
+
+Example #18: He was also the Member of Parliament for Upper Bann from 1990 Upper Bann by-election to 2005 United Kingdom general election in Northern Ireland and the Member of the Legislative Assembly (MLA) for Upper Bann from 1998 to 2007 Northern Ireland Assembly election.
+Expected output: 'entities: [{'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'Upper Bann', 'entity': 'Organisation'}, {'span': '1990 Upper Bann by-election', 'entity': 'Election'}, {'span': '2005 United Kingdom general election in Northern Ireland', 'entity': 'Election'}, {'span': 'Legislative Assembly', 'entity': 'Organisation'}, {'span': 'MLA', 'entity': 'Organisation'}, {'span': '2007 Northern Ireland Assembly election', 'entity': 'Election'}]'
+
+Example #19: After two failed attempts, New Democratic Party candidate Olivia Chow (wife of NDP leader Jack Layton), was elected in the 2006 Canadian federal election, representing the riding of Trinity - Spadina, and the Bloc Québécois had an ethnic Chinese candidate, May Chiu, running in the riding of LaSalle - Émard against Liberal Party of Canada leader Paul Martin during the 2006 election.
+Expected output: 'entities: [{'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Olivia Chow', 'entity': 'Politician'}, {'span': 'NDP', 'entity': 'Political Party'}, {'span': 'Jack Layton', 'entity': 'Politician'}, {'span': '2006 Canadian federal election', 'entity': 'Election'}, {'span': 'Trinity - Spadina', 'entity': 'Location'}, {'span': 'Bloc Québécois', 'entity': 'Political Party'}, {'span': 'May Chiu', 'entity': 'Politician'}, {'span': 'LaSalle - Émard', 'entity': 'Location'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'Paul Martin', 'entity': 'Politician'}, {'span': '2006 election', 'entity': 'Election'}]'
+
+Example #20: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+

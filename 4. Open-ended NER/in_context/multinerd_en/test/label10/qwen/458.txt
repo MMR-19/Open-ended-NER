@@ -1,0 +1,30 @@
+Example #1: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #2: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #3: Billions of people are killed in World War III, and most of the surviving males are rendered sterile.
+Expected output: 'entities: [{'span': 'World War III', 'entity': 'Event'}, {'span': 'sterile', 'entity': 'Disease'}]'
+
+Example #4: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+
+Example #5: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+
+Example #6: The symbol for 2 Pallas, the spear of Pallas Athena, was invented by Baron Franz Xaver von Zach, who organized a group of twenty-four astronomers to search for a planet between the orbits of Mars and Jupiter.
+Expected output: 'entities: [{'span': '2 Pallas', 'entity': 'Celestial Body'}, {'span': 'Pallas Athena', 'entity': 'Mythological entity'}, {'span': 'Franz Xaver von Zach', 'entity': 'Person'}, {'span': 'Mars', 'entity': 'Celestial Body'}, {'span': 'Jupiter', 'entity': 'Celestial Body'}]'
+
+Example #7: There are also several reports in the medical literature of deaths from " D. stramonium " and " D. ferox " intoxication.
+Expected output: 'entities: [{'span': 'D. stramonium', 'entity': 'Plant'}, {'span': 'D. ferox', 'entity': 'Animal'}, {'span': 'intoxication', 'entity': 'Disease'}]'
+
+Example #8: In sourdough bread-making, cold decreases the activity of wild yeast relative to the " Lactobacilli ", which produce flavoring products such as lactic acid and acetic acid.
+Expected output: 'entities: [{'span': 'Lactobacilli', 'entity': 'Biological entity'}]'
+
+Example #9: While the therapy cannot undo the effects of a person's first puberty, developing secondary sex characteristics associated with a different sex can relieve some or all of the distress and discomfort associated with gender dysphoria, and can help the person to " pass " or be seen as the gender they identify with.
+Expected output: 'entities: [{'span': 'puberty', 'entity': 'Time'}, {'span': 'gender dysphoria', 'entity': 'Disease'}]'
+
+Example #10: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+

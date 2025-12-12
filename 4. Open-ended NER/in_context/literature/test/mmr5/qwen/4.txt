@@ -1,0 +1,15 @@
+Example #1: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #2: Augustine was born in the year 354 AD in the municipium of Thagaste (now Souk Ahras, Algeria) in the Roman province of Numidia.
+Expected output: 'entities: [{'span': 'Augustine', 'entity': 'Person'}, {'span': 'Thagaste', 'entity': 'Location'}, {'span': 'Souk Ahras', 'entity': 'Location'}, {'span': 'Algeria', 'entity': 'Country'}, {'span': 'Roman province of Numidia', 'entity': 'Location'}]'
+
+Example #3: In 1985, Spielberg released The Color Purple, an adaptation of Alice Walker ' s Pulitzer Prize -winning The Color Purple, about a generation of empowered African-American women during depression-era America.
+Expected output: 'entities: [{'span': 'Spielberg', 'entity': 'Writer'}, {'span': 'The Color Purple', 'entity': 'Book'}, {'span': 'Alice Walker', 'entity': 'Writer'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'African-American', 'entity': 'Misc'}, {'span': 'America', 'entity': 'Country'}]'
+
+Example #4: These include the Universal Natural History and Theory of the Heavens (1755), the Critique of Practical Reason (1788), the Metaphysics of Morals (1797), the Critique of Judgment (1790), which looks at aesthetics and teleology, and Religion within the Bounds of Bare Reason (1793).
+Expected output: 'entities: [{'span': 'Universal Natural History and Theory of the Heavens', 'entity': 'Book'}, {'span': 'Critique of Practical Reason', 'entity': 'Book'}, {'span': 'Metaphysics of Morals', 'entity': 'Book'}, {'span': 'Critique of Judgment', 'entity': 'Book'}, {'span': 'Religion within the Bounds of Bare Reason', 'entity': 'Book'}]'
+
+Example #5: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+

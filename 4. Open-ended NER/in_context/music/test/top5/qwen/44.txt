@@ -1,0 +1,15 @@
+Example #1: The stadium also hosted such events as 1973 Summer Universiade, 1986 Goodwill Games and 2013 World Championships in Athletics.
+Expected output: 'entities: [{'span': '1973 Summer Universiade', 'entity': 'Event'}, {'span': '1986 Goodwill Games', 'entity': 'Event'}, {'span': '2013 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #2: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #3: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+
+Example #4: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #5: This was followed by a series of small, intimate gigs at UK venues such as Liverpool's The Cavern Club, London's Mean Fiddler, and Glasgow's Barrowland Ballroom.
+Expected output: 'entities: [{'span': 'UK', 'entity': 'Country'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'The Cavern Club', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Mean Fiddler', 'entity': 'Location'}, {'span': 'Glasgow', 'entity': 'Location'}, {'span': 'Barrowland Ballroom', 'entity': 'Location'}]'
+

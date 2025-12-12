@@ -1,0 +1,60 @@
+Example #1: Enquanto a maioria das pessoas tende a pensar em colônias humanas em Marte ou na Lua, alguns argumentam que as primeiras colônias extraterrestres serão em órbita (como na Estação Espacial Internacional).
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Corpo celeste'}, {'span': 'Lua', 'entity': 'Corpo celeste'}, {'span': 'Estação Espacial Internacional', 'entity': 'Instrumento'}]'
+
+Example #2: Consiste numa sopa rica de peixe com muito alho e tomate (s).
+Expected output: 'entities: [{'span': 'sopa', 'entity': 'Comida'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}]'
+
+Example #3: A atriz negou uma entrevista a um dos jornalistas do programa e foi ao seu Twitter reclamar do acontecido.
+Expected output: 'entities: [{'span': 'Twitter', 'entity': 'Instrumento'}]'
+
+Example #4: Ocasionalmente, o planeta invertia o seu caminho no céu para a direcção contrária; para depois voltar a deslocar-se normalmente; esta característica tornava a procura do planeta muito difícil e era contrária à teoria vigente de que a Terra (Gaia) era o centro do universo.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}]'
+
+Example #5: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #6: Uma frase atribuída a Epimênides de Creta " Nele vivemos, nos movemos e temos nosso ser " e citada por Paulo de Tarso em Atos 17:28 é famosa como exemplo de possível panenteísmo.
+Expected output: 'entities: [{'span': 'Epimênides de Creta', 'entity': 'Pessoa'}, {'span': 'Paulo de Tarso', 'entity': 'Entidade mitológica'}, {'span': 'Atos', 'entity': 'Média'}]'
+
+Example #7: O Hughes H-4 Hercules é a aeronave de maior envergadura até hoje construída, porém apenas efectuou um único voo durante a sua existência.
+Expected output: 'entities: [{'span': 'Hughes H-4 Hercules', 'entity': 'Veículo'}]'
+
+Example #8: Mais recentemente, o Telescópio Espacial Hubble detectou que essa atmosfera era composta de oxigénio, tal como a atmosfera encontrada em Europa.
+Expected output: 'entities: [{'span': 'Telescópio Espacial Hubble', 'entity': 'Instrumento'}, {'span': 'Europa', 'entity': 'Corpo celeste'}]'
+
+Example #9: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #10: A canção é tema do seriado Smallville e ficou popular em 2001 após os Ataques de 11 de setembro em Nova Iorque.
+Expected output: 'entities: [{'span': 'Smallville', 'entity': 'Média'}, {'span': '2001', 'entity': 'Tempo'}, {'span': 'Ataques de 11 de setembro', 'entity': 'Evento'}, {'span': 'Nova Iorque', 'entity': 'Localização'}]'
+
+Example #11: Alguns membros da tropa podiam adquirir fuzis de assalto AK-47 tão somente preenchendo um formulário de demanda.
+Expected output: 'entities: [{'span': 'AK-47', 'entity': 'Instrumento'}]'
+
+Example #12: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #13: O filme relata a suspeita de Garry Kasparov, de ter a IBM trapaceado na partida subseguinte, após o duelo entre o campeão mundial de xadrez e o supercomputador Deep Blue, para fins de autopromoção.
+Expected output: 'entities: [{'span': 'Garry Kasparov', 'entity': 'Pessoa'}, {'span': 'IBM', 'entity': 'Organização'}, {'span': 'Deep Blue', 'entity': 'Instrumento'}]'
+
+Example #14: A primeira tentativa de descrição completa do canal, e não lago, a aparecer na Europa deve-se a um relato feito em 1639 pelo padre jesuíta Cristóbal de Acuña, o qual circulou pelos meios cultos, em particular pelos ligados à Companhia de Jesus, merecendo porém pouca credibilidade já que uma hipotética bifurcação fluvial de tal magnitude parecia insustentável pluviometricamente e era considerada improvável e antinatural.
+Expected output: 'entities: [{'span': 'Europa', 'entity': 'Localização'}, {'span': '1639', 'entity': 'Tempo'}, {'span': 'Cristóbal de Acuña', 'entity': 'Pessoa'}, {'span': 'Companhia de Jesus', 'entity': 'Organização'}]'
+
+Example #15: Embora o sabor forte e azedo seja uma característica definidora da espécie, ele é mais fraco ou mesmo ausente em alguns cogumelos mais velhos, o que não é incomum para uma espécie do gênero " Lactarius ".
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #16: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #17: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #18: Uma imagem que retornou da Voyager era a Terra, a 6,4 bilhões de quilômetros de distância, mostrando-a como um " pálido ponto azul " na granulada imagem.
+Expected output: 'entities: [{'span': 'Voyager', 'entity': 'Instrumento'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #19: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+
+Example #20: O estabilizador vertical foi redesenhado, foram colocados sistemas eletrônicos no " cockpit ", e a cabine de passageiros teve melhorias semelhantes as instaladas no Boeing 757.
+Expected output: 'entities: [{'span': 'Boeing 757', 'entity': 'Veículo'}]'
+

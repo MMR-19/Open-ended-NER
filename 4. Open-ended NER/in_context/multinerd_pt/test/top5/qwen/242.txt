@@ -1,0 +1,15 @@
+Example #1: As ervas verdes incluem tradicionalmente manjericão, coentro, sálvia, estragão, manjerona, hortelã, salsa, folhas de feno-grego, hissopo e endro; os grãos e outros condimentos secos incluem paprika, malagueta, pimenta preta, louro, sementes de coentro e de feno grego e pétalas de cravo-de-burro.
+Expected output: 'entities: [{'span': 'ervas', 'entity': 'Comida'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'estragão', 'entity': 'Planta'}, {'span': 'manjerona', 'entity': 'Planta'}, {'span': 'feno-grego', 'entity': 'Comida'}, {'span': 'endro', 'entity': 'Planta'}, {'span': 'cravo-de-burro', 'entity': 'Animal'}]'
+
+Example #2: Trata-se do Nissan Leaf.
+Expected output: 'entities: [{'span': 'Nissan Leaf', 'entity': 'Veículo'}]'
+
+Example #3: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #4: Pode ser preparado com camarões frescos inteiros, ou secos e moídos, com peixe, com bacalhau ou com carne de frango, acompanhados de arroz.
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'peixe', 'entity': 'Animal'}, {'span': 'bacalhau', 'entity': 'Comida'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'arroz', 'entity': 'Planta'}]'
+
+Example #5: Outras ervas e especiarias comuns incluem manjericão, tomilho e sementes de erva-doce.
+Expected output: 'entities: [{'span': 'manjericão', 'entity': 'Animal'}, {'span': 'tomilho', 'entity': 'Planta'}, {'span': 'erva-doce', 'entity': 'Comida'}]'
+

@@ -1,0 +1,15 @@
+Example #1: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #2: Sobremais, a apelante anexou à exordial planilha de atualização do débito (p. 35), a qual estabelece de forma detalhada os valores que compõem a pretensão inicial, 1 TJRJ, Agravo de Instrumento n.º 00113878520158190000, Relator: Fernando Cerqueira Chagas, Data de Julgamento: 22/05/2015, Décima Primeira Câmara Cível, Data de Publicação: 26/05/2015; REsp 944.352/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, julgado em 29/11/2007, DJ 07/02/2008.
+Expected output: 'entities: [{'span': 'TJRJ', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento n.º 00113878520158190000', 'entity': 'Jurisprudência'}, {'span': 'Fernando Cerqueira Chagas', 'entity': 'Pessoa'}, {'span': '22/05/2015', 'entity': 'Tempo'}, {'span': 'Décima Primeira Câmara Cível', 'entity': 'Organização'}, {'span': '26/05/2015', 'entity': 'Tempo'}, {'span': 'REsp 944.352/SP', 'entity': 'Jurisprudência'}, {'span': 'Arnaldo Esteves Lima', 'entity': 'Pessoa'}, {'span': 'Quinta Turma', 'entity': 'Organização'}, {'span': '29/11/2007', 'entity': 'Tempo'}, {'span': '07/02/2008', 'entity': 'Tempo'}]'
+
+Example #3: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #4: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #5: Ademais, a leitura que se faz do referido carimbo é simples: o documento acostado aos autos - 2ª via de conta de energia elétrica, unidade consumidora nº 54140007-2, endereço: Rua 91, Lt. 14 Q. 1711, Saquarema/RJ - fl. 93) é cópia fiel da que fora apresentada pelo Acusado.
+Expected output: 'entities: [{'span': 'Saquarema/RJ', 'entity': 'Localização'}]'
+

@@ -1,0 +1,30 @@
+Example #1: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #4: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #5: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #6: While the region is best known for its convict history it is now the key area in the battle to save the Tasmanian devil from extinction from a new type of contagious cancer called devil facial tumour disease (DFTD).
+Expected output: 'entities: [{'span': 'Tasmanian devil', 'entity': 'Animal'}, {'span': 'contagious cancer', 'entity': 'Disease'}, {'span': 'devil facial tumour disease', 'entity': 'Disease'}]'
+
+Example #7: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #8: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #9: The hyphae of the common mold (" Rhizopus ") are capable of producing both mitotic as well as meiotic spores.
+Expected output: 'entities: [{'span': 'Rhizopus', 'entity': 'Biological entity'}]'
+
+Example #10: The transmission is the eight-speed ZF 8HP automatic transmission.
+Expected output: 'entities: [{'span': 'ZF 8HP', 'entity': 'Instrument'}]'
+

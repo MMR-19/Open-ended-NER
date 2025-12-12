@@ -1,0 +1,15 @@
+Example #1: The title of the story refers to a bedtime poem recited in the narrative entitled There Will Come Soft Rains, an actual poem by Sara Teasdale originally published in 1920.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'There Will Come Soft Rains', 'entity': 'Poem'}, {'span': 'Sara Teasdale', 'entity': 'Writer'}]'
+
+Example #2: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #3: A late (1890s) reference to the urban legend of the murderous barber can be found in the poem by the Australian bush poet Banjo Paterson - The Man from Ironbark.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'Australian', 'entity': 'Misc'}, {'span': 'Banjo Paterson', 'entity': 'Person'}, {'span': 'The Man from Ironbark', 'entity': 'Poem'}]'
+
+Example #4: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #5: Another Gruelle family friends was Hoosier poet James Whitcomb Riley, whose poems The Elf-Child, later titled Little Orphant Annie! -- Orphant is correct -- not the comic strip-- (1885), and The Raggedy Man (1888), eventually formed the name for John Gruelle's iconic Raggedy Ann character.
+Expected output: 'entities: [{'span': 'Gruelle', 'entity': 'Person'}, {'span': 'Hoosier poet', 'entity': 'Writer'}, {'span': 'James Whitcomb Riley', 'entity': 'Writer'}, {'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'The Elf-Child', 'entity': 'Poem'}, {'span': 'Little Orphant Annie', 'entity': 'Poem'}, {'span': 'The Raggedy Man', 'entity': 'Poem'}, {'span': 'John Gruelle', 'entity': 'Person'}, {'span': 'Raggedy Ann', 'entity': 'Misc'}]'
+

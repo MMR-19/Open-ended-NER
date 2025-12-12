@@ -1,0 +1,30 @@
+Example #1: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #2: For example, although the typical recipe calls for beef and pork, the Kiev variant uses mutton or lamb as well as beef, while in the Poltava region, the stock for borscht is cooked on poultry meat, that is, chicken, duck or goose.
+Expected output: 'entities: [{'span': 'Kiev', 'entity': 'Location'}, {'span': 'mutton or lamb', 'entity': 'Food'}, {'span': 'Poltava', 'entity': 'Location'}, {'span': 'goose', 'entity': 'Animal'}]'
+
+Example #3: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #4: In Brazil, they are often filled with heart of palm, cheese, ham, ground meat, chicken or shrimp.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Location'}, {'span': 'cheese', 'entity': 'Food'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'ground meat', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'shrimp', 'entity': 'Animal'}]'
+
+Example #5: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #6: " obložený chlebíček ") - slant ways cut slice of " veka " (long narrow white bread) spread with butter and / or with various combinations of mayonnaise salads and hard boiled egg, cheese, ham, salami, smoked fish (salmon or sprats or pickled herring), tomato, pickled cucumber, lettuce, raw onion or other vegetable, etc.
+Expected output: 'entities: [{'span': 'veka', 'entity': 'Food'}, {'span': 'butter', 'entity': 'Food'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'cheese', 'entity': 'Food'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'salami', 'entity': 'Food'}, {'span': 'salmon', 'entity': 'Animal'}, {'span': 'sprats', 'entity': 'Food'}, {'span': 'herring', 'entity': 'Animal'}, {'span': 'tomato', 'entity': 'Plant'}, {'span': 'pickled cucumber', 'entity': 'Food'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'onion', 'entity': 'Plant'}]'
+
+Example #7: A " spider roll " is a type of " makizushi " sushi that includes breaded or battered soft-shell crab and other ingredients such as cucumber, avocado, daikon sprouts or lettuce, and spicy mayonnaise, rolled inside nori and sushi rice.
+Expected output: 'entities: [{'span': 'sushi', 'entity': 'Food'}, {'span': 'soft-shell crab', 'entity': 'Animal'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'daikon', 'entity': 'Plant'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'nori', 'entity': 'Food'}]'
+
+Example #8: In Tabriz, they are made of almond flour, sugar, egg white, vanilla, margarine and pistachio.
+Expected output: 'entities: [{'span': 'Tabriz', 'entity': 'Location'}, {'span': 'egg white', 'entity': 'Food'}, {'span': 'vanilla', 'entity': 'Food'}, {'span': 'margarine', 'entity': 'Food'}, {'span': 'pistachio', 'entity': 'Plant'}]'
+
+Example #9: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #10: In Brittany, a " galette " (or " galette bretonne ") is a large thin pancake made of buckwheat flour, often cooked on one side only.
+Expected output: 'entities: [{'span': 'Brittany', 'entity': 'Location'}, {'span': 'galette', 'entity': 'Food'}, {'span': 'buckwheat', 'entity': 'Plant'}]'
+

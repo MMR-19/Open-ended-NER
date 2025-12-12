@@ -1,0 +1,30 @@
+Example #1: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #2: A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts. 557, caput, e § 1º-A, do Código de Processo Civil, e 3º do Código de Processo Penal - CPP, que permitem ao relator dar provimento, negar seguimento a recurso manifestamente inadmissível, improcedente, prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal, do Supremo Tribunal Federal, ou de Tribunal Superior '' (AgRg nos EREsp 1.387.000/PR, Rel. Min. Ericson Maranho (Desembargador convocado do TJ/SP), Terceira Seção, DJe 17/06/2015).
+Expected output: 'entities: [{'span': 'arts. 557, caput, e § 1º-A, do Código de Processo Civil', 'entity': 'Legislação'}, {'span': '3º do Código de Processo Penal - CPP', 'entity': 'Legislação'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'AgRg nos EREsp 1.387.000/PR', 'entity': 'Jurisprudência'}, {'span': 'Ericson Maranho', 'entity': 'Pessoa'}, {'span': 'TJ/SP', 'entity': 'Organização'}, {'span': '17/06/2015', 'entity': 'Tempo'}]'
+
+Example #3: `` (RR - 10258-45.2013.5.04.0271 Data de Julgamento: 20/05/2015, Rel. Desembargador Convocado: Cláudio Armando Couce de Menezes, 2ª Turma, DEJT 29/05/2015) Nesse contexto, o Tribunal Regional, ao adotar o entendimento de que devida a aplicação da multa do artigo 467 da CLT, aparentemente, violou o artigo 467 da CLT.
+Expected output: 'entities: [{'span': 'RR - 10258-45.2013.5.04.0271', 'entity': 'Jurisprudência'}, {'span': '20/05/2015', 'entity': 'Tempo'}, {'span': 'Cláudio Armando Couce de Menezes', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '29/05/2015', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #4: `` (RR - 10258-45.2013.5.04.0271 Data de Julgamento: 20/05/2015, Rel. Desembargador Convocado: Cláudio Armando Couce de Menezes, 2ª Turma, DEJT 29/05/2015) Nesse contexto, o Tribunal Regional, ao adotar o entendimento de que devida a aplicação da multa do artigo 467 da CLT, aparentemente, violou o artigo 467 da CLT.
+Expected output: 'entities: [{'span': 'RR - 10258-45.2013.5.04.0271', 'entity': 'Jurisprudência'}, {'span': '20/05/2015', 'entity': 'Tempo'}, {'span': 'Cláudio Armando Couce de Menezes', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '29/05/2015', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #5: De fato, ao suscitar o dissídio jurisprudencial, a parte se limitou a colacionar ementas de julgados dos TREs de Minas Gerais e do Ceará.
+Expected output: 'entities: [{'span': 'Minas Gerais', 'entity': 'Localização'}, {'span': 'Ceará', 'entity': 'Localização'}]'
+
+Example #6: (AgRg no REsp 1251201/MG, Rel. Ministro NAPOLEÃO NUNES MAIA FILHO, PRIMEIRA TURMA, julgado em 18/10/2016, DJe 27/10/2016).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1251201/MG', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '18/10/2016', 'entity': 'Tempo'}, {'span': '27/10/2016', 'entity': 'Tempo'}]'
+
+Example #7: (AgRg no REsp 1280274/MG, Rel. Ministro LUIS FELIPE SALOMÃO, QUARTA TURMA, julgado em 23/06/2015, DJe 30/06/2015).
+Expected output: 'entities: [{'span': 'AgRg no REsp 1280274/MG', 'entity': 'Jurisprudência'}, {'span': 'LUIS FELIPE SALOMÃO', 'entity': 'Pessoa'}, {'span': 'QUARTA TURMA', 'entity': 'Organização'}, {'span': '23/06/2015', 'entity': 'Tempo'}, {'span': '30/06/2015', 'entity': 'Tempo'}]'
+
+Example #8: (Processo: RR - 42900-91.2005.5.17.0141, data de julgamento: 7/8/2013, Relator Ministro: José Roberto Freire Pimenta, 2ª Turma, data de publicação: DEJT 16/8/2013) '' MULTA DO ART. 477, § 8.º, DA CLT.
+Expected output: 'entities: [{'span': 'RR - 42900-91.2005.5.17.0141', 'entity': 'Jurisprudência'}, {'span': '7/8/2013', 'entity': 'Tempo'}, {'span': 'José Roberto Freire Pimenta', 'entity': 'Pessoa'}, {'span': '2ª Turma', 'entity': 'Organização'}, {'span': '16/8/2013', 'entity': 'Tempo'}, {'span': 'ART. 477, § 8.º, DA CLT', 'entity': 'Legislação'}]'
+
+Example #9: O Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental, visto que a Lei n. 9.269/1996 não traz nenhuma exigência nesse sentido (Tribunal Pleno, Inq 3693, Relatora Min. Cármen Lúcia, julgado em 10/04/2014).
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'Lei n. 9.269/1996', 'entity': 'Legislação'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': 'Inq 3693', 'entity': 'Jurisprudência'}, {'span': 'Cármen Lúcia', 'entity': 'Pessoa'}, {'span': '10/04/2014', 'entity': 'Tempo'}]'
+
+Example #10: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+

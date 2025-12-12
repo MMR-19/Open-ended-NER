@@ -1,0 +1,30 @@
+Example #1: (RR - 95000-97.2001.5.09.0654, Relator Ministro: Horácio Raymundo de Senna Pires, data de julgamento: 16/12/2009, 3ª Turma, data de publicação: 5/2/2010) Permanece incólume, portanto, o artigo 477 da CLT, e os arestos trazidos ao confronto se mostram superados, nos termos do artigo 896, § 7º, da CLT e da Súmula nº 333 do TST.
+Expected output: 'entities: [{'span': 'RR - 95000-97.2001.5.09.0654', 'entity': 'Jurisprudência'}, {'span': 'Horácio Raymundo de Senna Pires', 'entity': 'Pessoa'}, {'span': '16/12/2009', 'entity': 'Tempo'}, {'span': '3ª Turma', 'entity': 'Organização'}, {'span': '5/2/2010', 'entity': 'Tempo'}, {'span': 'artigo 477 da CLT', 'entity': 'Legislação'}, {'span': 'artigo 896, § 7º, da CLT', 'entity': 'Legislação'}, {'span': 'Súmula nº 333 do TST', 'entity': 'Jurisprudência'}]'
+
+Example #2: - Lei de autoria parlamentar que dispõe sobre o uso e ocupação do solo no Distrito Federal padece de vício formal de iniciativa, uma vez que só poderia ter sido proposta por projeto de lei de iniciativa privativa do Chefe do Poder Executivo.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: Recebo a apelação nos termos do art. 1.012 do NCPC.
+Expected output: 'entities: [{'span': 'art. 1.012 do NCPC', 'entity': 'Legislação'}]'
+
+Example #4: TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028 - CLASSE 32 - PARAÍBA DO SUL - RIO DE JANEIRO Relator: Ministro Tarcisio Vieira de Carvalho Neto Recorrentes: Marcio de Abreu Oliveira e outro Advogados: Carlos Henrique Pereira Rego Brinckmann - OAB: 1022641RJ e outro Recorrido: Ministério Público Eleitoral ELEIÇÕES 2016.
+Expected output: 'entities: [{'span': 'TRIBUNAL SUPERIOR ELEITORAL', 'entity': 'Organização'}, {'span': 'RECURSO ESPECIAL ELEITORAL N° 59-08.2016.6.19.0028', 'entity': 'Jurisprudência'}, {'span': 'PARAÍBA DO SUL - RIO DE JANEIRO', 'entity': 'Localização'}, {'span': 'Tarcisio Vieira de Carvalho', 'entity': 'Pessoa'}, {'span': 'Marcio de Abreu Oliveira', 'entity': 'Pessoa'}, {'span': 'Carlos Henrique Pereira Rego Brinckmann', 'entity': 'Pessoa'}, {'span': 'OAB', 'entity': 'Organização'}, {'span': 'Ministério Público Eleitoral', 'entity': 'Organização'}, {'span': '2016', 'entity': 'Tempo'}]'
+
+Example #5: Reconhece que ter interpretado o dispositivo da Lei de Licitações e Contratos acima mencionado de forma equivocada, mas aponta que o relator, no parágrafo 20 do seu voto, teria compreendido o equívoco na interpretação do pregoeiro e reconhecido sua boa-fé.
+Expected output: 'entities: [{'span': 'Lei de Licitações e Contratos', 'entity': 'Legislação'}]'
+
+Example #6: 106, II, '' b '', 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda, PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial.
+Expected output: 'entities: [{'span': "106, II, '' b '', 151 e 172 do CTN", 'entity': 'Legislação'}, {'span': 'CONFAZ', 'entity': 'Organização'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #7: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #8: A decisão impugnada merece confirmação, na medida em que a jurisprudência deste Superior Tribunal de Justiça ja sedimentou no sentido de que a ausência de intimação do Ministério Público, por si só, não gera nulidade do julgado, a não ser que se constate `` efetivo prejuízo para as partes ou para apuração ou para apuração da verdade substancial da controvérsia jurídica, à luz do princípio pas de nullités sans grief '' (AgRg em RESp n.º 426.672/RJ, Ministro Herman Benjamin, Publicado em 05/06/2014), hipótese inocorrente no caso dos autos.
+Expected output: 'entities: [{'span': 'Superior Tribunal de Justiça', 'entity': 'Organização'}, {'span': 'Ministério Público', 'entity': 'Organização'}, {'span': 'AgRg em RESp n.º 426.672/RJ', 'entity': 'Jurisprudência'}, {'span': 'Herman Benjamin', 'entity': 'Pessoa'}, {'span': '05/06/2014', 'entity': 'Tempo'}]'
+
+Example #9: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #10: NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES (RELATOR): A decisão ora atacada não merece reparos, uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL, no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal, inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal (HC 133.091-AgR, Rel. Min. CELSO DE MELLO, Tribunal Pleno, DJe de 5/8/2016).
+Expected output: 'entities: [{'span': 'HABEAS CORPUS 151.914', 'entity': 'Jurisprudência'}, {'span': 'ESPÍRITO SANTO', 'entity': 'Localização'}, {'span': 'ALEXANDRE DE MORAES', 'entity': 'Pessoa'}, {'span': 'SUPREMO TRIBUNAL FEDERAL', 'entity': 'Organização'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'HC 133.091-AgR', 'entity': 'Jurisprudência'}, {'span': 'CELSO DE MELLO', 'entity': 'Pessoa'}, {'span': 'Tribunal Pleno', 'entity': 'Organização'}, {'span': '5/8/2016', 'entity': 'Tempo'}]'
+

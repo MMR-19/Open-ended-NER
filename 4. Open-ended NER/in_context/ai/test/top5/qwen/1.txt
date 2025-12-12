@@ -1,0 +1,15 @@
+Example #1: One of the metrics used in NIST ' s annual Document Understanding Conferences, in which research groups submit their systems for both summarization and translation tasks, is the ROUGE metric (Recall-Oriented Understudy for Gisting Evaluation, In Advances of Neural Information Processing Systems (NIPS), Montreal, Canada, December - 2014.
+Expected output: 'entities: [{'span': "NIST ' s annual Document Understanding Conferences", 'entity': 'Conference'}, {'span': 'summarization', 'entity': 'Task'}, {'span': 'translation tasks', 'entity': 'Task'}, {'span': 'ROUGE metric', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}, {'span': 'Neural Information Processing Systems', 'entity': 'Conference'}, {'span': 'NIPS', 'entity': 'Conference'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Canada', 'entity': 'Country'}]'
+
+Example #2: Speech recognition and speech synthesis deal with how spoken language can be understood or created using computers.
+Expected output: 'entities: [{'span': 'Speech recognition', 'entity': 'Task'}, {'span': 'speech synthesis', 'entity': 'Task'}]'
+
+Example #3: The most common way is using the so-called ROUGE (Recall-Oriented Understudy for Gisting Evaluation) measure.
+Expected output: 'entities: [{'span': 'ROUGE', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}]'
+
+Example #4: Eurisko made many interesting discoveries and enjoyed significant acclaim, with his paper Heuretics: Theoretical and Study of Heuristic Rules winning the Best Paper award at the 1982 Association for the Advancement of Artificial Intelligence.
+Expected output: 'entities: [{'span': 'Eurisko', 'entity': 'Product'}, {'span': 'Heuretics: Theoretical and Study of Heuristic Rules', 'entity': 'Misc'}, {'span': 'Best Paper award', 'entity': 'Misc'}, {'span': '1982 Association for the Advancement of Artificial Intelligence', 'entity': 'Conference'}]'
+
+Example #5: Lafferty received numerous awards, including two Test-of-Time awards at the International Conference on Machine Learning 2011 & 2012,
+Expected output: 'entities: [{'span': 'Lafferty', 'entity': 'Researcher'}, {'span': 'Test-of-Time awards', 'entity': 'Misc'}, {'span': 'International Conference on Machine Learning 2011 & 2012', 'entity': 'Conference'}]'
+

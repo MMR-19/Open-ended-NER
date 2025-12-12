@@ -1,0 +1,60 @@
+Example #1: Ubiquitin ligase are proteins that assist in tagging their targets with an epigenetic mark known as ubiquitin.
+Expected output: 'entities: [{'span': 'Ubiquitin ligase', 'entity': 'Enzyme'}, {'span': 'ubiquitin', 'entity': 'Protein'}]'
+
+Example #2: H3K9me3 is an epigenetic modification to the DNA packaging protein Histone H3.
+Expected output: 'entities: [{'span': 'H3K9me3', 'entity': 'Misc'}, {'span': 'epigenetic modification', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #3: Histone deacetylase (HDACs) are a class of enzymes that remove acetyl groups from histones.
+Expected output: 'entities: [{'span': 'Histone deacetylase', 'entity': 'Enzyme'}, {'span': 'HDACs', 'entity': 'Enzyme'}, {'span': 'acetyl groups', 'entity': 'Chemical Compound'}, {'span': 'histones', 'entity': 'Protein'}]'
+
+Example #4: For example, H3K14 and H4K12 acetylation was found to be decreased, as well as general acetylation across histones H2B and Histone H3.
+Expected output: 'entities: [{'span': 'H3K14', 'entity': 'Misc'}, {'span': 'H4K12 acetylation', 'entity': 'Misc'}, {'span': 'acetylation', 'entity': 'Misc'}, {'span': 'histones H2B', 'entity': 'Protein'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #5: Poly (ADP-ribosyl) ation is an immediate DNA damage-dependent post-translational modification of Histone and other nuclear proteins that contributes to the survival of injured proliferating cells.
+Expected output: 'entities: [{'span': 'Poly (ADP-ribosyl) ation', 'entity': 'Misc'}, {'span': 'DNA damage-dependent post-translational modification', 'entity': 'Misc'}, {'span': 'Histone', 'entity': 'Protein'}, {'span': 'nuclear proteins', 'entity': 'Protein'}]'
+
+Example #6: DNA methyltransferase is recruited to the site and adds methyl groups to the cytosine of the CpG dinucleotides.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'methyl groups', 'entity': 'Misc'}, {'span': 'cytosine', 'entity': 'Chemical Compound'}, {'span': 'CpG dinucleotides', 'entity': 'Misc'}]'
+
+Example #7: Several genes known to be affected by differential methylation are the CYP1A1 xenobiotic response element, Aryl hydrocarbon receptor repressor, and F2RL3.
+Expected output: 'entities: [{'span': 'CYP1A1', 'entity': 'Protein'}, {'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'F2RL3', 'entity': 'Misc'}]'
+
+Example #8: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #9: Human leukocyte antigen constitutes a group of cell surface antigens also known as the Major histocompatibility complex of humans.
+Expected output: 'entities: [{'span': 'Human leukocyte antigen', 'entity': 'Misc'}, {'span': 'Major histocompatibility complex', 'entity': 'Misc'}]'
+
+Example #10: He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase
+Expected output: 'entities: [{'span': 'enzymology', 'entity': 'Discipline'}, {'span': 'Rieske protein non-heme iron oxygenases', 'entity': 'Enzyme'}, {'span': 'Alcohol dehydrogenase', 'entity': 'Enzyme'}]'
+
+Example #11: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #12: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #13: They found seven universally clustered pathways: glycolysis, aminoacyl-tRNA biosynthesis, ATP synthase, DNA polymerase, hexachlorocyclohexane degradation, cyanoamino acid metabolism, and photosynthesis (Adenosine diphosphate synthesis in non plant species).
+Expected output: 'entities: [{'span': 'aminoacyl-tRNA', 'entity': 'Chemical Compound'}, {'span': 'ATP synthase', 'entity': 'Enzyme'}, {'span': 'DNA polymerase', 'entity': 'Enzyme'}, {'span': 'hexachlorocyclohexane', 'entity': 'Chemical Compound'}, {'span': 'cyanoamino acid', 'entity': 'Chemical Compound'}, {'span': 'photosynthesis', 'entity': 'Misc'}, {'span': 'Adenosine diphosphate', 'entity': 'Chemical Compound'}]'
+
+Example #14: The planets have been designated Pr0201 b and Pr0211 b.
+Expected output: 'entities: [{'span': 'Pr0201 b', 'entity': 'Astronomical Object'}, {'span': 'Pr0211 b', 'entity': 'Astronomical Object'}]'
+
+Example #15: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #16: He was the first to identify the biological role of the non-structural NS1 Influenza Protein during infection, the first to describe and provide a molecular analysis of a viral-encoded Interferon antagonist among negative strand RNA viruses, and the first to demonstrate that the M1 protein of the influenza virus determines its morphology.
+Expected output: 'entities: [{'span': 'NS1 Influenza Protein', 'entity': 'Protein'}, {'span': 'RNA', 'entity': 'Misc'}, {'span': 'M1 protein', 'entity': 'Protein'}]'
+
+Example #17: Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.
+Expected output: 'entities: [{'span': 'silencing mechanisms', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'transcription factor', 'entity': 'Misc'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #18: The keratins include the following proteins of which KRT23, KRT24, KRT25, KRT26, KRT27, KRT28, KRT31, KRT32, KRT33A, KRT33B, KRT34, KRT35, KRT36, KRT37, KRT38, KRT39, KRT40, KRT71, KRT72, KRT73, KRT74, KRT75, KRT76, KRT77, KRT78, KRT79, KRT8, KRT80, KRT81, KRT82, KRT83, KRT84, KRT85 and KRT86 have been used to describe keratins past 20.
+Expected output: 'entities: [{'span': 'keratins', 'entity': 'Misc'}, {'span': 'KRT23', 'entity': 'Protein'}, {'span': 'KRT24', 'entity': 'Protein'}, {'span': 'KRT25', 'entity': 'Protein'}, {'span': 'KRT26', 'entity': 'Protein'}, {'span': 'KRT27', 'entity': 'Protein'}, {'span': 'KRT28', 'entity': 'Protein'}, {'span': 'KRT31', 'entity': 'Protein'}, {'span': 'KRT32', 'entity': 'Protein'}, {'span': 'KRT33A', 'entity': 'Protein'}, {'span': 'KRT33B', 'entity': 'Protein'}, {'span': 'KRT34', 'entity': 'Protein'}, {'span': 'KRT35', 'entity': 'Protein'}, {'span': 'KRT36', 'entity': 'Protein'}, {'span': 'KRT37', 'entity': 'Protein'}, {'span': 'KRT38', 'entity': 'Protein'}, {'span': 'KRT39', 'entity': 'Protein'}, {'span': 'KRT40', 'entity': 'Protein'}, {'span': 'KRT71', 'entity': 'Protein'}, {'span': 'KRT72', 'entity': 'Protein'}, {'span': 'KRT73', 'entity': 'Protein'}, {'span': 'KRT74', 'entity': 'Protein'}, {'span': 'KRT75', 'entity': 'Protein'}, {'span': 'KRT76', 'entity': 'Protein'}, {'span': 'KRT77', 'entity': 'Protein'}, {'span': 'KRT78', 'entity': 'Protein'}, {'span': 'KRT79', 'entity': 'Protein'}, {'span': 'KRT8', 'entity': 'Protein'}, {'span': 'KRT80', 'entity': 'Protein'}, {'span': 'KRT81', 'entity': 'Protein'}, {'span': 'KRT82', 'entity': 'Protein'}, {'span': 'KRT83', 'entity': 'Protein'}, {'span': 'KRT84', 'entity': 'Protein'}, {'span': 'KRT85', 'entity': 'Protein'}, {'span': 'KRT86', 'entity': 'Protein'}]'
+
+Example #19: The kinetic isotope effect (KIE) of ribulose-1,5-bisphosphate carboxylase oxygenase (RuBisCO) is the isotopic fractionation associated solely with the step in the Calvin-Benson Cycle where a molecule of carbon dioxide (
+Expected output: 'entities: [{'span': 'kinetic isotope effect', 'entity': 'Misc'}, {'span': 'KIE', 'entity': 'Misc'}, {'span': 'ribulose-1,5-bisphosphate carboxylase oxygenase', 'entity': 'Enzyme'}, {'span': 'RuBisCO', 'entity': 'Enzyme'}, {'span': 'isotopic fractionation', 'entity': 'Misc'}, {'span': 'Calvin-Benson Cycle', 'entity': 'Misc'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}]'
+
+Example #20: In dimension 2 (i.e. surface s), the mapping class group is a finitely presented group generated by Dehn twist s (Max Dehn, W. B. R. Lickorish, Allen Hatcher).
+Expected output: 'entities: [{'span': 'finitely presented group', 'entity': 'Misc'}, {'span': 'Dehn twist', 'entity': 'Misc'}, {'span': 'Max Dehn', 'entity': 'Scientist'}, {'span': 'W. B. R. Lickorish', 'entity': 'Scientist'}, {'span': 'Allen Hatcher', 'entity': 'Scientist'}]'
+

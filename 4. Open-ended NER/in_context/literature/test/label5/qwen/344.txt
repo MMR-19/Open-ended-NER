@@ -1,0 +1,15 @@
+Example #1: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #2: At the 47th Berlin International Film Festival in 1997, DiCaprio won the Silver Bear for Best Actor and Luhrmann won the Alfred Bauer Prize.
+Expected output: 'entities: [{'span': '47th Berlin International Film Festival', 'entity': 'Event'}, {'span': 'DiCaprio', 'entity': 'Person'}, {'span': 'Silver Bear for Best Actor', 'entity': 'Award'}, {'span': 'Luhrmann', 'entity': 'Person'}, {'span': 'Alfred Bauer Prize', 'entity': 'Award'}]'
+
+Example #3: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+
+Example #4: The story of a powerful (fairy) woman who takes a lover on condition that he obey a particular prohibition is common in medieval poetry: the French lais of Desiré, Graelent, and Guingamor, and Chrétien de Troyes ' s romance Yvain, the Knight of the Lion, all share similar plot elements.
+Expected output: 'entities: [{'span': 'French', 'entity': 'Misc'}, {'span': 'lais', 'entity': 'Literary Genre'}, {'span': 'Desiré', 'entity': 'Poem'}, {'span': 'Graelent', 'entity': 'Poem'}, {'span': 'Guingamor', 'entity': 'Poem'}, {'span': 'Chrétien de Troyes', 'entity': 'Writer'}, {'span': 'Yvain, the Knight of the Lion', 'entity': 'Poem'}]'
+
+Example #5: For example, Russ criticized Ursula K. Le Guin ' s 1969 The Left Hand of Darkness, which won both the 1969 Nebula Award for Best Novel and 1970 Hugo Award for Best Novel awards for best science fiction novel, arguing that gender discriminations that permeated science fiction by men showed up just as frequently in science fiction by women.
+Expected output: 'entities: [{'span': 'Russ', 'entity': 'Writer'}, {'span': 'Ursula K. Le Guin', 'entity': 'Writer'}, {'span': 'The Left Hand of Darkness', 'entity': 'Book'}, {'span': 'Nebula Award for Best Novel', 'entity': 'Award'}, {'span': 'Hugo Award for Best Novel', 'entity': 'Award'}, {'span': 'science fiction', 'entity': 'Literary Genre'}]'
+

@@ -1,0 +1,60 @@
+Example #1: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #2: Flexner had studied European schools such as Heidelberg University, All Souls College, Oxford, and the Collège de France -and he wanted to establish a similar advanced research center in the United States.
+Expected output: 'entities: [{'span': 'Flexner', 'entity': 'Person'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'University'}, {'span': 'All Souls College, Oxford', 'entity': 'University'}, {'span': 'Collège de France', 'entity': 'University'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #3: CoRoT-7b and CoRoT-9b have already been observed by Spitzer.
+Expected output: 'entities: [{'span': 'CoRoT-7b', 'entity': 'Astronomical Object'}, {'span': 'CoRoT-9b', 'entity': 'Astronomical Object'}, {'span': 'Spitzer', 'entity': 'Misc'}]'
+
+Example #4: Examples are 5-O-Methylgenistein, 5-O-Methylmyricetin or 5-O-methylquercetin, also known as azaleatin.
+Expected output: 'entities: [{'span': '5-O-Methylgenistein', 'entity': 'Chemical Compound'}, {'span': '5-O-Methylmyricetin', 'entity': 'Chemical Compound'}, {'span': '5-O-methylquercetin', 'entity': 'Chemical Compound'}, {'span': 'azaleatin', 'entity': 'Chemical Compound'}]'
+
+Example #5: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #6: The area is also served by two hospitals with Merlin Park University Hospital to the west and the private Galway Clinic to the east of Doughiska.
+Expected output: 'entities: [{'span': 'Merlin Park University Hospital', 'entity': 'Organisation'}, {'span': 'Galway Clinic', 'entity': 'Organisation'}, {'span': 'Doughiska', 'entity': 'Location'}]'
+
+Example #7: Such celebrities as Hermann von Helmholtz, Gustav Kirchhoff, William Thomson (Lord Kelvin), the Siemens brothers, and the Marquis of Salisbury visited the small Norwegian exhibit booth and watched with amazement as a system of pulsating spheres and similar devices appeared to reproduce well-known electric and magnetic phenomena.
+Expected output: 'entities: [{'span': 'Hermann von Helmholtz', 'entity': 'Scientist'}, {'span': 'Gustav Kirchhoff', 'entity': 'Scientist'}, {'span': 'William Thomson', 'entity': 'Scientist'}, {'span': 'Lord Kelvin', 'entity': 'Scientist'}, {'span': 'Siemens brothers', 'entity': 'Person'}, {'span': 'Marquis of Salisbury', 'entity': 'Person'}, {'span': 'Norwegian', 'entity': 'Misc'}]'
+
+Example #8: The author of the Dictionary of Minor Planet Names, Lutz D. Schmadel, contacted Italian astronomer Paul G. Comba, who confirmed that this naming was another clear instance of homage to him.
+Expected output: 'entities: [{'span': 'Dictionary of Minor Planet Names', 'entity': 'Misc'}, {'span': 'Lutz D. Schmadel', 'entity': 'Person'}, {'span': 'Italian', 'entity': 'Misc'}, {'span': 'Paul G. Comba', 'entity': 'Scientist'}]'
+
+Example #9: Weisskopf was awarded the Max Planck Medal in 1956 and the Prix mondial Cino Del Duca in 1972, the National Medal of Science (1980), the Wolf Prize (1981) and the Public Welfare Medal from the National Academy of Sciences (1991).
+Expected output: 'entities: [{'span': 'Weisskopf', 'entity': 'Scientist'}, {'span': 'Max Planck Medal', 'entity': 'Award'}, {'span': 'Prix mondial Cino Del Duca', 'entity': 'Award'}, {'span': 'National Medal of Science', 'entity': 'Award'}, {'span': 'Wolf Prize', 'entity': 'Award'}, {'span': 'Public Welfare Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences', 'entity': 'Organisation'}]'
+
+Example #10: The telescope is owned by Liverpool John Moores University, and operated by the Astrophysics Research Institute with operational funding partly from Science and Technology Facilities Council.
+Expected output: 'entities: [{'span': 'Liverpool John Moores University', 'entity': 'University'}, {'span': 'Astrophysics Research Institute', 'entity': 'Organisation'}, {'span': 'Science and Technology Facilities Council', 'entity': 'Organisation'}]'
+
+Example #11: The journal establishment was similar to the starting of The Astrophysical Journal and The Astronomical Journal by George Ellery Hale.
+Expected output: 'entities: [{'span': 'The Astrophysical Journal', 'entity': 'Academic Journal'}, {'span': 'The Astronomical Journal', 'entity': 'Academic Journal'}, {'span': 'George Ellery Hale', 'entity': 'Scientist'}]'
+
+Example #12: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #13: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #14: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #15: 6239 Minos (1989 QF) is an Apollo asteroid classified as a PHA discovered on 31 August 1989 by Carolyn S. Shoemaker and Eugene Merle Shoemaker at Palomar.
+Expected output: 'entities: [{'span': '6239 Minos', 'entity': 'Astronomical Object'}, {'span': '1989 QF', 'entity': 'Astronomical Object'}, {'span': 'Apollo asteroid', 'entity': 'Astronomical Object'}, {'span': 'PHA', 'entity': 'Misc'}, {'span': 'Carolyn S. Shoemaker', 'entity': 'Scientist'}, {'span': 'Eugene Merle Shoemaker', 'entity': 'Scientist'}, {'span': 'Palomar', 'entity': 'Location'}]'
+
+Example #16: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #17: Parsons ' obituary listed him as a member of the National Defense Industrial Association, the American Institute of Aeronautics and Astronautics, the American Chemical Society, the American Association for the Advancement of Science.
+Expected output: 'entities: [{'span': 'Parsons', 'entity': 'Scientist'}, {'span': 'National Defense Industrial Association', 'entity': 'Organisation'}, {'span': 'American Institute of Aeronautics and Astronautics', 'entity': 'Organisation'}, {'span': 'American Chemical Society', 'entity': 'Organisation'}, {'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}]'
+
+Example #18: The Big Bend Country is part of the larger Columbia Country, which includes the Columbia Valley and upper Arrow Lakes.
+Expected output: 'entities: [{'span': 'Big Bend Country', 'entity': 'Location'}, {'span': 'Columbia Country', 'entity': 'Location'}, {'span': 'Columbia Valley', 'entity': 'Location'}, {'span': 'Arrow Lakes', 'entity': 'Location'}]'
+
+Example #19: The other side of the road houses several historical buildings and institutions including the M. A. Chidambaram Stadium, the University of Madras, the Presidency College, Vivekananda House, Queen Mary's College, Inspector General of Police Headquarters, All India Radio - Chennai, Dr. Annie Besant Park.
+Expected output: 'entities: [{'span': 'M. A. Chidambaram Stadium', 'entity': 'Location'}, {'span': 'University of Madras', 'entity': 'University'}, {'span': 'Presidency College', 'entity': 'University'}, {'span': 'Vivekananda House', 'entity': 'Location'}, {'span': "Queen Mary's College", 'entity': 'University'}, {'span': 'Inspector General of Police Headquarters', 'entity': 'Organisation'}, {'span': 'All India Radio', 'entity': 'Organisation'}, {'span': 'Chennai', 'entity': 'Location'}, {'span': 'Dr. Annie Besant Park', 'entity': 'Location'}]'
+
+Example #20: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+

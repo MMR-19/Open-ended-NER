@@ -1,0 +1,15 @@
+Example #1: Sopa de lacassá e porco afumado, " min chi " (carne picada), balichão, " tacho " (ensopado de carne e legumes), arroz gordo, cabidela de pato, camarões grandes recheados, chetnim de bacalhau, inhame " chau-chau " com " lap-yôck ", galinha assada, caldo de raiz de lótus e caril de galinha são algumas das comidas macaenses populares.
+Expected output: 'entities: [{'span': 'min chi', 'entity': 'Comida'}, {'span': 'pato', 'entity': 'Animal'}, {'span': 'camarões', 'entity': 'Animal'}, {'span': 'chetnim de bacalhau', 'entity': 'Comida'}, {'span': 'inhame', 'entity': 'Planta'}, {'span': 'lótus', 'entity': 'Planta'}, {'span': 'caril', 'entity': 'Comida'}]'
+
+Example #2: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #3: De consistência cremosa, é feito com camarões refogados em temperos verdes e leite de coco, misturados no purê de macaxeira e mais azeite de dendê (opcional), gengibre e camarões secos (opcionais).
+Expected output: 'entities: [{'span': 'camarões', 'entity': 'Animal'}, {'span': 'azeite de dendê', 'entity': 'Comida'}, {'span': 'gengibre', 'entity': 'Planta'}]'
+
+Example #4: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #5: A economia local é baseada na agricultura: algodão, caju, feijão, e na pecuária: bovinos e avícola.
+Expected output: 'entities: [{'span': 'caju', 'entity': 'Comida'}, {'span': 'feijão', 'entity': 'Planta'}, {'span': 'avícola', 'entity': 'Animal'}]'
+

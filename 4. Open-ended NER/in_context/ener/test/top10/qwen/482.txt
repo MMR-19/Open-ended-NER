@@ -1,0 +1,30 @@
+Example #1: This Information Statement has been filed with the Securities and Exchange Commission and is being furnished, pursuant to Section 14C of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), to the holders (the “ Stockholders ”) of the common stock, par value $ .0001 per share (the “ Common Stock ”), of Comcam, Inc., a Delaware Corporation (the “ Company ”), to notify such Stockholders that on or about March 5, 2010, the Company received written consents in lieu of a meeting of Stockholders from holders of 683,952,500 shares representing approximately 91 % of the 744,640,134 shares of the total issued and outstanding shares of voting stock of the Company (the “ Majority Stockholders ”) to authorize 1-for-85 reverse stock split (pro-rata reduction of outstanding shares) of our issued and outstanding shares of Common Stock (the “ Reverse Stock Split ”).
+Expected output: 'entities: [{'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Comcam, Inc.', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}]'
+
+Example #2: To be considered for presentation at the annual meeting of shareholders for the Funds to be held in 2011, shareholder proposals submitted pursuant to Rule 14a-8 of the 1934 Act must be received at the offices of that Fund, 333 West Wacker Drive, Chicago, Illinois 60606, not later than January 4, 2011.
+Expected output: 'entities: [{'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'West Wacker Drive', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Illinois', 'entity': 'Location'}]'
+
+Example #3: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #4: Important Notice Regarding the Availability of Proxy Materials for the Shareholder Meeting To Be Held on April 6, 2010:
+Expected output: 'entities: []'
+
+Example #5: Matters to Be Voted on by Shareholders:
+Expected output: 'entities: []'
+
+Example #6: Those persons who were shareholders of record at the close of business on Monday, February 8, 2010 will be entitled to one vote for each share held and a proportionate fractional vote for each fractional vote held.
+Expected output: 'entities: []'
+
+Example #7: Shareholders of a Fund who execute proxies may revoke them at any time before they are voted by filing with that Fund a written notice of revocation, by delivering a duly executed proxy bearing a later date, or by attending the Annual Meeting and voting in person.
+Expected output: 'entities: []'
+
+Example #8: The persons named in the enclosed proxy may also move for an adjournment of any Annual Meeting to permit further solicitation of proxies with respect to the proposal if they determine that adjournment and further solicitation is reasonable and in the best interests of the shareholders.
+Expected output: 'entities: []'
+
+Example #9: Shareholders of record at the close of business on February 8, 2010 are entitled to notice of and to vote at the Annual Meeting.
+Expected output: 'entities: []'
+
+Example #10: Pursuant to the requirements of the Securities Act of 1933, the registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-3 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized in the City of Seattle, State of Washington, on April 1, 2011.
+Expected output: 'entities: [{'span': 'Securities Act of 1933', 'entity': 'Legislation/Act'}, {'span': 'Form S-3', 'entity': 'Miscellaneous'}, {'span': 'City of Seattle', 'entity': 'Location'}, {'span': 'State of Washington', 'entity': 'Location'}]'
+

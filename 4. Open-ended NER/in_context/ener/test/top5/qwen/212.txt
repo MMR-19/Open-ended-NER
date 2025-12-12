@@ -1,0 +1,15 @@
+Example #1: Kelly to timely file said forms 3 and 4 was inadvertent.
+Expected output: 'entities: [{'span': 'Kelly', 'entity': 'Person'}, {'span': 'forms 3 and 4', 'entity': 'Miscellaneous'}]'
+
+Example #2: On April 27, 2009, Chase USA filed a motion with the Ninth Circuit for rehearing en banc.
+Expected output: 'entities: [{'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Ninth Circuit', 'entity': 'Court'}]'
+
+Example #3: On March 16, 2009, the Ninth Circuit issued an opinion in which it found that Chase USA violated the Truth-in-Lending Act for failing to provide contemporaneous notice of the interest rate increases.
+Expected output: 'entities: [{'span': 'Ninth Circuit', 'entity': 'Court'}, {'span': 'Chase USA', 'entity': 'Business'}, {'span': 'Truth-in-Lending Act', 'entity': 'Legislation/Act'}]'
+
+Example #4: To request a separate copy of an annual report or proxy statement, or for instructions as to how to request a separate copy of such documents or as to how to request a single copy if multiple copies of such documents are received, shareholders should contact the applicable Fund at the address and phone number set forth above.
+Expected output: 'entities: []'
+
+Example #5: On September 14, 2009, Chase USA filed a certiorari petition with the United States Supreme Court seeking review of the decision.
+Expected output: 'entities: [{'span': 'Chase USA', 'entity': 'Business'}, {'span': 'United States Supreme Court', 'entity': 'Court'}]'
+

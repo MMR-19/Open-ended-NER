@@ -1,0 +1,60 @@
+Example #1: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #2: Nihonium was first reported to have been created in 2003 by a Russian-American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan.
+Expected output: 'entities: [{'span': 'Nihonium', 'entity': 'Chemical Element'}, {'span': 'Russian-American', 'entity': 'Misc'}, {'span': 'Joint Institute for Nuclear Research', 'entity': 'Organisation'}, {'span': 'JINR', 'entity': 'Organisation'}, {'span': 'Dubna', 'entity': 'Location'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'Riken', 'entity': 'Organisation'}, {'span': 'Wakō', 'entity': 'Location'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #3: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #4: He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase
+Expected output: 'entities: [{'span': 'enzymology', 'entity': 'Discipline'}, {'span': 'Rieske protein non-heme iron oxygenases', 'entity': 'Enzyme'}, {'span': 'Alcohol dehydrogenase', 'entity': 'Enzyme'}]'
+
+Example #5: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+
+Example #6: On migrating to the blood stream, nitrogen dioxide poisoning results in an irreversible inhibition of the Acetylcholinesterase which may lead to muscular paralysis, convulsions, bronchoconstriction, the narrowing of the airways in the lungs (bronchi and bronchioles) and death by asphyxia tion.
+Expected output: 'entities: [{'span': 'blood stream', 'entity': 'Misc'}, {'span': 'nitrogen dioxide', 'entity': 'Chemical Compound'}, {'span': 'Acetylcholinesterase', 'entity': 'Enzyme'}, {'span': 'muscular paralysis', 'entity': 'Misc'}, {'span': 'convulsions', 'entity': 'Misc'}, {'span': 'bronchoconstriction', 'entity': 'Misc'}, {'span': 'bronchi', 'entity': 'Misc'}, {'span': 'bronchioles', 'entity': 'Misc'}, {'span': 'asphyxia tion', 'entity': 'Misc'}]'
+
+Example #7: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #8: Still within the same PCR tube, overnight IVT reaction is assembled, including standard IVT buffer, NTPs, T7 RNA polymerase, RNase inhibitor, DMSO, etc.
+Expected output: 'entities: [{'span': 'PCR tube', 'entity': 'Misc'}, {'span': 'IVT reaction', 'entity': 'Misc'}, {'span': 'IVT buffer', 'entity': 'Misc'}, {'span': 'NTPs', 'entity': 'Misc'}, {'span': 'T7 RNA polymerase', 'entity': 'Enzyme'}, {'span': 'RNase inhibitor', 'entity': 'Protein'}, {'span': 'DMSO', 'entity': 'Chemical Compound'}]'
+
+Example #9: Spermidine synthase uses putrescine and S-Adenosylmethioninamine (decarboxylated S-Adenosyl methionine) to produce spermidine.
+Expected output: 'entities: [{'span': 'Spermidine synthase', 'entity': 'Enzyme'}, {'span': 'putrescine', 'entity': 'Chemical Compound'}, {'span': 'S-Adenosylmethioninamine', 'entity': 'Chemical Compound'}, {'span': 'decarboxylated', 'entity': 'Misc'}, {'span': 'S-Adenosyl methionine', 'entity': 'Chemical Compound'}, {'span': 'spermidine', 'entity': 'Chemical Compound'}]'
+
+Example #10: Previously, americium was named after a continent as its analogue europium, and curium honored scientists Marie Curie and Pierre Curie as the lanthanide above it, gadolinium, was named after the explorer of the rare earth element s Johan Gadolin.
+Expected output: 'entities: [{'span': 'americium', 'entity': 'Chemical Element'}, {'span': 'europium', 'entity': 'Chemical Element'}, {'span': 'curium', 'entity': 'Chemical Element'}, {'span': 'Marie Curie', 'entity': 'Scientist'}, {'span': 'Pierre Curie', 'entity': 'Scientist'}, {'span': 'gadolinium', 'entity': 'Chemical Element'}, {'span': 'Johan Gadolin', 'entity': 'Scientist'}]'
+
+Example #11: The Scottish chemist Joseph Black (the first experimental chemist) and the Dutchman J.B. van Helmont discovered carbon dioxide, or what Black called ' fixed air ' in 1754; Henry Cavendish discovered hydrogen and elucidated its properties and Joseph Priestley and, independently, Carl Wilhelm Scheele isolated pure oxygen.
+Expected output: 'entities: [{'span': 'Scottish', 'entity': 'Misc'}, {'span': 'Joseph Black', 'entity': 'Scientist'}, {'span': 'Dutchman', 'entity': 'Misc'}, {'span': 'J.B. van Helmont', 'entity': 'Scientist'}, {'span': 'carbon dioxide', 'entity': 'Chemical Compound'}, {'span': 'Henry Cavendish', 'entity': 'Scientist'}, {'span': 'hydrogen', 'entity': 'Chemical Compound'}, {'span': 'Joseph Priestley', 'entity': 'Scientist'}, {'span': 'Carl Wilhelm Scheele', 'entity': 'Scientist'}, {'span': 'oxygen', 'entity': 'Chemical Compound'}]'
+
+Example #12: This mechanism is evident on Jupiter and Saturn and on brown dwarf s whose central temperatures are not high enough to undergo nuclear fusion.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #13: The gaseous outer atmospheres of Jupiter and Saturn transition smoothly into the dense liquid interior, while the nature of the transition zones of Neptune and Uranus is unknown.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #14: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #15: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #16: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #17: Other toxins with a similar mode of action to ATX-II are Scorpion toxin.
+Expected output: 'entities: [{'span': 'ATX-II', 'entity': 'Chemical Compound'}, {'span': 'Scorpion toxin', 'entity': 'Protein'}]'
+
+Example #18: Under the influence of the new empirical methods propounded by Sir Francis Bacon and others, a group of chemists at Oxford, Robert Boyle, Robert Hooke and John Mayow began to reshape the old alchemical traditions into a scientific discipline.
+Expected output: 'entities: [{'span': 'Francis Bacon', 'entity': 'Scientist'}, {'span': 'Oxford', 'entity': 'University'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Robert Hooke', 'entity': 'Scientist'}, {'span': 'John Mayow', 'entity': 'Scientist'}]'
+
+Example #19: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #20: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+

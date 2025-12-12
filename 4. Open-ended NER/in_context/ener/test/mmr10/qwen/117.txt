@@ -1,0 +1,30 @@
+Example #1: The undersigned hereby makes, constitutes and appoints each of Michael J. Berner and Douglas W. Ambrose as the undersigned ’ s true and lawful authorized representative, attorney-in-fact and agent, each with the power individually to execute for and on behalf of the undersigned and to file with and deliver to the United States Securities and Exchange Commission and any other authority or party required or entitled to receive the same: (a) any Forms 3, 4 and 5, and any amendments thereto, in accordance with Section 16 (a) of the Securities Exchange Act of 1934, as amended (the “ 1934 Act ”), and the rules promulgated thereunder; and (b) any Schedule 13D or Schedule 13G, and any amendments thereto, on behalf of the undersigned in accordance with Section 13 of the 1934 Act and the rules promulgated thereunder.
+Expected output: 'entities: [{'span': 'Michael J. Berner', 'entity': 'Person'}, {'span': 'Douglas W. Ambrose', 'entity': 'Person'}, {'span': 'United States Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Forms 3, 4 and 5', 'entity': 'Miscellaneous'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': '1934 Act', 'entity': 'Legislation/Act'}, {'span': 'Schedule 13D', 'entity': 'Miscellaneous'}, {'span': 'Schedule 13G', 'entity': 'Miscellaneous'}]'
+
+Example #2: This Information Statement has been filed with the Securities and Exchange Commission and is being furnished, pursuant to Section 14C of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), to the holders (the “ Stockholders ”) of the common stock, par value $ .0001 per share (the “ Common Stock ”), of Comcam, Inc., a Delaware Corporation (the “ Company ”), to notify such Stockholders that on or about March 5, 2010, the Company received written consents in lieu of a meeting of Stockholders from holders of 683,952,500 shares representing approximately 91 % of the 744,640,134 shares of the total issued and outstanding shares of voting stock of the Company (the “ Majority Stockholders ”) to authorize 1-for-85 reverse stock split (pro-rata reduction of outstanding shares) of our issued and outstanding shares of Common Stock (the “ Reverse Stock Split ”).
+Expected output: 'entities: [{'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'Securities Exchange Act of 1934', 'entity': 'Legislation/Act'}, {'span': 'Exchange Act', 'entity': 'Legislation/Act'}, {'span': 'Comcam, Inc.', 'entity': 'Business'}, {'span': 'Delaware', 'entity': 'Location'}]'
+
+Example #3: about March 1, 2010.
+Expected output: 'entities: []'
+
+Example #4: by the New York District Court (the “ Bear Final Judgment ”).
+Expected output: 'entities: [{'span': 'New York District Court', 'entity': 'Court'}, {'span': 'Bear Final Judgment', 'entity': 'Miscellaneous'}]'
+
+Example #5: A shareholder wishing to provide notice in the manner prescribed by Rule 14a-4 (c) (1) of a proposal submitted outside of the process of Rule 14a-8 for the annual meeting must, pursuant to each Fund s By-Laws, submit such written notice to the Fund not later than March 16, 2011 or prior to March 1, 2011.
+Expected output: 'entities: []'
+
+Example #6: In addition, the committee oversees matters of corporate governance, including the evaluation of Board performance and processes, and assignment and rotation of committee members, and the establishment of corporate governance guidelines and procedures, to the extent necessary or desirable.
+Expected output: 'entities: []'
+
+Example #7: The accompanying unaudited consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States of America (“ US GAAP ”) for interim financial information and with the instructions to Form 10-Q and Article 8-03 of Regulation S-X.
+Expected output: 'entities: [{'span': 'generally accepted accounting principles', 'entity': 'Legislation/Act'}, {'span': 'United States of America', 'entity': 'Location'}, {'span': 'US GAAP', 'entity': 'Legislation/Act'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Regulation S-X', 'entity': 'Legislation/Act'}]'
+
+Example #8: On September 14, 2009, Chase USA filed a certiorari petition with the United States Supreme Court seeking review of the decision.
+Expected output: 'entities: [{'span': 'Chase USA', 'entity': 'Business'}, {'span': 'United States Supreme Court', 'entity': 'Court'}]'
+
+Example #9: For the purpose of meeting the 30 % test, abstentions will be treated as shares voted and, for the purpose of meeting the 10 % test, abstentions will not be treated as shares voted against the item.
+Expected output: 'entities: []'
+
+Example #10: In connection with the Quarterly Report of Polonia Bancorp (the “ Company ”) on Form 10-Q for the quarter ended March 31, 2011 as filed with the Securities and Exchange Commission (the “ Report ”), the undersigned hereby certify, pursuant to 18 U.S.C. § 1350, as added by § 906 of the Sarbanes-Oxley Act of 2002, that:
+Expected output: 'entities: [{'span': 'Polonia Bancorp', 'entity': 'Business'}, {'span': 'Form 10-Q', 'entity': 'Miscellaneous'}, {'span': 'Securities and Exchange Commission', 'entity': 'Government'}, {'span': 'U.S.C.', 'entity': 'Legislation/Act'}, {'span': 'Sarbanes-Oxley Act of 2002', 'entity': 'Legislation/Act'}]'
+

@@ -1,0 +1,15 @@
+Example #1: DNA methyltransferase is recruited to the site and adds methyl groups to the cytosine of the CpG dinucleotides.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'methyl groups', 'entity': 'Misc'}, {'span': 'cytosine', 'entity': 'Chemical Compound'}, {'span': 'CpG dinucleotides', 'entity': 'Misc'}]'
+
+Example #2: Histone deacetylase (HDACs) are a class of enzymes that remove acetyl groups from histones.
+Expected output: 'entities: [{'span': 'Histone deacetylase', 'entity': 'Enzyme'}, {'span': 'HDACs', 'entity': 'Enzyme'}, {'span': 'acetyl groups', 'entity': 'Chemical Compound'}, {'span': 'histones', 'entity': 'Protein'}]'
+
+Example #3: Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.
+Expected output: 'entities: [{'span': 'silencing mechanisms', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'transcription factor', 'entity': 'Misc'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #4: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #5: H3K9me3 is an epigenetic modification to the DNA packaging protein Histone H3.
+Expected output: 'entities: [{'span': 'H3K9me3', 'entity': 'Misc'}, {'span': 'epigenetic modification', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+

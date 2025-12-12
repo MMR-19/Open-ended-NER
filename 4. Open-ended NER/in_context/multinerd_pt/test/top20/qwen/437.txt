@@ -1,0 +1,60 @@
+Example #1: O nome vem da deusa romana " Fauna ", deusa da terra e da fertilidade.
+Expected output: 'entities: [{'span': 'Fauna', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #2: É nomeado em relação ao deus grego Hermes.
+Expected output: 'entities: [{'span': 'Hermes', 'entity': 'Entidade mitológica'}]'
+
+Example #3: O seu nome deriva de Atlas, titã punido por Zeus a carregar eternamente a Terra em suas costas.
+Expected output: 'entities: [{'span': 'Atlas', 'entity': 'Entidade mitológica'}, {'span': 'Zeus', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #4: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #5: Este nome vai buscar a sua origem no deus Sin, deus da lua.
+Expected output: 'entities: [{'span': 'Sin', 'entity': 'Entidade mitológica'}, {'span': 'lua', 'entity': 'Corpo celeste'}]'
+
+Example #6: O termo " vandalismo " como sinônimo de espírito de destruição foi cunhado no final do século XVIII, em janeiro de 1794, por Henri Grégoire, bispo constitucional de Blois; ele cunhou o termo e o tornou comum através de uma série de relatórios para a Convenção, denunciando a destruição de artefatos culturais como monumentos, pinturas, livros que estavam sendo destruídos como símbolo de um ódio ao passado de feudalismo, " tirania da realeza " e " preconceito religioso ", durante o Reino do Terror.
+Expected output: 'entities: [{'span': 'Henri Grégoire', 'entity': 'Pessoa'}, {'span': 'Blois', 'entity': 'Localização'}, {'span': 'Convenção', 'entity': 'Média'}, {'span': 'Reino do Terror', 'entity': 'Tempo'}]'
+
+Example #7: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #8: Chama-se " hermafrodita " (do nome do deus grego Hermafrodito, filho de Hermes e de Afrodite – respectivamente representantes dos sexo masculino e feminino) um indivíduo que produz ambos gametas femininos e masculinos funcionais durante sua vida.
+Expected output: 'entities: [{'span': 'Hermafrodito', 'entity': 'Entidade mitológica'}, {'span': 'Hermes', 'entity': 'Entidade mitológica'}, {'span': 'Afrodite', 'entity': 'Entidade mitológica'}]'
+
+Example #9: O nome do fóssil encontrado é uma homenagem à música " Lucy in the Sky with Diamonds ", da banda britânica Beatles, que, segundo relatos, estaria tocando no momento das escavações e nas comemorações após a descoberta.
+Expected output: 'entities: [{'span': 'Lucy in the Sky with Diamonds', 'entity': 'Média'}, {'span': 'Beatles', 'entity': 'Organização'}]'
+
+Example #10: Descoberto pela sonda " Voyager 2 " em 1989, tomou o nome de Proteu, o deus do mar que mudava de forma na mitologia grega.
+Expected output: 'entities: [{'span': 'Voyager 2', 'entity': 'Instrumento'}, {'span': 'Proteu', 'entity': 'Entidade mitológica'}]'
+
+Example #11: Descoberto pela sonda " Voyager 2 " em 1989, tomou o nome de Proteu, o deus do mar que mudava de forma na mitologia grega.
+Expected output: 'entities: [{'span': 'Voyager 2', 'entity': 'Instrumento'}, {'span': 'Proteu', 'entity': 'Entidade mitológica'}]'
+
+Example #12: Os membros de Basidiomycota, vulgarmente chamados fungos de bastão ou basidiomicetes, produzem meiósporos chamados basidiósporos em estruturas chamadas basídios.
+Expected output: 'entities: [{'span': 'Basidiomycota', 'entity': 'Entidade biológica'}]'
+
+Example #13: As ervas verdes incluem tradicionalmente manjericão, coentro, sálvia, estragão, manjerona, hortelã, salsa, folhas de feno-grego, hissopo e endro; os grãos e outros condimentos secos incluem paprika, malagueta, pimenta preta, louro, sementes de coentro e de feno grego e pétalas de cravo-de-burro.
+Expected output: 'entities: [{'span': 'ervas', 'entity': 'Comida'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'estragão', 'entity': 'Planta'}, {'span': 'manjerona', 'entity': 'Planta'}, {'span': 'feno-grego', 'entity': 'Comida'}, {'span': 'endro', 'entity': 'Planta'}, {'span': 'cravo-de-burro', 'entity': 'Animal'}]'
+
+Example #14: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #15: Ela é a mãe de Thor e a personificação da Terra.
+Expected output: 'entities: [{'span': 'Thor', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #16: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #17: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #18: No entanto, este equilíbrio era prejudicado quando Izanagi, o primeiro rei dos deuses (equivalente a Urano, na mitologia grega) entrava em guerra contra sua mulher, Izanami (equivalente à Gaia ou Terra, na mitologia grega), pelos seus filhos.
+Expected output: 'entities: [{'span': 'Izanagi', 'entity': 'Entidade mitológica'}, {'span': 'Urano', 'entity': 'Entidade mitológica'}, {'span': 'Izanami', 'entity': 'Entidade mitológica'}, {'span': 'Gaia', 'entity': 'Entidade mitológica'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #19: E assim como todas as espécies do gênero " Lactarius ", o fungo forma micorrizas, uma associação simbiótica mutuamente benéfica com vários tipos de árvores.
+Expected output: 'entities: [{'span': 'Lactarius', 'entity': 'Entidade biológica'}]'
+
+Example #20: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+

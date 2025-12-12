@@ -1,0 +1,30 @@
+Example #1: This minor planet was named by the discoverer in memory of English astronomers Charles Mason (1728-1786) and Jeremiah Dixon (1733-1779), who observed the 1761 transit of Venus from the Cape of Good Hope.
+Expected output: 'entities: [{'span': 'minor planet', 'entity': 'Misc'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Charles Mason', 'entity': 'Scientist'}, {'span': 'Jeremiah Dixon', 'entity': 'Scientist'}, {'span': '1761 transit of Venus', 'entity': 'Event'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}]'
+
+Example #2: Keelung City houses several universities and colleges, such as the National Taiwan Ocean University, Ching Kuo Institute of Management and Health and Chungyu Institute of Technology.
+Expected output: 'entities: [{'span': 'Keelung City', 'entity': 'Location'}, {'span': 'National Taiwan Ocean University', 'entity': 'University'}, {'span': 'Ching Kuo Institute of Management and Health', 'entity': 'University'}, {'span': 'Chungyu Institute of Technology', 'entity': 'University'}]'
+
+Example #3: The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.
+Expected output: 'entities: [{'span': "The men's + 100 kg judo event", 'entity': 'Event'}, {'span': '2015 European Games', 'entity': 'Event'}, {'span': 'Baku', 'entity': 'Location'}]'
+
+Example #4: One of these was in the category of Best Performance by an Actor in a Leading Role in a Dramatic Program or Mini-Series for Beau Bridges ' leading role as Simon Kress, which also garnered nominations for the Primetime Emmy Award for Outstanding Guest Actor in a Drama Series and the CableACE Award for Best Actor in a Dramatic Series.
+Expected output: 'entities: [{'span': 'Best Performance', 'entity': 'Award'}, {'span': 'Simon Kress', 'entity': 'Person'}, {'span': 'Primetime Emmy Award for Outstanding Guest Actor', 'entity': 'Award'}, {'span': 'CableACE Award for Best Actor', 'entity': 'Award'}]'
+
+Example #5: Bio-active constituents of human milk that have been cataloged to possess immune-modulating capabilities include immunoglobulins, Lactoferrin, Lysozyme, oligosaccharide s, lipid s, cytokine s, hormone s, and growth factor s.
+Expected output: 'entities: [{'span': 'immunoglobulins', 'entity': 'Protein'}, {'span': 'Lactoferrin', 'entity': 'Protein'}, {'span': 'Lysozyme', 'entity': 'Enzyme'}, {'span': 'oligosaccharide', 'entity': 'Misc'}, {'span': 'lipid', 'entity': 'Misc'}, {'span': 'cytokine', 'entity': 'Misc'}, {'span': 'hormone', 'entity': 'Misc'}, {'span': 'growth factor', 'entity': 'Misc'}]'
+
+Example #6: Al-Farabi's school of philosophy breaks with the philosophy of Plato and Aristotle ... and ... moves from metaphysics to methodology, a move that anticipates modernity, and at the level of philosophy, Alfarabi unites theory and practice ... and in the sphere of the Politics he liberates practice from theory.
+Expected output: 'entities: [{'span': 'Al-Farabi', 'entity': 'Person'}, {'span': 'school of philosophy', 'entity': 'Organisation'}, {'span': 'philosophy', 'entity': 'Discipline'}, {'span': 'Plato', 'entity': 'Person'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'metaphysics', 'entity': 'Theory'}, {'span': 'methodology', 'entity': 'Theory'}, {'span': 'Alfarabi', 'entity': 'Person'}, {'span': 'Politics', 'entity': 'Discipline'}]'
+
+Example #7: In the 20th century, DuPont developed many polymer s such as Vespel, neoprene, nylon, Corian, Polytetrafluoroethylene, Mylar, Kapton, Kevlar, Zemdrain, M5 fiber, Nomex, Tyvek, Sorona, Corfam, and Lycra.
+Expected output: 'entities: [{'span': 'DuPont', 'entity': 'Organisation'}, {'span': 'Vespel', 'entity': 'Chemical Compound'}, {'span': 'neoprene', 'entity': 'Chemical Compound'}, {'span': 'nylon', 'entity': 'Chemical Compound'}, {'span': 'Corian', 'entity': 'Chemical Compound'}, {'span': 'Polytetrafluoroethylene', 'entity': 'Chemical Compound'}, {'span': 'Mylar', 'entity': 'Chemical Compound'}, {'span': 'Kapton', 'entity': 'Chemical Compound'}, {'span': 'Kevlar', 'entity': 'Chemical Compound'}, {'span': 'Zemdrain', 'entity': 'Chemical Compound'}, {'span': 'M5 fiber', 'entity': 'Chemical Compound'}, {'span': 'Nomex', 'entity': 'Chemical Compound'}, {'span': 'Tyvek', 'entity': 'Chemical Compound'}, {'span': 'Sorona', 'entity': 'Chemical Compound'}, {'span': 'Corfam', 'entity': 'Chemical Compound'}, {'span': 'Lycra', 'entity': 'Chemical Compound'}]'
+
+Example #8: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+
+Example #9: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #10: After students at Uppsala University celebrated Bonaparte's return to France from his Italian campaigns, Gustav IV Adolf appointed von Fersen as Uppsala University.
+Expected output: 'entities: [{'span': 'Uppsala University', 'entity': 'University'}, {'span': 'Bonaparte', 'entity': 'Person'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Italian campaigns', 'entity': 'Misc'}, {'span': 'Gustav IV Adolf', 'entity': 'Person'}, {'span': 'von Fersen', 'entity': 'Person'}]'
+

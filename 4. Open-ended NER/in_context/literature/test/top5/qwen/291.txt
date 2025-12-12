@@ -1,0 +1,15 @@
+Example #1: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+
+Example #2: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #3: Cuarón's feature Children of Men, an adaptation of the P. D. James The Children of Men starring Clive Owen, Julianne Moore and Michael Caine, received wide critical acclaim, including three Academy Awards nominations.
+Expected output: 'entities: [{'span': 'Cuarón', 'entity': 'Writer'}, {'span': 'Children of Men', 'entity': 'Book'}, {'span': 'P. D. James', 'entity': 'Writer'}, {'span': 'The Children of Men', 'entity': 'Book'}, {'span': 'Clive Owen', 'entity': 'Person'}, {'span': 'Julianne Moore', 'entity': 'Person'}, {'span': 'Michael Caine', 'entity': 'Person'}, {'span': 'Academy Awards', 'entity': 'Award'}]'
+
+Example #4: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #5: Far more manuscripts of the Prick of Conscience than any other Middle English poem survive.
+Expected output: 'entities: [{'span': 'Prick of Conscience', 'entity': 'Poem'}, {'span': 'Middle English', 'entity': 'Misc'}, {'span': 'poem', 'entity': 'Literary Genre'}]'
+

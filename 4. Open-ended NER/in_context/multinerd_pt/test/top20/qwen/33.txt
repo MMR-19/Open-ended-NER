@@ -1,0 +1,60 @@
+Example #1: Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.
+Expected output: 'entities: [{'span': 'óleo de coco', 'entity': 'Comida'}, {'span': 'câncer', 'entity': 'Doença'}]'
+
+Example #2: Tem propriedades medicinais contra artrite, diabete, pressão alta, e a flor, contra tosse, bronquite e resfriado.
+Expected output: 'entities: [{'span': 'artrite', 'entity': 'Doença'}, {'span': 'flor', 'entity': 'Planta'}, {'span': 'bronquite', 'entity': 'Doença'}]'
+
+Example #3: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #4: Entre estes patógenos intracelulares estão os vírus, a " Salmonella " e os parasitas que provocam a malária.
+Expected output: 'entities: [{'span': 'Salmonella', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #5: É conhecido por seu trabalho com transtorno de estresse pós-traumático de soldados durante a Primeira Guerra Mundial.
+Expected output: 'entities: [{'span': 'transtorno de estresse pós-traumático', 'entity': 'Doença'}, {'span': 'Primeira Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #6: Presumia-se que estes órgãos, como no caso do scrapie, contivessem grande quantidade do agente da EEB (mesmo reconhecendo-se que o scrapie não era uma zoonose).
+Expected output: 'entities: [{'span': 'zoonose', 'entity': 'Doença'}]'
+
+Example #7: Nos tempos antigos, foi utilizado para alojar a parte atlética dos Jogos das Panateneias, em homenagem à deusa grega Atena.
+Expected output: 'entities: [{'span': 'Jogos das Panateneias', 'entity': 'Evento'}, {'span': 'Atena', 'entity': 'Entidade mitológica'}]'
+
+Example #8: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #9: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #10: Noutras espécies, como o " Plasmodium " (o organismo responsável pela malária), ocorrem múltiplas mitoses na mesma célula, dando origem a uma multidão de esquizontes, num processo conhecido como esquizogonia.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Entidade biológica'}, {'span': 'malária', 'entity': 'Doença'}]'
+
+Example #11: Encontra-se a menos de 5 " km do centro da cidade, oferecendo infraestrutura para a operação de aeronaves de médio porte como Boeings 737 e Fokker 100 s.
+Expected output: 'entities: [{'span': 'Boeings 737', 'entity': 'Veículo'}, {'span': 'Fokker 100', 'entity': 'Veículo'}]'
+
+Example #12: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #13: Além disso, esporotricose, infecções cutâneas por " Mycobacterium ", hanseníase, cromoblastomicose e outros tipos de úlceras são comuns em locais endêmicos para leishmaniose cutânea e possuem sintomatologia muito similar a essa doença.
+Expected output: 'entities: [{'span': 'Mycobacterium', 'entity': 'Entidade biológica'}, {'span': 'cromoblastomicose', 'entity': 'Doença'}]'
+
+Example #14: Consistia no sacrifício de um porco (" sus "), de um carneiro (" ovis ") e de um boi (" taurus ") em homenagem ao deus Marte para abençoar e purificar a terra.
+Expected output: 'entities: [{'span': 'Marte', 'entity': 'Entidade mitológica'}, {'span': 'terra', 'entity': 'Corpo celeste'}]'
+
+Example #15: Os portos de ancoragem foram reforçados para acomodar módulos de 20 toneladas baseadas na TKS.
+Expected output: 'entities: [{'span': 'TKS', 'entity': 'Veículo'}]'
+
+Example #16: Os ingredientes da peixada são postas de peixe de água salgada, suco de limão, alho, azeite de oliva, cebola, tomate, coentro, batata, sal, pimenta-do-reino e farinha de mandioca crua.
+Expected output: 'entities: [{'span': 'peixe', 'entity': 'Animal'}, {'span': 'suco', 'entity': 'Comida'}, {'span': 'limão', 'entity': 'Planta'}, {'span': 'alho', 'entity': 'Planta'}, {'span': 'cebola', 'entity': 'Planta'}, {'span': 'tomate', 'entity': 'Planta'}, {'span': 'coentro', 'entity': 'Planta'}, {'span': 'batata', 'entity': 'Comida'}, {'span': 'farinha', 'entity': 'Comida'}, {'span': 'mandioca', 'entity': 'Planta'}]'
+
+Example #17: Montado sobre o eixo estão pequenas asas estabilizadoras - os " ruddevators " visíveis na figura, com um formato " V " - ou alternativamente quatro superfícies, similares à montagem feita no jato da Segunda Guerra Mundial Heinkel He 162.
+Expected output: 'entities: [{'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Heinkel He 162', 'entity': 'Veículo'}]'
+
+Example #18: Tem uma rica biodiversidade, tendo em 2005 sido lá introduzido pelo Serviço de Parques e Vida Selvagem da Tasmânia o diabo-da-tasmânia, através de uma população que não sofria do tumor facial do diabo-da-tasmânia.
+Expected output: 'entities: [{'span': 'Serviço de Parques e Vida Selvagem da Tasmânia', 'entity': 'Organização'}, {'span': 'diabo-da-tasmânia', 'entity': 'Animal'}, {'span': 'tumor facial do diabo-da-tasmânia', 'entity': 'Doença'}]'
+
+Example #19: O ônibus espacial lançou e posicionou vários satélites na órbita da Terra, além de lançar, posicionar e realizar manutenções e reparos no Hubble, um dos maiores e mais bem sucedidos telescópios espaciais já criados.
+Expected output: 'entities: [{'span': 'Terra', 'entity': 'Corpo celeste'}, {'span': 'Hubble', 'entity': 'Instrumento'}]'
+
+Example #20: Desde 2000 que são proibidas, na União Europeia, todas as formas de discriminação com base na idade, deficiência, orientação sexual ou religião no local de trabalho, mas o âmbito de aplicação da legislação em vigor poderá agora alargar-se a outras esferas da vida.
+Expected output: 'entities: [{'span': 'União Europeia', 'entity': 'Organização'}, {'span': 'deficiência', 'entity': 'Doença'}]'
+

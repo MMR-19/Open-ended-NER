@@ -1,0 +1,30 @@
+Example #1: He received two honorary degree s, one S. V. della laurea ad honorem in Psychology from the University of Padua in 1995 and one doctorate in Industrial Design and Engineering from Delft University of Technology.
+Expected output: 'entities: [{'span': 'S. V. della laurea ad honorem', 'entity': 'Misc'}, {'span': 'Psychology', 'entity': 'Field'}, {'span': 'University of Padua', 'entity': 'University'}, {'span': 'Industrial Design and Engineering', 'entity': 'Field'}, {'span': 'Delft University of Technology', 'entity': 'University'}]'
+
+Example #2: He holds a D.Sc. degree in electrical and computer engineering (2000) from Inria and the University of Nice Sophia Antipolis, and has held permanent positions at Siemens Corporate Technology, École des ponts ParisTech as well as visiting positions at Rutgers University, Yale University and University of Houston.
+Expected output: 'entities: [{'span': 'D.Sc. degree', 'entity': 'Misc'}, {'span': 'electrical and computer engineering', 'entity': 'Field'}, {'span': 'Inria', 'entity': 'Organisation'}, {'span': 'University of Nice Sophia Antipolis', 'entity': 'University'}, {'span': 'Siemens Corporate Technology', 'entity': 'Organisation'}, {'span': 'École des ponts ParisTech', 'entity': 'University'}, {'span': 'Rutgers University', 'entity': 'University'}, {'span': 'Yale University', 'entity': 'University'}, {'span': 'University of Houston', 'entity': 'University'}]'
+
+Example #3: He held the Johann Bernoulli Chair of Mathematics and Informatics at the University of Groningen in the Netherlands, and the Toshiba Endowed Chair at the Tokyo Institute of Technology in Japan before becoming Professor at Cambridge.
+Expected output: 'entities: [{'span': 'Johann Bernoulli Chair', 'entity': 'Misc'}, {'span': 'Mathematics', 'entity': 'Field'}, {'span': 'Informatics', 'entity': 'Field'}, {'span': 'University of Groningen', 'entity': 'University'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Toshiba Endowed Chair', 'entity': 'Misc'}, {'span': 'Tokyo Institute of Technology', 'entity': 'University'}, {'span': 'Japan', 'entity': 'Country'}, {'span': 'Cambridge', 'entity': 'University'}]'
+
+Example #4: Boris Katz, (born October 5, 1947, Chișinău, Moldavian SSR, Soviet Union, (now Chișinău, Moldova)) is a principal American research scientist (computer scientist) at the MIT Computer Science and Artificial Intelligence Laboratory at the Massachusetts Institute of Technology in Cambridge and head of the Laboratory's InfoLab Group.
+Expected output: 'entities: [{'span': 'Boris Katz', 'entity': 'Researcher'}, {'span': 'Chișinău', 'entity': 'Location'}, {'span': 'Moldavian SSR', 'entity': 'Location'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Moldova', 'entity': 'Country'}, {'span': 'MIT Computer Science and Artificial Intelligence Laboratory', 'entity': 'Organisation'}, {'span': 'Massachusetts Institute of Technology', 'entity': 'Organisation'}, {'span': 'Cambridge', 'entity': 'University'}, {'span': 'InfoLab Group', 'entity': 'Organisation'}]'
+
+Example #5: A fast method for computing maximum likelihood estimates for the probit model was proposed by Ronald Fisher as an appendix to Bliss ' work in 1935.
+Expected output: 'entities: [{'span': 'maximum likelihood', 'entity': 'Metrics'}, {'span': 'probit model', 'entity': 'Algorithm'}, {'span': 'Ronald Fisher', 'entity': 'Researcher'}, {'span': 'Bliss', 'entity': 'Researcher'}]'
+
+Example #6: Although used mainly by statisticians and other practitioners requiring an environment for statistical computation and software development, R can also operate as a general matrix calculation toolbox - with performance benchmarks comparable to GNU Octave or MATLAB.
+Expected output: 'entities: [{'span': 'R', 'entity': 'Programming Language'}, {'span': 'GNU Octave', 'entity': 'Programming Language'}, {'span': 'MATLAB', 'entity': 'Product'}]'
+
+Example #7: Xu has published more than 50 papers at international conferences and in journals in the field of computer vision and won the Best Paper Award at the international conference on Non-Photorealistic Rendering and Animation (NPAR) 2012 and the Best Reviewer Award at the international conferences Asian Conference on Computer Vision ACCV 2012 and International Conference on Computer Vision (ICCV) 2015.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Researcher'}, {'span': 'computer vision', 'entity': 'Field'}, {'span': 'Best Paper Award', 'entity': 'Misc'}, {'span': 'international conference on Non-Photorealistic Rendering and Animation', 'entity': 'Conference'}, {'span': 'NPAR', 'entity': 'Conference'}, {'span': 'Best Reviewer Award', 'entity': 'Misc'}, {'span': 'international conferences Asian Conference on Computer Vision', 'entity': 'Conference'}, {'span': 'ACCV 2012', 'entity': 'Conference'}, {'span': 'International Conference on Computer Vision', 'entity': 'Conference'}, {'span': 'ICCV', 'entity': 'Conference'}]'
+
+Example #8: The 2004 SSIM paper has been cited over 20,000 times according to Google Scholar, It also received the IEEE Signal Processing Society Sustained Impact Award for 2016, indicative of a paper having an unusually high impact for at least 10 years following its publication.
+Expected output: 'entities: [{'span': 'SSIM', 'entity': 'Metrics'}, {'span': 'Google Scholar', 'entity': 'Product'}, {'span': 'IEEE Signal Processing Society Sustained Impact Award', 'entity': 'Misc'}]'
+
+Example #9: Octave helps in solving linear and nonlinear problems numerically, and for performing other numerical experiments using a that is mostly compatible with MATLAB.
+Expected output: 'entities: [{'span': 'Octave', 'entity': 'Product'}, {'span': 'MATLAB', 'entity': 'Product'}]'
+
+Example #10: This math \ theta ^ { * } / math is normally estimated using a Maximum Likelihood (math \ theta ^ { * } = \ theta ^ { ML } / math) or Maximum A Posteriori (math \ theta ^ { * } = \ theta ^ { MAP } / math) procedure.
+Expected output: 'entities: [{'span': 'Maximum Likelihood', 'entity': 'Algorithm'}, {'span': 'Maximum A Posteriori', 'entity': 'Algorithm'}, {'span': 'MAP', 'entity': 'Algorithm'}]'
+

@@ -1,0 +1,60 @@
+Example #1: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #2: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #3: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #4: " Soft commodities ", or " softs ", are commodities such as coffee, cocoa, sugar, corn, wheat, soybean, fruit and livestock.
+Expected output: 'entities: [{'span': 'coffee', 'entity': 'Food'}, {'span': 'cocoa', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'soybean', 'entity': 'Plant'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'livestock', 'entity': 'Animal'}]'
+
+Example #5: The colonists enjoyed butter in cooking as well, but it was rare prior to the American Revolution, as cattle were not yet plentiful.
+Expected output: 'entities: [{'span': 'butter', 'entity': 'Food'}, {'span': 'American Revolution', 'entity': 'Event'}, {'span': 'cattle', 'entity': 'Animal'}]'
+
+Example #6: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #7: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #8: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #9: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #10: Sulforaphane, a glucosinolate breakdown product, which may be found in vegetables such as broccoli, has been shown to be protective against prostate cancer, however, much of it is destroyed when the vegetable is boiled.
+Expected output: 'entities: [{'span': 'broccoli', 'entity': 'Plant'}, {'span': 'prostate cancer', 'entity': 'Disease'}]'
+
+Example #11: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #12: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #13: At our current top speed of, the Helios 2 probe would arrive at the nearest star, Proxima Centauri, in around 18,000 years, much longer than a human lifespan and therefore requiring much faster transportation methods than currently available.
+Expected output: 'entities: [{'span': 'Helios 2', 'entity': 'Vehicle'}, {'span': 'Proxima Centauri', 'entity': 'Celestial Body'}]'
+
+Example #14: White fir is popular as a Christmas tree and for Christmas decoration owing to its soft needles, generally excellent needle retention and abundance.
+Expected output: 'entities: [{'span': 'Christmas tree', 'entity': 'Plant'}, {'span': 'Christmas', 'entity': 'Time'}]'
+
+Example #15: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #16: It is also associated with the monster Hydra, with its many heads, killed by Hercules, represented in another constellation.
+Expected output: 'entities: [{'span': 'Hydra', 'entity': 'Mythological entity'}, {'span': 'Hercules', 'entity': 'Mythological entity'}, {'span': 'another constellation', 'entity': 'Celestial Body'}]'
+
+Example #17: In 1848 he independently co-discovered Hyperion, a moon of Saturn.
+Expected output: 'entities: [{'span': 'Hyperion', 'entity': 'Mythological entity'}, {'span': 'Saturn', 'entity': 'Celestial Body'}]'
+
+Example #18: In 1848 he independently co-discovered Hyperion, a moon of Saturn.
+Expected output: 'entities: [{'span': 'Hyperion', 'entity': 'Mythological entity'}, {'span': 'Saturn', 'entity': 'Celestial Body'}]'
+
+Example #19: " Escherichia coli " is one of the most important model organisms, and its genetics and biochemistry have been closely studied.
+Expected output: 'entities: [{'span': 'Escherichia coli', 'entity': 'Biological entity'}]'
+
+Example #20: The genome of cultivated sweet potatoes contains sequences of DNA from " Agrobacterium ", with genes actively expressed by the plants.
+Expected output: 'entities: [{'span': 'Agrobacterium', 'entity': 'Biological entity'}]'
+

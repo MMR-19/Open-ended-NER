@@ -1,0 +1,30 @@
+Example #1: Este o conteúdo da Súmula 262: “ o critério definido no art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93 conduz a uma presunção relativa de inexequibilidade de preços, devendo a Administração dar à licitante a oportunidade de demonstrar a exequibilidade da sua proposta ”.
+Expected output: 'entities: [{'span': 'art. 48, inciso II, § 1º, alíneas ‘ a ’ e ‘ b ’, da Lei nº 8.666/93', 'entity': 'Legislação'}]'
+
+Example #2: Intimem-se. ” Narra a apelante que, desde maio de 2014, a PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 5 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 empresa apelada não pagava os aluguéis mensais, o IPTU do imóvel e as contas de energia, razão pela qual pleiteou o despejo, bem como a condenação da locatária ao pagamento dos aluguéis vencidos e vincendos até a data da efetiva desocupação do imóvel e dos demais encargos da locação, já acrescidos da multa contratual.
+Expected output: 'entities: [{'span': 'maio de 2014', 'entity': 'Tempo'}, {'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}]'
+
+Example #3: VIOLAÇÃO DO ART. 884 DO CPC.
+Expected output: 'entities: [{'span': 'ART. 884 DO CPC', 'entity': 'Legislação'}]'
+
+Example #4: REQUERIDA: A Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 08/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a WELLEN PABLO TEIXEIRA CORDOVIL, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '08/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'WELLEN PABLO TEIXEIRA CORDOVIL', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #5: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #7: Brasília, 8 de1ç reiro de 2018. p.) LEÃO NUNES ÏIA FILHO - RELATOR AgR-REspe no 68-49.201 6.6.26.03591SP 02 RELATÓRIO O SENHOR MINISTRO NAPOLEÃO NUNES MAIA FILHO: Senhor Presidente, trata-se de agravo interno interposto pelo PSDB - MUNICIPAL de decisão que negou seguimento ao recurso especial manejado contra acórdão proferido pelo TRE de São Paulo, que deu parcial provimento ao recurso eleitoral, apenas para reduzir a multa aplicada, mantendo, todavia, a condenação por propaganda eleitoral antecipada negativa.
+Expected output: 'entities: [{'span': 'Brasília', 'entity': 'Localização'}, {'span': '8 de1ç reiro de 2018.', 'entity': 'Tempo'}, {'span': 'LEÃO NUNES ÏIA FILHO', 'entity': 'Pessoa'}, {'span': 'AgR-REspe no 68-49.201 6.6.26.03591SP', 'entity': 'Jurisprudência'}, {'span': 'NAPOLEÃO NUNES MAIA FILHO', 'entity': 'Pessoa'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'TRE de São Paulo', 'entity': 'Organização'}]'
+
+Example #8: Por força do § 11 do art. 85 do CPC/15, majora-se a verba honorária imposta à Apelante para 12 % (doze por cento) sobre o valor da causa, mantida a suspensão de exigibilidade do referido encargo.
+Expected output: 'entities: [{'span': '§ 11 do art. 85 do CPC/15', 'entity': 'Jurisprudência'}]'
+
+Example #9: 9.10. levantar a chancela de sigilo aposta a estes autos, nos termos do art. 55 da Lei 8.443/1992; Quórum 13.1.
+Expected output: 'entities: [{'span': 'art. 55 da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #10: EMENTA: AÇÃO DE COBRANÇA - INDENIZAÇÃO DO SEGURO DPVAT - INVALIDEZ PERMANENTE PARCIAL INCOMPLETA - SÚMULA 474/STJ - CORREÇÃO MONETÁRIA - SÚMULA 580 DO STJ - JUROS DE MORA - SÚMULA 426/STJ - HONORÁRIOS ADVOCATÍCIOS - INTERESSE PROCESSUAL - REGISTRO DE OCORRÊNCIA - CERCEAMENTO DE DEFESA - PRESCRIÃO - TERMO INICIAL.
+Expected output: 'entities: [{'span': 'SÚMULA 474/STJ', 'entity': 'Jurisprudência'}, {'span': 'SÚMULA 580 DO STJ', 'entity': 'Jurisprudência'}, {'span': 'SÚMULA 426/STJ', 'entity': 'Jurisprudência'}]'
+

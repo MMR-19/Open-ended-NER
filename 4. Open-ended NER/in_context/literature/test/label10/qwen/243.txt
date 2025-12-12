@@ -1,0 +1,30 @@
+Example #1: Hughes wrote of inequality (I, Too), of resilience (Mother to Son and The Negro Speaks of Rivers), of pride (My People), of hope (Freedom's Plow), and of music (The Trumpet Player and Juke Box Love Song).
+Expected output: 'entities: [{'span': 'Hughes', 'entity': 'Writer'}, {'span': 'I, Too', 'entity': 'Poem'}, {'span': 'Mother to Son', 'entity': 'Poem'}, {'span': 'The Negro Speaks of Rivers', 'entity': 'Poem'}, {'span': 'My People', 'entity': 'Book'}, {'span': "Freedom's Plow", 'entity': 'Poem'}, {'span': 'The Trumpet Player', 'entity': 'Poem'}, {'span': 'Juke Box Love Song', 'entity': 'Poem'}]'
+
+Example #2: With his poem Yo soy Joaquín, known in English as I Am Joaquin, Gonzales shared his new cosmological vision of the Chicano, who was neither Indian nor European, neither Mexican nor American, but a combination of all the conflicting identities.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'Yo soy Joaquín', 'entity': 'Poem'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'I Am Joaquin', 'entity': 'Poem'}, {'span': 'Gonzales', 'entity': 'Writer'}, {'span': 'Chicano', 'entity': 'Poem'}, {'span': 'Indian', 'entity': 'Misc'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Mexican', 'entity': 'Misc'}, {'span': 'American', 'entity': 'Misc'}]'
+
+Example #3: Dickens has been praised by many of his fellow writers - from Leo Tolstoy to George Orwell, G. K. Chesterton, and Tom Wolfe - for his realism, comedy, prose style, unique characterisations, and social criticism.
+Expected output: 'entities: [{'span': 'Dickens', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}, {'span': 'George Orwell', 'entity': 'Writer'}, {'span': 'G. K. Chesterton', 'entity': 'Writer'}, {'span': 'Tom Wolfe', 'entity': 'Writer'}]'
+
+Example #4: His interest in space, however, was his primary focus, especially after reading science fiction stories by writers such as H. G. Wells and Edgar Rice Burroughs, which stirred his imagination about life on other planets such as Mars.
+Expected output: 'entities: [{'span': 'science fiction stories', 'entity': 'Literary Genre'}, {'span': 'H. G. Wells', 'entity': 'Writer'}, {'span': 'Edgar Rice Burroughs', 'entity': 'Writer'}, {'span': 'Mars', 'entity': 'Misc'}]'
+
+Example #5: For the general reader, Jonson's reputation rests on a few lyrics that, though brief, are surpassed for grace and precision by very few Renaissance poems: On My First Sonne; To Celia; To Penshurst; and the epitaph on Salomon Pavy, a boy player abducted from his parents who acted in Jonson's plays.
+Expected output: 'entities: [{'span': 'Jonson', 'entity': 'Person'}, {'span': 'Renaissance poems', 'entity': 'Literary Genre'}, {'span': 'On My First Sonne', 'entity': 'Poem'}, {'span': 'To Celia', 'entity': 'Poem'}, {'span': 'To Penshurst', 'entity': 'Poem'}, {'span': 'Salomon Pavy', 'entity': 'Person'}, {'span': 'Jonson', 'entity': 'Writer'}]'
+
+Example #6: Lindbergh's Pulitzer Prize -winning biographer, A. Scott Berg, contended that Lindbergh was not so much a supporter of the Nazi regime as someone so stubborn in his convictions and relatively inexperienced in political maneuvering that he easily allowed rivals to portray him as one.
+Expected output: 'entities: [{'span': 'Lindbergh', 'entity': 'Person'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'A. Scott Berg', 'entity': 'Writer'}, {'span': 'Nazi', 'entity': 'Misc'}]'
+
+Example #7: The poems he had written during his time in prison were so effective that Dudley Randall, a poet and owner of Broadside Press, published Knight's first volume of verse, Poems from Prison, and hailed Knight as one of the major poets of the Black Arts Movement.
+Expected output: 'entities: [{'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Dudley Randall', 'entity': 'Writer'}, {'span': 'Broadside Press', 'entity': 'Organisation'}, {'span': "Knight's first volume of verse", 'entity': 'Misc'}, {'span': 'Poems from Prison', 'entity': 'Poem'}, {'span': 'Black Arts Movement', 'entity': 'Event'}]'
+
+Example #8: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #9: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+
+Example #10: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+

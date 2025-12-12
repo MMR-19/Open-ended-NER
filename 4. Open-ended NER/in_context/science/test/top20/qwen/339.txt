@@ -1,0 +1,60 @@
+Example #1: However, in November 2015, a group of Chinese scientists used the gene editing technique CRISPR / Cas9 to edit single-celled, non-viable embryos to see the effectiveness of this technique.
+Expected output: 'entities: [{'span': 'Chinese', 'entity': 'Misc'}, {'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'Cas9', 'entity': 'Misc'}]'
+
+Example #2: The study claimed precise CRISPR and homology-directed repair response with high accuracy and percision.
+Expected output: 'entities: [{'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'homology-directed repair response', 'entity': 'Misc'}]'
+
+Example #3: During her time at the Fred Hutchinson Cancer Research Center, Zakian published or co-published around sixty articles in peer-reviewed journals like Nature (journal), Cell (journal), Proceedings of the National Academy of Sciences of the United States of America and the Journal of Molecular Biology.
+Expected output: 'entities: [{'span': 'Fred Hutchinson Cancer Research Center', 'entity': 'Organisation'}, {'span': 'Zakian', 'entity': 'Scientist'}, {'span': 'Nature', 'entity': 'Academic Journal'}, {'span': 'Cell', 'entity': 'Academic Journal'}, {'span': 'Proceedings of the National Academy of Sciences of the United States of America', 'entity': 'Academic Journal'}, {'span': 'Journal of Molecular Biology', 'entity': 'Academic Journal'}]'
+
+Example #4: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #5: Nihonium was first reported to have been created in 2003 by a Russian-American collaboration at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia, and in 2004 by a team of Japanese scientists at Riken in Wakō, Japan.
+Expected output: 'entities: [{'span': 'Nihonium', 'entity': 'Chemical Element'}, {'span': 'Russian-American', 'entity': 'Misc'}, {'span': 'Joint Institute for Nuclear Research', 'entity': 'Organisation'}, {'span': 'JINR', 'entity': 'Organisation'}, {'span': 'Dubna', 'entity': 'Location'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'Japanese', 'entity': 'Misc'}, {'span': 'Riken', 'entity': 'Organisation'}, {'span': 'Wakō', 'entity': 'Location'}, {'span': 'Japan', 'entity': 'Country'}]'
+
+Example #6: H3K9me3 is an epigenetic modification to the DNA packaging protein Histone H3.
+Expected output: 'entities: [{'span': 'H3K9me3', 'entity': 'Misc'}, {'span': 'epigenetic modification', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'Histone H3', 'entity': 'Protein'}]'
+
+Example #7: In the early days of his laboratory he discovered a new mechanism of microRNA processing independent of Dicer that requires the catalytic activity of Argonaute 2, a type of Argonaute protein.
+Expected output: 'entities: [{'span': 'microRNA', 'entity': 'Misc'}, {'span': 'Dicer', 'entity': 'Enzyme'}, {'span': 'Argonaute 2', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}]'
+
+Example #8: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #9: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+
+Example #10: Poly (ADP-ribosyl) ation is an immediate DNA damage-dependent post-translational modification of Histone and other nuclear proteins that contributes to the survival of injured proliferating cells.
+Expected output: 'entities: [{'span': 'Poly (ADP-ribosyl) ation', 'entity': 'Misc'}, {'span': 'DNA damage-dependent post-translational modification', 'entity': 'Misc'}, {'span': 'Histone', 'entity': 'Protein'}, {'span': 'nuclear proteins', 'entity': 'Protein'}]'
+
+Example #11: From the 16th century, researchers including Jan Baptist van Helmont, Robert Boyle, and Isaac Newton tried to establish theories of the experimentally observed chemical transformations.
+Expected output: 'entities: [{'span': 'Jan Baptist van Helmont', 'entity': 'Scientist'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #12: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #13: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #14: One of the first significant contributions of Maheswari was the discovery of RNA polymerase activity in chloroplasts which he accomplished during his early stint at California Institute of Technology while working with Robert S. Bandurski and their researches revealed the presence of DNA in organelle.
+Expected output: 'entities: [{'span': 'Maheswari', 'entity': 'Scientist'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'chloroplasts', 'entity': 'Misc'}, {'span': 'California Institute of Technology', 'entity': 'University'}, {'span': 'Robert S. Bandurski', 'entity': 'Scientist'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'organelle', 'entity': 'Misc'}]'
+
+Example #15: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #16: Such experiments were independently performed by Walther Bothe and Hans Geiger,
+Expected output: 'entities: [{'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Hans Geiger', 'entity': 'Scientist'}]'
+
+Example #17: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #18: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #19: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #20: In 1926, Mark C Lidwill of the Royal Prince Alfred Hospital of Sydney, supported by physicist Edgar H. Booth of the University of Sydney, devised a portable apparatus which plugged into a lighting point and in which One pole was applied to a skin pad soaked in strong salt solution while the other pole consisted of a needle insulated except at its point, and was plunged into the appropriate cardiac chamber.
+Expected output: 'entities: [{'span': 'Mark C Lidwill', 'entity': 'Person'}, {'span': 'Royal Prince Alfred Hospital', 'entity': 'Location'}, {'span': 'Sydney', 'entity': 'Location'}, {'span': 'Edgar H. Booth', 'entity': 'Scientist'}, {'span': 'University of Sydney', 'entity': 'University'}]'
+

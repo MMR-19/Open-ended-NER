@@ -1,0 +1,30 @@
+Example #1: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+
+Example #2: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #3: He was the former president of the American Political Science Association and a member of the American Academy of Arts and Sciences, American Philosophical Society and Human Rights Foundation.
+Expected output: 'entities: [{'span': 'American Political Science Association', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'Human Rights Foundation', 'entity': 'Organisation'}]'
+
+Example #4: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #5: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #6: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #7: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #8: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #9: Motivated by Tower's victory, and hoping to prevent the far-right John Birch Society from coming to power, Bush ran for the chairmanship of the Harris County, Texas Republican Party, winning election in February 1963. Like most other Texas Republicans, Bush supported conservative Senator Barry Goldwater over the more centrist Nelson Rockefeller in the 1964 Republican Party presidential primaries.
+Expected output: 'entities: [{'span': 'Tower', 'entity': 'Person'}, {'span': 'John Birch Society', 'entity': 'Organisation'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Harris County', 'entity': 'Location'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Republican Party', 'entity': 'Political Party'}, {'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Barry Goldwater', 'entity': 'Politician'}, {'span': 'Nelson Rockefeller', 'entity': 'Politician'}, {'span': '1964 Republican Party presidential primaries', 'entity': 'Election'}]'
+
+Example #10: Most of the party's major figures, including Evatt, Deputy Leader Arthur Calwell, Eddie Ward, and Reg Pollard, were in their sixties, twenty years older than Whitlam.
+Expected output: 'entities: [{'span': 'Evatt', 'entity': 'Politician'}, {'span': 'Arthur Calwell', 'entity': 'Politician'}, {'span': 'Eddie Ward', 'entity': 'Politician'}, {'span': 'Reg Pollard', 'entity': 'Politician'}, {'span': 'Whitlam', 'entity': 'Politician'}]'
+

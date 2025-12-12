@@ -1,0 +1,15 @@
+Example #1: In order to get a meaningful sulfur signal from the analysis, the buffer should not contain sulfur (i.e. no BES, DDT, HEPES, MES, MOPS, or PIPES compounds).
+Expected output: 'entities: [{'span': 'sulfur', 'entity': 'Chemical Element'}, {'span': 'BES', 'entity': 'Chemical Compound'}, {'span': 'DDT', 'entity': 'Chemical Compound'}, {'span': 'HEPES', 'entity': 'Chemical Compound'}, {'span': 'MES', 'entity': 'Chemical Compound'}, {'span': 'MOPS', 'entity': 'Chemical Compound'}, {'span': 'PIPES', 'entity': 'Chemical Compound'}]'
+
+Example #2: Julius Tafel discovered that hydroxylamine hydrochloride or sulfate salts can be produced by electrolytic reduction of nitric acid with Hydrochloric acid or Sulfuric acid respectively:
+Expected output: 'entities: [{'span': 'Julius Tafel', 'entity': 'Scientist'}, {'span': 'hydroxylamine hydrochloride', 'entity': 'Chemical Compound'}, {'span': 'sulfate salts', 'entity': 'Misc'}, {'span': 'nitric acid', 'entity': 'Chemical Compound'}, {'span': 'Hydrochloric acid', 'entity': 'Chemical Compound'}, {'span': 'Sulfuric acid', 'entity': 'Chemical Compound'}]'
+
+Example #3: Detergents are key reagents to extract protein by lysis of the cells and tissues: They disorganize the membrane's lipid bilayer (SDS, Triton X-100, X-114, CHAPS detergent, DOC, and NP-40), and solubilize proteins.
+Expected output: 'entities: [{'span': 'lipid bilayer', 'entity': 'Misc'}, {'span': 'SDS', 'entity': 'Chemical Compound'}, {'span': 'Triton X-100', 'entity': 'Chemical Compound'}, {'span': 'X-114', 'entity': 'Chemical Compound'}, {'span': 'CHAPS detergent', 'entity': 'Chemical Compound'}, {'span': 'DOC', 'entity': 'Chemical Compound'}, {'span': 'NP-40', 'entity': 'Chemical Compound'}]'
+
+Example #4: The most common trialkyl aluminum reagents for this transformation are Trimethylaluminium, Triethylaluminium, and sometimes Triisobutylaluminium.
+Expected output: 'entities: [{'span': 'trialkyl aluminum', 'entity': 'Chemical Compound'}, {'span': 'Trimethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triethylaluminium', 'entity': 'Chemical Compound'}, {'span': 'Triisobutylaluminium', 'entity': 'Chemical Compound'}]'
+
+Example #5: Most of metal contribution, copper, lead, and zinc, comes from Hammarbybacken where high levels of arsenic, chromium, phthalates, Polychlorinated biphenyl, and Carbon tetrachloride have also been recorded.
+Expected output: 'entities: [{'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'lead', 'entity': 'Chemical Element'}, {'span': 'zinc', 'entity': 'Chemical Element'}, {'span': 'Hammarbybacken', 'entity': 'Location'}, {'span': 'arsenic', 'entity': 'Chemical Element'}, {'span': 'chromium', 'entity': 'Chemical Element'}, {'span': 'phthalates', 'entity': 'Chemical Element'}, {'span': 'Polychlorinated biphenyl', 'entity': 'Chemical Compound'}, {'span': 'Carbon tetrachloride', 'entity': 'Chemical Compound'}]'
+

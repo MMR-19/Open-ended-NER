@@ -1,0 +1,15 @@
+Example #1: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #2: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #3: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #4: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #5: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+

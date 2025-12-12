@@ -1,0 +1,30 @@
+Example #1: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #2: Most of the party's major figures, including Evatt, Deputy Leader Arthur Calwell, Eddie Ward, and Reg Pollard, were in their sixties, twenty years older than Whitlam.
+Expected output: 'entities: [{'span': 'Evatt', 'entity': 'Politician'}, {'span': 'Arthur Calwell', 'entity': 'Politician'}, {'span': 'Eddie Ward', 'entity': 'Politician'}, {'span': 'Reg Pollard', 'entity': 'Politician'}, {'span': 'Whitlam', 'entity': 'Politician'}]'
+
+Example #3: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #4: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #5: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #6: Six other Republican senators - Wayne Morse, Irving Ives, Charles W. Tobey, Edward John Thye, George Aiken, and Robert C. Hendrickson - joined her in condemning McCarthy's tactics.
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Wayne Morse', 'entity': 'Politician'}, {'span': 'Irving Ives', 'entity': 'Politician'}, {'span': 'Charles W. Tobey', 'entity': 'Politician'}, {'span': 'Edward John Thye', 'entity': 'Politician'}, {'span': 'George Aiken', 'entity': 'Politician'}, {'span': 'Robert C. Hendrickson', 'entity': 'Politician'}, {'span': 'McCarthy', 'entity': 'Politician'}]'
+
+Example #7: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #8: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #9: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+
+Example #10: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+

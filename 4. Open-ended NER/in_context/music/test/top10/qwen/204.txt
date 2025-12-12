@@ -1,0 +1,30 @@
+Example #1: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #2: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+
+Example #3: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #4: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #5: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+
+Example #6: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+
+Example #7: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #8: According to the band's biographer Dave Lewis, while the barnstorming effect of the early era was now levelling off, and though devoid of the electricity of Zeppelin I and Led Zeppelin II, the sheer diversity of Led Zeppelin III, and lacking the classic status of Led Zeppelin IV, Houses of the Holy nevertheless found its rightful niche.
+Expected output: 'entities: [{'span': 'Dave Lewis', 'entity': 'Musical Artist'}, {'span': 'Zeppelin I', 'entity': 'Album'}, {'span': 'Led Zeppelin II', 'entity': 'Album'}, {'span': 'Led Zeppelin III', 'entity': 'Album'}, {'span': 'Led Zeppelin IV', 'entity': 'Album'}, {'span': 'Houses of the Holy', 'entity': 'Album'}]'
+
+Example #9: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+
+Example #10: Staind has recorded seven studio albums: Tormented (1996), Dysfunction (1999), Break the Cycle (2001), 14 Shades of Grey (2003), Chapter V (2005), The Illusion of Progress (2008), and Staind (2011).
+Expected output: 'entities: [{'span': 'Staind', 'entity': 'Musical Artist'}, {'span': 'Tormented', 'entity': 'Album'}, {'span': 'Dysfunction', 'entity': 'Album'}, {'span': 'Break the Cycle', 'entity': 'Album'}, {'span': '14 Shades of Grey', 'entity': 'Album'}, {'span': 'Chapter V', 'entity': 'Album'}, {'span': 'The Illusion of Progress', 'entity': 'Album'}, {'span': 'Staind', 'entity': 'Album'}]'
+

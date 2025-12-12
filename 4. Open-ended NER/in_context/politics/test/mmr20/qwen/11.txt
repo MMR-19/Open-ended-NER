@@ -1,0 +1,60 @@
+Example #1: On 4 October 2009, George Papandreou, president of the Panhellenic Socialist Movement party and son and grandson of Prime Ministers, 2009 Greek legislative election as the new Prime Minister of Greece, following five years of government under New Democracy leader Kostas Karamanlis, the nephew of long-time Prime Minister and President Konstantinos Karamanlis.
+Expected output: 'entities: [{'span': 'George Papandreou', 'entity': 'Politician'}, {'span': 'Panhellenic Socialist Movement', 'entity': 'Political Party'}, {'span': '2009 Greek legislative election', 'entity': 'Election'}, {'span': 'Greece', 'entity': 'Country'}, {'span': 'Democracy', 'entity': 'Misc'}, {'span': 'Kostas Karamanlis', 'entity': 'Politician'}, {'span': 'Konstantinos Karamanlis', 'entity': 'Politician'}]'
+
+Example #2: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #3: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #4: The devolved administration was suspended several times (especially between 15 October 2002 and 8 May 2007) because the Ulster Unionist Party and Democratic Unionist Party were uncomfortable being in government with Sinn Féin when the Provisional Irish Republican Army had failed to decommission its arms fully and continued its criminal activities.
+Expected output: 'entities: [{'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Provisional Irish Republican Army', 'entity': 'Organisation'}]'
+
+Example #5: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #6: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #7: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #8: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+
+Example #9: In addition to the Tydings-Butler race, McCarthy campaigned for several other Republicans in the 1950 United States Senate elections, including Everett Dirksen against Democratic incumbent and Senate Majority Leader Scott W. Lucas.
+Expected output: 'entities: [{'span': 'Tydings-Butler race', 'entity': 'Event'}, {'span': 'McCarthy', 'entity': 'Politician'}, {'span': 'Republicans', 'entity': 'Misc'}, {'span': '1950 United States Senate elections', 'entity': 'Election'}, {'span': 'Everett Dirksen', 'entity': 'Politician'}, {'span': 'Scott W. Lucas', 'entity': 'Politician'}]'
+
+Example #10: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #11: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #12: Beginning as a private secretary and assistant to Abraham Lincoln, Hay's highest office was United States Secretary of State under Presidents William McKinley and Theodore Roosevelt.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Hay', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}]'
+
+Example #13: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+
+Example #14: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #15: After winning the 1979 United Kingdom general election, Margaret Thatcher appointed Keith Joseph, the director of the Hayekian Centre for Policy Studies, as her secretary of state for industry in an effort to redirect parliament's economic strategies.
+Expected output: 'entities: [{'span': '1979 United Kingdom general election', 'entity': 'Election'}, {'span': 'Margaret Thatcher', 'entity': 'Politician'}, {'span': 'Keith Joseph', 'entity': 'Politician'}, {'span': 'Hayekian Centre for Policy Studies', 'entity': 'Organisation'}]'
+
+Example #16: As a result, former party chairpersons Fritz Kuhn and Claudia Roth (who had been elected to parliament that year) were no longer able to continue in their executive function and were replaced by former party secretary general Reinhard Bütikofer and former Bundestag member Angelika Beer.
+Expected output: 'entities: [{'span': 'Fritz Kuhn', 'entity': 'Politician'}, {'span': 'Claudia Roth', 'entity': 'Politician'}, {'span': 'Reinhard Bütikofer', 'entity': 'Politician'}, {'span': 'Angelika Beer', 'entity': 'Politician'}]'
+
+Example #17: Manuel Zelaya of the Liberal Party of Honduras (Partido Liberal de Honduras: PLH) won, with Porfirio Pepe Lobo of the National Party of Honduras (Partido Nacional de Honduras: PNH) coming in second.
+Expected output: 'entities: [{'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Liberal Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Liberal de Honduras', 'entity': 'Political Party'}, {'span': 'PLH', 'entity': 'Political Party'}, {'span': 'Porfirio Pepe Lobo', 'entity': 'Politician'}, {'span': 'National Party of Honduras', 'entity': 'Political Party'}, {'span': 'Partido Nacional de Honduras', 'entity': 'Political Party'}, {'span': 'PNH', 'entity': 'Political Party'}]'
+
+Example #18: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #19: Đinđić was voted out of his position as Belgrade mayor by the Serbian Renewal Movement, Socialist Party of Serbia and Serbian Radical Party.
+Expected output: 'entities: [{'span': 'Đinđić', 'entity': 'Politician'}, {'span': 'Belgrade', 'entity': 'Location'}, {'span': 'Serbian Renewal Movement', 'entity': 'Political Party'}, {'span': 'Socialist Party of Serbia', 'entity': 'Political Party'}, {'span': 'Serbian Radical Party', 'entity': 'Political Party'}]'
+
+Example #20: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+

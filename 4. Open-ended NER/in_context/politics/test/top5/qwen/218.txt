@@ -1,0 +1,15 @@
+Example #1: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #2: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #3: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #4: He was the former president of the American Political Science Association and a member of the American Academy of Arts and Sciences, American Philosophical Society and Human Rights Foundation.
+Expected output: 'entities: [{'span': 'American Political Science Association', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'Human Rights Foundation', 'entity': 'Organisation'}]'
+
+Example #5: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+

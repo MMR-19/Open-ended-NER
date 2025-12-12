@@ -1,0 +1,30 @@
+Example #1: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #2: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #3: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+
+Example #4: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #5: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #6: At 3: 0 on 31 January PAVN / VC forces attacked Saigon, Cholon, and Gia Định in the Capital Military District; Quảng Trị (again), Huế, Quảng Tín, Tam Kỳ and Quảng Ngãi as well as U.S. bases at Phú Bài and Chu Lai in I Corps; Phan Thiết, Tuy Hòa and U.S. installations at Bong Son and An Khê in II Corps; and Cần Thơ and Vĩnh Long in IV Corps.
+Expected output: 'entities: [{'span': 'PAVN', 'entity': 'Organisation'}, {'span': 'VC', 'entity': 'Organisation'}, {'span': 'Saigon', 'entity': 'Location'}, {'span': 'Cholon', 'entity': 'Location'}, {'span': 'Gia Định', 'entity': 'Location'}, {'span': 'Capital Military District', 'entity': 'Location'}, {'span': 'Quảng Trị', 'entity': 'Location'}, {'span': 'Huế', 'entity': 'Location'}, {'span': 'Quảng Tín', 'entity': 'Location'}, {'span': 'Tam Kỳ', 'entity': 'Location'}, {'span': 'Quảng Ngãi', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Phú Bài', 'entity': 'Location'}, {'span': 'Chu Lai', 'entity': 'Location'}, {'span': 'I Corps', 'entity': 'Misc'}, {'span': 'Phan Thiết', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Bong Son', 'entity': 'Location'}, {'span': 'An Khê', 'entity': 'Location'}, {'span': 'II Corps', 'entity': 'Misc'}, {'span': 'Cần Thơ', 'entity': 'Location'}, {'span': 'Vĩnh Long', 'entity': 'Location'}, {'span': 'IV Corps', 'entity': 'Misc'}]'
+
+Example #7: In the weeks leading up to the 1852 United States presidential election, he campaigned in numerous Southern states for Democratic candidates Franklin Pierce and William R. King.
+Expected output: 'entities: [{'span': '1852 United States presidential election', 'entity': 'Election'}, {'span': 'Franklin Pierce', 'entity': 'Politician'}, {'span': 'William R. King', 'entity': 'Politician'}]'
+
+Example #8: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #9: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #10: Congress chose his primary staff officers, including Major General Artemas Ward, Adjutant General Horatio Gates, Major General Charles Lee, Major General Philip Schuyler, Major General Nathanael Greene, Colonel Henry Knox, and Colonel Alexander Hamilton.
+Expected output: 'entities: [{'span': 'Artemas Ward', 'entity': 'Politician'}, {'span': 'Horatio Gates', 'entity': 'Politician'}, {'span': 'Charles Lee', 'entity': 'Politician'}, {'span': 'Philip Schuyler', 'entity': 'Politician'}, {'span': 'Nathanael Greene', 'entity': 'Politician'}, {'span': 'Henry Knox', 'entity': 'Politician'}, {'span': 'Alexander Hamilton', 'entity': 'Politician'}]'
+

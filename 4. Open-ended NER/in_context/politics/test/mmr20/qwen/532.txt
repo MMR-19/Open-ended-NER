@@ -1,0 +1,60 @@
+Example #1: Samuel became a county judge, and the guests at his home included Andrew Jackson, who had already served as a judge and in Congress.Borneman, James learned from the political talk around the dinner table; both Samuel and Ezekiel were strong supporters of President Thomas Jefferson and opponents of the Federalist Party.
+Expected output: 'entities: [{'span': 'Samuel', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'James', 'entity': 'Politician'}, {'span': 'Ezekiel', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}]'
+
+Example #2: Many of the magazine's articles were written by members of conservative think tanks located in Washington, including the American Enterprise Institute, the Ethics and Public Policy Center, the Foundation for Defense of Democracies, the Hudson Institute, and the Foreign Policy Initiative.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Location'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'Ethics and Public Policy Center', 'entity': 'Organisation'}, {'span': 'Foundation for Defense of Democracies', 'entity': 'Organisation'}, {'span': 'Hudson Institute', 'entity': 'Organisation'}, {'span': 'Foreign Policy Initiative', 'entity': 'Organisation'}]'
+
+Example #3: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #4: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #5: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #6: Representatives of the Kuomintang, Communist Party of China, Chinese Youth Party, and China Democratic League, as well as independent delegates, attended the conference in Chongqing.
+Expected output: 'entities: [{'span': 'Kuomintang', 'entity': 'Political Party'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Chinese Youth Party', 'entity': 'Political Party'}, {'span': 'China Democratic League', 'entity': 'Political Party'}, {'span': 'Chongqing', 'entity': 'Location'}]'
+
+Example #7: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #8: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+
+Example #9: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #10: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #11: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #12: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #13: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #14: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #15: On the train trip from Washington D.C., to Gettysburg on November 18, Lincoln was accompanied by three members of his Cabinet, William H. Seward, John Palmer Usher and Montgomery Blair, several foreign officials, his secretary John Nicolay, and his assistant secretary, John Hay.
+Expected output: 'entities: [{'span': 'Washington D.C.', 'entity': 'Location'}, {'span': 'Gettysburg', 'entity': 'Location'}, {'span': 'Lincoln', 'entity': 'Politician'}, {'span': 'William H. Seward', 'entity': 'Politician'}, {'span': 'John Palmer Usher', 'entity': 'Politician'}, {'span': 'Montgomery Blair', 'entity': 'Politician'}, {'span': 'John Nicolay', 'entity': 'Politician'}, {'span': 'John Hay', 'entity': 'Politician'}]'
+
+Example #16: After some time, more candidates were presented, like Union of Democrats for Europe leader Clemente Mastella, Italy of Values leader and former magistrate Antonio Di Pietro, Federation of the Greens leader Alfonso Pecoraro Scanio and others few minor candidates.
+Expected output: 'entities: [{'span': 'Union of Democrats for Europe', 'entity': 'Political Party'}, {'span': 'Clemente Mastella', 'entity': 'Politician'}, {'span': 'Italy of Values', 'entity': 'Political Party'}, {'span': 'Antonio Di Pietro', 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'Alfonso Pecoraro Scanio', 'entity': 'Politician'}]'
+
+Example #17: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+
+Example #18: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #19: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #20: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+

@@ -1,0 +1,30 @@
+Example #1: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #2: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #3: Darkness at Noon for the New Statesman in 1941, saying:
+Expected output: 'entities: [{'span': 'Darkness at Noon', 'entity': 'Book'}, {'span': 'New Statesman', 'entity': 'Magazine'}]'
+
+Example #4: He was influenced by the Marxist playwright Bertolt Brecht and was invited by Brecht to be his assistant at the East Berlin State Opera but turned down the offer.
+Expected output: 'entities: [{'span': 'Marxist', 'entity': 'Misc'}, {'span': 'Bertolt Brecht', 'entity': 'Writer'}, {'span': 'Brecht', 'entity': 'Writer'}, {'span': 'East Berlin State Opera', 'entity': 'Location'}]'
+
+Example #5: In 1960, aged 42, he approached Aleksandr Tvardovsky, a poet and the chief editor of the Novy Mir magazine, with the manuscript of One Day in the Life of Ivan Denisovich.
+Expected output: 'entities: [{'span': 'Aleksandr Tvardovsky', 'entity': 'Writer'}, {'span': 'Novy Mir', 'entity': 'Magazine'}, {'span': 'One Day in the Life of Ivan Denisovich', 'entity': 'Book'}]'
+
+Example #6: This acted as a prelude to the release the following year of The Whitsun Weddings, the volume which cemented his reputation; almost immediately after its publication he was granted a Fellowship of the Royal Society of Literature.
+Expected output: 'entities: [{'span': 'The Whitsun Weddings', 'entity': 'Book'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}]'
+
+Example #7: It tied with Roger Zelazny ' s This Immortal for the Hugo Award in 1966,
+Expected output: 'entities: [{'span': 'Roger Zelazny', 'entity': 'Writer'}, {'span': 'This Immortal', 'entity': 'Book'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #8: To Dolapdere, he sarcastically gave the name Cholera (Kolera in Turkish) in Ağır Roman, thereby recalling both its shabbiness and the fact that the great Poland poet Adam Mickiewicz died there from the cholera in 1855.
+Expected output: 'entities: [{'span': 'Dolapdere', 'entity': 'Location'}, {'span': 'Cholera', 'entity': 'Misc'}, {'span': 'Kolera', 'entity': 'Misc'}, {'span': 'Turkish', 'entity': 'Misc'}, {'span': 'Ağır Roman', 'entity': 'Book'}, {'span': 'Poland', 'entity': 'Country'}, {'span': 'Adam Mickiewicz', 'entity': 'Writer'}, {'span': 'cholera', 'entity': 'Misc'}]'
+
+Example #9: Seymour Hersh, Nixon's Last Cover-Up: The Tapes He Wants the Archives to Suppress; The New Yorker, December 14, 1992, pp. 80-81 In passing sentence in February 1972, the judge rejected the D.A. ' s motion that Capp agree to undergo psychiatric treatment.
+Expected output: 'entities: [{'span': 'Seymour Hersh', 'entity': 'Writer'}, {'span': 'Nixon', 'entity': 'Person'}, {'span': 'Last Cover-Up: The Tapes He Wants the Archives to Suppress', 'entity': 'Misc'}, {'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'D.A.', 'entity': 'Misc'}, {'span': 'Capp', 'entity': 'Writer'}]'
+
+Example #10: Paul Christopher, J. D. Salinger ' s Holden Caulfield, and J. P. Donleavy ' s Sebastion Dangerfield in The Ginger Man (1955) are among the post-World War II literary heroes who have stymied Hollywood efforts to depict them.see J.P. Donnelley, 91, Author Who Stirred Controversy With ' Ginger Man, ' Dies, The New York Times, September 14, 2017.
+Expected output: 'entities: [{'span': 'Paul Christopher', 'entity': 'Writer'}, {'span': 'J. D. Salinger', 'entity': 'Writer'}, {'span': 'Holden Caulfield', 'entity': 'Person'}, {'span': 'J. P. Donleavy', 'entity': 'Writer'}, {'span': 'Sebastion Dangerfield', 'entity': 'Person'}, {'span': 'The Ginger Man', 'entity': 'Book'}, {'span': 'post-World War II literary', 'entity': 'Misc'}, {'span': 'Hollywood', 'entity': 'Organisation'}, {'span': 'J.P. Donnelley', 'entity': 'Writer'}, {'span': 'Ginger Man', 'entity': 'Book'}, {'span': 'The New York Times', 'entity': 'Organisation'}]'
+

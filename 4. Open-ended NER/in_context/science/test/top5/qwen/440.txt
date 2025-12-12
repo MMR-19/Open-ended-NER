@@ -1,0 +1,15 @@
+Example #1: Prominent anatomists and geologists such as Georges Cuvier, Richard Owen, Adam Sedgwick, and Charles Lyell attacked it vigorously.
+Expected output: 'entities: [{'span': 'Georges Cuvier', 'entity': 'Scientist'}, {'span': 'Richard Owen', 'entity': 'Scientist'}, {'span': 'Adam Sedgwick', 'entity': 'Scientist'}, {'span': 'Charles Lyell', 'entity': 'Scientist'}]'
+
+Example #2: Such experiments were independently performed by Walther Bothe and Hans Geiger,
+Expected output: 'entities: [{'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Hans Geiger', 'entity': 'Scientist'}]'
+
+Example #3: It was discovered during the Palomar-Leiden Trojan survey on 26 March 1971, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.
+Expected output: 'entities: [{'span': 'Palomar-Leiden Trojan survey', 'entity': 'Misc'}, {'span': 'Ingrid van Houten-Groeneveld', 'entity': 'Scientist'}, {'span': 'Cornelis van Houten', 'entity': 'Scientist'}, {'span': 'Leiden', 'entity': 'Location'}, {'span': 'Tom Gehrels', 'entity': 'Scientist'}, {'span': 'Palomar Observatory', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}]'
+
+Example #4: Lin is recognized for his contributions to stem cell research, especially for his discoveries of the Piwi / Argonaute (AGO) gene family and the Piwi-interacting RNA s (piRNAs), and for proving the stem cell niche theory.
+Expected output: 'entities: [{'span': 'Lin', 'entity': 'Scientist'}, {'span': 'stem cell', 'entity': 'Misc'}, {'span': 'Piwi', 'entity': 'Protein'}, {'span': 'Argonaute', 'entity': 'Protein'}, {'span': 'AGO', 'entity': 'Protein'}, {'span': 'Piwi-interacting RNA', 'entity': 'Misc'}, {'span': 'piRNAs', 'entity': 'Misc'}, {'span': 'stem cell niche theory', 'entity': 'Theory'}]'
+
+Example #5: According to writer Daniel Loxton and paleontologist Donald Prothero, Cryptozoologists have often promoted ' Professor Roy Mackal, PhD.
+Expected output: 'entities: [{'span': 'Daniel Loxton', 'entity': 'Person'}, {'span': 'Donald Prothero', 'entity': 'Scientist'}, {'span': 'Roy Mackal', 'entity': 'Scientist'}]'
+

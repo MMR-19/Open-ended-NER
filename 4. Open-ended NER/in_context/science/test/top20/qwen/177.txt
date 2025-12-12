@@ -1,0 +1,60 @@
+Example #1: In 1991, John Preskill and Kip Thorne bet against Stephen Hawking that the hypothesis was FALSE.
+Expected output: 'entities: [{'span': 'John Preskill', 'entity': 'Scientist'}, {'span': 'Kip Thorne', 'entity': 'Scientist'}, {'span': 'Stephen Hawking', 'entity': 'Scientist'}]'
+
+Example #2: Sagan and his works received numerous awards and honors, including the NASA Distinguished Public Service Medal, the National Academy of Sciences Public Welfare Medal, the Pulitzer Prize for General Non-Fiction for his book The Dragons of Eden, and, regarding Cosmos: A Personal Voyage, two Emmy Award s, the Peabody Award, and the Hugo Award.
+Expected output: 'entities: [{'span': 'Sagan', 'entity': 'Scientist'}, {'span': 'NASA Distinguished Public Service Medal', 'entity': 'Award'}, {'span': 'National Academy of Sciences Public Welfare Medal', 'entity': 'Award'}, {'span': 'Pulitzer Prize for General Non-Fiction', 'entity': 'Award'}, {'span': 'The Dragons of Eden', 'entity': 'Misc'}, {'span': 'Cosmos: A Personal Voyage', 'entity': 'Misc'}, {'span': 'Emmy Award', 'entity': 'Award'}, {'span': 'Peabody Award', 'entity': 'Award'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #3: It contains abundant speculation about technological invention, including descriptions of a worldwide telephone network, solar power, air travel, space travel to the planets Saturn and Jupiter, and terraforming engineering projects damming the Arctic Ocean, and adjusting the Earth's (Terra) axial tilt (by the Terrestrial Axis Straightening Company).
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Arctic Ocean', 'entity': 'Misc'}, {'span': 'Earth', 'entity': 'Astronomical Object'}]'
+
+Example #4: The American Breeders Association held its first meeting in 1903 to discuss the new science of genetics that arose from Charles Darwin s theory of evolution and Gregor Mendel s discoveries of the laws of inheritance.
+Expected output: 'entities: [{'span': 'American Breeders Association', 'entity': 'Organisation'}, {'span': 'Charles Darwin', 'entity': 'Scientist'}, {'span': 'theory of evolution', 'entity': 'Theory'}, {'span': 'Gregor Mendel', 'entity': 'Scientist'}]'
+
+Example #5: On 21 December 2012, the Cassini-Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.
+Expected output: 'entities: [{'span': 'Cassini-Huygens', 'entity': 'Misc'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #6: In the Early Modern period, scientists such as William Harvey in England and Galileo Galilei in Italy reacted against the theories of Aristotle and other classical era thinkers like Galen, establishing new theories based to some degree on observation and experiment.
+Expected output: 'entities: [{'span': 'Early Modern period', 'entity': 'Misc'}, {'span': 'William Harvey', 'entity': 'Scientist'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Aristotle', 'entity': 'Person'}, {'span': 'Galen', 'entity': 'Person'}]'
+
+Example #7: However, in November 2015, a group of Chinese scientists used the gene editing technique CRISPR / Cas9 to edit single-celled, non-viable embryos to see the effectiveness of this technique.
+Expected output: 'entities: [{'span': 'Chinese', 'entity': 'Misc'}, {'span': 'CRISPR', 'entity': 'Misc'}, {'span': 'Cas9', 'entity': 'Misc'}]'
+
+Example #8: From the 16th century, researchers including Jan Baptist van Helmont, Robert Boyle, and Isaac Newton tried to establish theories of the experimentally observed chemical transformations.
+Expected output: 'entities: [{'span': 'Jan Baptist van Helmont', 'entity': 'Scientist'}, {'span': 'Robert Boyle', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #9: This minor planet was named by the discoverer in memory of English astronomers Charles Mason (1728-1786) and Jeremiah Dixon (1733-1779), who observed the 1761 transit of Venus from the Cape of Good Hope.
+Expected output: 'entities: [{'span': 'minor planet', 'entity': 'Misc'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Charles Mason', 'entity': 'Scientist'}, {'span': 'Jeremiah Dixon', 'entity': 'Scientist'}, {'span': '1761 transit of Venus', 'entity': 'Event'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}]'
+
+Example #10: The existence of the antiproton was experimentally confirmed in 1955 by University of California, Berkeley physicist s Emilio Segrè and Owen Chamberlain, for which they were awarded the 1959 Nobel Prize in Physics.
+Expected output: 'entities: [{'span': 'University of California, Berkeley', 'entity': 'University'}, {'span': 'Emilio Segrè', 'entity': 'Scientist'}, {'span': 'Owen Chamberlain', 'entity': 'Scientist'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}]'
+
+Example #11: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #12: The observatory made headlines briefly with the announcement on 10 December 1983 of the discovery of an unknown object at first described as possibly as large as the giant planet Jupiter and possibly so close to Earth that it would be part of this solar system.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'solar system', 'entity': 'Misc'}]'
+
+Example #13: The Nicolaus Copernicus heliocentric theory of the Solar System had received confirmation by the observations of Galileo Galilei and Tycho Brahe and the mathematical investigations of Johannes Kepler and Isaac Newton.
+Expected output: 'entities: [{'span': 'Nicolaus Copernicus heliocentric theory', 'entity': 'Theory'}, {'span': 'Solar System', 'entity': 'Misc'}, {'span': 'Galileo Galilei', 'entity': 'Scientist'}, {'span': 'Tycho Brahe', 'entity': 'Scientist'}, {'span': 'Johannes Kepler', 'entity': 'Scientist'}, {'span': 'Isaac Newton', 'entity': 'Scientist'}]'
+
+Example #14: Several scholars including Steven Pinker, Chomsky, Gerald Edelman, and Alexander Luria have indicated the importance of the emergence of human language as an important regulative mechanism of learning and memory in the context of the development of higher-order consciousness.
+Expected output: 'entities: [{'span': 'Steven Pinker', 'entity': 'Scientist'}, {'span': 'Chomsky', 'entity': 'Scientist'}, {'span': 'Gerald Edelman', 'entity': 'Scientist'}, {'span': 'Alexander Luria', 'entity': 'Scientist'}, {'span': 'higher-order consciousness', 'entity': 'Theory'}]'
+
+Example #15: Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.
+Expected output: 'entities: [{'span': 'Alexander Marson', 'entity': 'Scientist'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'genetics', 'entity': 'Discipline'}, {'span': 'human immunology', 'entity': 'Discipline'}, {'span': 'CRISPR genome engineering', 'entity': 'Discipline'}]'
+
+Example #16: Such celebrities as Hermann von Helmholtz, Gustav Kirchhoff, William Thomson (Lord Kelvin), the Siemens brothers, and the Marquis of Salisbury visited the small Norwegian exhibit booth and watched with amazement as a system of pulsating spheres and similar devices appeared to reproduce well-known electric and magnetic phenomena.
+Expected output: 'entities: [{'span': 'Hermann von Helmholtz', 'entity': 'Scientist'}, {'span': 'Gustav Kirchhoff', 'entity': 'Scientist'}, {'span': 'William Thomson', 'entity': 'Scientist'}, {'span': 'Lord Kelvin', 'entity': 'Scientist'}, {'span': 'Siemens brothers', 'entity': 'Person'}, {'span': 'Marquis of Salisbury', 'entity': 'Person'}, {'span': 'Norwegian', 'entity': 'Misc'}]'
+
+Example #17: Among those in attendance were Werner Heisenberg, Carl Ramsauer, Wolfgang Finkelnburg, Carl Friedrich von Weizsäcker, Juilfs, as well as supporters of the declining deutsche Physik movement.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Carl Ramsauer', 'entity': 'Scientist'}, {'span': 'Wolfgang Finkelnburg', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}, {'span': 'Juilfs', 'entity': 'Scientist'}, {'span': 'deutsche Physik movement', 'entity': 'Event'}]'
+
+Example #18: In 1969, Shenton persuaded Ellis Hillman, a University of East London lecturer, to become president of the Flat Earth Society; but there is little evidence of any activity on his part until after Shenton's death, when he added most of Shenton's library to the archives of the Science Fiction Foundation he helped to establish.
+Expected output: 'entities: [{'span': 'Shenton', 'entity': 'Person'}, {'span': 'Ellis Hillman', 'entity': 'Person'}, {'span': 'University of East London', 'entity': 'University'}, {'span': 'Flat Earth Society', 'entity': 'Organisation'}, {'span': 'Science Fiction Foundation', 'entity': 'Organisation'}]'
+
+Example #19: It was discovered during the Palomar-Leiden Trojan survey on 26 March 1971, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.
+Expected output: 'entities: [{'span': 'Palomar-Leiden Trojan survey', 'entity': 'Misc'}, {'span': 'Ingrid van Houten-Groeneveld', 'entity': 'Scientist'}, {'span': 'Cornelis van Houten', 'entity': 'Scientist'}, {'span': 'Leiden', 'entity': 'Location'}, {'span': 'Tom Gehrels', 'entity': 'Scientist'}, {'span': 'Palomar Observatory', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}]'
+
+Example #20: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+

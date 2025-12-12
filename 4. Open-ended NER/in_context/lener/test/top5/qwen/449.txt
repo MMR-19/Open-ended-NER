@@ -1,0 +1,15 @@
+Example #1: Mm. TARCISIO VIEIRA DE CARVALHO, DJe 22.9.2017).
+Expected output: 'entities: [{'span': 'TARCISIO VIEIRA DE CARVALHO', 'entity': 'Pessoa'}, {'span': '22.9.2017', 'entity': 'Tempo'}]'
+
+Example #2: SÚMULAS 5 E 7 DO STJ.
+Expected output: 'entities: [{'span': 'SÚMULAS 5 E 7 DO STJ', 'entity': 'Jurisprudência'}]'
+
+Example #3: (TJMG Apelação Cível 1.0027.13.026710-0/001, Relator (a): Des. (a) Valdez Leite Machado, 14ª CÂMARA CÍVEL, julgamento em 08/02/2018, publicação da súmula em 21/02/2018).
+Expected output: 'entities: [{'span': 'TJMG', 'entity': 'Organização'}, {'span': 'Apelação Cível 1.0027.13.026710-0/001', 'entity': 'Jurisprudência'}, {'span': 'Valdez Leite Machado', 'entity': 'Pessoa'}, {'span': '14ª CÂMARA CÍVEL', 'entity': 'Organização'}, {'span': '08/02/2018', 'entity': 'Tempo'}, {'span': '21/02/2018', 'entity': 'Tempo'}]'
+
+Example #4: Sobremais, a apelante anexou à exordial planilha de atualização do débito (p. 35), a qual estabelece de forma detalhada os valores que compõem a pretensão inicial, 1 TJRJ, Agravo de Instrumento n.º 00113878520158190000, Relator: Fernando Cerqueira Chagas, Data de Julgamento: 22/05/2015, Décima Primeira Câmara Cível, Data de Publicação: 26/05/2015; REsp 944.352/SP, Rel. Ministro Arnaldo Esteves Lima, Quinta Turma, julgado em 29/11/2007, DJ 07/02/2008.
+Expected output: 'entities: [{'span': 'TJRJ', 'entity': 'Organização'}, {'span': 'Agravo de Instrumento n.º 00113878520158190000', 'entity': 'Jurisprudência'}, {'span': 'Fernando Cerqueira Chagas', 'entity': 'Pessoa'}, {'span': '22/05/2015', 'entity': 'Tempo'}, {'span': 'Décima Primeira Câmara Cível', 'entity': 'Organização'}, {'span': '26/05/2015', 'entity': 'Tempo'}, {'span': 'REsp 944.352/SP', 'entity': 'Jurisprudência'}, {'span': 'Arnaldo Esteves Lima', 'entity': 'Pessoa'}, {'span': 'Quinta Turma', 'entity': 'Organização'}, {'span': '29/11/2007', 'entity': 'Tempo'}, {'span': '07/02/2008', 'entity': 'Tempo'}]'
+
+Example #5: Min. Milton de Moura França, Tribunal Pleno, DJ de 20/10/00).
+Expected output: 'entities: [{'span': 'Milton de Moura França', 'entity': 'Pessoa'}, {'span': '20/10/00', 'entity': 'Tempo'}]'
+

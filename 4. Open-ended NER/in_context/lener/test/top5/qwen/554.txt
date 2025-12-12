@@ -1,0 +1,15 @@
+Example #1: Com vistas ao monitoramento da citada deliberação, conforme instrução constante da peça 52, foi sugerida a realização de diligência solicitando informações/elementos que permitissem verificar o cumprimento das determinações contidas nos subitens 9.2 e 9.3 do Acórdão 2.634/2016 - TCU - Plenário.
+Expected output: 'entities: [{'span': 'Acórdão 2.634/2016 - TCU - Plenário', 'entity': 'Jurisprudência'}]'
+
+Example #2: Em primeiro lugar, verifico que não há prazo definido para cumprimento (arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014).
+Expected output: 'entities: [{'span': 'arts. 2º, inciso I, e 8º, inciso I, da Resolução-TCU 265/2014', 'entity': 'Legislação'}]'
+
+Example #3: A ementa do acórdão proferido na Pet 1738-AgRg, Rel. o Min. Celso de Mello, Pleno, DJe 1º/10/199, é elucidativa e precisa quanto a taxatividade da competência do Supremo Tribunal Federal: “ E M E N T A: PROTESTO JUDICIAL FORMULADO CONTRA DEPUTADO FEDERAL - MEDIDA DESTITUÍDA DE CARÁTER PENAL (CPC, ART. 867) - AUSÊNCIA DE Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Pet 1738-AgRg', 'entity': 'Jurisprudência'}, {'span': 'Celso de Mello', 'entity': 'Pessoa'}, {'span': '1º/10/199', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'CPC, ART. 867', 'entity': 'Legislação'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #4: A ementa do acórdão proferido na Pet 1738-AgRg, Rel. o Min. Celso de Mello, Pleno, DJe 1º/10/199, é elucidativa e precisa quanto a taxatividade da competência do Supremo Tribunal Federal: “ E M E N T A: PROTESTO JUDICIAL FORMULADO CONTRA DEPUTADO FEDERAL - MEDIDA DESTITUÍDA DE CARÁTER PENAL (CPC, ART. 867) - AUSÊNCIA DE Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
+Expected output: 'entities: [{'span': 'Pet 1738-AgRg', 'entity': 'Jurisprudência'}, {'span': 'Celso de Mello', 'entity': 'Pessoa'}, {'span': '1º/10/199', 'entity': 'Tempo'}, {'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': 'CPC, ART. 867', 'entity': 'Legislação'}, {'span': 'MP n° 2.200-2/2001', 'entity': 'Legislação'}, {'span': '24/08/2001', 'entity': 'Tempo'}, {'span': 'Infraestrutura de Chaves Públicas Brasileira', 'entity': 'Organização'}, {'span': 'ICP-Brasil', 'entity': 'Organização'}]'
+
+Example #5: PROCEDÊNCIA DA REPRESENTAÇÃO APRECIADA POR MEIO DO ACÓRDÃO 2.634/2016-TCU-PLENÁRIO.
+Expected output: 'entities: [{'span': 'ACÓRDÃO 2.634/2016-TCU-PLENÁRIO', 'entity': 'Jurisprudência'}]'
+

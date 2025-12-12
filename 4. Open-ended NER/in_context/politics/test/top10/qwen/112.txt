@@ -1,0 +1,30 @@
+Example #1: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #2: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #3: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #4: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #5: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #6: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #7: He was also the Member of Parliament for Upper Bann from 1990 Upper Bann by-election to 2005 United Kingdom general election in Northern Ireland and the Member of the Legislative Assembly (MLA) for Upper Bann from 1998 to 2007 Northern Ireland Assembly election.
+Expected output: 'entities: [{'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'Upper Bann', 'entity': 'Organisation'}, {'span': '1990 Upper Bann by-election', 'entity': 'Election'}, {'span': '2005 United Kingdom general election in Northern Ireland', 'entity': 'Election'}, {'span': 'Legislative Assembly', 'entity': 'Organisation'}, {'span': 'MLA', 'entity': 'Organisation'}, {'span': '2007 Northern Ireland Assembly election', 'entity': 'Election'}]'
+
+Example #8: The devolved administration was suspended several times (especially between 15 October 2002 and 8 May 2007) because the Ulster Unionist Party and Democratic Unionist Party were uncomfortable being in government with Sinn Féin when the Provisional Irish Republican Army had failed to decommission its arms fully and continued its criminal activities.
+Expected output: 'entities: [{'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Provisional Irish Republican Army', 'entity': 'Organisation'}]'
+
+Example #9: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #10: National elections held on 13 May 2001 returned Berlusconi to power at the head of the five-party center-right House of Freedoms coalition, comprising the Prime Minister's own party, Forza Italia, the National Alliance, the Lega Nord, the Christian Democratic Center and the United Christian Democrats.
+Expected output: 'entities: [{'span': 'Berlusconi', 'entity': 'Politician'}, {'span': 'House of Freedoms', 'entity': 'Political Party'}, {'span': 'Forza Italia', 'entity': 'Political Party'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'Lega Nord', 'entity': 'Political Party'}, {'span': 'Christian Democratic Center', 'entity': 'Political Party'}, {'span': 'United Christian Democrats', 'entity': 'Political Party'}]'
+

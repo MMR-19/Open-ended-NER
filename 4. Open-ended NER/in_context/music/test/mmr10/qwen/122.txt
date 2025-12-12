@@ -1,0 +1,30 @@
+Example #1: He has musically encompassed Folk music, funk, Soul music, Hip hop music, Electronic music, alternative rock, Country music, and psychedelia.
+Expected output: 'entities: [{'span': 'Folk music', 'entity': 'Music Genre'}, {'span': 'funk', 'entity': 'Music Genre'}, {'span': 'Soul music', 'entity': 'Music Genre'}, {'span': 'Hip hop music', 'entity': 'Music Genre'}, {'span': 'Electronic music', 'entity': 'Music Genre'}, {'span': 'alternative rock', 'entity': 'Music Genre'}, {'span': 'Country music', 'entity': 'Music Genre'}, {'span': 'psychedelia', 'entity': 'Music Genre'}]'
+
+Example #2: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #3: Coldcut returned with the single Everything Is Under Control at the end of 2005, featuring Jon Spencer (of Jon Spencer Blues Explosion) and Mike Ladd.
+Expected output: 'entities: [{'span': 'Coldcut', 'entity': 'Band'}, {'span': 'Everything Is Under Control', 'entity': 'Song'}, {'span': 'Jon Spencer', 'entity': 'Musical Artist'}, {'span': 'Jon Spencer Blues Explosion', 'entity': 'Band'}, {'span': 'Mike Ladd', 'entity': 'Musical Artist'}]'
+
+Example #4: At the 33rd Academy Awards, The Apartment was nominated for ten awards and won five, including Academy Award for Best Picture, Academy Award for Best Director, and Academy Award for Best Original Screenplay.
+Expected output: 'entities: [{'span': '33rd Academy Awards', 'entity': 'Award'}, {'span': 'The Apartment', 'entity': 'Misc'}, {'span': 'Academy Award for Best Picture', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Screenplay', 'entity': 'Award'}]'
+
+Example #5: However, some bands were created around the talent of a songwriter within the group like Gary Barlow of Take That or Tony Mortimer of East 17.
+Expected output: 'entities: [{'span': 'Gary Barlow', 'entity': 'Musical Artist'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Tony Mortimer', 'entity': 'Musical Artist'}, {'span': 'East 17', 'entity': 'Band'}]'
+
+Example #6: For Mirrors, instead of working with previous producers Sandy Pearlman (who instead went on to manage Black Sabbath) and Murray Krugman, Blue Öyster Cult chose Tom Werman, who had worked with acts such as Cheap Trick and Ted Nugent.
+Expected output: 'entities: [{'span': 'Mirrors', 'entity': 'Album'}, {'span': 'Sandy Pearlman', 'entity': 'Person'}, {'span': 'Black Sabbath', 'entity': 'Band'}, {'span': 'Murray Krugman', 'entity': 'Person'}, {'span': 'Blue Öyster Cult', 'entity': 'Band'}, {'span': 'Tom Werman', 'entity': 'Person'}, {'span': 'Cheap Trick', 'entity': 'Band'}, {'span': 'Ted Nugent', 'entity': 'Musical Artist'}]'
+
+Example #7: Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award -winning singles Spoonman and Black Hole Sun.
+Expected output: 'entities: [{'span': 'Soundgarden', 'entity': 'Band'}, {'span': 'Superunknown', 'entity': 'Album'}, {'span': 'Billboard 200', 'entity': 'Misc'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Spoonman', 'entity': 'Song'}, {'span': 'Black Hole Sun', 'entity': 'Song'}]'
+
+Example #8: In Finland, there emerged a scene that mixed the first wave black metal style with elements of death metal and grindcore; this included Beherit, Archgoat and Impaled Nazarene, whose debut album Tol Cormpt Norz Norz Norz Rock Hard journalist Wolf-Rüdiger Mühlmann considers a part of war metal's roots.
+Expected output: 'entities: [{'span': 'Finland', 'entity': 'Country'}, {'span': 'black metal', 'entity': 'Music Genre'}, {'span': 'death metal', 'entity': 'Music Genre'}, {'span': 'grindcore', 'entity': 'Music Genre'}, {'span': 'Beherit', 'entity': 'Band'}, {'span': 'Archgoat', 'entity': 'Band'}, {'span': 'Impaled Nazarene', 'entity': 'Band'}, {'span': 'Tol Cormpt Norz Norz Norz', 'entity': 'Album'}, {'span': 'Rock Hard', 'entity': 'Album'}, {'span': 'Wolf-Rüdiger Mühlmann', 'entity': 'Person'}, {'span': 'war metal', 'entity': 'Music Genre'}]'
+
+Example #9: Outside the south, the accordion (predominantly the piano accordion) is used in almost all styles of Forró (in particular in the subgenres of Xote and Baião) as the principal instrument, Luiz Gonzaga (the King of the Baião) and Dominguinhos being among the notable musicians in this style from the northeast.
+Expected output: 'entities: [{'span': 'piano accordion', 'entity': 'Musical Instrument'}, {'span': 'Forró', 'entity': 'Music Genre'}, {'span': 'Xote', 'entity': 'Music Genre'}, {'span': 'Baião', 'entity': 'Music Genre'}, {'span': 'Luiz Gonzaga', 'entity': 'Musical Artist'}, {'span': 'King of the Baião', 'entity': 'Misc'}, {'span': 'Dominguinhos', 'entity': 'Musical Artist'}]'
+
+Example #10: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+

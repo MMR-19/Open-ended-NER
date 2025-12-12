@@ -1,0 +1,15 @@
+Example #1: This uses the words of war poet Wilfred Owen ' s At a Calvary near the Ancre.
+Expected output: 'entities: [{'span': 'Wilfred Owen', 'entity': 'Writer'}, {'span': 'At a Calvary near the Ancre', 'entity': 'Poem'}]'
+
+Example #2: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #3: His interest in space, however, was his primary focus, especially after reading science fiction stories by writers such as H. G. Wells and Edgar Rice Burroughs, which stirred his imagination about life on other planets such as Mars.
+Expected output: 'entities: [{'span': 'science fiction stories', 'entity': 'Literary Genre'}, {'span': 'H. G. Wells', 'entity': 'Writer'}, {'span': 'Edgar Rice Burroughs', 'entity': 'Writer'}, {'span': 'Mars', 'entity': 'Misc'}]'
+
+Example #4: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+
+Example #5: The period around World War II also saw the publication of the time travel novel Lest Darkness Fall by L. Sprague de Camp, in which an American academic travels to Italy at the time of the Byzantine invasion of the Ostrogoths.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'time travel novel', 'entity': 'Literary Genre'}, {'span': 'Lest Darkness Fall', 'entity': 'Book'}, {'span': 'L. Sprague de Camp', 'entity': 'Writer'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Byzantine', 'entity': 'Misc'}, {'span': 'Ostrogoths', 'entity': 'Misc'}]'
+

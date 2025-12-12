@@ -1,0 +1,30 @@
+Example #1: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+
+Example #2: A sleeper hit in United Kingdom, the record eventually hit the top three in the Official Charts Company and received platinum certifications from British Phonographic Industry, Recording Industry Association of America and ARIA.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Official Charts Company', 'entity': 'Organisation'}, {'span': 'British Phonographic Industry', 'entity': 'Organisation'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'ARIA', 'entity': 'Organisation'}]'
+
+Example #3: This was followed by a series of small, intimate gigs at UK venues such as Liverpool's The Cavern Club, London's Mean Fiddler, and Glasgow's Barrowland Ballroom.
+Expected output: 'entities: [{'span': 'UK', 'entity': 'Country'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'The Cavern Club', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Mean Fiddler', 'entity': 'Location'}, {'span': 'Glasgow', 'entity': 'Location'}, {'span': 'Barrowland Ballroom', 'entity': 'Location'}]'
+
+Example #4: These albums spawned some of Carey's most successful singles, including Hero, Without You, All I Want for Christmas Is You, Fantasy, Always Be My Baby, as well as One Sweet Day, which peaked at number one in the U.S. for 16 weeks and became Billboard s Song Of The Decade (1990s Decade).
+Expected output: 'entities: [{'span': 'Carey', 'entity': 'Musical Artist'}, {'span': 'Hero', 'entity': 'Song'}, {'span': 'Without You', 'entity': 'Song'}, {'span': 'All I Want for Christmas Is You', 'entity': 'Song'}, {'span': 'Fantasy', 'entity': 'Song'}, {'span': 'Always Be My Baby', 'entity': 'Song'}, {'span': 'One Sweet Day', 'entity': 'Song'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Billboard', 'entity': 'Organisation'}, {'span': 'Song Of The Decade', 'entity': 'Misc'}]'
+
+Example #5: In 2018, Buckingham was fired from the band and was replaced by Mike Campbell, formerly of Tom Petty and the Heartbreakers, and Neil Finn of Split Enz and Crowded House.
+Expected output: 'entities: [{'span': 'Buckingham', 'entity': 'Musical Artist'}, {'span': 'Mike Campbell', 'entity': 'Musical Artist'}, {'span': 'Tom Petty and the Heartbreakers', 'entity': 'Band'}, {'span': 'Neil Finn', 'entity': 'Musical Artist'}, {'span': 'Split Enz', 'entity': 'Band'}, {'span': 'Crowded House', 'entity': 'Band'}]'
+
+Example #6: It started with pop music singers like Glen Campbell, Bobbie Gentry, John Denver, Olivia Newton-John, Anne Murray, B. J. Thomas, The Bellamy Brothers, and Linda Ronstadt having hits on the country charts.
+Expected output: 'entities: [{'span': 'pop music', 'entity': 'Music Genre'}, {'span': 'Glen Campbell', 'entity': 'Person'}, {'span': 'Bobbie Gentry', 'entity': 'Person'}, {'span': 'John Denver', 'entity': 'Person'}, {'span': 'Olivia Newton-John', 'entity': 'Person'}, {'span': 'Anne Murray', 'entity': 'Musical Artist'}, {'span': 'B. J. Thomas', 'entity': 'Musical Artist'}, {'span': 'The Bellamy Brothers', 'entity': 'Band'}, {'span': 'Linda Ronstadt', 'entity': 'Musical Artist'}]'
+
+Example #7: In Finland, there emerged a scene that mixed the first wave black metal style with elements of death metal and grindcore; this included Beherit, Archgoat and Impaled Nazarene, whose debut album Tol Cormpt Norz Norz Norz Rock Hard journalist Wolf-Rüdiger Mühlmann considers a part of war metal's roots.
+Expected output: 'entities: [{'span': 'Finland', 'entity': 'Country'}, {'span': 'black metal', 'entity': 'Music Genre'}, {'span': 'death metal', 'entity': 'Music Genre'}, {'span': 'grindcore', 'entity': 'Music Genre'}, {'span': 'Beherit', 'entity': 'Band'}, {'span': 'Archgoat', 'entity': 'Band'}, {'span': 'Impaled Nazarene', 'entity': 'Band'}, {'span': 'Tol Cormpt Norz Norz Norz', 'entity': 'Album'}, {'span': 'Rock Hard', 'entity': 'Album'}, {'span': 'Wolf-Rüdiger Mühlmann', 'entity': 'Person'}, {'span': 'war metal', 'entity': 'Music Genre'}]'
+
+Example #8: Their debut album The Magnificent Moodies, produced by Denny Cordell with a strong Beat music / Rhythm and blues flavour, was released on Decca in mono only in 1965.
+Expected output: 'entities: [{'span': 'The Magnificent Moodies', 'entity': 'Album'}, {'span': 'Denny Cordell', 'entity': 'Musical Artist'}, {'span': 'Beat music', 'entity': 'Music Genre'}, {'span': 'Rhythm and blues', 'entity': 'Music Genre'}, {'span': 'Decca', 'entity': 'Organisation'}]'
+
+Example #9: The band have received a total of 11 nominations for ARIA Music Awards in ARIA Music Awards of 1999, ARIA Music Awards of 2001 and ARIA Music Awards of 2003.
+Expected output: 'entities: [{'span': 'ARIA Music Awards', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 1999', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2001', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2003', 'entity': 'Award'}]'
+
+Example #10: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+

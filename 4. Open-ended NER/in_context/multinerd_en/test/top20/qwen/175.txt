@@ -1,0 +1,60 @@
+Example #1: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #2: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #3: He was born in Brussels, Belgium, the youngest child of Henry L'Estrange Styleman Le Strange of Hunstanton, Norfolk, educated at Clifton College and died in Cambridge.
+Expected output: 'entities: [{'span': 'Brussels', 'entity': 'Location'}, {'span': 'Belgium', 'entity': 'Location'}, {'span': "Henry L'Estrange Styleman Le Strange", 'entity': 'Person'}, {'span': 'Hunstanton', 'entity': 'Location'}, {'span': 'Norfolk', 'entity': 'Location'}, {'span': 'Clifton College', 'entity': 'Organization'}, {'span': 'Cambridge', 'entity': 'Organization'}]'
+
+Example #4: He caused controversy in 1988 by what Nicholas Kenyon called " plans to create a high level conservatory … for soloists on the model of the Curtis Institute in Philadelphia ", cutting the academy's total number of students.
+Expected output: 'entities: [{'span': 'Nicholas Kenyon', 'entity': 'Person'}, {'span': 'Curtis Institute', 'entity': 'Organization'}, {'span': 'Philadelphia', 'entity': 'Location'}]'
+
+Example #5: Nevertheless, he was encouraged to begin work (1869) on a major choral work, " Les Béatitudes ", which was to occupy him for more than ten years, the delay partly due to the interruptions of the Franco-Prussian War.
+Expected output: 'entities: [{'span': 'Les Béatitudes', 'entity': 'Media'}, {'span': 'Franco-Prussian War', 'entity': 'Event'}]'
+
+Example #6: In Denmark, " gløgg " pairings typically include æbleskiver sprinkled with powdered sugar and accompanied with strawberry marmalade.
+Expected output: 'entities: [{'span': 'Denmark', 'entity': 'Location'}, {'span': 'æbleskiver', 'entity': 'Food'}, {'span': 'powdered sugar', 'entity': 'Food'}, {'span': 'strawberry', 'entity': 'Plant'}, {'span': 'marmalade', 'entity': 'Food'}]'
+
+Example #7: By inserting separate, successive sections of " V. cholerae " DNA into the DNA of other bacteria, such as " E. coli " that would not naturally produce the protein toxins, researchers have investigated the mechanisms by which " V. cholerae " responds to the changing chemical environments of the stomach, mucous layers, and intestinal wall.
+Expected output: 'entities: [{'span': 'E. coli', 'entity': 'Biological entity'}]'
+
+Example #8: The Age of Enlightenment, the subsequent French Revolution and the Napoleonic Wars shaped the continent culturally, politically and economically from the end of the 17th century until the first half of the 19th century.
+Expected output: 'entities: [{'span': 'Age of Enlightenment', 'entity': 'Time'}, {'span': 'French Revolution', 'entity': 'Event'}, {'span': 'Napoleonic Wars', 'entity': 'Event'}]'
+
+Example #9: He was honoured for his pioneering work on prevention of Rh disease of the newborn, and also for his work on the genetics of the Lepidoptera (butterflies and moths).
+Expected output: 'entities: [{'span': 'Rh disease', 'entity': 'Disease'}, {'span': 'Lepidoptera', 'entity': 'Animal'}]'
+
+Example #10: " Escherichia coli " is one of the most important model organisms, and its genetics and biochemistry have been closely studied.
+Expected output: 'entities: [{'span': 'Escherichia coli', 'entity': 'Biological entity'}]'
+
+Example #11: With the onset of World War II, the Ministry of Supply in the United Kingdom established a BW program at Porton Down, headed by the microbiologist Paul Fildes.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'Ministry of Supply', 'entity': 'Organization'}, {'span': 'United Kingdom', 'entity': 'Location'}, {'span': 'Porton Down', 'entity': 'Location'}, {'span': 'Paul Fildes', 'entity': 'Person'}]'
+
+Example #12: With the onset of World War II, the Ministry of Supply in the United Kingdom established a BW program at Porton Down, headed by the microbiologist Paul Fildes.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'Ministry of Supply', 'entity': 'Organization'}, {'span': 'United Kingdom', 'entity': 'Location'}, {'span': 'Porton Down', 'entity': 'Location'}, {'span': 'Paul Fildes', 'entity': 'Person'}]'
+
+Example #13: The genome of cultivated sweet potatoes contains sequences of DNA from " Agrobacterium ", with genes actively expressed by the plants.
+Expected output: 'entities: [{'span': 'Agrobacterium', 'entity': 'Biological entity'}]'
+
+Example #14: He grew to love her, and worshipped her god, Lugh.
+Expected output: 'entities: [{'span': 'Lugh', 'entity': 'Mythological entity'}]'
+
+Example #15: It began approximately in the mid-18 th century and depending on the author either ended with the beginning of contemporary history after World War II, or includes that period up to the present day.
+Expected output: 'entities: [{'span': 'contemporary history', 'entity': 'Time'}, {'span': 'World War II', 'entity': 'Event'}]'
+
+Example #16: Reissued versions of vintage instruments such as the Fender Precision Bass and Fender Jazz Bass remained popular among new instrument buyers up to the 2010 s.
+Expected output: 'entities: [{'span': 'Fender Precision Bass', 'entity': 'Instrument'}, {'span': 'Fender Jazz Bass', 'entity': 'Media'}]'
+
+Example #17: Howard Goodall (subsequently composer of the theme music for " Blackadder ", " Red Dwarf ", and " The Vicar of Dibley ") was musical director.
+Expected output: 'entities: [{'span': 'Howard Goodall', 'entity': 'Person'}, {'span': 'Blackadder', 'entity': 'Media'}, {'span': 'Red Dwarf', 'entity': 'Celestial Body'}, {'span': 'The Vicar of Dibley', 'entity': 'Media'}]'
+
+Example #18: Strains of " Escherichia coli " and " Vibrio cholerae " lacking Hsp33 were rendered especially sensitive to HOCl.
+Expected output: 'entities: [{'span': 'Escherichia coli', 'entity': 'Biological entity'}]'
+
+Example #19: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+
+Example #20: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+

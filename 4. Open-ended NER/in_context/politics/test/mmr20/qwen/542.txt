@@ -1,0 +1,60 @@
+Example #1: Hamlin survived six of his successors in the vice presidency: Andrew Johnson, Schuyler Colfax, Henry Wilson, William A. Wheeler, Chester A. Arthur, and Thomas A. Hendricks.
+Expected output: 'entities: [{'span': 'Hamlin', 'entity': 'Politician'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Schuyler Colfax', 'entity': 'Politician'}, {'span': 'Henry Wilson', 'entity': 'Politician'}, {'span': 'William A. Wheeler', 'entity': 'Politician'}, {'span': 'Chester A. Arthur', 'entity': 'Politician'}, {'span': 'Thomas A. Hendricks', 'entity': 'Politician'}]'
+
+Example #2: Kristol was a fellow of the American Academy of Arts and Sciences, a member of the Council on Foreign Relations and a fellow emeritus at the American Enterprise Institute (having been an associate fellow from 1972, a senior fellow from 1977 and the John M. Olin Distinguished Fellow from 1988 to 1999).
+Expected output: 'entities: [{'span': 'Kristol', 'entity': 'Person'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Council on Foreign Relations', 'entity': 'Organisation'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'John M. Olin Distinguished Fellow', 'entity': 'Misc'}]'
+
+Example #3: Jeddah, Medina and Dubai are the major focus city for the airline, with flights from Islamabad, Karachi, Lahore, Peshawar, Multan, Sialkot and Faisalabad.
+Expected output: 'entities: [{'span': 'Jeddah', 'entity': 'Location'}, {'span': 'Medina', 'entity': 'Location'}, {'span': 'Dubai', 'entity': 'Location'}, {'span': 'Islamabad', 'entity': 'Location'}, {'span': 'Karachi', 'entity': 'Location'}, {'span': 'Lahore', 'entity': 'Location'}, {'span': 'Peshawar', 'entity': 'Location'}, {'span': 'Multan', 'entity': 'Location'}, {'span': 'Sialkot', 'entity': 'Location'}, {'span': 'Faisalabad', 'entity': 'Location'}]'
+
+Example #4: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #5: The head of Government is the Chief Minister, currently the Hon. Fabian Picardo of the Gibraltar Socialist Labour Party (GSLP) who has been in office since 9 December 2011, in alliance with the Gibraltar Liberal Party (Liberals), following the 2011 Gibraltar general election.
+Expected output: 'entities: [{'span': 'Fabian Picardo', 'entity': 'Politician'}, {'span': 'Gibraltar Socialist Labour Party', 'entity': 'Political Party'}, {'span': 'GSLP', 'entity': 'Political Party'}, {'span': 'Gibraltar Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberals', 'entity': 'Political Party'}, {'span': '2011 Gibraltar general election', 'entity': 'Election'}]'
+
+Example #6: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #7: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #8: The Italian Socialist Party, led by Bettino Craxi, became more and more critical of the communists and of the Soviet Union; Craxi himself pushed in favor of Ronald Reagan ' s positioning of Pershing II missiles in Italy, a move many communists strongly disapproved of.
+Expected output: 'entities: [{'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Bettino Craxi', 'entity': 'Politician'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': 'Craxi', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'Pershing II', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}]'
+
+Example #9: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #10: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+
+Example #11: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #12: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #13: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #14: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #15: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #16: These include the TRUE Blue Crew, Antipodean Resistance, the Australian Defence League, National Action (Australia), the Q Society, Reclaim Australia and the Lads Society (formerly United Patriots Front).
+Expected output: 'entities: [{'span': 'TRUE Blue Crew', 'entity': 'Organisation'}, {'span': 'Antipodean Resistance', 'entity': 'Organisation'}, {'span': 'Australian Defence League', 'entity': 'Organisation'}, {'span': 'National Action', 'entity': 'Organisation'}, {'span': 'Australia', 'entity': 'Country'}, {'span': 'Q Society', 'entity': 'Organisation'}, {'span': 'Reclaim Australia', 'entity': 'Organisation'}, {'span': 'Lads Society', 'entity': 'Organisation'}, {'span': 'United Patriots Front', 'entity': 'Organisation'}]'
+
+Example #17: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #18: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #19: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+
+Example #20: In addition to the Tydings-Butler race, McCarthy campaigned for several other Republicans in the 1950 United States Senate elections, including Everett Dirksen against Democratic incumbent and Senate Majority Leader Scott W. Lucas.
+Expected output: 'entities: [{'span': 'Tydings-Butler race', 'entity': 'Event'}, {'span': 'McCarthy', 'entity': 'Politician'}, {'span': 'Republicans', 'entity': 'Misc'}, {'span': '1950 United States Senate elections', 'entity': 'Election'}, {'span': 'Everett Dirksen', 'entity': 'Politician'}, {'span': 'Scott W. Lucas', 'entity': 'Politician'}]'
+

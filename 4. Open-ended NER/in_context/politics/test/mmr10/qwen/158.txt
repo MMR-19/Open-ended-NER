@@ -1,0 +1,30 @@
+Example #1: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #2: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #3: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #4: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+
+Example #5: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #6: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #7: As a result, former party chairpersons Fritz Kuhn and Claudia Roth (who had been elected to parliament that year) were no longer able to continue in their executive function and were replaced by former party secretary general Reinhard Bütikofer and former Bundestag member Angelika Beer.
+Expected output: 'entities: [{'span': 'Fritz Kuhn', 'entity': 'Politician'}, {'span': 'Claudia Roth', 'entity': 'Politician'}, {'span': 'Reinhard Bütikofer', 'entity': 'Politician'}, {'span': 'Angelika Beer', 'entity': 'Politician'}]'
+
+Example #8: After narrowly losing the 1969 Australian federal election, Whitlam led Labor to victory at the 1972 election after 23 years of continuous Liberal Party of Australia - National Party of Australia Coalition Government.
+Expected output: 'entities: [{'span': '1969 Australian federal election', 'entity': 'Election'}, {'span': 'Whitlam', 'entity': 'Politician'}, {'span': 'Labor', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+
+Example #9: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #10: On 4 October 2009, George Papandreou, president of the Panhellenic Socialist Movement party and son and grandson of Prime Ministers, 2009 Greek legislative election as the new Prime Minister of Greece, following five years of government under New Democracy leader Kostas Karamanlis, the nephew of long-time Prime Minister and President Konstantinos Karamanlis.
+Expected output: 'entities: [{'span': 'George Papandreou', 'entity': 'Politician'}, {'span': 'Panhellenic Socialist Movement', 'entity': 'Political Party'}, {'span': '2009 Greek legislative election', 'entity': 'Election'}, {'span': 'Greece', 'entity': 'Country'}, {'span': 'Democracy', 'entity': 'Misc'}, {'span': 'Kostas Karamanlis', 'entity': 'Politician'}, {'span': 'Konstantinos Karamanlis', 'entity': 'Politician'}]'
+

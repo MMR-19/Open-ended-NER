@@ -1,0 +1,30 @@
+Example #1: Several genes known to be affected by differential methylation are the CYP1A1 xenobiotic response element, Aryl hydrocarbon receptor repressor, and F2RL3.
+Expected output: 'entities: [{'span': 'CYP1A1', 'entity': 'Protein'}, {'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'F2RL3', 'entity': 'Misc'}]'
+
+Example #2: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #3: Her laboratory has determined the structures of numerous large protein complexes that play critically important roles in immune signaling, including structures of TRAFs, Myddosome and IKK-beta in Toll-like receptor, the Inflammasome, and the synaptic Recombination-activating gene.
+Expected output: 'entities: [{'span': 'TRAFs', 'entity': 'Protein'}, {'span': 'Myddosome', 'entity': 'Misc'}, {'span': 'IKK-beta', 'entity': 'Protein'}, {'span': 'Toll-like receptor', 'entity': 'Protein'}, {'span': 'Inflammasome', 'entity': 'Misc'}, {'span': 'synaptic Recombination-activating gene', 'entity': 'Protein'}]'
+
+Example #4: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #5: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #6: For example, Saturn ' s moons Titan and Enceladus and Jupiter ' s moons Europa and Ganymede, all of which are outside the habitable zone, may hold large volumes of liquid water in subsurface ocean s.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Titan', 'entity': 'Astronomical Object'}, {'span': 'Enceladus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Europa', 'entity': 'Astronomical Object'}, {'span': 'Ganymede', 'entity': 'Astronomical Object'}]'
+
+Example #7: Tyas ' 5 recent consecutive high rankings within the highly coveted DJ Mag Top 100 poll are a result of his dynamic DJ performances at some of the largest clubs and festivals in the world, including Tomorrowland, A State Of Trance, Ultra Music Festival, Electric Daisy Carnival, Electric Zoo, Godskitchen, Gatecrasher, Ministry Of Sound, Beyond Wonderland, Avalon Hollywood, Privilege Ibiza, and many more.
+Expected output: 'entities: [{'span': 'Tyas', 'entity': 'Person'}, {'span': 'Tomorrowland', 'entity': 'Event'}, {'span': 'A State Of Trance', 'entity': 'Event'}, {'span': 'Ultra Music Festival', 'entity': 'Event'}, {'span': 'Electric Daisy Carnival', 'entity': 'Event'}, {'span': 'Electric Zoo', 'entity': 'Event'}, {'span': 'Godskitchen', 'entity': 'Organisation'}, {'span': 'Gatecrasher', 'entity': 'Event'}, {'span': 'Ministry Of Sound', 'entity': 'Organisation'}, {'span': 'Beyond Wonderland', 'entity': 'Event'}, {'span': 'Avalon Hollywood', 'entity': 'Organisation'}, {'span': 'Privilege Ibiza', 'entity': 'Organisation'}]'
+
+Example #8: Four COSMIC mutational signatures have been associated with DNA mismatch repair deficiency and found in tumors with microsatellite instability: Signature 6, 15, 20 and 26.
+Expected output: 'entities: [{'span': 'COSMIC', 'entity': 'Misc'}, {'span': 'DNA mismatch repair', 'entity': 'Misc'}]'
+
+Example #9: Xu noted that under the near-null magnetic field, Arabidopsis thaliana delays the flowering time by altering the transcription level of three cryptochrome related florigen genes: Phytochrome, CO, and FT; Arabidopsis thaliana also induced longer hypocotyl length under white light in the Near-Null magnetic field compared to standard geomagnetic field and either dark or white light conditions.
+Expected output: 'entities: [{'span': 'Xu', 'entity': 'Scientist'}, {'span': 'near-null magnetic field', 'entity': 'Misc'}, {'span': 'Arabidopsis thaliana', 'entity': 'Misc'}, {'span': 'cryptochrome', 'entity': 'Misc'}, {'span': 'florigen', 'entity': 'Misc'}, {'span': 'Phytochrome', 'entity': 'Misc'}, {'span': 'CO', 'entity': 'Misc'}, {'span': 'FT', 'entity': 'Misc'}, {'span': 'hypocotyl', 'entity': 'Misc'}, {'span': 'Near-Null magnetic field', 'entity': 'Misc'}, {'span': 'geomagnetic field', 'entity': 'Misc'}]'
+
+Example #10: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+

@@ -1,0 +1,15 @@
+Example #1: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #2: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #3: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #4: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #5: From their 18 % share of the first German federal elections under proportional representation in 1919 German federal election, they dropped, for example, to 4.9 % in the 1928 German federal election and to 1.0 % in the November 1932 German federal election.
+Expected output: 'entities: [{'span': 'first German federal elections', 'entity': 'Election'}, {'span': '1919 German federal election', 'entity': 'Election'}, {'span': '1928 German federal election', 'entity': 'Election'}, {'span': 'November 1932 German federal election', 'entity': 'Election'}]'
+

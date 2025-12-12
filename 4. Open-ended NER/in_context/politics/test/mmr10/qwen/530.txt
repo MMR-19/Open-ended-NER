@@ -1,0 +1,30 @@
+Example #1: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #2: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #3: Parties with mainly Eurosceptic views are the ruling United Russia, and opposition parties the Communist Party of the Russian Federation and Liberal Democratic Party of Russia.
+Expected output: 'entities: [{'span': 'United Russia', 'entity': 'Political Party'}, {'span': 'Communist Party of the Russian Federation', 'entity': 'Political Party'}, {'span': 'Liberal Democratic Party of Russia', 'entity': 'Political Party'}]'
+
+Example #4: Many of the magazine's articles were written by members of conservative think tanks located in Washington, including the American Enterprise Institute, the Ethics and Public Policy Center, the Foundation for Defense of Democracies, the Hudson Institute, and the Foreign Policy Initiative.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Location'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'Ethics and Public Policy Center', 'entity': 'Organisation'}, {'span': 'Foundation for Defense of Democracies', 'entity': 'Organisation'}, {'span': 'Hudson Institute', 'entity': 'Organisation'}, {'span': 'Foreign Policy Initiative', 'entity': 'Organisation'}]'
+
+Example #5: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #6: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #7: On 4 October 2009, George Papandreou, president of the Panhellenic Socialist Movement party and son and grandson of Prime Ministers, 2009 Greek legislative election as the new Prime Minister of Greece, following five years of government under New Democracy leader Kostas Karamanlis, the nephew of long-time Prime Minister and President Konstantinos Karamanlis.
+Expected output: 'entities: [{'span': 'George Papandreou', 'entity': 'Politician'}, {'span': 'Panhellenic Socialist Movement', 'entity': 'Political Party'}, {'span': '2009 Greek legislative election', 'entity': 'Election'}, {'span': 'Greece', 'entity': 'Country'}, {'span': 'Democracy', 'entity': 'Misc'}, {'span': 'Kostas Karamanlis', 'entity': 'Politician'}, {'span': 'Konstantinos Karamanlis', 'entity': 'Politician'}]'
+
+Example #8: In 2004, Thompson wrote: Richard Nixon was a professional politician, and I despised everything he stood for - but if he were running for president this year against the evil George W. Bush - Dick Cheney gang, I would happily vote for him.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': 'George W. Bush', 'entity': 'Politician'}, {'span': 'Dick Cheney', 'entity': 'Politician'}]'
+
+Example #9: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #10: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+

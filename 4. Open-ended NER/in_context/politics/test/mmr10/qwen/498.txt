@@ -1,0 +1,30 @@
+Example #1: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #2: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #3: Social conservatives often felt that they were being sidelined by officials in the Progressive Conservative Party of Canada and its leadership of so-called Red Tories for the last half of the twentieth century and therefore many eventually made their political home with parties such as the Social Credit Party of Canada and the Reform Party of Canada.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Red Tories', 'entity': 'Misc'}, {'span': 'Social Credit Party of Canada', 'entity': 'Political Party'}, {'span': 'Reform Party of Canada', 'entity': 'Political Party'}]'
+
+Example #4: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #5: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #6: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+
+Example #7: Six other Republican senators - Wayne Morse, Irving Ives, Charles W. Tobey, Edward John Thye, George Aiken, and Robert C. Hendrickson - joined her in condemning McCarthy's tactics.
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Wayne Morse', 'entity': 'Politician'}, {'span': 'Irving Ives', 'entity': 'Politician'}, {'span': 'Charles W. Tobey', 'entity': 'Politician'}, {'span': 'Edward John Thye', 'entity': 'Politician'}, {'span': 'George Aiken', 'entity': 'Politician'}, {'span': 'Robert C. Hendrickson', 'entity': 'Politician'}, {'span': 'McCarthy', 'entity': 'Politician'}]'
+
+Example #8: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #9: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #10: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+

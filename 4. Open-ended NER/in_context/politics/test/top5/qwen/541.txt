@@ -1,0 +1,15 @@
+Example #1: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #2: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #3: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #4: Many of the magazine's articles were written by members of conservative think tanks located in Washington, including the American Enterprise Institute, the Ethics and Public Policy Center, the Foundation for Defense of Democracies, the Hudson Institute, and the Foreign Policy Initiative.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Location'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'Ethics and Public Policy Center', 'entity': 'Organisation'}, {'span': 'Foundation for Defense of Democracies', 'entity': 'Organisation'}, {'span': 'Hudson Institute', 'entity': 'Organisation'}, {'span': 'Foreign Policy Initiative', 'entity': 'Organisation'}]'
+
+Example #5: These include the TRUE Blue Crew, Antipodean Resistance, the Australian Defence League, National Action (Australia), the Q Society, Reclaim Australia and the Lads Society (formerly United Patriots Front).
+Expected output: 'entities: [{'span': 'TRUE Blue Crew', 'entity': 'Organisation'}, {'span': 'Antipodean Resistance', 'entity': 'Organisation'}, {'span': 'Australian Defence League', 'entity': 'Organisation'}, {'span': 'National Action', 'entity': 'Organisation'}, {'span': 'Australia', 'entity': 'Country'}, {'span': 'Q Society', 'entity': 'Organisation'}, {'span': 'Reclaim Australia', 'entity': 'Organisation'}, {'span': 'Lads Society', 'entity': 'Organisation'}, {'span': 'United Patriots Front', 'entity': 'Organisation'}]'
+

@@ -1,0 +1,15 @@
+Example #1: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #2: Under the influence of Adrian Maniu, the adolescent Tzara became interested in Symbolism and co-founded the magazine Simbolul with Ion Vinea (with whom he also wrote experimental poetry) and painter Marcel Janco.
+Expected output: 'entities: [{'span': 'Adrian Maniu', 'entity': 'Writer'}, {'span': 'Tzara', 'entity': 'Writer'}, {'span': 'Symbolism', 'entity': 'Literary Genre'}, {'span': 'Simbolul', 'entity': 'Magazine'}, {'span': 'Ion Vinea', 'entity': 'Writer'}, {'span': 'experimental poetry', 'entity': 'Literary Genre'}, {'span': 'Marcel Janco', 'entity': 'Person'}]'
+
+Example #3: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #4: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #5: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+

@@ -1,0 +1,15 @@
+Example #1: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #2: Seymour Hersh, Nixon's Last Cover-Up: The Tapes He Wants the Archives to Suppress; The New Yorker, December 14, 1992, pp. 80-81 In passing sentence in February 1972, the judge rejected the D.A. ' s motion that Capp agree to undergo psychiatric treatment.
+Expected output: 'entities: [{'span': 'Seymour Hersh', 'entity': 'Writer'}, {'span': 'Nixon', 'entity': 'Person'}, {'span': 'Last Cover-Up: The Tapes He Wants the Archives to Suppress', 'entity': 'Misc'}, {'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'D.A.', 'entity': 'Misc'}, {'span': 'Capp', 'entity': 'Writer'}]'
+
+Example #3: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+
+Example #4: It tied with Roger Zelazny ' s This Immortal for the Hugo Award in 1966,
+Expected output: 'entities: [{'span': 'Roger Zelazny', 'entity': 'Writer'}, {'span': 'This Immortal', 'entity': 'Book'}, {'span': 'Hugo Award', 'entity': 'Award'}]'
+
+Example #5: With his poem Yo soy Joaquín, known in English as I Am Joaquin, Gonzales shared his new cosmological vision of the Chicano, who was neither Indian nor European, neither Mexican nor American, but a combination of all the conflicting identities.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'Yo soy Joaquín', 'entity': 'Poem'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'I Am Joaquin', 'entity': 'Poem'}, {'span': 'Gonzales', 'entity': 'Writer'}, {'span': 'Chicano', 'entity': 'Poem'}, {'span': 'Indian', 'entity': 'Misc'}, {'span': 'European', 'entity': 'Misc'}, {'span': 'Mexican', 'entity': 'Misc'}, {'span': 'American', 'entity': 'Misc'}]'
+

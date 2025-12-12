@@ -1,0 +1,60 @@
+Example #1: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #2: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #3: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #4: The change in leadership failed to revive the FDP's fortunes, however, and in the next series of state elections, the party lost all its seats in 2011 Bremen state election, 2011 Mecklenburg-Vorpommern state election, and 2011 Berlin state election.
+Expected output: 'entities: [{'span': 'FDP', 'entity': 'Political Party'}, {'span': '2011 Bremen state election', 'entity': 'Election'}, {'span': '2011 Mecklenburg-Vorpommern state election', 'entity': 'Election'}, {'span': '2011 Berlin state election', 'entity': 'Election'}]'
+
+Example #5: Nha Trang, headquarters of the U.S. I Field Force, was the first to be hit, followed shortly by Ban Mê Thuột, Kon Tum, Hội An, Tuy Hòa, Da Nang, Qui Nhơn, and Pleiku.
+Expected output: 'entities: [{'span': 'Nha Trang', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'I Field Force', 'entity': 'Organisation'}, {'span': 'Ban Mê Thuột', 'entity': 'Location'}, {'span': 'Kon Tum', 'entity': 'Location'}, {'span': 'Hội An', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Da Nang', 'entity': 'Location'}, {'span': 'Qui Nhơn', 'entity': 'Location'}, {'span': 'Pleiku', 'entity': 'Location'}]'
+
+Example #6: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #7: There are Lord Edward Streets named in his honour in many places in Ireland, such as Dublin, Limerick, Sligo, Kilkenny, Ballina, Ballymote, and Ballycullenbeg in County Laois.
+Expected output: 'entities: [{'span': 'Lord Edward Streets', 'entity': 'Location'}, {'span': 'Ireland', 'entity': 'Country'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}, {'span': 'Sligo', 'entity': 'Location'}, {'span': 'Kilkenny', 'entity': 'Location'}, {'span': 'Ballina', 'entity': 'Location'}, {'span': 'Ballymote', 'entity': 'Location'}, {'span': 'Ballycullenbeg', 'entity': 'Location'}, {'span': 'County Laois', 'entity': 'Location'}]'
+
+Example #8: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #9: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #10: Parties with mainly Eurosceptic views are the ruling United Russia, and opposition parties the Communist Party of the Russian Federation and Liberal Democratic Party of Russia.
+Expected output: 'entities: [{'span': 'United Russia', 'entity': 'Political Party'}, {'span': 'Communist Party of the Russian Federation', 'entity': 'Political Party'}, {'span': 'Liberal Democratic Party of Russia', 'entity': 'Political Party'}]'
+
+Example #11: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #12: Many of the magazine's articles were written by members of conservative think tanks located in Washington, including the American Enterprise Institute, the Ethics and Public Policy Center, the Foundation for Defense of Democracies, the Hudson Institute, and the Foreign Policy Initiative.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Location'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'Ethics and Public Policy Center', 'entity': 'Organisation'}, {'span': 'Foundation for Defense of Democracies', 'entity': 'Organisation'}, {'span': 'Hudson Institute', 'entity': 'Organisation'}, {'span': 'Foreign Policy Initiative', 'entity': 'Organisation'}]'
+
+Example #13: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #14: In June 1970, a Dutch group called Kabouters won 5 of the 45 seats on the Amsterdam Gemeenteraad (City Council), as well as two seats each on councils in The Hague and Leeuwarden and one seat apiece in Arnhem, Alkmaar and Leiden.
+Expected output: 'entities: [{'span': 'Dutch', 'entity': 'Misc'}, {'span': 'Kabouters', 'entity': 'Organisation'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'The Hague', 'entity': 'Location'}, {'span': 'Leeuwarden', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Alkmaar', 'entity': 'Location'}, {'span': 'Leiden', 'entity': 'Location'}]'
+
+Example #15: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #16: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #17: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #18: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #19: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #20: Between 1925 and 1930 Germany was the site of innovative and extensive municipal public housing projects, mostly in Berlin, Hamburg, Cologne and Frankfurt.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Hamburg', 'entity': 'Location'}, {'span': 'Cologne', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}]'
+

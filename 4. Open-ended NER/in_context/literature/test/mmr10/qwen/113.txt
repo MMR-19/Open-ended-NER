@@ -1,0 +1,30 @@
+Example #1: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #2: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #3: He was influenced by the Marxist playwright Bertolt Brecht and was invited by Brecht to be his assistant at the East Berlin State Opera but turned down the offer.
+Expected output: 'entities: [{'span': 'Marxist', 'entity': 'Misc'}, {'span': 'Bertolt Brecht', 'entity': 'Writer'}, {'span': 'Brecht', 'entity': 'Writer'}, {'span': 'East Berlin State Opera', 'entity': 'Location'}]'
+
+Example #4: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+
+Example #5: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #6: Under the influence of Adrian Maniu, the adolescent Tzara became interested in Symbolism and co-founded the magazine Simbolul with Ion Vinea (with whom he also wrote experimental poetry) and painter Marcel Janco.
+Expected output: 'entities: [{'span': 'Adrian Maniu', 'entity': 'Writer'}, {'span': 'Tzara', 'entity': 'Writer'}, {'span': 'Symbolism', 'entity': 'Literary Genre'}, {'span': 'Simbolul', 'entity': 'Magazine'}, {'span': 'Ion Vinea', 'entity': 'Writer'}, {'span': 'experimental poetry', 'entity': 'Literary Genre'}, {'span': 'Marcel Janco', 'entity': 'Person'}]'
+
+Example #7: Although not accessible for years within Germany to comply with a court order from S. Fischer Verlag regarding the works of Heinrich Mann, Thomas Mann and Alfred Döblin, Project Gutenberg is once more accessible.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'S. Fischer Verlag', 'entity': 'Organisation'}, {'span': 'Heinrich Mann', 'entity': 'Writer'}, {'span': 'Thomas Mann', 'entity': 'Writer'}, {'span': 'Alfred Döblin', 'entity': 'Writer'}, {'span': 'Project Gutenberg', 'entity': 'Organisation'}]'
+
+Example #8: The original Chanson d 'Antioche is lost, but it was edited in the 12th century by Graindor de Douai, who also edited the Chanson de Jérusalem, and possibly wrote the Chanson des Chétifs himself.
+Expected output: 'entities: [{'span': "Chanson d 'Antioche", 'entity': 'Poem'}, {'span': 'Graindor de Douai', 'entity': 'Writer'}, {'span': 'Chanson de Jérusalem', 'entity': 'Poem'}, {'span': 'Chanson des Chétifs', 'entity': 'Poem'}]'
+
+Example #9: Verne's collaboration with the publisher Pierre-Jules Hetzel led to the creation of the Voyages extraordinaires, a widely popular series of scrupulously researched adventure novels including Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Sea (1870), and Around the World in Eighty Days (1873).
+Expected output: 'entities: [{'span': 'Verne', 'entity': 'Writer'}, {'span': 'Pierre-Jules Hetzel', 'entity': 'Writer'}, {'span': 'Voyages extraordinaires', 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'Journey to the Center of the Earth', 'entity': 'Book'}, {'span': 'Twenty Thousand Leagues Under the Sea', 'entity': 'Book'}, {'span': 'Around the World in Eighty Days', 'entity': 'Book'}]'
+
+Example #10: The film's soundtrack often forms a major component of the narrative, just as with other important arthouse films of the era such as Donald Cammell and Nicolas Roeg ' s Performance.
+Expected output: 'entities: [{'span': 'arthouse films', 'entity': 'Misc'}, {'span': 'Donald Cammell', 'entity': 'Person'}, {'span': 'Nicolas Roeg', 'entity': 'Person'}, {'span': 'Performance', 'entity': 'Misc'}]'
+

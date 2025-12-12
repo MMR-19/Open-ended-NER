@@ -1,0 +1,30 @@
+Example #1: Hamlin survived six of his successors in the vice presidency: Andrew Johnson, Schuyler Colfax, Henry Wilson, William A. Wheeler, Chester A. Arthur, and Thomas A. Hendricks.
+Expected output: 'entities: [{'span': 'Hamlin', 'entity': 'Politician'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Schuyler Colfax', 'entity': 'Politician'}, {'span': 'Henry Wilson', 'entity': 'Politician'}, {'span': 'William A. Wheeler', 'entity': 'Politician'}, {'span': 'Chester A. Arthur', 'entity': 'Politician'}, {'span': 'Thomas A. Hendricks', 'entity': 'Politician'}]'
+
+Example #2: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #3: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #4: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #5: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+
+Example #6: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #7: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+
+Example #8: His wartime leadership established him as Madison's heir apparent, and he easily defeated Federalist Party candidate Rufus King in the 1816 United States presidential election.
+Expected output: 'entities: [{'span': 'Madison', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}, {'span': 'Rufus King', 'entity': 'Politician'}, {'span': '1816 United States presidential election', 'entity': 'Election'}]'
+
+Example #9: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #10: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+

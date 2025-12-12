@@ -1,0 +1,30 @@
+Example #1: The stadium also hosted such events as 1973 Summer Universiade, 1986 Goodwill Games and 2013 World Championships in Athletics.
+Expected output: 'entities: [{'span': '1973 Summer Universiade', 'entity': 'Event'}, {'span': '1986 Goodwill Games', 'entity': 'Event'}, {'span': '2013 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #2: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #3: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #4: In Paris, he performed at the Stade de France for Saint Patrick's Day, in AccorHotels Arena, the Bataclan, the Casino de Paris and the Théâtre de la Ville with guest singers Mari Boine and Karen Matheson as well as Donald Shaw.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Location'}, {'span': 'Stade de France', 'entity': 'Location'}, {'span': "Saint Patrick's Day", 'entity': 'Event'}, {'span': 'AccorHotels Arena', 'entity': 'Location'}, {'span': 'Bataclan', 'entity': 'Location'}, {'span': 'Casino de Paris', 'entity': 'Location'}, {'span': 'Théâtre de la Ville', 'entity': 'Location'}, {'span': 'Mari Boine', 'entity': 'Musical Artist'}, {'span': 'Karen Matheson', 'entity': 'Musical Artist'}, {'span': 'Donald Shaw', 'entity': 'Musical Artist'}]'
+
+Example #5: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+
+Example #6: Poland has always been a very open country to new music genres and even before the fall of the communism, music styles like rock, Heavy metal music, jazz, Electronic music, and New wave music were well-known.
+Expected output: 'entities: [{'span': 'Poland', 'entity': 'Country'}, {'span': 'fall of the communism', 'entity': 'Event'}, {'span': 'rock', 'entity': 'Music Genre'}, {'span': 'Heavy metal music', 'entity': 'Music Genre'}, {'span': 'jazz', 'entity': 'Music Genre'}, {'span': 'Electronic music', 'entity': 'Music Genre'}, {'span': 'New wave music', 'entity': 'Music Genre'}]'
+
+Example #7: Attracting over 200,000 fans, Black Sabbath appeared alongside popular 1970s rock and pop bands Deep Purple, Eagles, Emerson, Lake & Palmer, Rare Earth, Seals and Crofts, Black Oak Arkansas, and Earth, Wind & Fire.
+Expected output: 'entities: [{'span': 'Black Sabbath', 'entity': 'Band'}, {'span': 'rock', 'entity': 'Music Genre'}, {'span': 'pop', 'entity': 'Music Genre'}, {'span': 'Deep Purple', 'entity': 'Band'}, {'span': 'Eagles', 'entity': 'Band'}, {'span': 'Emerson, Lake & Palmer', 'entity': 'Band'}, {'span': 'Rare Earth', 'entity': 'Band'}, {'span': 'Seals and Crofts', 'entity': 'Band'}, {'span': 'Black Oak Arkansas', 'entity': 'Band'}, {'span': 'Earth, Wind & Fire', 'entity': 'Band'}]'
+
+Example #8: She is the recipient of various accolades including an Academy Awards, three Golden Globe Awards, two Critics ' Choice Movie Awards, a Screen Actors Guild Award, and nominations for four BAFTA Awards, three Primetime Emmy Awards, and a Grammy Award.
+Expected output: 'entities: [{'span': 'Academy Awards', 'entity': 'Award'}, {'span': 'Golden Globe Awards', 'entity': 'Award'}, {'span': "Critics ' Choice Movie Awards", 'entity': 'Award'}, {'span': 'Screen Actors Guild Award', 'entity': 'Award'}, {'span': 'BAFTA Awards', 'entity': 'Award'}, {'span': 'Primetime Emmy Awards', 'entity': 'Award'}, {'span': 'Grammy Award', 'entity': 'Award'}]'
+
+Example #9: Bands like Flogging Molly, Black 47, Dropkick Murphys, The Young Dubliners, The Tossers introduced a hybrid of Celtic rock, Punk rock, reggae, Hardcore punk and other elements in the 1990s that has become popular with Irish-American youth.
+Expected output: 'entities: [{'span': 'Flogging Molly', 'entity': 'Band'}, {'span': 'Black 47', 'entity': 'Band'}, {'span': 'Dropkick Murphys', 'entity': 'Band'}, {'span': 'The Young Dubliners', 'entity': 'Band'}, {'span': 'The Tossers', 'entity': 'Band'}, {'span': 'Celtic rock', 'entity': 'Music Genre'}, {'span': 'Punk rock', 'entity': 'Music Genre'}, {'span': 'reggae', 'entity': 'Music Genre'}, {'span': 'Hardcore punk', 'entity': 'Music Genre'}, {'span': 'Irish-American', 'entity': 'Misc'}]'
+
+Example #10: Outside the south, the accordion (predominantly the piano accordion) is used in almost all styles of Forró (in particular in the subgenres of Xote and Baião) as the principal instrument, Luiz Gonzaga (the King of the Baião) and Dominguinhos being among the notable musicians in this style from the northeast.
+Expected output: 'entities: [{'span': 'piano accordion', 'entity': 'Musical Instrument'}, {'span': 'Forró', 'entity': 'Music Genre'}, {'span': 'Xote', 'entity': 'Music Genre'}, {'span': 'Baião', 'entity': 'Music Genre'}, {'span': 'Luiz Gonzaga', 'entity': 'Musical Artist'}, {'span': 'King of the Baião', 'entity': 'Misc'}, {'span': 'Dominguinhos', 'entity': 'Musical Artist'}]'
+

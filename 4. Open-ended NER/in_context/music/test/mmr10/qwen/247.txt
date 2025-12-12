@@ -1,0 +1,30 @@
+Example #1: A sleeper hit in United Kingdom, the record eventually hit the top three in the Official Charts Company and received platinum certifications from British Phonographic Industry, Recording Industry Association of America and ARIA.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Official Charts Company', 'entity': 'Organisation'}, {'span': 'British Phonographic Industry', 'entity': 'Organisation'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'ARIA', 'entity': 'Organisation'}]'
+
+Example #2: The band have received a total of 11 nominations for ARIA Music Awards in ARIA Music Awards of 1999, ARIA Music Awards of 2001 and ARIA Music Awards of 2003.
+Expected output: 'entities: [{'span': 'ARIA Music Awards', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 1999', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2001', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2003', 'entity': 'Award'}]'
+
+Example #3: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #4: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+
+Example #5: The mid 2000s, especially the United Kingdom and the rest of Europe, saw the continued longevity of nineties boy bands such as Backstreet Boys and Westlife (before they disbanded in 2012), and the successful comeback of Take That in 2005, Boyzone in 2007, and New Kids on the Block in 2008.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'Westlife', 'entity': 'Band'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Boyzone', 'entity': 'Band'}, {'span': 'New Kids on the Block', 'entity': 'Band'}]'
+
+Example #6: Flood has been certified platinum and their children's music albums Here Come the ABCs, Here Come the 123s, and Here Comes Science have all been certified gold.
+Expected output: 'entities: [{'span': 'Flood', 'entity': 'Album'}, {'span': 'Here Come the ABCs', 'entity': 'Album'}, {'span': 'Here Come the 123s', 'entity': 'Album'}, {'span': 'Here Comes Science', 'entity': 'Album'}]'
+
+Example #7: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #8: The musical was an immediate hit, winning Tony Award s for Tony Award for Best Musical, Tony Award for Best Actress in a Musical (for Lawrence) and Tony Award for Best Featured Actor in a Musical (for Brynner).
+Expected output: 'entities: [{'span': 'Tony Award', 'entity': 'Award'}, {'span': 'Tony Award for Best Musical', 'entity': 'Award'}, {'span': 'Tony Award for Best Actress in a Musical', 'entity': 'Award'}, {'span': 'Lawrence', 'entity': 'Musical Artist'}, {'span': 'Tony Award for Best Featured Actor in a Musical', 'entity': 'Award'}, {'span': 'Brynner', 'entity': 'Musical Artist'}]'
+
+Example #9: Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award -winning singles Spoonman and Black Hole Sun.
+Expected output: 'entities: [{'span': 'Soundgarden', 'entity': 'Band'}, {'span': 'Superunknown', 'entity': 'Album'}, {'span': 'Billboard 200', 'entity': 'Misc'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Spoonman', 'entity': 'Song'}, {'span': 'Black Hole Sun', 'entity': 'Song'}]'
+
+Example #10: The album experimented with a diverse number of genres, including contemporary R & B, deep house, Swing music, Hip hop music, Rock music, and Pop music, with Billboard describing each as being delivered with consummate skill and passion.
+Expected output: 'entities: [{'span': 'contemporary R & B', 'entity': 'Music Genre'}, {'span': 'deep house', 'entity': 'Music Genre'}, {'span': 'Swing music', 'entity': 'Music Genre'}, {'span': 'Hip hop music', 'entity': 'Music Genre'}, {'span': 'Rock music', 'entity': 'Music Genre'}, {'span': 'Pop music', 'entity': 'Music Genre'}, {'span': 'Billboard', 'entity': 'Misc'}]'
+

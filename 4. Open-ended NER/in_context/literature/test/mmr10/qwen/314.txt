@@ -1,0 +1,30 @@
+Example #1: The original Chanson d 'Antioche is lost, but it was edited in the 12th century by Graindor de Douai, who also edited the Chanson de Jérusalem, and possibly wrote the Chanson des Chétifs himself.
+Expected output: 'entities: [{'span': "Chanson d 'Antioche", 'entity': 'Poem'}, {'span': 'Graindor de Douai', 'entity': 'Writer'}, {'span': 'Chanson de Jérusalem', 'entity': 'Poem'}, {'span': 'Chanson des Chétifs', 'entity': 'Poem'}]'
+
+Example #2: In addition to writing for The New Yorker, he has written for The Atlantic Monthly and National Geographic.
+Expected output: 'entities: [{'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'The Atlantic Monthly', 'entity': 'Magazine'}, {'span': 'National Geographic', 'entity': 'Magazine'}]'
+
+Example #3: The British military historian John Keegan attacked Clausewitz's theory in his book A History of Warfare. John Keegan, A History of Warfare.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'John Keegan', 'entity': 'Writer'}, {'span': 'Clausewitz', 'entity': 'Writer'}, {'span': 'A History of Warfare', 'entity': 'Book'}]'
+
+Example #4: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #5: Under the influence of Adrian Maniu, the adolescent Tzara became interested in Symbolism and co-founded the magazine Simbolul with Ion Vinea (with whom he also wrote experimental poetry) and painter Marcel Janco.
+Expected output: 'entities: [{'span': 'Adrian Maniu', 'entity': 'Writer'}, {'span': 'Tzara', 'entity': 'Writer'}, {'span': 'Symbolism', 'entity': 'Literary Genre'}, {'span': 'Simbolul', 'entity': 'Magazine'}, {'span': 'Ion Vinea', 'entity': 'Writer'}, {'span': 'experimental poetry', 'entity': 'Literary Genre'}, {'span': 'Marcel Janco', 'entity': 'Person'}]'
+
+Example #6: After a 1995 staging at the La Jolla Playhouse, he retained David Mamet to help rework the book before its relaunch on the Chicago Goodman Theatre mainstage in 1996.
+Expected output: 'entities: [{'span': 'La Jolla Playhouse', 'entity': 'Location'}, {'span': 'David Mamet', 'entity': 'Writer'}, {'span': 'Chicago Goodman Theatre', 'entity': 'Location'}]'
+
+Example #7: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #8: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+
+Example #9: He then went to live at Chalcedon, whence in 367 he was banished to Mauretania for harbouring the rebel Procopius.
+Expected output: 'entities: [{'span': 'Chalcedon', 'entity': 'Location'}, {'span': 'Mauretania', 'entity': 'Country'}, {'span': 'Procopius', 'entity': 'Writer'}]'
+
+Example #10: Arrian, Anabasis Alexandri 1.12.1, Cicero, Pro Archia Poeta 24.
+Expected output: 'entities: [{'span': 'Arrian', 'entity': 'Writer'}, {'span': 'Anabasis Alexandri', 'entity': 'Book'}, {'span': 'Cicero', 'entity': 'Writer'}, {'span': 'Pro Archia Poeta', 'entity': 'Book'}]'
+

@@ -1,0 +1,15 @@
+Example #1: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #2: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+
+Example #3: Gravity's Rainbow shared the 1974 National Book Award with A Crown of Feathers and Other Stories by Isaac Bashevis Singer (split award).
+Expected output: 'entities: [{'span': "Gravity's Rainbow", 'entity': 'Book'}, {'span': 'National Book Award', 'entity': 'Award'}, {'span': 'A Crown of Feathers and Other Stories', 'entity': 'Book'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #4: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #5: To Dolapdere, he sarcastically gave the name Cholera (Kolera in Turkish) in Ağır Roman, thereby recalling both its shabbiness and the fact that the great Poland poet Adam Mickiewicz died there from the cholera in 1855.
+Expected output: 'entities: [{'span': 'Dolapdere', 'entity': 'Location'}, {'span': 'Cholera', 'entity': 'Misc'}, {'span': 'Kolera', 'entity': 'Misc'}, {'span': 'Turkish', 'entity': 'Misc'}, {'span': 'Ağır Roman', 'entity': 'Book'}, {'span': 'Poland', 'entity': 'Country'}, {'span': 'Adam Mickiewicz', 'entity': 'Writer'}, {'span': 'cholera', 'entity': 'Misc'}]'
+

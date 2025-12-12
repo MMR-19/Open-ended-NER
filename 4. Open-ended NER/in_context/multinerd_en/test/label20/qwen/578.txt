@@ -1,0 +1,60 @@
+Example #1: The " Yoga Journal " provides separate lists of asanas that it states are " inadvisable " and should be avoided or modified for each of the following medical conditions: asthma; back injury; carpal tunnel syndrome; diarrhoea; headache; heart problems; high blood pressure; insomnia; knee injury; low blood pressure; menstruation; neck injury; pregnancy; and shoulder injury.
+Expected output: 'entities: [{'span': 'Yoga Journal', 'entity': 'Media'}, {'span': 'asthma', 'entity': 'Disease'}, {'span': 'carpal tunnel syndrome', 'entity': 'Disease'}, {'span': 'insomnia', 'entity': 'Disease'}]'
+
+Example #2: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #3: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #4: Billions of people are killed in World War III, and most of the surviving males are rendered sterile.
+Expected output: 'entities: [{'span': 'World War III', 'entity': 'Event'}, {'span': 'sterile', 'entity': 'Disease'}]'
+
+Example #5: In Tabriz, they are made of almond flour, sugar, egg white, vanilla, margarine and pistachio.
+Expected output: 'entities: [{'span': 'Tabriz', 'entity': 'Location'}, {'span': 'egg white', 'entity': 'Food'}, {'span': 'vanilla', 'entity': 'Food'}, {'span': 'margarine', 'entity': 'Food'}, {'span': 'pistachio', 'entity': 'Plant'}]'
+
+Example #6: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #7: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #8: His " " Monoplane " " was a large aircraft made of aluminium, with a wingspan of and a weight of only without the pilot.
+Expected output: 'entities: [{'span': 'Monoplane', 'entity': 'Vehicle'}]'
+
+Example #9: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #10: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #11: Better documented, the bacterium " Pseudomonas aeruginosa " and the fungus " Cladosporium resinae " are commonly detected in aircraft fuel tanks that use kerosene-based fuels (not avgas), and laboratory cultures can degrade aluminium.
+Expected output: 'entities: [{'span': 'Cladosporium', 'entity': 'Biological entity'}]'
+
+Example #12: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #13: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #14: Some recipes also call for small quantities of star anise, asafoetida, chili, stone flower (known as " dagadphool "), and " kababchini " (" cubeb ").
+Expected output: 'entities: [{'span': 'asafoetida', 'entity': 'Food'}, {'span': 'chili', 'entity': 'Plant'}, {'span': 'stone flower', 'entity': 'Animal'}]'
+
+Example #15: HIV is among the infections that require such direct contact, and research indicates that there is no risk of HIV transmission via frot.
+Expected output: 'entities: [{'span': 'HIV', 'entity': 'Biological entity'}]'
+
+Example #16: In the case of " Plasmodium ", merozoites infect red blood cells and then rapidly reproduce asexually.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}]'
+
+Example #17: " Soft commodities ", or " softs ", are commodities such as coffee, cocoa, sugar, corn, wheat, soybean, fruit and livestock.
+Expected output: 'entities: [{'span': 'coffee', 'entity': 'Food'}, {'span': 'cocoa', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'soybean', 'entity': 'Plant'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'livestock', 'entity': 'Animal'}]'
+
+Example #18: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #19: Chili, scallop with butter, teriyaki, takoyaki, and yakitori chip flavors are also available.
+Expected output: 'entities: [{'span': 'Chili', 'entity': 'Plant'}, {'span': 'scallop', 'entity': 'Animal'}, {'span': 'teriyaki', 'entity': 'Food'}, {'span': 'takoyaki', 'entity': 'Food'}, {'span': 'yakitori', 'entity': 'Food'}]'
+
+Example #20: " Aspergillus " and other moulds play an important role in these consortia because they are adept at recycling starches, hemicelluloses, celluloses, pectins and other sugar polymers.
+Expected output: 'entities: [{'span': 'Aspergillus', 'entity': 'Biological entity'}]'
+

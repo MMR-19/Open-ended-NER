@@ -1,0 +1,15 @@
+Example #1: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #2: Ingredients may include mushrooms, potatoes, seaweed, onion, shrimp, fish, clams, and sliced daikon.
+Expected output: 'entities: [{'span': 'shrimp', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'daikon', 'entity': 'Plant'}]'
+
+Example #3: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #4: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #5: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+

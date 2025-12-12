@@ -1,0 +1,60 @@
+Example #1: He was the former president of the American Political Science Association and a member of the American Academy of Arts and Sciences, American Philosophical Society and Human Rights Foundation.
+Expected output: 'entities: [{'span': 'American Political Science Association', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'Human Rights Foundation', 'entity': 'Organisation'}]'
+
+Example #2: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #3: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #4: Following Genscher's resignation, Chancellor Helmut Kohl and FDP chairman Otto Graf Lambsdorff named Irmgard Schwaetzer, a former aide to Genscher, to be the new Foreign Minister.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'Otto Graf Lambsdorff', 'entity': 'Politician'}, {'span': 'Irmgard Schwaetzer', 'entity': 'Politician'}]'
+
+Example #5: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #6: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #7: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #8: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #9: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #10: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #11: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #12: The 2001 Local Government Act restyled the five county boroughs of Dublin, Cork, Galway, Waterford, and Limerick as city councils, with the same status in law as county councils.
+Expected output: 'entities: [{'span': 'Local Government Act', 'entity': 'Misc'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Cork', 'entity': 'Location'}, {'span': 'Galway', 'entity': 'Location'}, {'span': 'Waterford', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}]'
+
+Example #13: As agreed with the Allies of World War II at the Tehran Conference in November 1943 and the Yalta Conference in February 1945, the Soviet Union entered World War II's Pacific Theater within three months of the end of the war in Europe.
+Expected output: 'entities: [{'span': 'Allies of World War II', 'entity': 'Organisation'}, {'span': 'Tehran Conference', 'entity': 'Event'}, {'span': 'Yalta Conference', 'entity': 'Event'}, {'span': 'Soviet Union', 'entity': 'Country'}, {'span': "World War II's Pacific Theater", 'entity': 'Event'}, {'span': 'Europe', 'entity': 'Location'}]'
+
+Example #14: Brooks was a member of the Masonic Lodge, the Shriners, the Benevolent and Protective Order of Elks, American Legion, Veterans of Foreign Wars, and the Kiwanis International.
+Expected output: 'entities: [{'span': 'Brooks', 'entity': 'Person'}, {'span': 'Masonic Lodge', 'entity': 'Organisation'}, {'span': 'Shriners', 'entity': 'Organisation'}, {'span': 'Benevolent and Protective Order of Elks', 'entity': 'Organisation'}, {'span': 'American Legion', 'entity': 'Organisation'}, {'span': 'Veterans of Foreign Wars', 'entity': 'Organisation'}, {'span': 'Kiwanis International', 'entity': 'Organisation'}]'
+
+Example #15: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #16: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #17: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+
+Example #18: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #19: Kristol was a fellow of the American Academy of Arts and Sciences, a member of the Council on Foreign Relations and a fellow emeritus at the American Enterprise Institute (having been an associate fellow from 1972, a senior fellow from 1977 and the John M. Olin Distinguished Fellow from 1988 to 1999).
+Expected output: 'entities: [{'span': 'Kristol', 'entity': 'Person'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'Council on Foreign Relations', 'entity': 'Organisation'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'John M. Olin Distinguished Fellow', 'entity': 'Misc'}]'
+
+Example #20: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+

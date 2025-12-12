@@ -1,0 +1,60 @@
+Example #1: É o precursor do Ka-10.
+Expected output: 'entities: [{'span': 'Ka-10', 'entity': 'Veículo'}]'
+
+Example #2: " Diplatia " é um género botânico pertencente à família Loranthaceae.
+Expected output: 'entities: [{'span': 'Loranthaceae', 'entity': 'Entidade biológica'}]'
+
+Example #3: Seus nomes comuns geralmente terminam com o sufixo " ina ": cafeína (do café, classificada como " pseudoalcaloide " por ser, na verdade, uma xantina), cocaína (da coca), pilocarpina (do jaborandi), papaverina / morfina / heroína / codeína (da papoula), psilocibina (do cogumelo " Psilocybe cubensis) ", almíscar, que é extraído de uma glândula do cervo-almiscarado, etc.
+Expected output: 'entities: [{'span': 'café', 'entity': 'Comida'}, {'span': 'coca', 'entity': 'Planta'}, {'span': 'Psilocybe cubensis', 'entity': 'Animal'}]'
+
+Example #4: O mais representativo prato típico do estado é o açaí acompanhado de farinha de mandioca e alguma proteína, como peixes, camarão regional, frango ou carne vermelha.
+Expected output: 'entities: [{'span': 'açaí', 'entity': 'Planta'}, {'span': 'camarão', 'entity': 'Animal'}, {'span': 'frango', 'entity': 'Animal'}, {'span': 'carne vermelha', 'entity': 'Comida'}]'
+
+Example #5: Em 1993, uma banda brasileira de power metal, Angra, fez um diferente arranjo da canção de Kate Bush, Wuthering Heights, dando à música uma harmonização mais pesada com as guitarras e lançou no seu album Angels Cry.
+Expected output: 'entities: [{'span': 'Angra', 'entity': 'Organização'}, {'span': 'Kate Bush', 'entity': 'Pessoa'}, {'span': 'Wuthering Heights', 'entity': 'Média'}, {'span': 'Angels Cry', 'entity': 'Média'}]'
+
+Example #6: A associação simbiótica de muitas das espécies desta família com " Rhizobium " confere à família grande importância ecológica, já que em muitos ecossistemas são o principal elo na fixação do azoto atmosférico.
+Expected output: 'entities: [{'span': 'Rhizobium', 'entity': 'Entidade biológica'}]'
+
+Example #7: Observações feitas pelo telescópio espacial Hubble revelaram que o asteroide possui seis caudas, assemelhando-se com um cometa.
+Expected output: 'entities: [{'span': 'telescópio espacial Hubble', 'entity': 'Instrumento'}, {'span': 'cometa', 'entity': 'Corpo celeste'}]'
+
+Example #8: A exposição prolongada à radiação ultravioleta do Sol pode conduzir a melanoma e outras malignidades de pele.
+Expected output: 'entities: [{'span': 'Sol', 'entity': 'Corpo celeste'}, {'span': 'melanoma', 'entity': 'Doença'}]'
+
+Example #9: Uma " pandemia " (do grego πανδήμιος « de todo o povo ») é uma epidemia de doença infecciosa que se espalha entre a população localizada numa grande região geográfica como, por exemplo, todo o planeta Terra.
+Expected output: 'entities: [{'span': 'epidemia', 'entity': 'Doença'}, {'span': 'doença infecciosa', 'entity': 'Doença'}, {'span': 'Terra', 'entity': 'Corpo celeste'}]'
+
+Example #10: Inclui todos os eucariontes que não podem ser classificados como parte dos reinos Animalia (animais), Plantae (plantas) ou Fungi (fungos).
+Expected output: 'entities: [{'span': 'Animalia', 'entity': 'Animal'}, {'span': 'Plantae', 'entity': 'Planta'}, {'span': 'Fungi', 'entity': 'Entidade biológica'}]'
+
+Example #11: No caso do Toyota Prius o motor a combustão é desligado quando o carro anda a uma velocidade baixa mas constante e quando a bateria tiver descarregada é ligado o motor a combustão para a recarregar.
+Expected output: 'entities: [{'span': 'Toyota Prius', 'entity': 'Veículo'}]'
+
+Example #12: Foi descrita pela primeira vez pelo médico alemão Engelbert Kaempfer por volta de 1690, mas só despertou o interesse de pesquisadores após a Segunda Guerra Mundial (1939 - 1945), quando perceberam que a planta tinha sobrevivido à radiação em Hiroshima, brotando no solo da cidade devastada.
+Expected output: 'entities: [{'span': 'Engelbert Kaempfer', 'entity': 'Pessoa'}, {'span': '1690', 'entity': 'Tempo'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}, {'span': 'Hiroshima', 'entity': 'Localização'}]'
+
+Example #13: pelo novo Airbus A320.
+Expected output: 'entities: [{'span': 'Airbus A320', 'entity': 'Veículo'}]'
+
+Example #14: As moiras eram filhas de Nix a deusa da noite.
+Expected output: 'entities: [{'span': 'Nix', 'entity': 'Entidade mitológica'}]'
+
+Example #15: " Vitis labrusca ", " Vitis aestivalis ", " Vitis rupestris ", " Vitis rotundifolia " e " Vitis riparia " são espécies nativas da América do Norte, cujas uvas são geralmente consumidas como fruta, ou na forma de sumo ou doce de uva, e por vezes transformadas em vinho.
+Expected output: 'entities: [{'span': 'Vitis labrusca', 'entity': 'Planta'}, {'span': 'Vitis aestivalis', 'entity': 'Animal'}, {'span': 'Vitis rupestris', 'entity': 'Animal'}, {'span': 'Vitis rotundifolia', 'entity': 'Planta'}, {'span': 'América do Norte', 'entity': 'Localização'}]'
+
+Example #16: A versão 1.0 do Maven utiliza o arquivo para definição do POM.
+Expected output: 'entities: [{'span': 'Maven', 'entity': 'Instrumento'}]'
+
+Example #17: " Tadoma " é um método de comunicação utilizado pelos indivíduos surdo-cegos, em que a pessoa surdo-cega coloca o polegar na boca do falante e os dedos ao longo do queixo.
+Expected output: 'entities: [{'span': 'surdo-cega', 'entity': 'Doença'}]'
+
+Example #18: É distinta e " não relacionada " à Febre tifoide que é causada pelas " Salmonella ".
+Expected output: 'entities: [{'span': 'Febre tifoide', 'entity': 'Doença'}, {'span': 'Salmonella', 'entity': 'Entidade biológica'}]'
+
+Example #19: Seu filho, Simon Bolivar Buckner, Jr., foi um general americano durante a Segunda Guerra Mundial.
+Expected output: 'entities: [{'span': 'Simon Bolivar Buckner, Jr.', 'entity': 'Pessoa'}, {'span': 'Segunda Guerra Mundial', 'entity': 'Evento'}]'
+
+Example #20: Marcou seus primeiros gols pelo clube merengue numa goleada sobre o Deportivo La Coruña por 8 – 2, válida pelo Campeonato Espanhol.
+Expected output: 'entities: [{'span': 'Deportivo La Coruña', 'entity': 'Organização'}, {'span': 'Campeonato Espanhol', 'entity': 'Evento'}]'
+

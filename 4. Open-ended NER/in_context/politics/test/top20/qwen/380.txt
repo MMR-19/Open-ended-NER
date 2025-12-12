@@ -1,0 +1,60 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #3: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #4: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #5: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+
+Example #6: The following three parliamentary elections (in 1930 Polish legislative election, 1935 Polish legislative election and 1938 Polish legislative election) were manipulated, with opposition activists sent to Bereza Kartuska prison (see also Brest trials).
+Expected output: 'entities: [{'span': '1930 Polish legislative election', 'entity': 'Election'}, {'span': '1935 Polish legislative election', 'entity': 'Election'}, {'span': '1938 Polish legislative election', 'entity': 'Election'}, {'span': 'Bereza Kartuska prison', 'entity': 'Location'}, {'span': 'Brest trials', 'entity': 'Misc'}]'
+
+Example #7: In the last years, Honduras has had five Liberal presidents: Roberto Suazo Córdova, José Azcona del Hoyo, Carlos Roberto Reina, Carlos Roberto Flores and Manuel Zelaya, and three Nationalists: Rafael Leonardo Callejas Romero, Porfirio Lobo Sosa and Ricardo Maduro.
+Expected output: 'entities: [{'span': 'Honduras', 'entity': 'Country'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Roberto Suazo Córdova', 'entity': 'Politician'}, {'span': 'José Azcona del Hoyo', 'entity': 'Politician'}, {'span': 'Carlos Roberto Reina', 'entity': 'Politician'}, {'span': 'Carlos Roberto Flores', 'entity': 'Politician'}, {'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Rafael Leonardo Callejas Romero', 'entity': 'Politician'}, {'span': 'Porfirio Lobo Sosa', 'entity': 'Politician'}, {'span': 'Ricardo Maduro', 'entity': 'Politician'}]'
+
+Example #8: During and following his first governorship, Brown ran as a candidate for the Democratic presidential nomination in 1976 United States presidential election, 1980 Democratic Party presidential primaries and 1992 Democratic Party presidential primaries.
+Expected output: 'entities: [{'span': 'Brown', 'entity': 'Politician'}, {'span': '1976 United States presidential election', 'entity': 'Election'}, {'span': '1980 Democratic Party presidential primaries', 'entity': 'Election'}, {'span': '1992 Democratic Party presidential primaries', 'entity': 'Election'}]'
+
+Example #9: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #10: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #11: This did not happen and the presidency, having been damaged by three late nineteenth and early twentieth century assassinations (Abraham Lincoln, Garfield and William McKinley) and one impeachment (Johnson), reasserted its political dominance by the early twentieth century through such figures as Theodore Roosevelt and Woodrow Wilson.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Garfield', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}]'
+
+Example #12: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #13: National elections held on 13 May 2001 returned Berlusconi to power at the head of the five-party center-right House of Freedoms coalition, comprising the Prime Minister's own party, Forza Italia, the National Alliance, the Lega Nord, the Christian Democratic Center and the United Christian Democrats.
+Expected output: 'entities: [{'span': 'Berlusconi', 'entity': 'Politician'}, {'span': 'House of Freedoms', 'entity': 'Political Party'}, {'span': 'Forza Italia', 'entity': 'Political Party'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'Lega Nord', 'entity': 'Political Party'}, {'span': 'Christian Democratic Center', 'entity': 'Political Party'}, {'span': 'United Christian Democrats', 'entity': 'Political Party'}]'
+
+Example #14: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #15: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #16: In the 1992 United States presidential election, Bush and Quayle were challenged in their bid for reelection by the Democratic ticket of Arkansas Governor Bill Clinton and Tennessee Senator Al Gore and the independent ticket of Texas businessman Ross Perot and retired Vice Admiral James Stockdale.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}, {'span': 'Arkansas', 'entity': 'Location'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Tennessee', 'entity': 'Location'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Ross Perot', 'entity': 'Politician'}, {'span': 'James Stockdale', 'entity': 'Politician'}]'
+
+Example #17: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #18: During the last four years of the Second Polish Republic, the major politicians included President Ignacy Mościcki, Foreign Minister Józef Beck and the Commander-in-Chief of the Polish Army, Edward Rydz-Śmigły.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': 'Ignacy Mościcki', 'entity': 'Politician'}, {'span': 'Józef Beck', 'entity': 'Politician'}, {'span': 'Polish Army', 'entity': 'Misc'}, {'span': 'Edward Rydz-Śmigły', 'entity': 'Politician'}]'
+
+Example #19: After losing the 2000 nomination, Jello became highly active in Ralph Nader ' s presidential campaign, as well as in 2004 United States presidential election and 2008 United States presidential election.
+Expected output: 'entities: [{'span': 'Jello', 'entity': 'Politician'}, {'span': 'Ralph Nader', 'entity': 'Politician'}, {'span': '2004 United States presidential election', 'entity': 'Election'}, {'span': '2008 United States presidential election', 'entity': 'Election'}]'
+
+Example #20: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+

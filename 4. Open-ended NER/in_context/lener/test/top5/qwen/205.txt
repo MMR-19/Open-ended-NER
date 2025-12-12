@@ -1,0 +1,15 @@
+Example #1: O Governador do Distrito Federal e o Procurador-Geral do Distrito Federal apresentaram informações às fls. 27/30 e 32/37, respectivamente, oportunidade em que pugnaram pelo reconhecimento da inconstitucionalidade formal das leis vergastadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #2: O denunciante questionou a desclassificação sumária de onze licitantes, por inexequibilidade das propostas, sem que lhes fosse concedida oportunidade de demonstrar a viabilidade dos preços ofertados, o que contrariaria a Súmula 262 do TCU.
+Expected output: 'entities: [{'span': 'Súmula 262 do TCU', 'entity': 'Jurisprudência'}]'
+
+Example #3: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: Audiência - Sr. André Luiz Moreira da Silva a. desclassificação sumária de onze propostas, sem que fosse concedida aos licitantes a oportunidade de demonstrar a sua capacidade de bem executar os serviços, nos termos e condições exigidos pelo instrumento convocatório, contrariando o entendimento defendido pelo Tribunal em reiteradas deliberações, a exemplo dos Acórdãos 2.528/2012, 3.344/2012 e 3.092/2014, do Plenário; 14. Informa que, na ocasião, teria sido realizado estudo na legislação, e teriam sido adotadas como parâmetro de inexequibilidade ‘ propostas abaixo de 70 % do valor orçado pela administração, nos termos do art. 48, inciso II, alíneas ‘ a ’ e ‘ b ’, da Lei 8.666/1993 ’.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'Acórdãos 2.528/2012', 'entity': 'Jurisprudência'}, {'span': '3.344/2012', 'entity': 'Jurisprudência'}, {'span': '3.092/2014', 'entity': 'Jurisprudência'}, {'span': 'Plenário', 'entity': 'Organização'}, {'span': 'art. 48, inciso II, alíneas ‘ a ’ e ‘ b ’, da Lei 8.666/1993', 'entity': 'Legislação'}]'
+
+Example #5: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+

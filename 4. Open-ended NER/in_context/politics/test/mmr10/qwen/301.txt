@@ -1,0 +1,30 @@
+Example #1: Excluding the Japanese Communist Party, the coalition was backed by all of the former opposition parties, which included the newly formed JNP, the Japan Socialist Party, the Japan Renewal Party (Shinseito), Komeito, the Democratic Socialist Party, the Socialist Democratic Federation, and the New Party Sakigake, who together controlled 243 seats in the House of Representatives.
+Expected output: 'entities: [{'span': 'Japanese Communist Party', 'entity': 'Political Party'}, {'span': 'JNP', 'entity': 'Political Party'}, {'span': 'Japan Socialist Party', 'entity': 'Political Party'}, {'span': 'Japan Renewal Party', 'entity': 'Political Party'}, {'span': 'Shinseito', 'entity': 'Political Party'}, {'span': 'Komeito', 'entity': 'Political Party'}, {'span': 'Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Socialist Democratic Federation', 'entity': 'Political Party'}, {'span': 'New Party Sakigake', 'entity': 'Political Party'}]'
+
+Example #2: Following the launch of Yes Scotland, other campaigns in support of independence were launched, including the National Collective and Radical Independence Campaign.
+Expected output: 'entities: [{'span': 'Yes Scotland', 'entity': 'Organisation'}, {'span': 'National Collective', 'entity': 'Organisation'}, {'span': 'Radical Independence Campaign', 'entity': 'Organisation'}]'
+
+Example #3: He was also the Member of Parliament for Upper Bann from 1990 Upper Bann by-election to 2005 United Kingdom general election in Northern Ireland and the Member of the Legislative Assembly (MLA) for Upper Bann from 1998 to 2007 Northern Ireland Assembly election.
+Expected output: 'entities: [{'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'Upper Bann', 'entity': 'Organisation'}, {'span': '1990 Upper Bann by-election', 'entity': 'Election'}, {'span': '2005 United Kingdom general election in Northern Ireland', 'entity': 'Election'}, {'span': 'Legislative Assembly', 'entity': 'Organisation'}, {'span': 'MLA', 'entity': 'Organisation'}, {'span': '2007 Northern Ireland Assembly election', 'entity': 'Election'}]'
+
+Example #4: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #5: Though Roosevelt won the backing of Treasury Secretary William Gibbs McAdoo and Governor Martin H. Glynn, he faced a formidable opponent in the Tammany-backed James W. Gerard.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'William Gibbs McAdoo', 'entity': 'Politician'}, {'span': 'Martin H. Glynn', 'entity': 'Politician'}, {'span': 'James W. Gerard', 'entity': 'Politician'}]'
+
+Example #6: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #7: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #8: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #9: The January 1910 United Kingdom general election and December 1910 United Kingdom general election elections in 1910 destroyed the large Liberal majority, meaning they relied on the Irish Parliamentary Party to maintain a government.
+Expected output: 'entities: [{'span': 'January 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'December 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}]'
+
+Example #10: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+

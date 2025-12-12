@@ -1,0 +1,60 @@
+Example #1: Rhea was not named until 1847, when John Herschel (son of William Herschel, discoverer of the planet Uranus, and two other moons of Saturn, Mimas and Enceladus) suggested in Results of Astronomical Observations made at the Cape of Good Hope that the names of the Titans, sisters and brothers of Kronos (Saturn, in Roman mythology), be used.
+Expected output: 'entities: [{'span': 'Rhea', 'entity': 'Astronomical Object'}, {'span': 'John Herschel', 'entity': 'Scientist'}, {'span': 'William Herschel', 'entity': 'Scientist'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Mimas', 'entity': 'Astronomical Object'}, {'span': 'Enceladus', 'entity': 'Astronomical Object'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}, {'span': 'Titans', 'entity': 'Astronomical Object'}, {'span': 'Kronos', 'entity': 'Astronomical Object'}, {'span': 'Roman', 'entity': 'Misc'}]'
+
+Example #2: Nicknames (e.g. 51 Pegasi b, HD 209458 b, 2018 VG18) should not be used as article titles, unless they have become the common name in the scientific literature.
+Expected output: 'entities: [{'span': '51 Pegasi b', 'entity': 'Astronomical Object'}, {'span': 'HD 209458 b', 'entity': 'Astronomical Object'}, {'span': '2018 VG18', 'entity': 'Astronomical Object'}]'
+
+Example #3: The outer gas giant planets are Jupiter, Saturn, Uranus, and Neptune.
+Expected output: 'entities: [{'span': 'gas giant', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #4: The exceptions are Venus and Uranus.
+Expected output: 'entities: [{'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #5: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #6: For example, Saturn ' s moons Titan and Enceladus and Jupiter ' s moons Europa and Ganymede, all of which are outside the habitable zone, may hold large volumes of liquid water in subsurface ocean s.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Titan', 'entity': 'Astronomical Object'}, {'span': 'Enceladus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Europa', 'entity': 'Astronomical Object'}, {'span': 'Ganymede', 'entity': 'Astronomical Object'}]'
+
+Example #7: The planets have been designated Pr0201 b and Pr0211 b.
+Expected output: 'entities: [{'span': 'Pr0201 b', 'entity': 'Astronomical Object'}, {'span': 'Pr0211 b', 'entity': 'Astronomical Object'}]'
+
+Example #8: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #9: The five bodies currently called planets that were known to the Greeks were those visible to the naked eye: Mercury, Venus, Mars, Jupiter, and Saturn.
+Expected output: 'entities: [{'span': 'Greeks', 'entity': 'Misc'}, {'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Mars', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #10: This is due to the gravitation influence of Saturn and Jupiter.
+Expected output: 'entities: [{'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #11: The orbit of 70 Panopaea places it in a mean motion resonance with the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': '70 Panopaea', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #12: This minor planet was named by the discoverer in memory of English astronomers Charles Mason (1728-1786) and Jeremiah Dixon (1733-1779), who observed the 1761 transit of Venus from the Cape of Good Hope.
+Expected output: 'entities: [{'span': 'minor planet', 'entity': 'Misc'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Charles Mason', 'entity': 'Scientist'}, {'span': 'Jeremiah Dixon', 'entity': 'Scientist'}, {'span': '1761 transit of Venus', 'entity': 'Event'}, {'span': 'Cape of Good Hope', 'entity': 'Location'}]'
+
+Example #13: Triple conjunctions between the inferior planets Mercury and Venus and the superior planets Jupiter, Saturn, Uranus, Neptune, dwarf planet Pluto or with star s take place when these objects are at the same time in conjunction to Sun while Mercury or Venus are at inferior conjunction.
+Expected output: 'entities: [{'span': 'Mercury', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Pluto', 'entity': 'Astronomical Object'}, {'span': 'Sun', 'entity': 'Astronomical Object'}]'
+
+Example #14: The author of the Dictionary of Minor Planet Names, Lutz D. Schmadel, contacted Italian astronomer Paul G. Comba, who confirmed that this naming was another clear instance of homage to him.
+Expected output: 'entities: [{'span': 'Dictionary of Minor Planet Names', 'entity': 'Misc'}, {'span': 'Lutz D. Schmadel', 'entity': 'Person'}, {'span': 'Italian', 'entity': 'Misc'}, {'span': 'Paul G. Comba', 'entity': 'Scientist'}]'
+
+Example #15: Minimum distances from the Earth, Venus, and Jupiter, are 0.5, 0.8, and 3.5 AU, respectively.
+Expected output: 'entities: [{'span': 'Earth', 'entity': 'Astronomical Object'}, {'span': 'Venus', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}]'
+
+Example #16: A great conjunction is a conjunction of the planets Jupiter and Saturn.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}]'
+
+Example #17: He also studies the Kuiper Belt and transitional objects such as 2060 Chiron and 5145 Pholus, as well as the occasional comets as with the recent Deep impact mission that travelled to Comet Tempel 1, and near-Earth asteroids with the occasional use of the Hubble and Spitzer Space Telescope s.
+Expected output: 'entities: [{'span': 'Kuiper Belt', 'entity': 'Astronomical Object'}, {'span': '2060 Chiron', 'entity': 'Astronomical Object'}, {'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Deep impact', 'entity': 'Misc'}, {'span': 'Comet Tempel 1', 'entity': 'Astronomical Object'}, {'span': 'Hubble and', 'entity': 'Misc'}, {'span': 'Spitzer Space Telescope', 'entity': 'Misc'}]'
+
+Example #18: Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more ices and are thus now termed ice giant s.
+Expected output: 'entities: [{'span': 'spectroscopy', 'entity': 'Discipline'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'hydrogen', 'entity': 'Chemical Element'}, {'span': 'helium', 'entity': 'Chemical Element'}, {'span': 'ice giant', 'entity': 'Misc'}]'
+
+Example #19: August Kopff, a colleague of Wolf at Heidelberg, then discovered 617 Patroclus eight months after Achilles, and, in early 1907, he discovered the largest of all Jupiter trojans, 624 Hektor.
+Expected output: 'entities: [{'span': 'August Kopff', 'entity': 'Scientist'}, {'span': 'Wolf', 'entity': 'Scientist'}, {'span': 'Heidelberg', 'entity': 'Location'}, {'span': '617 Patroclus', 'entity': 'Astronomical Object'}, {'span': 'Achilles', 'entity': 'Astronomical Object'}, {'span': 'Jupiter trojans', 'entity': 'Misc'}, {'span': '624 Hektor', 'entity': 'Astronomical Object'}]'
+
+Example #20: The gaseous outer atmospheres of Jupiter and Saturn transition smoothly into the dense liquid interior, while the nature of the transition zones of Neptune and Uranus is unknown.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+

@@ -1,0 +1,30 @@
+Example #1: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL PARA A PROPOSITURA DE LEIS QUE VERSEM SOBRE ALTERAÇÃO DE USO DE SOLO NO ÂMBITO DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #2: Recurso de revista de que não se conhece (Processo: RR - 15300-67.2004.5.06.0002 Data de Julgamento: 05/05/2010, Relatora Ministra: Kátia Magalhães Arruda, 5ª Turma, Data de Publicaçãono DEJT em 14/05/2010) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT, a legislação é clara quando afiança que, na ambitude de qualquer demanda trabalhista, existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante, a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada, sob pena de, assim não agindo, submeter-se ao dever de pagar o débito com o acréscimo de 50 %.
+Expected output: 'entities: [{'span': 'RR - 15300-67.2004.5.06.0002', 'entity': 'Jurisprudência'}, {'span': '05/05/2010', 'entity': 'Tempo'}, {'span': 'Kátia Magalhães Arruda', 'entity': 'Pessoa'}, {'span': '5ª Turma', 'entity': 'Organização'}, {'span': '14/05/2010', 'entity': 'Tempo'}, {'span': 'artigo 467 da CLT', 'entity': 'Legislação'}]'
+
+Example #3: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO.
+Expected output: 'entities: [{'span': 'ESTADO DE SÃO PAULO', 'entity': 'Localização'}]'
+
+Example #5: Para defender a soberania do Brasil, a Constituição elege as Forças Armadas, que detém o monopólio do emprego ordenado da violência e, por isso, submetem-se aos princípios de hierarquia e disciplina, postos na Constituição exatamente para assegurar o coeficiente máximo de civilidade no desempenho de sua missão.
+Expected output: 'entities: [{'span': 'Brasil', 'entity': 'Localização'}, {'span': 'Constituição', 'entity': 'Legislação'}]'
+
+Example #6: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #7: Mérito Quanto ao mérito, a publicação em site oficial da prefeitura do Município de Paraíba do Sul/RJ, em período vedado, da criação e execução de programa de governo local, sugerindo ser o primeiro recorrente, na qualidade de chefe do Poder Executivo, `` mais competente do que os seus adversários '' (fl. 129), não se enquadra nas exceções previstas no ad. 73, VI, b, da Lei das Eleições.
+Expected output: 'entities: [{'span': 'Município de Paraíba do Sul/RJ', 'entity': 'Localização'}, {'span': 'ad. 73, VI, b, da Lei das Eleições', 'entity': 'Legislação'}]'
+
+Example #8: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #9: Publique-se e encaminhe-se à Administração Regional de Águas Claras - RA XX do Distrito Federal, para as providências pertinentes.
+Expected output: 'entities: [{'span': 'Águas Claras - RA XX do Distrito Federal', 'entity': 'Localização'}]'
+
+Example #10: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 3373814. Supremo Tribunal Federal 11/12/2012 PRIMEIRA TURMA HABEAS CORPUS 110.260 SÃO PAULO V O T O O SENHOR MINISTRO LUIZ FUX (RELATOR): A competência originária do Supremo Tribunal Federal para conhecer e julgar habeas corpus está definida, taxativamente, no artigo 102, inciso I, alíneas “ d ” e “ i ”, da Constituição Federal, verbis: Art. 102. Compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição, cabendo-lhe: I processar e julgar, originariamente: … d) o habeas corpus, sendo paciente qualquer das pessoas referidas nas alíneas anteriores; o mandado de segurança e o habeas data contra atos do Presidente da República, das Mesas da Câmara e do Senado Federal, do Tribunal de Contas da União, do ProcuradorGeral da República e do próprio Supremo Tribunal Federal; … i) o habeas corpus, quando o coator for Tribunal Superior ou quando o coator ou o paciente for autoridade ou funcionário cujos atos estejam sujeitos diretamente à jurisdição do Supremo Tribunal Federal, ou se trate de crime sujeito à mesma jurisdição em uma única instância.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '11/12/2012', 'entity': 'Tempo'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': 'HABEAS CORPUS 110.260', 'entity': 'Jurisprudência'}, {'span': 'SÃO PAULO', 'entity': 'Localização'}, {'span': 'LUIZ FUX', 'entity': 'Pessoa'}, {'span': 'artigo 102, inciso I, alíneas “ d ” e “ i ”, da Constituição Federal', 'entity': 'Legislação'}, {'span': 'Constituição', 'entity': 'Legislação'}, {'span': 'Câmara', 'entity': 'Organização'}, {'span': 'Senado Federal', 'entity': 'Organização'}, {'span': 'Tribunal de Contas da União', 'entity': 'Organização'}]'
+

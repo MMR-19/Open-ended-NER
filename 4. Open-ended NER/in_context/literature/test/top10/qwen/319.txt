@@ -1,0 +1,30 @@
+Example #1: Although not accessible for years within Germany to comply with a court order from S. Fischer Verlag regarding the works of Heinrich Mann, Thomas Mann and Alfred Döblin, Project Gutenberg is once more accessible.
+Expected output: 'entities: [{'span': 'Germany', 'entity': 'Country'}, {'span': 'S. Fischer Verlag', 'entity': 'Organisation'}, {'span': 'Heinrich Mann', 'entity': 'Writer'}, {'span': 'Thomas Mann', 'entity': 'Writer'}, {'span': 'Alfred Döblin', 'entity': 'Writer'}, {'span': 'Project Gutenberg', 'entity': 'Organisation'}]'
+
+Example #2: Other works soon followed, including A Tale of Two Cities (1859) and Great Expectations (1861), which were resounding successes.
+Expected output: 'entities: [{'span': 'A Tale of Two Cities', 'entity': 'Book'}, {'span': 'Great Expectations', 'entity': 'Book'}]'
+
+Example #3: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #4: The period around World War II also saw the publication of the time travel novel Lest Darkness Fall by L. Sprague de Camp, in which an American academic travels to Italy at the time of the Byzantine invasion of the Ostrogoths.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'time travel novel', 'entity': 'Literary Genre'}, {'span': 'Lest Darkness Fall', 'entity': 'Book'}, {'span': 'L. Sprague de Camp', 'entity': 'Writer'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Byzantine', 'entity': 'Misc'}, {'span': 'Ostrogoths', 'entity': 'Misc'}]'
+
+Example #5: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #6: Due to pressure by fans on Asimov to write another book in his Foundation series, he did so with Foundation's Edge (1982) and Foundation and Earth (1986), and then went back to before the original trilogy with Prelude to Foundation (1988) and Forward the Foundation (1992), his last novel.
+Expected output: 'entities: [{'span': 'Asimov', 'entity': 'Writer'}, {'span': 'Foundation series', 'entity': 'Misc'}, {'span': "Foundation's Edge", 'entity': 'Book'}, {'span': 'Foundation and Earth', 'entity': 'Book'}, {'span': 'trilogy', 'entity': 'Misc'}, {'span': 'Prelude to Foundation', 'entity': 'Book'}, {'span': 'Forward the Foundation', 'entity': 'Book'}, {'span': 'novel', 'entity': 'Literary Genre'}]'
+
+Example #7: Gravity's Rainbow shared the 1974 National Book Award with A Crown of Feathers and Other Stories by Isaac Bashevis Singer (split award).
+Expected output: 'entities: [{'span': "Gravity's Rainbow", 'entity': 'Book'}, {'span': 'National Book Award', 'entity': 'Award'}, {'span': 'A Crown of Feathers and Other Stories', 'entity': 'Book'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #8: In Beyond Good and Evil and On the Genealogy of Morality, Nietzsche's genealogical account of the development of modern moral systems occupies a central place.
+Expected output: 'entities: [{'span': 'Beyond Good and Evil', 'entity': 'Book'}, {'span': 'On the Genealogy of Morality', 'entity': 'Book'}, {'span': 'Nietzsche', 'entity': 'Writer'}]'
+
+Example #9: Verne's collaboration with the publisher Pierre-Jules Hetzel led to the creation of the Voyages extraordinaires, a widely popular series of scrupulously researched adventure novels including Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Sea (1870), and Around the World in Eighty Days (1873).
+Expected output: 'entities: [{'span': 'Verne', 'entity': 'Writer'}, {'span': 'Pierre-Jules Hetzel', 'entity': 'Writer'}, {'span': 'Voyages extraordinaires', 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'Journey to the Center of the Earth', 'entity': 'Book'}, {'span': 'Twenty Thousand Leagues Under the Sea', 'entity': 'Book'}, {'span': 'Around the World in Eighty Days', 'entity': 'Book'}]'
+
+Example #10: One of his poems, Ikke Bødlen, was featured as one of the best poems on Human Rights on a 1979 book published by Amnesty International Denmark, and would be later translated into the first verse of Roger Waters ' song Each Small Candle.
+Expected output: 'entities: [{'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Ikke Bødlen', 'entity': 'Poem'}, {'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Denmark', 'entity': 'Country'}, {'span': 'verse', 'entity': 'Literary Genre'}, {'span': 'Roger Waters', 'entity': 'Writer'}, {'span': 'Each Small Candle', 'entity': 'Misc'}]'
+

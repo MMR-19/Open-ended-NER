@@ -1,0 +1,15 @@
+Example #1: The most common way is using the so-called ROUGE (Recall-Oriented Understudy for Gisting Evaluation) measure.
+Expected output: 'entities: [{'span': 'ROUGE', 'entity': 'Metrics'}, {'span': 'Recall-Oriented Understudy for Gisting Evaluation', 'entity': 'Metrics'}]'
+
+Example #2: Haralick is a Fellow of IEEE for his contributions in computer vision and image processing and a Fellow of the International Association for Pattern Recognition (IAPR) for his contributions in pattern recognition, image processing, and for service to IAPR.
+Expected output: 'entities: [{'span': 'Haralick', 'entity': 'Researcher'}, {'span': 'IEEE', 'entity': 'Organisation'}, {'span': 'computer vision', 'entity': 'Field'}, {'span': 'image processing', 'entity': 'Field'}, {'span': 'International Association for Pattern Recognition', 'entity': 'Organisation'}, {'span': 'IAPR', 'entity': 'Organisation'}, {'span': 'pattern recognition', 'entity': 'Field'}]'
+
+Example #3: Beginning at the 2019 Toronto International Film Festival, films may now be restricted from screening at Scotiabank Theatre Toronto - one of the festival's main venues - and screened elsewhere (such as TIFF Bell Lightbox and other local cinemas) if distributed by a service such as Netflix.
+Expected output: 'entities: [{'span': '2019 Toronto International Film Festival', 'entity': 'Misc'}, {'span': 'Scotiabank Theatre Toronto', 'entity': 'Location'}, {'span': 'TIFF Bell Lightbox', 'entity': 'Location'}, {'span': 'Netflix', 'entity': 'Organisation'}]'
+
+Example #4: Examples of supervised learning are Naive Bayes classifier, Support vector machine, mixtures of Gaussians, and network.
+Expected output: 'entities: [{'span': 'supervised learning', 'entity': 'Field'}, {'span': 'Naive Bayes classifier', 'entity': 'Algorithm'}, {'span': 'Support vector machine', 'entity': 'Algorithm'}, {'span': 'mixtures of Gaussians', 'entity': 'Algorithm'}, {'span': 'network', 'entity': 'Algorithm'}]'
+
+Example #5: To allow for multiple entities, a separate Hinge loss is computed for each capsule.
+Expected output: 'entities: [{'span': 'Hinge loss', 'entity': 'Metrics'}]'
+

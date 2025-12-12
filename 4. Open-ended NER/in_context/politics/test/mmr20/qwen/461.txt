@@ -1,0 +1,60 @@
+Example #1: It is generally estimated that over 3 million people marched in Rome, between one and two million in London, more than 600,000 in Madrid, 300,000 in Berlin, as well as in Damascus, Paris, New York, Oslo, Stockholm, Brussels, Johannesburg, Montreal - more than 600 cities in all, worldwide.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Country'}, {'span': 'London', 'entity': 'Country'}, {'span': 'Madrid', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Damascus', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'New York', 'entity': 'Location'}, {'span': 'Oslo', 'entity': 'Location'}, {'span': 'Stockholm', 'entity': 'Location'}, {'span': 'Brussels', 'entity': 'Location'}, {'span': 'Johannesburg', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #2: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #3: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #4: This tends to lead to the chamber being dominated by two major parties, the Liberal Party of Australia / National Party of Australia Coalition and the Australian Labor Party.
+Expected output: 'entities: [{'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}, {'span': 'Australian Labor Party', 'entity': 'Political Party'}]'
+
+Example #5: The Theosophical Society built several Buddhist schools in Ceylon, most notably Ananda College in 1886, Dharmaraja College Kandy in 1887, Maliyadeva College Kurunegala in 1888, Mahinda College Galle in 1892, Nalanda College, Colombo in 1925, Musaeus Girls College in Colombo and Dharmasoka College in Ambalangoda.
+Expected output: 'entities: [{'span': 'Theosophical Society', 'entity': 'Organisation'}, {'span': 'Buddhist', 'entity': 'Misc'}, {'span': 'Ceylon', 'entity': 'Location'}, {'span': 'Ananda College', 'entity': 'Organisation'}, {'span': 'Dharmaraja College', 'entity': 'Organisation'}, {'span': 'Kandy', 'entity': 'Location'}, {'span': 'Maliyadeva College', 'entity': 'Organisation'}, {'span': 'Kurunegala', 'entity': 'Location'}, {'span': 'Mahinda College', 'entity': 'Organisation'}, {'span': 'Galle', 'entity': 'Location'}, {'span': 'Nalanda College', 'entity': 'Organisation'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Musaeus Girls College', 'entity': 'Organisation'}, {'span': 'Dharmasoka College', 'entity': 'Organisation'}, {'span': 'Ambalangoda', 'entity': 'Location'}]'
+
+Example #6: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #7: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #8: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #9: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #10: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #11: A number of the wealthiest and most affluent American families (Old Money) - such as the Vanderbilts, Astor family, Rockefeller family, Du Pont family, Roosevelt family, Forbes, Whitneys, Junius Spencer Morgan, and Harrimans - are mostly Mainline Protestant families in the Episcopalian, Presbyterian, or other similar traditions.
+Expected output: 'entities: [{'span': 'Old Money', 'entity': 'Misc'}, {'span': 'Vanderbilts', 'entity': 'Organisation'}, {'span': 'Astor family', 'entity': 'Organisation'}, {'span': 'Rockefeller family', 'entity': 'Organisation'}, {'span': 'Du Pont family', 'entity': 'Organisation'}, {'span': 'Roosevelt family', 'entity': 'Organisation'}, {'span': 'Forbes', 'entity': 'Organisation'}, {'span': 'Whitneys', 'entity': 'Organisation'}, {'span': 'Junius Spencer Morgan', 'entity': 'Person'}, {'span': 'Harrimans', 'entity': 'Misc'}, {'span': 'Mainline Protestant families', 'entity': 'Organisation'}, {'span': 'Episcopalian', 'entity': 'Organisation'}, {'span': 'Presbyterian', 'entity': 'Organisation'}]'
+
+Example #12: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #13: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #14: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #15: He faced strong challenges from the right (Republican Ronald Reagan), the center (independent John B. Anderson), and the left (Democrat Ted Kennedy).
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': 'independent', 'entity': 'Misc'}, {'span': 'John B. Anderson', 'entity': 'Politician'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Ted Kennedy', 'entity': 'Politician'}]'
+
+Example #16: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #17: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #18: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #19: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #20: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+

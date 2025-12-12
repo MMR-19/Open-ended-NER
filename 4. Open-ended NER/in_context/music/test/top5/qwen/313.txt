@@ -1,0 +1,15 @@
+Example #1: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #2: Her early works in the 1960s (her debut The Barbra Streisand Album, The Second Barbra Streisand Album, The Third Album, My Name Is Barbra, etc.
+Expected output: 'entities: [{'span': 'The Barbra Streisand Album', 'entity': 'Album'}, {'span': 'The Second Barbra Streisand Album', 'entity': 'Album'}, {'span': 'The Third Album', 'entity': 'Album'}, {'span': 'My Name Is Barbra', 'entity': 'Album'}]'
+
+Example #3: It started with pop music singers like Glen Campbell, Bobbie Gentry, John Denver, Olivia Newton-John, Anne Murray, B. J. Thomas, The Bellamy Brothers, and Linda Ronstadt having hits on the country charts.
+Expected output: 'entities: [{'span': 'pop music', 'entity': 'Music Genre'}, {'span': 'Glen Campbell', 'entity': 'Person'}, {'span': 'Bobbie Gentry', 'entity': 'Person'}, {'span': 'John Denver', 'entity': 'Person'}, {'span': 'Olivia Newton-John', 'entity': 'Person'}, {'span': 'Anne Murray', 'entity': 'Musical Artist'}, {'span': 'B. J. Thomas', 'entity': 'Musical Artist'}, {'span': 'The Bellamy Brothers', 'entity': 'Band'}, {'span': 'Linda Ronstadt', 'entity': 'Musical Artist'}]'
+
+Example #4: These albums spawned some of Carey's most successful singles, including Hero, Without You, All I Want for Christmas Is You, Fantasy, Always Be My Baby, as well as One Sweet Day, which peaked at number one in the U.S. for 16 weeks and became Billboard s Song Of The Decade (1990s Decade).
+Expected output: 'entities: [{'span': 'Carey', 'entity': 'Musical Artist'}, {'span': 'Hero', 'entity': 'Song'}, {'span': 'Without You', 'entity': 'Song'}, {'span': 'All I Want for Christmas Is You', 'entity': 'Song'}, {'span': 'Fantasy', 'entity': 'Song'}, {'span': 'Always Be My Baby', 'entity': 'Song'}, {'span': 'One Sweet Day', 'entity': 'Song'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Billboard', 'entity': 'Organisation'}, {'span': 'Song Of The Decade', 'entity': 'Misc'}]'
+
+Example #5: Following the hard rock and heavy metal origins on the band's first two albums, Too Fast for Love (1981) and Shout at the Devil (1983), the release of its third album Theatre of Pain (1985) saw Mötley Crüe joining the first wave of glam metal.
+Expected output: 'entities: [{'span': 'hard rock', 'entity': 'Music Genre'}, {'span': 'heavy metal', 'entity': 'Music Genre'}, {'span': 'Too Fast for Love', 'entity': 'Album'}, {'span': 'Shout at the Devil', 'entity': 'Album'}, {'span': 'Theatre of Pain', 'entity': 'Album'}, {'span': 'the first wave of glam metal', 'entity': 'Event'}]'
+

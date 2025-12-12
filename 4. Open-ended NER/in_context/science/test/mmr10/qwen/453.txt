@@ -1,0 +1,30 @@
+Example #1: In 1931, an expedition led by Hubert Wilkins and Lincoln Ellsworth and partly financed by William Randolph Hearst, attempted to reach the North Pole with a leased US Navy submarine named Nautilus.
+Expected output: 'entities: [{'span': 'Hubert Wilkins', 'entity': 'Person'}, {'span': 'Lincoln Ellsworth', 'entity': 'Person'}, {'span': 'William Randolph Hearst', 'entity': 'Person'}, {'span': 'North Pole', 'entity': 'Location'}, {'span': 'US Navy submarine named Nautilus', 'entity': 'Misc'}]'
+
+Example #2: It was discovered during the Palomar-Leiden Trojan survey on 26 March 1971, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.
+Expected output: 'entities: [{'span': 'Palomar-Leiden Trojan survey', 'entity': 'Misc'}, {'span': 'Ingrid van Houten-Groeneveld', 'entity': 'Scientist'}, {'span': 'Cornelis van Houten', 'entity': 'Scientist'}, {'span': 'Leiden', 'entity': 'Location'}, {'span': 'Tom Gehrels', 'entity': 'Scientist'}, {'span': 'Palomar Observatory', 'entity': 'Location'}, {'span': 'California', 'entity': 'Location'}]'
+
+Example #3: The U.S. Navy has three other facilities on the bay: Naval Station San Diego, Naval Base Point Loma at Ballast Point, which is a Nuclear Submarine base, and Naval Amphibious Base Coronado.
+Expected output: 'entities: [{'span': 'The U.S. Navy', 'entity': 'Organisation'}, {'span': 'Naval Station San Diego', 'entity': 'Location'}, {'span': 'Naval Base Point Loma', 'entity': 'Location'}, {'span': 'Ballast Point', 'entity': 'Location'}, {'span': 'Nuclear Submarine base', 'entity': 'Location'}, {'span': 'Naval Amphibious Base Coronado', 'entity': 'Location'}]'
+
+Example #4: The two-part finale's epic scale and underlying plot was first conceived in early 2007 as the last regular-series story for departing producer s Russell T Davies, Julie Gardner, and Phil Collinson: the fourth series finale is the last story produced by Collinson; and Steven Moffat and Piers Wenger replaced Davies and Gardner as show runner and executive producer respectively in 2010.
+Expected output: 'entities: [{'span': 'Russell T Davies', 'entity': 'Person'}, {'span': 'Julie Gardner', 'entity': 'Person'}, {'span': 'Phil Collinson', 'entity': 'Person'}, {'span': 'Collinson', 'entity': 'Person'}, {'span': 'Steven Moffat', 'entity': 'Person'}, {'span': 'Piers Wenger', 'entity': 'Person'}, {'span': 'Davies', 'entity': 'Person'}, {'span': 'Gardner', 'entity': 'Person'}]'
+
+Example #5: The Fall of Singapore in February 1942 led him to offer his services to John Madsen, the Professor of Electrical Engineering at the University of Sydney, and the head of the Radiophysics Laboratory at the Council for Scientific and Industrial Research, which was responsible for developing radar.
+Expected output: 'entities: [{'span': 'Fall of Singapore', 'entity': 'Event'}, {'span': 'John Madsen', 'entity': 'Scientist'}, {'span': 'Electrical Engineering', 'entity': 'Discipline'}, {'span': 'University of Sydney', 'entity': 'University'}, {'span': 'Radiophysics Laboratory', 'entity': 'Organisation'}, {'span': 'Council for Scientific and Industrial Research', 'entity': 'Organisation'}]'
+
+Example #6: On October 7, 2008, the Royal Swedish Academy of Sciences awarded the 2008 Nobel Prize in Physics to three scientists for their work in subatomic physics symmetry breaking.
+Expected output: 'entities: [{'span': 'Royal Swedish Academy of Sciences', 'entity': 'Organisation'}, {'span': 'Nobel Prize in Physics', 'entity': 'Award'}, {'span': 'subatomic physics', 'entity': 'Discipline'}]'
+
+Example #7: The gaseous outer atmospheres of Jupiter and Saturn transition smoothly into the dense liquid interior, while the nature of the transition zones of Neptune and Uranus is unknown.
+Expected output: 'entities: [{'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}]'
+
+Example #8: In the 2002 film, this musical number is performed by Catherine Zeta-Jones (as Velma Kelly), Susan Misner (as Liz), Denise Faye (as Annie), Deidre Goodwin (as June), Ekaterina Shchelkanova (as Katalin Helinszki nicknamed the Hunyak) and Mýa (as Mona).
+Expected output: 'entities: [{'span': 'Catherine Zeta-Jones', 'entity': 'Person'}, {'span': 'Velma Kelly', 'entity': 'Person'}, {'span': 'Susan Misner', 'entity': 'Person'}, {'span': 'Liz', 'entity': 'Person'}, {'span': 'Denise Faye', 'entity': 'Person'}, {'span': 'Annie', 'entity': 'Person'}, {'span': 'Deidre Goodwin', 'entity': 'Person'}, {'span': 'June', 'entity': 'Person'}, {'span': 'Ekaterina Shchelkanova', 'entity': 'Person'}, {'span': 'Katalin Helinszki', 'entity': 'Person'}, {'span': 'Hunyak', 'entity': 'Person'}, {'span': 'Mýa', 'entity': 'Person'}, {'span': 'Mona', 'entity': 'Person'}]'
+
+Example #9: The Thimble Tickle squid was found aground offshore, alive, on 2 November 1878, near Little Bay Copper Mine, Thimble Tickle Bay, Notre Dame Bay, Newfoundland Colony.
+Expected output: 'entities: [{'span': 'Thimble Tickle squid', 'entity': 'Misc'}, {'span': 'Little Bay Copper Mine', 'entity': 'Location'}, {'span': 'Thimble Tickle Bay', 'entity': 'Location'}, {'span': 'Notre Dame Bay', 'entity': 'Location'}, {'span': 'Newfoundland Colony', 'entity': 'Country'}]'
+
+Example #10: This increased DctA expression, they found, permitted Citsup + / sup cells to re-uptake Succinic acid, Malic acid, and Fumaric acid released into the medium by the CitT transporter during import of citrate.
+Expected output: 'entities: [{'span': 'DctA', 'entity': 'Protein'}, {'span': 'Succinic acid', 'entity': 'Chemical Compound'}, {'span': 'Malic acid', 'entity': 'Chemical Compound'}, {'span': 'Fumaric acid', 'entity': 'Chemical Compound'}, {'span': 'CitT', 'entity': 'Protein'}, {'span': 'citrate', 'entity': 'Chemical Compound'}]'
+

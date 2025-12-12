@@ -1,0 +1,30 @@
+Example #1: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #2: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #3: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #4: " Soft commodities ", or " softs ", are commodities such as coffee, cocoa, sugar, corn, wheat, soybean, fruit and livestock.
+Expected output: 'entities: [{'span': 'coffee', 'entity': 'Food'}, {'span': 'cocoa', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'wheat', 'entity': 'Plant'}, {'span': 'soybean', 'entity': 'Plant'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'livestock', 'entity': 'Animal'}]'
+
+Example #5: Chili, scallop with butter, teriyaki, takoyaki, and yakitori chip flavors are also available.
+Expected output: 'entities: [{'span': 'Chili', 'entity': 'Plant'}, {'span': 'scallop', 'entity': 'Animal'}, {'span': 'teriyaki', 'entity': 'Food'}, {'span': 'takoyaki', 'entity': 'Food'}, {'span': 'yakitori', 'entity': 'Food'}]'
+
+Example #6: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #7: Better documented, the bacterium " Pseudomonas aeruginosa " and the fungus " Cladosporium resinae " are commonly detected in aircraft fuel tanks that use kerosene-based fuels (not avgas), and laboratory cultures can degrade aluminium.
+Expected output: 'entities: [{'span': 'Cladosporium', 'entity': 'Biological entity'}]'
+
+Example #8: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #9: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #10: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+

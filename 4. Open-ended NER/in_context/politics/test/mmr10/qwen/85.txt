@@ -1,0 +1,30 @@
+Example #1: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #2: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #3: The Soviet Politburo decisions were guided by a Special Commission on Afghanistan, which consisted of Yuri Andropov the KGB chairman, Andrei Gromyko the Minister of Foreign Affairs, Defence Minister Dmitriy Ustinov, and Boris Ponomarev, the head of the International Department of the Central Committee.
+Expected output: 'entities: [{'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Politburo', 'entity': 'Misc'}, {'span': 'Afghanistan', 'entity': 'Country'}, {'span': 'Yuri Andropov', 'entity': 'Politician'}, {'span': 'KGB', 'entity': 'Organisation'}, {'span': 'Andrei Gromyko', 'entity': 'Politician'}, {'span': 'Dmitriy Ustinov', 'entity': 'Politician'}, {'span': 'Boris Ponomarev', 'entity': 'Politician'}, {'span': 'International Department of the Central Committee', 'entity': 'Organisation'}]'
+
+Example #4: On the train trip from Washington D.C., to Gettysburg on November 18, Lincoln was accompanied by three members of his Cabinet, William H. Seward, John Palmer Usher and Montgomery Blair, several foreign officials, his secretary John Nicolay, and his assistant secretary, John Hay.
+Expected output: 'entities: [{'span': 'Washington D.C.', 'entity': 'Location'}, {'span': 'Gettysburg', 'entity': 'Location'}, {'span': 'Lincoln', 'entity': 'Politician'}, {'span': 'William H. Seward', 'entity': 'Politician'}, {'span': 'John Palmer Usher', 'entity': 'Politician'}, {'span': 'Montgomery Blair', 'entity': 'Politician'}, {'span': 'John Nicolay', 'entity': 'Politician'}, {'span': 'John Hay', 'entity': 'Politician'}]'
+
+Example #5: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #6: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #7: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #8: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #9: Congress members Tom Lantos, Jim Saxton, Thad McCotter, Chris Shays, Charles Boustany, Alcee Hastings, and Robert Wexler referred to Hezbollah as a terrorist organization in their speeches supporting the legislation.Congress. denounces terrorism, and I have to take him at his word.
+Expected output: 'entities: [{'span': 'Tom Lantos', 'entity': 'Politician'}, {'span': 'Jim Saxton', 'entity': 'Politician'}, {'span': 'Thad McCotter', 'entity': 'Politician'}, {'span': 'Chris Shays', 'entity': 'Politician'}, {'span': 'Charles Boustany', 'entity': 'Politician'}, {'span': 'Alcee Hastings', 'entity': 'Politician'}, {'span': 'Robert Wexler', 'entity': 'Politician'}, {'span': 'Hezbollah', 'entity': 'Political Party'}]'
+
+Example #10: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+

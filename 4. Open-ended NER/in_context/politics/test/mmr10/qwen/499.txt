@@ -1,0 +1,30 @@
+Example #1: The People's Party, led by Aznar, won the most parliamentary seats at the 1996 Spanish general election, but he failed to obtain a majority in the Congress of Deputies, which forced the PP to seek the support of Basque (Basque Nationalist Party), Catalan (Convergence and Union) and Canarian (Canarian Coalition) regionalists.
+Expected output: 'entities: [{'span': "The People's Party", 'entity': 'Political Party'}, {'span': 'Aznar', 'entity': 'Politician'}, {'span': '1996 Spanish general election', 'entity': 'Election'}, {'span': 'Congress of Deputies', 'entity': 'Organisation'}, {'span': 'Basque', 'entity': 'Misc'}, {'span': 'Basque Nationalist Party', 'entity': 'Political Party'}, {'span': 'Catalan', 'entity': 'Misc'}, {'span': 'Convergence and Union', 'entity': 'Political Party'}, {'span': 'Canarian', 'entity': 'Misc'}, {'span': 'Canarian Coalition', 'entity': 'Political Party'}]'
+
+Example #2: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #3: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #4: From their 18 % share of the first German federal elections under proportional representation in 1919 German federal election, they dropped, for example, to 4.9 % in the 1928 German federal election and to 1.0 % in the November 1932 German federal election.
+Expected output: 'entities: [{'span': 'first German federal elections', 'entity': 'Election'}, {'span': '1919 German federal election', 'entity': 'Election'}, {'span': '1928 German federal election', 'entity': 'Election'}, {'span': 'November 1932 German federal election', 'entity': 'Election'}]'
+
+Example #5: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+
+Example #6: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #7: The party won two additional seats in the 1985 Belgian general election, two additional seats in 1987 Belgian general election and one in 1991 Belgian general election: in that year it won seven seats in parliament.
+Expected output: 'entities: [{'span': '1985 Belgian general election', 'entity': 'Election'}, {'span': '1987 Belgian general election', 'entity': 'Election'}, {'span': '1991 Belgian general election', 'entity': 'Election'}]'
+
+Example #8: Subsequently, the party allied itself with the New Liberal Movement in the formation of the Australian Democrats for the 1977 Australian federal election.
+Expected output: 'entities: [{'span': 'New Liberal Movement', 'entity': 'Political Party'}, {'span': 'Australian Democrats', 'entity': 'Political Party'}, {'span': '1977 Australian federal election', 'entity': 'Election'}]'
+
+Example #9: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #10: At its peak in the late 1980s up to the mid-1990s, Garuda operated an extensive network of flights all over the world, with regularly scheduled services to Los Angeles, Paris, Rome, Fukuoka, Adelaide, Johannesburg, Cairo and other cities in Europe, Australia and Asia.
+Expected output: 'entities: [{'span': 'Garuda', 'entity': 'Organisation'}, {'span': 'Los Angeles', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Fukuoka', 'entity': 'Location'}, {'span': 'Adelaide', 'entity': 'Location'}, {'span': 'Johannesburg', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Australia', 'entity': 'Location'}, {'span': 'Asia', 'entity': 'Location'}]'
+

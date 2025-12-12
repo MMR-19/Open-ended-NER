@@ -1,0 +1,60 @@
+Example #1: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #2: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #3: More recent Governors-General in this category include Lord Casey, Paul Hasluck, Sir John Kerr, Ninian Stephen, Bill Hayden and Sir William Deane.
+Expected output: 'entities: [{'span': 'Lord Casey', 'entity': 'Politician'}, {'span': 'Paul Hasluck', 'entity': 'Politician'}, {'span': 'Sir John Kerr', 'entity': 'Politician'}, {'span': 'Ninian Stephen', 'entity': 'Politician'}, {'span': 'Bill Hayden', 'entity': 'Politician'}, {'span': 'Sir William Deane', 'entity': 'Politician'}]'
+
+Example #4: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+
+Example #5: Despite losses for the SPD, the Red-Green coalition government commanded a very slight majority in the Bundestag and was renewed, with Joschka Fischer as foreign minister, Renate Künast as minister for consumer protection, nutrition and agriculture, and Jürgen Trittin as minister for the environment.
+Expected output: 'entities: [{'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Red-Green coalition', 'entity': 'Political Party'}, {'span': 'Bundestag', 'entity': 'Organisation'}, {'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #6: Page returned to cabinet after the 1934 Australian federal election, when the Country Party entered a new coalition with Joseph Lyons ' United Australia Party.
+Expected output: 'entities: [{'span': '1934 Australian federal election', 'entity': 'Election'}, {'span': 'Country Party', 'entity': 'Political Party'}, {'span': 'Joseph Lyons', 'entity': 'Politician'}, {'span': 'United Australia Party', 'entity': 'Political Party'}]'
+
+Example #7: The January 1910 United Kingdom general election and December 1910 United Kingdom general election elections in 1910 destroyed the large Liberal majority, meaning they relied on the Irish Parliamentary Party to maintain a government.
+Expected output: 'entities: [{'span': 'January 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'December 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}]'
+
+Example #8: Gandhian right-wing Congressmen Vallabhbhai Patel, Rajendra Prasad and C. Rajagopalachari .In the 1930s the Congress Socialist Party group was formed within the INC under the leadership of Jayaprakash Narayan, Narendra Deo and Nehru, however, never joined the group but did act as bridge between them and Gandhi.
+Expected output: 'entities: [{'span': 'Gandhian', 'entity': 'Politician'}, {'span': 'Vallabhbhai Patel', 'entity': 'Politician'}, {'span': 'Rajendra Prasad', 'entity': 'Politician'}, {'span': 'C. Rajagopalachari', 'entity': 'Politician'}, {'span': 'Congress Socialist Party', 'entity': 'Political Party'}, {'span': 'INC', 'entity': 'Misc'}, {'span': 'Jayaprakash Narayan', 'entity': 'Politician'}, {'span': 'Narendra Deo', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Gandhi', 'entity': 'Politician'}]'
+
+Example #9: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #10: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #11: Within this district were Barnsley, Batley, Bradford, Brighouse, Dewsbury, Doncaster, Halifax, Huddersfield, Keighley, Leeds, Morley, Ossett, Pontefract, Pudsey, Rotherham, Sheffield, Todmorden (partly in Lancashire until 1888, when fully incorporated into Yorkshire) and Wakefield.
+Expected output: 'entities: [{'span': 'Barnsley', 'entity': 'Location'}, {'span': 'Batley', 'entity': 'Location'}, {'span': 'Bradford', 'entity': 'Location'}, {'span': 'Brighouse', 'entity': 'Location'}, {'span': 'Dewsbury', 'entity': 'Location'}, {'span': 'Doncaster', 'entity': 'Location'}, {'span': 'Halifax', 'entity': 'Location'}, {'span': 'Huddersfield', 'entity': 'Location'}, {'span': 'Keighley', 'entity': 'Location'}, {'span': 'Leeds', 'entity': 'Location'}, {'span': 'Morley', 'entity': 'Location'}, {'span': 'Ossett', 'entity': 'Location'}, {'span': 'Pontefract', 'entity': 'Location'}, {'span': 'Pudsey', 'entity': 'Location'}, {'span': 'Rotherham', 'entity': 'Location'}, {'span': 'Sheffield', 'entity': 'Location'}, {'span': 'Todmorden', 'entity': 'Location'}, {'span': 'Lancashire', 'entity': 'Location'}, {'span': 'Yorkshire', 'entity': 'Location'}, {'span': 'Wakefield', 'entity': 'Location'}]'
+
+Example #12: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #13: His party won 14 seats in the 1998 Nova Scotia general election and held the balance of power in a minority government where both the Nova Scotia Liberal Party and the Nova Scotia New Democratic Party, led by Russell MacLellan and Robert Chisholm, respectively, each had nineteen seats.
+Expected output: 'entities: [{'span': '1998 Nova Scotia general election', 'entity': 'Election'}, {'span': 'Nova Scotia Liberal Party', 'entity': 'Political Party'}, {'span': 'Nova Scotia New Democratic Party', 'entity': 'Political Party'}, {'span': 'Russell MacLellan', 'entity': 'Politician'}, {'span': 'Robert Chisholm', 'entity': 'Politician'}]'
+
+Example #14: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #15: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #16: After some time, more candidates were presented, like Union of Democrats for Europe leader Clemente Mastella, Italy of Values leader and former magistrate Antonio Di Pietro, Federation of the Greens leader Alfonso Pecoraro Scanio and others few minor candidates.
+Expected output: 'entities: [{'span': 'Union of Democrats for Europe', 'entity': 'Political Party'}, {'span': 'Clemente Mastella', 'entity': 'Politician'}, {'span': 'Italy of Values', 'entity': 'Political Party'}, {'span': 'Antonio Di Pietro', 'entity': 'Politician'}, {'span': 'Federation of the Greens', 'entity': 'Political Party'}, {'span': 'Alfonso Pecoraro Scanio', 'entity': 'Politician'}]'
+
+Example #17: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #18: During his time as governor, Thompson served as chairman of the National Governors Association and the Education Commission of the States, in addition to the Council of State Governments, the Republican Governors Association, the Council of Great Lakes Governors, and the Midwestern Governors Association.
+Expected output: 'entities: [{'span': 'Thompson', 'entity': 'Politician'}, {'span': 'National Governors Association', 'entity': 'Political Party'}, {'span': 'Education Commission of the States', 'entity': 'Organisation'}, {'span': 'Council of State Governments', 'entity': 'Organisation'}, {'span': 'Republican Governors Association', 'entity': 'Political Party'}, {'span': 'Council of Great Lakes Governors', 'entity': 'Organisation'}, {'span': 'Midwestern Governors Association', 'entity': 'Organisation'}]'
+
+Example #19: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #20: During the 1990s and 2000s, NARAL Pro-Choice America and Planned Parenthood typically gave Kennedy ratings of 100 percent, while the National Right to Life Committee typically gave him a rating of less than 10 percent.
+Expected output: 'entities: [{'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+

@@ -1,0 +1,6 @@
+Example #1: Em se tratando de diplomas normativos que disponham sobre a administração de áreas públicas e sobre o uso e ocupação do solo do Distrito Federal, a iniciativa do processo legislativo compete privativamente ao Governador do Distrito Federal.Por isso mesmo, demonstrado que a iniciativa das leis distritais em apreço coube a parlamentar, declara-se a inconstitucionalidade formal dos diplomas legais impugnados. ” (ADI 2008.00.2.016888-0, Rel. Des. João Mariosi, Conselho Especial, julgado em 08.09.2009, DJ-e de 10.02.2010, p. 22) (grifei).
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Distrito Federal.Por', 'entity': 'Localização'}, {'span': 'ADI 2008.00.2.016888-0', 'entity': 'Jurisprudência'}, {'span': 'João Mariosi', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '08.09.2009', 'entity': 'Tempo'}, {'span': '10.02.2010', 'entity': 'Tempo'}]'
+
+Example #2: A autora argumenta que as Leis impugnadas, oriundas de projetos de autoria de Deputados Distritais, teriam invadido matéria de competência privativa do Governador do Distrito Federal, na medida em que versam sobre a ocupação de áreas públicas, alterando suas destinações originais.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

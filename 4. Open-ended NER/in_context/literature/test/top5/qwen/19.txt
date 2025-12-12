@@ -1,0 +1,15 @@
+Example #1: In addition to writing for The New Yorker, he has written for The Atlantic Monthly and National Geographic.
+Expected output: 'entities: [{'span': 'The New Yorker', 'entity': 'Magazine'}, {'span': 'The Atlantic Monthly', 'entity': 'Magazine'}, {'span': 'National Geographic', 'entity': 'Magazine'}]'
+
+Example #2: Most notably, she was the food editor of The New York Times Magazine, the editor of T Living, a quarterly publication of The New York Times, author of The Essential New York Times Cookbook which was a New York Times bestseller, and co-founder and CEO of Food52.
+Expected output: 'entities: [{'span': 'The New York Times Magazine', 'entity': 'Magazine'}, {'span': 'T Living', 'entity': 'Magazine'}, {'span': 'The New York Times', 'entity': 'Organisation'}, {'span': 'The Essential New York Times Cookbook', 'entity': 'Book'}, {'span': 'New York Times', 'entity': 'Organisation'}, {'span': 'Food52', 'entity': 'Organisation'}]'
+
+Example #3: Nin was a friend, and in some cases lover, of many literary figures, including Henry Miller, John Steinbeck, Antonin Artaud, Edmund Wilson, Gore Vidal, James Agee, James Leo Herlihy, and Lawrence Durrell.
+Expected output: 'entities: [{'span': 'Nin', 'entity': 'Writer'}, {'span': 'Henry Miller', 'entity': 'Writer'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'Antonin Artaud', 'entity': 'Writer'}, {'span': 'Edmund Wilson', 'entity': 'Writer'}, {'span': 'Gore Vidal', 'entity': 'Writer'}, {'span': 'James Agee', 'entity': 'Writer'}, {'span': 'James Leo Herlihy', 'entity': 'Writer'}, {'span': 'Lawrence Durrell', 'entity': 'Writer'}]'
+
+Example #4: Nobel Prize -winning writer Isaac Bashevis Singer translated some of his works.
+Expected output: 'entities: [{'span': 'Nobel Prize', 'entity': 'Award'}, {'span': 'Isaac Bashevis Singer', 'entity': 'Writer'}]'
+
+Example #5: In 1960, aged 42, he approached Aleksandr Tvardovsky, a poet and the chief editor of the Novy Mir magazine, with the manuscript of One Day in the Life of Ivan Denisovich.
+Expected output: 'entities: [{'span': 'Aleksandr Tvardovsky', 'entity': 'Writer'}, {'span': 'Novy Mir', 'entity': 'Magazine'}, {'span': 'One Day in the Life of Ivan Denisovich', 'entity': 'Book'}]'
+

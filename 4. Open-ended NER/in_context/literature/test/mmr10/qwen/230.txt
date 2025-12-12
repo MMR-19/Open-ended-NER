@@ -1,0 +1,30 @@
+Example #1: The Han dynasty Records of the Grand Historian records that it had already become a place of pilgrimage for ministers.
+Expected output: 'entities: [{'span': 'Han dynasty', 'entity': 'Country'}, {'span': 'Records of the Grand Historian', 'entity': 'Book'}]'
+
+Example #2: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #3: 7th Century CE), author of Shishupala Vadha, an epic famous for its linguistic ingenuity, and Śrīharṣa (12th century CE), author of Naishadha Charita (Naiṣadhīya-carita).
+Expected output: 'entities: [{'span': 'Shishupala Vadha', 'entity': 'Poem'}, {'span': 'Śrīharṣa', 'entity': 'Writer'}, {'span': 'Naishadha Charita', 'entity': 'Poem'}, {'span': 'Naiṣadhīya-carita', 'entity': 'Poem'}]'
+
+Example #4: The British military historian John Keegan attacked Clausewitz's theory in his book A History of Warfare. John Keegan, A History of Warfare.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'John Keegan', 'entity': 'Writer'}, {'span': 'Clausewitz', 'entity': 'Writer'}, {'span': 'A History of Warfare', 'entity': 'Book'}]'
+
+Example #5: Highly regarded in his lifetime and for a period thereafter, he is now largely remembered for his anti-slavery writings and his poems Barbara Frietchie, The Barefoot Boy, Maud Muller and Snow-Bound.
+Expected output: 'entities: [{'span': 'anti-slavery writings', 'entity': 'Literary Genre'}, {'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Barbara Frietchie', 'entity': 'Poem'}, {'span': 'The Barefoot Boy', 'entity': 'Poem'}, {'span': 'Maud Muller', 'entity': 'Poem'}, {'span': 'Snow-Bound', 'entity': 'Poem'}]'
+
+Example #6: The Story of Civilization: Volume 8, The Age of Louis XIV by Will Durant; chapter II, subsection 4.1 p.56)
+Expected output: 'entities: [{'span': 'The Story of Civilization', 'entity': 'Book'}, {'span': 'The Age of Louis XIV', 'entity': 'Book'}, {'span': 'Will Durant', 'entity': 'Writer'}]'
+
+Example #7: The original Chanson d 'Antioche is lost, but it was edited in the 12th century by Graindor de Douai, who also edited the Chanson de Jérusalem, and possibly wrote the Chanson des Chétifs himself.
+Expected output: 'entities: [{'span': "Chanson d 'Antioche", 'entity': 'Poem'}, {'span': 'Graindor de Douai', 'entity': 'Writer'}, {'span': 'Chanson de Jérusalem', 'entity': 'Poem'}, {'span': 'Chanson des Chétifs', 'entity': 'Poem'}]'
+
+Example #8: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #9: He was influenced by the Marxist playwright Bertolt Brecht and was invited by Brecht to be his assistant at the East Berlin State Opera but turned down the offer.
+Expected output: 'entities: [{'span': 'Marxist', 'entity': 'Misc'}, {'span': 'Bertolt Brecht', 'entity': 'Writer'}, {'span': 'Brecht', 'entity': 'Writer'}, {'span': 'East Berlin State Opera', 'entity': 'Location'}]'
+
+Example #10: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+

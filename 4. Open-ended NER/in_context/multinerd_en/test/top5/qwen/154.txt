@@ -1,0 +1,15 @@
+Example #1: In the case of " Plasmodium ", merozoites infect red blood cells and then rapidly reproduce asexually.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}]'
+
+Example #2: " Plasmodium " parasites including " Haemoproteus " have been detected in their blood.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}, {'span': 'Haemoproteus', 'entity': 'Biological entity'}]'
+
+Example #3: Less commonly seen in developed countries are organisms such as " Vibrio cholerae " which causes cholera and various strains of " Salmonella " which cause typhoid and para-typhoid diseases.
+Expected output: 'entities: [{'span': 'cholera', 'entity': 'Disease'}, {'span': 'Salmonella', 'entity': 'Biological entity'}]'
+
+Example #4: Posaconazole is used to treat invasive " Aspergillus " and " Candida " and fungal infections caused by " Scedosporium " and " Fusarium " species, which may occur in immunocompromised patients.
+Expected output: 'entities: [{'span': 'Aspergillus', 'entity': 'Biological entity'}, {'span': 'Candida', 'entity': 'Biological entity'}, {'span': 'Scedosporium', 'entity': 'Biological entity'}]'
+
+Example #5: In 2010, a team led by Zahi Hawass reported that the young king had died from a combination of a broken leg, malaria and Köhler disease but another team from the Bernhard Nocht Institute for Tropical Medicine in Hamburg believes his death was caused by sickle cell disease.
+Expected output: 'entities: [{'span': 'Zahi Hawass', 'entity': 'Person'}, {'span': 'malaria', 'entity': 'Disease'}, {'span': 'Bernhard Nocht Institute for Tropical Medicine', 'entity': 'Organization'}, {'span': 'Hamburg', 'entity': 'Location'}]'
+

@@ -1,0 +1,60 @@
+Example #1: He was a candidate in the Polish presidential election in 1995 Polish presidential election, 2000 Polish presidential election, 2005 Polish presidential election and 2010 Polish presidential election.
+Expected output: 'entities: [{'span': 'Polish', 'entity': 'Misc'}, {'span': '1995 Polish presidential election', 'entity': 'Election'}, {'span': '2000 Polish presidential election', 'entity': 'Election'}, {'span': '2005 Polish presidential election', 'entity': 'Election'}, {'span': '2010 Polish presidential election', 'entity': 'Election'}]'
+
+Example #2: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #3: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #4: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #5: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+
+Example #6: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #7: Đinđić was voted out of his position as Belgrade mayor by the Serbian Renewal Movement, Socialist Party of Serbia and Serbian Radical Party.
+Expected output: 'entities: [{'span': 'Đinđić', 'entity': 'Politician'}, {'span': 'Belgrade', 'entity': 'Location'}, {'span': 'Serbian Renewal Movement', 'entity': 'Political Party'}, {'span': 'Socialist Party of Serbia', 'entity': 'Political Party'}, {'span': 'Serbian Radical Party', 'entity': 'Political Party'}]'
+
+Example #8: Human rights groups, including Amnesty International, Human Rights Watch and the Center for Constitutional Rights, and U.S. military defense lawyers have criticised the military commissions for lacking due process for a fair trial.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': 'Center for Constitutional Rights', 'entity': 'Organisation'}, {'span': 'U.S.', 'entity': 'Country'}]'
+
+Example #9: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #10: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #11: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #12: It is often stated that incidents precede the 1789 election of the First U.S. Congress: namely, when Patrick Henry and his Anti-Federalist allies were in control of the Virginia House of Delegates in 1788, they drew the boundaries of Virginia's 5th congressional district in an unsuccessful attempt to keep James Madison out of the U.S. House of Representatives via the candidacy of James Monroe.
+Expected output: 'entities: [{'span': 'First U.S. Congress', 'entity': 'Misc'}, {'span': 'Patrick Henry', 'entity': 'Politician'}, {'span': 'Virginia House of Delegates', 'entity': 'Organisation'}, {'span': 'Virginia', 'entity': 'Location'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'U.S. House of Representatives', 'entity': 'Misc'}, {'span': 'James Monroe', 'entity': 'Politician'}]'
+
+Example #13: Lugar was reelected in 1982 United States Senate election in Indiana, 1988 United States Senate election in Indiana, 1994 United States Senate election in Indiana, 2000 United States Senate election in Indiana, and 2006 United States Senate election in Indiana.
+Expected output: 'entities: [{'span': 'Lugar', 'entity': 'Politician'}, {'span': '1982 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1988 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '1994 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2000 United States Senate election in Indiana', 'entity': 'Election'}, {'span': '2006 United States Senate election in Indiana', 'entity': 'Election'}]'
+
+Example #14: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #15: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #16: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #17: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #18: The Republicans gained the upper hand in the campaign, as Cleveland's campaign was poorly managed by Calvin S. Brice and William H. Barnum, whereas Harrison had engaged more aggressive fundraisers and tacticians in Matthew Quay and John Wanamaker.
+Expected output: 'entities: [{'span': 'Republicans', 'entity': 'Misc'}, {'span': 'Calvin S. Brice', 'entity': 'Politician'}, {'span': 'William H. Barnum', 'entity': 'Politician'}, {'span': 'Matthew Quay', 'entity': 'Politician'}, {'span': 'John Wanamaker', 'entity': 'Politician'}]'
+
+Example #19: In an interview for Antena 3, the leader of the Social Democratic Party, Liviu Dragnea, stated that even though his party agrees with the referendum, there are many voices that say that the referendum is actually useless for the publicly expressed purpose and that it actually is a way for Klaus Iohannis to get involved in the electoral campaign so that he can help parties around him.
+Expected output: 'entities: [{'span': 'Antena 3', 'entity': 'Organisation'}, {'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'Liviu Dragnea', 'entity': 'Politician'}, {'span': 'Klaus Iohannis', 'entity': 'Politician'}]'
+
+Example #20: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+

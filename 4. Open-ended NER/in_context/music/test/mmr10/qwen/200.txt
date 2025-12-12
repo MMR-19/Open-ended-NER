@@ -1,0 +1,30 @@
+Example #1: In addition, the film won the BAFTA Award for Best Film, BAFTA Award for Best Direction (Nichols), BAFTA Award for Most Promising Newcomer to Leading Film Roles (Hoffman), the BAFTA Award for Best Editing (Sam O 'Steen).
+Expected output: 'entities: [{'span': 'BAFTA Award for Best Film', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Direction', 'entity': 'Award'}, {'span': 'Nichols', 'entity': 'Person'}, {'span': 'BAFTA Award for Most Promising Newcomer to Leading Film Roles', 'entity': 'Award'}, {'span': 'Hoffman', 'entity': 'Person'}, {'span': 'BAFTA Award for Best Editing', 'entity': 'Award'}, {'span': "Sam O 'Steen", 'entity': 'Person'}]'
+
+Example #2: The group has been nominated for 20 Grammy awards and has won five of them with Best Alternative Album for Dookie, Best Rock Album for American Idiot and 21st Century Breakdown, Record of the Year for Boulevard of Broken Dreams, and Best Musical Show Album for American Idiot: The Original Broadway Cast Recording.
+Expected output: 'entities: [{'span': 'Grammy awards', 'entity': 'Award'}, {'span': 'Best Alternative Album', 'entity': 'Award'}, {'span': 'Dookie', 'entity': 'Album'}, {'span': 'Best Rock Album', 'entity': 'Award'}, {'span': 'American Idiot', 'entity': 'Album'}, {'span': '21st Century Breakdown', 'entity': 'Album'}, {'span': 'Record of the Year', 'entity': 'Award'}, {'span': 'Boulevard of Broken Dreams', 'entity': 'Album'}, {'span': 'Best Musical Show Album', 'entity': 'Award'}, {'span': 'The Original Broadway Cast Recording', 'entity': 'Album'}]'
+
+Example #3: The musical was an immediate hit, winning Tony Award s for Tony Award for Best Musical, Tony Award for Best Actress in a Musical (for Lawrence) and Tony Award for Best Featured Actor in a Musical (for Brynner).
+Expected output: 'entities: [{'span': 'Tony Award', 'entity': 'Award'}, {'span': 'Tony Award for Best Musical', 'entity': 'Award'}, {'span': 'Tony Award for Best Actress in a Musical', 'entity': 'Award'}, {'span': 'Lawrence', 'entity': 'Musical Artist'}, {'span': 'Tony Award for Best Featured Actor in a Musical', 'entity': 'Award'}, {'span': 'Brynner', 'entity': 'Musical Artist'}]'
+
+Example #4: She is the recipient of various accolades including an Academy Awards, three Golden Globe Awards, two Critics ' Choice Movie Awards, a Screen Actors Guild Award, and nominations for four BAFTA Awards, three Primetime Emmy Awards, and a Grammy Award.
+Expected output: 'entities: [{'span': 'Academy Awards', 'entity': 'Award'}, {'span': 'Golden Globe Awards', 'entity': 'Award'}, {'span': "Critics ' Choice Movie Awards", 'entity': 'Award'}, {'span': 'Screen Actors Guild Award', 'entity': 'Award'}, {'span': 'BAFTA Awards', 'entity': 'Award'}, {'span': 'Primetime Emmy Awards', 'entity': 'Award'}, {'span': 'Grammy Award', 'entity': 'Award'}]'
+
+Example #5: At the 33rd Academy Awards, The Apartment was nominated for ten awards and won five, including Academy Award for Best Picture, Academy Award for Best Director, and Academy Award for Best Original Screenplay.
+Expected output: 'entities: [{'span': '33rd Academy Awards', 'entity': 'Award'}, {'span': 'The Apartment', 'entity': 'Misc'}, {'span': 'Academy Award for Best Picture', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Academy Award for Best Original Screenplay', 'entity': 'Award'}]'
+
+Example #6: For the 2008 / 2009 season, he played Captain Hook at the Milton Keynes Theatre and donned the hook once again for the 2009 / 2010 panto season at the Liverpool Empire Theatre.
+Expected output: 'entities: [{'span': 'Captain Hook', 'entity': 'Misc'}, {'span': 'Milton Keynes Theatre', 'entity': 'Location'}, {'span': 'panto season', 'entity': 'Event'}, {'span': 'Liverpool Empire Theatre', 'entity': 'Location'}]'
+
+Example #7: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #8: A sleeper hit in United Kingdom, the record eventually hit the top three in the Official Charts Company and received platinum certifications from British Phonographic Industry, Recording Industry Association of America and ARIA.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Official Charts Company', 'entity': 'Organisation'}, {'span': 'British Phonographic Industry', 'entity': 'Organisation'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'ARIA', 'entity': 'Organisation'}]'
+
+Example #9: The Benedictines and their offshoots (Cistercians and Trappists among them), the Premonstratensians, and the military orders distinguish between conventual and simple or obedientiary priories.
+Expected output: 'entities: [{'span': 'Benedictines', 'entity': 'Organisation'}, {'span': 'Cistercians', 'entity': 'Organisation'}, {'span': 'Trappists', 'entity': 'Organisation'}, {'span': 'Premonstratensians', 'entity': 'Organisation'}, {'span': 'military orders', 'entity': 'Organisation'}]'
+
+Example #10: Today, musicians as diverse as Keith Urban, Rod Stewart, Taj Mahal, Joe Satriani, David Hidalgo, Larry Lalonde and Doc Watson play the six-string guitar banjo.
+Expected output: 'entities: [{'span': 'Keith Urban', 'entity': 'Musical Artist'}, {'span': 'Rod Stewart', 'entity': 'Musical Artist'}, {'span': 'Taj Mahal', 'entity': 'Musical Artist'}, {'span': 'Joe Satriani', 'entity': 'Musical Artist'}, {'span': 'David Hidalgo', 'entity': 'Musical Artist'}, {'span': 'Larry Lalonde', 'entity': 'Musical Artist'}, {'span': 'Doc Watson', 'entity': 'Musical Artist'}, {'span': 'six-string guitar banjo', 'entity': 'Musical Instrument'}]'
+

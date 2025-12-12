@@ -1,0 +1,60 @@
+Example #1: Behind the long table set up on the steps of the Rathaus Schöneberg were U.S. and German dignitaries, including Dean Rusk (Kennedy's Secretary of State), Lucius D. Clay (the US administrator of Germany), Konrad Adenauer (the German chancellor), Willy Brandt, and Otto Bach (President of the Abgeordnetenhaus of Berlin).
+Expected output: 'entities: [{'span': 'Rathaus Schöneberg', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Dean Rusk', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'Lucius D. Clay', 'entity': 'Politician'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Konrad Adenauer', 'entity': 'Politician'}, {'span': 'Willy Brandt', 'entity': 'Politician'}, {'span': 'Otto Bach', 'entity': 'Politician'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #2: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #3: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #4: Johnson unsuccessfully sought the Republican presidential nomination in 1920 United States presidential election and 1924 United States presidential election and supported Democrat Franklin D. Roosevelt in the 1932 United States presidential election.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': '1924 United States presidential election', 'entity': 'Election'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': '1932 United States presidential election', 'entity': 'Election'}]'
+
+Example #5: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #6: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #7: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #8: Isaac Butt (6 September 1813 - 5 May 1879), was an Irish barrister, politician, Member of Parliament (M.P.) in the House of Commons of the United Kingdom, and the founder and first leader of a number of Irish nationalist parties and organisations, including the Irish Metropolitan Conservative Society in 1836, the Home Government Association in 1870 and in 1873 the Home Rule League.
+Expected output: 'entities: [{'span': 'Isaac Butt', 'entity': 'Politician'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'House of Commons of the United Kingdom', 'entity': 'Organisation'}, {'span': 'Irish nationalist', 'entity': 'Misc'}, {'span': 'Irish Metropolitan Conservative Society', 'entity': 'Political Party'}, {'span': 'Home Government Association', 'entity': 'Political Party'}, {'span': 'Home Rule League', 'entity': 'Political Party'}]'
+
+Example #9: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #10: Inukai was a leading figure in the successors to the Rikken Kaishintō, the Shimpotō, Kenseitō and the Rikken Kokumintō, which eventually toppled the government of Katsura Tarō in 1913.
+Expected output: 'entities: [{'span': 'Inukai', 'entity': 'Politician'}, {'span': 'Rikken Kaishintō', 'entity': 'Political Party'}, {'span': 'Shimpotō', 'entity': 'Political Party'}, {'span': 'Kenseitō', 'entity': 'Political Party'}, {'span': 'Rikken Kokumintō', 'entity': 'Political Party'}, {'span': 'Katsura Tarō', 'entity': 'Politician'}]'
+
+Example #11: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #12: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #13: In Italy, the Italian Social Movement led by Giorgio Almirante was a major neo-fascist movement that transformed itself into a self-described post-fascist movement called the National Alliance (AN), which has been an ally of Silvio Berlusconi ' s Forza Italia for a decade.
+Expected output: 'entities: [{'span': 'Italy', 'entity': 'Location'}, {'span': 'Italian Social Movement', 'entity': 'Political Party'}, {'span': 'Giorgio Almirante', 'entity': 'Politician'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'AN', 'entity': 'Political Party'}, {'span': 'Silvio Berlusconi', 'entity': 'Politician'}, {'span': 'Forza Italia', 'entity': 'Political Party'}]'
+
+Example #14: Masud Sabri, a Uyghur was appointed as Governor of Xinjiang by KMT, as was the Tatar Burhan Shahidi and the Uyghur Yulbars Khan.
+Expected output: 'entities: [{'span': 'Masud Sabri', 'entity': 'Politician'}, {'span': 'Uyghur', 'entity': 'Misc'}, {'span': 'Xinjiang', 'entity': 'Location'}, {'span': 'KMT', 'entity': 'Political Party'}, {'span': 'Tatar', 'entity': 'Misc'}, {'span': 'Burhan Shahidi', 'entity': 'Politician'}, {'span': 'Yulbars Khan', 'entity': 'Politician'}]'
+
+Example #15: Six other Republican senators - Wayne Morse, Irving Ives, Charles W. Tobey, Edward John Thye, George Aiken, and Robert C. Hendrickson - joined her in condemning McCarthy's tactics.
+Expected output: 'entities: [{'span': 'Republican', 'entity': 'Misc'}, {'span': 'Wayne Morse', 'entity': 'Politician'}, {'span': 'Irving Ives', 'entity': 'Politician'}, {'span': 'Charles W. Tobey', 'entity': 'Politician'}, {'span': 'Edward John Thye', 'entity': 'Politician'}, {'span': 'George Aiken', 'entity': 'Politician'}, {'span': 'Robert C. Hendrickson', 'entity': 'Politician'}, {'span': 'McCarthy', 'entity': 'Politician'}]'
+
+Example #16: From their 18 % share of the first German federal elections under proportional representation in 1919 German federal election, they dropped, for example, to 4.9 % in the 1928 German federal election and to 1.0 % in the November 1932 German federal election.
+Expected output: 'entities: [{'span': 'first German federal elections', 'entity': 'Election'}, {'span': '1919 German federal election', 'entity': 'Election'}, {'span': '1928 German federal election', 'entity': 'Election'}, {'span': 'November 1932 German federal election', 'entity': 'Election'}]'
+
+Example #17: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #18: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #19: The head of Government is the Chief Minister, currently the Hon. Fabian Picardo of the Gibraltar Socialist Labour Party (GSLP) who has been in office since 9 December 2011, in alliance with the Gibraltar Liberal Party (Liberals), following the 2011 Gibraltar general election.
+Expected output: 'entities: [{'span': 'Fabian Picardo', 'entity': 'Politician'}, {'span': 'Gibraltar Socialist Labour Party', 'entity': 'Political Party'}, {'span': 'GSLP', 'entity': 'Political Party'}, {'span': 'Gibraltar Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberals', 'entity': 'Political Party'}, {'span': '2011 Gibraltar general election', 'entity': 'Election'}]'
+
+Example #20: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+

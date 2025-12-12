@@ -1,0 +1,30 @@
+Example #1: Aryl hydrocarbon receptor repressor is known to inhibit the aryl hydrocarbon receptor, which is important to metabolizing harmful chemicals.
+Expected output: 'entities: [{'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'aryl hydrocarbon receptor', 'entity': 'Protein'}]'
+
+Example #2: Several genes known to be affected by differential methylation are the CYP1A1 xenobiotic response element, Aryl hydrocarbon receptor repressor, and F2RL3.
+Expected output: 'entities: [{'span': 'CYP1A1', 'entity': 'Protein'}, {'span': 'Aryl hydrocarbon receptor repressor', 'entity': 'Misc'}, {'span': 'F2RL3', 'entity': 'Misc'}]'
+
+Example #3: Her laboratory has determined the structures of numerous large protein complexes that play critically important roles in immune signaling, including structures of TRAFs, Myddosome and IKK-beta in Toll-like receptor, the Inflammasome, and the synaptic Recombination-activating gene.
+Expected output: 'entities: [{'span': 'TRAFs', 'entity': 'Protein'}, {'span': 'Myddosome', 'entity': 'Misc'}, {'span': 'IKK-beta', 'entity': 'Protein'}, {'span': 'Toll-like receptor', 'entity': 'Protein'}, {'span': 'Inflammasome', 'entity': 'Misc'}, {'span': 'synaptic Recombination-activating gene', 'entity': 'Protein'}]'
+
+Example #4: In order to get a meaningful sulfur signal from the analysis, the buffer should not contain sulfur (i.e. no BES, DDT, HEPES, MES, MOPS, or PIPES compounds).
+Expected output: 'entities: [{'span': 'sulfur', 'entity': 'Chemical Element'}, {'span': 'BES', 'entity': 'Chemical Compound'}, {'span': 'DDT', 'entity': 'Chemical Compound'}, {'span': 'HEPES', 'entity': 'Chemical Compound'}, {'span': 'MES', 'entity': 'Chemical Compound'}, {'span': 'MOPS', 'entity': 'Chemical Compound'}, {'span': 'PIPES', 'entity': 'Chemical Compound'}]'
+
+Example #5: While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of Geodesy and Geophysics encompass both.
+Expected output: 'entities: [{'span': 'geodesy', 'entity': 'Discipline'}, {'span': 'geophysics', 'entity': 'Discipline'}, {'span': 'American Geophysical Union', 'entity': 'Organisation'}, {'span': 'Canadian Geophysical Union', 'entity': 'Organisation'}, {'span': 'International Union of Geodesy and Geophysics', 'entity': 'Organisation'}]'
+
+Example #6: Auroras have been observed on both gas planets, most clearly using the Hubble Space Telescope, and the Cassini and Galileo spacecraft, as well as on Uranus and Neptune.
+Expected output: 'entities: [{'span': 'Auroras', 'entity': 'Misc'}, {'span': 'gas planets', 'entity': 'Misc'}, {'span': 'Hubble Space Telescope', 'entity': 'Misc'}, {'span': 'Cassini', 'entity': 'Misc'}, {'span': 'Galileo spacecraft', 'entity': 'Misc'}, {'span': 'Uranus', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #7: 5145 Pholus in diameter, that crosses the orbit of both Saturn and Neptune.
+Expected output: 'entities: [{'span': '5145 Pholus', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'Neptune', 'entity': 'Astronomical Object'}]'
+
+Example #8: Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Walther Bothe, Wolfgang Gentner, Otto Haxel, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.
+Expected output: 'entities: [{'span': 'Werner Heisenberg', 'entity': 'Scientist'}, {'span': 'Hans Kopfermann', 'entity': 'Scientist'}, {'span': 'Walther Bothe', 'entity': 'Scientist'}, {'span': 'Wolfgang Gentner', 'entity': 'Scientist'}, {'span': 'Otto Haxel', 'entity': 'Scientist'}, {'span': 'Willibald Jentschke', 'entity': 'Scientist'}, {'span': 'Heinz Maier-Leibnitz', 'entity': 'Scientist'}, {'span': 'Josef Mattauch', 'entity': 'Scientist'}, {'span': 'Wolfgang Riezler', 'entity': 'Scientist'}, {'span': 'Wilhelm Walcher', 'entity': 'Scientist'}, {'span': 'Carl Friedrich von Weizsäcker', 'entity': 'Scientist'}]'
+
+Example #9: They may also use Adenosine triphosphate, Nitric oxide, and ROS for signaling in the same ways that animals do.
+Expected output: 'entities: [{'span': 'Adenosine triphosphate', 'entity': 'Chemical Compound'}, {'span': 'Nitric oxide', 'entity': 'Chemical Compound'}, {'span': 'ROS', 'entity': 'Chemical Compound'}]'
+
+Example #10: In 2005, Tania Singer and Chris Frith of the UCL Institute of Cognitive Neuroscience and the Functional Imaging Laboratory published the results of a study using transcranial magnetic stimulation which showed for the first time the role of sensorimotor components in empathy for pain in other people.
+Expected output: 'entities: [{'span': 'Tania Singer', 'entity': 'Scientist'}, {'span': 'Chris Frith', 'entity': 'Scientist'}, {'span': 'UCL Institute of Cognitive Neuroscience', 'entity': 'Organisation'}, {'span': 'Functional Imaging Laboratory', 'entity': 'Organisation'}, {'span': 'transcranial magnetic stimulation', 'entity': 'Misc'}, {'span': 'sensorimotor', 'entity': 'Misc'}]'
+

@@ -1,0 +1,15 @@
+Example #1: The film was presented at the Cannes Film Festival, won the Grand Prix Spécial du Jury and the FIPRESCI prize, and was nominated for the Palme d 'Or.
+Expected output: 'entities: [{'span': 'Cannes Film Festival', 'entity': 'Event'}, {'span': 'Grand Prix Spécial du Jury', 'entity': 'Award'}, {'span': 'FIPRESCI prize', 'entity': 'Award'}, {'span': "Palme d 'Or", 'entity': 'Award'}]'
+
+Example #2: In 1985, Spielberg released The Color Purple, an adaptation of Alice Walker ' s Pulitzer Prize -winning The Color Purple, about a generation of empowered African-American women during depression-era America.
+Expected output: 'entities: [{'span': 'Spielberg', 'entity': 'Writer'}, {'span': 'The Color Purple', 'entity': 'Book'}, {'span': 'Alice Walker', 'entity': 'Writer'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'African-American', 'entity': 'Misc'}, {'span': 'America', 'entity': 'Country'}]'
+
+Example #3: In an article for The Atlantic, film critic Ty Burr deemed The Birth of a Nation the most influential film in history while criticizing its portrayal of black men as savage.
+Expected output: 'entities: [{'span': 'The Atlantic', 'entity': 'Magazine'}, {'span': 'Ty Burr', 'entity': 'Person'}, {'span': 'The Birth of a Nation', 'entity': 'Misc'}]'
+
+Example #4: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #5: The title of the story refers to a bedtime poem recited in the narrative entitled There Will Come Soft Rains, an actual poem by Sara Teasdale originally published in 1920.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'There Will Come Soft Rains', 'entity': 'Poem'}, {'span': 'Sara Teasdale', 'entity': 'Writer'}]'
+

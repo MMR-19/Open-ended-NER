@@ -1,0 +1,60 @@
+Example #1: He led a government's coalition composed by Christian Democrats, Italian Socialist Party, Italian Democratic Socialist Party, Italian Republican Party and Italian Liberal Party.
+Expected output: 'entities: [{'span': 'Christian Democrats', 'entity': 'Misc'}, {'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Republican Party', 'entity': 'Political Party'}, {'span': 'Italian Liberal Party', 'entity': 'Political Party'}]'
+
+Example #2: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #3: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #4: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+
+Example #5: These include the TRUE Blue Crew, Antipodean Resistance, the Australian Defence League, National Action (Australia), the Q Society, Reclaim Australia and the Lads Society (formerly United Patriots Front).
+Expected output: 'entities: [{'span': 'TRUE Blue Crew', 'entity': 'Organisation'}, {'span': 'Antipodean Resistance', 'entity': 'Organisation'}, {'span': 'Australian Defence League', 'entity': 'Organisation'}, {'span': 'National Action', 'entity': 'Organisation'}, {'span': 'Australia', 'entity': 'Country'}, {'span': 'Q Society', 'entity': 'Organisation'}, {'span': 'Reclaim Australia', 'entity': 'Organisation'}, {'span': 'Lads Society', 'entity': 'Organisation'}, {'span': 'United Patriots Front', 'entity': 'Organisation'}]'
+
+Example #6: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+
+Example #7: In 1961, Tito co-founded the movement with Egypt's Gamal Abdel Nasser, India's Jawaharlal Nehru, Indonesia's Sukarno and Ghana's Kwame Nkrumah, in an action called The Initiative of Five (Tito, Nehru, Nasser, Sukarno, Nkrumah), thus establishing strong ties with third world countries.
+Expected output: 'entities: [{'span': 'Tito', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'Indonesia', 'entity': 'Country'}, {'span': 'Sukarno', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Nasser', 'entity': 'Politician'}, {'span': 'Nkrumah', 'entity': 'Politician'}]'
+
+Example #8: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #9: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #10: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #11: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #12: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #13: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #14: Formed by the Social Democratic Party (SDP) and the Liberal Party, the SDP-Liberal Alliance was established in 1981, contesting the 1983 United Kingdom general election, 1984 European Parliament election in the United Kingdom and 1987 United Kingdom general election.
+Expected output: 'entities: [{'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'SDP', 'entity': 'Political Party'}, {'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'SDP-Liberal Alliance', 'entity': 'Political Party'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1984 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #15: Successively, she was a member of the Social Democracy of the Kingdom of Poland and Lithuania (SDKPiL), the Social Democratic Party of Germany (SPD), the Independent Social Democratic Party of Germany (USPD) and the Communist Party of Germany (KPD).
+Expected output: 'entities: [{'span': 'Social Democracy of the Kingdom of Poland and Lithuania', 'entity': 'Political Party'}, {'span': 'SDKPiL', 'entity': 'Political Party'}, {'span': 'Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Independent Social Democratic Party of Germany', 'entity': 'Political Party'}, {'span': 'USPD', 'entity': 'Political Party'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'KPD', 'entity': 'Political Party'}]'
+
+Example #16: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+
+Example #17: Representatives of the Kuomintang, Communist Party of China, Chinese Youth Party, and China Democratic League, as well as independent delegates, attended the conference in Chongqing.
+Expected output: 'entities: [{'span': 'Kuomintang', 'entity': 'Political Party'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Chinese Youth Party', 'entity': 'Political Party'}, {'span': 'China Democratic League', 'entity': 'Political Party'}, {'span': 'Chongqing', 'entity': 'Location'}]'
+
+Example #18: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #19: In the last years, Honduras has had five Liberal presidents: Roberto Suazo Córdova, José Azcona del Hoyo, Carlos Roberto Reina, Carlos Roberto Flores and Manuel Zelaya, and three Nationalists: Rafael Leonardo Callejas Romero, Porfirio Lobo Sosa and Ricardo Maduro.
+Expected output: 'entities: [{'span': 'Honduras', 'entity': 'Country'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Roberto Suazo Córdova', 'entity': 'Politician'}, {'span': 'José Azcona del Hoyo', 'entity': 'Politician'}, {'span': 'Carlos Roberto Reina', 'entity': 'Politician'}, {'span': 'Carlos Roberto Flores', 'entity': 'Politician'}, {'span': 'Manuel Zelaya', 'entity': 'Politician'}, {'span': 'Rafael Leonardo Callejas Romero', 'entity': 'Politician'}, {'span': 'Porfirio Lobo Sosa', 'entity': 'Politician'}, {'span': 'Ricardo Maduro', 'entity': 'Politician'}]'
+
+Example #20: Most of the party's major figures, including Evatt, Deputy Leader Arthur Calwell, Eddie Ward, and Reg Pollard, were in their sixties, twenty years older than Whitlam.
+Expected output: 'entities: [{'span': 'Evatt', 'entity': 'Politician'}, {'span': 'Arthur Calwell', 'entity': 'Politician'}, {'span': 'Eddie Ward', 'entity': 'Politician'}, {'span': 'Reg Pollard', 'entity': 'Politician'}, {'span': 'Whitlam', 'entity': 'Politician'}]'
+

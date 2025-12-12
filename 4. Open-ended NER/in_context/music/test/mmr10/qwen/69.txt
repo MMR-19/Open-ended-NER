@@ -1,0 +1,30 @@
+Example #1: Today there are Celtic-influenced subgenres of virtually every type of popular music including electronica, Celtic rock, Celtic metal, Celtic punk, Hip hop music, reggae, New-age music, Latin, Andean and Pop music.
+Expected output: 'entities: [{'span': 'electronica', 'entity': 'Music Genre'}, {'span': 'Celtic rock', 'entity': 'Music Genre'}, {'span': 'Celtic metal', 'entity': 'Music Genre'}, {'span': 'Celtic punk', 'entity': 'Music Genre'}, {'span': 'Hip hop music', 'entity': 'Music Genre'}, {'span': 'reggae', 'entity': 'Music Genre'}, {'span': 'New-age music', 'entity': 'Music Genre'}, {'span': 'Latin', 'entity': 'Music Genre'}, {'span': 'Andean', 'entity': 'Music Genre'}, {'span': 'Pop music', 'entity': 'Music Genre'}]'
+
+Example #2: The album experimented with a diverse number of genres, including contemporary R & B, deep house, Swing music, Hip hop music, Rock music, and Pop music, with Billboard describing each as being delivered with consummate skill and passion.
+Expected output: 'entities: [{'span': 'contemporary R & B', 'entity': 'Music Genre'}, {'span': 'deep house', 'entity': 'Music Genre'}, {'span': 'Swing music', 'entity': 'Music Genre'}, {'span': 'Hip hop music', 'entity': 'Music Genre'}, {'span': 'Rock music', 'entity': 'Music Genre'}, {'span': 'Pop music', 'entity': 'Music Genre'}, {'span': 'Billboard', 'entity': 'Misc'}]'
+
+Example #3: Outside the south, the accordion (predominantly the piano accordion) is used in almost all styles of Forró (in particular in the subgenres of Xote and Baião) as the principal instrument, Luiz Gonzaga (the King of the Baião) and Dominguinhos being among the notable musicians in this style from the northeast.
+Expected output: 'entities: [{'span': 'piano accordion', 'entity': 'Musical Instrument'}, {'span': 'Forró', 'entity': 'Music Genre'}, {'span': 'Xote', 'entity': 'Music Genre'}, {'span': 'Baião', 'entity': 'Music Genre'}, {'span': 'Luiz Gonzaga', 'entity': 'Musical Artist'}, {'span': 'King of the Baião', 'entity': 'Misc'}, {'span': 'Dominguinhos', 'entity': 'Musical Artist'}]'
+
+Example #4: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #5: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #6: This style emerged in the United States in the early and mid-1980s, with innovators such as Queensrÿche, Fates Warning, and Dream Theater.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'Queensrÿche', 'entity': 'Band'}, {'span': 'Fates Warning', 'entity': 'Band'}, {'span': 'Dream Theater', 'entity': 'Band'}]'
+
+Example #7: In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Gloriana, Thompson Square, Eli Young Band, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.
+Expected output: 'entities: [{'span': 'Lady Antebellum', 'entity': 'Band'}, {'span': 'Herrick', 'entity': 'Band'}, {'span': 'The Quebe Sisters Band', 'entity': 'Band'}, {'span': 'Little Big Town', 'entity': 'Band'}, {'span': 'The Band Perry', 'entity': 'Band'}, {'span': 'Gloriana', 'entity': 'Band'}, {'span': 'Thompson Square', 'entity': 'Band'}, {'span': 'Eli Young Band', 'entity': 'Band'}, {'span': 'Zac Brown Band', 'entity': 'Band'}, {'span': 'British duo', 'entity': 'Misc'}, {'span': 'The Shires', 'entity': 'Band'}, {'span': 'country', 'entity': 'Music Genre'}, {'span': 'Kacey Musgraves', 'entity': 'Musical Artist'}, {'span': 'Miranda Lambert', 'entity': 'Musical Artist'}]'
+
+Example #8: Blues subgenres include country blues, such as Delta blues and Piedmont blues, as well as urban blues styles such as Chicago blues and West Coast blues.
+Expected output: 'entities: [{'span': 'Blues', 'entity': 'Music Genre'}, {'span': 'country blues', 'entity': 'Music Genre'}, {'span': 'Delta blues', 'entity': 'Music Genre'}, {'span': 'Piedmont blues', 'entity': 'Music Genre'}, {'span': 'urban blues', 'entity': 'Music Genre'}, {'span': 'Chicago blues', 'entity': 'Music Genre'}, {'span': 'West Coast blues', 'entity': 'Music Genre'}]'
+
+Example #9: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+
+Example #10: Their music has a particular rumba flamenca style, with Pop music influences; many songs of the Gipsy Kings fit social dance s, such as salsa and Rhumba.
+Expected output: 'entities: [{'span': 'rumba flamenca', 'entity': 'Music Genre'}, {'span': 'Pop music', 'entity': 'Music Genre'}, {'span': 'Gipsy Kings', 'entity': 'Band'}, {'span': 'salsa', 'entity': 'Music Genre'}, {'span': 'Rhumba', 'entity': 'Music Genre'}]'
+

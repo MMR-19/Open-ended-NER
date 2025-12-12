@@ -1,0 +1,30 @@
+Example #1: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+
+Example #2: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #3: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+
+Example #4: Swift is remembered for works such as A Tale of a Tub (1704), An Argument Against Abolishing Christianity (1712), Gulliver's Travels (1726), and A Modest Proposal (1729).
+Expected output: 'entities: [{'span': 'Swift', 'entity': 'Writer'}, {'span': 'A Tale of a Tub', 'entity': 'Book'}, {'span': 'An Argument Against Abolishing Christianity', 'entity': 'Book'}, {'span': "Gulliver's Travels", 'entity': 'Book'}, {'span': 'A Modest Proposal', 'entity': 'Book'}]'
+
+Example #5: The story of a powerful (fairy) woman who takes a lover on condition that he obey a particular prohibition is common in medieval poetry: the French lais of Desiré, Graelent, and Guingamor, and Chrétien de Troyes ' s romance Yvain, the Knight of the Lion, all share similar plot elements.
+Expected output: 'entities: [{'span': 'French', 'entity': 'Misc'}, {'span': 'lais', 'entity': 'Literary Genre'}, {'span': 'Desiré', 'entity': 'Poem'}, {'span': 'Graelent', 'entity': 'Poem'}, {'span': 'Guingamor', 'entity': 'Poem'}, {'span': 'Chrétien de Troyes', 'entity': 'Writer'}, {'span': 'Yvain, the Knight of the Lion', 'entity': 'Poem'}]'
+
+Example #6: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #7: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #8: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #9: He was also an admirer of Richard Condon, author of The Manchurian Candidate (1959), Prizzi's Honor (1982), and numerous other novels.
+Expected output: 'entities: [{'span': 'Richard Condon', 'entity': 'Writer'}, {'span': 'The Manchurian Candidate', 'entity': 'Book'}, {'span': "Prizzi's Honor", 'entity': 'Book'}, {'span': 'novels', 'entity': 'Literary Genre'}]'
+
+Example #10: 7th Century CE), author of Shishupala Vadha, an epic famous for its linguistic ingenuity, and Śrīharṣa (12th century CE), author of Naishadha Charita (Naiṣadhīya-carita).
+Expected output: 'entities: [{'span': 'Shishupala Vadha', 'entity': 'Poem'}, {'span': 'Śrīharṣa', 'entity': 'Writer'}, {'span': 'Naishadha Charita', 'entity': 'Poem'}, {'span': 'Naiṣadhīya-carita', 'entity': 'Poem'}]'
+

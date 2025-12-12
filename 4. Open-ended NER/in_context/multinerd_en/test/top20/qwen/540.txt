@@ -1,0 +1,60 @@
+Example #1: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #2: This takes place each year around November – after the start of the wet season and in synchronisation with the cycle of the moon.
+Expected output: 'entities: [{'span': 'wet season', 'entity': 'Time'}, {'span': 'moon', 'entity': 'Celestial Body'}]'
+
+Example #3: The park's elevation and dry desert air, along with the relatively stable atmosphere in the region, often make for excellent seeing conditions.
+Expected output: 'entities: [{'span': 'dry', 'entity': 'Disease'}, {'span': 'relatively stable', 'entity': 'Time'}]'
+
+Example #4: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #5: It flowers in spring, from May to August, and produces seed from July to September.
+Expected output: 'entities: [{'span': 'spring', 'entity': 'Time'}, {'span': 'seed', 'entity': 'Food'}]'
+
+Example #6: From the tropics and middle latitudes, the Sun is visible in the sky at its upper culmination (at solar noon) and invisible (below the horizon) at its lower culmination (at solar midnight).
+Expected output: 'entities: [{'span': 'Sun', 'entity': 'Celestial Body'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #7: Tillage is usually done to warm the seed bed up, to help dry the seed bed out, to break up disease, and to reduce early weed pressure.
+Expected output: 'entities: [{'span': 'seed', 'entity': 'Food'}, {'span': 'disease', 'entity': 'Disease'}, {'span': 'weed', 'entity': 'Plant'}]'
+
+Example #8: For example, Hyperion, a satellite of Saturn, exhibits this behaviour, and its rotation period is described as chaotic.
+Expected output: 'entities: [{'span': 'Hyperion', 'entity': 'Mythological entity'}, {'span': 'Saturn', 'entity': 'Celestial Body'}]'
+
+Example #9: The transmission is the eight-speed ZF 8HP automatic transmission.
+Expected output: 'entities: [{'span': 'ZF 8HP', 'entity': 'Instrument'}]'
+
+Example #10: The colonists enjoyed butter in cooking as well, but it was rare prior to the American Revolution, as cattle were not yet plentiful.
+Expected output: 'entities: [{'span': 'butter', 'entity': 'Food'}, {'span': 'American Revolution', 'entity': 'Event'}, {'span': 'cattle', 'entity': 'Animal'}]'
+
+Example #11: The new version was a vertical triband, with red outer bands and a white middle band, with a golden sun representing Inti at the center.
+Expected output: 'entities: [{'span': 'Inti', 'entity': 'Mythological entity'}]'
+
+Example #12: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #13: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #14: Traditional dietary patterns characterized by vegetables, fruit, meat, fish, and whole grains, as opposed to a western pattern diet characterized by processed foods, refined grains, sugary products, and beer were associated with lower odds for major depression or dysthymia (mood disorder) and for anxiety disorders in women.
+Expected output: 'entities: [{'span': 'vegetables', 'entity': 'Food'}, {'span': 'fruit', 'entity': 'Food'}, {'span': 'meat', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'whole grains', 'entity': 'Food'}, {'span': 'western pattern diet', 'entity': 'Food'}, {'span': 'processed foods', 'entity': 'Food'}, {'span': 'beer', 'entity': 'Food'}, {'span': 'dysthymia', 'entity': 'Disease'}, {'span': 'anxiety disorders', 'entity': 'Disease'}]'
+
+Example #15: In medieval times, a hawk or falcon would have been used to catch the rabbit as it exited the warren burrow.
+Expected output: 'entities: [{'span': 'medieval', 'entity': 'Time'}, {'span': 'hawk', 'entity': 'Animal'}, {'span': 'falcon', 'entity': 'Animal'}]'
+
+Example #16: White fir is popular as a Christmas tree and for Christmas decoration owing to its soft needles, generally excellent needle retention and abundance.
+Expected output: 'entities: [{'span': 'Christmas tree', 'entity': 'Plant'}, {'span': 'Christmas', 'entity': 'Time'}]'
+
+Example #17: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #18: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #19: He finished the season with 16 appearances among Serie A, Europa League and Coppa Italia.
+Expected output: 'entities: [{'span': 'Serie A', 'entity': 'Event'}, {'span': 'Europa League', 'entity': 'Media'}, {'span': 'Coppa Italia', 'entity': 'Event'}]'
+
+Example #20: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+

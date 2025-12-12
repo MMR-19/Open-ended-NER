@@ -1,0 +1,30 @@
+Example #1: Behind the long table set up on the steps of the Rathaus Schöneberg were U.S. and German dignitaries, including Dean Rusk (Kennedy's Secretary of State), Lucius D. Clay (the US administrator of Germany), Konrad Adenauer (the German chancellor), Willy Brandt, and Otto Bach (President of the Abgeordnetenhaus of Berlin).
+Expected output: 'entities: [{'span': 'Rathaus Schöneberg', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Dean Rusk', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'Lucius D. Clay', 'entity': 'Politician'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Konrad Adenauer', 'entity': 'Politician'}, {'span': 'Willy Brandt', 'entity': 'Politician'}, {'span': 'Otto Bach', 'entity': 'Politician'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #2: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #3: Duplessis returned as premier in the 1944 Quebec general election, and held power without serious opposition for the next fifteen years, until his death, winning elections in 1948 Quebec general election, 1952 Quebec general election and 1956 Quebec general election.
+Expected output: 'entities: [{'span': 'Duplessis', 'entity': 'Politician'}, {'span': '1944 Quebec general election', 'entity': 'Election'}, {'span': '1948 Quebec general election', 'entity': 'Election'}, {'span': '1952 Quebec general election', 'entity': 'Election'}, {'span': '1956 Quebec general election', 'entity': 'Election'}]'
+
+Example #4: Johnson unsuccessfully sought the Republican presidential nomination in 1920 United States presidential election and 1924 United States presidential election and supported Democrat Franklin D. Roosevelt in the 1932 United States presidential election.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': '1924 United States presidential election', 'entity': 'Election'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': '1932 United States presidential election', 'entity': 'Election'}]'
+
+Example #5: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #6: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #7: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #8: Isaac Butt (6 September 1813 - 5 May 1879), was an Irish barrister, politician, Member of Parliament (M.P.) in the House of Commons of the United Kingdom, and the founder and first leader of a number of Irish nationalist parties and organisations, including the Irish Metropolitan Conservative Society in 1836, the Home Government Association in 1870 and in 1873 the Home Rule League.
+Expected output: 'entities: [{'span': 'Isaac Butt', 'entity': 'Politician'}, {'span': 'Irish', 'entity': 'Misc'}, {'span': 'Parliament', 'entity': 'Organisation'}, {'span': 'House of Commons of the United Kingdom', 'entity': 'Organisation'}, {'span': 'Irish nationalist', 'entity': 'Misc'}, {'span': 'Irish Metropolitan Conservative Society', 'entity': 'Political Party'}, {'span': 'Home Government Association', 'entity': 'Political Party'}, {'span': 'Home Rule League', 'entity': 'Political Party'}]'
+
+Example #9: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #10: Inukai was a leading figure in the successors to the Rikken Kaishintō, the Shimpotō, Kenseitō and the Rikken Kokumintō, which eventually toppled the government of Katsura Tarō in 1913.
+Expected output: 'entities: [{'span': 'Inukai', 'entity': 'Politician'}, {'span': 'Rikken Kaishintō', 'entity': 'Political Party'}, {'span': 'Shimpotō', 'entity': 'Political Party'}, {'span': 'Kenseitō', 'entity': 'Political Party'}, {'span': 'Rikken Kokumintō', 'entity': 'Political Party'}, {'span': 'Katsura Tarō', 'entity': 'Politician'}]'
+

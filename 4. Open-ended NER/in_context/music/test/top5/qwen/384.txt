@@ -1,0 +1,15 @@
+Example #1: Parton received nominations for Drama Desk Award for Outstanding Music and Drama Desk Award for Outstanding Lyrics, as well as a nomination for Tony Award for Best Original Score.
+Expected output: 'entities: [{'span': 'Parton', 'entity': 'Musical Artist'}, {'span': 'Drama Desk Award for Outstanding Music', 'entity': 'Award'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #2: The musical was an immediate hit, winning Tony Award s for Tony Award for Best Musical, Tony Award for Best Actress in a Musical (for Lawrence) and Tony Award for Best Featured Actor in a Musical (for Brynner).
+Expected output: 'entities: [{'span': 'Tony Award', 'entity': 'Award'}, {'span': 'Tony Award for Best Musical', 'entity': 'Award'}, {'span': 'Tony Award for Best Actress in a Musical', 'entity': 'Award'}, {'span': 'Lawrence', 'entity': 'Musical Artist'}, {'span': 'Tony Award for Best Featured Actor in a Musical', 'entity': 'Award'}, {'span': 'Brynner', 'entity': 'Musical Artist'}]'
+
+Example #3: However, some bands were created around the talent of a songwriter within the group like Gary Barlow of Take That or Tony Mortimer of East 17.
+Expected output: 'entities: [{'span': 'Gary Barlow', 'entity': 'Musical Artist'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Tony Mortimer', 'entity': 'Musical Artist'}, {'span': 'East 17', 'entity': 'Band'}]'
+
+Example #4: Three of the labels rejected her, saying that audiences wanted pop bands such as the Backstreet Boys and the Spice Girls, and there wasn 't going to be another Madonna, another Debbie Gibson, or another Tiffany.
+Expected output: 'entities: [{'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'Spice Girls', 'entity': 'Band'}, {'span': 'Madonna', 'entity': 'Musical Artist'}, {'span': 'Debbie Gibson', 'entity': 'Musical Artist'}, {'span': 'Tiffany', 'entity': 'Musical Artist'}]'
+
+Example #5: According to the band's biographer Dave Lewis, while the barnstorming effect of the early era was now levelling off, and though devoid of the electricity of Zeppelin I and Led Zeppelin II, the sheer diversity of Led Zeppelin III, and lacking the classic status of Led Zeppelin IV, Houses of the Holy nevertheless found its rightful niche.
+Expected output: 'entities: [{'span': 'Dave Lewis', 'entity': 'Musical Artist'}, {'span': 'Zeppelin I', 'entity': 'Album'}, {'span': 'Led Zeppelin II', 'entity': 'Album'}, {'span': 'Led Zeppelin III', 'entity': 'Album'}, {'span': 'Led Zeppelin IV', 'entity': 'Album'}, {'span': 'Houses of the Holy', 'entity': 'Album'}]'
+

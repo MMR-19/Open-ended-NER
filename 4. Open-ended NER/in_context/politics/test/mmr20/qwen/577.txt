@@ -1,0 +1,60 @@
+Example #1: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #2: On 5 April 1960, BEA introduced de Havilland Comet 4B aircraft on the Nicosia, Athens, Rome, and London routes.
+Expected output: 'entities: [{'span': 'BEA', 'entity': 'Country'}, {'span': 'de Havilland Comet', 'entity': 'Organisation'}, {'span': 'Nicosia', 'entity': 'Location'}, {'span': 'Athens', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}]'
+
+Example #3: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #4: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #5: Behind the long table set up on the steps of the Rathaus Schöneberg were U.S. and German dignitaries, including Dean Rusk (Kennedy's Secretary of State), Lucius D. Clay (the US administrator of Germany), Konrad Adenauer (the German chancellor), Willy Brandt, and Otto Bach (President of the Abgeordnetenhaus of Berlin).
+Expected output: 'entities: [{'span': 'Rathaus Schöneberg', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Dean Rusk', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'Lucius D. Clay', 'entity': 'Politician'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Konrad Adenauer', 'entity': 'Politician'}, {'span': 'Willy Brandt', 'entity': 'Politician'}, {'span': 'Otto Bach', 'entity': 'Politician'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #6: He introduced measures to combat resistance, and when a widespread strike took place in Amsterdam, Arnhem and Hilversum in May 1943, special summary court-martial procedures were brought in, and a collective fine of 18 million guilder s was imposed.
+Expected output: 'entities: [{'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Hilversum', 'entity': 'Location'}]'
+
+Example #7: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #8: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #9: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #10: Its continued use by the Southern Army's post-war veterans groups, the United Confederate Veterans (U.C.V.) and the later Sons of Confederate Veterans, (S.C.V.), and elements of the design by related similar female descendants organizations of the United Daughters of the Confederacy, (U.D.C.), led to the assumption that it was, as it has been termed, the soldier's flag or the Confederate battle flag.
+Expected output: 'entities: [{'span': 'Southern Army', 'entity': 'Organisation'}, {'span': 'United Confederate Veterans', 'entity': 'Organisation'}, {'span': 'U.C.V.', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}, {'span': 'S.C.V.', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'U.D.C.', 'entity': 'Organisation'}]'
+
+Example #11: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+
+Example #12: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #13: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #14: Hitchens was made an Honorary Associate of the Rationalist International and the National Secular Society shortly after its release, and he was later named to the Honorary Board of distinguished achievers of the Freedom From Religion Foundation .. Approximately 112 minutes in, Hitchens contends, ' The moment where everything went wrong is the moment when the Jewish hellenists were defeated by the Jewish messiahs, the celebration now benignly known as Hanukkah.
+Expected output: 'entities: [{'span': 'Hitchens', 'entity': 'Person'}, {'span': 'Rationalist International', 'entity': 'Organisation'}, {'span': 'National Secular Society', 'entity': 'Organisation'}, {'span': 'Freedom From Religion Foundation', 'entity': 'Organisation'}, {'span': 'Jewish hellenists', 'entity': 'Misc'}, {'span': 'Jewish messiahs', 'entity': 'Misc'}, {'span': 'Hanukkah', 'entity': 'Misc'}]'
+
+Example #15: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #16: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #17: Nha Trang, headquarters of the U.S. I Field Force, was the first to be hit, followed shortly by Ban Mê Thuột, Kon Tum, Hội An, Tuy Hòa, Da Nang, Qui Nhơn, and Pleiku.
+Expected output: 'entities: [{'span': 'Nha Trang', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'I Field Force', 'entity': 'Organisation'}, {'span': 'Ban Mê Thuột', 'entity': 'Location'}, {'span': 'Kon Tum', 'entity': 'Location'}, {'span': 'Hội An', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Da Nang', 'entity': 'Location'}, {'span': 'Qui Nhơn', 'entity': 'Location'}, {'span': 'Pleiku', 'entity': 'Location'}]'
+
+Example #18: Šetalište Lazaro Kardenasa (Lázaro Cárdenas promenade) in Belgrade, Serbia, is also named after him, as is a street in Barcelona, Spain, and a monument in a park in Madrid dedicated to his memory for his role in admitting defeated Spanish Republicans to Mexico after the Civil War in that country.
+Expected output: 'entities: [{'span': 'Šetalište Lazaro Kardenasa', 'entity': 'Location'}, {'span': 'Lázaro Cárdenas promenade', 'entity': 'Location'}, {'span': 'Belgrade', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Barcelona', 'entity': 'Location'}, {'span': 'Spain', 'entity': 'Country'}, {'span': 'Madrid', 'entity': 'Location'}, {'span': 'Spanish', 'entity': 'Misc'}, {'span': 'Republicans', 'entity': 'Misc'}, {'span': 'Mexico', 'entity': 'Country'}, {'span': 'Civil War', 'entity': 'Event'}]'
+
+Example #19: On 25 November 1986, President Reagan announced the creation of a Special Review Board to look into the matter; the following day, he appointed former Senator John Tower, former Secretary of State Edmund Muskie, and former National Security Adviser Brent Scowcroft to serve as members.
+Expected output: 'entities: [{'span': 'John Tower', 'entity': 'Politician'}, {'span': 'Edmund Muskie', 'entity': 'Politician'}, {'span': 'Brent Scowcroft', 'entity': 'Politician'}]'
+
+Example #20: It is also the home of Universities at Medway, a tri-partite collaboration of the University of Greenwich, the University of Kent and Canterbury Christ Church University on a single campus in Chatham, together with the University for the Creative Arts, which has a campus in Rochester.
+Expected output: 'entities: [{'span': 'Universities at Medway', 'entity': 'Location'}, {'span': 'University of Greenwich', 'entity': 'Location'}, {'span': 'University of Kent', 'entity': 'Organisation'}, {'span': 'Canterbury Christ Church University', 'entity': 'Organisation'}, {'span': 'University for the Creative Arts', 'entity': 'Organisation'}, {'span': 'Rochester', 'entity': 'Location'}]'
+

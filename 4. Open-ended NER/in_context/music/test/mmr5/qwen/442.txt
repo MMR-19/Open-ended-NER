@@ -1,0 +1,15 @@
+Example #1: By the end of World War II, mountaineer string band music known as Bluegrass music had emerged when Bill Monroe joined with Lester Flatt and Earl Scruggs, introduced by Roy Acuff at the Grand Ole Opry.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'Bluegrass music', 'entity': 'Music Genre'}, {'span': 'Bill Monroe', 'entity': 'Musical Artist'}, {'span': 'Lester Flatt', 'entity': 'Musical Artist'}, {'span': 'Earl Scruggs', 'entity': 'Musical Artist'}, {'span': 'Roy Acuff', 'entity': 'Musical Artist'}, {'span': 'Grand Ole Opry', 'entity': 'Location'}]'
+
+Example #2: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+
+Example #3: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #4: On 9 June 1892 the Paris Opéra-Comique staged Les Troyens à Carthage (in the Théâtre de la Ville as its premiere) and witnessed a triumphant debut for the 17-year-old Marie Delna as Didon, with Stéphane Lafarge as Énée, conducted by Jules Danbé; these staged performances of Part 2 continued into the next year.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Location'}, {'span': 'Opéra-Comique', 'entity': 'Organisation'}, {'span': 'Les Troyens à Carthage', 'entity': 'Misc'}, {'span': 'Théâtre de la Ville', 'entity': 'Location'}, {'span': 'Marie Delna', 'entity': 'Musical Artist'}, {'span': 'Didon', 'entity': 'Misc'}, {'span': 'Stéphane Lafarge', 'entity': 'Person'}, {'span': 'Énée', 'entity': 'Misc'}, {'span': 'Jules Danbé', 'entity': 'Musical Artist'}]'
+
+Example #5: The band also released three full-length albums dubbed (and later packaged together as) The Trilogy: The Maggot, The Bootlicker, and The Crybaby.
+Expected output: 'entities: [{'span': 'The Trilogy', 'entity': 'Album'}, {'span': 'The Maggot', 'entity': 'Album'}, {'span': 'The Bootlicker', 'entity': 'Album'}, {'span': 'The Crybaby', 'entity': 'Album'}]'
+

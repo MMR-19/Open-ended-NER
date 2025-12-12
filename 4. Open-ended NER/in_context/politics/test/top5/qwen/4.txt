@@ -1,0 +1,15 @@
+Example #1: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #2: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #3: In late December 2011, President Barack Obama nominated Jeremy C. Stein, a Harvard University finance professor and a Democrat, and Jerome Powell, formerly of Dillon Read, Bankers Trust
+Expected output: 'entities: [{'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Jeremy C. Stein', 'entity': 'Politician'}, {'span': 'Harvard University', 'entity': 'Organisation'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Jerome Powell', 'entity': 'Politician'}, {'span': 'Dillon Read', 'entity': 'Organisation'}, {'span': 'Bankers Trust', 'entity': 'Organisation'}]'
+
+Example #4: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #5: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+

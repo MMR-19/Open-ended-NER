@@ -1,0 +1,60 @@
+Example #1: Though most other Texas Republicans supported Ronald Reagan in the 1968 Republican Party presidential primaries, Bush endorsed Richard Nixon, who went on to win the party's nomination.
+Expected output: 'entities: [{'span': 'Texas Republicans', 'entity': 'Misc'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}, {'span': '1968 Republican Party presidential primaries', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Richard Nixon', 'entity': 'Politician'}]'
+
+Example #2: Formed by the Social Democratic Party (SDP) and the Liberal Party, the SDP-Liberal Alliance was established in 1981, contesting the 1983 United Kingdom general election, 1984 European Parliament election in the United Kingdom and 1987 United Kingdom general election.
+Expected output: 'entities: [{'span': 'Social Democratic Party', 'entity': 'Political Party'}, {'span': 'SDP', 'entity': 'Political Party'}, {'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'SDP-Liberal Alliance', 'entity': 'Political Party'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1984 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #3: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #4: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #5: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #6: He gained further international attention as the chief leader of the Non-Aligned Movement, alongside Jawaharlal Nehru of India, Gamal Abdel Nasser of Egypt, and Kwame Nkrumah of Ghana.
+Expected output: 'entities: [{'span': 'Non-Aligned Movement', 'entity': 'Organisation'}, {'span': 'Jawaharlal Nehru', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Gamal Abdel Nasser', 'entity': 'Politician'}, {'span': 'Egypt', 'entity': 'Country'}, {'span': 'Kwame Nkrumah', 'entity': 'Politician'}, {'span': 'Ghana', 'entity': 'Country'}]'
+
+Example #7: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #8: In almost every year, Wyden has maintained a 100 percent rating or close to it with pro-choice groups: NARAL Pro-Choice America, Planned Parenthood, and National Family Planning and Reproductive Health Association, and a 0 percent rating or close to it from pro-life group: the National Right to Life Committee.
+Expected output: 'entities: [{'span': 'Wyden', 'entity': 'Person'}, {'span': 'NARAL Pro-Choice America', 'entity': 'Organisation'}, {'span': 'Planned Parenthood', 'entity': 'Organisation'}, {'span': 'National Family Planning and Reproductive Health Association', 'entity': 'Organisation'}, {'span': 'National Right to Life Committee', 'entity': 'Organisation'}]'
+
+Example #9: After narrowly losing the 1969 Australian federal election, Whitlam led Labor to victory at the 1972 election after 23 years of continuous Liberal Party of Australia - National Party of Australia Coalition Government.
+Expected output: 'entities: [{'span': '1969 Australian federal election', 'entity': 'Election'}, {'span': 'Whitlam', 'entity': 'Politician'}, {'span': 'Labor', 'entity': 'Political Party'}, {'span': 'Liberal Party of Australia', 'entity': 'Political Party'}, {'span': 'National Party of Australia', 'entity': 'Political Party'}]'
+
+Example #10: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #11: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #12: In the 1932 German presidential election, the SPD supported Paul von Hindenburg for President, fearing that a split vote would hand the job to the National Socialist German Workers ' Party (NSDAP) candidate, Adolf Hitler.
+Expected output: 'entities: [{'span': '1932 German presidential election', 'entity': 'Election'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Paul von Hindenburg', 'entity': 'Politician'}, {'span': "National Socialist German Workers ' Party", 'entity': 'Political Party'}, {'span': 'NSDAP', 'entity': 'Political Party'}, {'span': 'Adolf Hitler', 'entity': 'Politician'}]'
+
+Example #13: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #14: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #15: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #16: In the 1992 United States presidential election, Bush and Quayle were challenged in their bid for reelection by the Democratic ticket of Arkansas Governor Bill Clinton and Tennessee Senator Al Gore and the independent ticket of Texas businessman Ross Perot and retired Vice Admiral James Stockdale.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}, {'span': 'Arkansas', 'entity': 'Location'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Tennessee', 'entity': 'Location'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Ross Perot', 'entity': 'Politician'}, {'span': 'James Stockdale', 'entity': 'Politician'}]'
+
+Example #17: In 1981, there were riots in London ' s Brixton, Birmingham ' s Handsworth, Leeds ' Chapeltown, Liverpool ' s Toxteth and Manchester ' s Moss Side.
+Expected output: 'entities: [{'span': 'London', 'entity': 'Location'}, {'span': 'Brixton', 'entity': 'Location'}, {'span': 'Birmingham', 'entity': 'Location'}, {'span': 'Handsworth', 'entity': 'Location'}, {'span': 'Leeds', 'entity': 'Location'}, {'span': 'Chapeltown', 'entity': 'Location'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Toxteth', 'entity': 'Location'}, {'span': 'Manchester', 'entity': 'Location'}, {'span': 'Moss Side', 'entity': 'Location'}]'
+
+Example #18: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #19: After supporting Richard Nixon in his 1960 United States presidential election against John F. Kennedy, Robinson later praised Kennedy effusively for his stance on civil rights.
+Expected output: 'entities: [{'span': 'Richard Nixon', 'entity': 'Politician'}, {'span': '1960 United States presidential election', 'entity': 'Election'}, {'span': 'John F. Kennedy', 'entity': 'Politician'}, {'span': 'Robinson', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}]'
+
+Example #20: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+

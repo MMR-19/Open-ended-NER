@@ -1,0 +1,30 @@
+Example #1: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #2: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+
+Example #3: There are Lord Edward Streets named in his honour in many places in Ireland, such as Dublin, Limerick, Sligo, Kilkenny, Ballina, Ballymote, and Ballycullenbeg in County Laois.
+Expected output: 'entities: [{'span': 'Lord Edward Streets', 'entity': 'Location'}, {'span': 'Ireland', 'entity': 'Country'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}, {'span': 'Sligo', 'entity': 'Location'}, {'span': 'Kilkenny', 'entity': 'Location'}, {'span': 'Ballina', 'entity': 'Location'}, {'span': 'Ballymote', 'entity': 'Location'}, {'span': 'Ballycullenbeg', 'entity': 'Location'}, {'span': 'County Laois', 'entity': 'Location'}]'
+
+Example #4: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #5: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #6: Rowse was elected a Fellow of the British Academy (FBA), of the Royal Historical Society (FRHistS) and of the Royal Society of Literature (FRSL).
+Expected output: 'entities: [{'span': 'Rowse', 'entity': 'Person'}, {'span': 'British Academy', 'entity': 'Organisation'}, {'span': 'FBA', 'entity': 'Organisation'}, {'span': 'Royal Historical Society', 'entity': 'Organisation'}, {'span': 'FRHistS', 'entity': 'Organisation'}, {'span': 'Royal Society of Literature', 'entity': 'Organisation'}, {'span': 'FRSL', 'entity': 'Organisation'}]'
+
+Example #7: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #8: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #9: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #10: Following Genscher's resignation, Chancellor Helmut Kohl and FDP chairman Otto Graf Lambsdorff named Irmgard Schwaetzer, a former aide to Genscher, to be the new Foreign Minister.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'Otto Graf Lambsdorff', 'entity': 'Politician'}, {'span': 'Irmgard Schwaetzer', 'entity': 'Politician'}]'
+

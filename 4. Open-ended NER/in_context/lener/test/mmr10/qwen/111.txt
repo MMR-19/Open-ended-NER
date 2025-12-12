@@ -1,0 +1,30 @@
+Example #1: Resolve: RETIFICAR, para fins de regularização conforme a Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal - TCDF, o Despacho do Secretário de Estado de Gestão Administrativa e Desburocratização do Distrito Federal, publicado no DODF nº 178, de 15/09/2015, pág. 27, referente ao Processo: 020.003.701/2015, Interessado: MATHEUS TEI- XEIRA DE OLIVEIRA, Assunto: Cessão servidor, ONDE SE LÊ: `` AUTORIZO, com base no Decreto nº 36.496, de 13/05/2015, combinado com os artigos 26 e 152 da Lei Complementar nº 840 de 23/12/2011, (...) '', LEIA-SE: AUTORIZO, com base no Decreto nº 36.496, de 13/05/2015, combinado com o Decreto nº 36.825, de 22/10/2015, e na forma do disposto do art. 26, inciso II e art. 152, inciso I, alínea `` a '', c/c o caput do art. 154, da Lei Complementar nº 840 de 23 de dezembro de 2011 (...).
+Expected output: 'entities: [{'span': 'Decisão nº 6.285/2016 do Tribunal de Contas do Distrito Federal', 'entity': 'Jurisprudência'}, {'span': 'TCDF', 'entity': 'Organização'}, {'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': '15/09/2015', 'entity': 'Tempo'}, {'span': '020.003.701/2015', 'entity': 'Jurisprudência'}, {'span': 'MATHEUS TEI- XEIRA DE OLIVEIRA', 'entity': 'Pessoa'}, {'span': 'Decreto nº 36.496', 'entity': 'Legislação'}, {'span': '13/05/2015', 'entity': 'Tempo'}, {'span': 'artigos 26 e 152 da Lei Complementar nº 840', 'entity': 'Legislação'}, {'span': '23/12/2011', 'entity': 'Tempo'}, {'span': 'Decreto nº 36.825', 'entity': 'Legislação'}, {'span': '22/10/2015', 'entity': 'Tempo'}, {'span': "art. 26, inciso II e art. 152, inciso I, alínea `` a '', c/c o caput do art. 154, da Lei Complementar nº 840", 'entity': 'Legislação'}, {'span': '23 de dezembro de 2011', 'entity': 'Tempo'}]'
+
+Example #2: Art. 3º A Norma de Edificação, Uso e Gabarito NGB a ser utilizada para efeito desta Lei Complementar é a mesma que vigora atualmente para toda a Região Administrativa do Paranoá RA VII.
+Expected output: 'entities: [{'span': 'Região Administrativa do Paranoá', 'entity': 'Localização'}, {'span': 'RA VII', 'entity': 'Localização'}]'
+
+Example #3: Aliás, equiparar o capital segurado para o caso de óbito com o capital segurado para invalidez permanente é não aplicar a lei em seus devidos termos técnicos, mas conforme melhor interesse individual, em flagrante lesão ao caráter social do seguro obrigatório, verdadeiro ato de fraude social (Súmula 474/STJ).
+Expected output: 'entities: [{'span': 'Súmula 474/STJ', 'entity': 'Jurisprudência'}]'
+
+Example #4: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #5: HONORÁRIOS ADVOCATÍCIOS A apelante pretende, ainda, que seja aplicada ao PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 20 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 caso a regra disposta no art. 86, parágrafo único, do CPC4, para que a apelada suporte integralmente os honorários sucumbenciais, ao argumento de que decaiu em parte mínima do pedido.
+Expected output: 'entities: [{'span': 'ESTADO DO ACRE', 'entity': 'Localização'}, {'span': 'Segunda Câmara Cível', 'entity': 'Organização'}, {'span': 'Rua Tribunal de Justiça', 'entity': 'Localização'}, {'span': 'Via Verde', 'entity': 'Localização'}, {'span': 'Rio BrancoAC', 'entity': 'Localização'}, {'span': 'Autos n.º 0715337-93.2014.8.01.0001', 'entity': 'Jurisprudência'}, {'span': 'art. 86, parágrafo único, do CPC4', 'entity': 'Legislação'}]'
+
+Example #6: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #7: Denunciante: Identidade preservada (art. 55, caput, da Lei 8.443/1992).
+Expected output: 'entities: [{'span': 'art. 55, caput, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #8: Assim, as razões de justificativas apresentadas por André Luiz Moreira da Silva não podem ser acolhidas, devendo ser aplicada ao responsável a multa prevista no art. 58, inciso II, da Lei 8.443/1992.
+Expected output: 'entities: [{'span': 'André Luiz Moreira da Silva', 'entity': 'Pessoa'}, {'span': 'art. 58, inciso II, da Lei 8.443/1992', 'entity': 'Legislação'}]'
+
+Example #9: AgRg no REsp 1319821/PB, Rel. Ministra MARGA TESSLER (JUÍZA FEDERAL CONVOCADA DO TRF 4ª REGIÃO), PRIMEIRA TURMA, julgado em 09/12/2014, DJe 16/12/2014). ''
+Expected output: 'entities: [{'span': 'AgRg no REsp 1319821/PB', 'entity': 'Jurisprudência'}, {'span': 'MARGA TESSLER', 'entity': 'Pessoa'}, {'span': 'TRF 4ª REGIÃO', 'entity': 'Organização'}, {'span': 'PRIMEIRA TURMA', 'entity': 'Organização'}, {'span': '09/12/2014', 'entity': 'Tempo'}, {'span': '16/12/2014', 'entity': 'Tempo'}]'
+
+Example #10: O que se exige, portanto, em relação aos instrumentos legais que buscam concretizar a previsão dos planos diretores é a coerência com essas normas gerais e com a LODF Julgado procedente o pedido. ” (ADI 2008.00.2.012286-2, Rel. Des. J. J. Costa Carvalho, Conselho Especial, julgado em 25.08.2009, DJ-e de 02.12.2009, p. 28) (grifei).
+Expected output: 'entities: [{'span': 'LODF', 'entity': 'Legislação'}, {'span': 'ADI 2008.00.2.012286-2', 'entity': 'Jurisprudência'}, {'span': 'J. J. Costa Carvalho', 'entity': 'Pessoa'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': '25.08.2009', 'entity': 'Tempo'}, {'span': '02.12.2009', 'entity': 'Tempo'}]'
+

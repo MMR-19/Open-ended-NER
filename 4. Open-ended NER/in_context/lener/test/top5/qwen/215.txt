@@ -1,0 +1,15 @@
+Example #1: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #2: - Lei de autoria parlamentar que dispõe sobre o uso e ocupação do solo no Distrito Federal padece de vício formal de iniciativa, uma vez que só poderia ter sido proposta por projeto de lei de iniciativa privativa do Chefe do Poder Executivo.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: No aspecto, é de se ver que as leis impugnadas, de autoria de Deputados Distritais, padecem do vício de iniciativa, por não ser de competência do Poder Legislativo local a iniciativa de projetos de lei que disponham sobre a ocupação e o uso do solo em todo o território do Distrito Federal, bem como aqueles que objetivam desafetar área pública ou alterar significativamente a destinação de uso dessas áreas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #4: Compete privativamente ao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica. ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Compete privativamenteao Governador do Distrito Federal: (...) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

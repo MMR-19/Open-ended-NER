@@ -1,0 +1,30 @@
+Example #1: Within this district were Barnsley, Batley, Bradford, Brighouse, Dewsbury, Doncaster, Halifax, Huddersfield, Keighley, Leeds, Morley, Ossett, Pontefract, Pudsey, Rotherham, Sheffield, Todmorden (partly in Lancashire until 1888, when fully incorporated into Yorkshire) and Wakefield.
+Expected output: 'entities: [{'span': 'Barnsley', 'entity': 'Location'}, {'span': 'Batley', 'entity': 'Location'}, {'span': 'Bradford', 'entity': 'Location'}, {'span': 'Brighouse', 'entity': 'Location'}, {'span': 'Dewsbury', 'entity': 'Location'}, {'span': 'Doncaster', 'entity': 'Location'}, {'span': 'Halifax', 'entity': 'Location'}, {'span': 'Huddersfield', 'entity': 'Location'}, {'span': 'Keighley', 'entity': 'Location'}, {'span': 'Leeds', 'entity': 'Location'}, {'span': 'Morley', 'entity': 'Location'}, {'span': 'Ossett', 'entity': 'Location'}, {'span': 'Pontefract', 'entity': 'Location'}, {'span': 'Pudsey', 'entity': 'Location'}, {'span': 'Rotherham', 'entity': 'Location'}, {'span': 'Sheffield', 'entity': 'Location'}, {'span': 'Todmorden', 'entity': 'Location'}, {'span': 'Lancashire', 'entity': 'Location'}, {'span': 'Yorkshire', 'entity': 'Location'}, {'span': 'Wakefield', 'entity': 'Location'}]'
+
+Example #2: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #3: At the turn of the 19th century, nine out of ten workers were engaged in harbour activities, but as the century progressed ships became too large for the shallow harbour and the port lost business to the deep water ports at Liverpool, Southampton and Plymouth.
+Expected output: 'entities: [{'span': 'Liverpool', 'entity': 'Location'}, {'span': 'Southampton', 'entity': 'Location'}, {'span': 'Plymouth', 'entity': 'Location'}]'
+
+Example #4: The major cities of Lan Xang were located in Luang Prabang, Vientiane including the towns in Nong Khai, Muang Phuan.
+Expected output: 'entities: [{'span': 'Lan Xang', 'entity': 'Country'}, {'span': 'Luang Prabang', 'entity': 'Location'}, {'span': 'Vientiane', 'entity': 'Location'}, {'span': 'Nong Khai', 'entity': 'Location'}, {'span': 'Muang Phuan', 'entity': 'Location'}]'
+
+Example #5: It is generally estimated that over 3 million people marched in Rome, between one and two million in London, more than 600,000 in Madrid, 300,000 in Berlin, as well as in Damascus, Paris, New York, Oslo, Stockholm, Brussels, Johannesburg, Montreal - more than 600 cities in all, worldwide.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Country'}, {'span': 'London', 'entity': 'Country'}, {'span': 'Madrid', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Damascus', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'New York', 'entity': 'Location'}, {'span': 'Oslo', 'entity': 'Location'}, {'span': 'Stockholm', 'entity': 'Location'}, {'span': 'Brussels', 'entity': 'Location'}, {'span': 'Johannesburg', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #6: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #7: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #8: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+
+Example #9: A number of the wealthiest and most affluent American families (Old Money) - such as the Vanderbilts, Astor family, Rockefeller family, Du Pont family, Roosevelt family, Forbes, Whitneys, Junius Spencer Morgan, and Harrimans - are mostly Mainline Protestant families in the Episcopalian, Presbyterian, or other similar traditions.
+Expected output: 'entities: [{'span': 'Old Money', 'entity': 'Misc'}, {'span': 'Vanderbilts', 'entity': 'Organisation'}, {'span': 'Astor family', 'entity': 'Organisation'}, {'span': 'Rockefeller family', 'entity': 'Organisation'}, {'span': 'Du Pont family', 'entity': 'Organisation'}, {'span': 'Roosevelt family', 'entity': 'Organisation'}, {'span': 'Forbes', 'entity': 'Organisation'}, {'span': 'Whitneys', 'entity': 'Organisation'}, {'span': 'Junius Spencer Morgan', 'entity': 'Person'}, {'span': 'Harrimans', 'entity': 'Misc'}, {'span': 'Mainline Protestant families', 'entity': 'Organisation'}, {'span': 'Episcopalian', 'entity': 'Organisation'}, {'span': 'Presbyterian', 'entity': 'Organisation'}]'
+
+Example #10: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+

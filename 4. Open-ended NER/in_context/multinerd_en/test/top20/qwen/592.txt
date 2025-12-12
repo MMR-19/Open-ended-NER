@@ -1,0 +1,60 @@
+Example #1: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #2: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #3: This phytopathogenic bacterium can cause disease in trees like " Prunus ", hazelnut and walnut.
+Expected output: 'entities: [{'span': 'phytopathogenic', 'entity': 'Disease'}, {'span': 'Prunus', 'entity': 'Plant'}, {'span': 'hazelnut', 'entity': 'Food'}, {'span': 'walnut', 'entity': 'Food'}]'
+
+Example #4: The algae is sometimes identified as " Cladophora " sp. or " Dichotomosiphon tuberosus ".
+Expected output: 'entities: [{'span': 'Cladophora', 'entity': 'Biological entity'}]'
+
+Example #5: White fir is popular as a Christmas tree and for Christmas decoration owing to its soft needles, generally excellent needle retention and abundance.
+Expected output: 'entities: [{'span': 'Christmas tree', 'entity': 'Plant'}, {'span': 'Christmas', 'entity': 'Time'}]'
+
+Example #6: " Streptomyces achromogenes " is a species of gram-positive bacterium that belongs in the genus " Streptomyces ".
+Expected output: 'entities: [{'span': 'Streptomyces', 'entity': 'Biological entity'}]'
+
+Example #7: In Indonesia, a type of traditional ice cream called " es puter " or " stirred ice cream " is made from coconut milk, pandanus leaves, sugar - and flavors that include avocado, jackfruit, durian, palm sugar, chocolate, red bean, and mung bean.
+Expected output: 'entities: [{'span': 'Indonesia', 'entity': 'Location'}, {'span': 'pandanus', 'entity': 'Plant'}, {'span': 'sugar', 'entity': 'Food'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'jackfruit', 'entity': 'Plant'}, {'span': 'durian', 'entity': 'Plant'}, {'span': 'palm sugar', 'entity': 'Food'}, {'span': 'chocolate', 'entity': 'Food'}, {'span': 'red bean', 'entity': 'Plant'}, {'span': 'mung bean', 'entity': 'Plant'}]'
+
+Example #8: This is the fertilized eggs or roe (" qaarsat, meluk, imlauk ") of the Pacific herring attached to eelgrass, seaweed or other submerged vegetation.
+Expected output: 'entities: [{'span': 'roe', 'entity': 'Food'}, {'span': 'Pacific herring', 'entity': 'Animal'}, {'span': 'eelgrass', 'entity': 'Plant'}]'
+
+Example #9: The genome of cultivated sweet potatoes contains sequences of DNA from " Agrobacterium ", with genes actively expressed by the plants.
+Expected output: 'entities: [{'span': 'Agrobacterium', 'entity': 'Biological entity'}]'
+
+Example #10: It is also associated with the monster Hydra, with its many heads, killed by Hercules, represented in another constellation.
+Expected output: 'entities: [{'span': 'Hydra', 'entity': 'Mythological entity'}, {'span': 'Hercules', 'entity': 'Mythological entity'}, {'span': 'another constellation', 'entity': 'Celestial Body'}]'
+
+Example #11: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #12: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #13: " Sagittaria engelmanniana " occurs in wetlands, predominantly those with acidic water such as " Sphagnum " bogs.
+Expected output: 'entities: [{'span': 'Sphagnum', 'entity': 'Biological entity'}]'
+
+Example #14: The vehicle has the long-hood short-deck design common to the Z-Car family.
+Expected output: 'entities: [{'span': 'Z-Car', 'entity': 'Vehicle'}]'
+
+Example #15: Better documented, the bacterium " Pseudomonas aeruginosa " and the fungus " Cladosporium resinae " are commonly detected in aircraft fuel tanks that use kerosene-based fuels (not avgas), and laboratory cultures can degrade aluminium.
+Expected output: 'entities: [{'span': 'Cladosporium', 'entity': 'Biological entity'}]'
+
+Example #16: A " spider roll " is a type of " makizushi " sushi that includes breaded or battered soft-shell crab and other ingredients such as cucumber, avocado, daikon sprouts or lettuce, and spicy mayonnaise, rolled inside nori and sushi rice.
+Expected output: 'entities: [{'span': 'sushi', 'entity': 'Food'}, {'span': 'soft-shell crab', 'entity': 'Animal'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'avocado', 'entity': 'Food'}, {'span': 'daikon', 'entity': 'Plant'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'nori', 'entity': 'Food'}]'
+
+Example #17: " Escherichia coli " is one of the most important model organisms, and its genetics and biochemistry have been closely studied.
+Expected output: 'entities: [{'span': 'Escherichia coli', 'entity': 'Biological entity'}]'
+
+Example #18: Her mother Ceres, also known as Demeter, the goddess of agriculture or of the Earth, went looking for her across all of the world, and all in vain.
+Expected output: 'entities: [{'span': 'Ceres', 'entity': 'Mythological entity'}, {'span': 'Demeter', 'entity': 'Mythological entity'}, {'span': 'Earth', 'entity': 'Celestial Body'}]'
+
+Example #19: From the tropics and middle latitudes, the Sun is visible in the sky at its upper culmination (at solar noon) and invisible (below the horizon) at its lower culmination (at solar midnight).
+Expected output: 'entities: [{'span': 'Sun', 'entity': 'Celestial Body'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #20: In sourdough bread-making, cold decreases the activity of wild yeast relative to the " Lactobacilli ", which produce flavoring products such as lactic acid and acetic acid.
+Expected output: 'entities: [{'span': 'Lactobacilli', 'entity': 'Biological entity'}]'
+

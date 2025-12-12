@@ -1,0 +1,15 @@
+Example #1: This resulted in significant breakthroughs at the 2013 United Kingdom local elections, 2014 European Parliament election in the United Kingdom, and 2015 United Kingdom general election.
+Expected output: 'entities: [{'span': '2013 United Kingdom local elections', 'entity': 'Election'}, {'span': '2014 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': '2015 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #2: Wood was unopposed in the general elections of 1918 United Kingdom general election, 1922 United Kingdom general election, 1923 United Kingdom general election and 1924 United Kingdom general election.
+Expected output: 'entities: [{'span': '1918 United Kingdom general election', 'entity': 'Election'}, {'span': '1922 United Kingdom general election', 'entity': 'Election'}, {'span': '1923 United Kingdom general election', 'entity': 'Election'}, {'span': '1924 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #3: National elections held on 13 May 2001 returned Berlusconi to power at the head of the five-party center-right House of Freedoms coalition, comprising the Prime Minister's own party, Forza Italia, the National Alliance, the Lega Nord, the Christian Democratic Center and the United Christian Democrats.
+Expected output: 'entities: [{'span': 'Berlusconi', 'entity': 'Politician'}, {'span': 'House of Freedoms', 'entity': 'Political Party'}, {'span': 'Forza Italia', 'entity': 'Political Party'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'Lega Nord', 'entity': 'Political Party'}, {'span': 'Christian Democratic Center', 'entity': 'Political Party'}, {'span': 'United Christian Democrats', 'entity': 'Political Party'}]'
+
+Example #4: The January 1910 United Kingdom general election and December 1910 United Kingdom general election elections in 1910 destroyed the large Liberal majority, meaning they relied on the Irish Parliamentary Party to maintain a government.
+Expected output: 'entities: [{'span': 'January 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'December 1910 United Kingdom general election', 'entity': 'Election'}, {'span': 'Liberal', 'entity': 'Political Party'}, {'span': 'Irish Parliamentary Party', 'entity': 'Political Party'}]'
+
+Example #5: Following boundary changes, Major became the MP for the newly formed seat of Huntingdon in 1983 United Kingdom general election (retaining the seat in 1987 United Kingdom general election, 1992 United Kingdom general election and 1997 United Kingdom general election before retiring from Parliament in 2001 United Kingdom general election).
+Expected output: 'entities: [{'span': 'Huntingdon', 'entity': 'Location'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}, {'span': '1992 United Kingdom general election', 'entity': 'Election'}, {'span': '1997 United Kingdom general election', 'entity': 'Election'}, {'span': '2001 United Kingdom general election', 'entity': 'Election'}]'
+

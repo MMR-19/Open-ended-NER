@@ -1,0 +1,30 @@
+Example #1: After two failed attempts, New Democratic Party candidate Olivia Chow (wife of NDP leader Jack Layton), was elected in the 2006 Canadian federal election, representing the riding of Trinity - Spadina, and the Bloc Québécois had an ethnic Chinese candidate, May Chiu, running in the riding of LaSalle - Émard against Liberal Party of Canada leader Paul Martin during the 2006 election.
+Expected output: 'entities: [{'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Olivia Chow', 'entity': 'Politician'}, {'span': 'NDP', 'entity': 'Political Party'}, {'span': 'Jack Layton', 'entity': 'Politician'}, {'span': '2006 Canadian federal election', 'entity': 'Election'}, {'span': 'Trinity - Spadina', 'entity': 'Location'}, {'span': 'Bloc Québécois', 'entity': 'Political Party'}, {'span': 'May Chiu', 'entity': 'Politician'}, {'span': 'LaSalle - Émard', 'entity': 'Location'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'Paul Martin', 'entity': 'Politician'}, {'span': '2006 election', 'entity': 'Election'}]'
+
+Example #2: His party won 14 seats in the 1998 Nova Scotia general election and held the balance of power in a minority government where both the Nova Scotia Liberal Party and the Nova Scotia New Democratic Party, led by Russell MacLellan and Robert Chisholm, respectively, each had nineteen seats.
+Expected output: 'entities: [{'span': '1998 Nova Scotia general election', 'entity': 'Election'}, {'span': 'Nova Scotia Liberal Party', 'entity': 'Political Party'}, {'span': 'Nova Scotia New Democratic Party', 'entity': 'Political Party'}, {'span': 'Russell MacLellan', 'entity': 'Politician'}, {'span': 'Robert Chisholm', 'entity': 'Politician'}]'
+
+Example #3: He survived the Progressive Conservative Party of Canada ascendancy and was re-elected in both 1957 Canadian federal election and 1958 Canadian federal election.
+Expected output: 'entities: [{'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': '1957 Canadian federal election', 'entity': 'Election'}, {'span': '1958 Canadian federal election', 'entity': 'Election'}]'
+
+Example #4: Re-elected as MP for that riding in the 1963 Canadian federal election and 1965 Canadian federal election, Douglas lost the redistricted seat of Burnaby - Seymour in the 1968 Canadian federal election.
+Expected output: 'entities: [{'span': '1963 Canadian federal election', 'entity': 'Election'}, {'span': '1965 Canadian federal election', 'entity': 'Election'}, {'span': 'Douglas', 'entity': 'Politician'}, {'span': 'Burnaby - Seymour', 'entity': 'Location'}, {'span': '1968 Canadian federal election', 'entity': 'Election'}]'
+
+Example #5: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #6: In the 1994 European Parliament election in Ireland, Patricia McKenna topped the poll in the Dublin constituency and Nuala Ahern won a seat in Leinster.
+Expected output: 'entities: [{'span': '1994 European Parliament election in Ireland', 'entity': 'Election'}, {'span': 'Patricia McKenna', 'entity': 'Politician'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Nuala Ahern', 'entity': 'Politician'}, {'span': 'Leinster', 'entity': 'Location'}]'
+
+Example #7: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #8: Following boundary changes, Major became the MP for the newly formed seat of Huntingdon in 1983 United Kingdom general election (retaining the seat in 1987 United Kingdom general election, 1992 United Kingdom general election and 1997 United Kingdom general election before retiring from Parliament in 2001 United Kingdom general election).
+Expected output: 'entities: [{'span': 'Huntingdon', 'entity': 'Location'}, {'span': '1983 United Kingdom general election', 'entity': 'Election'}, {'span': '1987 United Kingdom general election', 'entity': 'Election'}, {'span': '1992 United Kingdom general election', 'entity': 'Election'}, {'span': '1997 United Kingdom general election', 'entity': 'Election'}, {'span': '2001 United Kingdom general election', 'entity': 'Election'}]'
+
+Example #9: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #10: He was the last former Prime Minister to lose his seat until Tony Abbott lost his seat of Warringah in 2019 Australian federal election, though John Howard would lose his seat of Bennelong as a sitting Prime Minister in 2007 Australian federal election.
+Expected output: 'entities: [{'span': 'Tony Abbott', 'entity': 'Politician'}, {'span': 'Warringah', 'entity': 'Location'}, {'span': '2019 Australian federal election', 'entity': 'Election'}, {'span': 'John Howard', 'entity': 'Politician'}, {'span': 'Bennelong', 'entity': 'Person'}, {'span': '2007 Australian federal election', 'entity': 'Election'}]'
+

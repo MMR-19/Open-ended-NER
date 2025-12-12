@@ -1,0 +1,60 @@
+Example #1: He led a government's coalition composed by Christian Democrats, Italian Socialist Party, Italian Democratic Socialist Party, Italian Republican Party and Italian Liberal Party.
+Expected output: 'entities: [{'span': 'Christian Democrats', 'entity': 'Misc'}, {'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Republican Party', 'entity': 'Political Party'}, {'span': 'Italian Liberal Party', 'entity': 'Political Party'}]'
+
+Example #2: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #3: Though Roosevelt won the backing of Treasury Secretary William Gibbs McAdoo and Governor Martin H. Glynn, he faced a formidable opponent in the Tammany-backed James W. Gerard.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'William Gibbs McAdoo', 'entity': 'Politician'}, {'span': 'Martin H. Glynn', 'entity': 'Politician'}, {'span': 'James W. Gerard', 'entity': 'Politician'}]'
+
+Example #4: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #5: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #6: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #7: Joschka Fischer became Vice-Chancellor of Germany and foreign minister in the new government, which had two other Green ministers (Andrea Fischer, later Renate Künast, and Jürgen Trittin).
+Expected output: 'entities: [{'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Andrea Fischer', 'entity': 'Person'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #8: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #9: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #10: The head of Government is the Chief Minister, currently the Hon. Fabian Picardo of the Gibraltar Socialist Labour Party (GSLP) who has been in office since 9 December 2011, in alliance with the Gibraltar Liberal Party (Liberals), following the 2011 Gibraltar general election.
+Expected output: 'entities: [{'span': 'Fabian Picardo', 'entity': 'Politician'}, {'span': 'Gibraltar Socialist Labour Party', 'entity': 'Political Party'}, {'span': 'GSLP', 'entity': 'Political Party'}, {'span': 'Gibraltar Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberals', 'entity': 'Political Party'}, {'span': '2011 Gibraltar general election', 'entity': 'Election'}]'
+
+Example #11: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+
+Example #12: Following their victory, the Khmer Rouge who were led by Pol Pot, Nuon Chea, Ieng Sary, Son Sen, and Khieu Samphan immediately set about forcibly evacuating the country's major cities and in 1976 they renamed the country Democratic Kampuchea.
+Expected output: 'entities: [{'span': 'Khmer Rouge', 'entity': 'Organisation'}, {'span': 'Pol Pot', 'entity': 'Politician'}, {'span': 'Nuon Chea', 'entity': 'Politician'}, {'span': 'Ieng Sary', 'entity': 'Politician'}, {'span': 'Son Sen', 'entity': 'Politician'}, {'span': 'Khieu Samphan', 'entity': 'Politician'}, {'span': 'Democratic Kampuchea', 'entity': 'Country'}]'
+
+Example #13: Zappa set excerpts from the PMRC hearings to Synclavier music in his composition Porn Wars on the 1985 album Frank Zappa Meets the Mothers of Prevention, and the full recording was released in 2010 as Congress Shall Make No Law ... Zappa is heard interacting with Senators Fritz Hollings, Slade Gorton and Al Gore.
+Expected output: 'entities: [{'span': 'Zappa', 'entity': 'Person'}, {'span': 'PMRC', 'entity': 'Organisation'}, {'span': 'Porn Wars', 'entity': 'Misc'}, {'span': 'Frank Zappa Meets the Mothers of Prevention', 'entity': 'Misc'}, {'span': 'Congress Shall Make No Law', 'entity': 'Misc'}, {'span': 'Zappa', 'entity': 'Politician'}, {'span': 'Fritz Hollings', 'entity': 'Politician'}, {'span': 'Slade Gorton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}]'
+
+Example #14: Brooks was a member of the Masonic Lodge, the Shriners, the Benevolent and Protective Order of Elks, American Legion, Veterans of Foreign Wars, and the Kiwanis International.
+Expected output: 'entities: [{'span': 'Brooks', 'entity': 'Person'}, {'span': 'Masonic Lodge', 'entity': 'Organisation'}, {'span': 'Shriners', 'entity': 'Organisation'}, {'span': 'Benevolent and Protective Order of Elks', 'entity': 'Organisation'}, {'span': 'American Legion', 'entity': 'Organisation'}, {'span': 'Veterans of Foreign Wars', 'entity': 'Organisation'}, {'span': 'Kiwanis International', 'entity': 'Organisation'}]'
+
+Example #15: The Public Voice project is made possible, in part, by support from the Ford Foundation, the Markle Foundation, the Open Society Foundations, and EPIC.
+Expected output: 'entities: [{'span': 'Public Voice', 'entity': 'Organisation'}, {'span': 'Ford Foundation', 'entity': 'Organisation'}, {'span': 'Markle Foundation', 'entity': 'Organisation'}, {'span': 'Open Society Foundations', 'entity': 'Organisation'}, {'span': 'EPIC', 'entity': 'Organisation'}]'
+
+Example #16: Between 2008 and 2013 Kenya was governed by a Grand coalition, established by a power sharing agreement, signed by then President Mwai Kibaki and Prime Minister Raila Odinga of the Orange Democratic Movement.
+Expected output: 'entities: [{'span': 'Kenya', 'entity': 'Country'}, {'span': 'Mwai Kibaki', 'entity': 'Politician'}, {'span': 'Raila Odinga', 'entity': 'Politician'}, {'span': 'Orange Democratic Movement', 'entity': 'Political Party'}]'
+
+Example #17: Necmettin Erbakan (1926-2011) was the leader of several of the parties, the National Order Party (Milli Nizam Partisi, 1970-1971), the National Salvation Party (Milli Selamet Partisi, 1972-1981), and the Welfare Party (Refah Partisi, 1983-1998); he also became a member of the Felicity Party (Saadet Partisi, 2003-2011).
+Expected output: 'entities: [{'span': 'Necmettin Erbakan', 'entity': 'Politician'}, {'span': 'National Order Party', 'entity': 'Political Party'}, {'span': 'Milli Nizam Partisi', 'entity': 'Political Party'}, {'span': 'National Salvation Party', 'entity': 'Political Party'}, {'span': 'Milli Selamet Partisi', 'entity': 'Political Party'}, {'span': 'Welfare Party', 'entity': 'Political Party'}, {'span': 'Refah Partisi', 'entity': 'Political Party'}, {'span': 'Felicity Party', 'entity': 'Political Party'}, {'span': 'Saadet Partisi', 'entity': 'Political Party'}]'
+
+Example #18: His arguments concerning liberty and the social contract later influenced the written works of Alexander Hamilton, James Madison, Thomas Jefferson, and other Founding Fathers of the United States.
+Expected output: 'entities: [{'span': 'liberty', 'entity': 'Political Party'}, {'span': 'Alexander Hamilton', 'entity': 'Politician'}, {'span': 'James Madison', 'entity': 'Politician'}, {'span': 'Thomas Jefferson', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}]'
+
+Example #19: It was not registered as an official party, but some participants in that effort went on to form the Green Party of Canada in 1983 (the Green Party of Ontario and Green Party of British Columbia were also formed that year).
+Expected output: 'entities: [{'span': 'Green Party of Canada', 'entity': 'Political Party'}, {'span': 'Green Party of Ontario', 'entity': 'Political Party'}, {'span': 'Green Party of British Columbia', 'entity': 'Political Party'}]'
+
+Example #20: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+

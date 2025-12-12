@@ -1,0 +1,15 @@
+Example #1: The 2019 BRICS summit was the eleventh annual BRICS summit, an international relations conference to be attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.
+Expected output: 'entities: [{'span': '2019 BRICS summit', 'entity': 'Event'}, {'span': 'eleventh annual BRICS summit', 'entity': 'Event'}, {'span': 'Brazil', 'entity': 'Country'}, {'span': 'Russia', 'entity': 'Country'}, {'span': 'India', 'entity': 'Country'}, {'span': 'China', 'entity': 'Country'}, {'span': 'South Africa', 'entity': 'Country'}]'
+
+Example #2: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #3: The III CELAC summit or 2015 CELAC summit was the third ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'III CELAC summit', 'entity': 'Event'}, {'span': '2015 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #4: The heads of state summit was followed by a ministerial summit on November 2009 in Montego Bay, Jamaica to prepare an action plan to develop the agenda agreed in the I CALC summit.
+Expected output: 'entities: [{'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Jamaica', 'entity': 'Country'}, {'span': 'I CALC summit', 'entity': 'Event'}]'
+
+Example #5: In the 1980s, Indira Gandhi along with Canadian Prime Minister Pierre Trudeau, Zambia's President Kenneth Kaunda, Australian prime minister Malcolm Fraser and Singapore Prime Minister Lee Kuan Yew was regarded as one of the pillars of the commonwealth India under Indira also hosted the 1983 Commonwealth heads of Government summit in New Delhi in 1983.
+Expected output: 'entities: [{'span': 'Indira Gandhi', 'entity': 'Politician'}, {'span': 'Canadian', 'entity': 'Misc'}, {'span': 'Pierre Trudeau', 'entity': 'Politician'}, {'span': 'Zambia', 'entity': 'Country'}, {'span': 'Kenneth Kaunda', 'entity': 'Politician'}, {'span': 'Australian', 'entity': 'Misc'}, {'span': 'Malcolm Fraser', 'entity': 'Politician'}, {'span': 'Singapore', 'entity': 'Misc'}, {'span': 'Lee Kuan Yew', 'entity': 'Politician'}, {'span': 'India', 'entity': 'Country'}, {'span': 'Indira', 'entity': 'Politician'}, {'span': '1983 Commonwealth heads of Government summit', 'entity': 'Event'}, {'span': 'New Delhi', 'entity': 'Location'}]'
+

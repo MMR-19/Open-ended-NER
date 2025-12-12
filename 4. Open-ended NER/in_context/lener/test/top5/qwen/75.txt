@@ -1,0 +1,15 @@
+Example #1: Trata-se de Correição Parcial requerida pelo Ministério Público Militar (MPM), contra a Decisão do Conselho Permanente de Justiça da Auditoria da 8a CJM, de 8/11/2016, proferida nos autos da Ação Penal Militar n° 56- 38.2016.7.08.0008, referente a Wellen Pablo Teixeira Cordovil, Sd FN, que manteve a sessão de julgamento sem abertura de vista às partes para se manifestarem nos termos dos arts. 427 e 428, ambos do CPPM.
+Expected output: 'entities: [{'span': 'Ministério Público Militar', 'entity': 'Organização'}, {'span': 'MPM', 'entity': 'Organização'}, {'span': 'Conselho Permanente de Justiça da Auditoria da 8a CJM', 'entity': 'Organização'}, {'span': '8/11/2016', 'entity': 'Tempo'}, {'span': 'Ação Penal Militar n° 56- 38.2016.7.08.0008', 'entity': 'Jurisprudência'}, {'span': 'Wellen Pablo Teixeira Cordovil', 'entity': 'Pessoa'}, {'span': 'arts. 427 e 428, ambos do CPPM', 'entity': 'Legislação'}]'
+
+Example #2: (AgRg no AREsp 388.570/RJ, Rel. Ministro RICARDO VILLAS BÔAS CUEVA, TERCEIRA TURMA, julgado em 16/06/2016, DJe 27/06/2016).
+Expected output: 'entities: [{'span': 'AgRg no AREsp 388.570/RJ', 'entity': 'Jurisprudência'}, {'span': 'RICARDO VILLAS BÔAS CUEVA', 'entity': 'Pessoa'}, {'span': 'TERCEIRA TURMA', 'entity': 'Organização'}, {'span': '16/06/2016', 'entity': 'Tempo'}, {'span': '27/06/2016', 'entity': 'Tempo'}]'
+
+Example #3: (AI 545122 AgR / SC - SANTA CATARINA, Relator (a): Min. JOAQUIM BARBOSA, Órgão Julgador: Segunda Turma, DJe de 8/10/2010) CONSTITUCIONAL.
+Expected output: 'entities: [{'span': 'AI 545122 AgR / SC', 'entity': 'Jurisprudência'}, {'span': 'SANTA CATARINA', 'entity': 'Localização'}, {'span': 'JOAQUIM BARBOSA', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '8/10/2010', 'entity': 'Tempo'}]'
+
+Example #4: “ CONSTITUCIONAL - AÇÃO DIRETA DE INCONSTITUCIONALIDADE LEI COMPLEMENTAR DISTRITAL N. 301/2000 LEI QUE ALTERA TAXA MÁXIMA DE CONSTRUÇÃO E ALTERA O USO DE LOTES NA QUADRA 1, DO SETOR DE INDÚSTRIAS GRÁFICAS, NA REGIÃO ADMINISTRATIVA DO PLANO PILOTO EXISTÊNCIA DE VÍCIO FORMAL INICIATIVA DE PROJETO DE LEI PRIVATIVA DO GOVERNADOR INEXISTÊNCIA DE VÍCIO MATERIAL LEI ORGÂNICA DO DISTRITO FEDEAL.
+Expected output: 'entities: [{'span': 'LEI COMPLEMENTAR DISTRITAL N. 301/2000', 'entity': 'Legislação'}, {'span': 'QUADRA 1, DO SETOR DE INDÚSTRIAS GRÁFICAS', 'entity': 'Localização'}, {'span': 'REGIÃO ADMINISTRATIVA DO PLANO PILOTO', 'entity': 'Localização'}, {'span': 'LEI ORGÂNICA DO DISTRITO FEDEAL', 'entity': 'Legislação'}]'
+
+Example #5: Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento.
+Expected output: 'entities: [{'span': 'Santana do Livramento', 'entity': 'Localização'}]'
+

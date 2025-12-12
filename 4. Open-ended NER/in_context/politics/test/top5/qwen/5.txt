@@ -1,0 +1,15 @@
+Example #1: On 21 June, Prime Minister Churchill was in the White House in Washington conferring on the future direction of the war with President Franklin D. Roosevelt, a summit meeting known as the Second Washington Conference.
+Expected output: 'entities: [{'span': 'Churchill', 'entity': 'Politician'}, {'span': 'White House', 'entity': 'Location'}, {'span': 'Washington', 'entity': 'Location'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Second Washington Conference', 'entity': 'Event'}]'
+
+Example #2: Assisted by his top aide Harry Hopkins and with very strong national support, he worked closely with British Prime Minister Winston Churchill, Soviet leader Joseph Stalin and Chinese Generalissimo Chiang Kai-shek in leading the Allied Powers against the Axis Powers.
+Expected output: 'entities: [{'span': 'Harry Hopkins', 'entity': 'Politician'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Chinese', 'entity': 'Misc'}, {'span': 'Chiang Kai-shek', 'entity': 'Politician'}, {'span': 'Allied Powers', 'entity': 'Organisation'}, {'span': 'Axis Powers', 'entity': 'Organisation'}]'
+
+Example #3: Piłsudski, together with Colonel Kazimierz Sosnkowski, was greeted at Warsaw's railway station by Regent Zdzisław Lubomirski and by Colonel Adam Koc.
+Expected output: 'entities: [{'span': 'Piłsudski', 'entity': 'Politician'}, {'span': 'Kazimierz Sosnkowski', 'entity': 'Politician'}, {'span': "Warsaw's railway station", 'entity': 'Location'}, {'span': 'Zdzisław Lubomirski', 'entity': 'Politician'}, {'span': 'Adam Koc', 'entity': 'Politician'}]'
+
+Example #4: Behind the long table set up on the steps of the Rathaus Schöneberg were U.S. and German dignitaries, including Dean Rusk (Kennedy's Secretary of State), Lucius D. Clay (the US administrator of Germany), Konrad Adenauer (the German chancellor), Willy Brandt, and Otto Bach (President of the Abgeordnetenhaus of Berlin).
+Expected output: 'entities: [{'span': 'Rathaus Schöneberg', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'German', 'entity': 'Misc'}, {'span': 'Dean Rusk', 'entity': 'Politician'}, {'span': 'Kennedy', 'entity': 'Politician'}, {'span': 'Lucius D. Clay', 'entity': 'Politician'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Konrad Adenauer', 'entity': 'Politician'}, {'span': 'Willy Brandt', 'entity': 'Politician'}, {'span': 'Otto Bach', 'entity': 'Politician'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #5: Thomas Wolsey, Thomas More, Thomas Cromwell, Richard Rich, and Thomas Cranmer all figured prominently in his administration.
+Expected output: 'entities: [{'span': 'Thomas Wolsey', 'entity': 'Politician'}, {'span': 'Thomas More', 'entity': 'Politician'}, {'span': 'Thomas Cromwell', 'entity': 'Politician'}, {'span': 'Richard Rich', 'entity': 'Politician'}, {'span': 'Thomas Cranmer', 'entity': 'Politician'}]'
+

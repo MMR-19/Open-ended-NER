@@ -1,0 +1,30 @@
+Example #1: Stephen Grover Cleveland (March 18, 1837 He won the popular vote for three presidential elections - in 1884 United States presidential election, 1888 United States presidential election, and 1892 United States presidential election - and was one of two Democrats (with Woodrow Wilson) to be elected president during the era of Republican political domination dating from 1861 to 1933.
+Expected output: 'entities: [{'span': 'Stephen Grover Cleveland', 'entity': 'Politician'}, {'span': '1884 United States presidential election', 'entity': 'Election'}, {'span': '1888 United States presidential election', 'entity': 'Election'}, {'span': '1892 United States presidential election', 'entity': 'Election'}, {'span': 'Democrats', 'entity': 'Misc'}, {'span': 'Woodrow Wilson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}]'
+
+Example #2: Three United States presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump in 2019.
+Expected output: 'entities: [{'span': 'United States', 'entity': 'Country'}, {'span': 'House of Representatives', 'entity': 'Misc'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Donald Trump', 'entity': 'Politician'}]'
+
+Example #3: Beginning as a private secretary and assistant to Abraham Lincoln, Hay's highest office was United States Secretary of State under Presidents William McKinley and Theodore Roosevelt.
+Expected output: 'entities: [{'span': 'Abraham Lincoln', 'entity': 'Politician'}, {'span': 'Hay', 'entity': 'Politician'}, {'span': 'William McKinley', 'entity': 'Politician'}, {'span': 'Theodore Roosevelt', 'entity': 'Politician'}]'
+
+Example #4: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+
+Example #5: In the weeks leading up to the 1852 United States presidential election, he campaigned in numerous Southern states for Democratic candidates Franklin Pierce and William R. King.
+Expected output: 'entities: [{'span': '1852 United States presidential election', 'entity': 'Election'}, {'span': 'Franklin Pierce', 'entity': 'Politician'}, {'span': 'William R. King', 'entity': 'Politician'}]'
+
+Example #6: Hagelin stood as a candidate for President of the United States for the Natural Law Party, a party founded by the TM movement, in the 1992 United States presidential election, 1996 United States presidential election and 2000 United States presidential election elections.
+Expected output: 'entities: [{'span': 'Hagelin', 'entity': 'Politician'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'Natural Law Party', 'entity': 'Political Party'}, {'span': 'TM movement', 'entity': 'Event'}, {'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': '1996 United States presidential election', 'entity': 'Election'}, {'span': '2000 United States presidential election', 'entity': 'Election'}]'
+
+Example #7: National elections held on 13 May 2001 returned Berlusconi to power at the head of the five-party center-right House of Freedoms coalition, comprising the Prime Minister's own party, Forza Italia, the National Alliance, the Lega Nord, the Christian Democratic Center and the United Christian Democrats.
+Expected output: 'entities: [{'span': 'Berlusconi', 'entity': 'Politician'}, {'span': 'House of Freedoms', 'entity': 'Political Party'}, {'span': 'Forza Italia', 'entity': 'Political Party'}, {'span': 'National Alliance', 'entity': 'Political Party'}, {'span': 'Lega Nord', 'entity': 'Political Party'}, {'span': 'Christian Democratic Center', 'entity': 'Political Party'}, {'span': 'United Christian Democrats', 'entity': 'Political Party'}]'
+
+Example #8: Kissinger - along with William Perry, Sam Nunn, and George Shultz - has called upon governments to embrace the vision of a world free of nuclear weapons, and in three Wall Street Journal op-ed s proposed an ambitious program of urgent steps to that end.
+Expected output: 'entities: [{'span': 'Kissinger', 'entity': 'Politician'}, {'span': 'William Perry', 'entity': 'Politician'}, {'span': 'Sam Nunn', 'entity': 'Politician'}, {'span': 'George Shultz', 'entity': 'Politician'}, {'span': 'Wall Street Journal', 'entity': 'Organisation'}]'
+
+Example #9: Parties with mainly Eurosceptic views are the ruling United Russia, and opposition parties the Communist Party of the Russian Federation and Liberal Democratic Party of Russia.
+Expected output: 'entities: [{'span': 'United Russia', 'entity': 'Political Party'}, {'span': 'Communist Party of the Russian Federation', 'entity': 'Political Party'}, {'span': 'Liberal Democratic Party of Russia', 'entity': 'Political Party'}]'
+
+Example #10: On the train trip from Washington D.C., to Gettysburg on November 18, Lincoln was accompanied by three members of his Cabinet, William H. Seward, John Palmer Usher and Montgomery Blair, several foreign officials, his secretary John Nicolay, and his assistant secretary, John Hay.
+Expected output: 'entities: [{'span': 'Washington D.C.', 'entity': 'Location'}, {'span': 'Gettysburg', 'entity': 'Location'}, {'span': 'Lincoln', 'entity': 'Politician'}, {'span': 'William H. Seward', 'entity': 'Politician'}, {'span': 'John Palmer Usher', 'entity': 'Politician'}, {'span': 'Montgomery Blair', 'entity': 'Politician'}, {'span': 'John Nicolay', 'entity': 'Politician'}, {'span': 'John Hay', 'entity': 'Politician'}]'
+

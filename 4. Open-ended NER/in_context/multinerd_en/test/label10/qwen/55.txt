@@ -1,0 +1,30 @@
+Example #1: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #2: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #3: The " cuisine of Vanuatu " (known in Bislama as " aelan kakae ") incorporates fish, root vegetables such as taro and yams, fruits, and vegetables.
+Expected output: 'entities: [{'span': 'Vanuatu', 'entity': 'Location'}, {'span': 'Bislama', 'entity': 'Media'}, {'span': 'fish', 'entity': 'Animal'}, {'span': 'taro', 'entity': 'Plant'}, {'span': 'yams', 'entity': 'Plant'}]'
+
+Example #4: Other agricultural products in general are rice, corn, tea, pork, poultry, beef, fish and other fruits and vegetables.
+Expected output: 'entities: [{'span': 'rice', 'entity': 'Plant'}, {'span': 'corn', 'entity': 'Plant'}, {'span': 'tea', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'poultry', 'entity': 'Animal'}, {'span': 'beef', 'entity': 'Food'}]'
+
+Example #5: " obložený chlebíček ") - slant ways cut slice of " veka " (long narrow white bread) spread with butter and / or with various combinations of mayonnaise salads and hard boiled egg, cheese, ham, salami, smoked fish (salmon or sprats or pickled herring), tomato, pickled cucumber, lettuce, raw onion or other vegetable, etc.
+Expected output: 'entities: [{'span': 'veka', 'entity': 'Food'}, {'span': 'butter', 'entity': 'Food'}, {'span': 'mayonnaise', 'entity': 'Food'}, {'span': 'cheese', 'entity': 'Food'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'salami', 'entity': 'Food'}, {'span': 'salmon', 'entity': 'Animal'}, {'span': 'sprats', 'entity': 'Food'}, {'span': 'herring', 'entity': 'Animal'}, {'span': 'tomato', 'entity': 'Plant'}, {'span': 'pickled cucumber', 'entity': 'Food'}, {'span': 'lettuce', 'entity': 'Plant'}, {'span': 'onion', 'entity': 'Plant'}]'
+
+Example #6: The moon-goddess Selene is commonly depicted with a crescent moon, often accompanied by two stars (the stars represent Phosphorus, the morning star, and Hesperus, the evening star); sometimes, instead of a crescent, a lunar disc is used.
+Expected output: 'entities: [{'span': 'Selene', 'entity': 'Mythological entity'}, {'span': 'Phosphorus', 'entity': 'Celestial Body'}, {'span': 'Hesperus', 'entity': 'Celestial Body'}]'
+
+Example #7: The film retained the No. 1 spot over the three-day weekend and grossed $ 40.5 million, which is the third-highest Easter debut ever behind " Furious 7 " and " Clash of the Titans ".
+Expected output: 'entities: [{'span': 'Easter', 'entity': 'Time'}, {'span': 'Furious 7', 'entity': 'Media'}, {'span': 'Clash of the Titans', 'entity': 'Media'}]'
+
+Example #8: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+
+Example #9: The Age of Enlightenment, the subsequent French Revolution and the Napoleonic Wars shaped the continent culturally, politically and economically from the end of the 17th century until the first half of the 19th century.
+Expected output: 'entities: [{'span': 'Age of Enlightenment', 'entity': 'Time'}, {'span': 'French Revolution', 'entity': 'Event'}, {'span': 'Napoleonic Wars', 'entity': 'Event'}]'
+
+Example #10: The symbol for 2 Pallas, the spear of Pallas Athena, was invented by Baron Franz Xaver von Zach, who organized a group of twenty-four astronomers to search for a planet between the orbits of Mars and Jupiter.
+Expected output: 'entities: [{'span': '2 Pallas', 'entity': 'Celestial Body'}, {'span': 'Pallas Athena', 'entity': 'Mythological entity'}, {'span': 'Franz Xaver von Zach', 'entity': 'Person'}, {'span': 'Mars', 'entity': 'Celestial Body'}, {'span': 'Jupiter', 'entity': 'Celestial Body'}]'
+

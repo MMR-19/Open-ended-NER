@@ -1,0 +1,30 @@
+Example #1: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+
+Example #2: Stevens ' albums Tea for the Tillerman (1970) and Teaser and the Firecat (1971) were certified triple platinum in the US by the Recording Industry Association of America .. BBC News.
+Expected output: 'entities: [{'span': 'Stevens', 'entity': 'Musical Artist'}, {'span': 'Tea for the Tillerman', 'entity': 'Album'}, {'span': 'Teaser and the Firecat', 'entity': 'Album'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Recording Industry Association of America', 'entity': 'Organisation'}, {'span': 'BBC News', 'entity': 'Organisation'}]'
+
+Example #3: In 1961, he performed ten recitals in Carnegie Hall to raise roughly $ 100,000 for charities including Big Brothers Big Sisters of America, United Jewish Appeal, Polish Assistance, Musicians Emergency fund, the National Association for Mental Health, and the Legal Defense Fund of the National Advancement of Colored People.
+Expected output: 'entities: [{'span': 'Carnegie Hall', 'entity': 'Location'}, {'span': 'Big Brothers Big Sisters of America', 'entity': 'Organisation'}, {'span': 'United Jewish Appeal', 'entity': 'Organisation'}, {'span': 'Polish Assistance', 'entity': 'Organisation'}, {'span': 'Musicians Emergency fund', 'entity': 'Organisation'}, {'span': 'National Association for Mental Health', 'entity': 'Organisation'}, {'span': 'Legal Defense Fund of the National Advancement of Colored People', 'entity': 'Organisation'}]'
+
+Example #4: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #5: In 1995, he guested on two tracks on Tom Cochrane ' s Ragged Ass Road album and then in 1996 on I Mother Earth ' s Like a Girl from the Scenery and Fish album.
+Expected output: 'entities: [{'span': 'Tom Cochrane', 'entity': 'Musical Artist'}, {'span': 'Ragged Ass Road', 'entity': 'Album'}, {'span': 'I Mother Earth', 'entity': 'Band'}, {'span': 'Like a Girl', 'entity': 'Song'}, {'span': 'Scenery and Fish', 'entity': 'Album'}]'
+
+Example #6: These albums spawned some of Carey's most successful singles, including Hero, Without You, All I Want for Christmas Is You, Fantasy, Always Be My Baby, as well as One Sweet Day, which peaked at number one in the U.S. for 16 weeks and became Billboard s Song Of The Decade (1990s Decade).
+Expected output: 'entities: [{'span': 'Carey', 'entity': 'Musical Artist'}, {'span': 'Hero', 'entity': 'Song'}, {'span': 'Without You', 'entity': 'Song'}, {'span': 'All I Want for Christmas Is You', 'entity': 'Song'}, {'span': 'Fantasy', 'entity': 'Song'}, {'span': 'Always Be My Baby', 'entity': 'Song'}, {'span': 'One Sweet Day', 'entity': 'Song'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Billboard', 'entity': 'Organisation'}, {'span': 'Song Of The Decade', 'entity': 'Misc'}]'
+
+Example #7: Simon has won 12 Grammy Award s (one of them a Grammy Lifetime Achievement Award) and five Grammy Award for Album of the Year Grammy nominations, the most recent for You 're the One in 2001.
+Expected output: 'entities: [{'span': 'Simon', 'entity': 'Musical Artist'}, {'span': 'Grammy Award s', 'entity': 'Award'}, {'span': 'Grammy Lifetime Achievement Award', 'entity': 'Award'}, {'span': 'Grammy Award for Album of the Year Grammy nominations', 'entity': 'Award'}, {'span': "You 're the One", 'entity': 'Song'}]'
+
+Example #8: Depeche Mode contributed their cover of the U2 song So Cruel to the tribute album AHK-toong BAY-bi Covered honouring the 20th anniversary of Achtung Baby, a 1991 album by U2.
+Expected output: 'entities: [{'span': 'Depeche', 'entity': 'Band'}, {'span': 'U2', 'entity': 'Band'}, {'span': 'So Cruel', 'entity': 'Song'}, {'span': 'AHK-toong BAY-bi Covered', 'entity': 'Album'}, {'span': 'Achtung Baby', 'entity': 'Album'}]'
+
+Example #9: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #10: In addition, the film won the BAFTA Award for Best Film, BAFTA Award for Best Direction (Nichols), BAFTA Award for Most Promising Newcomer to Leading Film Roles (Hoffman), the BAFTA Award for Best Editing (Sam O 'Steen).
+Expected output: 'entities: [{'span': 'BAFTA Award for Best Film', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Direction', 'entity': 'Award'}, {'span': 'Nichols', 'entity': 'Person'}, {'span': 'BAFTA Award for Most Promising Newcomer to Leading Film Roles', 'entity': 'Award'}, {'span': 'Hoffman', 'entity': 'Person'}, {'span': 'BAFTA Award for Best Editing', 'entity': 'Award'}, {'span': "Sam O 'Steen", 'entity': 'Person'}]'
+

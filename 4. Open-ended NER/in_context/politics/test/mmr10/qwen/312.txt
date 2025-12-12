@@ -1,0 +1,30 @@
+Example #1: He led a government's coalition composed by Christian Democrats, Italian Socialist Party, Italian Democratic Socialist Party, Italian Republican Party and Italian Liberal Party.
+Expected output: 'entities: [{'span': 'Christian Democrats', 'entity': 'Misc'}, {'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Republican Party', 'entity': 'Political Party'}, {'span': 'Italian Liberal Party', 'entity': 'Political Party'}]'
+
+Example #2: Amnesty International and Human Rights Watch as well as B 'Tselem and Yesh Din criticized the military investigation.
+Expected output: 'entities: [{'span': 'Amnesty International', 'entity': 'Organisation'}, {'span': 'Human Rights Watch', 'entity': 'Organisation'}, {'span': "B 'Tselem", 'entity': 'Organisation'}, {'span': 'Yesh Din', 'entity': 'Organisation'}]'
+
+Example #3: Though Roosevelt won the backing of Treasury Secretary William Gibbs McAdoo and Governor Martin H. Glynn, he faced a formidable opponent in the Tammany-backed James W. Gerard.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'William Gibbs McAdoo', 'entity': 'Politician'}, {'span': 'Martin H. Glynn', 'entity': 'Politician'}, {'span': 'James W. Gerard', 'entity': 'Politician'}]'
+
+Example #4: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #5: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+
+Example #6: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #7: Joschka Fischer became Vice-Chancellor of Germany and foreign minister in the new government, which had two other Green ministers (Andrea Fischer, later Renate Künast, and Jürgen Trittin).
+Expected output: 'entities: [{'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Andrea Fischer', 'entity': 'Person'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #8: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #9: By the time of the 1997 Irish general election Sinn Féin stated that they would prefer a Fianna Fáil led government and the IRA resumed their ceasefire soon after Fine Gael lost the 1997 Irish general election.
+Expected output: 'entities: [{'span': '1997 Irish general election', 'entity': 'Election'}, {'span': 'Sinn Féin', 'entity': 'Political Party'}, {'span': 'Fianna Fáil', 'entity': 'Political Party'}, {'span': 'IRA', 'entity': 'Organisation'}, {'span': 'Fine Gael', 'entity': 'Political Party'}]'
+
+Example #10: The head of Government is the Chief Minister, currently the Hon. Fabian Picardo of the Gibraltar Socialist Labour Party (GSLP) who has been in office since 9 December 2011, in alliance with the Gibraltar Liberal Party (Liberals), following the 2011 Gibraltar general election.
+Expected output: 'entities: [{'span': 'Fabian Picardo', 'entity': 'Politician'}, {'span': 'Gibraltar Socialist Labour Party', 'entity': 'Political Party'}, {'span': 'GSLP', 'entity': 'Political Party'}, {'span': 'Gibraltar Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberals', 'entity': 'Political Party'}, {'span': '2011 Gibraltar general election', 'entity': 'Election'}]'
+

@@ -1,0 +1,15 @@
+Example #1: Three of the labels rejected her, saying that audiences wanted pop bands such as the Backstreet Boys and the Spice Girls, and there wasn 't going to be another Madonna, another Debbie Gibson, or another Tiffany.
+Expected output: 'entities: [{'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'Spice Girls', 'entity': 'Band'}, {'span': 'Madonna', 'entity': 'Musical Artist'}, {'span': 'Debbie Gibson', 'entity': 'Musical Artist'}, {'span': 'Tiffany', 'entity': 'Musical Artist'}]'
+
+Example #2: He has been involved in charitable work, including ONE Campaign, H2O Africa Foundation, Feeding America, and Water.org.
+Expected output: 'entities: [{'span': 'ONE Campaign', 'entity': 'Organisation'}, {'span': 'H2O Africa Foundation', 'entity': 'Organisation'}, {'span': 'Feeding America', 'entity': 'Organisation'}, {'span': 'Water.org', 'entity': 'Organisation'}]'
+
+Example #3: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #4: In addition, the film won the BAFTA Award for Best Film, BAFTA Award for Best Direction (Nichols), BAFTA Award for Most Promising Newcomer to Leading Film Roles (Hoffman), the BAFTA Award for Best Editing (Sam O 'Steen).
+Expected output: 'entities: [{'span': 'BAFTA Award for Best Film', 'entity': 'Award'}, {'span': 'BAFTA Award for Best Direction', 'entity': 'Award'}, {'span': 'Nichols', 'entity': 'Person'}, {'span': 'BAFTA Award for Most Promising Newcomer to Leading Film Roles', 'entity': 'Award'}, {'span': 'Hoffman', 'entity': 'Person'}, {'span': 'BAFTA Award for Best Editing', 'entity': 'Award'}, {'span': "Sam O 'Steen", 'entity': 'Person'}]'
+
+Example #5: In June 1985, the United Way of Canada invited Lata Mangeshkar to perform at Maple Leaf Gardens.
+Expected output: 'entities: [{'span': 'United Way of Canada', 'entity': 'Organisation'}, {'span': 'Lata Mangeshkar', 'entity': 'Musical Artist'}, {'span': 'Maple Leaf Gardens', 'entity': 'Location'}]'
+

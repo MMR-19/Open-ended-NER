@@ -1,0 +1,30 @@
+Example #1: Portanto, a proclamação da inconstitucionalidade da Lei Complementar Distrital nº 85, de 13 de fevereiro de 1998, com efeitos ex tunc e eficácia erga omnes é medida que se impõe. ” (ADI 2010002007992-9, Conselho Especial, Relator Desembargador NATANAEL CAETANO, julgado em 14/9/2010, DJ-e de 17/11/2010 p. 44) (grifo nosso) “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'Lei Complementar Distrital nº 85', 'entity': 'Legislação'}, {'span': '13 de fevereiro de 1998', 'entity': 'Tempo'}, {'span': 'ADI 2010002007992-9', 'entity': 'Jurisprudência'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'NATANAEL CAETANO', 'entity': 'Pessoa'}, {'span': '14/9/2010', 'entity': 'Tempo'}, {'span': '17/11/2010', 'entity': 'Tempo'}]'
+
+Example #2: A manifestação do Procurador-Geral do Distrito Federal, às fls. 32/37, é no sentido de opinar pela procedência do pedido quanto à alegação de inconstitucionalidade formal das normas impugnadas.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #3: O documento pode ser acessado no endereço eletrônico http: //www.stf.jus.br/portal/autenticacao/ sob o número 14513115. Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR: MIN. MARCO AURÉLIO REQTE.
+Expected output: 'entities: [{'span': 'Supremo Tribunal Federal', 'entity': 'Organização'}, {'span': '08/03/2018', 'entity': 'Tempo'}, {'span': 'PLENÁRIO', 'entity': 'Organização'}, {'span': 'AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'entity': 'Jurisprudência'}, {'span': 'PARANÁ', 'entity': 'Localização'}, {'span': 'MARCO AURÉLIO', 'entity': 'Pessoa'}]'
+
+Example #4: DESAFETAÇÃO DE ÁREAS INTERSTICIAIS DAS QUADRAS RESIDENCIAIS DE BRAZLÂNDIA-DF (RA IV).
+Expected output: 'entities: [{'span': 'BRAZLÂNDIA-DF', 'entity': 'Localização'}, {'span': 'RA IV', 'entity': 'Localização'}]'
+
+Example #5: Não obstante, é pertinente cientificar a unidade sobre a recente alteração ocorrida na Instrução Normativa 5/2014 SLTI/MPOG, promovida pela IN 3, de 20 de abril de 2017.
+Expected output: 'entities: [{'span': 'Instrução Normativa 5/2014 SLTI/MPOG', 'entity': 'Legislação'}, {'span': '20 de abril de 2017', 'entity': 'Tempo'}]'
+
+Example #6: Este ato representa, dentro do sistema positivo, o momento inaugural e fundante da ordem jurídica vigente no âmbito do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #7: A Corte de origem entendeu que a distribuição de folhetos impressos com críticas à gestão administrativa do Município de ltapevi/SP, na pessoa da pré-candidata oponente do ora agravante, extrapolou os limites da exceção prevista no inciso V do art. 36-A da Lei n° 9.504/97, que permite a divulgação de posicionamento pessoal sobre questões políticas.
+Expected output: 'entities: [{'span': 'Município de ltapevi/SP', 'entity': 'Localização'}, {'span': 'inciso V do art. 36-A da Lei n° 9.504/97', 'entity': 'Legislação'}]'
+
+Example #8: Sustenta a autora, inicialmente, que “ (...) a impugnação em conjunto das referidas leis por meio da presente ação direta explica-se, além da notória economia processual, pela nítida identidade da matéria por elas versada (ocupação de áreas públicas), bem como pelos vícios formais de inconstitucionalidade comuns a todas as referidas leis. ” Salienta, nesse rumo, “ (...) a presença de vício de iniciativa, tendo em vista que todas as leis impugnadas são oriundas de projetos de lei de iniciativa de Deputados Distritais e tratam da ocupação de áreas públicas, matéria da competência privativa do Governador do Distrito Federal, nos termos da Lei Orgânica do Distrito Federal. ” Quanto ao tema trazido a exame, importa considerar o reiterado entendimento deste Órgão Especial, no sentido de que “ em se tratando de diplomas normativos que promovem alteração da destinação de uso e ocupação do solo do Distrito Federal, hipótese em que compete privativamente ao Governador do Distrito Federal iniciar o processo legislativo, declara-se a inconstitucionalidade formal do diploma legal impugnado. ” (Conselho Especial, ADI 20040020088196, Rel. Des. Romão C. Oliveira, DJ 13/09/2007, Reg. Ac. 275666).
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Lei Orgânica do Distrito Federal.', 'entity': 'Legislação'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'ADI 20040020088196', 'entity': 'Jurisprudência'}, {'span': 'Romão C. Oliveira', 'entity': 'Pessoa'}, {'span': '13/09/2007', 'entity': 'Tempo'}]'
+
+Example #9: (TST-AgR-AIRR-979-11.2013.5.24.0002, Relator Ministro Luiz Philippe Vieira de Mello Filho, 7ª Turma, DEJT 07/08/2015) AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA EM FACE DE DECISÃO PUBLICADA A PARTIR DA VIGÊNCIA DA LEI Nº 13.015/2014.
+Expected output: 'entities: [{'span': 'TST-AgR-AIRR-979-11.2013.5.24.0002', 'entity': 'Jurisprudência'}, {'span': 'Luiz Philippe Vieira de Mello Filho', 'entity': 'Pessoa'}, {'span': '7ª Turma', 'entity': 'Organização'}, {'span': '07/08/2015', 'entity': 'Tempo'}, {'span': 'LEI Nº 13.015/2014', 'entity': 'Legislação'}]'
+
+Example #10: Cuida-se de ação direta de inconstitucionalidade, proposta pela Procuradora-Geral de Justiça do Distrito Federal e Territórios, visando à declaração de inconstitucionalidade das Leis Distritais 747/94 e 2018/98, além da Lei Complementar 380/2001, em face dos artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Leis Distritais 747/94', 'entity': 'Legislação'}, {'span': '2018/98', 'entity': 'Legislação'}, {'span': 'Lei Complementar 380/2001', 'entity': 'Legislação'}, {'span': 'artigos 3º, inciso XI; 52; 100, incisos VI e XXI, e 321, todos da Lei Orgânica do DF', 'entity': 'Legislação'}]'
+

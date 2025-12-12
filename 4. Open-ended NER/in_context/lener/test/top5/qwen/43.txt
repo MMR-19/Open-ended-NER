@@ -1,0 +1,15 @@
+Example #1: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL PARA A PROPOSITURA DE LEIS QUE VERSEM SOBRE ALTERAÇÃO DE USO DE SOLO NO ÂMBITO DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #2: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #3: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #4: A autora argumenta que as Leis impugnadas, oriundas de projetos de autoria de Deputados Distritais, teriam invadido matéria de competência privativa do Governador do Distrito Federal, na medida em que versam sobre a ocupação de áreas públicas, alterando suas destinações originais.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Nos termos da Lei Orgânica do Distrito Federal, compete privativamente ao Chefe do Poder Executivo a legitimidade para a propositura de leis que versem sobre a administração de áreas públicas e sobre o uso e a ocupação do solo no Distrito Federal.
+Expected output: 'entities: [{'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

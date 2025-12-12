@@ -1,0 +1,30 @@
+Example #1: James Brown is said to be the most sampled artist in the history of hip hop, while P-Funk is the second most sampled artist; samples of old Parliament and Funkadelic songs formed the basis of West Coast G-funk.
+Expected output: 'entities: [{'span': 'James Brown', 'entity': 'Musical Artist'}, {'span': 'hip hop', 'entity': 'Music Genre'}, {'span': 'P-Funk', 'entity': 'Band'}, {'span': 'Parliament and Funkadelic', 'entity': 'Band'}, {'span': 'West Coast G-funk', 'entity': 'Music Genre'}]'
+
+Example #2: The band also released three full-length albums dubbed (and later packaged together as) The Trilogy: The Maggot, The Bootlicker, and The Crybaby.
+Expected output: 'entities: [{'span': 'The Trilogy', 'entity': 'Album'}, {'span': 'The Maggot', 'entity': 'Album'}, {'span': 'The Bootlicker', 'entity': 'Album'}, {'span': 'The Crybaby', 'entity': 'Album'}]'
+
+Example #3: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #4: Arguably the most successful boy band manager from the U.S. was Lou Pearlman, who founded commercially successful acts such as the Backstreet Boys in 1993, NSYNC and LFO in 1995, O-Town in 2000, and US5 in 2005.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Lou Pearlman', 'entity': 'Musical Artist'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'NSYNC', 'entity': 'Band'}, {'span': 'LFO', 'entity': 'Band'}, {'span': 'O-Town', 'entity': 'Band'}, {'span': 'US5', 'entity': 'Band'}]'
+
+Example #5: In 1995, Nas did guest performances on the albums Doe or Die by AZ, The Infamous by Mobb Deep, Only Built 4 Cuban Linx by Raekwon and 4,5,6 by Kool G Rap.
+Expected output: 'entities: [{'span': 'Nas', 'entity': 'Musical Artist'}, {'span': 'Doe or Die', 'entity': 'Album'}, {'span': 'AZ', 'entity': 'Musical Artist'}, {'span': 'The Infamous', 'entity': 'Album'}, {'span': 'Mobb Deep', 'entity': 'Band'}, {'span': 'Only Built 4 Cuban Linx', 'entity': 'Album'}, {'span': 'Raekwon', 'entity': 'Musical Artist'}, {'span': '4,5,6', 'entity': 'Album'}, {'span': 'Kool G Rap', 'entity': 'Musical Artist'}]'
+
+Example #6: The Benedictines and their offshoots (Cistercians and Trappists among them), the Premonstratensians, and the military orders distinguish between conventual and simple or obedientiary priories.
+Expected output: 'entities: [{'span': 'Benedictines', 'entity': 'Organisation'}, {'span': 'Cistercians', 'entity': 'Organisation'}, {'span': 'Trappists', 'entity': 'Organisation'}, {'span': 'Premonstratensians', 'entity': 'Organisation'}, {'span': 'military orders', 'entity': 'Organisation'}]'
+
+Example #7: On 9 June 1892 the Paris Opéra-Comique staged Les Troyens à Carthage (in the Théâtre de la Ville as its premiere) and witnessed a triumphant debut for the 17-year-old Marie Delna as Didon, with Stéphane Lafarge as Énée, conducted by Jules Danbé; these staged performances of Part 2 continued into the next year.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Location'}, {'span': 'Opéra-Comique', 'entity': 'Organisation'}, {'span': 'Les Troyens à Carthage', 'entity': 'Misc'}, {'span': 'Théâtre de la Ville', 'entity': 'Location'}, {'span': 'Marie Delna', 'entity': 'Musical Artist'}, {'span': 'Didon', 'entity': 'Misc'}, {'span': 'Stéphane Lafarge', 'entity': 'Person'}, {'span': 'Énée', 'entity': 'Misc'}, {'span': 'Jules Danbé', 'entity': 'Musical Artist'}]'
+
+Example #8: Bands sponsored by factories include The Black Dyke Mills Band, Yorkshire Imperial Band (originally the Yorkshire Copperworks Band), Foden's sponsored by the truck manufacturer, Fairey Band sponsored by the aircraft manufacturer, and Leyland Band sponsored by the vehicle manufacturer.
+Expected output: 'entities: [{'span': 'Black Dyke Mills Band', 'entity': 'Band'}, {'span': 'Yorkshire Imperial Band', 'entity': 'Band'}, {'span': 'Yorkshire Copperworks Band', 'entity': 'Band'}, {'span': "Foden's", 'entity': 'Band'}, {'span': 'Fairey Band', 'entity': 'Band'}, {'span': 'Leyland Band', 'entity': 'Band'}]'
+
+Example #9: Their style has been described as Rock and roll with a renegade stance, what in later years would be dubbed ' Punk rock '.
+Expected output: 'entities: [{'span': 'Rock and roll', 'entity': 'Music Genre'}, {'span': 'Punk rock', 'entity': 'Music Genre'}]'
+
+Example #10: Coldcut returned with the single Everything Is Under Control at the end of 2005, featuring Jon Spencer (of Jon Spencer Blues Explosion) and Mike Ladd.
+Expected output: 'entities: [{'span': 'Coldcut', 'entity': 'Band'}, {'span': 'Everything Is Under Control', 'entity': 'Song'}, {'span': 'Jon Spencer', 'entity': 'Musical Artist'}, {'span': 'Jon Spencer Blues Explosion', 'entity': 'Band'}, {'span': 'Mike Ladd', 'entity': 'Musical Artist'}]'
+

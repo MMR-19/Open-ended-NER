@@ -1,0 +1,30 @@
+Example #1: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL PARA A PROPOSITURA DE LEIS QUE VERSEM SOBRE ALTERAÇÃO DE USO DE SOLO NO ÂMBITO DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #2: COMPETÊNCIA PRIVATIVA DO GOVERNADOR DO DISTRITO FEDERAL.
+Expected output: 'entities: [{'span': 'DISTRITO FEDERAL', 'entity': 'Localização'}]'
+
+Example #3: Nesta seara, a iniciativa de leis é exclusiva do Governador do Distrito Federal, a teor do disposto nos artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'artigos 3º, inciso XI, 52 e 100, inciso VI, da Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #4: A autora argumenta que as Leis impugnadas, oriundas de projetos de autoria de Deputados Distritais, teriam invadido matéria de competência privativa do Governador do Distrito Federal, na medida em que versam sobre a ocupação de áreas públicas, alterando suas destinações originais.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #5: Nos termos da Lei Orgânica do Distrito Federal, compete privativamente ao Chefe do Poder Executivo a legitimidade para a propositura de leis que versem sobre a administração de áreas públicas e sobre o uso e a ocupação do solo no Distrito Federal.
+Expected output: 'entities: [{'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #6: Senão vejamos: “ Art. 14 O Governador do Distrito Federal proporá a edição de leis que venham a dispor sobre o uso e ocupação do solo em todo o território do Distrito Federal. ” Assim, conjugando o art. 14, do Decreto n.º 10.829/87, que passou a integrar a Lei Orgânica do Distrito Federal, por intermédio da Emenda n.º 12/96, com o artigo 100, item VI, da LODF, extrai-se ser competência privativa do Governador do Distrito Federal legislar sobre matéria concernente ao uso e ocupação do solo no território do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Distrito Federal.', 'entity': 'Localização'}, {'span': 'Decreto n.º 10.829/87', 'entity': 'Legislação'}, {'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}, {'span': 'Emenda n.º 12/96', 'entity': 'Legislação'}, {'span': 'artigo 100, item VI, da LODF', 'entity': 'Legislação'}]'
+
+Example #7: A iniciativa para elaboração de leis que disponham sobre o uso, ocupação e desafetação do solo no Distrito Federal é exclusiva de seu Governador, conforme previsto na Lei Orgânica do Distrito Federal.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Lei Orgânica do Distrito Federal', 'entity': 'Legislação'}]'
+
+Example #8: Compete privativamente ao Governador do Distrito Federal: (Omissis) VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica; XXI delegar, por decreto, a qualquer autoridade do Executivo atribuições administrativas que não sejam de sua exclusiva competência; ” “ Art. 321.
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}]'
+
+Example #9: (...) É conferido ao Excelentíssimo Governador do Distrito Federal competência privativa para iniciar o processo legislativo de qualquer norma que venha a dispor sobre a ocupação e o uso do solo em todo o território do Distrito Federal. ” (Conselho Especial, ADI 2004.02.00217-6, Rel. Des. Lécio Resende, DJ 19/10/2004, Reg. Ac. 216395).
+Expected output: 'entities: [{'span': 'Distrito Federal', 'entity': 'Localização'}, {'span': 'Distrito Federal.', 'entity': 'Localização'}, {'span': 'Conselho Especial', 'entity': 'Organização'}, {'span': 'ADI 2004.02.00217-6', 'entity': 'Jurisprudência'}, {'span': 'Lécio Resende', 'entity': 'Pessoa'}, {'span': '19/10/2004', 'entity': 'Tempo'}]'
+
+Example #10: Assim, conjugado tal preceito com o artigo 100, inc. VI, da Lei Orgânica, pelo qual “ compete privativamente ao Governador do Distrito Federal: VI iniciar o processo legislativo, na forma e nos casos previstos nesta Lei Orgânica ”, a prescrição do referido Decreto orienta à conclusão pela competência do Governador do Distrito Federal de iniciativa legislativa para as normas de regulação do uso do solo, conforme orientação reiteradamente sufragada neste Conselho, exemplificada nos seguintes julgados: “ AÇÃO DIRETA DE INCONSTITUCIONALIDADE.
+Expected output: 'entities: [{'span': 'artigo 100, inc. VI, da Lei Orgânica', 'entity': 'Legislação'}, {'span': 'Distrito Federal', 'entity': 'Localização'}]'
+

@@ -1,0 +1,30 @@
+Example #1: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #2: The only interruptions occurred in 1813-1814, occasioned by the German War of Liberation (War of the Sixth Coalition), during which the university was closed, and those occasioned by two prolonged literary tours, first in 1820 to Paris, London and Oxford with his colleague Johann Karl Thilo (1794-1853) for the examination of rare oriental manuscripts, and in 1835 to England and the Netherlands in connection with his Phoenician studies.
+Expected output: 'entities: [{'span': 'German', 'entity': 'Misc'}, {'span': 'War of Liberation', 'entity': 'Event'}, {'span': 'War of the Sixth Coalition', 'entity': 'Event'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oxford', 'entity': 'Location'}, {'span': 'Johann Karl Thilo', 'entity': 'Person'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Netherlands', 'entity': 'Country'}, {'span': 'Phoenician', 'entity': 'Misc'}]'
+
+Example #3: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #4: In the nineteenth century, the members of the failed Decembrist revolt, Polish nobles who resisted Russian rule, and members of various socialist revolutionary groups, including Bolsheviks such as Sergo Ordzhonikidze, Leon Trotsky, and Joseph Stalin were all sent into exile.
+Expected output: 'entities: [{'span': 'Decembrist revolt', 'entity': 'Event'}, {'span': 'Polish', 'entity': 'Misc'}, {'span': 'Russian', 'entity': 'Misc'}, {'span': 'Bolsheviks', 'entity': 'Misc'}, {'span': 'Sergo Ordzhonikidze', 'entity': 'Politician'}, {'span': 'Leon Trotsky', 'entity': 'Politician'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}]'
+
+Example #5: Like Fidel, Raúl later attended the Jesuit School of Colegio Dolores in Santiago de Cuba and Belen Jesuit Preparatory School in Havana.
+Expected output: 'entities: [{'span': 'Fidel', 'entity': 'Person'}, {'span': 'Raúl', 'entity': 'Person'}, {'span': 'Jesuit School of Colegio Dolores', 'entity': 'Location'}, {'span': 'Santiago de Cuba', 'entity': 'Location'}, {'span': 'Belen Jesuit Preparatory School', 'entity': 'Location'}, {'span': 'Havana', 'entity': 'Location'}]'
+
+Example #6: In the weeks leading up to the 1852 United States presidential election, he campaigned in numerous Southern states for Democratic candidates Franklin Pierce and William R. King.
+Expected output: 'entities: [{'span': '1852 United States presidential election', 'entity': 'Election'}, {'span': 'Franklin Pierce', 'entity': 'Politician'}, {'span': 'William R. King', 'entity': 'Politician'}]'
+
+Example #7: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #8: The Soviet Politburo decisions were guided by a Special Commission on Afghanistan, which consisted of Yuri Andropov the KGB chairman, Andrei Gromyko the Minister of Foreign Affairs, Defence Minister Dmitriy Ustinov, and Boris Ponomarev, the head of the International Department of the Central Committee.
+Expected output: 'entities: [{'span': 'Soviet', 'entity': 'Misc'}, {'span': 'Politburo', 'entity': 'Misc'}, {'span': 'Afghanistan', 'entity': 'Country'}, {'span': 'Yuri Andropov', 'entity': 'Politician'}, {'span': 'KGB', 'entity': 'Organisation'}, {'span': 'Andrei Gromyko', 'entity': 'Politician'}, {'span': 'Dmitriy Ustinov', 'entity': 'Politician'}, {'span': 'Boris Ponomarev', 'entity': 'Politician'}, {'span': 'International Department of the Central Committee', 'entity': 'Organisation'}]'
+
+Example #9: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #10: He was the former president of the American Political Science Association and a member of the American Academy of Arts and Sciences, American Philosophical Society and Human Rights Foundation.
+Expected output: 'entities: [{'span': 'American Political Science Association', 'entity': 'Organisation'}, {'span': 'American Academy of Arts and Sciences', 'entity': 'Organisation'}, {'span': 'American Philosophical Society', 'entity': 'Organisation'}, {'span': 'Human Rights Foundation', 'entity': 'Organisation'}]'
+

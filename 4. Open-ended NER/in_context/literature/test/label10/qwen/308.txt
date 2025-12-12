@@ -1,0 +1,30 @@
+Example #1: Private Eye parodied Sue Townsend ' s The Secret Diary of Adrian Mole, age 13 ¾ to write The Secret Diary of John Major, age 47 ¾, in which Major was portrayed as naïve and childish, keeping lists of his enemies in a Rymans Notebook called his Bastards Book, and featuring my wife Norman and Mr Dr Mawhinney as recurring character s.
+Expected output: 'entities: [{'span': 'Private Eye', 'entity': 'Magazine'}, {'span': 'Sue Townsend', 'entity': 'Writer'}, {'span': 'The Secret Diary of Adrian Mole, age 13 ¾', 'entity': 'Book'}, {'span': 'The Secret Diary of John Major, age 47 ¾', 'entity': 'Book'}, {'span': 'Major', 'entity': 'Person'}, {'span': 'Rymans Notebook', 'entity': 'Misc'}, {'span': 'Bastards Book', 'entity': 'Misc'}, {'span': 'Norman', 'entity': 'Person'}, {'span': 'Mr Dr Mawhinney', 'entity': 'Person'}]'
+
+Example #2: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #3: Anthony Boucher, reviewing the volume in The Magazine of Fantasy & Science Fiction, wrote that The Two Towers makes inordinate demands upon the patience of its readers with passages which could be lopped away without affecting form or content.
+Expected output: 'entities: [{'span': 'Anthony Boucher', 'entity': 'Writer'}, {'span': 'The Magazine of Fantasy & Science Fiction', 'entity': 'Magazine'}, {'span': 'The Two Towers', 'entity': 'Book'}]'
+
+Example #4: The original Chanson d 'Antioche is lost, but it was edited in the 12th century by Graindor de Douai, who also edited the Chanson de Jérusalem, and possibly wrote the Chanson des Chétifs himself.
+Expected output: 'entities: [{'span': "Chanson d 'Antioche", 'entity': 'Poem'}, {'span': 'Graindor de Douai', 'entity': 'Writer'}, {'span': 'Chanson de Jérusalem', 'entity': 'Poem'}, {'span': 'Chanson des Chétifs', 'entity': 'Poem'}]'
+
+Example #5: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #6: In 1927 Lu was considered for the Nobel Prize in Literature, for the short story The TRUE Story of Ah Q, despite a poor English translation and annotations that were nearly double the size of the text. Kowallis 3 Lu rejected the possibility of accepting the nomination.
+Expected output: 'entities: [{'span': 'Lu', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'short story', 'entity': 'Literary Genre'}, {'span': 'The TRUE Story of Ah Q', 'entity': 'Book'}, {'span': 'English', 'entity': 'Misc'}, {'span': 'Kowallis 3 Lu', 'entity': 'Writer'}]'
+
+Example #7: Robert Caro has cited it as the strongest influence on The Power Broker, his Pulitzer Prize -winning biography of Robert Moses, though Caro does not mention Jacobs by name even once in the book despite Jacobs ' battles with Moses over his proposed Lower Manhattan Expressway.
+Expected output: 'entities: [{'span': 'Robert Caro', 'entity': 'Writer'}, {'span': 'The Power Broker', 'entity': 'Book'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'Robert Moses', 'entity': 'Person'}, {'span': 'Caro', 'entity': 'Writer'}, {'span': 'Jacobs', 'entity': 'Writer'}, {'span': 'Moses', 'entity': 'Person'}, {'span': 'Lower Manhattan Expressway', 'entity': 'Misc'}]'
+
+Example #8: The title of the story refers to a bedtime poem recited in the narrative entitled There Will Come Soft Rains, an actual poem by Sara Teasdale originally published in 1920.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'There Will Come Soft Rains', 'entity': 'Poem'}, {'span': 'Sara Teasdale', 'entity': 'Writer'}]'
+
+Example #9: Highly regarded in his lifetime and for a period thereafter, he is now largely remembered for his anti-slavery writings and his poems Barbara Frietchie, The Barefoot Boy, Maud Muller and Snow-Bound.
+Expected output: 'entities: [{'span': 'anti-slavery writings', 'entity': 'Literary Genre'}, {'span': 'poems', 'entity': 'Literary Genre'}, {'span': 'Barbara Frietchie', 'entity': 'Poem'}, {'span': 'The Barefoot Boy', 'entity': 'Poem'}, {'span': 'Maud Muller', 'entity': 'Poem'}, {'span': 'Snow-Bound', 'entity': 'Poem'}]'
+
+Example #10: The British military historian John Keegan attacked Clausewitz's theory in his book A History of Warfare. John Keegan, A History of Warfare.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'John Keegan', 'entity': 'Writer'}, {'span': 'Clausewitz', 'entity': 'Writer'}, {'span': 'A History of Warfare', 'entity': 'Book'}]'
+

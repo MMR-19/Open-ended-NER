@@ -1,0 +1,30 @@
+Example #1: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #2: The contemporary Québec Liberal Party is a broad-based federalist coalition including among its members some supporters of the federal Liberal Party of Canada, New Democratic Party, and Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Liberal Party', 'entity': 'Political Party'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #3: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #4: Rome and Paris became the airline's third and fourth European destinations, with flights stopping in Mumbai and Cairo to refuel.
+Expected output: 'entities: [{'span': 'Rome', 'entity': 'Location'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'European', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}]'
+
+Example #5: There are Lord Edward Streets named in his honour in many places in Ireland, such as Dublin, Limerick, Sligo, Kilkenny, Ballina, Ballymote, and Ballycullenbeg in County Laois.
+Expected output: 'entities: [{'span': 'Lord Edward Streets', 'entity': 'Location'}, {'span': 'Ireland', 'entity': 'Country'}, {'span': 'Dublin', 'entity': 'Location'}, {'span': 'Limerick', 'entity': 'Location'}, {'span': 'Sligo', 'entity': 'Location'}, {'span': 'Kilkenny', 'entity': 'Location'}, {'span': 'Ballina', 'entity': 'Location'}, {'span': 'Ballymote', 'entity': 'Location'}, {'span': 'Ballycullenbeg', 'entity': 'Location'}, {'span': 'County Laois', 'entity': 'Location'}]'
+
+Example #6: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #7: LeRoy Pope Walker of Alabama was made Secretary of War, after being recommended for this post by Clement Claiborne Clay and William Lowndes Yancey (both of whom declined to accept cabinet positions themselves).
+Expected output: 'entities: [{'span': 'LeRoy Pope Walker', 'entity': 'Politician'}, {'span': 'Alabama', 'entity': 'Location'}, {'span': 'Clement Claiborne Clay', 'entity': 'Politician'}, {'span': 'William Lowndes Yancey', 'entity': 'Politician'}]'
+
+Example #8: Chief towns included Kingston, Port of Spain, Bridgetown, Spanish Town, Montego Bay, Mandeville, Castries, Roseau, St. George's, Kingstown, St. John's, and Basseterre.
+Expected output: 'entities: [{'span': 'Kingston', 'entity': 'Location'}, {'span': 'Port of Spain', 'entity': 'Location'}, {'span': 'Bridgetown', 'entity': 'Location'}, {'span': 'Spanish Town', 'entity': 'Location'}, {'span': 'Montego Bay', 'entity': 'Location'}, {'span': 'Mandeville', 'entity': 'Location'}, {'span': 'Castries', 'entity': 'Location'}, {'span': 'Roseau', 'entity': 'Location'}, {'span': "St. George's", 'entity': 'Location'}, {'span': 'Kingstown', 'entity': 'Location'}, {'span': "St. John's", 'entity': 'Location'}, {'span': 'Basseterre', 'entity': 'Location'}]'
+
+Example #9: He attended an academy run by the crown prince's ethics tutor in Tokyo, and briefly studied at Keio University and the Tokyo Physics School (now the Tokyo University of Science).
+Expected output: 'entities: [{'span': 'Tokyo', 'entity': 'Location'}, {'span': 'Keio University', 'entity': 'Organisation'}, {'span': 'Tokyo Physics School', 'entity': 'Organisation'}, {'span': 'Tokyo University of Science', 'entity': 'Organisation'}]'
+
+Example #10: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+

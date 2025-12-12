@@ -1,0 +1,30 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: On 24 August 2012, Westenra staged a concert in the Gŵyl Gobaith Music Festival in Wales to support for charities Cancer Research UK, Wales Air Ambulance, CLIC Sargent and HeadtoHeart.
+Expected output: 'entities: [{'span': 'Westenra', 'entity': 'Musical Artist'}, {'span': 'Gŵyl Gobaith Music Festival', 'entity': 'Event'}, {'span': 'Wales', 'entity': 'Country'}, {'span': 'Cancer Research UK', 'entity': 'Organisation'}, {'span': 'Wales Air Ambulance', 'entity': 'Organisation'}, {'span': 'CLIC Sargent', 'entity': 'Organisation'}, {'span': 'HeadtoHeart', 'entity': 'Organisation'}]'
+
+Example #3: The Righteous Brothers, Bobby Hatfield and Bill Medley, also guest-starred in different episodes.
+Expected output: 'entities: [{'span': 'The Righteous Brothers', 'entity': 'Band'}, {'span': 'Bobby Hatfield', 'entity': 'Musical Artist'}, {'span': 'Bill Medley', 'entity': 'Musical Artist'}]'
+
+Example #4: Two of his most popular recordings were Layla, recorded with Derek and the Dominos; and Robert Johnson ' s Cross Road Blues, recorded with Cream.
+Expected output: 'entities: [{'span': 'Layla', 'entity': 'Song'}, {'span': 'Derek and the Dominos', 'entity': 'Band'}, {'span': 'Robert Johnson', 'entity': 'Musical Artist'}, {'span': 'Cross Road Blues', 'entity': 'Song'}, {'span': 'Cream', 'entity': 'Band'}]'
+
+Example #5: Their debut album The Magnificent Moodies, produced by Denny Cordell with a strong Beat music / Rhythm and blues flavour, was released on Decca in mono only in 1965.
+Expected output: 'entities: [{'span': 'The Magnificent Moodies', 'entity': 'Album'}, {'span': 'Denny Cordell', 'entity': 'Musical Artist'}, {'span': 'Beat music', 'entity': 'Music Genre'}, {'span': 'Rhythm and blues', 'entity': 'Music Genre'}, {'span': 'Decca', 'entity': 'Organisation'}]'
+
+Example #6: In 1995, Nas did guest performances on the albums Doe or Die by AZ, The Infamous by Mobb Deep, Only Built 4 Cuban Linx by Raekwon and 4,5,6 by Kool G Rap.
+Expected output: 'entities: [{'span': 'Nas', 'entity': 'Musical Artist'}, {'span': 'Doe or Die', 'entity': 'Album'}, {'span': 'AZ', 'entity': 'Musical Artist'}, {'span': 'The Infamous', 'entity': 'Album'}, {'span': 'Mobb Deep', 'entity': 'Band'}, {'span': 'Only Built 4 Cuban Linx', 'entity': 'Album'}, {'span': 'Raekwon', 'entity': 'Musical Artist'}, {'span': '4,5,6', 'entity': 'Album'}, {'span': 'Kool G Rap', 'entity': 'Musical Artist'}]'
+
+Example #7: Christian alternative music has its roots in the early 1980s, as the earliest efforts at Christian punk and new wave were recorded by artists like Andy McCarroll and Moral Support, Undercover, the 77s, Steve Scott, Adam Again, Quickflight, Daniel Amos, Youth Choir (later renamed the Choir), Lifesavers Underground, Michael Knott, the Prayer Chain, Altar Boys, Breakfast with Amy, Steve Taylor, 4-4-1, David Edwards and Vector.
+Expected output: 'entities: [{'span': 'Christian alternative music', 'entity': 'Music Genre'}, {'span': 'Christian punk', 'entity': 'Music Genre'}, {'span': 'new wave', 'entity': 'Music Genre'}, {'span': 'Andy McCarroll', 'entity': 'Band'}, {'span': 'Moral Support', 'entity': 'Band'}, {'span': 'Undercover', 'entity': 'Band'}, {'span': 'the 77s', 'entity': 'Band'}, {'span': 'Steve Scott', 'entity': 'Musical Artist'}, {'span': 'Adam Again', 'entity': 'Band'}, {'span': 'Quickflight', 'entity': 'Band'}, {'span': 'Daniel Amos', 'entity': 'Band'}, {'span': 'Youth Choir', 'entity': 'Band'}, {'span': 'the Choir', 'entity': 'Band'}, {'span': 'Lifesavers Underground', 'entity': 'Band'}, {'span': 'Michael Knott', 'entity': 'Musical Artist'}, {'span': 'the Prayer Chain', 'entity': 'Band'}, {'span': 'Altar Boys', 'entity': 'Band'}, {'span': 'Breakfast with Amy', 'entity': 'Band'}, {'span': 'Steve Taylor', 'entity': 'Musical Artist'}, {'span': '4-4-1', 'entity': 'Band'}, {'span': 'David Edwards', 'entity': 'Musical Artist'}, {'span': 'Vector', 'entity': 'Musical Artist'}]'
+
+Example #8: At the 59th Annual Grammy Awards on 12 February 2017, Bowie won all five nominated awards: Grammy Award for Best Rock Performance; Grammy Award for Best Alternative Music Album; Best Engineered Album, Non-Classical; Grammy Award for Best Recording Package; and Grammy Award for Best Rock Song.
+Expected output: 'entities: [{'span': '59th Annual Grammy Awards', 'entity': 'Award'}, {'span': 'Bowie', 'entity': 'Musical Artist'}, {'span': 'Grammy Award for Best Rock Performance', 'entity': 'Award'}, {'span': 'Grammy Award for Best Alternative Music Album', 'entity': 'Award'}, {'span': 'Best Engineered Album, Non-Classical', 'entity': 'Award'}, {'span': 'Grammy Award for Best Recording Package', 'entity': 'Award'}, {'span': 'Grammy Award for Best Rock Song', 'entity': 'Award'}]'
+
+Example #9: He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.
+Expected output: 'entities: [{'span': 'Les Mistigris', 'entity': 'Band'}, {'span': 'Mistigris', 'entity': 'Organisation'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Belgium', 'entity': 'Country'}, {'span': 'France', 'entity': 'Country'}, {'span': 'Turkey', 'entity': 'Country'}]'
+
+Example #10: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+

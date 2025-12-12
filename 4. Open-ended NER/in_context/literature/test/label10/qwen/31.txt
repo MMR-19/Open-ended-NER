@@ -1,0 +1,30 @@
+Example #1: The title of the story refers to a bedtime poem recited in the narrative entitled There Will Come Soft Rains, an actual poem by Sara Teasdale originally published in 1920.
+Expected output: 'entities: [{'span': 'poem', 'entity': 'Literary Genre'}, {'span': 'There Will Come Soft Rains', 'entity': 'Poem'}, {'span': 'Sara Teasdale', 'entity': 'Writer'}]'
+
+Example #2: The period around World War II also saw the publication of the time travel novel Lest Darkness Fall by L. Sprague de Camp, in which an American academic travels to Italy at the time of the Byzantine invasion of the Ostrogoths.
+Expected output: 'entities: [{'span': 'World War II', 'entity': 'Event'}, {'span': 'time travel novel', 'entity': 'Literary Genre'}, {'span': 'Lest Darkness Fall', 'entity': 'Book'}, {'span': 'L. Sprague de Camp', 'entity': 'Writer'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Byzantine', 'entity': 'Misc'}, {'span': 'Ostrogoths', 'entity': 'Misc'}]'
+
+Example #3: Robert Caro has cited it as the strongest influence on The Power Broker, his Pulitzer Prize -winning biography of Robert Moses, though Caro does not mention Jacobs by name even once in the book despite Jacobs ' battles with Moses over his proposed Lower Manhattan Expressway.
+Expected output: 'entities: [{'span': 'Robert Caro', 'entity': 'Writer'}, {'span': 'The Power Broker', 'entity': 'Book'}, {'span': 'Pulitzer Prize', 'entity': 'Award'}, {'span': 'Robert Moses', 'entity': 'Person'}, {'span': 'Caro', 'entity': 'Writer'}, {'span': 'Jacobs', 'entity': 'Writer'}, {'span': 'Moses', 'entity': 'Person'}, {'span': 'Lower Manhattan Expressway', 'entity': 'Misc'}]'
+
+Example #4: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+
+Example #5: For example, Russ criticized Ursula K. Le Guin ' s 1969 The Left Hand of Darkness, which won both the 1969 Nebula Award for Best Novel and 1970 Hugo Award for Best Novel awards for best science fiction novel, arguing that gender discriminations that permeated science fiction by men showed up just as frequently in science fiction by women.
+Expected output: 'entities: [{'span': 'Russ', 'entity': 'Writer'}, {'span': 'Ursula K. Le Guin', 'entity': 'Writer'}, {'span': 'The Left Hand of Darkness', 'entity': 'Book'}, {'span': 'Nebula Award for Best Novel', 'entity': 'Award'}, {'span': 'Hugo Award for Best Novel', 'entity': 'Award'}, {'span': 'science fiction', 'entity': 'Literary Genre'}]'
+
+Example #6: In response to what at least appeared to be a blatant snub by his own countrymen, the director Sidney Lumet led a successful campaign to have Kurosawa receive an Oscar nomination for Academy Award for Best Director that year (Sydney Pollack ultimately won the award for directing Out of Africa).
+Expected output: 'entities: [{'span': 'Sidney Lumet', 'entity': 'Person'}, {'span': 'Kurosawa', 'entity': 'Person'}, {'span': 'Oscar', 'entity': 'Award'}, {'span': 'Academy Award for Best Director', 'entity': 'Award'}, {'span': 'Sydney Pollack', 'entity': 'Person'}, {'span': 'Out of Africa', 'entity': 'Misc'}]'
+
+Example #7: Fry helped to fund a 1988 London re-staging of Stanshall's Stinkfoot, a Comic Opera, written by Vivian and Ki Longfellow for the Bristol -based The Thekla.
+Expected output: 'entities: [{'span': 'Fry', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Stanshall', 'entity': 'Writer'}, {'span': 'Stinkfoot, a Comic Opera', 'entity': 'Book'}, {'span': 'Vivian', 'entity': 'Writer'}, {'span': 'Ki Longfellow', 'entity': 'Writer'}, {'span': 'Bristol', 'entity': 'Location'}, {'span': 'The Thekla', 'entity': 'Location'}]'
+
+Example #8: During most of his career, Orwell was best known for his journalism, in essays, reviews, columns in newspapers and magazines and in his books of reportage: Down and Out in Paris and London (describing a period of poverty in these cities), The Road to Wigan Pier (describing the living conditions of the poor in northern England, and class division generally) and Homage to Catalonia.
+Expected output: 'entities: [{'span': 'Orwell', 'entity': 'Writer'}, {'span': 'Down and Out in Paris and London', 'entity': 'Book'}, {'span': 'The Road to Wigan Pier', 'entity': 'Book'}, {'span': 'England', 'entity': 'Country'}, {'span': 'Homage to Catalonia', 'entity': 'Book'}]'
+
+Example #9: In an article for The Atlantic, film critic Ty Burr deemed The Birth of a Nation the most influential film in history while criticizing its portrayal of black men as savage.
+Expected output: 'entities: [{'span': 'The Atlantic', 'entity': 'Magazine'}, {'span': 'Ty Burr', 'entity': 'Person'}, {'span': 'The Birth of a Nation', 'entity': 'Misc'}]'
+
+Example #10: Baron Cohen was educated at The Haberdashers ' Aske's Boys ' School, an independent school in Elstree, Hertfordshire, While a member of the Cambridge University Amateur Dramatic Club, Baron Cohen performed in plays such as Fiddler on the Roof and Cyrano de Bergerac, as well as in Habonim Dror Jewish theatre.
+Expected output: 'entities: [{'span': 'Baron Cohen', 'entity': 'Person'}, {'span': "The Haberdashers ' Aske's Boys ' School", 'entity': 'Organisation'}, {'span': 'Elstree', 'entity': 'Location'}, {'span': 'Hertfordshire', 'entity': 'Location'}, {'span': 'Cambridge University Amateur Dramatic Club', 'entity': 'Organisation'}, {'span': 'Fiddler on the Roof', 'entity': 'Misc'}, {'span': 'Cyrano de Bergerac', 'entity': 'Misc'}, {'span': 'Habonim Dror Jewish theatre', 'entity': 'Location'}]'
+

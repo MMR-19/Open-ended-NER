@@ -1,0 +1,30 @@
+Example #1: In 1351, during the reign of Emperor Toghon Temür of the Yuan dynasty, 93rd-generation descendant Kong Huan (孔浣) ' s 2nd son Kong Shao (孔昭) moved from China to Korea during the Goryeo, and was received courteously by Princess Noguk (the Mongolian-born wife of the future king Gongmin).
+Expected output: 'entities: [{'span': 'Emperor Toghon Temür', 'entity': 'Person'}, {'span': 'Yuan dynasty', 'entity': 'Country'}, {'span': 'Kong Huan', 'entity': 'Writer'}, {'span': '孔浣', 'entity': 'Writer'}, {'span': 'Kong Shao', 'entity': 'Writer'}, {'span': '孔昭', 'entity': 'Writer'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Korea', 'entity': 'Country'}, {'span': 'Goryeo', 'entity': 'Misc'}, {'span': 'Princess Noguk', 'entity': 'Person'}, {'span': 'Mongolian-born', 'entity': 'Misc'}, {'span': 'Gongmin', 'entity': 'Person'}]'
+
+Example #2: Her stage credits include Norman Mailer ' s The Deer Park, Israel Horovitz ' s The Indian Wants the Bronx, Neil Simon's The Good Doctor and Joseph Papp ' s 1974 Richard III at the Lincoln Center.
+Expected output: 'entities: [{'span': 'Norman Mailer', 'entity': 'Writer'}, {'span': 'The Deer Park', 'entity': 'Book'}, {'span': 'Israel Horovitz', 'entity': 'Writer'}, {'span': 'The Indian Wants the Bronx', 'entity': 'Book'}, {'span': 'Neil Simon', 'entity': 'Writer'}, {'span': 'The Good Doctor', 'entity': 'Book'}, {'span': 'Joseph Papp', 'entity': 'Person'}, {'span': 'Richard III', 'entity': 'Misc'}, {'span': 'Lincoln Center', 'entity': 'Location'}]'
+
+Example #3: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+
+Example #4: Private Eye parodied Sue Townsend ' s The Secret Diary of Adrian Mole, age 13 ¾ to write The Secret Diary of John Major, age 47 ¾, in which Major was portrayed as naïve and childish, keeping lists of his enemies in a Rymans Notebook called his Bastards Book, and featuring my wife Norman and Mr Dr Mawhinney as recurring character s.
+Expected output: 'entities: [{'span': 'Private Eye', 'entity': 'Magazine'}, {'span': 'Sue Townsend', 'entity': 'Writer'}, {'span': 'The Secret Diary of Adrian Mole, age 13 ¾', 'entity': 'Book'}, {'span': 'The Secret Diary of John Major, age 47 ¾', 'entity': 'Book'}, {'span': 'Major', 'entity': 'Person'}, {'span': 'Rymans Notebook', 'entity': 'Misc'}, {'span': 'Bastards Book', 'entity': 'Misc'}, {'span': 'Norman', 'entity': 'Person'}, {'span': 'Mr Dr Mawhinney', 'entity': 'Person'}]'
+
+Example #5: 1789) with the addition of five of his poems: the Introduction and The Divine Image from the Songs of Innocence (1789), The Tyger and A Divine Image from the Songs of Experience (1789-1794), and A Cradle Song from his Note-book (Manuscript Dante Gabriel Rossetti, 1793).
+Expected output: 'entities: [{'span': 'The Divine Image', 'entity': 'Poem'}, {'span': 'Songs of Innocence', 'entity': 'Book'}, {'span': 'The Tyger', 'entity': 'Poem'}, {'span': 'A Divine Image', 'entity': 'Poem'}, {'span': 'Songs of Experience', 'entity': 'Book'}, {'span': 'A Cradle Song', 'entity': 'Poem'}, {'span': 'Dante Gabriel Rossetti', 'entity': 'Writer'}]'
+
+Example #6: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+
+Example #7: She is known for her two best-selling novels, The Fountainhead and Atlas Shrugged, and for developing a philosophical system she named Objectivism.
+Expected output: 'entities: [{'span': 'novels', 'entity': 'Literary Genre'}, {'span': 'The Fountainhead', 'entity': 'Book'}, {'span': 'Atlas Shrugged', 'entity': 'Book'}, {'span': 'Objectivism', 'entity': 'Misc'}]'
+
+Example #8: Cuarón's feature Children of Men, an adaptation of the P. D. James The Children of Men starring Clive Owen, Julianne Moore and Michael Caine, received wide critical acclaim, including three Academy Awards nominations.
+Expected output: 'entities: [{'span': 'Cuarón', 'entity': 'Writer'}, {'span': 'Children of Men', 'entity': 'Book'}, {'span': 'P. D. James', 'entity': 'Writer'}, {'span': 'The Children of Men', 'entity': 'Book'}, {'span': 'Clive Owen', 'entity': 'Person'}, {'span': 'Julianne Moore', 'entity': 'Person'}, {'span': 'Michael Caine', 'entity': 'Person'}, {'span': 'Academy Awards', 'entity': 'Award'}]'
+
+Example #9: To please his wife, Diederichs agreed to publish Hesse's collection of prose entitled One Hour After Midnight in 1898 (although it is dated 1899) .Freedman (1978) pp. 78-80.
+Expected output: 'entities: [{'span': 'Diederichs', 'entity': 'Person'}, {'span': 'Hesse', 'entity': 'Writer'}, {'span': 'prose', 'entity': 'Literary Genre'}, {'span': 'One Hour After Midnight', 'entity': 'Poem'}, {'span': '.Freedman', 'entity': 'Book'}]'
+
+Example #10: Augustine was born in the year 354 AD in the municipium of Thagaste (now Souk Ahras, Algeria) in the Roman province of Numidia.
+Expected output: 'entities: [{'span': 'Augustine', 'entity': 'Person'}, {'span': 'Thagaste', 'entity': 'Location'}, {'span': 'Souk Ahras', 'entity': 'Location'}, {'span': 'Algeria', 'entity': 'Country'}, {'span': 'Roman province of Numidia', 'entity': 'Location'}]'
+

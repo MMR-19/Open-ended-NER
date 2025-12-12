@@ -1,0 +1,60 @@
+Example #1: The party was directly succeeded by the Canadian Alliance in 2000, which merged with the Progressive Conservative Party of Canada in 2003 to form the modern-day Conservative Party of Canada.
+Expected output: 'entities: [{'span': 'Canadian Alliance', 'entity': 'Political Party'}, {'span': 'Progressive Conservative Party of Canada', 'entity': 'Political Party'}, {'span': 'Conservative Party of Canada', 'entity': 'Political Party'}]'
+
+Example #2: The centre cooperates closely with the Carter Center in Atlanta, the Kim Dae Jung Library in Seoul and the Crisis Management Initiative in Helsinki.
+Expected output: 'entities: [{'span': 'Carter Center', 'entity': 'Organisation'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Kim Dae Jung Library', 'entity': 'Organisation'}, {'span': 'Seoul', 'entity': 'Location'}, {'span': 'Crisis Management Initiative', 'entity': 'Organisation'}, {'span': 'Helsinki', 'entity': 'Location'}]'
+
+Example #3: Following the 2004 European Parliament election in the United Kingdom, 37 MEPs from the UK, 2004 European Parliament election in Poland, 2004 European Parliament election in Denmark and Sweden founded a new European Parliamentary group called Independence and Democracy as a direct successor to the EDD group.
+Expected output: 'entities: [{'span': '2004 European Parliament election in the United Kingdom', 'entity': 'Election'}, {'span': 'MEPs', 'entity': 'Misc'}, {'span': 'UK', 'entity': 'Country'}, {'span': '2004 European Parliament election in Poland', 'entity': 'Election'}, {'span': '2004 European Parliament election in Denmark', 'entity': 'Election'}, {'span': 'Sweden', 'entity': 'Country'}, {'span': 'Independence and Democracy', 'entity': 'Organisation'}, {'span': 'EDD', 'entity': 'Organisation'}]'
+
+Example #4: Genscher was one of the FDP's driving forces when, in 1982, the party switched sides from its coalition with the SPD to support the Christian Democratic Union of Germany in their Constructive vote of no confidence to have incumbent Helmut Schmidt replaced with opposition leader Helmut Kohl as Chancellor.
+Expected output: 'entities: [{'span': 'Genscher', 'entity': 'Politician'}, {'span': 'FDP', 'entity': 'Political Party'}, {'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Christian Democratic Union of Germany', 'entity': 'Political Party'}, {'span': 'Helmut Schmidt', 'entity': 'Politician'}, {'span': 'Helmut Kohl', 'entity': 'Politician'}]'
+
+Example #5: He led a government's coalition composed by Christian Democrats, Italian Socialist Party, Italian Democratic Socialist Party, Italian Republican Party and Italian Liberal Party.
+Expected output: 'entities: [{'span': 'Christian Democrats', 'entity': 'Misc'}, {'span': 'Italian Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Democratic Socialist Party', 'entity': 'Political Party'}, {'span': 'Italian Republican Party', 'entity': 'Political Party'}, {'span': 'Italian Liberal Party', 'entity': 'Political Party'}]'
+
+Example #6: As of February 2012 the political composition of the council was: 11 Democratic Unionist Party (DUP), 6 Alliance Party of Northern Ireland, 3 Ulster Unionist Party (UUP), 2 Social Democratic and Labour Party (SDLP) and 1 Green Party in Northern Ireland councillor.
+Expected output: 'entities: [{'span': 'Democratic Unionist Party', 'entity': 'Political Party'}, {'span': 'DUP', 'entity': 'Political Party'}, {'span': 'Alliance Party of Northern Ireland', 'entity': 'Political Party'}, {'span': 'Ulster Unionist Party', 'entity': 'Political Party'}, {'span': 'UUP', 'entity': 'Political Party'}, {'span': 'Social Democratic and Labour Party', 'entity': 'Political Party'}, {'span': 'SDLP', 'entity': 'Political Party'}, {'span': 'Green Party in Northern Ireland', 'entity': 'Political Party'}]'
+
+Example #7: While exiled in Japan in 1914, Sun established the Chinese Revolutionary Party on 8 July 1914, but many of his old revolutionary comrades, including Huang Xing, Wang Jingwei, Hu Hanmin and Chen Jiongming, refused to join him or support his efforts in inciting armed uprising against Yuan.
+Expected output: 'entities: [{'span': 'Japan', 'entity': 'Country'}, {'span': 'Chinese Revolutionary Party', 'entity': 'Political Party'}, {'span': 'Huang Xing', 'entity': 'Politician'}, {'span': 'Wang Jingwei', 'entity': 'Politician'}, {'span': 'Hu Hanmin', 'entity': 'Politician'}, {'span': 'Chen Jiongming', 'entity': 'Politician'}, {'span': 'Yuan', 'entity': 'Politician'}]'
+
+Example #8: Subsequently, the party allied itself with the New Liberal Movement in the formation of the Australian Democrats for the 1977 Australian federal election.
+Expected output: 'entities: [{'span': 'New Liberal Movement', 'entity': 'Political Party'}, {'span': 'Australian Democrats', 'entity': 'Political Party'}, {'span': '1977 Australian federal election', 'entity': 'Election'}]'
+
+Example #9: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #10: In the subsequent election, Hugo Chávez's political party, the United Socialist Party of Venezuela drew 48 % of the votes overall, while the opposition parties (the Democratic Unity Roundtable and the Fatherland for All parties) drew 52 % of the votes.
+Expected output: 'entities: [{'span': 'Hugo Chávez', 'entity': 'Politician'}, {'span': 'United Socialist Party of Venezuela', 'entity': 'Political Party'}, {'span': 'Democratic Unity Roundtable', 'entity': 'Political Party'}, {'span': 'Fatherland for All', 'entity': 'Political Party'}]'
+
+Example #11: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #12: A number of the wealthiest and most affluent American families (Old Money) - such as the Vanderbilts, Astor family, Rockefeller family, Du Pont family, Roosevelt family, Forbes, Whitneys, Junius Spencer Morgan, and Harrimans - are mostly Mainline Protestant families in the Episcopalian, Presbyterian, or other similar traditions.
+Expected output: 'entities: [{'span': 'Old Money', 'entity': 'Misc'}, {'span': 'Vanderbilts', 'entity': 'Organisation'}, {'span': 'Astor family', 'entity': 'Organisation'}, {'span': 'Rockefeller family', 'entity': 'Organisation'}, {'span': 'Du Pont family', 'entity': 'Organisation'}, {'span': 'Roosevelt family', 'entity': 'Organisation'}, {'span': 'Forbes', 'entity': 'Organisation'}, {'span': 'Whitneys', 'entity': 'Organisation'}, {'span': 'Junius Spencer Morgan', 'entity': 'Person'}, {'span': 'Harrimans', 'entity': 'Misc'}, {'span': 'Mainline Protestant families', 'entity': 'Organisation'}, {'span': 'Episcopalian', 'entity': 'Organisation'}, {'span': 'Presbyterian', 'entity': 'Organisation'}]'
+
+Example #13: Westerwelle stepped down as party leader following the 2011 state elections, in which the party was wiped out in 2011 Saxony-Anhalt state election and 2011 Rhineland-Palatinate state election and lost half its seats in 2011 Baden-Württemberg state election.
+Expected output: 'entities: [{'span': 'Westerwelle', 'entity': 'Politician'}, {'span': '2011 Saxony-Anhalt state election', 'entity': 'Election'}, {'span': '2011 Rhineland-Palatinate state election', 'entity': 'Election'}, {'span': '2011 Baden-Württemberg state election', 'entity': 'Election'}]'
+
+Example #14: Brazil's major cities began to resemble 1932-33 Berlin with its street battles between the Communist Party of Germany and the Nazi Party.
+Expected output: 'entities: [{'span': 'Brazil', 'entity': 'Country'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Communist Party of Germany', 'entity': 'Political Party'}, {'span': 'Nazi Party', 'entity': 'Political Party'}]'
+
+Example #15: The IV CELAC summit or 2016 CELAC summit was the fourth ordinary heads of state summit of the Community of Latin American and Caribbean States.
+Expected output: 'entities: [{'span': 'IV CELAC summit', 'entity': 'Event'}, {'span': '2016 CELAC summit', 'entity': 'Event'}, {'span': 'Community of Latin American and Caribbean States', 'entity': 'Organisation'}]'
+
+Example #16: On 12 April 2019 a new Eurosceptic party, the Brexit Party was officially launched by former UK Independence Party Leader Nigel Farage.
+Expected output: 'entities: [{'span': 'Brexit Party', 'entity': 'Political Party'}, {'span': 'UK Independence Party', 'entity': 'Political Party'}, {'span': 'Nigel Farage', 'entity': 'Politician'}]'
+
+Example #17: Its continued use by the Southern Army's post-war veterans groups, the United Confederate Veterans (U.C.V.) and the later Sons of Confederate Veterans, (S.C.V.), and elements of the design by related similar female descendants organizations of the United Daughters of the Confederacy, (U.D.C.), led to the assumption that it was, as it has been termed, the soldier's flag or the Confederate battle flag.
+Expected output: 'entities: [{'span': 'Southern Army', 'entity': 'Organisation'}, {'span': 'United Confederate Veterans', 'entity': 'Organisation'}, {'span': 'U.C.V.', 'entity': 'Organisation'}, {'span': 'Sons of Confederate Veterans', 'entity': 'Organisation'}, {'span': 'S.C.V.', 'entity': 'Organisation'}, {'span': 'United Daughters of the Confederacy', 'entity': 'Organisation'}, {'span': 'U.D.C.', 'entity': 'Organisation'}]'
+
+Example #18: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #19: With fellow U.S. senators Trent Lott, Larry Craig, and Jim Jeffords, Ashcroft formed a barbershop quartet called The Singing Senators.
+Expected output: 'entities: [{'span': 'U.S.', 'entity': 'Country'}, {'span': 'Trent Lott', 'entity': 'Politician'}, {'span': 'Larry Craig', 'entity': 'Politician'}, {'span': 'Jim Jeffords', 'entity': 'Politician'}, {'span': 'Ashcroft', 'entity': 'Politician'}, {'span': 'barbershop quartet', 'entity': 'Organisation'}, {'span': 'The Singing Senators', 'entity': 'Organisation'}]'
+
+Example #20: Necmettin Erbakan (1926-2011) was the leader of several of the parties, the National Order Party (Milli Nizam Partisi, 1970-1971), the National Salvation Party (Milli Selamet Partisi, 1972-1981), and the Welfare Party (Refah Partisi, 1983-1998); he also became a member of the Felicity Party (Saadet Partisi, 2003-2011).
+Expected output: 'entities: [{'span': 'Necmettin Erbakan', 'entity': 'Politician'}, {'span': 'National Order Party', 'entity': 'Political Party'}, {'span': 'Milli Nizam Partisi', 'entity': 'Political Party'}, {'span': 'National Salvation Party', 'entity': 'Political Party'}, {'span': 'Milli Selamet Partisi', 'entity': 'Political Party'}, {'span': 'Welfare Party', 'entity': 'Political Party'}, {'span': 'Refah Partisi', 'entity': 'Political Party'}, {'span': 'Felicity Party', 'entity': 'Political Party'}, {'span': 'Saadet Partisi', 'entity': 'Political Party'}]'
+

@@ -1,0 +1,15 @@
+Example #1: He is a Fellow of the American Association for the Advancement of Science, Association for the Advancement Artificial Intelligence, and Cognitive Science Society, and an editor of the J. Automated Reasoning, J. Learning Sciences, and J. Applied Ontology.
+Expected output: 'entities: [{'span': 'American Association for the Advancement of Science', 'entity': 'Organisation'}, {'span': 'Association for the Advancement Artificial Intelligence', 'entity': 'Conference'}, {'span': 'Cognitive Science Society', 'entity': 'Organisation'}, {'span': 'J. Automated Reasoning', 'entity': 'Conference'}, {'span': 'J. Learning Sciences', 'entity': 'Conference'}, {'span': 'J. Applied Ontology', 'entity': 'Conference'}]'
+
+Example #2: Haralick is a Fellow of IEEE for his contributions in computer vision and image processing and a Fellow of the International Association for Pattern Recognition (IAPR) for his contributions in pattern recognition, image processing, and for service to IAPR.
+Expected output: 'entities: [{'span': 'Haralick', 'entity': 'Researcher'}, {'span': 'IEEE', 'entity': 'Organisation'}, {'span': 'computer vision', 'entity': 'Field'}, {'span': 'image processing', 'entity': 'Field'}, {'span': 'International Association for Pattern Recognition', 'entity': 'Organisation'}, {'span': 'IAPR', 'entity': 'Organisation'}, {'span': 'pattern recognition', 'entity': 'Field'}]'
+
+Example #3: He holds a D.Sc. degree in electrical and computer engineering (2000) from Inria and the University of Nice Sophia Antipolis, and has held permanent positions at Siemens Corporate Technology, École des ponts ParisTech as well as visiting positions at Rutgers University, Yale University and University of Houston.
+Expected output: 'entities: [{'span': 'D.Sc. degree', 'entity': 'Misc'}, {'span': 'electrical and computer engineering', 'entity': 'Field'}, {'span': 'Inria', 'entity': 'Organisation'}, {'span': 'University of Nice Sophia Antipolis', 'entity': 'University'}, {'span': 'Siemens Corporate Technology', 'entity': 'Organisation'}, {'span': 'École des ponts ParisTech', 'entity': 'University'}, {'span': 'Rutgers University', 'entity': 'University'}, {'span': 'Yale University', 'entity': 'University'}, {'span': 'University of Houston', 'entity': 'University'}]'
+
+Example #4: Beginning at the 2019 Toronto International Film Festival, films may now be restricted from screening at Scotiabank Theatre Toronto - one of the festival's main venues - and screened elsewhere (such as TIFF Bell Lightbox and other local cinemas) if distributed by a service such as Netflix.
+Expected output: 'entities: [{'span': '2019 Toronto International Film Festival', 'entity': 'Misc'}, {'span': 'Scotiabank Theatre Toronto', 'entity': 'Location'}, {'span': 'TIFF Bell Lightbox', 'entity': 'Location'}, {'span': 'Netflix', 'entity': 'Organisation'}]'
+
+Example #5: The standard interface and calculator interface are written in Java.
+Expected output: 'entities: [{'span': 'Java', 'entity': 'Programming Language'}]'
+

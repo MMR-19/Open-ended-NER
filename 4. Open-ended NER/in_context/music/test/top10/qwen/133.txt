@@ -1,0 +1,30 @@
+Example #1: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #2: Staind has recorded seven studio albums: Tormented (1996), Dysfunction (1999), Break the Cycle (2001), 14 Shades of Grey (2003), Chapter V (2005), The Illusion of Progress (2008), and Staind (2011).
+Expected output: 'entities: [{'span': 'Staind', 'entity': 'Musical Artist'}, {'span': 'Tormented', 'entity': 'Album'}, {'span': 'Dysfunction', 'entity': 'Album'}, {'span': 'Break the Cycle', 'entity': 'Album'}, {'span': '14 Shades of Grey', 'entity': 'Album'}, {'span': 'Chapter V', 'entity': 'Album'}, {'span': 'The Illusion of Progress', 'entity': 'Album'}, {'span': 'Staind', 'entity': 'Album'}]'
+
+Example #3: The band also released three full-length albums dubbed (and later packaged together as) The Trilogy: The Maggot, The Bootlicker, and The Crybaby.
+Expected output: 'entities: [{'span': 'The Trilogy', 'entity': 'Album'}, {'span': 'The Maggot', 'entity': 'Album'}, {'span': 'The Bootlicker', 'entity': 'Album'}, {'span': 'The Crybaby', 'entity': 'Album'}]'
+
+Example #4: The group has been nominated for 20 Grammy awards and has won five of them with Best Alternative Album for Dookie, Best Rock Album for American Idiot and 21st Century Breakdown, Record of the Year for Boulevard of Broken Dreams, and Best Musical Show Album for American Idiot: The Original Broadway Cast Recording.
+Expected output: 'entities: [{'span': 'Grammy awards', 'entity': 'Award'}, {'span': 'Best Alternative Album', 'entity': 'Award'}, {'span': 'Dookie', 'entity': 'Album'}, {'span': 'Best Rock Album', 'entity': 'Award'}, {'span': 'American Idiot', 'entity': 'Album'}, {'span': '21st Century Breakdown', 'entity': 'Album'}, {'span': 'Record of the Year', 'entity': 'Award'}, {'span': 'Boulevard of Broken Dreams', 'entity': 'Album'}, {'span': 'Best Musical Show Album', 'entity': 'Award'}, {'span': 'The Original Broadway Cast Recording', 'entity': 'Album'}]'
+
+Example #5: The band have received a total of 11 nominations for ARIA Music Awards in ARIA Music Awards of 1999, ARIA Music Awards of 2001 and ARIA Music Awards of 2003.
+Expected output: 'entities: [{'span': 'ARIA Music Awards', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 1999', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2001', 'entity': 'Award'}, {'span': 'ARIA Music Awards of 2003', 'entity': 'Award'}]'
+
+Example #6: Flood has been certified platinum and their children's music albums Here Come the ABCs, Here Come the 123s, and Here Comes Science have all been certified gold.
+Expected output: 'entities: [{'span': 'Flood', 'entity': 'Album'}, {'span': 'Here Come the ABCs', 'entity': 'Album'}, {'span': 'Here Come the 123s', 'entity': 'Album'}, {'span': 'Here Comes Science', 'entity': 'Album'}]'
+
+Example #7: In September 2007, Boney M. ' s last four original albums, Boonoonoonoos, Ten Thousand Lightyears, Kalimba de Luna - 16 Happy Songs and Eye Dance were reissued on compact disc in Europe and the United States, all including bonus tracks.
+Expected output: 'entities: [{'span': 'Boney M.', 'entity': 'Band'}, {'span': 'Boonoonoonoos', 'entity': 'Album'}, {'span': 'Ten Thousand Lightyears', 'entity': 'Album'}, {'span': 'Kalimba de Luna - 16 Happy Songs', 'entity': 'Album'}, {'span': 'Eye Dance', 'entity': 'Album'}, {'span': 'compact disc', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'United States', 'entity': 'Country'}, {'span': 'bonus tracks', 'entity': 'Misc'}]'
+
+Example #8: Soundgarden achieved its biggest success with the 1994 album Superunknown, which debuted at number one on the Billboard 200 and yielded the Grammy Award -winning singles Spoonman and Black Hole Sun.
+Expected output: 'entities: [{'span': 'Soundgarden', 'entity': 'Band'}, {'span': 'Superunknown', 'entity': 'Album'}, {'span': 'Billboard 200', 'entity': 'Misc'}, {'span': 'Grammy Award', 'entity': 'Award'}, {'span': 'Spoonman', 'entity': 'Song'}, {'span': 'Black Hole Sun', 'entity': 'Song'}]'
+
+Example #9: Notable Sun Ra albums from the 1950s include Sun Ra Visits Planet Earth, Interstellar Low Ways, Super-Sonic Jazz, We Travel the Space Ways, The Nubians of Plutonia and Jazz In Silhouette.
+Expected output: 'entities: [{'span': 'Sun Ra', 'entity': 'Musical Artist'}, {'span': 'Sun Ra Visits Planet Earth', 'entity': 'Album'}, {'span': 'Interstellar Low Ways', 'entity': 'Album'}, {'span': 'Super-Sonic Jazz', 'entity': 'Album'}, {'span': 'We Travel the Space Ways', 'entity': 'Album'}, {'span': 'The Nubians of Plutonia', 'entity': 'Album'}, {'span': 'Jazz In Silhouette', 'entity': 'Album'}]'
+
+Example #10: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+

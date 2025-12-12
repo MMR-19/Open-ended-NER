@@ -1,0 +1,60 @@
+Example #1: After suffering two separate injuries in November he set up a goal for Lucas Ocampos to score the only goal in a UEFA Champions League match against Bayer Leverkusen, a 1 – 0 victory on 26 November.
+Expected output: 'entities: [{'span': 'Lucas Ocampos', 'entity': 'Person'}, {'span': 'UEFA Champions League', 'entity': 'Event'}, {'span': 'Bayer Leverkusen', 'entity': 'Organization'}]'
+
+Example #2: During the French Revolution, the unpopularity of the Directory led to riots and rebellions.
+Expected output: 'entities: [{'span': 'French Revolution', 'entity': 'Event'}, {'span': 'Directory', 'entity': 'Time'}]'
+
+Example #3: The team competes in series such as the Deutsche Tourenwagen Masters and FIA GT1 World Championship.
+Expected output: 'entities: [{'span': 'Deutsche Tourenwagen Masters', 'entity': 'Event'}, {'span': 'FIA GT1 World Championship', 'entity': 'Vehicle'}]'
+
+Example #4: He was honoured for his pioneering work on prevention of Rh disease of the newborn, and also for his work on the genetics of the Lepidoptera (butterflies and moths).
+Expected output: 'entities: [{'span': 'Rh disease', 'entity': 'Disease'}, {'span': 'Lepidoptera', 'entity': 'Animal'}]'
+
+Example #5: His trip was filmed for " The American Sportsman " on ABC, although all did not go well at first as the salmon were not running.
+Expected output: 'entities: [{'span': 'The American Sportsman', 'entity': 'Media'}, {'span': 'ABC', 'entity': 'Organization'}, {'span': 'salmon', 'entity': 'Animal'}]'
+
+Example #6: as well as the " Mars Reconnaissance Orbiter " and " MAVEN ", were healthy after the Comet Siding Spring flyby.
+Expected output: 'entities: [{'span': 'Mars Reconnaissance Orbiter', 'entity': 'Instrument'}, {'span': 'MAVEN', 'entity': 'Instrument'}, {'span': 'Comet Siding Spring', 'entity': 'Celestial Body'}]'
+
+Example #7: While typical sports championship parades have been showered with some 50 tons of confetti and shredded paper, the V-J Day parade on August 14 – 15, 1945 – marking the end of World War II – was covered with 5,438 tons of paper, based on estimates provided by the New York City Department of Sanitation.
+Expected output: 'entities: [{'span': 'V-J Day', 'entity': 'Time'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'New York City Department of Sanitation', 'entity': 'Organization'}]'
+
+Example #8: In Brittany, a " galette " (or " galette bretonne ") is a large thin pancake made of buckwheat flour, often cooked on one side only.
+Expected output: 'entities: [{'span': 'Brittany', 'entity': 'Location'}, {'span': 'galette', 'entity': 'Food'}, {'span': 'buckwheat', 'entity': 'Plant'}]'
+
+Example #9: Born in Lucerne, the third of eight siblings, to a cabin cruiser engineer, he studied art at the Académie Julian in Paris and later in Berlin, and admired artists such as Pablo Picasso and Georges Braque.
+Expected output: 'entities: [{'span': 'Lucerne', 'entity': 'Plant'}, {'span': 'Académie Julian', 'entity': 'Organization'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}, {'span': 'Pablo Picasso', 'entity': 'Person'}, {'span': 'Georges Braque', 'entity': 'Person'}]'
+
+Example #10: The hero is presented devoid of rank or status, and seems notably human, though heroic, as he is forever trying to pull Paris's arrow from his heel.
+Expected output: 'entities: [{'span': 'Paris', 'entity': 'Mythological entity'}]'
+
+Example #11: He also co-hosted the short-lived TV talent show " The Hit " on RTÉ One along with Aidan Power.
+Expected output: 'entities: [{'span': 'The Hit', 'entity': 'Media'}, {'span': 'RTÉ One', 'entity': 'Organization'}, {'span': 'Aidan Power', 'entity': 'Person'}]'
+
+Example #12: The 330's design was refined and heavily modified, resulting in the Short 360.
+Expected output: 'entities: [{'span': 'Short 360', 'entity': 'Vehicle'}]'
+
+Example #13: The most observed and familiar example of planetshine is earthshine on the Moon, which is most visible from the night side of Earth when the lunar phase is crescent or nearly new, without the atmospheric brightness of the daytime sky.
+Expected output: 'entities: [{'span': 'Moon', 'entity': 'Celestial Body'}, {'span': 'Earth', 'entity': 'Celestial Body'}, {'span': 'new', 'entity': 'Time'}]'
+
+Example #14: Posaconazole is used to treat invasive " Aspergillus " and " Candida " and fungal infections caused by " Scedosporium " and " Fusarium " species, which may occur in immunocompromised patients.
+Expected output: 'entities: [{'span': 'Aspergillus', 'entity': 'Biological entity'}, {'span': 'Candida', 'entity': 'Biological entity'}, {'span': 'Scedosporium', 'entity': 'Biological entity'}]'
+
+Example #15: Traditionally, the winner of the men's heavyweight class will go on to compete in major national and international strongman contests such as the World's Strongest Man and the Arnold Strongman Classic.
+Expected output: 'entities: [{'span': "World's Strongest Man", 'entity': 'Media'}, {'span': 'Arnold Strongman Classic', 'entity': 'Event'}]'
+
+Example #16: and for Android on Google Play.
+Expected output: 'entities: [{'span': 'Android', 'entity': 'Instrument'}, {'span': 'Google Play', 'entity': 'Media'}]'
+
+Example #17: In 1848 he independently co-discovered Hyperion, a moon of Saturn.
+Expected output: 'entities: [{'span': 'Hyperion', 'entity': 'Mythological entity'}, {'span': 'Saturn', 'entity': 'Celestial Body'}]'
+
+Example #18: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+
+Example #19: " Plasmodium " parasites including " Haemoproteus " have been detected in their blood.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}, {'span': 'Haemoproteus', 'entity': 'Biological entity'}]'
+
+Example #20: They are now in print except four included among John Chrysostom's works.
+Expected output: 'entities: [{'span': 'John Chrysostom', 'entity': 'Mythological entity'}]'
+

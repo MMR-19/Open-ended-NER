@@ -1,0 +1,30 @@
+Example #1: OSHA's regional offices are located in Boston, New York City, Philadelphia, Atlanta, Chicago, Dallas, Kansas City metropolitan area, Denver, San Francisco, and Seattle.
+Expected output: 'entities: [{'span': 'OSHA', 'entity': 'Organisation'}, {'span': 'Boston', 'entity': 'Location'}, {'span': 'New York City', 'entity': 'Location'}, {'span': 'Philadelphia', 'entity': 'Location'}, {'span': 'Atlanta', 'entity': 'Location'}, {'span': 'Chicago', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Kansas City metropolitan area', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'San Francisco', 'entity': 'Location'}, {'span': 'Seattle', 'entity': 'Location'}]'
+
+Example #2: After it left Gelsenkirchen, the train was boarded by other Jews from Münster, Dortmund and a few other stops along the way, and mostly by the Jews of Hanover, 500 in number.
+Expected output: 'entities: [{'span': 'Gelsenkirchen', 'entity': 'Location'}, {'span': 'Münster', 'entity': 'Location'}, {'span': 'Dortmund', 'entity': 'Location'}, {'span': 'Hanover', 'entity': 'Location'}]'
+
+Example #3: Friedman had hoped to follow in the footsteps of other entertainers-turned-governors, including Jimmie Davis, Jesse Ventura, Arnold Schwarzenegger, and Ronald Reagan.
+Expected output: 'entities: [{'span': 'Friedman', 'entity': 'Politician'}, {'span': 'Jimmie Davis', 'entity': 'Politician'}, {'span': 'Jesse Ventura', 'entity': 'Politician'}, {'span': 'Arnold Schwarzenegger', 'entity': 'Politician'}, {'span': 'Ronald Reagan', 'entity': 'Politician'}]'
+
+Example #4: Nha Trang, headquarters of the U.S. I Field Force, was the first to be hit, followed shortly by Ban Mê Thuột, Kon Tum, Hội An, Tuy Hòa, Da Nang, Qui Nhơn, and Pleiku.
+Expected output: 'entities: [{'span': 'Nha Trang', 'entity': 'Location'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'I Field Force', 'entity': 'Organisation'}, {'span': 'Ban Mê Thuột', 'entity': 'Location'}, {'span': 'Kon Tum', 'entity': 'Location'}, {'span': 'Hội An', 'entity': 'Location'}, {'span': 'Tuy Hòa', 'entity': 'Location'}, {'span': 'Da Nang', 'entity': 'Location'}, {'span': 'Qui Nhơn', 'entity': 'Location'}, {'span': 'Pleiku', 'entity': 'Location'}]'
+
+Example #5: Parties with mainly Eurosceptic views are Serbian Radical Party, Democratic Party of Serbia, Dveri, DJB and the Serbian People's Party of Nenad Popović.
+Expected output: 'entities: [{'span': 'Serbian Radical Party', 'entity': 'Political Party'}, {'span': 'Democratic Party of Serbia', 'entity': 'Political Party'}, {'span': 'Dveri', 'entity': 'Political Party'}, {'span': 'DJB', 'entity': 'Political Party'}, {'span': "Serbian People's Party", 'entity': 'Political Party'}, {'span': 'Nenad Popović', 'entity': 'Politician'}]'
+
+Example #6: A number of the wealthiest and most affluent American families (Old Money) - such as the Vanderbilts, Astor family, Rockefeller family, Du Pont family, Roosevelt family, Forbes, Whitneys, Junius Spencer Morgan, and Harrimans - are mostly Mainline Protestant families in the Episcopalian, Presbyterian, or other similar traditions.
+Expected output: 'entities: [{'span': 'Old Money', 'entity': 'Misc'}, {'span': 'Vanderbilts', 'entity': 'Organisation'}, {'span': 'Astor family', 'entity': 'Organisation'}, {'span': 'Rockefeller family', 'entity': 'Organisation'}, {'span': 'Du Pont family', 'entity': 'Organisation'}, {'span': 'Roosevelt family', 'entity': 'Organisation'}, {'span': 'Forbes', 'entity': 'Organisation'}, {'span': 'Whitneys', 'entity': 'Organisation'}, {'span': 'Junius Spencer Morgan', 'entity': 'Person'}, {'span': 'Harrimans', 'entity': 'Misc'}, {'span': 'Mainline Protestant families', 'entity': 'Organisation'}, {'span': 'Episcopalian', 'entity': 'Organisation'}, {'span': 'Presbyterian', 'entity': 'Organisation'}]'
+
+Example #7: After Vienna, he studied political economy and social science at the universities of Heidelberg University, Leipzig University and University of Jena,
+Expected output: 'entities: [{'span': 'Vienna', 'entity': 'Location'}, {'span': 'political economy', 'entity': 'Misc'}, {'span': 'social science', 'entity': 'Misc'}, {'span': 'Heidelberg University', 'entity': 'Organisation'}, {'span': 'Leipzig University', 'entity': 'Organisation'}, {'span': 'University of Jena', 'entity': 'Organisation'}]'
+
+Example #8: Marxism-Leninism remains the ideology of several communist states around the world and the official ideology of the ruling parties of Communist Party of China, Communist Party of Cuba, Laos and Communist Party of Vietnam.
+Expected output: 'entities: [{'span': 'Marxism-Leninism', 'entity': 'Misc'}, {'span': 'Communist Party of China', 'entity': 'Political Party'}, {'span': 'Communist Party of Cuba', 'entity': 'Political Party'}, {'span': 'Laos', 'entity': 'Country'}, {'span': 'Communist Party of Vietnam', 'entity': 'Political Party'}]'
+
+Example #9: This promise was seen as key to his victory in many ridings, such as those in the suburbs around Longueuil and Quebec City and the continued support of the Anglophone community in the West Island of Montreal.
+Expected output: 'entities: [{'span': 'Longueuil', 'entity': 'Location'}, {'span': 'Quebec City', 'entity': 'Location'}, {'span': 'Anglophone', 'entity': 'Organisation'}, {'span': 'Montreal', 'entity': 'Location'}]'
+
+Example #10: Maharani Laxmi Bai Medical College in Jhansi are named after her.
+Expected output: 'entities: [{'span': 'Maharani Laxmi Bai Medical College', 'entity': 'Organisation'}, {'span': 'Jhansi', 'entity': 'Location'}]'
+

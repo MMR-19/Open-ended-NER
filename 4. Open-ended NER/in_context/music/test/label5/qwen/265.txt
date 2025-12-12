@@ -1,0 +1,15 @@
+Example #1: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #2: These albums spawned some of Carey's most successful singles, including Hero, Without You, All I Want for Christmas Is You, Fantasy, Always Be My Baby, as well as One Sweet Day, which peaked at number one in the U.S. for 16 weeks and became Billboard s Song Of The Decade (1990s Decade).
+Expected output: 'entities: [{'span': 'Carey', 'entity': 'Musical Artist'}, {'span': 'Hero', 'entity': 'Song'}, {'span': 'Without You', 'entity': 'Song'}, {'span': 'All I Want for Christmas Is You', 'entity': 'Song'}, {'span': 'Fantasy', 'entity': 'Song'}, {'span': 'Always Be My Baby', 'entity': 'Song'}, {'span': 'One Sweet Day', 'entity': 'Song'}, {'span': 'U.S.', 'entity': 'Country'}, {'span': 'Billboard', 'entity': 'Organisation'}, {'span': 'Song Of The Decade', 'entity': 'Misc'}]'
+
+Example #3: The self-titled record was an instant success both critically and commercially, led by the official theme song for UAAP Season 71 of the UAAP - Puso (trans: Heart).
+Expected output: 'entities: [{'span': 'UAAP Season 71', 'entity': 'Event'}, {'span': 'UAAP', 'entity': 'Organisation'}, {'span': 'Puso', 'entity': 'Song'}, {'span': 'Heart', 'entity': 'Song'}]'
+
+Example #4: The mid 2000s, especially the United Kingdom and the rest of Europe, saw the continued longevity of nineties boy bands such as Backstreet Boys and Westlife (before they disbanded in 2012), and the successful comeback of Take That in 2005, Boyzone in 2007, and New Kids on the Block in 2008.
+Expected output: 'entities: [{'span': 'United Kingdom', 'entity': 'Country'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Backstreet Boys', 'entity': 'Band'}, {'span': 'Westlife', 'entity': 'Band'}, {'span': 'Take That', 'entity': 'Band'}, {'span': 'Boyzone', 'entity': 'Band'}, {'span': 'New Kids on the Block', 'entity': 'Band'}]'
+
+Example #5: The series featured five albums of Masada themes including Masada Guitars by Marc Ribot, Bill Frisell, and Tim Sparks; Masada Recital by Mark Feldman and Sylvie Courvoisier; Masada Rock by Rashanim; and two albums featuring various artists, Voices in the Wilderness and The Unknown Masada.
+Expected output: 'entities: [{'span': 'Masada', 'entity': 'Misc'}, {'span': 'Masada Guitars', 'entity': 'Album'}, {'span': 'Marc Ribot', 'entity': 'Musical Artist'}, {'span': 'Bill Frisell', 'entity': 'Musical Artist'}, {'span': 'Tim Sparks', 'entity': 'Musical Artist'}, {'span': 'Masada Recital', 'entity': 'Album'}, {'span': 'Mark Feldman', 'entity': 'Musical Artist'}, {'span': 'Sylvie Courvoisier', 'entity': 'Musical Artist'}, {'span': 'Masada Rock', 'entity': 'Album'}, {'span': 'Rashanim', 'entity': 'Musical Artist'}, {'span': 'Voices in the Wilderness', 'entity': 'Album'}, {'span': 'The Unknown Masada', 'entity': 'Album'}]'
+

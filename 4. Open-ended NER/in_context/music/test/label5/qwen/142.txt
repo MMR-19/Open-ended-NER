@@ -1,0 +1,15 @@
+Example #1: Staind has recorded seven studio albums: Tormented (1996), Dysfunction (1999), Break the Cycle (2001), 14 Shades of Grey (2003), Chapter V (2005), The Illusion of Progress (2008), and Staind (2011).
+Expected output: 'entities: [{'span': 'Staind', 'entity': 'Musical Artist'}, {'span': 'Tormented', 'entity': 'Album'}, {'span': 'Dysfunction', 'entity': 'Album'}, {'span': 'Break the Cycle', 'entity': 'Album'}, {'span': '14 Shades of Grey', 'entity': 'Album'}, {'span': 'Chapter V', 'entity': 'Album'}, {'span': 'The Illusion of Progress', 'entity': 'Album'}, {'span': 'Staind', 'entity': 'Album'}]'
+
+Example #2: The initial volume of the album set (Anthology 1) was released the same week of the documentary's airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996.
+Expected output: 'entities: [{'span': 'Anthology 1', 'entity': 'Album'}, {'span': 'Anthology 2', 'entity': 'Album'}, {'span': 'Anthology 3', 'entity': 'Album'}]'
+
+Example #3: Simon has won 12 Grammy Award s (one of them a Grammy Lifetime Achievement Award) and five Grammy Award for Album of the Year Grammy nominations, the most recent for You 're the One in 2001.
+Expected output: 'entities: [{'span': 'Simon', 'entity': 'Musical Artist'}, {'span': 'Grammy Award s', 'entity': 'Award'}, {'span': 'Grammy Lifetime Achievement Award', 'entity': 'Award'}, {'span': 'Grammy Award for Album of the Year Grammy nominations', 'entity': 'Award'}, {'span': "You 're the One", 'entity': 'Song'}]'
+
+Example #4: Since then the band have released five albums: In It for the Money (1997), Supergrass (1999), Life on Other Planets (2002), Road to Rouen (2005) and Diamond Hoo Ha (2008), as well as a decade-ending compilation called Supergrass Is 10 (2004).
+Expected output: 'entities: [{'span': 'In It for the Money', 'entity': 'Album'}, {'span': 'Supergrass', 'entity': 'Album'}, {'span': 'Life on Other Planets', 'entity': 'Album'}, {'span': 'Road to Rouen', 'entity': 'Album'}, {'span': 'Diamond Hoo Ha', 'entity': 'Album'}, {'span': 'Supergrass Is 10', 'entity': 'Album'}]'
+
+Example #5: Following the hard rock and heavy metal origins on the band's first two albums, Too Fast for Love (1981) and Shout at the Devil (1983), the release of its third album Theatre of Pain (1985) saw Mötley Crüe joining the first wave of glam metal.
+Expected output: 'entities: [{'span': 'hard rock', 'entity': 'Music Genre'}, {'span': 'heavy metal', 'entity': 'Music Genre'}, {'span': 'Too Fast for Love', 'entity': 'Album'}, {'span': 'Shout at the Devil', 'entity': 'Album'}, {'span': 'Theatre of Pain', 'entity': 'Album'}, {'span': 'the first wave of glam metal', 'entity': 'Event'}]'
+

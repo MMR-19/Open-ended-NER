@@ -1,0 +1,15 @@
+Example #1: DNA methyltransferase is recruited to DNA during its replication, or during DNA repair.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'DNA repair', 'entity': 'Misc'}]'
+
+Example #2: DNA methyltransferase is recruited to the site and adds methyl groups to the cytosine of the CpG dinucleotides.
+Expected output: 'entities: [{'span': 'DNA methyltransferase', 'entity': 'Enzyme'}, {'span': 'methyl groups', 'entity': 'Misc'}, {'span': 'cytosine', 'entity': 'Chemical Compound'}, {'span': 'CpG dinucleotides', 'entity': 'Misc'}]'
+
+Example #3: Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.
+Expected output: 'entities: [{'span': 'silencing mechanisms', 'entity': 'Misc'}, {'span': 'DNA', 'entity': 'Misc'}, {'span': 'transcription factor', 'entity': 'Misc'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}]'
+
+Example #4: On migrating to the blood stream, nitrogen dioxide poisoning results in an irreversible inhibition of the Acetylcholinesterase which may lead to muscular paralysis, convulsions, bronchoconstriction, the narrowing of the airways in the lungs (bronchi and bronchioles) and death by asphyxia tion.
+Expected output: 'entities: [{'span': 'blood stream', 'entity': 'Misc'}, {'span': 'nitrogen dioxide', 'entity': 'Chemical Compound'}, {'span': 'Acetylcholinesterase', 'entity': 'Enzyme'}, {'span': 'muscular paralysis', 'entity': 'Misc'}, {'span': 'convulsions', 'entity': 'Misc'}, {'span': 'bronchoconstriction', 'entity': 'Misc'}, {'span': 'bronchi', 'entity': 'Misc'}, {'span': 'bronchioles', 'entity': 'Misc'}, {'span': 'asphyxia tion', 'entity': 'Misc'}]'
+
+Example #5: Poly (ADP-ribosyl) ation is an immediate DNA damage-dependent post-translational modification of Histone and other nuclear proteins that contributes to the survival of injured proliferating cells.
+Expected output: 'entities: [{'span': 'Poly (ADP-ribosyl) ation', 'entity': 'Misc'}, {'span': 'DNA damage-dependent post-translational modification', 'entity': 'Misc'}, {'span': 'Histone', 'entity': 'Protein'}, {'span': 'nuclear proteins', 'entity': 'Protein'}]'
+

@@ -1,0 +1,30 @@
+Example #1: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #2: Gandhian right-wing Congressmen Vallabhbhai Patel, Rajendra Prasad and C. Rajagopalachari .In the 1930s the Congress Socialist Party group was formed within the INC under the leadership of Jayaprakash Narayan, Narendra Deo and Nehru, however, never joined the group but did act as bridge between them and Gandhi.
+Expected output: 'entities: [{'span': 'Gandhian', 'entity': 'Politician'}, {'span': 'Vallabhbhai Patel', 'entity': 'Politician'}, {'span': 'Rajendra Prasad', 'entity': 'Politician'}, {'span': 'C. Rajagopalachari', 'entity': 'Politician'}, {'span': 'Congress Socialist Party', 'entity': 'Political Party'}, {'span': 'INC', 'entity': 'Misc'}, {'span': 'Jayaprakash Narayan', 'entity': 'Politician'}, {'span': 'Narendra Deo', 'entity': 'Politician'}, {'span': 'Nehru', 'entity': 'Politician'}, {'span': 'Gandhi', 'entity': 'Politician'}]'
+
+Example #3: In 1965, the airline took delivery of its first Douglas DC-8, and grew beyond the Asian market it was focused on, beginning scheduled flights from Kemayoran Airport to Amsterdam and Frankfurt via Colombo, Mumbai, and Prague.
+Expected output: 'entities: [{'span': 'Douglas DC-8', 'entity': 'Misc'}, {'span': 'Asian', 'entity': 'Location'}, {'span': 'Kemayoran Airport', 'entity': 'Location'}, {'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Frankfurt', 'entity': 'Location'}, {'span': 'Colombo', 'entity': 'Location'}, {'span': 'Mumbai', 'entity': 'Location'}, {'span': 'Prague', 'entity': 'Location'}]'
+
+Example #4: He introduced measures to combat resistance, and when a widespread strike took place in Amsterdam, Arnhem and Hilversum in May 1943, special summary court-martial procedures were brought in, and a collective fine of 18 million guilder s was imposed.
+Expected output: 'entities: [{'span': 'Amsterdam', 'entity': 'Location'}, {'span': 'Arnhem', 'entity': 'Location'}, {'span': 'Hilversum', 'entity': 'Location'}]'
+
+Example #5: On the train trip from Washington D.C., to Gettysburg on November 18, Lincoln was accompanied by three members of his Cabinet, William H. Seward, John Palmer Usher and Montgomery Blair, several foreign officials, his secretary John Nicolay, and his assistant secretary, John Hay.
+Expected output: 'entities: [{'span': 'Washington D.C.', 'entity': 'Location'}, {'span': 'Gettysburg', 'entity': 'Location'}, {'span': 'Lincoln', 'entity': 'Politician'}, {'span': 'William H. Seward', 'entity': 'Politician'}, {'span': 'John Palmer Usher', 'entity': 'Politician'}, {'span': 'Montgomery Blair', 'entity': 'Politician'}, {'span': 'John Nicolay', 'entity': 'Politician'}, {'span': 'John Hay', 'entity': 'Politician'}]'
+
+Example #6: In 1875, a lodge was established in Toronto, followed soon after by another in Montreal and in 1882 by a lodge in Berlin.
+Expected output: 'entities: [{'span': 'Toronto', 'entity': 'Location'}, {'span': 'Montreal', 'entity': 'Location'}, {'span': 'Berlin', 'entity': 'Location'}]'
+
+Example #7: (1961 Turkish general election, 1965 Turkish general election, 1969 Turkish general election)
+Expected output: 'entities: [{'span': '1961 Turkish general election', 'entity': 'Election'}, {'span': '1965 Turkish general election', 'entity': 'Election'}, {'span': '1969 Turkish general election', 'entity': 'Election'}]'
+
+Example #8: The war led to British Hong Kong, the first of many unequal treaties between Western powers and China, and the opening of five treaty ports (Shanghai, Guangzhou, Fuzhou, Ningbo, and Xiamen) opened to trade with the West - eschewing China's traditional protectionism.
+Expected output: 'entities: [{'span': 'British', 'entity': 'Misc'}, {'span': 'Hong Kong', 'entity': 'Location'}, {'span': 'China', 'entity': 'Country'}, {'span': 'Shanghai', 'entity': 'Location'}, {'span': 'Guangzhou', 'entity': 'Location'}, {'span': 'Fuzhou', 'entity': 'Location'}, {'span': 'Ningbo', 'entity': 'Location'}, {'span': 'Xiamen', 'entity': 'Location'}]'
+
+Example #9: In the beginning, Anawrahta's principality was a small area - barely 200 miles north to south and about 80 miles from east to west, comprising roughly the present districts of Mandalay, Meiktila, Myingyan, Kyaukse, Yamethin, Magwe, Sagaing and Katha east of the Irrawaddy, and the riverine portions of Minbu and Pakkoku.
+Expected output: 'entities: [{'span': 'Anawrahta', 'entity': 'Person'}, {'span': 'Mandalay', 'entity': 'Location'}, {'span': 'Meiktila', 'entity': 'Location'}, {'span': 'Myingyan', 'entity': 'Location'}, {'span': 'Kyaukse', 'entity': 'Location'}, {'span': 'Yamethin', 'entity': 'Location'}, {'span': 'Magwe', 'entity': 'Location'}, {'span': 'Sagaing', 'entity': 'Location'}, {'span': 'Katha', 'entity': 'Location'}, {'span': 'Irrawaddy', 'entity': 'Location'}, {'span': 'Minbu', 'entity': 'Location'}, {'span': 'Pakkoku', 'entity': 'Location'}]'
+
+Example #10: At the 1943 Tehran Conference, the Allies of World War II, Big Three - Joseph Stalin, Franklin D. Roosevelt, and Winston Churchill - issued the Tehran Declaration to guarantee the post-war independence and boundaries of Iran.
+Expected output: 'entities: [{'span': '1943 Tehran Conference', 'entity': 'Event'}, {'span': 'Allies', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Joseph Stalin', 'entity': 'Politician'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': 'Winston Churchill', 'entity': 'Politician'}, {'span': 'Tehran Declaration', 'entity': 'Misc'}, {'span': 'Iran', 'entity': 'Country'}]'
+

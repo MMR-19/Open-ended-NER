@@ -1,0 +1,15 @@
+Example #1: Many of the magazine's articles were written by members of conservative think tanks located in Washington, including the American Enterprise Institute, the Ethics and Public Policy Center, the Foundation for Defense of Democracies, the Hudson Institute, and the Foreign Policy Initiative.
+Expected output: 'entities: [{'span': 'Washington', 'entity': 'Location'}, {'span': 'American Enterprise Institute', 'entity': 'Organisation'}, {'span': 'Ethics and Public Policy Center', 'entity': 'Organisation'}, {'span': 'Foundation for Defense of Democracies', 'entity': 'Organisation'}, {'span': 'Hudson Institute', 'entity': 'Organisation'}, {'span': 'Foreign Policy Initiative', 'entity': 'Organisation'}]'
+
+Example #2: The USPTO was expected by 2014 to open its first ever satellite offices in Detroit, Dallas, Denver, and Silicon Valley to reduce backlog and reflect regional industrial strengths.
+Expected output: 'entities: [{'span': 'USPTO', 'entity': 'Organisation'}, {'span': 'Detroit', 'entity': 'Location'}, {'span': 'Dallas', 'entity': 'Location'}, {'span': 'Denver', 'entity': 'Location'}, {'span': 'Silicon Valley', 'entity': 'Location'}]'
+
+Example #3: Johnson unsuccessfully sought the Republican presidential nomination in 1920 United States presidential election and 1924 United States presidential election and supported Democrat Franklin D. Roosevelt in the 1932 United States presidential election.
+Expected output: 'entities: [{'span': 'Johnson', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': '1924 United States presidential election', 'entity': 'Election'}, {'span': 'Democrat', 'entity': 'Misc'}, {'span': 'Franklin D. Roosevelt', 'entity': 'Politician'}, {'span': '1932 United States presidential election', 'entity': 'Election'}]'
+
+Example #4: The carrier traces its roots back to, initially serving Athens, Cairo, London, Malta, Paris, Rome and Tunis.
+Expected output: 'entities: [{'span': 'Athens', 'entity': 'Location'}, {'span': 'Cairo', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Malta', 'entity': 'Country'}, {'span': 'Paris', 'entity': 'Location'}, {'span': 'Rome', 'entity': 'Location'}, {'span': 'Tunis', 'entity': 'Location'}]'
+
+Example #5: She worked for Christian Aid from 1994 to 1997, taking on roles as a campaign assistant in London, working in Serbia during the war and as Head of Country Office in Bosnia in the aftermath of the Bosnian War.
+Expected output: 'entities: [{'span': 'Christian Aid', 'entity': 'Organisation'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Serbia', 'entity': 'Country'}, {'span': 'Bosnia', 'entity': 'Country'}, {'span': 'Bosnian War', 'entity': 'Event'}]'
+

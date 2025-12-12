@@ -1,0 +1,60 @@
+Example #1: (meat waiters) come to the table with knives and a skewer, on which are speared various kinds of meat, be it beef, pork, filet mignon, lamb, chicken, duck, ham (with pineapple), sausage, fish, or any other sort of local cut of meat.
+Expected output: 'entities: [{'span': 'beef', 'entity': 'Food'}, {'span': 'pork', 'entity': 'Food'}, {'span': 'filet mignon', 'entity': 'Food'}, {'span': 'lamb', 'entity': 'Food'}, {'span': 'chicken', 'entity': 'Food'}, {'span': 'duck', 'entity': 'Animal'}, {'span': 'ham', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'sausage', 'entity': 'Food'}, {'span': 'fish', 'entity': 'Animal'}]'
+
+Example #2: For dietary restrictions, such as those due to allergies and ingredient sensitivity, vegan, gluten free, and dairy free variations are available.
+Expected output: 'entities: [{'span': 'vegan', 'entity': 'Food'}, {'span': 'gluten free', 'entity': 'Food'}, {'span': 'dairy free', 'entity': 'Disease'}]'
+
+Example #3: In this scene the god Wepwawet is present.
+Expected output: 'entities: [{'span': 'Wepwawet', 'entity': 'Mythological entity'}]'
+
+Example #4: From the tropics and middle latitudes, the Sun is visible in the sky at its upper culmination (at solar noon) and invisible (below the horizon) at its lower culmination (at solar midnight).
+Expected output: 'entities: [{'span': 'Sun', 'entity': 'Celestial Body'}, {'span': 'midnight', 'entity': 'Time'}]'
+
+Example #5: In medieval times, a hawk or falcon would have been used to catch the rabbit as it exited the warren burrow.
+Expected output: 'entities: [{'span': 'medieval', 'entity': 'Time'}, {'span': 'hawk', 'entity': 'Animal'}, {'span': 'falcon', 'entity': 'Animal'}]'
+
+Example #6: Globotruncanid Foraminifera and echinoderms such as sea urchins and starfish (sea stars) thrived.
+Expected output: 'entities: [{'span': 'Foraminifera', 'entity': 'Biological entity'}]'
+
+Example #7: In many climates grass growth is seasonal, for example in the temperate summer or tropical rainy season, so some areas of the crop are set aside to be cut and preserved, either as hay (dried grass), or as silage (fermented grass).
+Expected output: 'entities: [{'span': 'summer', 'entity': 'Time'}, {'span': 'hay', 'entity': 'Food'}, {'span': 'silage', 'entity': 'Food'}]'
+
+Example #8: The park's elevation and dry desert air, along with the relatively stable atmosphere in the region, often make for excellent seeing conditions.
+Expected output: 'entities: [{'span': 'dry', 'entity': 'Disease'}, {'span': 'relatively stable', 'entity': 'Time'}]'
+
+Example #9: While the region is best known for its convict history it is now the key area in the battle to save the Tasmanian devil from extinction from a new type of contagious cancer called devil facial tumour disease (DFTD).
+Expected output: 'entities: [{'span': 'Tasmanian devil', 'entity': 'Animal'}, {'span': 'contagious cancer', 'entity': 'Disease'}, {'span': 'devil facial tumour disease', 'entity': 'Disease'}]'
+
+Example #10: Less commonly seen in developed countries are organisms such as " Vibrio cholerae " which causes cholera and various strains of " Salmonella " which cause typhoid and para-typhoid diseases.
+Expected output: 'entities: [{'span': 'cholera', 'entity': 'Disease'}, {'span': 'Salmonella', 'entity': 'Biological entity'}]'
+
+Example #11: The vehicle has the long-hood short-deck design common to the Z-Car family.
+Expected output: 'entities: [{'span': 'Z-Car', 'entity': 'Vehicle'}]'
+
+Example #12: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #13: Other research fields in which chinchillas are used as an animal model include the study of Chagas disease, gastrointestinal diseases, pneumonia, and listeriosis, as well as of " Yersinia " and " Pseudomonas " infections.
+Expected output: 'entities: [{'span': 'Chagas disease', 'entity': 'Disease'}, {'span': 'pneumonia', 'entity': 'Disease'}, {'span': 'listeriosis', 'entity': 'Disease'}, {'span': 'Yersinia', 'entity': 'Animal'}, {'span': 'Pseudomonas', 'entity': 'Biological entity'}]'
+
+Example #14: Both were then downed by AIM-9 Sidewinder missiles.
+Expected output: 'entities: [{'span': 'AIM-9 Sidewinder', 'entity': 'Instrument'}]'
+
+Example #15: It contains slices of cooked buffalo or cow lips, " bangkuang, " unripe mango, pineapple, cucumber, " kangkung ", lontong (rice cake), tofu and tempe, all served in a black sauce made from " petis " (black fermented prawn paste, related to terasi) and crushed peanuts.
+Expected output: 'entities: [{'span': 'buffalo', 'entity': 'Animal'}, {'span': 'mango', 'entity': 'Food'}, {'span': 'pineapple', 'entity': 'Plant'}, {'span': 'cucumber', 'entity': 'Plant'}, {'span': 'kangkung', 'entity': 'Food'}, {'span': 'lontong', 'entity': 'Food'}, {'span': 'rice cake', 'entity': 'Food'}, {'span': 'tofu', 'entity': 'Food'}]'
+
+Example #16: The Voyager Golden Record is attached to one of the bus sides.
+Expected output: 'entities: [{'span': 'Voyager Golden Record', 'entity': 'Instrument'}]'
+
+Example #17: " Plasmodium " parasites including " Haemoproteus " have been detected in their blood.
+Expected output: 'entities: [{'span': 'Plasmodium', 'entity': 'Biological entity'}, {'span': 'Haemoproteus', 'entity': 'Biological entity'}]'
+
+Example #18: Chili, scallop with butter, teriyaki, takoyaki, and yakitori chip flavors are also available.
+Expected output: 'entities: [{'span': 'Chili', 'entity': 'Plant'}, {'span': 'scallop', 'entity': 'Animal'}, {'span': 'teriyaki', 'entity': 'Food'}, {'span': 'takoyaki', 'entity': 'Food'}, {'span': 'yakitori', 'entity': 'Food'}]'
+
+Example #19: The transmission is the eight-speed ZF 8HP automatic transmission.
+Expected output: 'entities: [{'span': 'ZF 8HP', 'entity': 'Instrument'}]'
+
+Example #20: Ripe fruits and fruit parts including blackthorn (sloe berries), " Aronia " chokeberry, chokecherry, bird cherry, rhubarb, quince and persimmon fruits, and banana skins are very astringent; citrus fruits, like lemons, are somewhat astringent.
+Expected output: 'entities: [{'span': 'Aronia', 'entity': 'Animal'}, {'span': 'rhubarb', 'entity': 'Food'}, {'span': 'quince', 'entity': 'Plant'}, {'span': 'persimmon', 'entity': 'Food'}, {'span': 'banana', 'entity': 'Plant'}]'
+

@@ -1,0 +1,60 @@
+Example #1: He secured re-nomination for vice president in 1992 United States presidential election, but Democrat Bill Clinton and his running mate, Al Gore, defeated the Bush / Quayle ticket.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}]'
+
+Example #2: In the latest elections, which took place in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #3: After two failed attempts, New Democratic Party candidate Olivia Chow (wife of NDP leader Jack Layton), was elected in the 2006 Canadian federal election, representing the riding of Trinity - Spadina, and the Bloc Québécois had an ethnic Chinese candidate, May Chiu, running in the riding of LaSalle - Émard against Liberal Party of Canada leader Paul Martin during the 2006 election.
+Expected output: 'entities: [{'span': 'New Democratic Party', 'entity': 'Political Party'}, {'span': 'Olivia Chow', 'entity': 'Politician'}, {'span': 'NDP', 'entity': 'Political Party'}, {'span': 'Jack Layton', 'entity': 'Politician'}, {'span': '2006 Canadian federal election', 'entity': 'Election'}, {'span': 'Trinity - Spadina', 'entity': 'Location'}, {'span': 'Bloc Québécois', 'entity': 'Political Party'}, {'span': 'May Chiu', 'entity': 'Politician'}, {'span': 'LaSalle - Émard', 'entity': 'Location'}, {'span': 'Liberal Party of Canada', 'entity': 'Political Party'}, {'span': 'Paul Martin', 'entity': 'Politician'}, {'span': '2006 election', 'entity': 'Election'}]'
+
+Example #4: In the 1992 United States presidential election, Bush and Quayle were challenged in their bid for reelection by the Democratic ticket of Arkansas Governor Bill Clinton and Tennessee Senator Al Gore and the independent ticket of Texas businessman Ross Perot and retired Vice Admiral James Stockdale.
+Expected output: 'entities: [{'span': '1992 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'Quayle', 'entity': 'Politician'}, {'span': 'Arkansas', 'entity': 'Location'}, {'span': 'Bill Clinton', 'entity': 'Politician'}, {'span': 'Tennessee', 'entity': 'Location'}, {'span': 'Al Gore', 'entity': 'Politician'}, {'span': 'Texas', 'entity': 'Location'}, {'span': 'Ross Perot', 'entity': 'Politician'}, {'span': 'James Stockdale', 'entity': 'Politician'}]'
+
+Example #5: And in 2011, Retired General Otto Pérez Molina of the Patriotic Party won the presidential election in a runoff against populist Manuel Baldizón of the LIDER party.
+Expected output: 'entities: [{'span': 'Otto Pérez Molina', 'entity': 'Politician'}, {'span': 'Patriotic Party', 'entity': 'Political Party'}, {'span': 'Manuel Baldizón', 'entity': 'Politician'}, {'span': 'LIDER party', 'entity': 'Political Party'}]'
+
+Example #6: Though Roosevelt won the backing of Treasury Secretary William Gibbs McAdoo and Governor Martin H. Glynn, he faced a formidable opponent in the Tammany-backed James W. Gerard.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'William Gibbs McAdoo', 'entity': 'Politician'}, {'span': 'Martin H. Glynn', 'entity': 'Politician'}, {'span': 'James W. Gerard', 'entity': 'Politician'}]'
+
+Example #7: In addition to the Tydings-Butler race, McCarthy campaigned for several other Republicans in the 1950 United States Senate elections, including Everett Dirksen against Democratic incumbent and Senate Majority Leader Scott W. Lucas.
+Expected output: 'entities: [{'span': 'Tydings-Butler race', 'entity': 'Event'}, {'span': 'McCarthy', 'entity': 'Politician'}, {'span': 'Republicans', 'entity': 'Misc'}, {'span': '1950 United States Senate elections', 'entity': 'Election'}, {'span': 'Everett Dirksen', 'entity': 'Politician'}, {'span': 'Scott W. Lucas', 'entity': 'Politician'}]'
+
+Example #8: The first campaign in Illinois was not by Coolidge or Davis, but by radical third-party nominee, veteran Wisconsin Senator Robert M. La Follette, who on July 4 confirmed his previous plan to run a third-party campaign when nominated by the Conference for Progressive Political Action.
+Expected output: 'entities: [{'span': 'Illinois', 'entity': 'Location'}, {'span': 'Coolidge', 'entity': 'Politician'}, {'span': 'Davis', 'entity': 'Politician'}, {'span': 'Wisconsin', 'entity': 'Location'}, {'span': 'Robert M. La Follette', 'entity': 'Politician'}, {'span': 'Conference for Progressive Political Action', 'entity': 'Political Party'}]'
+
+Example #9: The prestige of the Speakership caused them to abandon life in a Washington boarding house for their own residence on Pennsylvania. In the 1836 United States presidential election, Vice President Martin Van Buren, Jackson's chosen successor, defeated multiple Whig candidates, including Tennessee Senator Hugh Lawson White.
+Expected output: 'entities: [{'span': 'Washington boarding house', 'entity': 'Location'}, {'span': 'Pennsylvania', 'entity': 'Location'}, {'span': '1836 United States presidential election', 'entity': 'Election'}, {'span': 'Martin Van Buren', 'entity': 'Politician'}, {'span': 'Jackson', 'entity': 'Politician'}, {'span': 'Whig', 'entity': 'Political Party'}, {'span': 'Tennessee', 'entity': 'Location'}, {'span': 'Hugh Lawson White', 'entity': 'Politician'}]'
+
+Example #10: The Walwari has one deputy, Christiane Taubira, and the PSG has one deputy, Chantal Berthelot, who defeated long-time UMP incumbent Léon Bertrand.
+Expected output: 'entities: [{'span': 'Walwari', 'entity': 'Political Party'}, {'span': 'Christiane Taubira', 'entity': 'Politician'}, {'span': 'PSG', 'entity': 'Organisation'}, {'span': 'Chantal Berthelot', 'entity': 'Politician'}, {'span': 'UMP', 'entity': 'Organisation'}, {'span': 'Léon Bertrand', 'entity': 'Politician'}]'
+
+Example #11: She won a close race for the U.S. Senate in 1996 United States Senate election in Louisiana; she was re-elected by increasing margins in competitive races in 2002 United States Senate election in Louisiana and 2008 United States Senate election in Louisiana, but lost in 2014 United States Senate election in Louisiana.
+Expected output: 'entities: [{'span': 'U.S. Senate', 'entity': 'Organisation'}, {'span': '1996 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2002 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2008 United States Senate election in Louisiana', 'entity': 'Election'}, {'span': '2014 United States Senate election in Louisiana', 'entity': 'Election'}]'
+
+Example #12: As a result, former party chairpersons Fritz Kuhn and Claudia Roth (who had been elected to parliament that year) were no longer able to continue in their executive function and were replaced by former party secretary general Reinhard Bütikofer and former Bundestag member Angelika Beer.
+Expected output: 'entities: [{'span': 'Fritz Kuhn', 'entity': 'Politician'}, {'span': 'Claudia Roth', 'entity': 'Politician'}, {'span': 'Reinhard Bütikofer', 'entity': 'Politician'}, {'span': 'Angelika Beer', 'entity': 'Politician'}]'
+
+Example #13: Hamlin survived six of his successors in the vice presidency: Andrew Johnson, Schuyler Colfax, Henry Wilson, William A. Wheeler, Chester A. Arthur, and Thomas A. Hendricks.
+Expected output: 'entities: [{'span': 'Hamlin', 'entity': 'Politician'}, {'span': 'Andrew Johnson', 'entity': 'Politician'}, {'span': 'Schuyler Colfax', 'entity': 'Politician'}, {'span': 'Henry Wilson', 'entity': 'Politician'}, {'span': 'William A. Wheeler', 'entity': 'Politician'}, {'span': 'Chester A. Arthur', 'entity': 'Politician'}, {'span': 'Thomas A. Hendricks', 'entity': 'Politician'}]'
+
+Example #14: His wartime leadership established him as Madison's heir apparent, and he easily defeated Federalist Party candidate Rufus King in the 1816 United States presidential election.
+Expected output: 'entities: [{'span': 'Madison', 'entity': 'Politician'}, {'span': 'Federalist Party', 'entity': 'Political Party'}, {'span': 'Rufus King', 'entity': 'Politician'}, {'span': '1816 United States presidential election', 'entity': 'Election'}]'
+
+Example #15: Amid the Democratic presidential primary in 2008 United States presidential election, Carter was speculated to endorse Senator Barack Obama over his main primary rival Hillary Clinton amid his speaking favorably of the candidate, as well as remarks from the Carter family that showed their support for Obama.
+Expected output: 'entities: [{'span': '2008 United States presidential election', 'entity': 'Election'}, {'span': 'Carter', 'entity': 'Politician'}, {'span': 'Barack Obama', 'entity': 'Politician'}, {'span': 'Hillary Clinton', 'entity': 'Politician'}, {'span': 'Obama', 'entity': 'Politician'}]'
+
+Example #16: Roosevelt was James M. Cox ' s running mate on the Democratic Party's 1920 United States presidential election national ticket, but Cox was defeated by Republican Warren G. Harding.
+Expected output: 'entities: [{'span': 'Roosevelt', 'entity': 'Politician'}, {'span': 'James M. Cox', 'entity': 'Politician'}, {'span': 'Democratic Party', 'entity': 'Political Party'}, {'span': '1920 United States presidential election', 'entity': 'Election'}, {'span': 'Cox', 'entity': 'Politician'}, {'span': 'Republican', 'entity': 'Misc'}, {'span': 'Warren G. Harding', 'entity': 'Politician'}]'
+
+Example #17: Despite losses for the SPD, the Red-Green coalition government commanded a very slight majority in the Bundestag and was renewed, with Joschka Fischer as foreign minister, Renate Künast as minister for consumer protection, nutrition and agriculture, and Jürgen Trittin as minister for the environment.
+Expected output: 'entities: [{'span': 'SPD', 'entity': 'Political Party'}, {'span': 'Red-Green coalition', 'entity': 'Political Party'}, {'span': 'Bundestag', 'entity': 'Organisation'}, {'span': 'Joschka Fischer', 'entity': 'Politician'}, {'span': 'Renate Künast', 'entity': 'Politician'}, {'span': 'Jürgen Trittin', 'entity': 'Politician'}]'
+
+Example #18: Hoover backed conservative leader Robert A. Taft at the 1952 Republican National Convention, but the party's presidential nomination instead went to Dwight D. Eisenhower, who went on to win the 1952 United States presidential election.
+Expected output: 'entities: [{'span': 'Hoover', 'entity': 'Politician'}, {'span': 'Robert A. Taft', 'entity': 'Politician'}, {'span': '1952 Republican National Convention', 'entity': 'Event'}, {'span': 'Dwight D. Eisenhower', 'entity': 'Politician'}, {'span': '1952 United States presidential election', 'entity': 'Election'}]'
+
+Example #19: With George W. Bush's victory in the 2000 United States presidential election, Bush and his son became the second father-son pair to serve as the nation's president, following John Adams and John Quincy Adams.
+Expected output: 'entities: [{'span': 'George W. Bush', 'entity': 'Politician'}, {'span': '2000 United States presidential election', 'entity': 'Election'}, {'span': 'Bush', 'entity': 'Politician'}, {'span': 'John Adams', 'entity': 'Politician'}, {'span': 'John Quincy Adams', 'entity': 'Politician'}]'
+
+Example #20: The 1824 United States presidential election was contested by Adams, Andrew Jackson, William H. Crawford, and Henry Clay, all of whom were members of the Democratic-Republican Party.
+Expected output: 'entities: [{'span': '1824 United States presidential election', 'entity': 'Election'}, {'span': 'Adams', 'entity': 'Politician'}, {'span': 'Andrew Jackson', 'entity': 'Politician'}, {'span': 'William H. Crawford', 'entity': 'Politician'}, {'span': 'Henry Clay', 'entity': 'Politician'}, {'span': 'Democratic-Republican Party', 'entity': 'Political Party'}]'
+

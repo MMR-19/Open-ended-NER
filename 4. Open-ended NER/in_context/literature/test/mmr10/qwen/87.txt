@@ -1,0 +1,30 @@
+Example #1: These include the Charles Dickens Museum in London, the historic home where he wrote Oliver Twist, The Pickwick Papers and Nicholas Nickleby; and the Charles Dickens Birthplace Museum in Portsmouth, the house in which he was born.
+Expected output: 'entities: [{'span': 'Charles Dickens Museum', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Oliver Twist', 'entity': 'Book'}, {'span': 'The Pickwick Papers', 'entity': 'Book'}, {'span': 'Nicholas Nickleby', 'entity': 'Book'}, {'span': 'Charles Dickens Birthplace Museum', 'entity': 'Location'}, {'span': 'Portsmouth', 'entity': 'Location'}]'
+
+Example #2: Darkness at Noon for the New Statesman in 1941, saying:
+Expected output: 'entities: [{'span': 'Darkness at Noon', 'entity': 'Book'}, {'span': 'New Statesman', 'entity': 'Magazine'}]'
+
+Example #3: 1789) with the addition of five of his poems: the Introduction and The Divine Image from the Songs of Innocence (1789), The Tyger and A Divine Image from the Songs of Experience (1789-1794), and A Cradle Song from his Note-book (Manuscript Dante Gabriel Rossetti, 1793).
+Expected output: 'entities: [{'span': 'The Divine Image', 'entity': 'Poem'}, {'span': 'Songs of Innocence', 'entity': 'Book'}, {'span': 'The Tyger', 'entity': 'Poem'}, {'span': 'A Divine Image', 'entity': 'Poem'}, {'span': 'Songs of Experience', 'entity': 'Book'}, {'span': 'A Cradle Song', 'entity': 'Poem'}, {'span': 'Dante Gabriel Rossetti', 'entity': 'Writer'}]'
+
+Example #4: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #5: The following year they collaborated on a musical film version of The Little Prince, based on the classic children's tale by Antoine de Saint-Exupéry.
+Expected output: 'entities: [{'span': 'The Little Prince', 'entity': 'Book'}, {'span': 'Antoine de Saint-Exupéry', 'entity': 'Writer'}]'
+
+Example #6: To please his wife, Diederichs agreed to publish Hesse's collection of prose entitled One Hour After Midnight in 1898 (although it is dated 1899) .Freedman (1978) pp. 78-80.
+Expected output: 'entities: [{'span': 'Diederichs', 'entity': 'Person'}, {'span': 'Hesse', 'entity': 'Writer'}, {'span': 'prose', 'entity': 'Literary Genre'}, {'span': 'One Hour After Midnight', 'entity': 'Poem'}, {'span': '.Freedman', 'entity': 'Book'}]'
+
+Example #7: Private Eye parodied Sue Townsend ' s The Secret Diary of Adrian Mole, age 13 ¾ to write The Secret Diary of John Major, age 47 ¾, in which Major was portrayed as naïve and childish, keeping lists of his enemies in a Rymans Notebook called his Bastards Book, and featuring my wife Norman and Mr Dr Mawhinney as recurring character s.
+Expected output: 'entities: [{'span': 'Private Eye', 'entity': 'Magazine'}, {'span': 'Sue Townsend', 'entity': 'Writer'}, {'span': 'The Secret Diary of Adrian Mole, age 13 ¾', 'entity': 'Book'}, {'span': 'The Secret Diary of John Major, age 47 ¾', 'entity': 'Book'}, {'span': 'Major', 'entity': 'Person'}, {'span': 'Rymans Notebook', 'entity': 'Misc'}, {'span': 'Bastards Book', 'entity': 'Misc'}, {'span': 'Norman', 'entity': 'Person'}, {'span': 'Mr Dr Mawhinney', 'entity': 'Person'}]'
+
+Example #8: The first writer to use the term classic was Aulus Gellius, a 2nd-century Ancient Rome writer who, in the miscellany Noctes Atticae (19, 8, 15), refers to a writer as a classicus scriptor, non proletarius (A distinguished, not a commonplace writer).
+Expected output: 'entities: [{'span': 'classic', 'entity': 'Literary Genre'}, {'span': 'Aulus Gellius', 'entity': 'Writer'}, {'span': 'Ancient Rome', 'entity': 'Country'}, {'span': 'Noctes Atticae', 'entity': 'Book'}, {'span': 'classicus scriptor', 'entity': 'Misc'}, {'span': 'non proletarius', 'entity': 'Misc'}]'
+
+Example #9: His interest in space, however, was his primary focus, especially after reading science fiction stories by writers such as H. G. Wells and Edgar Rice Burroughs, which stirred his imagination about life on other planets such as Mars.
+Expected output: 'entities: [{'span': 'science fiction stories', 'entity': 'Literary Genre'}, {'span': 'H. G. Wells', 'entity': 'Writer'}, {'span': 'Edgar Rice Burroughs', 'entity': 'Writer'}, {'span': 'Mars', 'entity': 'Misc'}]'
+
+Example #10: Jackie was a play-by-play announcer for the Luge at the 1976 Winter Olympics and the Equestrian at the 1976 Summer Olympics (partnered with Chris Schenkel) on ABC's Wide World of Sports.
+Expected output: 'entities: [{'span': 'Jackie', 'entity': 'Person'}, {'span': 'Luge at the 1976 Winter Olympics', 'entity': 'Event'}, {'span': 'Equestrian at the 1976 Summer Olympics', 'entity': 'Event'}, {'span': 'Chris Schenkel', 'entity': 'Person'}, {'span': "ABC's Wide World of Sports", 'entity': 'Misc'}]'
+

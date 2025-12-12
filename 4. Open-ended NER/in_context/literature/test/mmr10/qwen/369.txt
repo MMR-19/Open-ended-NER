@@ -1,0 +1,30 @@
+Example #1: With the publications of Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816), she achieved success as a published writer.
+Expected output: 'entities: [{'span': 'Sense and Sensibility', 'entity': 'Book'}, {'span': 'Pride and Prejudice', 'entity': 'Book'}, {'span': 'Mansfield Park', 'entity': 'Book'}, {'span': 'Emma', 'entity': 'Book'}]'
+
+Example #2: To Dolapdere, he sarcastically gave the name Cholera (Kolera in Turkish) in Ağır Roman, thereby recalling both its shabbiness and the fact that the great Poland poet Adam Mickiewicz died there from the cholera in 1855.
+Expected output: 'entities: [{'span': 'Dolapdere', 'entity': 'Location'}, {'span': 'Cholera', 'entity': 'Misc'}, {'span': 'Kolera', 'entity': 'Misc'}, {'span': 'Turkish', 'entity': 'Misc'}, {'span': 'Ağır Roman', 'entity': 'Book'}, {'span': 'Poland', 'entity': 'Country'}, {'span': 'Adam Mickiewicz', 'entity': 'Writer'}, {'span': 'cholera', 'entity': 'Misc'}]'
+
+Example #3: Sergei Rachmaninoff, Rainer Maria Rilke and Leo Tolstoy were all visitors to the family home.
+Expected output: 'entities: [{'span': 'Sergei Rachmaninoff', 'entity': 'Person'}, {'span': 'Rainer Maria Rilke', 'entity': 'Writer'}, {'span': 'Leo Tolstoy', 'entity': 'Writer'}]'
+
+Example #4: Caterina di Giacomo di Benincasa was born on 25 March 1347 (shortly before the Black Death ravaged Europe) in Siena, Republic of Siena (today Italy), to Lapa Piagenti, the daughter of a local poet, and Giacomo di Benincasa, a cloth dyer who ran his enterprise with the help of his sons.
+Expected output: 'entities: [{'span': 'Caterina di', 'entity': 'Person'}, {'span': 'Giacomo di Benincasa', 'entity': 'Person'}, {'span': 'Black Death', 'entity': 'Misc'}, {'span': 'Europe', 'entity': 'Location'}, {'span': 'Siena', 'entity': 'Location'}, {'span': 'Republic of Siena', 'entity': 'Country'}, {'span': 'Italy', 'entity': 'Country'}, {'span': 'Lapa Piagenti', 'entity': 'Person'}]'
+
+Example #5: In 2012, Nichols won the Best Direction of a Play Tony Award Award for Arthur Miller ' s Death of a Salesman.
+Expected output: 'entities: [{'span': 'Nichols', 'entity': 'Person'}, {'span': 'Tony Award', 'entity': 'Award'}, {'span': 'Arthur Miller', 'entity': 'Writer'}, {'span': 'Death of a Salesman', 'entity': 'Book'}]'
+
+Example #6: His interest in space, however, was his primary focus, especially after reading science fiction stories by writers such as H. G. Wells and Edgar Rice Burroughs, which stirred his imagination about life on other planets such as Mars.
+Expected output: 'entities: [{'span': 'science fiction stories', 'entity': 'Literary Genre'}, {'span': 'H. G. Wells', 'entity': 'Writer'}, {'span': 'Edgar Rice Burroughs', 'entity': 'Writer'}, {'span': 'Mars', 'entity': 'Misc'}]'
+
+Example #7: A tribute show to Wilson, organized by Coldcut and Mixmaster Morris and performed in London as a part of the Ether 7 Festival held at the Queen Elizabeth Hall on March 18, 2007, also included Ken Campbell, Bill Drummond and Alan Moore.
+Expected output: 'entities: [{'span': 'Wilson', 'entity': 'Writer'}, {'span': 'Coldcut', 'entity': 'Person'}, {'span': 'Mixmaster Morris', 'entity': 'Person'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Ether 7 Festival', 'entity': 'Event'}, {'span': 'Queen Elizabeth Hall', 'entity': 'Location'}, {'span': 'Ken Campbell', 'entity': 'Writer'}, {'span': 'Bill Drummond', 'entity': 'Writer'}, {'span': 'Alan Moore', 'entity': 'Writer'}]'
+
+Example #8: For the general reader, Jonson's reputation rests on a few lyrics that, though brief, are surpassed for grace and precision by very few Renaissance poems: On My First Sonne; To Celia; To Penshurst; and the epitaph on Salomon Pavy, a boy player abducted from his parents who acted in Jonson's plays.
+Expected output: 'entities: [{'span': 'Jonson', 'entity': 'Person'}, {'span': 'Renaissance poems', 'entity': 'Literary Genre'}, {'span': 'On My First Sonne', 'entity': 'Poem'}, {'span': 'To Celia', 'entity': 'Poem'}, {'span': 'To Penshurst', 'entity': 'Poem'}, {'span': 'Salomon Pavy', 'entity': 'Person'}, {'span': 'Jonson', 'entity': 'Writer'}]'
+
+Example #9: Former House Speaker Newt Gingrich and William R. Forstchen have written a novel, 1945, in which the US defeated Empire of Japan but not Nazi Germany in World War II, resulting in a Cold War with Germany rather than the Soviet Union.
+Expected output: 'entities: [{'span': 'House', 'entity': 'Organisation'}, {'span': 'Newt Gingrich', 'entity': 'Writer'}, {'span': 'William R. Forstchen', 'entity': 'Writer'}, {'span': 'novel', 'entity': 'Literary Genre'}, {'span': '1945', 'entity': 'Book'}, {'span': 'US', 'entity': 'Country'}, {'span': 'Empire of Japan', 'entity': 'Country'}, {'span': 'Nazi Germany', 'entity': 'Country'}, {'span': 'World War II', 'entity': 'Event'}, {'span': 'Cold War', 'entity': 'Event'}, {'span': 'Germany', 'entity': 'Country'}, {'span': 'Soviet Union', 'entity': 'Country'}]'
+
+Example #10: In 2012, when the Nobel Prize Records were opened after 50 years, it was revealed that Durrell had been on a shortlist of authors considered for the 1962 Nobel Prize in Literature, along with American John Steinbeck (winner), British poet Robert Graves, French writer Jean Anouilh, and the Danish Karen Blixen.
+Expected output: 'entities: [{'span': 'Nobel Prize Records', 'entity': 'Misc'}, {'span': 'Durrell', 'entity': 'Writer'}, {'span': 'Nobel Prize in Literature', 'entity': 'Award'}, {'span': 'American', 'entity': 'Misc'}, {'span': 'John Steinbeck', 'entity': 'Writer'}, {'span': 'British', 'entity': 'Misc'}, {'span': 'Robert Graves', 'entity': 'Writer'}, {'span': 'French', 'entity': 'Misc'}, {'span': 'Jean Anouilh', 'entity': 'Writer'}, {'span': 'Danish', 'entity': 'Misc'}, {'span': 'Karen Blixen', 'entity': 'Writer'}]'
+

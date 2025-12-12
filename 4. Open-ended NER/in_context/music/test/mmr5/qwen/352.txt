@@ -1,0 +1,15 @@
+Example #1: In 2003, the Stade de France was the primary site of the 2003 World Championships in Athletics.
+Expected output: 'entities: [{'span': 'Stade de France', 'entity': 'Location'}, {'span': '2003 World Championships in Athletics', 'entity': 'Event'}]'
+
+Example #2: This was followed by a series of small, intimate gigs at UK venues such as Liverpool's The Cavern Club, London's Mean Fiddler, and Glasgow's Barrowland Ballroom.
+Expected output: 'entities: [{'span': 'UK', 'entity': 'Country'}, {'span': 'Liverpool', 'entity': 'Location'}, {'span': 'The Cavern Club', 'entity': 'Location'}, {'span': 'London', 'entity': 'Location'}, {'span': 'Mean Fiddler', 'entity': 'Location'}, {'span': 'Glasgow', 'entity': 'Location'}, {'span': 'Barrowland Ballroom', 'entity': 'Location'}]'
+
+Example #3: Parton received nominations for Drama Desk Award for Outstanding Music and Drama Desk Award for Outstanding Lyrics, as well as a nomination for Tony Award for Best Original Score.
+Expected output: 'entities: [{'span': 'Parton', 'entity': 'Musical Artist'}, {'span': 'Drama Desk Award for Outstanding Music', 'entity': 'Award'}, {'span': 'Drama Desk Award for Outstanding Lyrics', 'entity': 'Award'}, {'span': 'Tony Award for Best Original Score', 'entity': 'Award'}]'
+
+Example #4: Chuck Burgi (1991-1992, 1992-1995, 1996-1997), John Miceli (1992, 1995), John O 'Reilly (1995-1996) and Bobby Rondinelli (1997-2004).
+Expected output: 'entities: [{'span': 'Chuck Burgi', 'entity': 'Musical Artist'}, {'span': 'John Miceli', 'entity': 'Musical Artist'}, {'span': "John O 'Reilly", 'entity': 'Musical Artist'}, {'span': 'Bobby Rondinelli', 'entity': 'Musical Artist'}]'
+
+Example #5: In addition, a vintage siren, just as the original Boston Garden had used, was added to replace the end-of-period horn for hockey only, a feature of the Montreal Canadiens, the Bruins ' arch-rivals, at the Montreal Forum (now the Pepsi Forum shopping centre) and the current Bell Centre.
+Expected output: 'entities: [{'span': 'Boston Garden', 'entity': 'Location'}, {'span': 'Montreal Canadiens', 'entity': 'Misc'}, {'span': 'Bruins', 'entity': 'Misc'}, {'span': 'Montreal Forum', 'entity': 'Location'}, {'span': 'Pepsi Forum', 'entity': 'Location'}, {'span': 'Bell Centre', 'entity': 'Location'}]'
+
