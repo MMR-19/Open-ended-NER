@@ -1,0 +1,3 @@
+# Entities
+entity_names = ["O", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC", "B-ANIM", "I-ANIM", "B-BIO", "I-BIO", "B-CEL", "I-CEL", "B-DIS", "I-DIS", "B-EVE", "I-EVE", "B-FOOD", "I-FOOD", "B-INST", "I-INST", "B-MEDIA", "I-MEDIA", "B-MYTH", "I-MYTH", "B-PLANT", "I-PLANT", "B-TIME", "I-TIME", "B-VEHI", "I-VEHI"]
+entity_names_parsed = {"PER": "Pessoa", "LOC": "Localização", "ORG": "Organização", "ANIM": "Animal", "BIO": "Entidade biológica", "CEL": "Corpo celeste", "DIS": "Doença", "EVE": "Evento", "FOOD": "Comida", "INST": "Instrumento", "MEDIA": "Média", "PLANT": "Planta", "MYTH": "Entidade mitológica", "TIME": "Tempo", "VEHI": "Veículo"}

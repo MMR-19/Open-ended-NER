@@ -1,0 +1,3 @@
+# Entities
+entity_names = ["O", "B-PERSON", "I-PERSON", "B-COURT", "I-COURT", "B-BUSINESS", "I-BUSINESS", "B-GOVERNMENT", "I-GOVERNMENT", "B-LOCATION", "I-LOCATION", "B-LEGISLATION/ACT", "I-LEGISLATION/ACT", "B-MISCELLANEOUS", "I-MISCELLANEOUS"]
+entity_names_parsed = {"PERSON": "Person", "COURT": "Court", "BUSINESS": "Business", "GOVERNMENT": "Government", "LOCATION": "Location", "LEGISLATION/ACT": "Legislation/Act", "MISCELLANEOUS": "Miscellaneous", "O": "-"}

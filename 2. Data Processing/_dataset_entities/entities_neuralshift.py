@@ -1,0 +1,3 @@
+# Entities
+entity_names = ["O", "B-CASE", "I-CASE", "L-CASE", "U-CASE", "B-COURT", "I-COURT", "L-COURT", "U-COURT", "B-DOCTRINE", "I-DOCTRINE", "L-DOCTRINE", "U-DOCTRINE", "B-GOVERNMENT", "I-GOVERNMENT", "L-GOVERNMENT", "U-GOVERNMENT", "B-LAW", "I-LAW", "L-LAW", "U-LAW", "B-ORG", "I-ORG", "L-ORG", "U-ORG", "B-PER", "I-PER", "L-PER", "U-PER"]
+entity_names_parsed = {"CASE": "Caso", "COURT": "Tribunal", "DOCTRINE": "Doutrina", "GOVERNMENT": "Governo", "LAW": "Legislação", "ORG": "Organização", "PER": "Pessoa", "O": "-"}
