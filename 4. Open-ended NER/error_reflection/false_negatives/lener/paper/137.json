@@ -1,0 +1,60 @@
+{
+    "sentence": "Entretanto, recebeu o ofício já com prazo assinado de 15 dias para apresentar defesa perante a Secretaria de Controle Externo do Estado do Rio de Janeiro – Secex/RJ, após transcorridos meses (peça 66, p. 6); b) Na Secex/RJ, procurou contato com o Secretário, sem sucesso, tendo conversado com Sérgio Honorato, o qual estranhou o fato de não ter sido ouvido no âmbito da TCE.",
+    "false_negative_tokens": [
+        {
+            "token": "meses",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Condeno o réu a pagar á parte autora os seguintes valores: a) R $ 20.000,00 (vinte mil reais), referentes a parte PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 4 Endereço: Rua Tribunal de Justiça, s/n, Via Verde, CEP 69.915-631, Tel. 68 3302-0444/0445, Rio BrancoAC - Mod. 500244 - Autos n.º 0715337-93.2014.8.01.0001 dos alugueres dos meses de setembro a dezembro de 2013, no valor de R $ 5.000,00 (cinco mil reais) por cada mês; b) R $ 210.000,00 (duzentos e dez mil reais), referente aos alugueres mensais de R $ 30.000,00 (trinta mil reais), alusivos o período de maio a novembro de 2014; c) R $ 45.000,00 (quarenta e cinco mil reais) por cada mês referente ao período de novembro de 2014 outubro de 2015 (data da desocupação do imóvel); d) R $ 8.843,10 (oito mil, oitocentos e quarenta e três reais e dez centavos), referentes às despesas com energia, a serem corrigidas monetariamente pelo INPC a partir do efetivo desembolso pelo autor (14 de outubro de 2014) e de juros de 1 % a partir da citação; e) 10 % (dez por cento) sobre o valor total do débito, a título de honorários advocatícios, a serem pagos ao autor.",
+                    "true_entities": [
+                        {
+                            "span": "ESTADO DO ACRE",
+                            "entity": "Localização"
+                        },
+                        {
+                            "span": "Segunda Câmara Cível",
+                            "entity": "Organização"
+                        },
+                        {
+                            "span": "Rua Tribunal de Justiça",
+                            "entity": "Localização"
+                        },
+                        {
+                            "span": "Via Verde",
+                            "entity": "Localização"
+                        },
+                        {
+                            "span": "Rio BrancoAC",
+                            "entity": "Localização"
+                        },
+                        {
+                            "span": "Autos n.º 0715337-93.2014.8.01.0001",
+                            "entity": "Jurisprudência"
+                        },
+                        {
+                            "span": "meses de setembro a dezembro de 2013",
+                            "entity": "Tempo"
+                        },
+                        {
+                            "span": "período de maio a novembro de 2014",
+                            "entity": "Tempo"
+                        },
+                        {
+                            "span": "período de novembro de 2014 outubro de 2015",
+                            "entity": "Tempo"
+                        },
+                        {
+                            "span": "14 de outubro de 2014",
+                            "entity": "Tempo"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

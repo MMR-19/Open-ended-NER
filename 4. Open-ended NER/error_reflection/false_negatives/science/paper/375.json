@@ -1,0 +1,40 @@
+{
+    "sentence": "DSBs can be artificially induced using genome editing technologies such as CRISPR or TALEN.",
+    "false_negative_tokens": [
+        {
+            "token": "genome",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Alexander Marson is an American Biologist, specializing in genetics, human immunology, and CRISPR genome engineering.",
+                    "true_entities": [
+                        {
+                            "span": "Alexander Marson",
+                            "entity": "Scientist"
+                        },
+                        {
+                            "span": "American",
+                            "entity": "Misc"
+                        },
+                        {
+                            "span": "genetics",
+                            "entity": "Discipline"
+                        },
+                        {
+                            "span": "human immunology",
+                            "entity": "Discipline"
+                        },
+                        {
+                            "span": "CRISPR genome engineering",
+                            "entity": "Discipline"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

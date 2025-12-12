@@ -1,0 +1,14 @@
+Example #1: (AI 508398 AgR / RS - RIO GRANDE DO SUL, Relator (a): Min. CARLOS VELLOSO, Órgão Julgador: Segunda Turma, DJ de 14/10/2005) O artigo 195 da Constituição Federal apenas dispõe sobre o financiamento das contribuições previdenciárias.
+Expected output: 'entities: [{'span': 'AI 508398 AgR / RS', 'entity': 'Jurisprudência'}, {'span': 'RIO GRANDE DO SUL', 'entity': 'Localização'}, {'span': 'CARLOS VELLOSO', 'entity': 'Pessoa'}, {'span': 'Segunda Turma', 'entity': 'Organização'}, {'span': '14/10/2005', 'entity': 'Tempo'}, {'span': 'artigo 195 da Constituição Federal', 'entity': 'Legislação'}]'
+
+Example #2: Defende que, mesmo com a reforma previdenciária promovida pela Emenda Constitucional nº 41, de 2003, o instituto continua assegurado pelo princípio da isonomia, pelo artigo 35, § 8º, da Constituição estadual e pelo artigo 56 da Lei Complementar estadual nº 92, de 2002. Ressalta a natureza remuneratória das quotas de produtividade e destaca não estarem sendo pagas aos aposentados e pensionistas as referentes ao “ esforço fiscal coletivo ”.
+Expected output: 'entities: [{'span': 'Emenda Constitucional nº 41', 'entity': 'Jurisprudência'}, {'span': '2003', 'entity': 'Tempo'}, {'span': 'artigo 35, § 8º, da Constituição estadual', 'entity': 'Legislação'}, {'span': 'artigo 56 da Lei Complementar estadual nº 92', 'entity': 'Legislação'}, {'span': '2002', 'entity': 'Tempo'}]'
+
+Example #3: Entendimento compendiado na Súmula 410 do STJ, editada em 25.11.2009, anos após a entrada em vigor da Lei 11.232/2005, o qual continua válido em face do ordenamento jurídico em vigor (CPC/1973).
+Expected output: 'entities: [{'span': 'Súmula 410 do STJ', 'entity': 'Jurisprudência'}, {'span': '25.11.2009', 'entity': 'Tempo'}, {'span': 'Lei 11.232/2005', 'entity': 'Legislação'}, {'span': 'CPC/1973', 'entity': 'Legislação'}]'
+
+Example #4: PROCESSO Nº TST-RR-47-48.2014.5.23.0056 Firmado por assinatura digital em 19/05/2016 pelo sistema AssineJus da Justiça do Trabalho, conforme MP 2.200-2/2001, que instituiu a Infra-Estrutura de Chaves Públicas Brasileira.
+Expected output: 'entities: [{'span': 'TST-RR-47-48.2014.5.23.0056', 'entity': 'Jurisprudência'}, {'span': '19/05/2016', 'entity': 'Tempo'}, {'span': 'MP 2.200-2/2001', 'entity': 'Legislação'}]'
+
+Example #5: Com CARA MEZ, MONTANHEIRO e DALVANI deu ao povo: NOSSO COMPROMISSO É COM A VERDADE POR ISSO O PSDB 1 TAPE VI APOIA IGOR E TECO.
+Expected output: 'entities: [{'span': 'CARA MEZ', 'entity': 'Pessoa'}, {'span': 'MONTANHEIRO', 'entity': 'Pessoa'}, {'span': 'DALVANI', 'entity': 'Pessoa'}, {'span': 'PSDB', 'entity': 'Organização'}, {'span': 'TAPE VI', 'entity': 'Localização'}, {'span': 'IGOR', 'entity': 'Pessoa'}, {'span': 'TECO', 'entity': 'Pessoa'}]'

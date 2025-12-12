@@ -1,0 +1,36 @@
+{
+    "sentence": "However, floating-point numbers have only a certain amount of mathematical precision.",
+    "false_negative_tokens": [
+        {
+            "token": "precision",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "The information retrieval metrics such as precision and recall or DCG are useful to assess the quality of a recommendation method.",
+                    "true_entities": [
+                        {
+                            "span": "information retrieval",
+                            "entity": "Task"
+                        },
+                        {
+                            "span": "precision",
+                            "entity": "Metrics"
+                        },
+                        {
+                            "span": "recall",
+                            "entity": "Metrics"
+                        },
+                        {
+                            "span": "DCG",
+                            "entity": "Metrics"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

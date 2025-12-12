@@ -1,0 +1,28 @@
+{
+    "sentence": "O produto é altamente valorizado pelo seu teor de linalol, óleo responsável pela fixação do perfume Chanel Nº 5 e que tradicionalmente é extraído do pau-rosa (\" Aniba rosaeodora \"), uma espécie amazônica ameaçada de extinção.",
+    "false_negative_tokens": [
+        {
+            "token": "óleo",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Ele promove a medicina alternativa e divulga pseudociências como a MMS, a programação neurolinguística e o uso de óleo de coco para a cura do câncer.",
+                    "true_entities": [
+                        {
+                            "span": "óleo de coco",
+                            "entity": "Comida"
+                        },
+                        {
+                            "span": "câncer",
+                            "entity": "Doença"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

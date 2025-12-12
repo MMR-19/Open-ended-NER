@@ -1,0 +1,32 @@
+{
+    "sentence": "He played professional sports until age \" 41, the end of his sports career coinciding with the start of the Great Depression.",
+    "false_negative_tokens": [
+        {
+            "token": "age",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "These can include those of advanced age, patients bed-bound in a hospital, individuals with certain types of physical or mental disability, and people working in extreme conditions, such as astronauts.",
+                    "true_entities": [
+                        {
+                            "span": "those of advanced age",
+                            "entity": "Time"
+                        },
+                        {
+                            "span": "mental",
+                            "entity": "Disease"
+                        },
+                        {
+                            "span": "disability",
+                            "entity": "Disease"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

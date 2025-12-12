@@ -1,0 +1,68 @@
+{
+    "sentence": "SEC Comment: In the section entitled Fund Summaries-Principal Risks in the Prospectus, the fourth bullet point states that: The Fund may invest up to 20 % of its respective assets in securities of foreign companies, which may involve risks of currency fluctuation and adverse developments in the foreign countries.",
+    "false_negative_tokens": [
+        {
+            "token": "SEC",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Investors may obtain a free copy of the proxy statement, as well as other filings containing information about Chemical Financial and OAK, free of charge from the SEC's website (www.sec.gov); by contacting Chemical Financial Corporation, 333 East Main Street, PO Box 569, Midland, MI 48640-0569, Attention: Ms. Lori A. Gwizdala, Investor Relations, telephone 800-867-9757 or by contacting O.A.K. Financial Corporation, 2445 84th Street, SW, Byron Center, MI 49315, Attention: Mr. James A. Luyk, Investor Relations, telephone 616-599-7419.",
+                    "true_entities": [
+                        {
+                            "span": "Chemical Financial",
+                            "entity": "Business"
+                        },
+                        {
+                            "span": "OAK",
+                            "entity": "Business"
+                        },
+                        {
+                            "span": "SEC",
+                            "entity": "Government"
+                        },
+                        {
+                            "span": "Chemical Financial Corporation",
+                            "entity": "Business"
+                        },
+                        {
+                            "span": "East Main Street",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "Midland",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "MI",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "Lori A. Gwizdala",
+                            "entity": "Person"
+                        },
+                        {
+                            "span": "O.A.K. Financial Corporation",
+                            "entity": "Business"
+                        },
+                        {
+                            "span": "84th Street, SW",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "Byron Center",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "James A. Luyk",
+                            "entity": "Person"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

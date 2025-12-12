@@ -1,0 +1,40 @@
+{
+    "sentence": "The Base Salary shall be paid to Executive in twelve (12) equal monthly payments at or about the 1st of each month in the amount of Twenty-Nine Thousand, Six Hundred Sixty-Six Dollars US and Sixty-Seven Cents ($ 29,166.67).",
+    "false_negative_tokens": [
+        {
+            "token": "US",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "The accompanying unaudited consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States of America (“ US GAAP ”) for interim financial information and with the instructions to Form 10-Q and Article 8-03 of Regulation S-X.",
+                    "true_entities": [
+                        {
+                            "span": "generally accepted accounting principles",
+                            "entity": "Legislation/Act"
+                        },
+                        {
+                            "span": "United States of America",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "US GAAP",
+                            "entity": "Legislation/Act"
+                        },
+                        {
+                            "span": "Form 10-Q",
+                            "entity": "Miscellaneous"
+                        },
+                        {
+                            "span": "Regulation S-X",
+                            "entity": "Legislation/Act"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

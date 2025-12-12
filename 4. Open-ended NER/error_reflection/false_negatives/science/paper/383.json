@@ -1,0 +1,32 @@
+{
+    "sentence": "After 3 years at King's College London (contemporary with Rosalind Franklin) she moved to the University of Sheffield in 1955 as a demonstrator in the Biochemistry department (now Molecular Biology and Biotechnology), obtaining an MRC grant to study the iron storage protein Ferritin, publishing preliminary X-ray diffraction data in the 1st volume of the Journal of Molecular Biology in 1959.",
+    "false_negative_tokens": [
+        {
+            "token": "iron",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "He is well known for his structural enzymology work on Rieske protein non-heme iron oxygenases and Alcohol dehydrogenase",
+                    "true_entities": [
+                        {
+                            "span": "enzymology",
+                            "entity": "Discipline"
+                        },
+                        {
+                            "span": "Rieske protein non-heme iron oxygenases",
+                            "entity": "Enzyme"
+                        },
+                        {
+                            "span": "Alcohol dehydrogenase",
+                            "entity": "Enzyme"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

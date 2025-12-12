@@ -1,0 +1,28 @@
+{
+    "sentence": "As G22U, por possuírem o mesmo gerador das G22CU, conseguem alimentar até 6 motores de tração por unidade.",
+    "false_negative_tokens": [
+        {
+            "token": "6",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Esta missão foi um fracasso, devido a danos causados ao motor da nave, impedindo a acoplagem inicialmente programada com a estação orbital Salyut 6 e obrigando os cosmonautas a um retorno prematuro à Terra, quase lhes causando a morte na descida, quando tiveram que enfrentar problemas técnicos que levaram a cápsula a enfrentar uma pressão de 10 G, quase letal, após a reentrada.",
+                    "true_entities": [
+                        {
+                            "span": "Salyut 6",
+                            "entity": "Instrumento"
+                        },
+                        {
+                            "span": "Terra",
+                            "entity": "Corpo celeste"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

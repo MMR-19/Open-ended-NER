@@ -1,0 +1,32 @@
+{
+    "sentence": "The Hearthstone tournament at the 2018 Asian Games was an eSports demonstration event that was contested on 31 August 2018.",
+    "false_negative_tokens": [
+        {
+            "token": "event",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "The men's + 100 kg judo event at the 2015 European Games in Baku took place on 27 June.",
+                    "true_entities": [
+                        {
+                            "span": "The men's + 100 kg judo event",
+                            "entity": "Event"
+                        },
+                        {
+                            "span": "2015 European Games",
+                            "entity": "Event"
+                        },
+                        {
+                            "span": "Baku",
+                            "entity": "Location"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

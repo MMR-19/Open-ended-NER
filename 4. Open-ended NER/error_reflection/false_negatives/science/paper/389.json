@@ -1,0 +1,36 @@
+{
+    "sentence": "She discovered mutations in the genes encoding the Retinoic acid receptor, the active derivative of vitamin A, in liver cancer and some types of leukemia and dissected the molecular mechanisms underlying their role in oncogenesis and treatment sensitivity.",
+    "false_negative_tokens": [
+        {
+            "token": "mechanisms",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Other silencing mechanisms include the recruitment of specialized proteins that methylate DNA such that the core promoter element is inaccessible to transcription factor s and RNA polymerase.",
+                    "true_entities": [
+                        {
+                            "span": "silencing mechanisms",
+                            "entity": "Misc"
+                        },
+                        {
+                            "span": "DNA",
+                            "entity": "Misc"
+                        },
+                        {
+                            "span": "transcription factor",
+                            "entity": "Misc"
+                        },
+                        {
+                            "span": "RNA polymerase",
+                            "entity": "Enzyme"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

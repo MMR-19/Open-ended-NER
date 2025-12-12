@@ -1,0 +1,40 @@
+{
+    "sentence": "During the Term, the Company shall pay the Executive a salary (“ Base Salary ”) at an annual rate as shall be determined from time to time by the Compensation Committee of the Board, consistent with the general policies and practices of the Company and subject to periodic review, provided, however that in no event shall such annual rate be less than Three Hundred Fifty Thousand Dollars US ($ 350,000.00).",
+    "false_negative_tokens": [
+        {
+            "token": "US",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "The accompanying unaudited consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States of America (“ US GAAP ”) for interim financial information and with the instructions to Form 10-Q and Article 8-03 of Regulation S-X.",
+                    "true_entities": [
+                        {
+                            "span": "generally accepted accounting principles",
+                            "entity": "Legislation/Act"
+                        },
+                        {
+                            "span": "United States of America",
+                            "entity": "Location"
+                        },
+                        {
+                            "span": "US GAAP",
+                            "entity": "Legislation/Act"
+                        },
+                        {
+                            "span": "Form 10-Q",
+                            "entity": "Miscellaneous"
+                        },
+                        {
+                            "span": "Regulation S-X",
+                            "entity": "Legislation/Act"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

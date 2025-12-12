@@ -1,0 +1,14 @@
+Example #1: He attended the U.S. Air Force Institute of Technology for a year, earning a bachelor's degree in aeromechanics, and received his test pilot training at Edwards Air Force Base in California before his assignment as a test pilot at Wright-Patterson Air Force Base in Ohio.
+Expected output: 'entities: [{'span': 'U.S. Air Force Institute of Technology', 'entity': 'University'}, {'span': 'aeromechanics', 'entity': 'Discipline'}, {'span': 'Edwards Air Force Base', 'entity': 'Organisation'}, {'span': 'California', 'entity': 'Location'}, {'span': 'Wright-Patterson Air Force Base', 'entity': 'Organisation'}, {'span': 'Ohio', 'entity': 'Location'}]'
+
+Example #2: In addition, there would probably have been simple hydride s such as those now found in gas giants like Jupiter and Saturn, notably water vapor, methane, and ammonia.
+Expected output: 'entities: [{'span': 'hydride', 'entity': 'Chemical Compound'}, {'span': 'gas giants', 'entity': 'Misc'}, {'span': 'Jupiter', 'entity': 'Astronomical Object'}, {'span': 'Saturn', 'entity': 'Astronomical Object'}, {'span': 'water vapor', 'entity': 'Chemical Compound'}, {'span': 'methane', 'entity': 'Chemical Compound'}, {'span': 'ammonia', 'entity': 'Chemical Compound'}]'
+
+Example #3: Nüsslein-Volhard was educated at the University of Tübingen where she earned a PhD in 1974 for research into Protein-DNA interaction s and the binding of RNA polymerase in Escherichia coli.
+Expected output: 'entities: [{'span': 'Nüsslein-Volhard', 'entity': 'Scientist'}, {'span': 'University of Tübingen', 'entity': 'University'}, {'span': 'PhD', 'entity': 'Misc'}, {'span': 'Protein-DNA interaction', 'entity': 'Theory'}, {'span': 'RNA polymerase', 'entity': 'Enzyme'}, {'span': 'Escherichia coli', 'entity': 'Misc'}]'
+
+Example #4: This discovery, which earned him the Copley Medal of the Royal Society in 1825, was followed by another, that a rotating plate of copper tends to communicate its motion to a magnetic needle suspended over it, which he called magnetism of rotation Annales de chimie et de physique (1824), vol.
+Expected output: 'entities: [{'span': 'Copley Medal of the Royal Society', 'entity': 'Award'}, {'span': 'copper', 'entity': 'Chemical Element'}, {'span': 'magnetism of rotation', 'entity': 'Misc'}, {'span': 'Annales de chimie et de physique', 'entity': 'Academic Journal'}]'
+
+Example #5: Histone deacetylase (HDACs) are a class of enzymes that remove acetyl groups from histones.
+Expected output: 'entities: [{'span': 'Histone deacetylase', 'entity': 'Enzyme'}, {'span': 'HDACs', 'entity': 'Enzyme'}, {'span': 'acetyl groups', 'entity': 'Chemical Compound'}, {'span': 'histones', 'entity': 'Protein'}]'

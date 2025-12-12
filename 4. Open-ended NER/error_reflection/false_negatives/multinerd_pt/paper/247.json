@@ -1,0 +1,32 @@
+{
+    "sentence": "Um acarajé é basicamente fritada sob um \" pão \" feito de purê de feijão na qual as \" peles \" do feijão são removidas (supostamente um feijão fradinho mas, na realidade, quase sempre, são grãos mais baratos tão onipresentes na Bahia).",
+    "false_negative_tokens": [
+        {
+            "token": "pão",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "Um poema sumeriano de 3900 anos homenageando a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu, descrevendo a produção de cerveja de cevada utilizando pão.",
+                    "true_entities": [
+                        {
+                            "span": "Ninkasi",
+                            "entity": "Entidade mitológica"
+                        },
+                        {
+                            "span": "cevada",
+                            "entity": "Planta"
+                        },
+                        {
+                            "span": "pão",
+                            "entity": "Comida"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}

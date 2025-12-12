@@ -1,0 +1,36 @@
+{
+    "sentence": "An example of this would be a variable such as outside temperature (mathtemp / math), which in a given application might be recorded to several decimal places of precision (depending on the sensing apparatus).",
+    "false_negative_tokens": [
+        {
+            "token": "precision",
+            "entity_count": 1,
+            "context_count": 0,
+            "other_count": 0,
+            "positive_examples": [
+                {
+                    "sentence": "The information retrieval metrics such as precision and recall or DCG are useful to assess the quality of a recommendation method.",
+                    "true_entities": [
+                        {
+                            "span": "information retrieval",
+                            "entity": "Task"
+                        },
+                        {
+                            "span": "precision",
+                            "entity": "Metrics"
+                        },
+                        {
+                            "span": "recall",
+                            "entity": "Metrics"
+                        },
+                        {
+                            "span": "DCG",
+                            "entity": "Metrics"
+                        }
+                    ]
+                }
+            ],
+            "hard_negative_examples": [],
+            "negative_examples": []
+        }
+    ]
+}
